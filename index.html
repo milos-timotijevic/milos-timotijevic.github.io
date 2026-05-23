@@ -214,6 +214,42 @@
   padding: 0.7em 1em;
   margin: 1.2em 0 1.8em 0;
 }
+details {
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 0.8em 1em;
+  margin: 1.2em 0;
+  border-radius: 6px;
+}
+
+summary {
+  cursor: pointer;
+  color: #111;
+}
+
+summary strong {
+  font-weight: bold;
+}
+
+details[open] {
+  background: #fff;
+}
+li {
+  margin-bottom: 0.45em;
+}
+
+#bibliografija li,
+#reviews-of-books li,
+#reviews-by-author li,
+#serials li,
+#public-appearances li {
+  margin-bottom: 0.8em;
+}
+.back-to-top {
+  font-size: 0.9em;
+  text-align: right;
+  margin-top: 1.5em;
+}
 </style>
   
   <script type="application/ld+json">
@@ -266,6 +302,8 @@
 </head>
 
 <body>
+
+  <a id="top"></a>
 
   <header class="profile-header">
   <h1>Др Милош Тимотијевић</h1>
@@ -464,6 +502,7 @@
     </p>
   </details>
 </section>
+  <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
   <section id="profiles">
     <h2>Академски профили / Academic Profiles</h2>
 
@@ -575,6 +614,7 @@
 </li>
   </ol>
 </section>
+  <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
 
 <section id="selected-works" class="featured-section">
   <h2>Изабрана дела / Selected Works</h2>
@@ -610,6 +650,7 @@
     </div>
   </div>
 </section>
+  <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
   
   <section id="bibliografija">
     <h2>Библиографија / Bibliography</h2>
@@ -1888,7 +1929,8 @@
     </li>
   </ol>
 </section>
-
+<p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
+    
 <section id="reviews-by-author">
   <h2>Рецензије књига других аутора / Reviews of Books by Other Authors</h2>
 
@@ -2495,6 +2537,7 @@
     </ol>
   </details>
 </section>
+    
 
 <section id="interviews">
   <h2>Интервјуи / Interviews</h2>
