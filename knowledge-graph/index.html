@@ -231,6 +231,72 @@
   color: #555;
   font-size: 0.95em;
 }
+
+    .cluster-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.5em 0;
+}
+
+.cluster-card {
+  margin: 0 0 2.6em 0;
+  padding: 1.15em 1.2em 1.25em 1.2em;
+  background: #f8f8f8;
+  border-left: 4px solid #bbb;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.cluster-card:last-child {
+  margin-bottom: 0;
+}
+
+.cluster-card strong {
+  color: #111;
+}
+
+.cluster-purpose {
+  display: block;
+  margin-top: 0.5em;
+  color: #444;
+}
+
+.selected-works {
+  margin-top: 0.85em;
+  padding: 0.8em 1em;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+}
+
+.selected-works-title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+
+.selected-works ul {
+  margin: 0.35em 0 0 1.2em;
+  padding-left: 1em;
+}
+
+.selected-works li {
+  margin-bottom: 0.35em;
+}
+
+.cluster-more {
+  margin: 0.9em 0 0 0;
+  padding-top: 0.55em;
+  font-size: 0.96em;
+  border-top: 1px solid #e2e2e2;
+}
+
+.cluster-more a {
+  font-weight: bold;
+}
+
+.secondary-link {
+  color: #555;
+  font-size: 0.95em;
+}
   </style>
 
   <script type="application/ld+json">
@@ -364,7 +430,7 @@
     </p>
   </div>
 
-  <li>
+ <li class="cluster-card">
   <strong>
     <a href="/knowledge-graph/research/cacak-local-modernity-case-study.html">
       Чачак као студија случаја локалне модерности / Čačak as a case study of local modernity
@@ -395,7 +461,7 @@
   </p>
 </li>
 
-    <li>
+   <li class="cluster-card">
   <strong>
     <a href="/knowledge-graph/research/political-rituals-symbolic-politics.html">
       Политички ритуали и симболичка политика / Political rituals and symbolic politics
@@ -426,25 +492,38 @@
   </p>
 </li>
 
-    <li>
-      <strong>
-        <a href="https://www.wikidata.org/wiki/Q139569355">Национална идеологија и интелектуалне расправе / National ideology and intellectual debates</a>
-      </strong>
-      — политичка мисао, културни обрасци, национална идеја и идеолошки сукоби.
-      <span lang="en">Political thought, cultural patterns, national ideology and ideological debates.</span>
-      <span class="cluster-purpose">Кластер издваја радове у којима се национална идеја, грађанска интелигенција и идеолошки сукоби посматрају кроз биографске, културне и политичке студије.</span>
+    <li class="cluster-card">
+  <strong>
+    <a href="/knowledge-graph/research/national-ideology-intellectual-debates.html">
+      Национална идеологија и интелектуалне расправе / National ideology and intellectual debates
+    </a>
+  </strong>
+  — политичка мисао, културни обрасци, национална идеја и идеолошки сукоби.
+  <span lang="en">Political thought, cultural patterns, national ideology and ideological debates.</span>
+  <span class="cluster-purpose">Кластер издваја радове у којима се национална идеја, грађанска интелигенција и идеолошки сукоби посматрају кроз биографске, културне и политичке студије.</span>
 
-      <div class="selected-works">
-        <span class="selected-works-title">Носеће публикације / Selected works:</span>
-        <ul>
-          <li><a href="/books/dragisa-vasic-serbian-national-idea.html">Драгиша Васић (1885–1945) и српска национална идеја</a></li>
-          <li><a href="/books/sokoli-cacka.html">Соколи Чачка 1910–1941</a></li>
-          <li><a href="/books/karneval-u-guci.html">Karneval u Guči: Sabor trubača 1961–2004</a></li>
-        </ul>
-      </div>
-    </li>
+  <div class="selected-works">
+    <span class="selected-works-title">Носеће публикације / Selected works:</span>
+    <ul>
+      <li><a href="/books/dragisa-vasic-serbian-national-idea.html">Драгиша Васић (1885–1945) и српска национална идеја</a></li>
+      <li><a href="/books/sokoli-cacka.html">Соколи Чачка 1910–1941</a></li>
+      <li><a href="/books/karneval-u-guci.html">Karneval u Guči: Sabor trubača 1961–2004</a></li>
+    </ul>
+  </div>
 
-    <li>
+  <p class="cluster-more">
+    <a href="/knowledge-graph/research/national-ideology-intellectual-debates.html">
+      Детаљније о овом кластеру / More about this cluster
+    </a>
+    <br>
+    <span class="secondary-link">
+      Wikidata item:
+      <a href="https://www.wikidata.org/wiki/Q139569355">Q139569355</a>
+    </span>
+  </p>
+</li>
+
+    <li class="cluster-card">
       <strong>
         <a href="https://www.wikidata.org/wiki/Q139569742">Рат, пропаганда и култура сећања / War, propaganda and memory</a>
       </strong>
@@ -463,7 +542,7 @@
       </div>
     </li>
 
-    <li>
+    <li class="cluster-card">
       <strong>
         <a href="https://www.wikidata.org/wiki/Q139569852">Култура, национализам и симболичка репрезентација / Culture, nationalism and symbolic representation</a>
       </strong>
@@ -481,7 +560,7 @@
       </div>
     </li>
 
-    <li>
+   <li class="cluster-card">
       <strong>
         <a href="https://www.wikidata.org/wiki/Q139570560">Културно наслеђе, музеји и јавна историја / Cultural heritage, museums and public history</a>
       </strong>
@@ -500,7 +579,7 @@
       </div>
     </li>
 
-    <li>
+   <li class="cluster-card">
       <strong>
         <a href="https://www.wikidata.org/wiki/Q139570614">Религијски живот и друштвене праксе / Religious life and social practices</a>
       </strong>
