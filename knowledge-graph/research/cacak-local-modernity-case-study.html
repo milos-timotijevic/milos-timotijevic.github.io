@@ -97,10 +97,39 @@
       text-decoration: underline;
     }
 
+    p {
+      margin: 0.75em 0;
+    }
+
+    ul li {
+      margin-bottom: 0.75em;
+    }
+
     .subtitle {
       font-size: 1.1em;
       margin-bottom: 1.5em;
       color: #444;
+    }
+
+    .executive-summary,
+    .broader-framework,
+    .cluster-function,
+    .identifier-box,
+    .note,
+    .citation {
+      background: #f8f8f8;
+      border-left: 4px solid #bbb;
+      padding: 1em;
+      margin: 1.5em 0 2em 0;
+    }
+
+    .executive-summary p,
+    .broader-framework p,
+    .cluster-function p,
+    .identifier-box p,
+    .note p,
+    .citation p {
+      margin: 0.35em 0;
     }
 
     .cluster-box {
@@ -147,27 +176,44 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebPage",
+        "@type": "CollectionPage",
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#webpage",
         "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
         "name": "Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity",
         "description": "Истраживачки кластер о Чачку као дугорочној студији случаја локалне модерности, урбане трансформације, локалне власти, социјалне структуре, јавног простора, спорта, културног памћења и симболичке моћи.",
         "inLanguage": ["sr", "en"],
+        "author": {
+          "@id": "https://www.wikidata.org/wiki/Q112514230"
+        },
         "isPartOf": {
-          "@type": "WebSite",
-          "@id": "https://milos-timotijevic.github.io/#website",
-          "url": "https://milos-timotijevic.github.io/",
-          "name": "Miloš Timotijević"
+          "@type": "CollectionPage",
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#webpage",
+          "name": "Локална модерност и симболичка моћ у југоисточној Европи",
+          "alternateName": "Local Modernity and Symbolic Power in Southeast Europe",
+          "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139501155"
         },
         "mainEntity": {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
         }
       },
       {
+        "@type": "Person",
+        "@id": "https://www.wikidata.org/wiki/Q112514230",
+        "name": "Милош Тимотијевић",
+        "alternateName": "Miloš Timotijević",
+        "sameAs": [
+          "https://orcid.org/0000-0002-0457-6125",
+          "https://www.wikidata.org/wiki/Q112514230",
+          "https://openalex.org/authors/a5072525869"
+        ]
+      },
+      {
         "@type": "CreativeWork",
         "@id": "https://www.wikidata.org/wiki/Q139501155",
         "name": "Local modernity and symbolic power in Southeast Europe",
         "alternateName": "Локална модерност и симболичка моћ у југоисточној Европи",
+        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
         "sameAs": "https://www.wikidata.org/wiki/Q139501155"
       },
       {
@@ -178,6 +224,9 @@
         "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
         "sameAs": "https://www.wikidata.org/wiki/Q139413866",
         "inLanguage": ["sr", "en"],
+        "author": {
+          "@id": "https://www.wikidata.org/wiki/Q112514230"
+        },
         "description": "Истраживачки кластер о Чачку као дугорочној студији случаја локалне модерности у југоисточној Европи, са фокусом на урбану трансформацију, локалну власт, социјалну структуру, јавни простор, спорт, културно памћење и симболичку моћ.",
         "isPartOf": {
           "@id": "https://www.wikidata.org/wiki/Q139501155"
@@ -351,6 +400,8 @@
 </head>
 
 <body id="top">
+  <p><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
+
   <h1>Чачак као студија случаја локалне модерности</h1>
 
   <p class="subtitle">
@@ -372,30 +423,6 @@
       modernity in Serbia and Southeast Europe. Its focus includes urban
       transformation, local government, social structure, public space, sport,
       memory culture and the production of local identity.
-    </p>
-  </section>
-
-  <section class="broader-framework" aria-labelledby="broader-framework-title">
-    <h2 id="broader-framework-title">Шири истраживачки оквир / Broader Research Framework</h2>
-
-    <p>
-      Овај кластер је конкретизација ширег оквира
-      <a href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
-        „Локална модерност и симболичка моћ у југоисточној Европи”
-      </a>.
-      Док кровни кластер повезује различите облике модерности, симболичке моћи
-      и културе сећања, ова страница издваја радове у којима је Чачак главно
-      аналитичко поље.
-    </p>
-
-    <p lang="en">
-      This cluster is a focused branch of the broader framework
-      <a href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
-        “Local Modernity and Symbolic Power in Southeast Europe”
-      </a>.
-      While the broader framework connects different forms of modernity,
-      symbolic power and memory culture, this page highlights works in which
-      Čačak is the main analytical field.
     </p>
   </section>
 
@@ -441,31 +468,63 @@
     </p>
   </section>
 
-  <section class="identifiers" aria-labelledby="identifiers-title">
-    <h2 id="identifiers-title">Идентификатори / Identifiers</h2>
+  <section class="broader-framework" aria-labelledby="broader-framework-title">
+    <h2 id="broader-framework-title">Шири истраживачки оквир / Broader Research Framework</h2>
 
-    <div class="cluster-box">
-      <p>
-        <strong>Wikidata cluster:</strong>
-        <a href="https://www.wikidata.org/wiki/Q139413866">Q139413866</a>
-        —
-        <span lang="en">Čačak as a case study of local modernity in Southeast Europe</span>
-      </p>
+    <p>
+      Овај кластер је конкретизација ширег оквира
+      <a href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+        „Локална модерност и симболичка моћ у југоисточној Европи”
+      </a>.
+      Док кровни кластер повезује различите облике модерности, симболичке моћи
+      и културе сећања, ова страница издваја радове у којима је Чачак главно
+      аналитичко поље.
+    </p>
 
-      <p>
-        <strong>Broader Wikidata framework:</strong>
-        <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155</a>
-        —
-        <span lang="en">Local modernity and symbolic power in Southeast Europe</span>
-      </p>
+    <p lang="en">
+      This cluster is a focused branch of the broader framework
+      <a href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+        “Local Modernity and Symbolic Power in Southeast Europe”
+      </a>.
+      While the broader framework connects different forms of modernity,
+      symbolic power and memory culture, this page highlights works in which
+      Čačak is the main analytical field.
+    </p>
+  </section>
 
-      <p>
-        <strong>Author:</strong>
-        Miloš Timotijević —
-        <a href="https://orcid.org/0000-0002-0457-6125">ORCID 0000-0002-0457-6125</a>;
-        <a href="https://www.wikidata.org/wiki/Q112514230">Wikidata Q112514230</a>
-      </p>
-    </div>
+  <section class="identifier-box" aria-labelledby="identifiers-title">
+    <h2 id="identifiers-title">Идентификатори и повезивање / Identifiers and Linking</h2>
+
+    <p>
+      Следећи идентификатори повезују овај кластер са спољним системима
+      за научну видљивост, машинско читање и отворене податке.
+    </p>
+
+    <p lang="en">
+      The following identifiers connect this cluster with external systems
+      for scholarly visibility, machine readability and open data.
+    </p>
+
+    <p>
+      <strong>Wikidata cluster:</strong>
+      <a href="https://www.wikidata.org/wiki/Q139413866">Q139413866</a>
+      —
+      <span lang="en">Čačak as a case study of local modernity in Southeast Europe</span>
+    </p>
+
+    <p>
+      <strong>Broader Wikidata framework:</strong>
+      <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155</a>
+      —
+      <span lang="en">Local modernity and symbolic power in Southeast Europe</span>
+    </p>
+
+    <p>
+      <strong>Author:</strong>
+      Miloš Timotijević —
+      <a href="https://orcid.org/0000-0002-0457-6125">ORCID 0000-0002-0457-6125</a>;
+      <a href="https://www.wikidata.org/wiki/Q112514230">Wikidata Q112514230</a>
+    </p>
   </section>
 
   <h2>Носеће публикације / Core Publications</h2>
@@ -760,6 +819,27 @@
     </p>
   </section>
 
+  <section class="note" aria-labelledby="cluster-use-note-title">
+    <h2 id="cluster-use-note-title">Напомена о употреби кластера / Note on the Use of the Cluster</h2>
+
+    <p>
+      Овај кластер треба читати као оријентациону мапу радова о Чачку као
+      студији случаја локалне модерности. Његове границе нису затворене:
+      поједине публикације могу имати примарно место у овом кластеру, а
+      секундарне везе са кластерима о политичким ритуалима, култури сећања,
+      јавном простору, културном наслеђу, музејској јавној историји или
+      религијским и друштвеним праксама.
+    </p>
+
+    <p lang="en">
+      This cluster should be read as an orientation map of works on Čačak as
+      a case study of local modernity. Its boundaries are not closed: individual
+      publications may have a primary place in this cluster and secondary links
+      with clusters on political rituals, memory culture, public space, cultural
+      heritage, museum-based public history or religious and social practices.
+    </p>
+  </section>
+
   <section>
     <h2>Кључне теме / Research Themes</h2>
 
@@ -800,28 +880,30 @@
   <section>
     <h2>Предлог цитирања / Suggested Citation</h2>
 
-    <p>
-      Милош Тимотијевић, „Чачак као студија случаја локалне модерности:
-      истраживачки кластер”, лични научни сајт, приступљено [датум],
-      <a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
-        https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html
-      </a>.
-    </p>
+    <div class="citation">
+      <p>
+        Милош Тимотијевић, „Чачак као студија случаја локалне модерности:
+        истраживачки кластер”, лични научни сајт, приступљено [датум],
+        <a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
+          https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html
+        </a>.
+      </p>
 
-    <p lang="en">
-      Miloš Timotijević, “Čačak as a Case Study of Local Modernity: Research
-      Cluster,” personal scholarly website, accessed [date],
-      <a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
-        https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html
-      </a>.
-    </p>
+      <p lang="en">
+        Miloš Timotijević, “Čačak as a Case Study of Local Modernity: Research
+        Cluster,” personal scholarly website, accessed [date],
+        <a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
+          https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html
+        </a>.
+      </p>
+    </div>
   </section>
 
   <div class="back-link">
     <p>
       <a href="#top">↑ На врх / Back to top</a><br>
-      <a href="../">← Назад на граф знања / Back to Knowledge Graph</a><br>
-      <a href="../../">← Назад на главну страну / Back to the main page</a>
+      <a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a><br>
+      <a href="/">← Назад на главну страну / Back to the main page</a>
     </p>
   </div>
 </body>
