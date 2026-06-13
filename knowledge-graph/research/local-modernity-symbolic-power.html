@@ -1,12 +1,64 @@
 <!doctype html>
-<html lang="sr">
+<html lang="sr-Cyrl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Локална модерност и симболичка моћ у југоисточној Европи / Local Modernity and Symbolic Power in Southeast Europe</title>
+
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Кровни истраживачки оквир који повезује локалну модерност, симболичку моћ, јавни простор, културу сећања, музејску праксу и јавну историју у радовима Милоша Тимотијевића. Main research framework connecting local modernity, symbolic power, public space, memory culture, museum practice and public history.">
+  <meta name="description" content="Кровни истраживачки оквир који повезује локалну модерност, симболичку моћ, ратна искуства, окупацију, пропаганду, јавни простор, културу сећања, културно наслеђе, музејску праксу, религијски живот и јавне употребе прошлости у Србији и југоисточној Европи.">
+  <meta name="keywords" content="Милош Тимотијевић, Miloš Timotijević, локална модерност, local modernity, симболичка моћ, symbolic power, југоисточна Европа, Southeast Europe, Чачак, Čačak, западна Србија, western Serbia, модернизација, modernization, рат, war, окупација, occupation, ратна пропаганда, wartime propaganda, култура сећања, memory culture, јавни простор, public space, музејска пракса, museum practice, јавна историја, public history, културно наслеђе, cultural heritage, религијски живот, religious life, визуелна култура, visual culture, политички ритуали, political rituals, национална идеологија, national ideology">
+  <meta name="author" content="Miloš Timotijević">
+
   <link rel="canonical" href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+  <link rel="alternate" hreflang="sr" href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+  <link rel="alternate" hreflang="en" href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+  <link rel="alternate" hreflang="x-default" href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+
+  <!-- Dublin Core metadata -->
+  <meta name="DC.title" content="Локална модерност и симболичка моћ у југоисточној Европи">
+  <meta name="DC.title" content="Local Modernity and Symbolic Power in Southeast Europe">
+  <meta name="DC.creator" content="Милош Тимотијевић">
+  <meta name="DC.creator" content="Miloš Timotijević">
+  <meta name="DC.type" content="Research framework">
+  <meta name="DC.language" content="sr">
+  <meta name="DC.subject" content="локална модерност">
+  <meta name="DC.subject" content="local modernity">
+  <meta name="DC.subject" content="симболичка моћ">
+  <meta name="DC.subject" content="symbolic power">
+  <meta name="DC.subject" content="ратна искуства">
+  <meta name="DC.subject" content="wartime experience">
+  <meta name="DC.subject" content="окупација">
+  <meta name="DC.subject" content="occupation">
+  <meta name="DC.subject" content="ратна пропаганда">
+  <meta name="DC.subject" content="wartime propaganda">
+  <meta name="DC.subject" content="култура сећања">
+  <meta name="DC.subject" content="memory culture">
+  <meta name="DC.subject" content="културно наслеђе">
+  <meta name="DC.subject" content="cultural heritage">
+  <meta name="DC.subject" content="музејска пракса">
+  <meta name="DC.subject" content="museum practice">
+  <meta name="DC.subject" content="религијски живот">
+  <meta name="DC.subject" content="religious life">
+  <meta name="DC.subject" content="јавна историја">
+  <meta name="DC.subject" content="public history">
+  <meta name="DC.identifier" content="Wikidata Q139501155">
+  <meta name="DC.relation" content="https://www.wikidata.org/wiki/Q139501155">
+  <meta name="DC.relation" content="https://milos-timotijevic.github.io/knowledge-graph/">
+
+  <!-- Open Graph metadata -->
+  <meta property="og:title" content="Локална модерност и симболичка моћ у југоисточној Европи">
+  <meta property="og:description" content="Кровни истраживачки оквир о локалној модерности, симболичкој моћи, ратним искуствима, култури сећања, културном наслеђу, музејској пракси, религијском животу и јавним употребама прошлости.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+  <meta property="og:locale" content="sr_RS">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Twitter / generic card metadata -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Локална модерност и симболичка моћ у југоисточној Европи">
+  <meta name="twitter:description" content="Main research framework connecting local modernity, symbolic power, war, memory culture, heritage, museums, religion and public history in Southeast Europe.">
 
   <style>
     body {
@@ -68,6 +120,10 @@
     .identifier-box,
     .framework-box,
     .executive-summary,
+    .research-question,
+    .research-claim,
+    .methodological-focus,
+    .analytical-scope,
     .cluster-function {
       background: #f8f8f8;
       border-left: 4px solid #bbb;
@@ -80,8 +136,27 @@
     .identifier-box p,
     .framework-box p,
     .executive-summary p,
+    .research-question p,
+    .research-claim p,
+    .methodological-focus p,
+    .analytical-scope p,
     .cluster-function p {
       margin: 0.35em 0;
+    }
+
+    .scope-list {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 0.35em 1em;
+      margin: 0.5em 0 0 0;
+    }
+
+    .scope-list dt {
+      font-weight: bold;
+    }
+
+    .scope-list dd {
+      margin: 0;
     }
 
     .cluster-link-list {
@@ -148,17 +223,71 @@
     }
   </style>
 
+  <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
+    "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#webpage",
     "name": "Локална модерност и симболичка моћ у југоисточној Европи",
     "alternateName": "Local Modernity and Symbolic Power in Southeast Europe",
     "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
     "inLanguage": ["sr", "en"],
-    "description": "Кровни истраживачки оквир који повезује радове о локалној модерности, симболичкој моћи, јавном простору, политичким ритуалима, националној идеологији, рату и култури сећања, културном наслеђу, музејској пракси, религијском животу и јавним употребама прошлости у Србији и југоисточној Европи.",
+    "description": "Кровни истраживачки оквир који повезује радове о локалној модерности, симболичкој моћи, ратним искуствима, окупацији, пропаганди, јавном простору, култури сећања, културном наслеђу, музејској пракси, религијском животу и јавним употребама прошлости у Србији и југоисточној Европи.",
+    "keywords": [
+      "локална модерност",
+      "local modernity",
+      "симболичка моћ",
+      "symbolic power",
+      "југоисточна Европа",
+      "Southeast Europe",
+      "Чачак",
+      "Čačak",
+      "западна Србија",
+      "western Serbia",
+      "ратна искуства",
+      "wartime experience",
+      "окупација",
+      "occupation",
+      "ратна пропаганда",
+      "wartime propaganda",
+      "култура сећања",
+      "memory culture",
+      "културно наслеђе",
+      "cultural heritage",
+      "музејска пракса",
+      "museum practice",
+      "религијски живот",
+      "religious life",
+      "јавна историја",
+      "public history"
+    ],
+    "temporalCoverage": "19th century/21st century",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "name": "Чачак",
+        "alternateName": "Čačak",
+        "sameAs": "https://www.wikidata.org/wiki/Q188512"
+      },
+      {
+        "@type": "Place",
+        "name": "Western Serbia"
+      },
+      {
+        "@type": "Place",
+        "name": "Serbia",
+        "alternateName": "Србија",
+        "sameAs": "https://www.wikidata.org/wiki/Q403"
+      },
+      {
+        "@type": "Place",
+        "name": "Southeast Europe"
+      }
+    ],
     "author": {
       "@type": "Person",
+      "@id": "https://www.wikidata.org/wiki/Q112514230",
       "name": "Miloš Timotijević",
       "alternateName": "Милош Тимотијевић",
       "sameAs": [
@@ -167,6 +296,7 @@
         "https://openalex.org/authors/a5072525869"
       ]
     },
+    "sameAs": "https://www.wikidata.org/wiki/Q139501155",
     "isPartOf": {
       "@type": "CollectionPage",
       "name": "Knowledge Graph and Digital Visibility",
@@ -178,18 +308,20 @@
         "name": "Local modernity and symbolic power in Southeast Europe",
         "sameAs": "https://www.wikidata.org/wiki/Q139501155"
       },
-      "local modernity",
-      "symbolic power",
-      "Southeast Europe",
-      "Čačak",
-      "western Serbia",
-      "public space",
-      "memory culture",
-      "museum practice",
-      "public history",
-      "religious life"
+      { "@type": "Thing", "name": "local modernity" },
+      { "@type": "Thing", "name": "symbolic power" },
+      { "@type": "Thing", "name": "wartime experience" },
+      { "@type": "Thing", "name": "occupation" },
+      { "@type": "Thing", "name": "wartime propaganda" },
+      { "@type": "Thing", "name": "public space" },
+      { "@type": "Thing", "name": "memory culture" },
+      { "@type": "Thing", "name": "museum practice" },
+      { "@type": "Thing", "name": "public history" },
+      { "@type": "Thing", "name": "cultural heritage" },
+      { "@type": "Thing", "name": "religious life" },
+      { "@type": "Thing", "name": "visual culture" },
+      { "@type": "Thing", "name": "modernization" }
     ],
-    "keywords": "local modernity, symbolic power, Southeast Europe, Čačak, western Serbia, public space, memory culture, museum practice, public history, political rituals, national ideology, cultural heritage, religious life, visual culture, modernization",
     "hasPart": [
       {
         "@type": "CollectionPage",
@@ -238,8 +370,8 @@
   </script>
 </head>
 
-<body>
-  <p id="top"><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
+<body id="top">
+  <p><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
 
   <h1>Локална модерност и симболичка моћ у југоисточној Европи</h1>
   <p class="subtitle">
@@ -253,37 +385,188 @@
 
     <p>
       Овај кровни кластер повезује истраживања о локалној модерности,
-      симболичкој моћи и јавним употребама прошлости у Србији и југоисточној
-      Европи. Чачак и западна Србија постављени су као аналитичко поље за
-      разумевање модернизације, институционалне изградње, културне
-      репрезентације, културе сећања и обликовања јавног идентитета. Страница
-      служи као улаз у уже тематске кластере и као оријентациона мапа
-      истраживачког корпуса, а не као потпуна библиографија.
+      симболичкој моћи, ратним искуствима, културној репрезентацији,
+      културном наслеђу, религијским праксама и јавним употребама прошлости
+      у Србији и југоисточној Европи. Чачак и западна Србија постављени су
+      као аналитичко поље за разумевање модернизације, институционалне
+      изградње, ратних ломова, окупације, пропаганде, културе сећања,
+      музејске праксе и обликовања јавног идентитета. Страница служи као
+      улаз у уже тематске кластере и као оријентациона мапа истраживачког
+      корпуса, а не као потпуна библиографија.
     </p>
 
     <p lang="en">
-      This main cluster connects research on local modernity, symbolic power and
-      public uses of the past in Serbia and Southeast Europe. Čačak and western
-      Serbia are presented as an analytical field for understanding modernization,
-      institution-building, cultural representation, memory culture and the
-      formation of public identity. The page serves as an entry point into more
-      focused thematic clusters and as an orientation map of the research corpus,
-      rather than as a complete bibliography.
+      This main cluster connects research on local modernity, symbolic power,
+      wartime experiences, cultural representation, cultural heritage, religious
+      practices and public uses of the past in Serbia and Southeast Europe.
+      Čačak and western Serbia are presented as an analytical field for
+      understanding modernization, institution-building, wartime ruptures,
+      occupation, propaganda, memory culture, museum practice and the formation
+      of public identity. The page serves as an entry point into more focused
+      thematic clusters and as an orientation map of the research corpus, rather
+      than as a complete bibliography.
     </p>
+  </section>
+
+  <section class="research-question" aria-labelledby="research-question-title">
+    <h2 id="research-question-title">Истраживачко питање / Research Question</h2>
+
+    <p>
+      Како се у локалним срединама Србије и југоисточне Европе обликују
+      модерност, симболичка моћ, ратно искуство, културна репрезентација,
+      културно наслеђе, религијске праксе и јавна употреба прошлости? На који
+      начин градови, институције, елите, војни и окупациони режими, музеји,
+      сакрални простори, споменици, ритуали, визуелна култура и јавна сећања
+      производе политички легитимитет, колективне идентитете и тумачења
+      прошлости?
+    </p>
+
+    <p lang="en">
+      How are modernity, symbolic power, wartime experience, cultural
+      representation, cultural heritage, religious practices and public uses of
+      the past shaped in local settings of Serbia and Southeast Europe? How do
+      towns, institutions, elites, military and occupation regimes, museums,
+      sacred spaces, monuments, rituals, visual culture and public memories
+      produce political legitimacy, collective identities and interpretations
+      of the past?
+    </p>
+  </section>
+
+  <section class="research-claim" aria-labelledby="research-claim-title">
+    <h2 id="research-claim-title">Истраживачка теза / Research Claim</h2>
+
+    <p>
+      Овај кровни оквир полази од тезе да локална модерност није споредни или
+      умањени облик великих државних, друштвених и ратних процеса. Напротив,
+      локални простори — градови, институције, јавни простори, музеји, сакрални
+      комплекси, споменици, спортске културе, места страдања и места памћења —
+      представљају кључна поља у којима модернизација постаје видљива, ратна
+      искуства се документују и тумаче, културно наслеђе добија јавни смисао,
+      религијске праксе добијају друштвени значај, а симболичка моћ постаје
+      делотворна.
+    </p>
+
+    <p>
+      Чачак и западна Србија се у овом оквиру не користе само као локални
+      историјски простор, већ као аналитичко поље за разумевање ширих процеса у
+      модерној Србији, југословенском простору и југоисточној Европи:
+      модернизације, институционалне изградње, ратних ломова, окупације,
+      пропаганде, културне репрезентације, музејске јавне историје, религијског
+      живота и производње колективног идентитета.
+    </p>
+
+    <p lang="en">
+      This main framework is based on the claim that local modernity is not a
+      secondary or reduced form of large state, social and wartime processes. On
+      the contrary, local spaces — towns, institutions, public spaces, museums,
+      sacred complexes, monuments, sporting cultures, sites of suffering and
+      places of memory — are key fields in which modernization becomes visible,
+      wartime experiences are documented and interpreted, cultural heritage gains
+      public meaning, religious practices acquire social significance and
+      symbolic power becomes effective.
+    </p>
+
+    <p lang="en">
+      Čačak and western Serbia are not used here merely as local historical
+      settings, but as an analytical field for understanding broader processes in
+      modern Serbia, the Yugoslav space and Southeast Europe: modernization,
+      institution-building, wartime ruptures, occupation, propaganda, cultural
+      representation, museum-based public history, religious life and the
+      production of collective identity.
+    </p>
+  </section>
+
+  <section class="methodological-focus" aria-labelledby="methodological-focus-title">
+    <h2 id="methodological-focus-title">Методологија / Methodological Focus</h2>
+
+    <p>
+      Оквир повезује урбану историју, социјалну историју, политичку историју,
+      историографску реконструкцију ратних догађаја, културну историју,
+      историју јавног простора, студије сећања, музеологију, историју културног
+      наслеђа, визуелну културу, историју религијских пракси и социјалну
+      антропологију. Појединачне публикације се не читају само као засебни
+      радови, већ као делови шире мреже у којој се могу пратити односи између
+      локалне средине, државне власти, ратних режима, институција, елита,
+      ритуала, наслеђа, сакралних простора и јавне употребе прошлости.
+    </p>
+
+    <p lang="en">
+      The framework connects urban history, social history, political history,
+      the historiographical reconstruction of wartime events, cultural history,
+      the history of public space, memory studies, museology, the history of
+      cultural heritage, visual culture, the history of religious practices and
+      social anthropology. Individual publications are not read only as separate
+      works, but as parts of a broader network through which relations between
+      local settings, state power, wartime regimes, institutions, elites,
+      rituals, heritage, sacred spaces and public uses of the past can be traced.
+    </p>
+  </section>
+
+  <section class="analytical-scope" aria-labelledby="analytical-scope-title">
+    <h2 id="analytical-scope-title">Оријентациони оквир / Analytical Scope</h2>
+
+    <dl class="scope-list">
+      <dt>Период:</dt>
+      <dd>XIX–XXI век, са тежиштем на модерној Србији, југословенском искуству, ратовима XX века, окупацији, послератној меморијализацији и социјалистичкој модернизацији.</dd>
+      <dt>Простор:</dt>
+      <dd>Чачак, западна Србија, Србија, југословенски простор и југоисточна Европа као компаративни хоризонт.</dd>
+      <dt>Главни актери:</dt>
+      <dd>држава, локалне институције, војне и окупационе структуре, елите, музеји, верске заједнице, културне организације, спортске заједнице и јавност.</dd>
+      <dt>Главне теме:</dt>
+      <dd>локална модерност, симболичка моћ, ратна дешавања, окупација, пропаганда, јавни простор, политички ритуали, национална идеологија, култура сећања, музејска пракса, визуелна култура, културно наслеђе, религијски живот и јавна употреба прошлости.</dd>
+      <dt>Главни проблем:</dt>
+      <dd>како се широки историјски процеси преводе у локалне институције, јавне просторе, ратна искуства, ритуале, симболе, наслеђе, религијске праксе, сећања и облике колективног идентитета.</dd>
+    </dl>
+
+    <dl class="scope-list" lang="en">
+      <dt>Period:</dt>
+      <dd>the nineteenth to twenty-first centuries, with emphasis on modern Serbia, the Yugoslav experience, twentieth-century wars, occupation, postwar memorialization and socialist modernization.</dd>
+      <dt>Geographical focus:</dt>
+      <dd>Čačak, western Serbia, Serbia, the Yugoslav space and Southeast Europe as a comparative horizon.</dd>
+      <dt>Main actors:</dt>
+      <dd>the state, local institutions, military and occupation structures, elites, museums, religious communities, cultural organizations, sporting communities and the public.</dd>
+      <dt>Main themes:</dt>
+      <dd>local modernity, symbolic power, wartime events, occupation, propaganda, public space, political rituals, national ideology, memory culture, museum practice, visual culture, cultural heritage, religious life and public uses of the past.</dd>
+      <dt>Main problem:</dt>
+      <dd>how broad historical processes are translated into local institutions, public spaces, wartime experiences, rituals, symbols, heritage, religious practices, memories and forms of collective identity.</dd>
+    </dl>
   </section>
 
   <section class="intro">
     <p>
-      Ова страница представља кровни истраживачки оквир који повезује радове о локалној модерности, симболичкој моћи, јавном простору, култури сећања, музејској пракси и јавним употребама прошлости. Чачак и западна Србија у овом оквиру нису само локални историјски простор, већ аналитичко поље за разумевање ширих процеса модернизације, институционалне изградње, културне репрезентације и производње јавног идентитета.
+      Ова страница представља кровни истраживачки оквир који повезује радове о
+      локалној модерности, симболичкој моћи, ратним искуствима, јавном простору,
+      култури сећања, музејској пракси, културном наслеђу, религијском животу и
+      јавним употребама прошлости. Чачак и западна Србија у овом оквиру нису
+      само локални историјски простор, већ аналитичко поље за разумевање ширих
+      процеса модернизације, институционалне изградње, ратних ломова, окупације,
+      културне репрезентације и производње јавног идентитета.
     </p>
     <p lang="en">
-      This page presents the main research framework connecting works on local modernity, symbolic power, public space, memory culture, museum practice and public uses of the past. Within this framework, Čačak and western Serbia are not treated only as local historical settings, but as an analytical field for understanding broader processes of modernization, institution-building, cultural representation and the production of public identity.
+      This page presents the main research framework connecting works on local
+      modernity, symbolic power, wartime experiences, public space, memory
+      culture, museum practice, cultural heritage, religious life and public uses
+      of the past. Within this framework, Čačak and western Serbia are not
+      treated only as local historical settings, but as an analytical field for
+      understanding broader processes of modernization, institution-building,
+      wartime ruptures, occupation, cultural representation and the production of
+      public identity.
     </p>
     <p>
-      Појам симболичке моћи овде означава начине на које институције, елите, ритуали, визуелна култура, музеји, споменици, верске праксе и јавна сећања обликују представе о припадности, легитимитету, напретку и прошлости. Зато је овај оквир постављен као средњи ниво између појединачних публикација и ширих историографских, антрополошких и музеолошких питања.
+      Појам симболичке моћи овде означава начине на које институције, елите,
+      ритуали, визуелна култура, ратна пропаганда, музеји, споменици, сакрални
+      простори, верске праксе и јавна сећања обликују представе о припадности,
+      легитимитету, напретку и прошлости. Зато је овај оквир постављен као
+      средњи ниво између појединачних публикација и ширих историографских,
+      антрополошких и музеолошких питања.
     </p>
     <p lang="en">
-      Symbolic power is understood here as the ways in which institutions, elites, rituals, visual culture, museums, monuments, religious practices and public memories shape ideas of belonging, legitimacy, progress and the past. The framework therefore functions as a middle layer between individual publications and broader historiographical, anthropological and museological questions.
+      Symbolic power is understood here as the ways in which institutions, elites,
+      rituals, visual culture, wartime propaganda, museums, monuments, sacred
+      spaces, religious practices and public memories shape ideas of belonging,
+      legitimacy, progress and the past. The framework therefore functions as a
+      middle layer between individual publications and broader historiographical,
+      anthropological and museological questions.
     </p>
   </section>
 
@@ -294,18 +577,19 @@
       Ова страница функционише као кровни тематски чвор у ауторовом графу знања.
       Њена улога није да замени појединачне приступне стране публикација, већ да
       покаже како се више истраживачких праваца — локална модерност, симболичка
-      моћ, јавни простор, култура сећања, музејска пракса, национална идеологија,
-      религијски живот и јавна историја — повезује у један шири историографски,
-      антрополошки и музеолошки оквир.
+      моћ, ратна историја, јавни простор, култура сећања, музејска пракса,
+      национална идеологија, културно наслеђе, религијски живот и јавна историја
+      — повезује у један шири историографски, антрополошки и музеолошки оквир.
     </p>
 
     <p lang="en">
       This page functions as the main thematic node in the author’s knowledge
       graph. Its role is not to replace individual publication landing pages, but
       to show how several research directions — local modernity, symbolic power,
-      public space, memory culture, museum practice, national ideology, religious
-      life and public history — are connected within a broader historiographical,
-      anthropological and museological framework.
+      war history, public space, memory culture, museum practice, national
+      ideology, cultural heritage, religious life and public history — are
+      connected within a broader historiographical, anthropological and
+      museological framework.
     </p>
   </section>
 
@@ -349,20 +633,34 @@
 
   <section class="note">
     <p>
-      Ова страница није потпуна библиографија и не замењује појединачне приступне стране публикација. Њена улога је да прикаже како се више истраживачких праваца повезује у један шири оквир. Детаљни спискови радова, тематске поделе, Wikidata везе и предлози цитирања налазе се на посебним страницама кластера.
+      Ова страница није потпуна библиографија и не замењује појединачне
+      приступне стране публикација. Њена улога је да прикаже како се више
+      истраживачких праваца повезује у један шири оквир. Детаљни спискови
+      радова, тематске поделе, Wikidata везе и предлози цитирања налазе се на
+      посебним страницама кластера.
     </p>
     <p lang="en">
-      This page is not a complete bibliography and does not replace individual publication landing pages. Its role is to show how several research directions are connected within a broader framework. Detailed lists of works, thematic divisions, Wikidata links and suggested citations are provided on the separate cluster pages.
+      This page is not a complete bibliography and does not replace individual
+      publication landing pages. Its role is to show how several research
+      directions are connected within a broader framework. Detailed lists of
+      works, thematic divisions, Wikidata links and suggested citations are
+      provided on the separate cluster pages.
     </p>
   </section>
 
   <section>
     <h2>Повезани истраживачки кластери / Related Research Clusters</h2>
     <p>
-      Кровни оквир повезује седам ужих истраживачких кластера. Сваки од њих има посебну страницу са уређеним корпусом радова, тематским целинама и идентификаторима.
+      Кровни оквир повезује седам ужих истраживачких кластера. Сваки од њих има
+      посебну страницу са уређеним корпусом радова, тематским целинама и
+      идентификаторима. Описи у наставку показују примарну улогу сваког кластера
+      у оквиру целине.
     </p>
     <p lang="en">
-      The main framework connects seven more focused research clusters. Each has a separate page with an organized corpus of works, thematic sections and identifiers.
+      The main framework connects seven more focused research clusters. Each has
+      a separate page with an organized corpus of works, thematic sections and
+      identifiers. The descriptions below indicate the primary role of each
+      cluster within the broader framework.
     </p>
 
     <ul class="cluster-link-list">
@@ -372,8 +670,8 @@
             Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity
           </a>
         </strong>
-        <p>Урбана трансформација, локална власт, јавни простор, спорт и култура сећања.</p>
-        <p lang="en">Urban transformation, local government, public space, sport and memory culture.</p>
+        <p>Локални простор као лабораторија модернизације, институционалне изградње, јавног простора, спорта и производње идентитета.</p>
+        <p lang="en">Local space as a laboratory of modernization, institution-building, public space, sport and the production of identity.</p>
         <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139413866">Q139413866</a></span>
       </li>
 
@@ -383,8 +681,8 @@
             Политички ритуали и симболичка политика / Political Rituals and Symbolic Politics
           </a>
         </strong>
-        <p>Јавне церемоније, династичка репрезентација, спектакл и политичка легитимација.</p>
-        <p lang="en">Public ceremonies, dynastic representation, spectacle and political legitimacy.</p>
+        <p>Ритуализовани облици јавног наступа власти, владарске посете, династичка репрезентација, додела одликовања, спектакл и политичка легитимација.</p>
+        <p lang="en">Ritualized forms of public performance of power, royal visits, dynastic representation, the awarding of decorations, spectacle and political legitimacy.</p>
         <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139413904">Q139413904</a></span>
       </li>
 
@@ -394,8 +692,8 @@
             Национална идеологија и интелектуалне расправе / National Ideology and Intellectual Debates
           </a>
         </strong>
-        <p>Политичка мисао, национална идеја, грађанска интелигенција и идеолошки сукоби.</p>
-        <p lang="en">Political thought, national ideology, civic intelligentsia and ideological conflict.</p>
+        <p>Интелектуалне, организационе и јавне форме обликовања националне идеје, политичке мисли, грађанске интелигенције и идеолошких подела.</p>
+        <p lang="en">Intellectual, organizational and public forms of shaping national ideology, political thought, civic intelligentsia and ideological divisions.</p>
         <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139569355">Q139569355</a></span>
       </li>
 
@@ -405,8 +703,8 @@
             Рат, пропаганда и култура сећања / War, Propaganda and Memory
           </a>
         </strong>
-        <p>Окупација, ратна пропаганда, колективно памћење и спорна тумачења Другог светског рата.</p>
-        <p lang="en">Occupation, wartime propaganda, collective memory and contested interpretations of the Second World War.</p>
+        <p>Реконструкција и анализа ратних дешавања, окупације, пропаганде, савезничких односа, страдања, колективног памћења и спорних тумачења Другог светског рата.</p>
+        <p lang="en">Reconstruction and analysis of wartime events, occupation, propaganda, Allied relations, suffering, collective memory and contested interpretations of the Second World War.</p>
         <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139569742">Q139569742</a></span>
       </li>
 
@@ -416,8 +714,8 @@
             Култура, национализам и симболичка репрезентација / Culture, Nationalism and Symbolic Representation
           </a>
         </strong>
-        <p>Визуелна култура, национални симболи, уметност и јавна репрезентација.</p>
-        <p lang="en">Visual culture, national symbols, art and public representation.</p>
+        <p>Визуелни, уметнички и културни облици националне репрезентације, хероизације, јавних симбола и културног обликовања колективног идентитета.</p>
+        <p lang="en">Visual, artistic and cultural forms of national representation, heroization, public symbols and the cultural shaping of collective identity.</p>
         <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139569852">Q139569852</a></span>
       </li>
 
@@ -427,8 +725,8 @@
             Културно наслеђе, музеји и јавна историја / Cultural Heritage, Museums and Public History
           </a>
         </strong>
-        <p>Музејска пракса, изложбе, баштина и институционално представљање прошлости.</p>
-        <p lang="en">Museum practice, exhibitions, heritage and institutional representations of the past.</p>
+        <p>Институционално обликовање прошлости кроз музеје, изложбе, баштину, каталоге, водиче, сталне поставке и јавну историју.</p>
+        <p lang="en">Institutional shaping of the past through museums, exhibitions, heritage, catalogues, guidebooks, permanent displays and public history.</p>
         <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139570560">Q139570560</a></span>
       </li>
 
@@ -438,8 +736,8 @@
             Религијски живот и друштвене праксе / Religious Life and Social Practices
           </a>
         </strong>
-        <p>Религиозност, сакрални простори, друштвене навике и локалне праксе.</p>
-        <p lang="en">Religiosity, sacred spaces, social habits and local practices.</p>
+        <p>Религијске праксе, сакрални простори, друштвене навике и дуго трајање локалних културних образаца.</p>
+        <p lang="en">Religious practices, sacred spaces, social habits and the longue durée of local cultural patterns.</p>
         <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139570614">Q139570614</a></span>
       </li>
     </ul>
@@ -448,20 +746,59 @@
   <section>
     <h2>Истраживачка улога оквира / Research Role of the Framework</h2>
     <p>
-      Кровни оквир не своди радове на једну тему, већ показује како се различити корпуси међусобно укрштају. Локална модерност се прати кроз град, институције, јавни простор, спорт и урбану трансформацију; симболичка моћ кроз ритуале, фотографију, споменике, музеје и културу сећања; јавна историја кроз изложбе, водиче, каталоге, сталне поставке и баштинске синтезе.
+      Кровни оквир не своди радове на једну тему, већ показује како се различити
+      корпуси међусобно укрштају. Локална модерност се прати кроз град,
+      институције, јавни простор, спорт и урбану трансформацију; ратна историја
+      кроз реконструкцију догађаја, окупацију, пропаганду, савезничке односе,
+      страдање и спорна тумачења; симболичка моћ кроз ритуале, визуелну културу,
+      споменике, музеје, сакралне просторе и културу сећања; јавна историја кроз
+      изложбе, водиче, каталоге, сталне поставке и баштинске синтезе.
+    </p>
+    <p>
+      Заједничко свим овим правцима јесте питање како локални простори постају
+      места у којима се историјски процеси претварају у видљиве институције,
+      ратна искуства, симболе, ритуале, културно наслеђе, религијске праксе и
+      јавна сећања.
     </p>
     <p lang="en">
-      The framework does not reduce the works to a single topic. It shows how different bodies of research intersect. Local modernity is traced through the town, institutions, public space, sport and urban transformation; symbolic power through rituals, photography, monuments, museums and memory culture; public history through exhibitions, guides, catalogues, permanent displays and heritage syntheses.
+      The framework does not reduce the works to a single topic. It shows how
+      different bodies of research intersect. Local modernity is traced through
+      the town, institutions, public space, sport and urban transformation; war
+      history through the reconstruction of events, occupation, propaganda,
+      Allied relations, suffering and contested interpretations; symbolic power
+      through rituals, visual culture, monuments, museums, sacred spaces and
+      memory culture; public history through exhibitions, guidebooks, catalogues,
+      permanent displays and heritage syntheses.
+    </p>
+    <p lang="en">
+      What connects all these directions is the question of how local spaces
+      become places where historical processes are transformed into visible
+      institutions, wartime experiences, symbols, rituals, cultural heritage,
+      religious practices and public memories.
     </p>
   </section>
 
   <section>
     <h2>Однос према појединачним публикацијама / Relation to Individual Publications</h2>
     <p>
-      Појединачне публикације могу припадати више од једном кластеру. На пример, рад о фотографији у социјалистичком Чачку припада и локалној модерности, и визуелној култури, и музејској јавној историји. Монографија о Надежди Петровић припада култури, национализму и симболичкој репрезентацији, али се укршта и са културом сећања. Та преклапања нису слабост графа, већ показују стварну структуру истраживачког рада.
+      Појединачне публикације могу припадати више од једном кластеру. На пример,
+      рад о фотографији у социјалистичком Чачку припада и локалној модерности,
+      и визуелној култури, и музејској јавној историји. Рад о ратним дешавањима
+      може истовремено припадати ратном кластеру, култури сећања и локалној
+      историји. Публикације о сакралним просторима могу се укрштати са
+      културним наслеђем, религијским животом, јавном историјом и симболичком
+      репрезентацијом. Та преклапања нису слабост графа, већ показују стварну
+      структуру истраживачког рада.
     </p>
     <p lang="en">
-      Individual publications may belong to more than one cluster. A work on photography in socialist Čačak, for example, belongs to local modernity, visual culture and museum-based public history. The monograph on Nadežda Petrović belongs to culture, nationalism and symbolic representation, but also intersects with memory culture. These overlaps are not a weakness of the graph; they reflect the actual structure of the research.
+      Individual publications may belong to more than one cluster. A work on
+      photography in socialist Čačak, for example, belongs to local modernity,
+      visual culture and museum-based public history. A work on wartime events
+      may at the same time belong to the war cluster, memory culture and local
+      history. Publications on sacred spaces may intersect with cultural
+      heritage, religious life, public history and symbolic representation. These
+      overlaps are not a weakness of the graph; they reflect the actual structure
+      of the research.
     </p>
   </section>
 
@@ -471,25 +808,37 @@
     <p>
       Овај оквир треба читати као оријентациону мапу истраживачког корпуса.
       Његова сврха је да покаже тематске везе између радова, а не да успостави
-      затворену или коначну класификацију. Зато поједине публикације могу имати
-      примарно место у једном кластеру и секундарне везе са другим кластерима.
+      затворену или коначну класификацију. Пошто су поједини ужи кластери у
+      процесу даљег уређивања, ова страница може бити поново усаглашена после
+      њихове завршне ревизије.
     </p>
 
     <p lang="en">
       This framework should be read as an orientation map of a research corpus.
       Its purpose is to show thematic links between works, not to establish a
-      closed or final classification. Individual publications may therefore have
-      a primary place in one cluster and secondary links with other clusters.
+      closed or final classification. Since some of the more focused clusters
+      are still subject to further refinement, this page may be harmonized again
+      after their final revision.
     </p>
   </section>
 
   <section>
     <h2>Кључне речи / Keywords</h2>
     <p class="keywords">
-      локална модерност; симболичка моћ; југоисточна Европа; Чачак; западна Србија; јавни простор; култура сећања; музејска пракса; јавна историја; политички ритуали; национална идеологија; културно наслеђе; религијски живот; визуелна култура; модернизација
+      локална модерност; симболичка моћ; југоисточна Европа; Чачак; западна Србија;
+      модернизација; ратна историја; ратна дешавања; окупација; ратна пропаганда;
+      савезнички односи; страдање; јавни простор; култура сећања; музејска пракса;
+      јавна историја; политички ритуали; национална идеологија; културна
+      репрезентација; културно наслеђе; религијски живот; сакрални простори;
+      визуелна култура; колективни идентитет
     </p>
     <p class="keywords" lang="en">
-      local modernity; symbolic power; Southeast Europe; Čačak; western Serbia; public space; memory culture; museum practice; public history; political rituals; national ideology; cultural heritage; religious life; visual culture; modernization
+      local modernity; symbolic power; Southeast Europe; Čačak; western Serbia;
+      modernization; war history; wartime events; occupation; wartime propaganda;
+      Allied relations; suffering; public space; memory culture; museum practice;
+      public history; political rituals; national ideology; cultural
+      representation; cultural heritage; religious life; sacred spaces; visual
+      culture; collective identity
     </p>
   </section>
 
@@ -497,10 +846,16 @@
     <h2>Предлог цитирања / Suggested Citation</h2>
     <div class="citation">
       <p>
-        Милош Тимотијевић, „Локална модерност и симболичка моћ у југоисточној Европи: кровни истраживачки оквир”, лични научни сајт, приступљено [датум], https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html
+        Милош Тимотијевић, „Локална модерност и симболичка моћ у југоисточној Европи: кровни истраживачки оквир”, лични научни сајт, приступљено [датум],
+        <a href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+          https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html
+        </a>.
       </p>
       <p lang="en">
-        Miloš Timotijević, “Local Modernity and Symbolic Power in Southeast Europe: Main Research Framework,” personal scholarly website, accessed [date], https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html
+        Miloš Timotijević, “Local Modernity and Symbolic Power in Southeast Europe: Main Research Framework,” personal scholarly website, accessed [date],
+        <a href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+          https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html
+        </a>.
       </p>
     </div>
   </section>
