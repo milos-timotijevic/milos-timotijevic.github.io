@@ -5,7 +5,7 @@
   <title>Национална идеологија и интелектуалне расправе / National Ideology and Intellectual Debates</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Истраживачки кластер о националној идеологији, политичкој мисли, грађанској интелигенцији, културном национализму, црквеној јавности, соколству, идеолошким сукобима и јавним расправама у опусу Милоша Тимотијевића.">
-  <meta name="keywords" content="национална идеологија, српска национална идеја, Драгиша Васић, Николај Велимировић, соколство, културни национализам, православни антимодернизам, антикомунизам, политички митови, јавне расправе, Miloš Timotijević">
+  <meta name="keywords" content="национална идеологија, српска национална идеја, Драгиша Васић, Мирослав Крлежа, Николај Велимировић, соколство, културни национализам, православни антимодернизам, антикомунизам, политички митови, јавне расправе, Miloš Timotijević">
   <meta name="author" content="Miloš Timotijević">
   <meta name="robots" content="index, follow">
 
@@ -13,6 +13,12 @@
   <link rel="alternate" hreflang="sr" href="https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html">
   <link rel="alternate" hreflang="en" href="https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html">
   <link rel="alternate" hreflang="x-default" href="https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html">
+
+  <meta name="DC.title" content="Национална идеологија и интелектуалне расправе / National Ideology and Intellectual Debates">
+  <meta name="DC.creator" content="Miloš Timotijević">
+  <meta name="DC.language" content="sr-Cyrl">
+  <meta name="DC.type" content="Research cluster">
+  <meta name="DC.subject" content="National ideology; Serbian national idea; civic intelligentsia; cultural nationalism; Orthodox anti-modernism; ideological conflict; memory culture">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Национална идеологија и интелектуалне расправе / National Ideology and Intellectual Debates">
@@ -79,10 +85,13 @@
     }
 
     .executive-summary,
+    .research-question,
+    .analytical-claim,
     .about-box,
     .cluster-function,
     .broader-framework,
     .identifier-box,
+    .cluster-profile,
     .arrangement-note,
     .note,
     .citation {
@@ -93,14 +102,33 @@
     }
 
     .executive-summary p,
+    .research-question p,
+    .analytical-claim p,
     .about-box p,
     .cluster-function p,
     .broader-framework p,
     .identifier-box p,
+    .cluster-profile p,
     .arrangement-note p,
     .note p,
     .citation p {
       margin: .45em 0;
+    }
+
+    .cluster-profile dl {
+      display: grid;
+      grid-template-columns: 190px 1fr;
+      gap: .45em 1em;
+      margin: .8em 0 0 0;
+    }
+
+    .cluster-profile dt {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .cluster-profile dd {
+      margin: 0;
     }
 
     .work-list {
@@ -145,6 +173,21 @@
       font-size: .95em;
       color: #555;
     }
+
+    @media (max-width: 700px) {
+      body {
+        margin: 24px auto;
+        padding: 0 18px;
+      }
+
+      .cluster-profile dl {
+        display: block;
+      }
+
+      .cluster-profile dt {
+        margin-top: .8em;
+      }
+    }
   </style>
 
   <script type="application/ld+json">
@@ -157,7 +200,7 @@
         "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
         "name": "Национална идеологија и интелектуалне расправе / National Ideology and Intellectual Debates",
         "inLanguage": ["sr-Cyrl", "en"],
-        "description": "Research cluster on national ideology, political thought, civic intelligentsia, cultural nationalism, Orthodox anti-modernism, ideological conflicts and public debates in the scholarly work of Miloš Timotijević.",
+        "description": "Research cluster on national ideology, political thought, civic intelligentsia, cultural nationalism, church public discourse, Orthodox anti-modernism, ideological conflicts and public debates in the scholarly work of Miloš Timotijević.",
         "isPartOf": {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/#knowledge-graph"
         },
@@ -178,6 +221,23 @@
           { "@id": "https://milos-timotijevic.github.io/books/brave-partisans-evil-chetniks.html#work" },
           { "@id": "https://milos-timotijevic.github.io/books/zlato-cetnika-i-partizana.html#work" },
           { "@id": "https://milos-timotijevic.github.io/books/mitovi-novije-srpske-istorije.html#work" }
+        ],
+        "keywords": [
+          "national ideology",
+          "Serbian national idea",
+          "political thought",
+          "civic intelligentsia",
+          "Dragiša Vasić",
+          "Miroslav Krleža",
+          "Nikolaj Velimirović",
+          "Sokol movement",
+          "cultural nationalism",
+          "church public discourse",
+          "Orthodox anti-modernism",
+          "anti-communism",
+          "ideological conflict",
+          "political myths",
+          "memory culture"
         ]
       },
       {
@@ -208,6 +268,7 @@
           "political thought",
           "civic intelligentsia",
           "Dragiša Vasić",
+          "Miroslav Krleža",
           "Nikolaj Velimirović",
           "Sokol movement",
           "cultural nationalism",
@@ -253,6 +314,26 @@
   <p>This cluster connects works that analyse national ideology, political thought, civic intelligentsia, cultural nationalism and ideological conflicts through political biographies, public debates, the press, wartime experience, church public discourse and memory culture. Its focus is not only on programmes, organizations and ideological declarations, but also on the ways in which individuals, movements, church periodicals and public polemics shaped ideas of nation, statehood, freedom, betrayal, sacrifice and historical legitimacy. The cluster belongs to the broader framework of local modernity and symbolic power, but highlights intellectual and ideological debates as a specific field in the public formation of political and national identity.</p>
 </section>
 
+<section class="research-question">
+  <h2>Истраживачко питање / Research Question</h2>
+
+  <p>Како су српска национална идеја, грађанска интелигенција, црквена јавност и политичке биографије обликовале јавне расправе о држави, слободи, жртви, издаји и историјском легитимитету у XX веку?</p>
+
+  <p>Кластер прати ове процесе кроз монографије, студије случаја, путописе, идеолошке полемике, соколски покрет, православни антимодернизам, културни национализам и спорна тумачења ратне прошлости.</p>
+
+  <p>How did the Serbian national idea, civic intelligentsia, church public discourse and political biographies shape public debates on statehood, freedom, sacrifice, betrayal and historical legitimacy in the twentieth century?</p>
+
+  <p>The cluster follows these processes through monographs, case studies, travel writing, ideological polemics, the Sokol movement, Orthodox anti-modernism, cultural nationalism and contested interpretations of wartime legacies.</p>
+</section>
+
+<section class="analytical-claim">
+  <h2>Истраживачка теза / Research Claim</h2>
+
+  <p>Овај кластер показује да се национална идеја у српском и југословенском контексту није обликовала само у политичким програмима, већ и кроз интелектуалне биографије, грађанске организације, црквену штампу, културне симболе, ратна искуства и јавне полемике о спорним наслеђима.</p>
+
+  <p>This cluster shows that, in the Serbian and Yugoslav contexts, national ideology was shaped not only through political programmes, but also through intellectual biographies, civic organizations, church periodicals, cultural symbols, wartime experiences and public polemics over contested legacies.</p>
+</section>
+
 <section class="about-box">
   <h2>О кластеру / About the Cluster</h2>
 
@@ -268,9 +349,9 @@
 <section class="cluster-function">
   <h2>Функција кластера / Function of the Cluster</h2>
 
-  <p>Ова страница функционише као тематски чвор у ауторовом графу знања. Њена улога је да повеже публикације које се баве националном идејом, политичким биографијама, грађанском интелигенцијом, културним национализмом, православним антимодернизмом, идеолошким сукобима, јавним расправама и спорним тумачењима прошлости. Публикације су распоређене по примарној истраживачкој улози, како би се јасно раздвојило језгро кластера од радова који су са њим повезани само попречно.</p>
+  <p>Ова страница функционише као тематски чвор у ауторовом графу знања. Њена улога није само да повеже публикације које се баве националном идејом, политичким биографијама, грађанском интелигенцијом, културним национализмом, православним антимодернизмом, идеолошким сукобима и спорним тумачењима прошлости, већ и да покаже како ти радови заједно образују истраживачко поље о јавном обликовању националног и политичког идентитета.</p>
 
-  <p>This page functions as a thematic node in the author’s knowledge graph. Its role is to connect publications dealing with national ideology, political biographies, civic intelligentsia, cultural nationalism, Orthodox anti-modernism, ideological conflicts, public debates and contested interpretations of the past. Publications are grouped according to their primary research role, making it possible to distinguish the core of the cluster from works that are connected to it only through cross-links.</p>
+  <p>This page functions as a thematic node in the author’s knowledge graph. Its role is not only to connect publications dealing with national ideology, political biographies, civic intelligentsia, cultural nationalism, Orthodox anti-modernism, ideological conflicts and contested interpretations of the past, but also to show how these works together form a research field on the public construction of national and political identity.</p>
 </section>
 
 <section class="broader-framework">
@@ -299,12 +380,30 @@
   </ul>
 </section>
 
+<section class="cluster-profile">
+  <h2>Профил кластера / Cluster Profile</h2>
+
+  <dl>
+    <dt>Тип / Type</dt>
+    <dd>Истраживачки кластер / Research cluster</dd>
+
+    <dt>Главни период / Main period</dt>
+    <dd>XX век, са освртима на дуже трајање националних и културних образаца / Twentieth century, with references to longer-term national and cultural patterns</dd>
+
+    <dt>Географски фокус / Geographical focus</dt>
+    <dd>Србија; Југославија; Чачак и западна Србија у појединим студијама случаја / Serbia; Yugoslavia; Čačak and western Serbia in selected case studies</dd>
+
+    <dt>Дисциплине / Primary disciplines</dt>
+    <dd>историја идеја; политичка историја; културна историја; историја црквене јавности; студије памћења / intellectual history; political history; cultural history; history of church public discourse; memory studies</dd>
+  </dl>
+</section>
+
 <section class="arrangement-note">
   <h2>Напомена о распоређивању публикација / Note on the Arrangement of Publications</h2>
 
-  <p>Публикације су распоређене по примарној истраживачкој улози. У овом кластеру носећи су радови о националној идеји, интелектуалцима, политичким биографијама, соколству, културном национализму, православном антимодернизму и јавним расправама. Радови о ратној пропаганди, окупацијској свакодневици, колаборационистичкој штампи и војној историји припадају пре свега кластеру „Рат, пропаганда и култура сећања”, а овде се наводе само када доприносе разумевању идеолошких полемика, јавних спорова или политичких митова.</p>
+  <p>Публикације су распоређене по истраживачкој улози. Језгро кластера чине радови о националној идеји, интелектуалцима, политичким биографијама, соколству, културном национализму, православном антимодернизму и јавним расправама. Радови који примарно припадају ратном или меморијалном кластеру наведени су само када осветљавају идеолошке полемике, јавне спорове или политичке митове.</p>
 
-  <p>Publications are grouped according to their primary research role. In this cluster, the core works are those on national ideology, intellectuals, political biographies, the Sokol movement, cultural nationalism, Orthodox anti-modernism and public debates. Works on wartime propaganda, occupation everyday life, the collaborationist press and military history primarily belong to the “War, Propaganda and Memory” cluster, and are mentioned here only when they contribute to the study of ideological polemics, public disputes or political myths.</p>
+  <p>Publications are grouped according to their research role. The core of the cluster consists of works on national ideology, intellectuals, political biographies, the Sokol movement, cultural nationalism, Orthodox anti-modernism and public debates. Works that primarily belong to the war or memory cluster are listed only when they illuminate ideological polemics, public disputes or political myths.</p>
 </section>
 
 <h2>Носеће публикације / Core Publications</h2>
@@ -470,9 +569,9 @@
 
     <p>Примарна улога овде: јавне расправе и политички митови / Primary role here: public debates and political myths.</p>
 
-    <p>Публикација разматра начине на које политички митови учествују у јавном тумачењу новије прошлости.</p>
+    <p>Књига тумачи политичке митове као механизме јавног обликовања прошлости, легитимитета и колективних подела.</p>
 
-    <p>The publication examines the ways in which political myths participate in public interpretations of recent history.</p>
+    <p>The book interprets political myths as mechanisms for the public shaping of the past, legitimacy and collective divisions.</p>
 
     <p class="work-links">
       <a href="../../books/mitovi-novije-srpske-istorije.html">Landing page</a> ·
@@ -501,9 +600,9 @@
 
 <h2>Кључне теме / Research Themes</h2>
 
-<p>Кластер повезује националну идеју, политичку мисао, грађанску интелигенцију, политичке биографије, соколство, културни национализам, црквену јавност, православни антимодернизам, антикомунизам, идеолошке сукобе, јавне расправе, политичке митове и спорна тумачења прошлости.</p>
+<p>Радови у овом кластеру повезују више истраживачких тема: српску националну идеју, политичку мисао, грађанску интелигенцију, политичке биографије, соколство, културни национализам, црквену јавност, православни антимодернизам, антикомунизам, идеолошке сукобе, јавне расправе, политичке митове и спорна тумачења прошлости.</p>
 
-<p>The cluster connects national ideology, political thought, civic intelligentsia, political biographies, the Sokol movement, cultural nationalism, church public discourse, Orthodox anti-modernism, anti-communism, ideological conflict, public debates, political myths and contested interpretations of the past.</p>
+<p>The works in this cluster connect several research themes: the Serbian national idea, political thought, civic intelligentsia, political biographies, the Sokol movement, cultural nationalism, church public discourse, Orthodox anti-modernism, anti-communism, ideological conflicts, public debates, political myths and contested interpretations of the past.</p>
 
 <h2>Кључне речи / Keywords</h2>
 
