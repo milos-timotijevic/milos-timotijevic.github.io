@@ -1,7 +1,4 @@
-from pathlib import Path
-import xml.etree.ElementTree as ET
-
-sitemap = """<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://milos-timotijevic.github.io/</loc>
@@ -232,19 +229,4 @@ sitemap = """<?xml version="1.0" encoding="UTF-8"?>
     <loc>https://milos-timotijevic.github.io/articles/zvonimir-zvonko-vuckovic-biografija-dokumenta-secanja.html</loc>
   </url>
 </urlset>
-"""
 
-# Validate the XML and check duplicates.
-root = ET.fromstring(sitemap)
-ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-urls = [loc.text for loc in root.findall("sm:url/sm:loc", ns)]
-
-if len(urls) != len(set(urls)):
-    raise ValueError("Sitemap contains duplicate URLs.")
-
-output_path = Path("/mnt/data/sitemap.xml")
-output_path.write_text(sitemap, encoding="utf-8")
-
-print(f"Valid XML sitemap created: {output_path}")
-print(f"Number of URLs: {len(urls)}")
-print("Duplicate URLs: none")
