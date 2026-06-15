@@ -5,488 +5,369 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Граф знања и дигитална видљивост / Knowledge Graph and Digital Visibility</title>
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Граф знања, истраживачки кластери, Wikidata, DOI, ORCID, Zenodo и дигитална видљивост научног рада Милоша Тимотијевића. Knowledge graph, research clusters and digital visibility of Miloš Timotijević’s scholarly work.">
+  <meta name="description" content="Улазна страница истраживачког графа знања која повезује кластере, приступне стране публикација, Wikidata, DOI, ORCID, Zenodo, библиотечке каталоге и научне агрегаторе.">
   <link rel="canonical" href="https://milos-timotijevic.github.io/knowledge-graph/">
 
   <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.6;
-      max-width: 980px;
-      margin: 40px auto;
-      padding: 0 24px;
-      color: #222;
-      background: #fff;
-    }
-
-    h1, h2, h3 {
-      line-height: 1.25;
-      color: #111;
-    }
-
-    h1 {
-      font-size: 2.05em;
-      margin-bottom: 0.2em;
-    }
-
-    h2 {
-      margin-top: 2em;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 0.25em;
-    }
-
-    h3 {
-      margin-top: 1.5em;
-      font-size: 1.15em;
-    }
-
-    a {
-      color: #0645ad;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    p {
-      margin: 0.75em 0;
-    }
-
-    ul li {
-      margin-bottom: 0.75em;
-    }
-
-    .subtitle {
-      font-size: 1.08em;
-      margin-bottom: 1.5em;
-      color: #444;
-    }
-
-    .intro,
-    .framework-cluster,
-    .note,
-    .research-claim,
-    .how-to-read,
-    .scope-box {
-      background: #f8f8f8;
-      border-left: 4px solid #bbb;
-      padding: 1em;
-      margin: 1.5em 0 2em 0;
-    }
-
-    .intro p,
-    .framework-cluster p,
-    .note p,
-    .research-claim p,
-    .how-to-read p,
-    .scope-box p {
-      margin: 0.35em 0;
-    }
-
-    .cluster-list {
-      list-style: none;
-      padding-left: 0;
-      margin: 1.5em 0;
-    }
-
-    .cluster-card {
-      margin: 0 0 2.2em 0;
-      padding: 1.15em 1.2em 1.25em 1.2em;
-      background: #f8f8f8;
-      border-left: 4px solid #bbb;
-      border-bottom: 1px solid #d6d6d6;
-    }
-
-    .cluster-card:last-child {
-      margin-bottom: 0;
-    }
-
-    .cluster-card strong {
-      color: #111;
-    }
-
-    .cluster-card p {
-      margin: 0.55em 0;
-    }
-
-    .cluster-purpose {
-      display: block;
-      margin-top: 0.5em;
-      color: #444;
-    }
-
-    .cluster-more {
-      margin: 0.9em 0 0 0;
-      padding-top: 0.55em;
-      font-size: 0.96em;
-      border-top: 1px solid #e2e2e2;
-    }
-
-    .cluster-more a {
-      font-weight: bold;
-    }
-
-    .secondary-link {
-      color: #555;
-      font-size: 0.95em;
-    }
-
-    .identifier-list {
-      padding-left: 1.25em;
-    }
-
-    .back-link {
-      margin-top: 2.5em;
-      border-top: 1px solid #ddd;
-      padding-top: 1em;
-    }
-
-    .small-note {
-      color: #555;
-      font-size: 0.96em;
-    }
+    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #222; background: #fff; }
+    h1, h2, h3, h4 { line-height: 1.25; color: #111; }
+    h1 { font-size: 2.05em; margin-bottom: 0.2em; }
+    h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.25em; }
+    h3 { margin-top: 1.35em; font-size: 1.13em; }
+    a { color: #0645ad; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    p { margin: 0.75em 0; }
+    ul li { margin-bottom: 0.65em; }
+    .subtitle { font-size: 1.08em; margin-bottom: 1.5em; color: #444; }
+    .intro, .note, .identifier-box, .visibility-box { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin: 1.5em 0 2em 0; }
+    .intro p, .note p, .identifier-box p, .visibility-box p { margin: 0.35em 0; }
+    .cluster-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); gap: 1em; margin-top: 1em; }
+    .cluster-card { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 1em; }
+    .cluster-card h3 { margin-top: 0; }
+    .cluster-card p { margin: 0.45em 0; }
+    .links { display: block; margin-top: 0.5em; font-size: 0.96em; }
+    .architecture { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.9em; margin-top: 1em; }
+    .step { background: #fbfbfb; border: 1px solid #e0e0e0; padding: 0.9em; }
+    .step strong { display: block; margin-bottom: 0.25em; }
+    .graph-wrap { overflow-x: auto; margin: 1.2em 0 2em; border: 1px solid #ddd; background: #fafafa; padding: 0.5em; }
+    svg.knowledge-map { width: 100%; min-width: 900px; height: auto; display: block; }
+    svg.knowledge-map .node rect { fill: #fff; stroke: #777; stroke-width: 1.4; }
+    svg.knowledge-map .main-node rect { fill: #f1f1f1; stroke: #555; stroke-width: 1.5; }
+    svg.knowledge-map .framework-node rect { fill: #f7f7f7; stroke: #666; stroke-width: 1.4; }
+    svg.knowledge-map .cluster-node rect { fill: #fff; }
+    svg.knowledge-map .data-node rect { fill: #f7f7f7; stroke: #666; stroke-width: 1.4; }
+    svg.knowledge-map text { font-family: Georgia, "Times New Roman", serif; fill: #222; font-size: 14px; }
+    svg.knowledge-map .node-small { fill: #555; font-size: 11px; }
+    svg.knowledge-map .edge { stroke: #999; stroke-width: 1.4; }
+    svg.knowledge-map .edge-light { stroke: #bbb; stroke-width: 1; stroke-dasharray: 4 3; }
+    .keywords { color: #333; }
+    .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
+    .small-note { color: #555; font-size: 0.96em; }
   </style>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Граф знања и дигитална видљивост",
-    "alternateName": "Knowledge Graph and Digital Visibility",
-    "url": "https://milos-timotijevic.github.io/knowledge-graph/",
-    "inLanguage": ["sr", "en"],
-    "description": "Страница представља истраживачке кластере, граф знања и дигиталну видљивост научног рада Милоша Тимотијевића кроз Wikidata, DOI, ORCID, Zenodo, приступне стране и агрегаторе.",
-    "author": {
-      "@type": "Person",
-      "name": "Miloš Timotijević",
-      "alternateName": "Милош Тимотијевић",
-      "sameAs": [
-        "https://orcid.org/0000-0002-0457-6125",
-        "https://www.wikidata.org/wiki/Q112514230",
-        "https://openalex.org/authors/a5072525869"
-      ]
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "Local modernity and symbolic power in Southeast Europe",
-        "sameAs": "https://www.wikidata.org/wiki/Q139501155"
-      },
-      "knowledge graph",
-      "research clusters",
-      "local modernity",
-      "symbolic power",
-      "public history",
-      "memory culture",
-      "Wikidata",
-      "DOI",
-      "ORCID",
-      "Zenodo",
-      "digital visibility",
-      "scholarly communication"
-    ],
-    "hasPart": [
-      {
-        "@type": "CollectionPage",
-        "name": "Local Modernity and Symbolic Power in Southeast Europe",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
-        "sameAs": "https://www.wikidata.org/wiki/Q139501155"
-      },
-      {
-        "@type": "CollectionPage",
-        "name": "Čačak as a Case Study of Local Modernity",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
-        "sameAs": "https://www.wikidata.org/wiki/Q139413866"
-      },
-      {
-        "@type": "CollectionPage",
-        "name": "Political Rituals and Symbolic Politics",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html",
-        "sameAs": "https://www.wikidata.org/wiki/Q139413904"
-      },
-      {
-        "@type": "CollectionPage",
-        "name": "National Ideology and Intellectual Debates",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
-        "sameAs": "https://www.wikidata.org/wiki/Q139569355"
-      },
-      {
-        "@type": "CollectionPage",
-        "name": "War, Propaganda and Memory",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html",
-        "sameAs": "https://www.wikidata.org/wiki/Q139569742"
-      },
-      {
-        "@type": "CollectionPage",
-        "name": "Culture, Nationalism and Symbolic Representation",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
-        "sameAs": "https://www.wikidata.org/wiki/Q139569852"
-      },
-      {
-        "@type": "CollectionPage",
-        "name": "Cultural Heritage, Museums and Public History",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
-        "sameAs": "https://www.wikidata.org/wiki/Q139570560"
-      },
-      {
-        "@type": "CollectionPage",
-        "name": "Religious Life and Social Practices",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html",
-        "sameAs": "https://www.wikidata.org/wiki/Q139570614"
-      }
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Граф знања и дигитална видљивост",
+  "alternateName": "Knowledge Graph and Digital Visibility",
+  "url": "https://milos-timotijevic.github.io/knowledge-graph/",
+  "inLanguage": [
+    "sr",
+    "en"
+  ],
+  "description": "Улазна страница истраживачког графа знања која повезује кластере, приступне стране публикација, Wikidata, DOI, ORCID, Zenodo, библиотечке каталоге и научне агрегаторе.",
+  "author": {
+    "@type": "Person",
+    "name": "Miloš Timotijević",
+    "alternateName": "Милош Тимотијевић",
+    "sameAs": [
+      "https://orcid.org/0000-0002-0457-6125",
+      "https://www.wikidata.org/wiki/Q112514230",
+      "https://openalex.org/authors/a5072525869"
     ]
-  }
+  },
+  "about": [
+    "knowledge graph",
+    "digital visibility",
+    "research clusters",
+    "landing pages",
+    "Wikidata",
+    "DOI",
+    "ORCID",
+    "Zenodo",
+    "OpenAlex",
+    "Google Scholar",
+    "machine readability",
+    "scholarly communication"
+  ],
+  "hasPart": [
+    {
+      "@type": "CollectionPage",
+      "name": "Локална модерност и симболичка моћ у југоисточној Европи",
+      "alternateName": "Local Modernity and Symbolic Power in Southeast Europe",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139501155"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Чачак као студија случаја локалне модерности",
+      "alternateName": "Čačak as a Case Study of Local Modernity",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139413866"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Политички ритуали и симболичка политика",
+      "alternateName": "Political Rituals and Symbolic Politics",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139413904"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Национална идеологија и интелектуалне расправе",
+      "alternateName": "National Ideology and Intellectual Debates",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569355"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Рат, пропаганда и култура сећања",
+      "alternateName": "War, Propaganda and Memory",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569742"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Култура, национализам и симболичка репрезентација",
+      "alternateName": "Culture, Nationalism and Symbolic Representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569852"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Културно наслеђе, музеји и јавна историја",
+      "alternateName": "Cultural Heritage, Museums and Public History",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139570560"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Религијски живот и друштвене праксе",
+      "alternateName": "Religious Life and Social Practices",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139570614"
+    }
+  ],
+  "keywords": "knowledge graph, digital visibility, research clusters, landing pages, Wikidata, DOI, ORCID, Zenodo, OpenAlex, Google Scholar, scholarly visibility, machine readability, Miloš Timotijević, local modernity, symbolic power"
+}
   </script>
 </head>
+<body id="top">
 
-<body>
-  <p id="top"><a href="/">← Назад на главну страну / Back to main page</a></p>
+<p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
 
-  <h1>Граф знања и дигитална видљивост</h1>
-  <p class="subtitle">
-    Knowledge Graph and Digital Visibility<br>
-    Истраживачки кластери, приступне стране, Wikidata, DOI, ORCID и агрегатори<br>
-    Research Clusters, Landing Pages, Wikidata, DOI, ORCID and Aggregators
-  </p>
+<h1>Граф знања и дигитална видљивост</h1>
+<p><strong>Knowledge Graph and Digital Visibility</strong></p>
+<p class="subtitle">Истраживачка мапа, приступне стране, отворени подаци и системи научне видљивости<br>
+<em>Research Map, Landing Pages, Open Data and Scholarly Visibility Systems</em></p>
 
-  <section class="intro">
-    <p>
-      Ова страница представља истраживачки граф знања који повезује радове Милоша Тимотијевића са тематским кластерима, приступним странама, Wikidata ставкама, DOI записима, ORCID профилом, репозиторијумима и другим системима научне видљивости.
-    </p>
-    <p lang="en">
-      This page presents a research knowledge graph connecting Miloš Timotijević’s works with thematic clusters, landing pages, Wikidata items, DOI records, ORCID, repositories and other systems of scholarly visibility.
-    </p>
+<section class="intro">
+  <h2>Шта је овај граф? / What Is This Graph?</h2>
+  <p>Ова страница није кровни истраживачки есеј, већ улазна мапа графа знања. Она показује како су кровни оквир, тематски кластери, приступне стране публикација и спољни идентификатори повезани у јединствен систем.</p>
+  <p><em>This page is not the main research essay, but the entry map of the knowledge graph. It shows how the main framework, thematic clusters, publication landing pages and external identifiers are connected within a single system.</em></p>
+  <p>Граф овде није само визуелни дијаграм, већ структурисана семантичка мрежа веза између публикација, истраживачких кластера, приступних страна и спољних идентификатора.</p>
+  <p><em>The graph is not only a visual diagram, but a structured semantic network of relations between publications, research clusters, landing pages and external identifiers.</em></p>
+  <p>За читаоца, граф функционише као истраживачка мапа. За дигиталне системе, он функционише као мрежа повезаних идентификатора: Wikidata ставки, DOI записа, ORCID профила, репозиторијума, библиотечких каталога и агрегатора.</p>
+  <p><em>For readers, the graph functions as a research map. For digital systems, it functions as a network of linked identifiers: Wikidata items, DOI records, ORCID, repositories, library catalogues and aggregators.</em></p>
+</section>
 
-    <p>
-      У научном смислу, граф представља мапу истраживачких линија које повезују локалну модерност, симболичку моћ, јавни простор, политичке ритуале, националну идеологију, ратно искуство, културу сећања, музејску праксу, културно наслеђе и религијске друштвене праксе. Његова функција није само да повећа дигиталну видљивост публикација, већ да покаже како се појединачни радови уклапају у шири историографски програм.
-    </p>
-    <p lang="en">
-      In scholarly terms, the graph maps research lines that connect local modernity, symbolic power, public space, political rituals, national ideology, wartime experience, memory culture, museum practice, cultural heritage and religious social practices. Its function is not only to increase the digital visibility of publications, but to show how individual works belong to a broader historiographical programme.
-    </p>
-  </section>
+<section>
+  <h2>Истраживачка функција графа / Scholarly Function of the Graph</h2>
+  <p>Граф показује да публикације нису изоловани библиографски записи, већ делови повезане истраживачке мреже. Кроз тематске кластере види се како се радови групишу око локалне модерности, симболичке моћи, рата, националне идеологије, културне репрезентације, музејске јавне историје и религијских пракси.</p>
+  <p><em>The graph shows that publications are not isolated bibliographic records, but parts of a connected research network. Through thematic clusters, it becomes visible how works are grouped around local modernity, symbolic power, war, national ideology, cultural representation, museum-based public history and religious practices.</em></p>
+</section>
 
-  <section class="research-claim">
-    <h2>Истраживачка теза графа / Research Claim</h2>
-    <p>
-      Овај граф показује да се модерна историја Србије и југоисточне Европе може читати кроз однос локалне модерности и симболичке моћи. У средишту нису само институције, политички догађаји или појединачне публикације, већ начини на које се власт, идентитет, јавни простор, ратно искуство, култура сећања, религијске праксе и музејска интерпретација прошлости обликују у конкретним локалним и регионалним контекстима.
-    </p>
-    <p lang="en">
-      This graph shows that the modern history of Serbia and Southeast Europe can be read through the relationship between local modernity and symbolic power. Its focus is not only on institutions, political events or individual publications, but on the ways in which power, identity, public space, wartime experience, memory culture, religious practices and museum interpretations of the past were shaped in concrete local and regional contexts.
-    </p>
-  </section>
+<section>
+  <h2>Како читати овај граф / How to Read This Graph</h2>
+  <div class="architecture">
+    <div class="step"><strong>1. Главна страница графа</strong>Објашњава систем, дигиталну видљивост и начин читања.<br><em>Main graph page: explains the system, digital visibility and reading path.</em></div>
+    <div class="step"><strong>2. Кровни оквир</strong>Даје главну истраживачку логику корпуса.<br><em>Main framework: provides the research logic of the corpus.</em></div>
+    <div class="step"><strong>3. Седам кластера</strong>Организују радове по истраживачким пољима.<br><em>Seven clusters: organize works by research fields.</em></div>
+    <div class="step"><strong>4. Приступне стране</strong>Повезују радове са DOI, Wikidata, Zenodo и каталозима.<br><em>Landing pages: connect works with DOI, Wikidata, Zenodo and catalogues.</em></div>
+    <div class="step"><strong>5. Спољни системи</strong>ORCID, Wikidata, Zenodo, OpenAlex, Google Scholar, библиотечки каталози.<br><em>External systems: ORCID, Wikidata, Zenodo, OpenAlex, Google Scholar, library catalogues.</em></div>
+  </div>
+</section>
 
-  <section class="how-to-read">
-    <h2>Како читати овај граф / How to Read This Graph</h2>
-    <p>
-      Граф треба читати од кровног оквира ка тематским кластерима, а затим од кластера ка приступним странама публикација. Кровни оквир даје општу истраживачку логику, кластери организују тематске целине, а приступне стране повезују конкретне радове са DOI записима, Wikidata ставкама, репозиторијумима, библиотечким каталозима и другим системима научне видљивости.
-    </p>
-    <p lang="en">
-      The graph should be read from the main framework to the thematic clusters, and then from the clusters to individual publication landing pages. The main framework provides the overall research logic, the clusters organize thematic units, and the landing pages connect concrete works with DOI records, Wikidata items, repositories, library catalogues and other systems of scholarly visibility.
-    </p>
-  </section>
+<section>
+  <h2>Визуелна мапа графа / Visual Map of the Graph</h2>
+  <p class="small-note">Ова схема приказује основну архитектуру графа: улазну страницу, кровни истраживачки оквир, тематске кластере, приступне стране публикација и спољне идентификаторе.</p>
+  <p class="small-note"><em>This diagram shows the basic architecture of the graph: the entry page, the main research framework, thematic clusters, publication landing pages and external identifiers.</em></p>
+  <div class="graph-wrap" role="img" aria-label="Визуелна мапа графа знања са кровним оквиром, седам кластера и спољним идентификаторима.">
+    <svg class="knowledge-map" viewBox="0 0 950 720" xmlns="http://www.w3.org/2000/svg">
+      <line x1="475" y1="95" x2="475" y2="165" class="edge" />
+      <line x1="475" y1="600" x2="475" y2="645" class="edge" />
 
-  <section>
-    <h2>Кровни истраживачки оквир / Main Research Framework</h2>
-    <div class="framework-cluster">
-      <p>
-        <strong>Кровни истраживачки оквир / Main research framework:</strong>
-        <a href="/knowledge-graph/research/local-modernity-symbolic-power.html">
-          Локална модерност и симболичка моћ у југоисточној Европи / Local modernity and symbolic power in Southeast Europe
-        </a>
-      </p>
-      <p class="secondary-link">
-        Wikidata item:
-        <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155</a>
-      </p>
-    </div>
+      <a href="#top"><g class="node main-node" tabindex="0">
+        <rect x="300" y="35" width="350" height="70" rx="14" />
+        <text x="475" y="65" text-anchor="middle">Граф знања и дигитална видљивост</text>
+        <text x="475" y="86" text-anchor="middle" class="node-small">Knowledge Graph and Digital Visibility</text>
+      </g></a>
 
-    <p>
-      Овај оквир повезује локалну историју, модернизацију, јавни простор, симболичку моћ, културу сећања, музејску праксу и јавну историју. Кровни оквир показује како се велике историјске промене — модернизација, државна власт, идеолошки сукоби, ратови, културна репрезентација и институционално памћење — обликују у конкретним локалним срединама, јавним просторима и симболичким праксама.
-    </p>
-    <p lang="en">
-      This framework connects local history, modernization, public space, symbolic power, memory culture, museum practice and public history. It shows how large historical changes — modernization, state power, ideological conflict, wars, cultural representation and institutional memory — were shaped in concrete local settings, public spaces and symbolic practices.
-    </p>
-  </section>
+      <a href="research/local-modernity-symbolic-power.html"><g class="node framework-node" tabindex="0">
+        <rect x="290" y="165" width="370" height="80" rx="14" />
+        <text x="475" y="198" text-anchor="middle">Кровни истраживачки оквир</text>
+        <text x="475" y="220" text-anchor="middle" class="node-small">Local Modernity and Symbolic Power</text>
+      </g></a>
 
-  <section>
-    <h2>Главни истраживачки кластери / Main Research Clusters</h2>
+      <line x1="475" y1="235" x2="105" y2="275" class="edge" />
+<line x1="475" y1="235" x2="305" y2="275" class="edge" />
+<line x1="475" y1="235" x2="505" y2="275" class="edge" />
+<line x1="475" y1="235" x2="705" y2="275" class="edge" />
+<line x1="475" y1="235" x2="205" y2="395" class="edge" />
+<line x1="475" y1="235" x2="455" y2="395" class="edge" />
+<line x1="475" y1="235" x2="705" y2="395" class="edge" />
+<line x1="105" y1="355" x2="475" y2="560" class="edge-light" />
+<line x1="305" y1="355" x2="475" y2="560" class="edge-light" />
+<line x1="505" y1="355" x2="475" y2="560" class="edge-light" />
+<line x1="705" y1="355" x2="475" y2="560" class="edge-light" />
+<line x1="205" y1="475" x2="475" y2="560" class="edge-light" />
+<line x1="455" y1="475" x2="475" y2="560" class="edge-light" />
+<line x1="705" y1="475" x2="475" y2="560" class="edge-light" />
+<a href="research/cacak-local-modernity-case-study.html"><g class="node cluster-node" tabindex="0">
+      <rect x="30" y="285" width="150" height="60" rx="12" />
+      <text x="105" y="311" text-anchor="middle">Чачак</text>
+      <text x="105" y="331" text-anchor="middle" class="node-small">кластер / cluster</text>
+    </g></a>
+<a href="research/political-rituals-symbolic-politics.html"><g class="node cluster-node" tabindex="0">
+      <rect x="230" y="285" width="150" height="60" rx="12" />
+      <text x="305" y="311" text-anchor="middle">Ритуали</text>
+      <text x="305" y="331" text-anchor="middle" class="node-small">кластер / cluster</text>
+    </g></a>
+<a href="research/national-ideology-intellectual-debates.html"><g class="node cluster-node" tabindex="0">
+      <rect x="430" y="285" width="150" height="60" rx="12" />
+      <text x="505" y="311" text-anchor="middle">Идеологија</text>
+      <text x="505" y="331" text-anchor="middle" class="node-small">кластер / cluster</text>
+    </g></a>
+<a href="research/war-propaganda-memory.html"><g class="node cluster-node" tabindex="0">
+      <rect x="630" y="285" width="150" height="60" rx="12" />
+      <text x="705" y="311" text-anchor="middle">Рат</text>
+      <text x="705" y="331" text-anchor="middle" class="node-small">кластер / cluster</text>
+    </g></a>
+<a href="research/culture-nationalism-symbolic-representation.html"><g class="node cluster-node" tabindex="0">
+      <rect x="130" y="405" width="150" height="60" rx="12" />
+      <text x="205" y="431" text-anchor="middle">Култура</text>
+      <text x="205" y="451" text-anchor="middle" class="node-small">кластер / cluster</text>
+    </g></a>
+<a href="research/cultural-heritage-museums-public-history.html"><g class="node cluster-node" tabindex="0">
+      <rect x="380" y="405" width="150" height="60" rx="12" />
+      <text x="455" y="431" text-anchor="middle">Наслеђе</text>
+      <text x="455" y="451" text-anchor="middle" class="node-small">кластер / cluster</text>
+    </g></a>
+<a href="research/religious-life-social-practices.html"><g class="node cluster-node" tabindex="0">
+      <rect x="630" y="405" width="150" height="60" rx="12" />
+      <text x="705" y="431" text-anchor="middle">Религија</text>
+      <text x="705" y="451" text-anchor="middle" class="node-small">кластер / cluster</text>
+    </g></a>
 
-    <div class="note">
-      <p>
-        Ово је навигациона мапа истраживачких кластера, а не потпуна библиографија. Детаљни спискови радова, Wikidata везе, тематске поделе и предлози цитирања налазе се на посебним страницама сваког кластера.
-      </p>
-      <p lang="en">
-        This is a navigation map of research clusters, not a complete bibliography. Detailed lists of works, Wikidata links, thematic divisions and suggested citations are provided on the separate pages for each cluster.
-      </p>
-    </div>
+      <a href="#how-graph-works"><g class="node data-node" tabindex="0">
+        <rect x="275" y="560" width="400" height="80" rx="14" />
+        <text x="475" y="592" text-anchor="middle">Приступне стране публикација</text>
+        <text x="475" y="614" text-anchor="middle" class="node-small">Publication landing pages</text>
+      </g></a>
 
-    <ul class="cluster-list">
-      <li class="cluster-card">
-        <strong>
-          <a href="/knowledge-graph/research/cacak-local-modernity-case-study.html">
-            Чачак као студија случаја локалне модерности / Čačak as a case study of local modernity
-          </a>
-        </strong>
-        <p>
-          Урбана трансформација, локална власт, јавни простор, спорт, меморијални простор и локални идентитет.
-          <span lang="en">Urban transformation, local government, public space, sport, memorial space and local identity.</span>
-        </p>
-        <span class="cluster-purpose">Кластер показује како се локална историја Чачка користи као аналитички модел за проучавање модерности, урбанизације, јавног простора и симболичке моћи.</span>
-        <p class="cluster-more">
-          <a href="/knowledge-graph/research/cacak-local-modernity-case-study.html">Детаљније о овом кластеру / More about this cluster</a><br>
-          <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139413866">Q139413866</a></span>
-        </p>
-      </li>
+      <a href="#core-identifiers"><g class="node data-node" tabindex="0">
+        <rect x="245" y="650" width="460" height="55" rx="14" />
+        <text x="475" y="681" text-anchor="middle">Wikidata · DOI · ORCID · Zenodo · OpenAlex · каталози</text>
+      </g></a>
+    </svg>
+  </div>
+</section>
 
-      <li class="cluster-card">
-        <strong>
-          <a href="/knowledge-graph/research/political-rituals-symbolic-politics.html">
-            Политички ритуали и симболичка политика / Political rituals and symbolic politics
-          </a>
-        </strong>
-        <p>
-          Јавне церемоније, династичка репрезентација, спектакл и политичка легитимација.
-          <span lang="en">Public ceremonies, dynastic representation, spectacle and political legitimacy.</span>
-        </p>
-        <span class="cluster-purpose">Кластер повезује радове о јавним церемонијама, владарским посетама, династичком представљању власти, ритуалима политичке лојалности и симболичкој легитимацији у модерној Србији.</span>
-        <p class="cluster-more">
-          <a href="/knowledge-graph/research/political-rituals-symbolic-politics.html">Детаљније о овом кластеру / More about this cluster</a><br>
-          <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139413904">Q139413904</a></span>
-        </p>
-      </li>
+<section>
+  <h2>Кровни истраживачки оквир / Main Research Framework</h2>
+  <div class="visibility-box">
+    <p>Кровни истраживачки оквир објашњава заједничку истраживачку логику графа: локално као аналитичку перспективу, симболичку моћ и јавне употребе прошлости.</p>
+    <p><em>The main research framework explains the shared research logic of the graph: the local as an analytical perspective, symbolic power and public uses of the past.</em></p>
+    <p><a href="research/local-modernity-symbolic-power.html">Локална модерност и симболичка моћ у југоисточној Европи / Local Modernity and Symbolic Power in Southeast Europe</a></p>
+    <p><strong>Wikidata item:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155</a></p>
+  </div>
+</section>
 
-      <li class="cluster-card">
-        <strong>
-          <a href="/knowledge-graph/research/national-ideology-intellectual-debates.html">
-            Национална идеологија и интелектуалне расправе / National ideology and intellectual debates
-          </a>
-        </strong>
-        <p>
-          Политичка мисао, културни обрасци, национална идеја и идеолошки сукоби.
-          <span lang="en">Political thought, cultural patterns, national ideology and ideological debates.</span>
-        </p>
-        <span class="cluster-purpose">Кластер издваја радове у којима се национална идеја, грађанска интелигенција, културни национализам и идеолошки сукоби посматрају кроз биографске, културне и политичке студије.</span>
-        <p class="cluster-more">
-          <a href="/knowledge-graph/research/national-ideology-intellectual-debates.html">Детаљније о овом кластеру / More about this cluster</a><br>
-          <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139569355">Q139569355</a></span>
-        </p>
-      </li>
+<section>
+  <h2>Главни истраживачки кластери / Main Research Clusters</h2>
+  <p>Ово је навигациона мапа истраживачких кластера, а не потпуна библиографија. Детаљни спискови радова, Wikidata везе, тематске поделе и предлози цитирања налазе се на посебним страницама сваког кластера.</p>
+  <p><em>This is a navigation map of research clusters, not a complete bibliography. Detailed lists of works, Wikidata links, thematic divisions and suggested citations are provided on the separate pages for each cluster.</em></p>
 
-      <li class="cluster-card">
-        <strong>
-          <a href="/knowledge-graph/research/war-propaganda-memory.html">
-            Рат, пропаганда и култура сећања / War, propaganda and memory
-          </a>
-        </strong>
-        <p>
-          Окупација, ратна пропаганда, ратно искуство, колективно памћење и спорна тумачења Другог светског рата.
-          <span lang="en">Occupation, wartime propaganda, wartime experience, collective memory and contested interpretations of the Second World War.</span>
-        </p>
-        <span class="cluster-purpose">Кластер показује како су рат, окупација, отпор, колаборација, пропаганда, страдање и накнадна култура сећања обликовали политичке и моралне представе о XX веку.</span>
-        <p class="cluster-more">
-          <a href="/knowledge-graph/research/war-propaganda-memory.html">Детаљније о овом кластеру / More about this cluster</a><br>
-          <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139569742">Q139569742</a></span>
-        </p>
-      </li>
+  <div class="cluster-grid">
+    <article class="cluster-card">
+      <h3>Чачак као студија случаја локалне модерности<br><em>Čačak as a Case Study of Local Modernity</em></h3>
+      <p>Чачак као аналитичко поље за проучавање урбане трансформације, локалне власти, индустријализације, јавног простора, свакодневице, спорта, културе сећања и производње локалног идентитета.</p>
+      <p><em>Čačak as an analytical field for studying urban transformation, local government, industrialization, public space, everyday life, sport, memory culture and the production of local identity.</em></p>
+      <p class="links"><a href="research/cacak-local-modernity-case-study.html">Детаљније о овом кластеру / More about this cluster</a><br>
+      <a href="https://www.wikidata.org/wiki/Q139413866">Wikidata item: Q139413866</a></p>
+    </article>
+    <article class="cluster-card">
+      <h3>Политички ритуали и симболичка политика<br><em>Political Rituals and Symbolic Politics</em></h3>
+      <p>Јавне церемоније, владарске посете, династичка репрезентација, одликовања, култови и меморијални ритуали као облици јавног наступа власти, политичке лојалности и симболичке легитимације.</p>
+      <p><em>Public ceremonies, royal visits, dynastic representation, decorations, cults and memorial rituals as forms of public performance of power, political loyalty and symbolic legitimation.</em></p>
+      <p class="links"><a href="research/political-rituals-symbolic-politics.html">Детаљније о овом кластеру / More about this cluster</a><br>
+      <a href="https://www.wikidata.org/wiki/Q139413904">Wikidata item: Q139413904</a></p>
+    </article>
+    <article class="cluster-card">
+      <h3>Национална идеологија и интелектуалне расправе<br><em>National Ideology and Intellectual Debates</em></h3>
+      <p>Политичка мисао, национална идеја, грађанска интелигенција, црквена јавност, соколство, културни национализам, политичке биографије и јавне полемике о спорним наслеђима.</p>
+      <p><em>Political thought, national ideology, civic intelligentsia, church public discourse, the Sokol movement, cultural nationalism, political biographies and public polemics over contested legacies.</em></p>
+      <p class="links"><a href="research/national-ideology-intellectual-debates.html">Детаљније о овом кластеру / More about this cluster</a><br>
+      <a href="https://www.wikidata.org/wiki/Q139569355">Wikidata item: Q139569355</a></p>
+    </article>
+    <article class="cluster-card">
+      <h3>Рат, пропаганда и култура сећања<br><em>War, Propaganda and Memory</em></h3>
+      <p>Други светски рат као војни сукоб, окупациони поредак, идеолошки расцеп, пропагандно поље и спорно место колективног памћења.</p>
+      <p><em>The Second World War as military conflict, occupation order, ideological rupture, field of propaganda and contested site of collective memory.</em></p>
+      <p class="links"><a href="research/war-propaganda-memory.html">Детаљније о овом кластеру / More about this cluster</a><br>
+      <a href="https://www.wikidata.org/wiki/Q139569742">Wikidata item: Q139569742</a></p>
+    </article>
+    <article class="cluster-card">
+      <h3>Култура, национализам и симболичка репрезентација<br><em>Culture, Nationalism and Symbolic Representation</em></h3>
+      <p>Култура као поље производње јавних симбола, националних представа, локалних идентитета и културног ауторитета.</p>
+      <p><em>Culture as a field of producing public symbols, national representations, local identities and cultural authority.</em></p>
+      <p class="links"><a href="research/culture-nationalism-symbolic-representation.html">Детаљније о овом кластеру / More about this cluster</a><br>
+      <a href="https://www.wikidata.org/wiki/Q139569852">Wikidata item: Q139569852</a></p>
+    </article>
+    <article class="cluster-card">
+      <h3>Културно наслеђе, музеји и јавна историја<br><em>Cultural Heritage, Museums and Public History</em></h3>
+      <p>Музејска пракса, баштинска интерпретација и јавна историја као процеси превођења стручног знања у изложбе, каталоге, водиче, сталне поставке, споменице и јавне наративе.</p>
+      <p><em>Museum practice, heritage interpretation and public history as processes of translating scholarly knowledge into exhibitions, catalogues, guidebooks, permanent displays, memorial books and public narratives.</em></p>
+      <p class="links"><a href="research/cultural-heritage-museums-public-history.html">Детаљније о овом кластеру / More about this cluster</a><br>
+      <a href="https://www.wikidata.org/wiki/Q139570560">Wikidata item: Q139570560</a></p>
+    </article>
+    <article class="cluster-card">
+      <h3>Религијски живот и друштвене праксе<br><em>Religious Life and Social Practices</em></h3>
+      <p>Религијски живот као свакодневна и друштвена пракса: религиозност, секуларизација, сакрални простори, локалне праксе, приватно памћење, црквена јавност и однос традиције и модерности.</p>
+      <p><em>Religious life as an everyday and social practice: religiosity, secularization, sacred spaces, local practices, private memory, church public discourse and the relationship between tradition and modernity.</em></p>
+      <p class="links"><a href="research/religious-life-social-practices.html">Детаљније о овом кластеру / More about this cluster</a><br>
+      <a href="https://www.wikidata.org/wiki/Q139570614">Wikidata item: Q139570614</a></p>
+    </article>
+  </div>
+</section>
 
-      <li class="cluster-card">
-        <strong>
-          <a href="/knowledge-graph/research/culture-nationalism-symbolic-representation.html">
-            Култура, национализам и симболичка репрезентација / Culture, nationalism and symbolic representation
-          </a>
-        </strong>
-        <p>
-          Визуелна култура, национални симболи, уметност и јавна репрезентација.
-          <span lang="en">Visual culture, national symbols, art and public representation.</span>
-        </p>
-        <span class="cluster-purpose">Кластер повезује радове о уметности, визуелној култури, јавним споменицима, националној симболици, фестивалима и производњи културног ауторитета.</span>
-        <p class="cluster-more">
-          <a href="/knowledge-graph/research/culture-nationalism-symbolic-representation.html">Детаљније о овом кластеру / More about this cluster</a><br>
-          <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139569852">Q139569852</a></span>
-        </p>
-      </li>
+<section id="how-graph-works">
+  <h2>Како граф функционише / How the Graph Works</h2>
+  <p>Сваки кластер повезује више нивоа: тематски оквир, Wikidata item, приступне стране публикација, DOI и репозиторијумске записе где постоје, библиотечке и ауторитетске идентификаторе, као и спољне агрегаторе.</p>
+  <p><em>Each cluster connects several levels: a thematic framework, a Wikidata item, publication landing pages, DOI and repository records where available, library and authority identifiers, and external aggregators.</em></p>
+  <p>Циљ није само попис радова, већ стварање мреже истраживачких веза која је истовремено читљива људима и употребљива системима машинског читања.</p>
+  <p><em>The aim is not only to list publications, but to create a network of research relations that is both readable to humans and usable by machine-reading systems.</em></p>
+</section>
 
-      <li class="cluster-card">
-        <strong>
-          <a href="/knowledge-graph/research/cultural-heritage-museums-public-history.html">
-            Културно наслеђе, музеји и јавна историја / Cultural heritage, museums and public history
-          </a>
-        </strong>
-        <p>
-          Музејска пракса, изложбе, баштина и институционално представљање прошлости.
-          <span lang="en">Museum practice, exhibitions, heritage and institutional representations of the past.</span>
-        </p>
-        <span class="cluster-purpose">Кластер показује како се научно истраживање претвара у музејску интерпретацију, баштинску синтезу, изложбу, водич, сталну поставку и јавну употребу прошлости.</span>
-        <p class="cluster-more">
-          <a href="/knowledge-graph/research/cultural-heritage-museums-public-history.html">Детаљније о овом кластеру / More about this cluster</a><br>
-          <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139570560">Q139570560</a></span>
-        </p>
-      </li>
+<section>
+  <h2>Дигитална видљивост / Digital Visibility</h2>
+  <p>Овај модел повезује лични научни сајт, Wikidata, ORCID, DOI записе, Zenodo, библиотечке каталоге и системе као што су OpenAlex и Google Scholar. Посебне странице кластера имају улогу средњег нивоа: оне не замењују појединачне приступне стране, већ објашњавају како се радови повезују у шире истраживачке целине.</p>
+  <p><em>This model connects the personal scholarly website, Wikidata, ORCID, DOI records, Zenodo, library catalogues and systems such as OpenAlex and Google Scholar. The cluster pages function as a middle layer: they do not replace individual publication landing pages, but explain how the works form broader research units.</em></p>
+  <p>На тај начин публикације нису приказане само као библиографски записи, већ као повезани ентитети у отвореним подацима, академским профилима, репозиторијумима и претраживачким системима.</p>
+  <p><em>In this way, publications are presented not only as bibliographic records, but as connected entities in open data, academic profiles, repositories and search systems.</em></p>
+</section>
 
-      <li class="cluster-card">
-        <strong>
-          <a href="/knowledge-graph/research/religious-life-social-practices.html">
-            Религијски живот и друштвене праксе / Religious life and social practices
-          </a>
-        </strong>
-        <p>
-          Религиозност, сакрални простори, друштвене навике и локалне праксе.
-          <span lang="en">Religiosity, sacred spaces, social habits and local practices.</span>
-        </p>
-        <span class="cluster-purpose">Кластер групише радове о религиозности, сакралном простору, црквеном наслеђу, локалним праксама, секуларизацији и односу традиције и модерности као дубоким слојевима локалне модерности и симболичке моћи.</span>
-        <p class="cluster-more">
-          <a href="/knowledge-graph/research/religious-life-social-practices.html">Детаљније о овом кластеру / More about this cluster</a><br>
-          <span class="secondary-link">Wikidata item: <a href="https://www.wikidata.org/wiki/Q139570614">Q139570614</a></span>
-        </p>
-      </li>
-    </ul>
-  </section>
+<section>
+  <h2>Домен и домет / Scope and Use</h2>
+  <p>Граф је намењен истраживачима, студентима, уредницима, музејским радницима, библиотекарима, дигиталним агрегаторима и системима машинског читања.</p>
+  <p><em>The graph is intended for researchers, students, editors, museum professionals, librarians, digital aggregators and machine-reading systems.</em></p>
+  <p>За истраживаче, граф је мапа тема и корпуса. За студенте, он је улаз у истраживачке области. За уреднике и библиотекаре, он је поуздан скуп идентификатора и библиографских веза. За машинске системе, он је структурисана мрежа ентитета, тема и публикација.</p>
+  <p><em>For researchers, the graph is a map of themes and corpora. For students, it is an entry point into research areas. For editors and librarians, it is a reliable set of identifiers and bibliographic links. For machine systems, it is a structured network of entities, themes and publications.</em></p>
+</section>
 
-  <section>
-    <h2>Како граф функционише / How the Graph Works</h2>
-    <p>
-      Сваки кластер повезује више нивоа: тематски оквир, Wikidata item, приступне стране публикација, DOI и репозиторијумске записе где постоје, библиотечке и ауторитетске идентификаторе, као и спољне агрегаторе. Циљ није само попис радова, већ стварање машински читљиве и људски разумљиве мреже истраживачких веза.
-    </p>
-    <p lang="en">
-      Each cluster connects several layers: a thematic framework, a Wikidata item, publication landing pages, DOI and repository records where available, library and authority identifiers, and external aggregators. The aim is not only to list publications, but to create a machine-readable and human-readable network of research relations.
-    </p>
-  </section>
+<section id="core-identifiers" class="identifier-box">
+  <h2>Основни идентификатори / Core Identifiers</h2>
+  <ul>
+    <li><strong>Author ORCID:</strong> <a href="https://orcid.org/0000-0002-0457-6125">0000-0002-0457-6125</a></li>
+    <li><strong>Author Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q112514230">Q112514230 — Miloš Timotijević</a></li>
+    <li><strong>OpenAlex author profile:</strong> <a href="https://openalex.org/authors/a5072525869">A5072525869</a></li>
+    <li><strong>Main research framework:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155 — Local Modernity and Symbolic Power in Southeast Europe</a></li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Дигитална видљивост / Digital Visibility</h2>
-    <p>
-      Овај модел повезује лични научни сајт, Wikidata, ORCID, DOI записе, Zenodo, библиотечке каталоге и системе попут OpenAlex и Google Scholar. Посебне странице кластера имају улогу средњег нивоа: оне не замењују појединачне приступне стране, већ објашњавају како се радови повезују у шире истраживачке целине.
-    </p>
-    <p lang="en">
-      This model connects the personal scholarly website, Wikidata, ORCID, DOI records, Zenodo, library catalogues and systems such as OpenAlex and Google Scholar. The cluster pages function as a middle layer: they do not replace individual publication landing pages, but explain how the works form broader research units.
-    </p>
-  </section>
+<p class="back-link"><a href="#top">↑ На врх / Back to top</a></p>
+<p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
 
-  <section class="scope-box">
-    <h2>Домен и домет / Scope and Use</h2>
-    <p>
-      Граф је намењен истраживачима, студентима, уредницима, музејским радницима, библиотекарима, дигиталним агрегаторима и системима машинског читања. Он омогућава да се публикације не виде само као појединачни библиографски записи, већ као делови повезаног истраживачког поља.
-    </p>
-    <p lang="en">
-      The graph is intended for researchers, students, editors, museum professionals, librarians, digital aggregators and machine-reading systems. It makes it possible to understand publications not only as individual bibliographic records, but as parts of a connected research field.
-    </p>
-  </section>
-
-  <section>
-    <h2>Основни идентификатори / Core Identifiers</h2>
-    <ul class="identifier-list">
-      <li><strong>Author ORCID:</strong> <a href="https://orcid.org/0000-0002-0457-6125">0000-0002-0457-6125</a></li>
-      <li><strong>Author Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q112514230">Q112514230 — Miloš Timotijević</a></li>
-      <li><strong>OpenAlex author profile:</strong> <a href="https://openalex.org/authors/a5072525869">A5072525869</a></li>
-      <li><strong>Main research framework:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155 — Local modernity and symbolic power in Southeast Europe</a></li>
-    </ul>
-  </section>
-
-  <p><a href="#top">↑ На врх / Back to top</a></p>
-
-  <p class="back-link">
-    <a href="/">← Назад на главну страну / Back to the main page</a>
-  </p>
 </body>
 </html>
