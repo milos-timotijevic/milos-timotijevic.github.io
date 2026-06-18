@@ -1,1 +1,555 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Прикази књига / Book Reviews | Милош Тимотијевић</title>
+  <meta name="description" content="Изабрани прикази књига Милоша Тимотијевића, груписани по темама, са библиографским подацима и спољним линковима.">
+
+  <link rel="canonical" href="https://milos-timotijevic.github.io/book-reviews/">
+
+  <meta name="author" content="Miloš Timotijević">
+  <meta name="keywords" content="Miloš Timotijević, Милош Тимотијевић, book reviews, прикази књига, historiography, историографија, Serbian history, Yugoslav history, local history, cultural heritage, popular culture">
+
+  <!-- Dublin Core metadata -->
+  <meta name="DC.title" content="Прикази књига / Book Reviews">
+  <meta name="DC.creator" content="Милош Тимотијевић">
+  <meta name="DC.creator" content="Miloš Timotijević">
+  <meta name="DC.subject" content="book reviews; historiography; Serbian history; Yugoslav history; local history; cultural heritage; popular culture">
+  <meta name="DC.description" content="Изабрани прикази књига Милоша Тимотијевића, груписани по темама, са библиографским подацима и спољним линковима.">
+  <meta name="DC.publisher" content="Miloš Timotijević">
+  <meta name="DC.language" content="sr">
+  <meta name="DC.type" content="Text">
+
+  <!-- Open Graph metadata -->
+  <meta property="og:title" content="Прикази књига / Book Reviews | Милош Тимотијевић">
+  <meta property="og:description" content="Изабрани прикази књига, груписани по темама, са библиографским подацима и спољним линковима.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://milos-timotijevic.github.io/book-reviews/">
+  <meta property="og:locale" content="sr_RS">
+
+  <!-- Twitter / generic card metadata -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Прикази књига / Book Reviews">
+  <meta name="twitter:description" content="Selected book reviews by historian Miloš Timotijević, grouped by thematic areas.">
+
+  <style>
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.55;
+  max-width: 820px;
+  margin: 48px auto;
+  padding: 0 36px;
+  color: #111;
+  background: #fff;
+}
+
+h1, h2, h3 {
+  line-height: 1.25;
+  color: #111;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  margin-top: 2em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.25em;
+}
+
+h3 {
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+}
+
+p {
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+}
+
+.name-latin {
+  font-size: 1.25em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1.05em;
+  margin-bottom: 1.5em;
+  color: #333;
+}
+
+.profiles a {
+  display: inline-block;
+  margin: 0.25em 0.45em 0.25em 0;
+  padding: 0.25em 0.55em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fafafa;
+  color: #222;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+.profiles a:hover {
+  background: #f0f0f0;
+  border-color: #bbb;
+  text-decoration: none;
+}
+
+.note {
+  background: #f5f5f5;
+  padding: 1em;
+  border-left: 4px solid #999;
+  margin: 1.5em 0;
+}
+
+.main-nav {
+  margin: 1.8em 0 2.2em 0;
+  padding: 0.9em 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em 0.7em;
+  margin-bottom: 0.55em;
+}
+
+.nav-group:last-child {
+  margin-bottom: 0;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 0.25em 0.55em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #222;
+  background: #fafafa;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+.main-nav a:hover {
+  background: #f0f0f0;
+  border-color: #bbb;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 3em;
+  font-size: 0.95em;
+  color: #444;
+  border-top: 1px solid #ddd;
+  padding-top: 1em;
+}
+
+.featured-section {
+  background: #f7f7f7;
+  border-left: 4px solid #999;
+  padding: 1em;
+  margin: 2em 0;
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1em;
+  margin-top: 1.2em;
+}
+
+.work-card {
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+.work-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-size: 1.05em;
+}
+
+.work-card p {
+  margin: 0.4em 0 0;
+  font-size: 0.95em;
+  color: #444;
+}
+
+.work-card a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.work-card a:hover {
+  text-decoration: underline;
+}
+
+.profile-header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1.2em;
+  margin-bottom: 1.4em;
+}
+
+.profile-header h1 {
+  margin-bottom: 0.1em;
+}
+
+.profile-header .subtitle {
+  margin-top: 0.8em;
+}
+
+.topic-line {
+  font-size: 0.98em;
+  color: #333;
+  background: #fafafa;
+  border-left: 4px solid #ddd;
+  padding: 0.7em 1em;
+  margin: 1.2em 0 1.8em 0;
+}
+
+details {
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 0.8em 1em;
+  margin: 1.2em 0;
+  border-radius: 6px;
+}
+
+summary {
+  cursor: pointer;
+  color: #111;
+}
+
+summary strong {
+  font-weight: bold;
+}
+
+details[open] {
+  background: #fff;
+}
+
+li {
+  margin-bottom: 0.45em;
+}
+
+.back-to-top {
+  font-size: 0.9em;
+  text-align: right;
+  margin-top: 1.5em;
+}
+
+.site-notes {
+  margin-top: 2.5em;
+  padding-top: 1.2em;
+  border-top: 1px solid #ddd;
+  color: #444;
+  font-size: 0.96em;
+}
+
+.site-notes h2 {
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+  font-size: 1.25em;
+  color: #222;
+}
+
+.site-note {
+  margin: 1em 0 1.4em 0;
+}
+
+.site-note p {
+  margin: 0.35em 0;
+}
+
+.site-note strong {
+  color: #222;
+}
+
+.intro {
+  background: #f8f8f8;
+  border-left: 4px solid #bbb;
+  padding: 1em;
+  margin: 1.5em 0 2em 0;
+}
+
+.intro p {
+  margin: 0.35em 0;
+}
+</style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Прикази књига",
+    "alternateName": "Book Reviews",
+    "url": "https://milos-timotijevic.github.io/book-reviews/",
+    "description": "Изабрани прикази књига Милоша Тимотијевића, груписани по темама, са библиографским подацима и спољним линковима.",
+    "inLanguage": "sr",
+    "author": {
+      "@type": "Person",
+      "name": "Милош Тимотијевић",
+      "alternateName": [
+        "Miloš Timotijević",
+        "Miloš M. Timotijević",
+        "Милош М. Тимотијевић"
+      ],
+      "url": "https://milos-timotijevic.github.io/",
+      "identifier": "https://orcid.org/0000-0002-0457-6125"
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Милош Тимотијевић | Miloš Timotijević",
+      "url": "https://milos-timotijevic.github.io/"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Тематске целине приказа књига",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Државност, историјско наслеђе и балкански контексти",
+          "url": "https://milos-timotijevic.github.io/book-reviews/statehood-historical-heritage.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Завичајна и регионална историја",
+          "url": "https://milos-timotijevic.github.io/book-reviews/local-regional-history.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Културно наслеђе, уметност и визуелна култура",
+          "url": "https://milos-timotijevic.github.io/book-reviews/cultural-heritage-art-visual-culture.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Рат, окупација и отпор",
+          "url": "https://milos-timotijevic.github.io/book-reviews/war-occupation-resistance.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Југословенска политичка и интелектуална историја",
+          "url": "https://milos-timotijevic.github.io/book-reviews/yugoslav-political-intellectual-history.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Европа, књижевност и интелектуалне расправе",
+          "url": "https://milos-timotijevic.github.io/book-reviews/europe-literature-intellectual-debates.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Криза Југославије и постјугословенски ратови",
+          "url": "https://milos-timotijevic.github.io/book-reviews/yugoslav-crisis-post-yugoslav-wars.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Популарна култура и медији",
+          "url": "https://milos-timotijevic.github.io/book-reviews/popular-culture-media.html"
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+  <a id="top"></a>
+
+  <header class="profile-header">
+    <h1>Прикази књига</h1>
+    <p class="name-latin">Book Reviews</p>
+
+    <p class="subtitle">
+      изабрани прикази књига, груписани по темама, са библиографским подацима и спољним линковима<br>
+      selected book reviews, grouped by themes, with bibliographic data and external links
+    </p>
+  </header>
+
+  <nav class="main-nav" aria-label="Навигација странице">
+    <div class="nav-group">
+      <a href="../">Главна страна / Main page</a>
+      <a href="../#selected-works">Изабрана дела / Selected Works</a>
+      <a href="../#bibliografija">Библиографија / Bibliography</a>
+    </div>
+
+    <div class="nav-group">
+      <a href="#overview">Кратак преглед</a>
+      <a href="#groups">Тематске целине</a>
+      <a href="#use">Напомена о употреби</a>
+      <a href="#keywords">Кључне речи</a>
+      <a href="#citation">Цитирање</a>
+    </div>
+  </nav>
+
+  <div class="note" id="overview">
+    <p>
+      Ова страница служи као приступни чвор за изабране приказе књига Милоша Тимотијевића.
+      Прикази нису издвојени као појединачне приступне стране, већ су распоређени у шире тематске целине.
+    </p>
+
+    <p>
+      This page serves as an access point for selected book reviews by Miloš Timotijević.
+      The reviews are not presented as separate landing pages, but are grouped into broader thematic sections.
+    </p>
+  </div>
+
+  <p class="topic-line">
+    <strong>Главне теме / Main topics:</strong>
+    прикази књига · историографија · завичајна историја · рат и окупација · Југославија · Европа · културно наслеђе · популарна култура
+  </p>
+
+  <section>
+    <h2>Кратак преглед / Executive Summary</h2>
+
+    <p>
+      Прикази књига Милоша Тимотијевића обухватају различите области: српску и југословенску историју,
+      завичајна истраживања, ратове, политичке идеје, културно наслеђе, интелектуалну историју,
+      европске расправе и популарну културу.
+    </p>
+
+    <p>
+      Груписање је изведено према основном тематском тежишту књига које се приказују. Поједини прикази
+      могу додиривати више области, али су ради прегледности смештени у једну примарну целину.
+    </p>
+
+    <p>
+      Book reviews are grouped according to the primary thematic focus of the books under review. Some reviews
+      may touch upon more than one field, but for clarity each is placed in one primary thematic group.
+    </p>
+  </section>
+
+  <section id="groups" class="featured-section">
+    <h2>Тематске целине / Thematic Groups</h2>
+
+    <p>
+      Тематске целине омогућавају прегледније читање корпуса приказа и показују континуитет интересовања
+      за поједине историографске, културне и јавне теме.
+    </p>
+
+    <div class="works-grid">
+
+      <div class="work-card">
+        <h3><a href="statehood-historical-heritage.html">Државност, историјско наслеђе и балкански контексти</a></h3>
+        <p>Прикази књига о српској државности, Старој Србији, династијама, Византији, Балкану и предисторији Првог светског рата.</p>
+      </div>
+
+      <div class="work-card">
+        <h3><a href="local-regional-history.html">Завичајна и регионална историја</a></h3>
+        <p>Прикази књига о локалној прошлости, историјској географији, насељима, пореклу становништва и завичајним истраживањима.</p>
+      </div>
+
+      <div class="work-card">
+        <h3><a href="cultural-heritage-art-visual-culture.html">Културно наслеђе, уметност и визуелна култура</a></h3>
+        <p>Прикази књига о музејским збиркама, сакралном наслеђу, ликовној уметности, визуелној култури, мозаицима и херитолошким темама.</p>
+      </div>
+
+      <div class="work-card">
+        <h3><a href="war-occupation-resistance.html">Рат, окупација и отпор</a></h3>
+        <p>Прикази књига о ратовима, окупацији, покретима отпора, равногорском покрету, савезничким мисијама, Халјарду и ратном памћењу.</p>
+      </div>
+
+      <div class="work-card">
+        <h3><a href="yugoslav-political-intellectual-history.html">Југословенска политичка и интелектуална историја</a></h3>
+        <p>Прикази књига о југословенским интелектуалцима, политичкој култури, међуратним ауторима, дневницима и јавном животу.</p>
+      </div>
+
+      <div class="work-card">
+        <h3><a href="europe-literature-intellectual-debates.html">Европа, књижевност и интелектуалне расправе</a></h3>
+        <p>Прикази књига о Европи, Источној Европи, књижевности, културним самопредставама, интелектуалним полемикама и европским оквирима српске културе.</p>
+      </div>
+
+      <div class="work-card">
+        <h3><a href="yugoslav-crisis-post-yugoslav-wars.html">Криза Југославије и постјугословенски ратови</a></h3>
+        <p>Прикази књига о распаду Југославије, националним питањима, политичкој кризи, Босни и Херцеговини, ратовима деведесетих и постјугословенском простору.</p>
+      </div>
+
+      <div class="work-card">
+        <h3><a href="popular-culture-media.html">Популарна култура и медији</a></h3>
+        <p>Прикази књига о стрипу, рок музици, филму, медијима, масовној култури и јавним облицима културне продукције.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="use">
+    <h2>Напомена о употреби / Note on Use</h2>
+
+    <p>
+      Распоред није замишљен као затворена класификација. Нови прикази ће се додавати постојећим групама
+      када се тематски уклапају, док ће се нова група отварати само онда када се формира довољно јасан
+      и трајан тематски корпус.
+    </p>
+
+    <p>
+      The classification is not conceived as closed. New reviews will be added to existing groups when they
+      fit thematically, while new groups will be opened only when a clear and stable thematic corpus emerges.
+    </p>
+  </section>
+
+  <section id="keywords">
+    <h2>Кључне речи / Keywords</h2>
+
+    <p>
+      прикази књига; историографија; српска историја; југословенска историја; завичајна историја;
+      културно наслеђе; рат; окупација; отпор; Југославија; постјугословенски ратови; Европа;
+      интелектуална историја; популарна култура; медији
+    </p>
+
+    <p>
+      book reviews; historiography; Serbian history; Yugoslav history; local history; cultural heritage;
+      war; occupation; resistance; Yugoslavia; post-Yugoslav wars; Europe; intellectual history;
+      popular culture; media
+    </p>
+  </section>
+
+  <section id="citation">
+    <h2>Предлог цитирања / Suggested Citation</h2>
+
+    <p>
+      Милош Тимотијевић, „Прикази књига”, лични научни сајт, приступљено [датум],
+      <a href="https://milos-timotijevic.github.io/book-reviews/">https://milos-timotijevic.github.io/book-reviews/</a>.
+    </p>
+
+    <p>
+      Miloš Timotijević, “Book Reviews,” personal scholarly website, accessed [date],
+      <a href="https://milos-timotijevic.github.io/book-reviews/">https://milos-timotijevic.github.io/book-reviews/</a>.
+    </p>
+  </section>
+
+  <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
+
+  <footer>
+    <p>
+      <a href="../">← Назад на главну страну / Back to the main page</a>
+    </p>
+  </footer>
+
+</body>
+</html>
+"""
+
+path = Path("/mnt/data/book-reviews-index.html")
+path.write_text(html, encoding="utf-8")
+print(f"Created {path} ({path.stat().st_size} bytes)")
 
