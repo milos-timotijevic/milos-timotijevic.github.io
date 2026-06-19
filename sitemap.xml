@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -136,6 +137,9 @@
     <loc>https://milos-timotijevic.github.io/articles/</loc>
   </url>
   <url>
+    <loc>https://milos-timotijevic.github.io/articles/balkanski-savez-1953-1954-jugoslovenska-medijska-slika.html</loc>
+  </url>
+  <url>
     <loc>https://milos-timotijevic.github.io/articles/borba-protiv-razbojnika-silovatelja-zver-zena-komunisti-okupirana-srbija-1941.html</loc>
   </url>
   <url>
@@ -164,6 +168,9 @@
   </url>
   <url>
     <loc>https://milos-timotijevic.github.io/articles/industrijalizacija-cacka-1944-1956.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/articles/istorijsko-odeljenje-narodnog-muzeja-cacak-stalna-postavka-1953-2006.html</loc>
   </url>
   <url>
     <loc>https://milos-timotijevic.github.io/articles/jugoslovenska-vojska-u-otadzbini-americki-avijaticari-b24-liberator-rakova-cacak.html</loc>
@@ -208,6 +215,9 @@
     <loc>https://milos-timotijevic.github.io/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html</loc>
   </url>
   <url>
+    <loc>https://milos-timotijevic.github.io/articles/stalna-muzejska-postavka-ustanci-ratovi-1804-1941-konak-jovana-obrenovica-cacak.html</loc>
+  </url>
+  <url>
     <loc>https://milos-timotijevic.github.io/articles/stradanje-spasavanje-jevreja-cacak-1941-1944.html</loc>
   </url>
   <url>
@@ -228,5 +238,31 @@
   <url>
     <loc>https://milos-timotijevic.github.io/articles/zvonimir-zvonko-vuckovic-biografija-dokumenta-secanja.html</loc>
   </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/book-reviews/index.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/book-reviews/statehood-historical-heritage.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/book-reviews/local-regional-history.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/book-reviews/cultural-heritage-art-visual-culture.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/book-reviews/war-occupation-resistance.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/book-reviews/yugoslav-political-intellectual-history.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/book-reviews/europe-literature-intellectual-debates.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/book-reviews/yugoslav-crisis-post-yugoslav-wars.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/book-reviews/popular-culture-media.html</loc>
+  </url>
 </urlset>
-
