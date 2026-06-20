@@ -1,19 +1,120 @@
 <!doctype html>
 <html lang="sr">
-  
-<header>
-  <h1>Метод / Method</h1>
-  <p class="subtitle">Како је изграђен граф знања</p>
-</header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Метод / Method — Како је изграђен граф знања</title>
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Методолошка страна која објашњава како је изграђен граф знања Милоша Тимотијевића: публикације, истраживачки кластери, приступне стране, DOI, ORCID, Wikidata, репозиторијуми, библиотечки записи и спољни системи.">
+  <link rel="canonical" href="https://milos-timotijevic.github.io/knowledge-graph/method.html">
 
-<p>
-  Ова страна објашњава како је уређен дигитални систем представљања научног и музејског рада Милоша Тимотијевића. Њена сврха није да замени библиографије, библиотечке каталоге, репозиторијуме или научне базе података, већ да покаже како су публикације, приступне стране, истраживачки кластери, DOI идентификатори, ORCID профил, Wikidata ставке, репозиторијуми, библиотечки записи и спољни системи доведени у заједнички оквир.
-</p>
+  <style>
+    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #222; background: #fff; }
+    h1, h2, h3, h4 { line-height: 1.25; color: #111; }
+    h1 { font-size: 2.05em; margin-bottom: 0.2em; }
+    h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.25em; }
+    h3 { margin-top: 1.35em; font-size: 1.13em; }
+    a { color: #0645ad; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    p { margin: 0.75em 0; }
+    ul li, ol li { margin-bottom: 0.65em; }
+    .subtitle { font-size: 1.08em; margin-bottom: 1.5em; color: #444; }
+    .intro, .note, .identifier-box, .visibility-box { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin: 1.5em 0 2em 0; }
+    .intro p, .note p, .identifier-box p, .visibility-box p { margin: 0.35em 0; }
+    .method-nav { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin: 1.5em 0 2em 0; }
+    .method-nav p { margin: 0.35em 0; }
+    .method-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); gap: 1em; margin-top: 1em; }
+    .method-card { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 1em; }
+    .method-card h3 { margin-top: 0; }
+    .method-card p { margin: 0.45em 0; }
+    .citation-box { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 1em; margin: 1em 0 1.5em 0; }
+    .links { display: block; margin-top: 0.5em; font-size: 0.96em; }
+    .keywords { color: #333; }
+    .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
+    .small-note { color: #555; font-size: 0.96em; }
+    .date-note { color: #555; font-size: 0.96em; margin-top: 2em; }
+  </style>
 
-<section class="english-summary">
-  <h2>English summary</h2>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Метод / Method",
+  "alternateName": "How the Knowledge Graph Was Built",
+  "url": "https://milos-timotijevic.github.io/knowledge-graph/method.html",
+  "inLanguage": [
+    "sr",
+    "en"
+  ],
+  "dateModified": "2026-06-20",
+  "description": "Методолошка страна која објашњава како је изграђен граф знања Милоша Тимотијевића: публикације, истраживачки кластери, приступне стране, DOI, ORCID, Wikidata, репозиторијуми, библиотечки записи и спољни системи.",
+  "isPartOf": {
+    "@type": "CollectionPage",
+    "name": "Граф знања и дигитална видљивост",
+    "alternateName": "Knowledge Graph and Digital Visibility",
+    "url": "https://milos-timotijevic.github.io/knowledge-graph/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Miloš Timotijević",
+    "alternateName": [
+      "Милош Тимотијевић",
+      "Miloš M. Timotijević",
+      "Милош М. Тимотијевић"
+    ],
+    "sameAs": [
+      "https://orcid.org/0000-0002-0457-6125",
+      "https://www.wikidata.org/wiki/Q112514230",
+      "https://openalex.org/authors/a5072525869"
+    ]
+  },
+  "about": [
+    "knowledge graph",
+    "digital humanities",
+    "research clusters",
+    "landing pages",
+    "Wikidata",
+    "DOI",
+    "ORCID",
+    "Zenodo",
+    "OpenAlex",
+    "Google Scholar",
+    "machine readability",
+    "scholarly metadata",
+    "local history",
+    "public history"
+  ],
+  "keywords": "knowledge graph, digital humanities, research clusters, landing pages, Wikidata, DOI, ORCID, Zenodo, OpenAlex, Google Scholar, scholarly metadata, machine readability, local history, public history, Miloš Timotijević"
+}
+  </script>
+</head>
+
+<body id="top">
+
+<p><a href="index.html">← Назад на граф знања / Back to Knowledge Graph</a></p>
+
+<h1>Метод / Method</h1>
+<p><strong>Како је изграђен граф знања</strong></p>
+<p class="subtitle">Публикације, кластери, приступне стране, идентификатори и спољни системи<br>
+<em>Publications, Clusters, Landing Pages, Identifiers and External Systems</em></p>
+
+<section class="intro">
+  <p>
+    Ова страна објашњава како је уређен дигитални систем представљања научног и музејског рада Милоша Тимотијевића. Њена сврха није да замени библиографије, библиотечке каталоге, репозиторијуме или научне базе података, већ да покаже како су публикације, приступне стране, истраживачки кластери, DOI идентификатори, ORCID профил, Wikidata ставке, репозиторијуми, библиотечки записи и спољни системи доведени у заједнички оквир.
+  </p>
+</section>
+
+<section class="note" lang="en">
+  <h2>English Summary</h2>
   <p>
     This page explains the methodological structure of the knowledge graph and digital scholarly infrastructure developed around the works of Miloš Timotijević. It defines the basic units of the system — entities, publications, editions, research themes, clusters, landing pages, identifiers and external aggregators — and explains how they are connected. The purpose of the system is to make a scholarly and museum-based corpus more visible, verifiable, citable and machine-readable, while preserving the distinction between bibliographic data and historiographical interpretation.
+  </p>
+</section>
+
+<section class="method-nav">
+  <h2>Како читати ову страну</h2>
+  <p>
+    Ова страна није библиографија, већ методолошко објашњење система. Најпре се одређује обим корпуса, затим основне јединице, потом веза између дела, издања и записа, улога кластера, идентификатора, приступних страна, отворених података и спољних система.
   </p>
 </section>
 
@@ -48,21 +149,49 @@
     Под ентитетом се овде подразумева свака јединица која се може именовати, описати и довести у везу са другим јединицама: особа, публикација, издање, институција, место, тема, кластер, догађај, изложба или идентификатор.
   </p>
 
-  <p>
-    Публикација је интелектуални рад: монографија, научни чланак, поглавље у књизи, каталог изложбе, приказ књиге, приређена грађа, библиографија или други научни и стручни резултат. У овом систему публикација није само ставка у списку радова, већ чвор који се може повезати са темама, кластерима, институцијама, репозиторијумима и библиографским записима.
-  </p>
+  <div class="method-grid">
+    <article class="method-card">
+      <h3>Публикација</h3>
+      <p>
+        Интелектуални рад: монографија, научни чланак, поглавље у књизи, каталог изложбе, приказ књиге, приређена грађа, библиографија или други научни и стручни резултат.
+      </p>
+    </article>
 
-  <p>
-    Издање је конкретан облик у коме је публикација објављена. Једно дело може имати више издања, различите године објављивања, различите издаваче, различите ISBN бројеве, дигиталне верзије или репозиторијумске записе. Зато се разликује дело као интелектуална целина од његовог појединачног издања или записа.
-  </p>
+    <article class="method-card">
+      <h3>Издање</h3>
+      <p>
+        Конкретан облик у коме је публикација објављена: одређена година, издавач, ISBN, дигитална верзија или репозиторијумски запис.
+      </p>
+    </article>
 
-  <p>
-    Тема је истраживачки проблем који се јавља кроз више радова. То могу бити модернизација, урбана историја, политички ритуали, рат, пропаганда, национална идеологија, култура сећања, религијске праксе, културно наслеђе, музејска интерпретација или јавна употреба прошлости.
-  </p>
+    <article class="method-card">
+      <h3>Тема</h3>
+      <p>
+        Истраживачки проблем који се јавља кроз више радова: модернизација, урбана историја, политички ритуали, рат, пропаганда, култура сећања или јавна употреба прошлости.
+      </p>
+    </article>
 
-  <p>
-    Кластер је шира истраживачка целина која окупља више публикација око заједничког питања. Он није фасцикла, него оквир читања. Кластер показује како се појединачни радови уклапају у дуже истраживачке правце и како се међу собом допуњују.
-  </p>
+    <article class="method-card">
+      <h3>Кластер</h3>
+      <p>
+        Шира истраживачка целина која окупља више публикација око заједничког питања. Кластер није фасцикла, него оквир читања.
+      </p>
+    </article>
+
+    <article class="method-card">
+      <h3>Приступна страна</h3>
+      <p>
+        Страница која окупља библиографске податке, сажетак, истраживачки контекст, идентификаторе и линкове ка спољним записима.
+      </p>
+    </article>
+
+    <article class="method-card">
+      <h3>Идентификатор</h3>
+      <p>
+        Стабилна ознака која омогућава препознавање аутора, дела, издања или записа у различитим системима: ORCID, DOI, Wikidata, VIAF, ISNI, GND и други.
+      </p>
+    </article>
+  </div>
 </section>
 
 <section>
@@ -97,36 +226,21 @@
   </p>
 </section>
 
-<section>
+<section class="visibility-box">
   <h2>Идентификатори, регистри и агрегатори</h2>
 
   <p>
     Дигитална видљивост зависи од стабилних идентификатора и поузданих тачака повезивања. Зато су у систем укључени различити типови спољних записа.
   </p>
 
-  <p>
-    ORCID служи за јединствену идентификацију аутора и повезивање радова са истом особом, без обзира на различите облике имена, писма или језика.
-  </p>
-
-  <p>
-    DOI служи као трајни дигитални идентификатор публикације, издања, репозиторијумске верзије или приступне стране. Његова улога је да омогући стабилан приступ и цитирање.
-  </p>
-
-  <p>
-    Wikidata омогућава да се аутор, дела, теме, институције и истраживачки оквири укључе у јавни граф знања. Она повезује ентитете са другим језицима, базама, библиотечким системима и ауторитетским записима.
-  </p>
-
-  <p>
-    Библиотечки и ауторитетски системи, као што су COBISS, WorldCat, VIAF, ISNI, GND и LCCN, потврђују присуство аутора и публикација у стручним системима и помажу у стабилизацији имена, варијанти имена и библиографских података.
-  </p>
-
-  <p>
-    Zenodo и сродни репозиторијуми омогућавају дигитално чување и приступ публикацијама, скуповима података и пратећим материјалима.
-  </p>
-
-  <p>
-    Crossref и DataCite су регистри DOI метаподатака. Google Scholar и OpenAlex су библиографски и цитатни агрегатори. Они не стварају изворне податке, али их преузимају, повезују и чине видљивијим у претрази и научној комуникацији.
-  </p>
+  <ul>
+    <li><strong>ORCID</strong> служи за јединствену идентификацију аутора и повезивање радова са истом особом, без обзира на различите облике имена, писма или језика.</li>
+    <li><strong>DOI</strong> служи као трајни дигитални идентификатор публикације, издања, репозиторијумске верзије или приступне стране.</li>
+    <li><strong>Wikidata</strong> омогућава да се аутор, дела, теме, институције и истраживачки оквири укључе у јавни граф знања.</li>
+    <li><strong>COBISS, WorldCat, VIAF, ISNI, GND и LCCN</strong> потврђују присуство аутора и публикација у библиотечким и ауторитетским системима.</li>
+    <li><strong>Zenodo</strong> и сродни репозиторијуми омогућавају дигитално чување и приступ публикацијама, скуповима података и пратећим материјалима.</li>
+    <li><strong>Crossref и DataCite</strong> су регистри DOI метаподатака, док су <strong>Google Scholar и OpenAlex</strong> библиографски и цитатни агрегатори.</li>
+  </ul>
 </section>
 
 <section>
@@ -169,7 +283,7 @@
   </p>
 </section>
 
-<section>
+<section class="note">
   <h2>Отворени подаци</h2>
 
   <p>
@@ -233,18 +347,17 @@
   </p>
 </section>
 
-<section>
+<section class="identifier-box">
   <h2>Како цитирати систем</h2>
 
   <p>
     Овај систем се може цитирати као дигитална истраживачка инфраструктура, као ауторски академски профил, као граф знања или као приступна тачка за појединачне публикације. При цитирању појединачног рада предност треба дати самом делу, његовом DOI идентификатору, издању или репозиторијумском запису. Приступну страну треба навести када се цитирају метаподаци, сажетак, истраживачки контекст или структура повезивања.
   </p>
 
-  <div class="citation-box">
-    <p>
-      Милош Тимотијевић, „Метод: како је изграђен граф знања”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, приступљено [датум приступа].
-    </p>
-  </div>
+  <p>
+    <strong>Препоручени облик навођења:</strong><br>
+    Милош Тимотијевић, „Метод: како је изграђен граф знања”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, приступљено [датум приступа].
+  </p>
 </section>
 
 <section>
@@ -259,18 +372,13 @@
   </p>
 </section>
 
-<p class="updated">
+<p class="date-note">
   Последње ажурирање: 20. јун 2026.
 </p>
 
-<footer>
-  <p>
-    <a href="#top">↑ На врх / Back to top</a>
-  </p>
-  <p>
-    <a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a>
-  </p>
-  <p>
-    <a href="/">← Назад на главну страну / Back to main page</a>
-  </p>
-</footer>
+<p class="back-link"><a href="#top">↑ На врх / Back to top</a></p>
+<p><a href="index.html">← Назад на граф знања / Back to Knowledge Graph</a></p>
+<p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
+
+</body>
+</html>
