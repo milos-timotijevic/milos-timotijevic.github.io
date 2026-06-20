@@ -117,27 +117,36 @@
     border-bottom: 1px solid #ddd;
   }
 
-  .nav-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45em 0.7em;
-    margin-bottom: 0.55em;
-  }
+.nav-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em 0.7em;
+  margin-bottom: 0.55em;
+}
 
-  .nav-group:last-child {
-    margin-bottom: 0;
-  }
+.nav-group:last-child {
+  margin-bottom: 0;
+}
 
-  .main-nav a {
-    display: inline-block;
-    padding: 0.25em 0.55em;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    color: #222;
-    background: #fafafa;
-    text-decoration: none;
-    font-size: 0.95em;
-  }
+.nav-label {
+  display: inline-block;
+  margin: 0.25em 0.35em 0.25em 0;
+  padding: 0.25em 0;
+  color: #555;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 0.25em 0.55em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #222;
+  background: #fafafa;
+  text-decoration: none;
+  font-size: 0.95em;
+}
 
   .main-nav a:hover {
     background: #f0f0f0;
@@ -369,21 +378,21 @@ li {
 
  <nav class="main-nav" aria-label="Главна навигација">
   <div class="nav-group">
+    <span class="nav-label">Профил</span>
     <a href="#biografija">Биографија</a>
     <a href="#biography">Biography</a>
     <a href="#profiles">Академски профили</a>
     <a href="#authority-identifiers">Идентификатори</a>
     <a href="#official-profile">Службена страница</a>
     <a href="#awards">Награде</a>
-    <a href="#selected-works">Изабрана дела / Selected Works</a>
-    <a href="/knowledge-graph/">Knowledge Graph</a>
-    <a href="/data/">Подаци / Data</a>
-    <a href="/knowledge-graph/method.html">Метод / Method</a>
+    <a href="#kontakt">Контакт</a>
   </div>
 
   <div class="nav-group">
+    <span class="nav-label">Радови</span>
+    <a href="#selected-works">Изабрана дела / Selected Works</a>
     <a href="#bibliografija">Библиографија</a>
-    <a href="#reviews-of-books">Прикази на књиге</a>
+    <a href="#reviews-of-books">Прикази књига</a>
     <a href="#reviews-by-author">Рецензије</a>
     <a href="#newspaper-articles">Новински чланци</a>
     <a href="#serials">Фељтони</a>
@@ -391,7 +400,13 @@ li {
     <a href="#online-articles">Интернет чланци</a>
     <a href="#av-interviews">ТВ, радио и подкаст</a>
     <a href="#public-appearances">Јавни наступи</a>
-    <a href="#kontakt">Контакт</a>
+  </div>
+
+  <div class="nav-group">
+    <span class="nav-label">Дигитална инфраструктура</span>
+    <a href="/knowledge-graph/">Knowledge Graph</a>
+    <a href="/data/">Подаци / Data</a>
+    <a href="/knowledge-graph/method.html">Метод / Method</a>
   </div>
 </nav>
 
