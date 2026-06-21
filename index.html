@@ -23,7 +23,7 @@
 
 <!-- Open Graph metadata -->
 <meta property="og:title" content="Милош Тимотијевић | Miloš Timotijević">
-<meta property="og:description" content="Биографија, академски профили, библиографија и јавни професионални рад историчара Милоша Тимотијевића.">
+<meta property="og:description" content="ја, академски профили, библиографија и јавни професионални рад историчара Милоша Тимотијевића.">
 <meta property="og:type" content="profile">
 <meta property="og:url" content="https://milos-timotijevic.github.io/">
 <meta property="og:locale" content="sr_RS">
@@ -121,11 +121,23 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.45em 0.7em;
-  margin-bottom: 0.55em;
+  margin-bottom: 1em;
 }
 
 .nav-group:last-child {
   margin-bottom: 0;
+}
+
+.nav-label {
+  flex-basis: 100%;
+  display: block;
+  margin: 0.25em 0 0.15em 0;
+  padding-bottom: 0.2em;
+  color: #222;
+  font-size: 0.92em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .nav-label {
@@ -378,33 +390,32 @@ li {
 
  <nav class="main-nav" aria-label="Главна навигација">
   <div class="nav-group">
-    <span class="nav-label">Профил</span>
-    <a href="#biografija">Биографија</a>
-    <a href="#biography">Biography</a>
-    <a href="#profiles">Академски профили</a>
-    <a href="#authority-identifiers">Идентификатори</a>
-    <a href="#official-profile">Службена страница</a>
-    <a href="#awards">Награде</a>
-    <a href="#kontakt">Контакт</a>
+    <span class="nav-label">Профил / Profile</span>
+    <a href="#biografija">Биографија / Biography</a>
+    <a href="#profiles">Академски профили / Academic Profiles</a>
+    <a href="#authority-identifiers">Идентификатори / Identifiers</a>
+    <a href="#official-profile">Службена страница / Official Profile</a>
+    <a href="#awards">Награде / Awards</a>
+    <a href="#kontakt">Контакт / Contact</a>
   </div>
 
   <div class="nav-group">
-    <span class="nav-label">Радови</span>
+    <span class="nav-label">Радови / Works</span>
     <a href="#selected-works">Изабрана дела / Selected Works</a>
-    <a href="#bibliografija">Библиографија</a>
-    <a href="#reviews-of-books">Прикази књига</a>
-    <a href="#reviews-by-author">Рецензије</a>
-    <a href="#newspaper-articles">Новински чланци</a>
-    <a href="#serials">Фељтони</a>
-    <a href="#interviews">Интервјуи</a>
-    <a href="#online-articles">Интернет чланци</a>
-    <a href="#av-interviews">ТВ, радио и подкаст</a>
-    <a href="#public-appearances">Јавни наступи</a>
+    <a href="#bibliografija">Библиографија / Bibliography</a>
+    <a href="#reviews-of-books">Прикази књига / Book Reviews</a>
+    <a href="#reviews-by-author">Рецензије / Reviews</a>
+    <a href="#newspaper-articles">Новински чланци / Newspaper Articles</a>
+    <a href="#serials">Фељтони / Serials</a>
+    <a href="#interviews">Интервјуи / Interviews</a>
+    <a href="#online-articles">Интернет чланци / Online Articles</a>
+    <a href="#av-interviews">ТВ, радио и подкаст / TV, Radio and Podcast</a>
+    <a href="#public-appearances">Јавни наступи / Public Appearances</a>
   </div>
 
   <div class="nav-group">
-    <span class="nav-label">Дигитална инфраструктура</span>
-    <a href="/knowledge-graph/">Knowledge Graph</a>
+    <span class="nav-label">Дигитална инфраструктура / Digital Infrastructure</span>
+    <a href="/knowledge-graph/">Граф знања / Knowledge Graph</a>
     <a href="/data/">Подаци / Data</a>
     <a href="/knowledge-graph/method.html">Метод / Method</a>
   </div>
