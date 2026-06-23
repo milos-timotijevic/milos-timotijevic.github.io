@@ -33,6 +33,17 @@
     .data-card p { margin: 0.45em 0; }
     .download-list { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 1em 1.2em; margin: 1em 0 1.5em 0; }
     .download-list ul { margin-top: 0.5em; }
+    .license-box {
+  background: #fbfbfb;
+  border: 1px solid #e2e2e2;
+  border-left: 4px solid #777;
+  padding: 1em;
+  margin: 1.5em 0 2em 0;
+}
+
+.license-box p {
+  margin: 0.45em 0;
+}
     .citation-box { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 1em; margin: 1em 0 1.5em 0; }
     .links { display: block; margin-top: 0.5em; font-size: 0.96em; }
     .keywords { color: #333; }
@@ -94,6 +105,30 @@
       }
     ]
   },
+    "mainEntity": {
+  "@type": "Dataset",
+  "name": "Selected Publications of Miloš Timotijević",
+  "alternateName": "Изабране публикације Милоша Тимотијевића",
+  "version": "0.1",
+  "datePublished": "2026-06-20",
+  "dateModified": "2026-06-20",
+  "description": "Табеларни извоз података о изабраним публикацијама Милоша Тимотијевића, са приступним странама, DOI бројевима, Zenodo записима, Wikidata ставкама, COBISS записима и истраживачким кластерима.",
+  "creator": {
+    "@type": "Person",
+    "name": "Miloš Timotijević",
+    "sameAs": "https://orcid.org/0000-0002-0457-6125"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "encodingFormat": "text/csv",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "publications.csv",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://milos-timotijevic.github.io/data/publications.csv"
+    }
+  ]
+}
   "about": [
     "open data",
     "digital humanities",
@@ -179,6 +214,35 @@
       Напомена: фајл се постепено допуњује. Прва верзија обухвата само проверене јединице са приступним странама и основним идентификаторима.
     </p>
   </div>
+</section>
+
+  <section class="license-box">
+  <h2>Лиценца и услови употребе / License and Reuse</h2>
+
+  <p>
+    <strong>Метаподаци:</strong>
+    отворени су за употребу под лиценцом
+    <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">
+      Creative Commons Attribution 4.0 International (CC BY 4.0)
+    </a>,
+    уз навођење извора.
+  </p>
+
+  <p>
+    <strong>Пуни текстови, фотографије и илустрације:</strong>
+    нису обухваћени овом лиценцом. За њих важе права аутора, издавача,
+    установа, репозиторијума и других носилаца права.
+  </p>
+
+  <p lang="en">
+    <strong>Metadata:</strong>
+    may be reused under the
+    <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">
+      Creative Commons Attribution 4.0 International License (CC BY 4.0)
+    </a>,
+    with attribution. Full texts, photographs and illustrations are not covered by this license;
+    they remain subject to the rights of authors, publishers, institutions, repositories and other rights holders.
+  </p>
 </section>
 
 <section>
@@ -285,9 +349,21 @@
         <td>Енглески наслов публикације, ако постоји.</td>
       </tr>
       <tr>
-        <td><code>doi</code></td>
-        <td>Главни DOI или DOI доступне репозиторијумске верзије, у складу са напоменом на приступној страни.</td>
-      </tr>
+  <td><code>doi_work_or_edition</code></td>
+  <td>DOI који се односи на дело, публикацију или конкретно издање, ако постоји.</td>
+</tr>
+<tr>
+  <td><code>doi_landing_page</code></td>
+  <td>DOI који резолвује на приступну страну публикације на овом сајту, ако је такав модел примењен.</td>
+</tr>
+<tr>
+  <td><code>doi_repository</code></td>
+  <td>DOI репозиторијумске или депоноване верзије публикације, на пример Zenodo записа, ако постоји.</td>
+</tr>
+<tr>
+  <td><code>doi_note</code></td>
+  <td>Кратка напомена о односу DOI бројева, нарочито када постоји више верзија, више записа или могућа недоумица.</td>
+</tr>
       <tr>
         <td><code>landing_page</code></td>
         <td>Приступна страна публикације на овом сајту.</td>
@@ -378,8 +454,13 @@
   <h2>Метаподаци и пуни текстови</h2>
 
   <p>
-    Овај одељак објављује метаподатке, не пуне текстове свих публикација. Метаподаци служе опису, повезивању, провери и проналажењу радова. Права на пуне текстове, фотографије, илустрације и друга ауторска дела остају у складу са правима аутора, издавача, институција и репозиторијума.
-  </p>
+  Овај одељак објављује метаподатке, не пуне текстове свих публикација.
+  Метаподаци служе опису, повезивању, провери и проналажењу радова.
+  Услови употребе метаподатака наведени су у одељку
+  „Лиценца и услови употребе”.
+  Права на пуне текстове, фотографије, илустрације и друга ауторска дела
+  остају у складу са правима аутора, издавача, институција и репозиторијума.
+</p>
 
   <p>
     Када је пуна верзија публикације доступна преко Zenodo-а, институционалног сајта, DOI приступне стране или другог извора, тај линк се наводи у одговарајућој приступној страни и, када је потребно, у табеларном извозу.
@@ -463,9 +544,6 @@
 <p><a href="../knowledge-graph/method.html">Метод / Method</a></p>
 <p><a href="../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
 <p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
-
-</body>
-</html>
 
 </body>
 </html>
