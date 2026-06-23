@@ -97,13 +97,19 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "encodingFormat": "text/csv",
     "distribution": [
-      {
-        "@type": "DataDownload",
-        "name": "publications.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/publications.csv"
-      }
-    ]
+  {
+    "@type": "DataDownload",
+    "name": "publications.csv",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://milos-timotijevic.github.io/data/publications.csv"
+  },
+  {
+    "@type": "DataDownload",
+    "name": "wikidata-items.csv",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://milos-timotijevic.github.io/data/wikidata-items.csv"
+  }
+]
   },
     "mainEntity": {
   "@type": "Dataset",
@@ -191,8 +197,13 @@
   </p>
 
   <p>
-    У првој верзији доступан је основни CSV фајл <code>publications.csv</code>. Остали скупови података могу бити додати касније, када се стабилизују DOI записи, Wikidata ставке и односи у графу знања.
-  </p>
+  У првој верзији доступни су основни CSV фајлови
+  <code>publications.csv</code> и <code>wikidata-items.csv</code>.
+  Први фајл садржи податке о изабраним публикацијама, а други контролни списак
+  Wikidata ставки повезаних са аутором, публикацијама, кластерима и графом знања.
+  Остали скупови података могу бити додати касније, када се стабилизују DOI записи,
+  JSON извоз и односи у графу знања.
+</p>
 </section>
 
 <section>
@@ -200,7 +211,7 @@
 
   <div class="download-list">
     <p>
-      Тренутно доступан скуп података:
+      Тренутно доступни скупови података:
     </p>
 
     <ul>
@@ -208,14 +219,23 @@
         <a href="publications.csv">publications.csv</a> —
         основна табела изабраних публикација / main table of selected publications
       </li>
+
+      <li>
+        <a href="wikidata-items.csv">wikidata-items.csv</a> —
+        контролна табела Wikidata ставки повезаних са аутором, публикацијама,
+        истраживачким кластерима и графом знања /
+        control table of Wikidata items connected with the author, publications,
+        research clusters and the knowledge graph
+      </li>
     </ul>
 
     <p class="small-note">
-      Напомена: фајл се постепено допуњује. Прва верзија обухвата само проверене јединице са приступним странама и основним идентификаторима.
+      Напомена: фајлови се постепено допуњују. Прва верзија обухвата проверене јединице
+      са приступним странама, основним идентификаторима и Wikidata ставкама.
     </p>
   </div>
 </section>
-
+  
   <section class="license-box">
   <h2>Лиценца и услови употребе / License and Reuse</h2>
 
@@ -246,11 +266,13 @@
 </section>
 
 <section>
-  <h2>Планирани скупови података / Planned Data Files</h2>
+  <h2>Доступни и планирани скупови података / Available and Planned Data Files</h2>
 
   <p>
-    Овај одељак може се касније проширити додатним фајловима. Они нису неопходни у првој фази, али омогућавају прецизнију контролу DOI бројева, Wikidata ставки и односа у графу знања.
-  </p>
+  Овај одељак приказује доступне и планиране скупове података. Доступни фајлови
+  могу се одмах преузети, док су остали предвиђени за касније фазе развоја
+  дигиталног корпуса.
+</p>
 
   <div class="data-grid">
     <article class="data-card">
@@ -283,15 +305,17 @@
       </p>
     </article>
 
-    <article class="data-card">
-      <h3>wikidata-items.csv</h3>
-      <p>
-        Будући списак Wikidata ставки за аутора, публикације, издања, кластере и повезане теме, са везом ка приступним странама и DOI записима.
-      </p>
-      <p class="small-note">
-        Планирано / Planned.
-      </p>
-    </article>
+   <article class="data-card">
+  <h3>wikidata-items.csv</h3>
+  <p>
+    Контролна табела Wikidata ставки за аутора, публикације, истраживачке оквире,
+    кластере и повезане теме. Фајл бележи QID, тип ставке, називе, описе,
+    повезане странице сајта, однос према корпусу и статус провере.
+  </p>
+  <p>
+    <a href="wikidata-items.csv">Преузми / Download</a>
+  </p>
+</article>
 
     <article class="data-card">
       <h3>knowledge-graph.csv</h3>
@@ -387,6 +411,88 @@
       <tr>
         <td><code>status</code></td>
         <td>Статус провере података: <code>checked</code>, <code>draft</code>, <code>needs_update</code>, <code>waiting_indexing</code>.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+  <section>
+  <h2>Структура фајла wikidata-items.csv</h2>
+
+  <p>
+    Фајл <code>wikidata-items.csv</code> садржи контролни списак Wikidata ставки
+    повезаних са дигиталним научним корпусом. Један ред представља једну Wikidata
+    ставку: аутора, публикацију, истраживачки оквир, кластер, тему, институцију
+    или друго повезано чвориште.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Колона</th>
+        <th>Значење</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>local_id</code></td>
+        <td>Унутрашња стабилна ознака ставке у оквиру овог сајта.</td>
+      </tr>
+      <tr>
+        <td><code>wikidata_qid</code></td>
+        <td>Wikidata QID идентификатор.</td>
+      </tr>
+      <tr>
+        <td><code>wikidata_url</code></td>
+        <td>Пун линк ка Wikidata ставки.</td>
+      </tr>
+      <tr>
+        <td><code>item_type</code></td>
+        <td>Тип ставке: аутор, публикација, истраживачки оквир, кластер, тема, установа или друго.</td>
+      </tr>
+      <tr>
+        <td><code>label_sr</code></td>
+        <td>Назив ставке на српском језику, када је доступан.</td>
+      </tr>
+      <tr>
+        <td><code>label_en</code></td>
+        <td>Назив ставке на енглеском језику или у латиничном облику.</td>
+      </tr>
+      <tr>
+        <td><code>description_sr</code></td>
+        <td>Кратак опис на српском језику, када је доступан.</td>
+      </tr>
+      <tr>
+        <td><code>description_en</code></td>
+        <td>Кратак опис на енглеском језику.</td>
+      </tr>
+      <tr>
+        <td><code>site_page</code></td>
+        <td>Страница овог сајта на којој се ставка користи или објашњава.</td>
+      </tr>
+      <tr>
+        <td><code>related_publication_id</code></td>
+        <td>Унутрашња ознака повезане публикације, ако се ставка односи на публикацију.</td>
+      </tr>
+      <tr>
+        <td><code>related_cluster_id</code></td>
+        <td>Истраживачки кластер или више кластера са којима је ставка повезана.</td>
+      </tr>
+      <tr>
+        <td><code>relation_to_corpus</code></td>
+        <td>Улога ставке у корпусу: аутор, кластер, публикација, главни оквир, повезана тема и слично.</td>
+      </tr>
+      <tr>
+        <td><code>status</code></td>
+        <td>Статус провере података.</td>
+      </tr>
+      <tr>
+        <td><code>checked_date</code></td>
+        <td>Датум последње провере.</td>
+      </tr>
+      <tr>
+        <td><code>notes</code></td>
+        <td>Кратка напомена о ставци.</td>
       </tr>
     </tbody>
   </table>
