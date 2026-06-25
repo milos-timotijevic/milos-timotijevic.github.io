@@ -1,283 +1,542 @@
-<p class="top-link">
-  <a href="../">← Назад на главну страну / Back to main page</a>
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Уреднички, рецензентски и стручни рад / Editorial, Reviewing and Professional Service</title>
+
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Преглед уредничког, рецензентског и стручног рада Милоша Тимотијевића: уређивање Зборника радова Народног музеја у Чачку, рад у редакцијама, рецензије књига других аутора и чланство у комисијама.">
+  <link rel="canonical" href="https://milos-timotijevic.github.io/professional-service/index.html">
+
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+      max-width: 980px;
+      margin: 40px auto;
+      padding: 0 24px;
+      color: #222;
+      background: #fff;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1.25;
+      color: #111;
+    }
+
+    h1 {
+      font-size: 2.05em;
+      margin-bottom: 0.2em;
+    }
+
+    h2 {
+      margin-top: 2em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.25em;
+    }
+
+    h3 {
+      margin-top: 1.35em;
+      font-size: 1.13em;
+    }
+
+    a {
+      color: #0645ad;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 0.75em 0;
+    }
+
+    ul li,
+    ol li {
+      margin-bottom: 0.65em;
+    }
+
+    .subtitle {
+      font-size: 1.08em;
+      margin-bottom: 1.5em;
+      color: #444;
+    }
+
+    .intro,
+    .note,
+    .identifier-box,
+    .visibility-box,
+    .reader-entry {
+      background: #f8f8f8;
+      border-left: 4px solid #bbb;
+      padding: 1em;
+      margin: 1.5em 0 2em 0;
+    }
+
+    .intro p,
+    .note p,
+    .identifier-box p,
+    .visibility-box p,
+    .reader-entry p {
+      margin: 0.35em 0;
+    }
+
+    .cluster-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+      gap: 1em;
+      margin-top: 1em;
+    }
+
+    .cluster-card {
+      background: #fbfbfb;
+      border: 1px solid #e2e2e2;
+      padding: 1em;
+    }
+
+    .cluster-card h3 {
+      margin-top: 0;
+    }
+
+    .cluster-card p {
+      margin: 0.45em 0;
+    }
+
+    .links {
+      display: block;
+      margin-top: 0.5em;
+      font-size: 0.96em;
+    }
+
+    .reading-path {
+      padding-left: 1.4em;
+    }
+
+    .reading-path li {
+      margin-bottom: 0.9em;
+    }
+
+    .reading-path-title {
+      display: block;
+      font-weight: bold;
+    }
+
+    .reading-path-description {
+      display: block;
+    }
+
+    .reading-path-en {
+      display: block;
+      color: #555;
+      font-size: 0.96em;
+      font-style: italic;
+    }
+
+    .small-note {
+      color: #555;
+      font-size: 0.96em;
+    }
+
+    .editorial-list li,
+    .review-list li,
+    .committee-list li {
+      margin-bottom: 0.85em;
+    }
+
+    .back-link {
+      margin-top: 2.5em;
+      border-top: 1px solid #ddd;
+      padding-top: 1em;
+    }
+
+    .back-to-top {
+      margin-top: 1.8em;
+      text-align: right;
+      font-size: 0.96em;
+    }
+  </style>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Уреднички, рецензентски и стручни рад",
+  "alternateName": "Editorial, Reviewing and Professional Service",
+  "url": "https://milos-timotijevic.github.io/professional-service/index.html",
+  "inLanguage": [
+    "sr",
+    "en"
+  ],
+  "description": "Преглед уредничког, рецензентског и стручног рада Милоша Тимотијевића: уређивање часописа, рад у редакцијама, рецензије књига и публикација других аутора и чланство у комисијама.",
+  "author": {
+    "@type": "Person",
+    "name": "Miloš Timotijević",
+    "alternateName": "Милош Тимотијевић",
+    "sameAs": [
+      "https://orcid.org/0000-0002-0457-6125",
+      "https://www.wikidata.org/wiki/Q112514230",
+      "https://openalex.org/authors/a5072525869"
+    ]
+  },
+  "about": [
+    "editorial work",
+    "professional service",
+    "peer review",
+    "book reviews",
+    "editorial boards",
+    "scholarly service",
+    "museum publications",
+    "historiography",
+    "public history",
+    "cultural heritage"
+  ],
+  "hasPart": [
+    {
+      "@type": "WebPageElement",
+      "name": "Уреднички рад и редакције",
+      "alternateName": "Editorial Work and Editorial Boards",
+      "url": "https://milos-timotijevic.github.io/professional-service/index.html#editorial-work"
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Рецензије књига других аутора",
+      "alternateName": "Reviews of Books by Other Authors",
+      "url": "https://milos-timotijevic.github.io/professional-service/index.html#reviews-by-author"
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Чланство у комисијама",
+      "alternateName": "Committee Memberships",
+      "url": "https://milos-timotijevic.github.io/professional-service/index.html#committee-memberships"
+    }
+  ],
+  "keywords": "Милош Тимотијевић, Miloš Timotijević, уреднички рад, рецензије књига, стручни рад, Зборник радова Народног музеја у Чачку, Ужички зборник, professional service, editorial work, reviewing, historiography, museum publications"
+}
+  </script>
+</head>
+
+<body id="top">
+
+<p>
+  <a href="../index.html">← Назад на главну страну / Back to main page</a>
 </p>
 
-<header>
-  <h1>Уреднички, рецензентски и стручни рад</h1>
-  <p class="subtitle">Editorial, Reviewing and Professional Service</p>
-</header>
+<h1>Уреднички, рецензентски и стручни рад</h1>
+<p><strong>Editorial, Reviewing and Professional Service</strong></p>
 
-<section class="intro" id="intro">
+<p class="subtitle">
+  Уређивање часописа, рад у редакцијама, рецензије публикација и учешће у стручним комисијама<br>
+  <em>Editorial work, editorial boards, publication reviews and professional committee service</em>
+</p>
+
+<section class="reader-entry" aria-labelledby="why-this-page-matters">
+  <h2 id="why-this-page-matters">Зашто ова страница постоји? / Why This Page Matters</h2>
+
   <p>
-    Ова страница доноси преглед уредничког, рецензентског и стручног рада Милоша Тимотијевића у области историографије, музеологије, културне историје, завичајне историје и заштите културног наслеђа.
+    Ова страница издваја део рада Милоша Тимотијевића који није непосредно ауторска библиографија, али је важан за разумевање његовог места у научном, музејском и завичајном пољу.
+  </p>
+
+  <p lang="en">
+    This page presents the part of Miloš Timotijević’s work that is not strictly an author bibliography, but is important for understanding his role in scholarly, museum and local-history fields.
   </p>
 
   <p>
-    Овде нису издвојени ауторски радови, већ послови који показују учешће у ширем научном и стручном животу: уређивање часописа, рад у редакцијама, рецензирање књига и каталога других аутора, стручне оцене и учешће у академским комисијама.
+    Уреднички рад, рецензије публикација других аутора и учешће у комисијама показују поверење институција, стручну процену рукописа и учешће у обликовању научне и музејске продукције.
+  </p>
+
+  <p lang="en">
+    Editorial work, reviews of other authors’ publications and committee memberships show institutional trust, professional evaluation of manuscripts and participation in shaping scholarly and museum production.
+  </p>
+</section>
+
+<section class="intro">
+  <h2>Шта је обухваћено? / What Is Included?</h2>
+
+  <p>
+    Страница обухвата уреднички рад, рад у редакцијама, рецензије књига, зборника, каталога и монографских публикација других аутора, као и чланство у академским и стручним комисијама.
   </p>
 
   <p>
-    Та врста рада обично остаје мање видљива од књига и чланака, али је важна за разумевање стручног ауторитета, институционалног поверења и улоге у обликовању историографске, музејске и завичајне продукције.
+    Ови подаци су издвојени од главне библиографије како би се јасније видело шта припада ауторском опусу, а шта ширем професионалном и институционалном раду.
+  </p>
+
+  <p lang="en">
+    The page includes editorial work, editorial board memberships, reviews of books, proceedings, catalogues and monographic publications by other authors, as well as membership in academic and professional committees.
+  </p>
+
+  <p lang="en">
+    These data are separated from the main bibliography in order to distinguish more clearly between authored works and broader professional and institutional service.
   </p>
 </section>
 
-<section class="contents" id="contents">
-  <h2>Садржај / Contents</h2>
+<section>
+  <h2 id="how-to-read">Како читати ову страницу / How to Read This Page</h2>
 
-  <ul>
-    <li><a href="#editorial-work">Уреднички рад и редакције / Editorial Work and Editorial Boards</a></li>
-    <li><a href="#reviews-by-author">Рецензије књига других аутора / Reviews of Books by Other Authors</a></li>
-    <li><a href="#committee-memberships">Чланство у комисијама / Committee Memberships</a></li>
-    <li><a href="#other-professional-service">Остали стручни ангажмани / Other Professional Service</a></li>
-  </ul>
+  <ol class="reading-path" aria-label="Како читати страницу о стручном раду">
+    <li>
+      <span class="reading-path-title">Уреднички рад</span>
+      <span class="reading-path-description">Најпре су наведени уређивање <em>Зборника радова Народног музеја у Чачку</em> и чланство у редакцијама.</span>
+      <span class="reading-path-en" lang="en">Editorial work: first comes the editing of the <em>Journal of the National Museum in Čačak</em> and editorial board service.</span>
+    </li>
+
+    <li>
+      <span class="reading-path-title">Рецензије публикација</span>
+      <span class="reading-path-description">Затим следи хронолошки списак књига и других публикација за које су писане рецензије, предговори или стручне оцене.</span>
+      <span class="reading-path-en" lang="en">Publication reviews: a chronological list of books and other publications for which reviews, forewords or professional evaluations were written.</span>
+    </li>
+
+    <li>
+      <span class="reading-path-title">Комисије</span>
+      <span class="reading-path-description">На крају су издвојени академски и стручни поступци у којима је Тимотијевић учествовао као члан комисије.</span>
+      <span class="reading-path-en" lang="en">Committees: academic and professional procedures in which Timotijević served as a committee member.</span>
+    </li>
+  </ol>
 </section>
 
-<section class="service-grid" aria-label="Преглед стручног рада">
-  <article class="service-card">
-    <h3>Уређивање часописа</h3>
-    <p>
-      Уређивање бројева Зборника радова Народног музеја у Чачку и рад у редакцијама стручних публикација.
-    </p>
-  </article>
+<section>
+  <h2>Преглед стручног рада / Overview of Professional Service</h2>
 
-  <article class="service-card">
-    <h3>Рецензије публикација</h3>
-    <p>
-      Рецензије, предговори и стручне оцене књига, зборника, каталога и монографских издања других аутора.
-    </p>
-  </article>
+  <p class="small-note">
+    Овај преглед служи као брза оријентација пре детаљних спискова.
+  </p>
 
-  <article class="service-card">
-    <h3>Академске комисије</h3>
-    <p>
-      Учешће у комисијама за оцену и одбрану докторских дисертација и другим стручним поступцима.
-    </p>
-  </article>
+  <p class="small-note" lang="en">
+    This overview provides a quick orientation before the detailed lists.
+  </p>
+
+  <div class="cluster-grid">
+    <article class="cluster-card">
+      <h3>Уреднички рад<br><em>Editorial Work</em></h3>
+
+      <p>
+        Уређивање <em>Зборника радова Народног музеја у Чачку</em> од двоброја 52/53 и рад у редакцијама стручних публикација.
+      </p>
+
+      <p lang="en">
+        <em>Editing the Journal of the National Museum in Čačak from double issue 52/53 and serving on editorial boards.</em>
+      </p>
+
+      <p class="links">
+        <a href="#editorial-work">Види одељак / See section</a>
+      </p>
+    </article>
+
+    <article class="cluster-card">
+      <h3>Рецензије публикација<br><em>Publication Reviews</em></h3>
+
+      <p>
+        Рецензије, предговори и стручне оцене књига, зборника, каталога и монографских издања других аутора.
+      </p>
+
+      <p lang="en">
+        <em>Reviews, forewords and professional evaluations of books, proceedings, catalogues and monographic publications by other authors.</em>
+      </p>
+
+      <p class="links">
+        <a href="#reviews-by-author">Види одељак / See section</a>
+      </p>
+    </article>
+
+    <article class="cluster-card">
+      <h3>Комисије<br><em>Committees</em></h3>
+
+      <p>
+        Учешће у комисијама за одбрану докторских дисертација и другим академским и стручним поступцима.
+      </p>
+
+      <p lang="en">
+        <em>Membership in dissertation defence committees and other academic and professional procedures.</em>
+      </p>
+
+      <p class="links">
+        <a href="#committee-memberships">Види одељак / See section</a>
+      </p>
+    </article>
+  </div>
 </section>
 
-<main>
+<section id="editorial-work">
+  <h2>Уреднички рад и редакције / Editorial Work and Editorial Boards</h2>
 
-  <section id="editorial-work">
-    <h2>Уреднички рад и редакције / Editorial Work and Editorial Boards</h2>
-
+  <div class="visibility-box">
     <p>
-      Милош Тимотијевић је уредник <em>Зборника радова Народног музеја у Чачку</em> од двоброја 52/53. Његов уреднички рад обухвата припрему и обликовање часописних бројева, рад са ауторима и рецензентима, као и усклађивање публикације са научним, библиографским и техничким стандардима.
+      Милош Тимотијевић је уредник <em>Зборника радова Народног музеја у Чачку</em> од двоброја 52/53.
     </p>
 
     <p>
       Од 2023. године члан је редакције <em>Ужичког зборника</em>.
     </p>
 
-    <ol>
-      <li>
-        <strong>Зборник радова Народног музеја у Чачку, двоброј 52/53</strong> — уредник.
-        <div class="links-inline">
-          <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_53.html">Страница двоброја 52/53</a>
-        </div>
-      </li>
-
-      <li>
-        <strong>Зборник радова Народног музеја у Чачку, број 54</strong> — уредник.
-        <div class="links-inline">
-          <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_54.html">Страница броја 54</a>
-        </div>
-      </li>
-
-      <li>
-        <strong>Зборник радова Народног музеја у Чачку, број 55</strong> — уредник.
-        <div class="links-inline">
-          <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_55.html">Страница броја 55</a>
-        </div>
-      </li>
-
-      <li>
-        <strong>Зборник радова Народног музеја у Чачку, број 56</strong> — уредник.
-        <div class="links-inline">
-          <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_56.html">Страница броја 56</a>
-        </div>
-      </li>
-
-      <li>
-        <strong>Архива Зборника радова Народног музеја у Чачку</strong>
-        <div class="links-inline">
-          <a href="https://zbornik.cacakmuzej.org.rs/arhiva.html">Архива свих бројева</a>
-        </div>
-      </li>
-
-      <li>
-        <strong>Ужички зборник</strong> — члан редакције од 2023. године.
-      </li>
-    </ol>
-  </section>
-
-  <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
-
-  <section id="reviews-by-author">
-    <h2>Рецензије књига других аутора / Reviews of Books by Other Authors</h2>
-
-    <p>
-      Овај одељак доноси списак књига, зборника и монографских публикација других аутора и приређивача за које је Милош Тимотијевић писао рецензије, предговоре или стручне оцене.
+    <p lang="en">
+      Miloš Timotijević has been editor of the <em>Journal of the National Museum in Čačak</em> since double issue 52/53.
     </p>
 
-    <ol>
-      <li>
-        <em>Обреновићи у музејским и другим збиркама Србије I</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2013).
-      </li>
+    <p lang="en">
+      Since 2023, he has been a member of the editorial board of the <em>Užice Journal</em>.
+    </p>
+  </div>
 
-      <li>
-        <em>Обреновићи у музејским и другим збиркама Србије II</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2014).
-      </li>
+  <ol class="editorial-list">
+    <li>
+      <strong><em>Зборник радова Народног музеја у Чачку</em>, двоброј 52/53</strong> — уредник.
+      <span class="links">
+        <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_53.html">Страница двоброја 52/53 / Double issue 52/53</a>
+      </span>
+    </li>
 
-      <li>
-        Живко Перишић, <em>Сачувана огњишта: Леушићи</em> (Горњи Милановац: Културни центар, 2014).
-      </li>
+    <li>
+      <strong><em>Зборник радова Народног музеја у Чачку</em>, број 54</strong> — уредник.
+      <span class="links">
+        <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_54.html">Страница броја 54 / Issue 54</a>
+      </span>
+    </li>
 
-      <li>
-        <em>Обреновићи у музејским и другим збиркама Србије III</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2015).
-      </li>
+    <li>
+      <strong><em>Зборник радова Народног музеја у Чачку</em>, број 55</strong> — уредник.
+      <span class="links">
+        <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_55.html">Страница броја 55 / Issue 55</a>
+      </span>
+    </li>
 
-      <li>
-        Слађана Луковић, Светислав Љ. Марковић, <em>Западноморавски рудници угља</em> (Чачак: Међуопштински историјски архив, 2015).
-      </li>
+    <li>
+      <strong><em>Зборник радова Народног музеја у Чачку</em>, број 56</strong> — уредник.
+      <span class="links">
+        <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_56.html">Страница броја 56 / Issue 56</a>
+      </span>
+    </li>
 
-      <li>
-        Ивица Тодоровић, <em>Српска тајна: експериментална разматрања специфичних структурних и семантичких образаца</em> (Београд: Невен; Етнографски институт САНУ, 2015).
-      </li>
+    <li>
+      <strong>Архива <em>Зборника радова Народног музеја у Чачку</em></strong>
+      <span class="links">
+        <a href="https://zbornik.cacakmuzej.org.rs/arhiva.html">Архива свих бројева / Archive of all issues</a>
+      </span>
+    </li>
 
-      <li>
-        <em>Обреновићи у музејским и другим збиркама Србије IV</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2016).
-      </li>
+    <li>
+      <strong><em>Ужички зборник</em></strong> — члан редакције од 2023. године.
+    </li>
+  </ol>
+</section>
 
-      <li>
-        Маријана Матовић, <em>Јермени у Чачку: 1885–1950</em> (Чачак: Народни музеј Чачак, 2017).
-      </li>
+<p class="back-to-top">
+  <a href="#top">↑ На врх / Back to top</a>
+</p>
 
-      <li>
-        Виктор Бејатовић, <em>Лепеза смрти: вишедисциплинарни приступ ратном злочину у Крагујевцу октобра 1941</em> (Крагујевац: Спомен-парк Крагујевачки октобар, 2017).
-      </li>
+<section id="reviews-by-author">
+  <h2>Рецензије књига других аутора / Reviews of Books by Other Authors</h2>
 
-      <li>
-        <em>Обреновићи у музејским и другим збиркама Србије V</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2018).
-      </li>
+  <p>
+    Овај одељак доноси списак књига, зборника и монографских публикација других аутора и приређивача за које је Милош Тимотијевић писао рецензије, предговоре или стручне оцене.
+  </p>
 
-      <li>
-        Саша Савовић, <em>Крст у дубу: записи и закрштена стабла рудничко-таковског краја</em> (Горњи Милановац: Музеј рудничко-таковског краја; Удружење ликовних и примењених уметника, 2019).
-      </li>
+  <p lang="en">
+    This section lists books, proceedings and monographic publications by other authors and editors for which Miloš Timotijević wrote reviews, forewords or professional evaluations.
+  </p>
 
-      <li>
-        Владимир Димитријевић, <em>Из епа у филм: Владимир Вујић</em> (Краљево: Народна библиотека „Стефан Првовенчани”, 2019).
-      </li>
+  <ol class="review-list">
+    <li><em>Обреновићи у музејским и другим збиркама Србије I</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2013).</li>
+    <li><em>Обреновићи у музејским и другим збиркама Србије II</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2014).</li>
+    <li>Живко Перишић, <em>Сачувана огњишта: Леушићи</em> (Горњи Милановац: Културни центар, 2014).</li>
+    <li><em>Обреновићи у музејским и другим збиркама Србије III</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2015).</li>
+    <li>Слађана Луковић, Светислав Љ. Марковић, <em>Западноморавски рудници угља</em> (Чачак: Међуопштински историјски архив, 2015).</li>
+    <li>Ивица Тодоровић, <em>Српска тајна: експериментална разматрања специфичних структурних и семантичких образаца</em> (Београд: Невен; Етнографски институт САНУ, 2015).</li>
+    <li><em>Обреновићи у музејским и другим збиркама Србије IV</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2016).</li>
+    <li>Маријана Матовић, <em>Јермени у Чачку: 1885–1950</em> (Чачак: Народни музеј Чачак, 2017).</li>
+    <li>Виктор Бејатовић, <em>Лепеза смрти: вишедисциплинарни приступ ратном злочину у Крагујевцу октобра 1941</em> (Крагујевац: Спомен-парк Крагујевачки октобар, 2017).</li>
+    <li><em>Обреновићи у музејским и другим збиркама Србије V</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2018).</li>
+    <li>Саша Савовић, <em>Крст у дубу: записи и закрштена стабла рудничко-таковског краја</em> (Горњи Милановац: Музеј рудничко-таковског краја; Удружење ликовних и примењених уметника, 2019).</li>
+    <li>Владимир Димитријевић, <em>Из епа у филм: Владимир Вујић</em> (Краљево: Народна библиотека „Стефан Првовенчани”, 2019).</li>
+    <li><em>Обреновићи у музејским и другим збиркама Србије VI</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2020).</li>
+    <li>Драгана Божовић, <em>Породица Надежде Петровић кроз 19. век</em> (Чачак: Уметничка галерија „Надежда Петровић”, 2020).</li>
+    <li>Раде Ристановић, <em>Београдски равногорци 1941–1944</em> (Београд: Институт за савремену историју, 2020).</li>
+    <li>Милутин Живковић, <em>Стара Рашка под италијанском окупацијом 1941–1943</em>, књ. 1–2 (Београд: Catena mundi; Институт за савремену историју, 2020).</li>
+    <li>Немања Девић, <em>За Партију и Тита</em> (Београд: Службени гласник; Институт за савремену историју, 2021).</li>
+    <li>Саша Савовић, <em>Кафанска историја Горњег Милановца (1820–1980)</em> (Горњи Милановац: Музеј рудничко-таковског краја; Графопринт, 2021).</li>
+    <li>Радоје Јанковић, <em>Како је убијана Краљевина Југославија</em>, прир. Даница Оташевић (Нови Сад: Прометеј; Чачак: Градска библиотека „Владислав Петковић Дис”, 2021).</li>
+    <li>Миодраг Даниловић, <em>Фрагменти породичне хронике</em> (Горњи Милановац: Графопринт, 2021).</li>
+    <li>Владимир Димитријевић, <em>Југословенски месијанизам и српско становиште</em> (Београд: Институт за књижевност и уметност, 2022).</li>
+    <li>Владимир Димитријевић, <em>Олтарски простори српске књижевности</em> (Београд: Добротољубље, 2022).</li>
+    <li><em>Обреновићи у музејским и другим збиркама Србије VII</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2022).</li>
+    <li>Радојле Маркићевић, <em>Затирањем српског постојања комунисти писали историју</em> (Сремска Митровица: Удружење културних стваралаца Србије „Завичај”, 2022).</li>
+    <li>Слободан Јаковљевић, <em>У светом и свечасном храму овом</em> (Краљево: Епархија жичка, 2023).</li>
+    <li>Борис Томанић, <em>Равногорски записи: четнички дневници и мемоарске белешке као извор за историју Другог светског рата</em> (Београд: Институт за савремену историју; Catena mundi, 2023).</li>
+    <li>Добрило Аранитовић, <em>Старовлашке теме</em> (Земун: Д. Аранитовић, 2024).</li>
+    <li>Вук Даутовић, Слободан Јаковљевић, <em>Ризница Саборне цркве у Чачку</em> (Чачак–Краљево: Епархија жичка, 2024).</li>
+    <li>Зоран А. Живановић, <em>Бој на Свилеуви</em> (Коцељева: Завичајни музеј, 2024).</li>
+  </ol>
+</section>
 
-      <li>
-        <em>Обреновићи у музејским и другим збиркама Србије VI</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2020).
-      </li>
+<p class="back-to-top">
+  <a href="#top">↑ На врх / Back to top</a>
+</p>
 
-      <li>
-        Драгана Божовић, <em>Породица Надежде Петровић кроз 19. век</em> (Чачак: Уметничка галерија „Надежда Петровић”, 2020).
-      </li>
+<section id="committee-memberships">
+  <h2>Чланство у комисијама / Committee Memberships</h2>
 
-      <li>
-        Раде Ристановић, <em>Београдски равногорци 1941–1944</em> (Београд: Институт за савремену историју, 2020).
-      </li>
+  <p>
+    Овај одељак издваја учешће у академским и стручним комисијама.
+  </p>
 
-      <li>
-        Милутин Живковић, <em>Стара Рашка под италијанском окупацијом 1941–1943</em>, књ. 1–2 (Београд: Catena mundi; Институт за савремену историју, 2020).
-      </li>
+  <p lang="en">
+    This section records participation in academic and professional committees.
+  </p>
 
-      <li>
-        Немања Девић, <em>За Партију и Тита</em> (Београд: Службени гласник; Институт за савремену историју, 2021).
-      </li>
+  <ol class="committee-list">
+    <li>
+      Милош Тимотијевић, члан комисије за одбрану докторске дисертације Владимира Тодића,
+      <em>Постсоцијалистичка транзиција власти на Балкану – случај две престонице: Београд и Софија деведесетих година 20. века</em>,
+      Филозофски факултет Универзитета у Београду, 2020.
+    </li>
+  </ol>
+</section>
 
-      <li>
-        Саша Савовић, <em>Кафанска историја Горњег Милановца (1820–1980)</em> (Горњи Милановац: Музеј рудничко-таковског краја; Графопринт, 2021).
-      </li>
+<p class="back-to-top">
+  <a href="#top">↑ На врх / Back to top</a>
+</p>
 
-      <li>
-        Радоје Јанковић, <em>Како је убијана Краљевина Југославија</em>, прир. Даница Оташевић (Нови Сад: Прометеј; Чачак: Градска библиотека „Владислав Петковић Дис”, 2021).
-      </li>
+<section id="other-professional-service">
+  <h2>Остали стручни ангажмани / Other Professional Service</h2>
 
-      <li>
-        Миодраг Даниловић, <em>Фрагменти породичне хронике</em> (Горњи Милановац: Графопринт, 2021).
-      </li>
-
-      <li>
-        Владимир Димитријевић, <em>Југословенски месијанизам и српско становиште</em> (Београд: Институт за књижевност и уметност, 2022).
-      </li>
-
-      <li>
-        Владимир Димитријевић, <em>Олтарски простори српске књижевности</em> (Београд: Добротољубље, 2022).
-      </li>
-
-      <li>
-        <em>Обреновићи у музејским и другим збиркама Србије VII</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2022).
-      </li>
-
-      <li>
-        Радојле Маркићевић, <em>Затирањем српског постојања комунисти писали историју</em> (Сремска Митровица: Удружење културних стваралаца Србије „Завичај”, 2022).
-      </li>
-
-      <li>
-        Слободан Јаковљевић, <em>У светом и свечасном храму овом</em> (Краљево: Епархија жичка, 2023).
-      </li>
-
-      <li>
-        Борис Томанић, <em>Равногорски записи: четнички дневници и мемоарске белешке као извор за историју Другог светског рата</em> (Београд: Институт за савремену историју; Catena mundi, 2023).
-      </li>
-
-      <li>
-        Добрило Аранитовић, <em>Старовлашке теме</em> (Земун: Д. Аранитовић, 2024).
-      </li>
-
-      <li>
-        Вук Даутовић, Слободан Јаковљевић, <em>Ризница Саборне цркве у Чачку</em> (Чачак–Краљево: Епархија жичка, 2024).
-      </li>
-
-      <li>
-        Зоран А. Живановић, <em>Бој на Свилеуви</em> (Коцељева: Завичајни музеј, 2024).
-      </li>
-    </ol>
-  </section>
-
-  <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
-
-  <section id="committee-memberships">
-    <h2>Чланство у комисијама / Committee Memberships</h2>
-
+  <div class="note">
     <p>
-      Овај одељак издваја учешће у академским и стручним комисијама. За сада је наведена потврђена комисија за одбрану докторске дисертације.
+      У овај одељак могу се накнадно уносити стручне комисије, савети, оцене пројеката, учешћа у припреми изложби других аутора, као и други послови који не припадају непосредно ауторској библиографији.
     </p>
 
-    <ol>
-      <li>
-        Милош Тимотијевић, члан комисије за одбрану докторске дисертације Владимира Тодића,
-        <em>Постсоцијалистичка транзиција власти на Балкану – случај две престонице: Београд и Софија деведесетих година 20. века</em>,
-        Филозофски факултет Универзитета у Београду, 2020.
-      </li>
-    </ol>
-  </section>
-
-  <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
-
-  <section id="other-professional-service">
-    <h2>Остали стручни ангажмани / Other Professional Service</h2>
-
     <p>
-      У овај одељак могу се накнадно уносити стручне комисије, савети, оцене пројеката, учешћа у припреми изложби других аутора, као и други послови који не припадају непосредно ауторској библиографији, али показују стручни рад у институцијама културе, науке и јавне историје.
-    </p>
-
-    <p class="note">
       Одељак је остављен као отворена целина, како би се страница могла допуњавати без мењања њене основне структуре.
     </p>
-  </section>
 
-</main>
+    <p lang="en">
+      This section may later include professional committees, advisory roles, project evaluations, participation in exhibitions by other authors and other forms of professional service outside the direct author bibliography.
+    </p>
+  </div>
+</section>
 
-<footer>
-  <p>
-    Милош Тимотијевић — уреднички, рецензентски и стручни рад / Miloš Timotijević — editorial, reviewing and professional service.
-  </p>
+<section id="core-identifiers" class="identifier-box">
+  <h2>Основни идентификатори / Core Identifiers</h2>
 
-  <p>
-    <a href="../">← Назад на главну страну / Back to main page</a>
-  </p>
-</footer>
+  <ul>
+    <li><strong>Author ORCID:</strong> <a href="https://orcid.org/0000-0002-0457-6125">0000-0002-0457-6125</a></li>
+    <li><strong>Author Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q112514230">Q112514230 — Miloš Timotijević</a></li>
+    <li><strong>OpenAlex author profile:</strong> <a href="https://openalex.org/authors/a5072525869">A5072525869</a></li>
+    <li><strong>Main website:</strong> <a href="https://milos-timotijevic.github.io/">milos-timotijevic.github.io</a></li>
+  </ul>
+</section>
+
+<p class="back-link">
+  <a href="#top">↑ На врх / Back to top</a>
+</p>
+
+<p>
+  <a href="../index.html">← Назад на главну страну / Back to main page</a>
+</p>
+
+</body>
+</html>
