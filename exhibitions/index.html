@@ -167,17 +167,47 @@
       font-size: 0.96em;
     }
 
-    .exhibition-list li {
-      margin-bottom: 1.2em;
+    .exhibition-list {
+      padding-left: 1.35em;
+    }
+
+    .exhibition-list > li {
+      margin-bottom: 2em;
+      padding-bottom: 1.2em;
+      border-bottom: 1px solid #eee;
+    }
+
+    .exhibition-list > li:last-child {
+      border-bottom: none;
+    }
+
+    .exhibition-title {
+      font-size: 1.22em;
+      margin: 0 0 0.25em 0;
+      font-weight: bold;
+      color: #111;
+    }
+
+    .exhibition-title em {
+      font-style: normal;
+    }
+
+    .exhibition-meta {
+      margin: 0.15em 0 0.75em 0;
+      color: #333;
     }
 
     .exhibition-description {
-      margin-top: 0.55em;
+      margin-top: 0.65em;
       color: #333;
     }
 
     .exhibition-description p {
-      margin: 0.4em 0;
+      margin: 0.45em 0;
+    }
+
+    .exhibition-description p[lang="en"] {
+      color: #555;
     }
 
     .without-catalogue {
@@ -283,7 +313,7 @@
     <li><a href="../book-reviews/index.html">Прикази књига / Book Reviews</a></li>
     <li><a href="../professional-service/index.html">Стручни рад / Professional Service</a></li>
     <li><a href="../knowledge-graph/index.html">Граф знања / Knowledge Graph</a></li>
-    <li><a href="../research/cultural-heritage-museums-public-history.html">Музеји и јавно наслеђе / Museums and Public History</a></li>
+    <li><a href="../knowledge-graph/research/cultural-heritage-museums-public-history.html">Музеји и јавно наслеђе / Museums and Public History</a></li>
   </ul>
 </nav>
 
@@ -476,8 +506,12 @@
 
   <ol class="exhibition-list">
     <li>
-      Милош Тимотијевић, Милан Лишанчић, <em>Музеј кошарке</em>,
-      Соколана у Чачку, почетна поставка завршена септембра 2025.
+      <h3 class="exhibition-title"><em>Музеј кошарке</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Милан Лишанчић, Соколана у Чачку,
+        почетна поставка завршена септембра 2025.
+      </p>
 
       <div class="exhibition-description">
         <p>
@@ -540,8 +574,12 @@
 
   <ol class="exhibition-list">
     <li>
-      Милош Тимотијевић, <em>Општина Чачак и њени председници 1918–1941</em>,
-      Галерија Народног музеја у Чачку, март–септембар 1999.
+      <h3 class="exhibition-title"><em>Општина Чачак и њени председници 1918–1941</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Галерија Народног музеја у Чачку,
+        март–септембар 1999.
+      </p>
 
       <div class="exhibition-description">
         <p>
@@ -568,8 +606,12 @@
     </li>
 
     <li>
-      Милош Тимотијевић, <em>Соколско друштво у Чачку 1910–1941</em>,
-      Галерија Народног музеја у Чачку, август–октобар 2006.
+      <h3 class="exhibition-title"><em>Соколско друштво у Чачку 1910–1941</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Галерија Народног музеја у Чачку,
+        август–октобар 2006.
+      </p>
 
       <div class="exhibition-description">
         <p>
@@ -599,8 +641,12 @@
     </li>
 
     <li>
-      Милош Тимотијевић, <em>Чачак у доба социјализма</em>,
-      Галерија Народног музеја у Чачку, септембар 2013 – јануар 2014.
+      <h3 class="exhibition-title"><em>Чачак у доба социјализма</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Галерија Народног музеја у Чачку,
+        септембар 2013 – јануар 2014.
+      </p>
 
       <div class="exhibition-description">
         <p>
@@ -629,8 +675,12 @@
     </li>
 
     <li>
-      Милош Тимотијевић, <em>Седамдесет година од победе над фашизмом 1945–2015</em>,
-      Галерија Народног музеја у Чачку, новембар 2015 – јануар 2016.
+      <h3 class="exhibition-title"><em>Седамдесет година од победе над фашизмом 1945–2015</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Галерија Народног музеја у Чачку,
+        новембар 2015 – јануар 2016.
+      </p>
 
       <div class="exhibition-description">
         <p>
@@ -663,10 +713,13 @@
 
   <ol class="exhibition-list">
     <li>
-      Лидија Никитовић, Радивоје Бојовић, Делфина Рајић, Милица Дрињаковић,
-      Снежана Ашанин, Милош Тимотијевић, Ивана Ћирјаковић, Катарина Дмитровић,
-      Дејан Петровић, <em>Пола века Народног музеја у Чачку 1952–2002</em>,
-      Галерија Народног музеја у Чачку, јун–август 2002.
+      <h3 class="exhibition-title"><em>Пола века Народног музеја у Чачку 1952–2002</em></h3>
+
+      <p class="exhibition-meta">
+        Лидија Никитовић, Радивоје Бојовић, Делфина Рајић, Милица Дрињаковић,
+        Снежана Ашанин, Милош Тимотијевић, Ивана Ћирјаковић, Катарина Дмитровић,
+        Дејан Петровић, Галерија Народног музеја у Чачку, јун–август 2002.
+      </p>
 
       <div class="exhibition-description">
         <p>
@@ -693,9 +746,12 @@
     </li>
 
     <li>
-      Делфина Рајић, Радивоје Бојовић, Милош Тимотијевић,
-      <em>Албум старог Чачка 1870–1941</em>,
-      Галерија Народног музеја у Чачку, август–децембар 2010.
+      <h3 class="exhibition-title"><em>Албум старог Чачка 1870–1941</em></h3>
+
+      <p class="exhibition-meta">
+        Делфина Рајић, Радивоје Бојовић, Милош Тимотијевић,
+        Галерија Народног музеја у Чачку, август–децембар 2010.
+      </p>
 
       <div class="exhibition-description">
         <p>
@@ -724,10 +780,13 @@
     </li>
 
     <li>
-      Биљана Чкоњевић, Александра Гојгић, Марина Котарац, Делфина Рајић,
-      Радивоје Бојовић, Милош Тимотијевић, Ивана Ћирјаковић,
-      <em>Благо Народног музеја: истраживања 2002–2012</em>,
-      Галерија Народног музеја у Чачку, август–новембар 2012.
+      <h3 class="exhibition-title"><em>Благо Народног музеја: истраживања 2002–2012</em></h3>
+
+      <p class="exhibition-meta">
+        Биљана Чкоњевић, Александра Гојгић, Марина Котарац, Делфина Рајић,
+        Радивоје Бојовић, Милош Тимотијевић, Ивана Ћирјаковић,
+        Галерија Народног музеја у Чачку, август–новембар 2012.
+      </p>
 
       <div class="exhibition-description">
         <p>
@@ -760,28 +819,41 @@
 
   <ol class="exhibition-list">
     <li>
-      Милош Тимотијевић, <em>Горачићка буна</em>,
-      Дом културе Гуча, август 2003.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Горачићка буна</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Дом културе Гуча, август 2003.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
 
     <li>
-      Милош Тимотијевић, <em>Ранко Тајсић</em>,
-      Дом културе Лучани, август 2003.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Ранко Тајсић</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Дом културе Лучани, август 2003.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
 
     <li>
-      Горан Давидовић, Милош Тимотијевић,
-      <em>Заборављено савезништво – спасавање савезничких авијатичара у Другом светском рату</em>,
-      Галерија Културног центра у Горњем Милановцу, октобар 2004.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Заборављено савезништво – спасавање савезничких авијатичара у Другом светском рату</em></h3>
+
+      <p class="exhibition-meta">
+        Горан Давидовић, Милош Тимотијевић,
+        Галерија Културног центра у Горњем Милановцу, октобар 2004.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
 
     <li>
-      Милош Тимотијевић, <em>Манастири Овчарско-кабларске клисуре</em>,
-      Епархија западноевропска са седиштем у Паризу, јануар–април 2019.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Манастири Овчарско-кабларске клисуре</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Епархија западноевропска са седиштем у Паризу,
+        јануар–април 2019.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
   </ol>
 </section>
@@ -791,30 +863,41 @@
 
   <ol class="exhibition-list">
     <li>
-      Милош Тимотијевић, <em>Дарови генерала Марка Неговановића</em>,
-      Галерија Народног музеја у Чачку, октобар 2007.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Дарови генерала Марка Неговановића</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Галерија Народног музеја у Чачку, октобар 2007.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
 
     <li>
-      Милош Тимотијевић,
-      <em>Дарови Анке Вучковић: заоставштина капетана Звонимира Звонка Вучковића 1916–2004</em>,
-      Галерија Народног музеја у Чачку, март 2017.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Дарови Анке Вучковић: заоставштина капетана Звонимира Звонка Вучковића 1916–2004</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Галерија Народног музеја у Чачку, март 2017.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
 
     <li>
-      Макетарски клуб Чачак, Милош Тимотијевић,
-      <em>Авијација у Чачку 1912–1999: повест испричана кроз макете</em>,
-      Галерија Народног музеја у Чачку, април 2014.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Авијација у Чачку 1912–1999: повест испричана кроз макете</em></h3>
+
+      <p class="exhibition-meta">
+        Макетарски клуб Чачак, Милош Тимотијевић,
+        Галерија Народног музеја у Чачку, април 2014.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
 
     <li>
-      Милош Тимотијевић, Стефан Новичић,
-      <em>Јарослав Кужељ (1846–1928): лекар који је задужио Чачак</em>,
-      Конак Јована Обреновића у Чачку, јун–август 2026.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Јарослав Кужељ (1846–1928): лекар који је задужио Чачак</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Стефан Новичић,
+        Конак Јована Обреновића у Чачку, јун–август 2026.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
   </ol>
 </section>
@@ -824,17 +907,23 @@
 
   <ol class="exhibition-list">
     <li>
-      Милош Тимотијевић, <em>Чачани и Морава</em>,
-      изложба на отвореном простору – Галерија код Западне Мораве,
-      август–септембар 2023.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Чачани и Морава</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, изложба на отвореном простору – Галерија код Западне Мораве,
+        август–септембар 2023.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
 
     <li>
-      Милош Тимотијевић, Милан Лишанчић,
-      <em>Развој кошарке у Србији 1923–2023. и Чачку 1940–2023</em>,
-      Галерија код Западне Мораве, јул 2024 – октобар 2025.
-      <span class="without-catalogue">[без каталога]</span>
+      <h3 class="exhibition-title"><em>Развој кошарке у Србији 1923–2023. и Чачку 1940–2023</em></h3>
+
+      <p class="exhibition-meta">
+        Милош Тимотијевић, Милан Лишанчић, Галерија код Западне Мораве,
+        јул 2024 – октобар 2025.
+        <span class="without-catalogue">[без каталога]</span>
+      </p>
     </li>
   </ol>
 </section>
@@ -845,7 +934,7 @@
   <ul>
     <li><a href="../index.html">Главна страна / Main page</a></li>
     <li><a href="../index.html#catalogues">Каталози / Catalogues</a></li>
-    <li><a href="../research/cultural-heritage-museums-public-history.html">Културно наслеђе, музеји и јавна историја / Cultural Heritage, Museums and Public History</a></li>
+    <li><a href="../knowledge-graph/research/cultural-heritage-museums-public-history.html">Културно наслеђе, музеји и јавна историја / Cultural Heritage, Museums and Public History</a></li>
     <li><a href="../knowledge-graph/index.html">Граф знања / Knowledge Graph</a></li>
     <li><a href="../professional-service/index.html">Уреднички, рецензентски и стручни рад / Editorial, Reviewing and Professional Service</a></li>
   </ul>
