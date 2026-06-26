@@ -340,6 +340,53 @@ li {
 .intro p {
   margin: 0.35em 0;
 }
+      #site-search {
+  margin: 2rem 0;
+  padding: 1.2rem 1.4rem;
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+#site-search h2 {
+  margin-top: 0;
+}
+
+.site-search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.site-search-form label {
+  width: 100%;
+  font-weight: bold;
+}
+
+.site-search-form input[type="search"] {
+  flex: 1 1 320px;
+  padding: 0.6rem 0.7rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.site-search-form button {
+  padding: 0.6rem 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.site-search-form button:hover {
+  background: #eee;
+}
 </style>
   
   <script type="application/ld+json">
@@ -4145,6 +4192,41 @@ li {
     <h2>Контакт / Contact</h2>
     <p>Ауторски контакт: <a href="mailto:slapovi@proton.me">slapovi@proton.me</a></p>
   </section>
+
+  <section id="site-search">
+  <h2>Претрага сајта / Search the site</h2>
+
+  <p>
+    Претрага користи Google и ограничава резултате на странице у оквиру сајта
+    <strong>milos-timotijevic.github.io</strong>.
+  </p>
+
+  <form
+    class="site-search-form"
+    action="https://www.google.com/search"
+    method="get"
+    target="_blank"
+    role="search"
+  >
+    <label for="site-search-query">Унесите појам / Enter search term</label>
+
+    <input
+      id="site-search-query"
+      type="search"
+      name="q"
+      placeholder="нпр. Чачак, Халијард, Надежда Петровић, култура сећања"
+      required
+    >
+
+    <input
+      type="hidden"
+      name="as_sitesearch"
+      value="milos-timotijevic.github.io"
+    >
+
+    <button type="submit">Претражи / Search</button>
+  </form>
+</section>
 
   <footer>
     <p>Последње ажурирање / Last updated: 21. јун 2026 / 21 June 2026.</p>
