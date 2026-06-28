@@ -387,6 +387,46 @@ li {
 .site-search-form button:hover {
   background: #eee;
 }
+
+.entry-points {
+  margin: 2rem 0;
+  padding: 1.2rem 1.4rem;
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.entry-points h2 {
+  margin-top: 0;
+}
+
+.entry-point-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.entry-point-card {
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.entry-point-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.entry-point-card p {
+  margin: 0.45rem 0;
+}
+
+.entry-point-card a {
+  font-weight: bold;
+}
 </style>
   
   <script type="application/ld+json">
@@ -4186,6 +4226,73 @@ li {
       Some digital materials on this website have been prepared with the assistance of artificial intelligence tools, used as a supporting instrument for linguistic, structural, bibliographic and technical editing, including content editing, metadata preparation and the adaptation of materials for digital visibility. All historiographical data, interpretations, source selection, bibliographic records, scholarly conclusions and final editorial decisions remain the responsibility of Miloš Timotijević.
     </p>
   </details>
+</section>
+
+  <section id="entry-points" class="entry-points">
+  <h2>Како користити сајт / How to Use the Site</h2>
+
+  <p>
+    Садржај сајта може се читати на више начина: као библиографија, као тематска мапа,
+    као скуп отворених података, као преглед музејског рада или као увид у уредничке,
+    рецензентске и стручне ангажмане.
+  </p>
+
+  <div class="entry-point-grid">
+    <div class="entry-point-card">
+      <h3>Библиографија / Bibliography</h3>
+      <p>
+        За преглед књига, чланака, каталога, поглавља и радова са скупова.
+      </p>
+      <p>
+        <a href="/books/">Монографије / Books</a> ·
+        <a href="/articles/">Чланци / Articles</a>
+      </p>
+    </div>
+
+    <div class="entry-point-card">
+      <h3>Теме / Research Themes</h3>
+      <p>
+        За читање опуса кроз истраживачке кластере: локална модерност, рат,
+        култура сећања, религија, наслеђе и јавна историја.
+      </p>
+      <p>
+        <a href="/knowledge-graph/">Граф знања / Knowledge Graph</a>
+      </p>
+    </div>
+
+    <div class="entry-point-card">
+      <h3>Подаци / Data</h3>
+      <p>
+        За преузимање и проверу отворених метаподатака о публикацијама,
+        идентификаторима и Wikidata ставкама.
+      </p>
+      <p>
+        <a href="/data/">Подаци / Data</a>
+      </p>
+    </div>
+
+    <div class="entry-point-card">
+      <h3>Музејски рад / Museum Work</h3>
+      <p>
+        За преглед сталних поставки, повремених изложби, изложби на отвореном
+        и других облика музејске јавне историје.
+      </p>
+      <p>
+        <a href="/exhibitions/index.html">Изложбе / Exhibitions</a>
+      </p>
+    </div>
+
+    <div class="entry-point-card">
+      <h3>Стручни рад / Professional Service</h3>
+      <p>
+        За уреднички, рецензентски и стручни рад: редакције, рецензије,
+        комисије и друге професионалне ангажмане.
+      </p>
+      <p>
+        <a href="/professional-service/index.html">Уреднички и стручни рад / Professional Service</a>
+      </p>
+    </div>
+  </div>
 </section>
   
 <section id="kontakt">
