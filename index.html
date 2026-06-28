@@ -4,30 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Милош Тимотијевић | Miloš Timotijević</title>
-  <meta name="description" content="Биографија, академски профили и библиографија историчара Милоша Тимотијевића. Biography, academic profiles and bibliography of historian Miloš Timotijević.">
 
-  <link rel="canonical" href="https://milos-timotijevic.github.io/">
+<meta
+  name="description"
+  content="Академски профил Милоша Тимотијевића: биографија, библиографија, изабрани радови, јавни рад, граф знања и отворени подаци."
+>
+
+<link rel="canonical" href="https://milos-timotijevic.github.io/">
 
 <meta name="author" content="Miloš Timotijević">
-<meta name="keywords" content="Miloš Timotijević, Милош Тимотијевић, historian, историја, historiography, National Museum Čačak, Народни музеј Чачак, Serbian history, modern Serbian history, local modernity, cultural memory, symbolic politics">
+
+<meta
+  name="keywords"
+  content="Miloš Timotijević, Милош Тимотијевић, historian, историја, historiography, National Museum Čačak, Народни музеј Чачак, Serbian history, modern Serbian history, local modernity, cultural memory, symbolic politics, public history, knowledge graph"
+>
 
 <!-- Dublin Core metadata -->
 <meta name="DC.title" content="Милош Тимотијевић | Miloš Timotijević">
 <meta name="DC.creator" content="Милош Тимотијевић">
 <meta name="DC.creator" content="Miloš Timotijević">
-<meta name="DC.subject" content="history; historiography; museum work; Serbian history; cultural memory; symbolic politics">
-<meta name="DC.description" content="Биографија, академски профили, библиографија и јавни професионални рад историчара Милоша Тимотијевића.">
+<meta name="DC.subject" content="history; historiography; museum work; Serbian history; local modernity; cultural memory; public history; knowledge graph">
+<meta name="DC.description" content="Академски профил, библиографија, изабрани радови, јавни професионални рад и дигитална инфраструктура историчара Милоша Тимотијевића.">
 <meta name="DC.publisher" content="Miloš Timotijević">
 <meta name="DC.language" content="sr">
 <meta name="DC.type" content="Text">
 
 <!-- Open Graph metadata -->
 <meta property="og:title" content="Милош Тимотијевић | Miloš Timotijević">
-<meta property="og:description" content="ја, академски профили, библиографија и јавни професионални рад историчара Милоша Тимотијевића.">
+<meta property="og:description" content="Академски профил, библиографија, изабрани радови, јавни рад, граф знања и отворени подаци историчара Милоша Тимотијевића.">
 <meta property="og:type" content="profile">
 <meta property="og:url" content="https://milos-timotijevic.github.io/">
+<meta property="og:site_name" content="Милош Тимотијевић | Miloš Timotijević">
 <meta property="og:locale" content="sr_RS">
 
+<!-- Twitter / generic card metadata -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Милош Тимотијевић | Miloš Timotijević">
+<meta name="twitter:description" content="Academic profile, bibliography, selected works, public activity, knowledge graph and open data of historian Miloš Timotijević.">
 <!-- Twitter / generic card metadata -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Милош Тимотијевић | Miloš Timotijević">
@@ -142,22 +155,13 @@
   display: block;
   margin: 0.25em 0 0.15em 0;
   padding-bottom: 0.2em;
-  color: #222;
-  font-size: 0.92em;
+  color: #555;
+  font-size: 0.9em;
   font-weight: bold;
   letter-spacing: 0.02em;
   border-bottom: 1px solid #e5e5e5;
 }
-
-.nav-label {
-  display: inline-block;
-  margin: 0.25em 0.35em 0.25em 0;
-  padding: 0.25em 0;
-  color: #555;
-  font-size: 0.9em;
-  font-weight: bold;
-}
-
+      
 .main-nav a {
   display: inline-block;
   padding: 0.25em 0.55em;
@@ -173,19 +177,6 @@
     background: #f0f0f0;
     border-color: #bbb;
     text-decoration: none;
-  }
-
-  #bibliografija ol {
-    padding-left: 1.6em;
-  }
-
-  #bibliografija ol li {
-    margin-bottom: 0.9em;
-    line-height: 1.45;
-  }
-
-  #bibliografija ol li br {
-    line-height: 1.45;
   }
 
   footer {
@@ -291,13 +282,6 @@ li {
   margin-bottom: 0.45em;
 }
 
-#bibliografija li,
-#reviews-of-books li,
-#reviews-by-author li,
-#serials li,
-#public-appearances li {
-  margin-bottom: 0.8em;
-}
 .back-to-top {
   font-size: 0.9em;
   text-align: right;
@@ -436,6 +420,12 @@ li {
 .section-inline-links a {
   font-weight: bold;
 }
+
+.search-note {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: #555;
+}
 </style>
   
   <script type="application/ld+json">
@@ -484,6 +474,7 @@ li {
   "https://id.loc.gov/authorities/names/n2004043514.html",
   "https://plus-legacy.cobiss.net/cobiss/sr/en/conor/10053991",
   "https://plus-legacy.cobiss.net/cobiss/bg/en/conor/269669"
+    "https://zenodo.org/communities/milos-timotijevic-publications/"
 ]
   }
   </script>
@@ -520,8 +511,8 @@ li {
     <a href="#selected-works">Изабрана дела / Selected Works</a>
     <a href="/bibliography/">Библиографија / Bibliography</a>
     <a href="/bibliography/#reviews-of-books">Рецепција књига и каталога / Reception of Books and Catalogues</a>
-    <a href="exhibitions/index.html">Изложбе / Exhibitions</a>
-    <a href="professional-service/index.html">Уреднички и стручни рад / Editorial and Professional Service</a>
+    <a href="/exhibitions/">Изложбе / Exhibitions</a>
+   <a href="/professional-service/">Уреднички и стручни рад / Editorial and Professional Service</a>
   </div>
 
   <div class="nav-group">
@@ -913,32 +904,32 @@ and the public professional activity of Miloš Timotijević.
 
   <div class="works-grid">
     <div class="work-card">
-      <h3><a href="books/">Монографије / Monographs</a></h3>
+      <h3><a href="/books/">Монографије / Monographs</a></h3>
       <p>Приступне стране за изабране књиге и монографске студије.</p>
     </div>
 
     <div class="work-card">
-      <h3><a href="catalogues/">Каталози / Catalogues</a></h3>
+      <h3><a href="/catalogues/">Каталози / Catalogues</a></h3>
       <p>Изложбени и музејски каталози са библиографским подацима.</p>
     </div>
 
     <div class="work-card">
-      <h3><a href="book-chapters/">Поглавља / Book Chapters</a></h3>
+      <h3><a href="/book-chapters/">Поглавља / Book Chapters</a></h3>
       <p>Поглавља и прилози у монографијама и зборницима.</p>
     </div>
 
     <div class="work-card">
-      <h3><a href="conference-papers/">Радови са скупова / Conference Papers</a></h3>
+      <h3><a href="/conference-papers/">Радови са скупова / Conference Papers</a></h3>
       <p>Објављени радови са научних и стручних скупова.</p>
     </div>
 
     <div class="work-card">
-  <h3><a href="articles/">Научни чланци / Scholarly Articles</a></h3>
+  <h3><a href="/articles/">Научни чланци / Scholarly Articles</a></h3>
   <p>Изабрани научни чланци са приступним странама и спољним линковима.</p>
 </div>
 
 <div class="work-card">
-  <h3><a href="book-reviews/">Прикази књига / Book Reviews</a></h3>
+  <h3><a href="/book-reviews/">Прикази књига / Book Reviews</a></h3>
   <p>Изабрани прикази књига, груписани по темама, са библиографским подацима и спољним линковима.</p>
 </div>
   </div>
@@ -1007,14 +998,19 @@ and the public professional activity of Miloš Timotijević.
   </p>
 </section>
 
-  <p><a href="#top">↑ На врх / Back to top</a></p>
+  <p class="back-to-top">
+  <a href="#top">↑ На врх / Back to top</a>
+</p>
 
-<section id="digital-notes" class="intro">
+<section id="digital-infrastructure" class="intro">
+  <h2>Дигитална инфраструктура / Digital Infrastructure</h2>
+
   <p>
-    <strong>Дигитална инфраструктура / Digital Infrastructure.</strong>
-    Овај сајт није само академски профил и библиографија, већ и дигитална инфраструктура која повезује радове, монографије, теме, идентификаторе, приступне стране, отворене податке и истраживачке кластере.
+    Овај сајт није само академски профил и библиографија, већ и дигитална
+    инфраструктура која повезује радове, монографије, теме, идентификаторе,
+    приступне стране, отворене податке и истраживачке кластере.
   </p>
-
+  
   <p>
     <strong>Граф знања / Knowledge Graph.</strong>
     Граф знања показује како су публикације, истраживачке теме, Wikidata ставке, DOI записи, ORCID профил, репозиторијуми, библиотечки каталози и научни агрегатори повезани у једну мрежу.
@@ -1063,19 +1059,20 @@ and the public professional activity of Miloš Timotijević.
     рецензентске и стручне ангажмане.
   </p>
 
-  <div class="entry-point-card">
-  <h3>Библиографија / Bibliography</h3>
-  <p>
-    За пуну библиографију и брзи приступ изабраним монографијама,
-    чланцима и другим публикацијама.
-  </p>
-  <p>
-    <a href="/bibliography/">Пуна библиографија / Full Bibliography</a> ·
-    <a href="/books/">Монографије / Books</a> ·
-    <a href="/articles/">Чланци / Articles</a>
-  </p>
-</div>
-    
+  <div class="entry-point-grid">
+    <div class="entry-point-card">
+      <h3>Библиографија / Bibliography</h3>
+      <p>
+        За пуну библиографију и брзи приступ изабраним монографијама,
+        чланцима и другим публикацијама.
+      </p>
+      <p>
+        <a href="/bibliography/">Пуна библиографија / Full Bibliography</a> ·
+        <a href="/books/">Монографије / Books</a> ·
+        <a href="/articles/">Чланци / Articles</a>
+      </p>
+    </div>
+
     <div class="entry-point-card">
       <h3>Теме / Research Themes</h3>
       <p>
@@ -1105,7 +1102,7 @@ and the public professional activity of Miloš Timotijević.
         и других облика музејске јавне историје.
       </p>
       <p>
-        <a href="/exhibitions/index.html">Изложбе / Exhibitions</a>
+        <a href="/exhibitions/">Изложбе / Exhibitions</a>
       </p>
     </div>
 
@@ -1116,7 +1113,7 @@ and the public professional activity of Miloš Timotijević.
         комисије и друге професионалне ангажмане.
       </p>
       <p>
-        <a href="/professional-service/index.html">Уреднички и стручни рад / Professional Service</a>
+        <a href="/professional-service/">Уреднички и стручни рад / Professional Service</a>
       </p>
     </div>
   </div>
@@ -1134,6 +1131,12 @@ and the public professional activity of Miloš Timotijević.
     Претрага користи Google и ограничава резултате на странице у оквиру сајта
     <strong>milos-timotijevic.github.io</strong>.
   </p>
+
+    <p class="search-note">
+  За боље резултате пробајте више облика појма:
+  Чачак, Čačak, Cacak.
+  Google приказује само странице које су већ индексиране.
+</p>
 
   <form
     class="site-search-form"
