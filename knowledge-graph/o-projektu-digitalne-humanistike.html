@@ -1,1 +1,699 @@
+<!doctype html>
+<html lang="sr-Cyrl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>О пројекту: граф знања, библиографија и отворени метаподаци | Милош Тимотијевић</title>
+
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Српски преглед дигиталнохуманистичког пројекта Милоша Тимотијевића: граф знања, библиографија, отворени метаподаци и јавна историја у оквиру модерне историје Србије, локалне модерности, културног наслеђа и музејске праксе.">
+  <meta name="keywords" content="Милош Тимотијевић, дигитална хуманистика, граф знања, отворени метаподаци, јавна историја, модерна историја Србије, локална модерност, симболичка моћ, Чачак, западна Србија, рат и сећање, културно наслеђе, музејска пракса, верски живот, Wikidata, ORCID, DOI, DataCite, OpenAlex">
+  <meta name="author" content="Милош Тимотијевић">
+
+  <link rel="canonical" href="https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html">
+  <link rel="alternate" hreflang="sr-Cyrl" href="https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html">
+  <link rel="alternate" hreflang="en" href="https://milos-timotijevic.github.io/knowledge-graph/about-digital-humanities-project.html">
+  <link rel="alternate" hreflang="x-default" href="https://milos-timotijevic.github.io/knowledge-graph/about-digital-humanities-project.html">
+
+  <!-- Dublin Core metadata -->
+  <meta name="DC.title" content="О пројекту: граф знања, библиографија и отворени метаподаци">
+  <meta name="DC.creator" content="Милош Тимотијевић">
+  <meta name="DC.subject" content="дигитална хуманистика">
+  <meta name="DC.subject" content="граф знања">
+  <meta name="DC.subject" content="отворени метаподаци">
+  <meta name="DC.subject" content="јавна историја">
+  <meta name="DC.subject" content="модерна историја Србије">
+  <meta name="DC.subject" content="локална модерност">
+  <meta name="DC.subject" content="симболичка моћ">
+  <meta name="DC.subject" content="рат и сећање">
+  <meta name="DC.subject" content="културно наслеђе">
+  <meta name="DC.subject" content="музејска пракса">
+  <meta name="DC.subject" content="верски живот">
+  <meta name="DC.description" content="Преглед дигиталнохуманистичког пројекта који повезује научну библиографију, приступне странице публикација, тематске истраживачке кластере, отворене метаподатке и спољне идентификаторе.">
+  <meta name="DC.publisher" content="Милош Тимотијевић">
+  <meta name="DC.language" content="sr-Cyrl">
+  <meta name="DC.type" content="Text">
+  <meta name="DC.relation" content="https://milos-timotijevic.github.io/knowledge-graph/">
+  <meta name="DC.relation" content="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
+  <meta name="DC.relation" content="https://www.wikidata.org/wiki/Q112514230">
+  <meta name="DC.relation" content="https://orcid.org/0000-0002-0457-6125">
+
+  <!-- Open Graph metadata -->
+  <meta property="og:title" content="О пројекту: граф знања, библиографија и отворени метаподаци">
+  <meta property="og:description" content="Граф знања, библиографија, отворени метаподаци и јавна историја у оквиру модерне историје Србије, локалне модерности, културног наслеђа и музејске праксе.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html">
+  <meta property="og:locale" content="sr_RS">
+
+  <!-- Twitter / generic card metadata -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="О пројекту: граф знања, библиографија и отворени метаподаци">
+  <meta name="twitter:description" content="Дигиталнохуманистички пројекат који повезује библиографију, граф знања, отворене метаподатке и јавну историју.">
+
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+      max-width: 980px;
+      margin: 40px auto;
+      padding: 0 24px;
+      color: #222;
+      background: #fff;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.25;
+      color: #111;
+    }
+
+    h1 {
+      font-size: 2.05em;
+      margin-bottom: 0.2em;
+    }
+
+    h2 {
+      margin-top: 2em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.25em;
+    }
+
+    h3 {
+      margin-top: 1.5em;
+      font-size: 1.15em;
+    }
+
+    a {
+      color: #0645ad;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 0.75em 0;
+    }
+
+    ul li {
+      margin-bottom: 0.75em;
+    }
+
+    .subtitle {
+      font-size: 1.08em;
+      margin-bottom: 1.5em;
+      color: #444;
+    }
+
+    .language-switch {
+      margin: 0.5em 0 1.8em;
+      font-size: 0.95em;
+    }
+
+    .language-switch a {
+      font-weight: bold;
+      text-decoration: none;
+      border-bottom: 1px solid #555;
+    }
+
+    .language-switch a:hover {
+      border-bottom-color: #000;
+    }
+
+    .intro,
+    .note,
+    .identifier-box,
+    .framework-box,
+    .executive-summary,
+    .cluster-function {
+      background: #f8f8f8;
+      border-left: 4px solid #bbb;
+      padding: 1em;
+      margin: 1.5em 0 2em 0;
+    }
+
+    .intro p,
+    .note p,
+    .identifier-box p,
+    .framework-box p,
+    .executive-summary p,
+    .cluster-function p {
+      margin: 0.35em 0;
+    }
+
+    .theme-list {
+      padding-left: 1.25em;
+    }
+
+    .theme-list li {
+      margin-bottom: 0.65em;
+    }
+
+    .link-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 1.5em 0;
+    }
+
+    .link-card {
+      margin: 0 0 1.2em 0;
+      padding: 1em 1.1em;
+      background: #f8f8f8;
+      border-left: 4px solid #bbb;
+      border-bottom: 1px solid #d6d6d6;
+    }
+
+    .link-card p {
+      margin: 0.45em 0;
+    }
+
+    .small-note {
+      color: #555;
+      font-size: 0.96em;
+    }
+
+    .keywords {
+      color: #333;
+    }
+
+    .citation {
+      background: #f8f8f8;
+      border-left: 4px solid #bbb;
+      padding: 1em;
+      margin-top: 1em;
+    }
+
+    .back-link {
+      margin-top: 2.5em;
+      border-top: 1px solid #ddd;
+      padding-top: 1em;
+    }
+  </style>
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html#webpage",
+        "url": "https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html",
+        "name": "О пројекту: граф знања, библиографија и отворени метаподаци",
+        "description": "Преглед дигиталнохуманистичког пројекта који повезује научну библиографију, приступне странице публикација, тематске истраживачке кластере, отворене метаподатке и спољне идентификаторе.",
+        "inLanguage": "sr-Cyrl",
+        "author": {
+          "@id": "https://www.wikidata.org/wiki/Q112514230"
+        },
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/#webpage",
+          "name": "Граф знања и дигитална видљивост",
+          "url": "https://milos-timotijevic.github.io/knowledge-graph/"
+        },
+        "about": {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html#project"
+        },
+        "mainEntity": {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html#project"
+        },
+        "translationOfWork": {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/about-digital-humanities-project.html#webpage"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.wikidata.org/wiki/Q112514230",
+        "name": "Miloš Timotijević",
+        "alternateName": [
+          "Милош Тимотијевић",
+          "Miloš M. Timotijević",
+          "Милош М. Тимотијевић"
+        ],
+        "url": "https://milos-timotijevic.github.io/",
+        "sameAs": [
+          "https://www.cacakmuzej.org.rs/bio_mtimotijevic.html",
+          "https://orcid.org/0000-0002-0457-6125",
+          "https://www.wikidata.org/wiki/Q112514230",
+          "https://openalex.org/authors/a5072525869",
+          "https://commons.datacite.org/orcid.org/0000-0002-0457-6125",
+          "https://www.webofscience.com/wos/author/record/JZD-9668-2024",
+          "https://scholar.google.com/citations?user=dn3AZfkAAAAJ",
+          "https://enauka.gov.rs/cris/rp/rp34884",
+          "https://zenodo.org/communities/milos-timotijevic-publications/",
+          "https://bg.academia.edu/Milo%C5%A1Timotijevi%C4%87",
+          "https://viaf.org/en/viaf/61861797",
+          "https://isni.org/isni/0000000109793615",
+          "https://explore.gnd.network/gnd/1043868097?term=milo%C5%A1%20timotijevi%C4%87&rows=25&pos=1",
+          "https://id.loc.gov/authorities/names/n2004043514.html",
+          "https://plus-legacy.cobiss.net/cobiss/sr/en/conor/10053991",
+          "https://plus-legacy.cobiss.net/cobiss/bg/en/conor/269669"
+        ]
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html#project",
+        "name": "Граф знања, библиографија, отворени метаподаци и јавна историја",
+        "alternateName": "Дигиталнохуманистички пројекат Милоша Тимотијевића",
+        "url": "https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html",
+        "inLanguage": "sr-Cyrl",
+        "creator": {
+          "@id": "https://www.wikidata.org/wiki/Q112514230"
+        },
+        "description": "Дигиталнохуманистички пројекат који повезује научну библиографију, приступне странице публикација, тематске истраживачке кластере, отворене метаподатке и спољне идентификаторе, са тежиштем на модерној историји Србије, локалној модерности, рату, сећању, културном наслеђу, верском животу и музејској јавној историји.",
+        "isPartOf": [
+          {
+            "@type": "WebSite",
+            "@id": "https://milos-timotijevic.github.io/#website",
+            "name": "Милош Тимотијевић",
+            "url": "https://milos-timotijevic.github.io/"
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://www.wikidata.org/wiki/Q139501155",
+            "name": "Local modernity and symbolic power in Southeast Europe",
+            "sameAs": "https://www.wikidata.org/wiki/Q139501155"
+          }
+        ],
+        "about": [
+          { "@type": "Thing", "name": "дигитална хуманистика" },
+          { "@type": "Thing", "name": "граф знања" },
+          { "@type": "Thing", "name": "отворени метаподаци" },
+          { "@type": "Thing", "name": "јавна историја" },
+          { "@type": "Thing", "name": "модерна историја Србије" },
+          { "@type": "Thing", "name": "локална модерност" },
+          { "@type": "Thing", "name": "симболичка моћ" },
+          { "@type": "Thing", "name": "рат и сећање" },
+          { "@type": "Thing", "name": "културно наслеђе" },
+          { "@type": "Thing", "name": "музејска пракса" },
+          { "@type": "Thing", "name": "верски живот" },
+          {
+            "@type": "Place",
+            "name": "Чачак",
+            "sameAs": "https://www.wikidata.org/wiki/Q188512"
+          },
+          {
+            "@type": "Place",
+            "name": "Србија",
+            "sameAs": "https://www.wikidata.org/wiki/Q403"
+          }
+        ],
+        "keywords": [
+          "дигитална хуманистика",
+          "граф знања",
+          "отворени метаподаци",
+          "јавна историја",
+          "модерна историја Србије",
+          "локална модерност",
+          "симболичка моћ",
+          "Чачак",
+          "западна Србија",
+          "рат и сећање",
+          "културно наслеђе",
+          "музејска пракса",
+          "верски живот",
+          "Wikidata",
+          "ORCID",
+          "DOI",
+          "DataCite",
+          "OpenAlex"
+        ],
+        "hasPart": [
+          {
+            "@type": "CollectionPage",
+            "name": "Граф знања и дигитална видљивост",
+            "url": "https://milos-timotijevic.github.io/knowledge-graph/"
+          },
+          {
+            "@type": "CollectionPage",
+            "name": "Local Modernity and Symbolic Power in Southeast Europe",
+            "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
+            "sameAs": "https://www.wikidata.org/wiki/Q139501155"
+          },
+          {
+            "@type": "Dataset",
+            "name": "Отворени подаци дигиталног научног корпуса",
+            "url": "https://milos-timotijevic.github.io/data/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Метод",
+            "url": "https://milos-timotijevic.github.io/knowledge-graph/method.html"
+          }
+        ],
+        "workTranslation": {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/about-digital-humanities-project.html#project"
+        }
+      },
+      {
+        "@type": "AboutPage",
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/about-digital-humanities-project.html#webpage",
+        "url": "https://milos-timotijevic.github.io/knowledge-graph/about-digital-humanities-project.html",
+        "name": "About this Digital Humanities Project",
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body id="top">
+  <p><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
+
+  <h1>О пројекту: граф знања, библиографија и отворени метаподаци</h1>
+
+  <p class="subtitle">
+    Дигитална хуманистика, јавна историја и повезивање научног корпуса
+  </p>
+
+  <p class="language-switch">
+    <a href="about-digital-humanities-project.html">English version / Енглеска верзија</a>
+  </p>
+
+  <section class="executive-summary" aria-labelledby="executive-summary-title">
+    <h2 id="executive-summary-title">Кратак преглед</h2>
+
+    <p>
+      Ова страница објашњава логику дигиталнохуманистичког пројекта који
+      повезује научну библиографију, приступне странице публикација, тематске
+      истраживачке целине, отворене метаподатке и спољне идентификаторе.
+      У средишту пројекта налази се историографски и музеолошки рад Милоша
+      Тимотијевића, са посебним тежиштем на модерној историји Србије,
+      Чачку и западној Србији, локалној модерности, симболичкој моћи,
+      ратном искуству, култури сећања, културном наслеђу, верском животу
+      и јавној историји.
+    </p>
+
+    <p>
+      Сајт није замишљен само као лични академски профил нити као обична
+      библиографија. Он функционише као повезано дигитално окружење у коме се
+      публикације доводе у везу са истраживачким темама, DOI записима,
+      репозиторијумима, Wikidata ставкама, библиотечким каталозима, ауторским
+      идентификаторима и другим отвореним научним инфраструктурама.
+    </p>
+  </section>
+
+  <section class="intro" aria-labelledby="project-overview-title">
+    <h2 id="project-overview-title">Основна замисао</h2>
+
+    <p>
+      Сврха пројекта је да један обиман научни и музејски корпус буде
+      видљивији, проверљивији, цитабилнији и употребљивији. Зато се на једном
+      месту повезују биографски подаци, библиографске јединице, изабране
+      публикације, приступне странице, тематски кластери, структурисани подаци
+      и спољни профили.
+    </p>
+
+    <p>
+      Свака публикација се овде не посматра само као издвојена библиографска
+      јединица, већ као део шире истраживачке мреже. Такав приступ омогућава
+      да се корпус чита кроз теме које се понављају у различитим радовима:
+      модернизација, локална управа, политички ритуали, рат, окупација,
+      пропаганда, национална идеологија, културне представе, музејска пракса,
+      верски живот и јавна употреба прошлости.
+    </p>
+
+    <p>
+      Пројекат је намењен истраживачима, студентима, уредницима,
+      библиотекарима, музејским стручњацима и широј јавности. Истовремено је
+      прилагођен и дигиталним системима, јер користи структурисане метаподатке,
+      стабилне идентификаторе и везе са спољним системима знања.
+    </p>
+  </section>
+
+  <section>
+    <h2>Истраживачки оквир</h2>
+
+    <p>
+      Корпус обухвата модерну историју Србије, са изразитим фокусом на Чачак,
+      западну Србију, југословенски простор и југоисточну Европу. Локална
+      историја овде није схваћена као уска регионална тема, већ као аналитички
+      оквир за разумевање ширих историјских процеса.
+    </p>
+
+    <p>
+      Главне теме обухватају локалну модерност, урбану трансформацију,
+      социјалистичку модернизацију, политичку културу, симболичке праксе,
+      ратне преломе, окупацију, пропаганду, културу сећања, културно наслеђе,
+      верске праксе, јавни простор, музејску интерпретацију и обликовање
+      колективних идентитета.
+    </p>
+
+    <p>
+      Чачак и западна Србија у овом пројекту имају улогу историјске
+      лабораторије. На њиховом примеру могу се пратити начини на које велики
+      политички, друштвени, културни и ратни процеси постају видљиви у
+      локалним установама, јавним просторима, ритуалима, споменицима,
+      музејима, сакралним местима, спорту, свакодневици и јавном памћењу.
+    </p>
+  </section>
+
+  <section class="framework-box" aria-labelledby="knowledge-graph-title">
+    <h2 id="knowledge-graph-title">Граф знања и тематски кластери</h2>
+
+    <p>
+      Средишњи део пројекта представља граф знања. Он не организује публикације
+      само хронолошки или библиографски, већ их повезује кроз тематске целине.
+      Тако се појединачни радови могу сагледати као део ширег истраживачког
+      система.
+    </p>
+
+    <p>
+      Главни оквир,
+      <a href="/knowledge-graph/research/local-modernity-symbolic-power.html">
+        Локална модерност и симболичка моћ у југоисточној Европи
+      </a>,
+      повезује седам истраживачких кластера:
+    </p>
+
+    <ul class="theme-list">
+      <li>
+        <a href="/knowledge-graph/research/cacak-local-modernity-case-study.html">
+          Чачак као студија случаја локалне модерности
+        </a>
+      </li>
+      <li>
+        <a href="/knowledge-graph/research/political-rituals-symbolic-politics.html">
+          Политички ритуали и симболичка политика
+        </a>
+      </li>
+      <li>
+        <a href="/knowledge-graph/research/national-ideology-intellectual-debates.html">
+          Национална идеологија и интелектуалне расправе
+        </a>
+      </li>
+      <li>
+        <a href="/knowledge-graph/research/war-propaganda-memory.html">
+          Рат, пропаганда и сећање
+        </a>
+      </li>
+      <li>
+        <a href="/knowledge-graph/research/culture-nationalism-symbolic-representation.html">
+          Култура, национализам и симболичко представљање
+        </a>
+      </li>
+      <li>
+        <a href="/knowledge-graph/research/cultural-heritage-museums-public-history.html">
+          Културно наслеђе, музеји и јавна историја
+        </a>
+      </li>
+      <li>
+        <a href="/knowledge-graph/research/religious-life-social-practices.html">
+          Верски живот и друштвене праксе
+        </a>
+      </li>
+    </ul>
+
+    <p>
+      Ови кластери нису затворене категорије. Поједини рад може припадати
+      једној основној целини, али истовремено имати везе са другим темама.
+      То одговара стварној природи историјског истраживања, у коме се рат,
+      сећање, религија, јавни простор, музеји, наслеђе и симболичка моћ често
+      преклапају.
+    </p>
+  </section>
+
+  <section class="identifier-box" aria-labelledby="metadata-title">
+    <h2 id="metadata-title">Отворени метаподаци и идентификатори</h2>
+
+    <p>
+      Пројекат користи спољне идентификаторе и отворене научне инфраструктуре
+      како би се побољшала видљивост, проверљивост и повезивост корпуса.
+      У том систему важну улогу имају ORCID, DOI записи, Wikidata, OpenAlex,
+      DataCite Commons, Web of Science, Google Scholar, eNauka, Zenodo, COBISS,
+      VIAF, ISNI, GND, LCCN и CONOR записи.
+    </p>
+
+    <p>
+      Приступне странице публикација имају улогу стабилних тачака приступа.
+      Оне повезују библиографски опис са DOI линковима, репозиторијумима,
+      Wikidata ставкама, библиотечким записима, спољним профилима и тематским
+      кластерима.
+    </p>
+
+    <p>
+      Одељак
+      <a href="/data/">Подаци</a>
+      представља табеларни слој пројекта и омогућава да се корпус лакше
+      проверава, цитира, ажурира и поново користи. Даљи развој може да обухвати
+      додатне структурисане датотеке, као што су JSON извоз, спискови DOI
+      бројева, спискови Wikidata ставки и табеле веза унутар графа знања.
+    </p>
+  </section>
+
+  <section>
+    <h2>Значај за дигиталну хуманистику</h2>
+
+    <p>
+      Овај пројекат припада пољу дигиталне хуманистике зато што спаја
+      историјску интерпретацију, библиографску контролу, отворене метаподатке,
+      организацију знања и јавну историју.
+    </p>
+
+    <p>
+      Његов главни допринос није у техничкој сложености, већ у структурисаној
+      научној интерпретацији. Лични и институционални истраживачки корпус
+      претвара се у повезан дигитални ресурс. На тај начин повезују се
+      традиционална историографија, музејски рад, локална историја и савремене
+      инфраструктуре дигиталног знања.
+    </p>
+
+    <p>
+      У домаћем и регионалном контексту овакав приступ има и практичну вредност.
+      Хуманистичке публикације, музејски каталози, локалноисторијске студије
+      и радови објављени на српском језику често нису довољно повезани са
+      међународним системима претраге и цитирања. Повезивањем локалног
+      истраживања са стабилним идентификаторима и отвореним структурама података
+      повећава се његова видљивост, проверљивост и дугорочна употребљивост.
+    </p>
+  </section>
+
+  <section class="cluster-function" aria-labelledby="status-title">
+    <h2 id="status-title">Тренутно стање и даљи развој</h2>
+
+    <p>
+      Пројекат је у развоју. Његове постојеће целине обухватају главни
+      академски профил, изабране приступне странице публикација, граф знања,
+      тематске кластере, одељак са подацима и методолошко објашњење система.
+    </p>
+
+    <p>
+      Даљи рад подразумева унос нових приступних страница, прецизније описе
+      кластера, проширивање структурисаних скупова података, прегледније
+      бележење измена, снажније повезивање са спољним ауторским и библиотечким
+      системима, као и уједначавање метаподатака на целом сајту.
+    </p>
+
+    <p>
+      Пројекат зато треба разумети као развојну научну инфраструктуру, а не
+      као завршено дигитално издање.
+    </p>
+  </section>
+
+  <section>
+    <h2>Намена и употреба</h2>
+
+    <p>
+      Ова страница може бити полазиште за различите врсте рада са корпусом.
+      Истраживачима олакшава преглед публикација, тема, DOI записа, Wikidata
+      ставки и међусобно повезаних радова. Уредницима и библиотекарима може
+      послужити за проверу библиографских података, ауторских идентификатора
+      и веза ка каталозима или репозиторијумима.
+    </p>
+
+    <p>
+      За музејске стручњаке и јавне историчаре пројекат је пример како се
+      музејска научна продукција може повезати са дигиталном видљивошћу,
+      јавном интерпретацијом и структурисаним метаподацима. За истраживаче
+      дигиталне хуманистике он представља мањи, али јасно организован пример
+      ауторског графа знања који повезује историографију, локалну историју,
+      културно наслеђе и отворене научне инфраструктуре.
+    </p>
+  </section>
+
+  <section>
+    <h2>Повезане целине</h2>
+
+    <ul class="link-list">
+      <li class="link-card">
+        <p>
+          <strong>
+            <a href="/knowledge-graph/">Граф знања и дигитална видљивост</a>
+          </strong>
+        </p>
+        <p>
+          Главна улазна страна у тематску мапу истраживачког корпуса.
+        </p>
+      </li>
+
+      <li class="link-card">
+        <p>
+          <strong>
+            <a href="/knowledge-graph/method.html">Метод</a>
+          </strong>
+        </p>
+        <p>
+          Објашњење принципа по којима се моделују публикације, теме,
+          кластери, приступне странице и идентификатори.
+        </p>
+      </li>
+
+      <li class="link-card">
+        <p>
+          <strong>
+            <a href="/data/">Подаци</a>
+          </strong>
+        </p>
+        <p>
+          Структурисани метаподаци дигиталног научног корпуса.
+        </p>
+      </li>
+
+      <li class="link-card">
+        <p>
+          <strong>
+            <a href="/">Главни академски профил</a>
+          </strong>
+        </p>
+        <p>
+          Академски профил, изабрани радови, библиографија и јавна стручна
+          делатност.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Кључне речи</h2>
+
+    <p class="keywords">
+      дигитална хуманистика; граф знања; отворени метаподаци; јавна историја;
+      модерна историја Србије; локална модерност; симболичка моћ; Чачак;
+      западна Србија; рат и сећање; културно наслеђе; музејска пракса;
+      верски живот; Wikidata; ORCID; DOI; DataCite; OpenAlex
+    </p>
+  </section>
+
+  <section>
+    <h2>Предлог за цитирање</h2>
+
+    <div class="citation">
+      <p>
+        Милош Тимотијевић, „О пројекту: граф знања, библиографија и отворени
+        метаподаци”, лични научни сајт, приступљено [датум],
+        <a href="https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html">
+          https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html
+        </a>.
+      </p>
+    </div>
+  </section>
+
+  <p><a href="#top">↑ На врх / Back to top</a></p>
+
+  <p class="back-link">
+    <a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a><br>
+    <a href="/">← Назад на главну страну / Back to the main page</a>
+  </p>
+</body>
+</html>
