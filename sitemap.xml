@@ -4,29 +4,35 @@
     <loc>https://milos-timotijevic.github.io/</loc>
   </url>
   <url>
-  <loc>https://milos-timotijevic.github.io/exhibitions/index.html</loc>
-</url>
+    <loc>https://milos-timotijevic.github.io/bibliography/</loc>
+  </url>
   <url>
-  <loc>https://milos-timotijevic.github.io/professional-service/index.html</loc>
-</url>
+    <loc>https://milos-timotijevic.github.io/exhibitions/index.html</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/professional-service/index.html</loc>
+  </url>
   <url>
     <loc>https://milos-timotijevic.github.io/knowledge-graph/</loc>
   </url>
   <url>
-  <loc>https://milos-timotijevic.github.io/knowledge-graph/about-digital-humanities-project.html</loc>
-</url>
+    <loc>https://milos-timotijevic.github.io/knowledge-graph/about-digital-humanities-project.html</loc>
+  </url>
   <url>
-  <loc>https://milos-timotijevic.github.io/knowledge-graph/method.html</loc>
-</url>
+    <loc>https://milos-timotijevic.github.io/knowledge-graph/o-projektu-digitalne-humanistike.html</loc>
+  </url>
   <url>
-  <loc>https://milos-timotijevic.github.io/data/</loc>
-</url>
-<url>
-  <loc>https://milos-timotijevic.github.io/data/publications.csv</loc>
-</url>
+    <loc>https://milos-timotijevic.github.io/knowledge-graph/method.html</loc>
+  </url>
   <url>
-  <loc>https://milos-timotijevic.github.io/data/wikidata-items.csv</loc>
-</url>
+    <loc>https://milos-timotijevic.github.io/data/</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/data/publications.csv</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/data/wikidata-items.csv</loc>
+  </url>
   <url>
     <loc>https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html</loc>
   </url>
