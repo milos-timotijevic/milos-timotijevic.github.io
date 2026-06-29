@@ -1,1 +1,557 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Речник података / Data Dictionary — Дигитални научни корпус Милоша Тимотијевића</title>
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Речник података за отворене CSV фајлове дигиталног научног корпуса Милоша Тимотијевића, са описом колона, DOI правила, лиценце, цитирања и статуса провере.">
+  <link rel="canonical" href="https://milos-timotijevic.github.io/data/data-dictionary.html">
 
+  <style>
+    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #222; background: #fff; }
+    h1, h2, h3, h4 { line-height: 1.25; color: #111; }
+    h1 { font-size: 2.05em; margin-bottom: 0.2em; }
+    h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.25em; }
+    h3 { margin-top: 1.35em; font-size: 1.13em; }
+    a { color: #0645ad; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    p { margin: 0.75em 0; }
+    ul li, ol li { margin-bottom: 0.65em; }
+    table { border-collapse: collapse; width: 100%; margin: 1.2em 0; font-size: 0.96em; }
+    th, td { border: 1px solid #ddd; padding: 0.55em 0.65em; vertical-align: top; }
+    th { background: #f4f4f4; text-align: left; }
+    code { font-family: Consolas, "Courier New", monospace; font-size: 0.95em; background: #f5f5f5; padding: 0.1em 0.25em; }
+    .subtitle { font-size: 1.08em; margin-bottom: 1.5em; color: #444; }
+    .intro, .note, .identifier-box, .license-box, .citation-box, .data-nav { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin: 1.5em 0 2em 0; }
+    .intro p, .note p, .identifier-box p, .license-box p, .citation-box p, .data-nav p { margin: 0.35em 0; }
+    .data-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); gap: 1em; margin-top: 1em; }
+    .data-card { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 1em; }
+    .data-card h3 { margin-top: 0; }
+    .data-card p { margin: 0.45em 0; }
+    .links { display: block; margin-top: 0.5em; font-size: 0.96em; }
+    .small-note { color: #555; font-size: 0.96em; }
+    .date-note { color: #555; font-size: 0.96em; margin-top: 2em; }
+    .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
+  </style>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Речник података / Data Dictionary",
+  "alternateName": "Data Dictionary of the Digital Scholarly Corpus of Miloš Timotijević",
+  "url": "https://milos-timotijevic.github.io/data/data-dictionary.html",
+  "inLanguage": [
+    "sr",
+    "en"
+  ],
+  "dateModified": "2026-06-29",
+  "description": "Речник података за отворене CSV фајлове дигиталног научног корпуса Милоша Тимотијевића, са описом колона, DOI правила, лиценце, цитирања и статуса провере.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Miloš Timotijević — Academic Profile and Knowledge Graph",
+    "url": "https://milos-timotijevic.github.io/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Miloš Timotijević",
+    "alternateName": [
+      "Милош Тимотијевић",
+      "Miloš M. Timotijević",
+      "Милош М. Тимотијевић"
+    ],
+    "sameAs": [
+      "https://orcid.org/0000-0002-0457-6125",
+      "https://www.wikidata.org/wiki/Q112514230",
+      "https://openalex.org/authors/a5072525869"
+    ]
+  },
+  "about": [
+    "data dictionary",
+    "open data",
+    "digital humanities",
+    "scholarly metadata",
+    "DOI",
+    "Wikidata",
+    "CSV",
+    "knowledge graph"
+  ],
+  "keywords": "data dictionary, open data, digital humanities, scholarly metadata, DOI, Wikidata, CSV, knowledge graph, Miloš Timotijević"
+}
+  </script>
+</head>
+
+<body id="top">
+
+<p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
+<p><a href="index.html">← Назад на податке / Back to Data</a></p>
+<p><a href="../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
+<p><a href="../knowledge-graph/method.html">Метод / Method</a></p>
+
+<h1>Речник података / Data Dictionary</h1>
+<p><strong>Структура и правила употребе отворених података</strong></p>
+<p class="subtitle">Колоне, DOI правила, Wikidata ставке, лиценца, цитирање и статус провере<br>
+<em>Columns, DOI Rules, Wikidata Items, License, Citation and Verification Status</em></p>
+
+<section class="intro">
+  <p>
+    Ова страна описује структуру отворених података који се користе у оквиру дигиталног научног корпуса Милоша Тимотијевића. Речник података објашњава значење колона у фајловима <code>publications.csv</code>, <code>wikidata-items.csv</code> и <code>doi-list.csv</code>, као и правила за унос DOI бројева, статус проверe, лиценцу и начин цитирања.
+  </p>
+
+  <p>
+    Речник података не замењује саме CSV фајлове, библиографију, DOI регистре, Wikidata, COBISS или репозиторијуме. Његова сврха је да омогући доследно читање, проверу, преузимање и поновну употребу података.
+  </p>
+</section>
+
+<section class="note" lang="en">
+  <h2>English Summary</h2>
+
+  <p>
+    This page describes the structure of the open data used in the digital scholarly corpus of Miloš Timotijević. It explains the columns in <code>publications.csv</code>, <code>wikidata-items.csv</code> and <code>doi-list.csv</code>, together with DOI rules, verification status, licensing and citation practice.
+  </p>
+
+  <p>
+    The data dictionary does not replace the CSV files, bibliographies, DOI registries, Wikidata, COBISS or repositories. It provides a stable reference point for reading, checking, downloading and reusing the data consistently.
+  </p>
+</section>
+
+<section class="data-nav">
+  <h2>Обухваћени скупови података / Covered Data Files</h2>
+
+  <div class="data-grid">
+    <article class="data-card">
+      <h3>publications.csv</h3>
+      <p>
+        Основна табела изабраних публикација, са библиографским подацима, приступним странама, DOI бројевима, репозиторијумима, Wikidata ставкама, COBISS записима, кластерима и статусом провере.
+      </p>
+      <p>
+        <a href="publications.csv">Преузми / Download</a>
+      </p>
+    </article>
+
+    <article class="data-card">
+      <h3>wikidata-items.csv</h3>
+      <p>
+        Контролна табела Wikidata ставки повезаних са аутором, публикацијама, истраживачким оквирима, кластерима, темама, установама и другим чвориштима корпуса.
+      </p>
+      <p>
+        <a href="wikidata-items.csv">Преузми / Download</a>
+      </p>
+    </article>
+
+    <article class="data-card">
+      <h3>doi-list.csv</h3>
+      <p>
+        Контролни списак DOI бројева, са разликовањем главног DOI броја публикације, рада или издања и DOI броја репозиторијумске верзије.
+      </p>
+      <p>
+        <a href="doi-list.csv">Преузми / Download</a>
+      </p>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>Општа правила за CSV фајлове</h2>
+
+  <p>
+    Сваки CSV фајл има заглавље у првом реду. Називи колона пишу се малим словима, латиницом, без размака, са доњом цртом када је потребно раздвојити више речи.
+  </p>
+
+  <p>
+    Унутрашње ознаке у пољима као што су <code>id</code>, <code>local_id</code> и <code>related_cluster_id</code> треба да буду стабилне. Оне се не мењају када се накнадно додају DOI бројеви, Wikidata ставке, репозиторијумски записи или исправке у опису.
+  </p>
+
+  <p>
+    Више вредности у једном пољу, када су неопходне, треба раздвајати тачком и запетом. Тај начин је погоднији од запете, јер се запета често јавља у насловима, описима и библиографским подацима.
+  </p>
+</section>
+
+<section>
+  <h2>Структура фајла publications.csv</h2>
+
+  <p>
+    Фајл <code>publications.csv</code> садржи један ред за сваку изабрану публикацију или издање. У првој верзији предност имају монографије, радови са DOI бројем, публикације са приступним странама, Zenodo записима и Wikidata ставкама.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Колона</th>
+        <th>Значење</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>id</code></td>
+        <td>Унутрашња стабилна ознака јединице. Пише се малим словима, без размака, са цртицама или доњим цртама, у складу са постојећим моделом.</td>
+      </tr>
+      <tr>
+        <td><code>type</code></td>
+        <td>Тип публикације: <code>book</code>, <code>article</code>, <code>chapter</code>, <code>catalogue</code>, <code>review</code> или други контролисани тип.</td>
+      </tr>
+      <tr>
+        <td><code>year</code></td>
+        <td>Година објављивања публикације или издања.</td>
+      </tr>
+      <tr>
+        <td><code>author_sr</code></td>
+        <td>Име аутора или аутора у српском облику.</td>
+      </tr>
+      <tr>
+        <td><code>author_en</code></td>
+        <td>Име аутора или аутора у латиничном или енглеском облику.</td>
+      </tr>
+      <tr>
+        <td><code>title_sr</code></td>
+        <td>Наслов публикације на српском језику.</td>
+      </tr>
+      <tr>
+        <td><code>title_en</code></td>
+        <td>Енглески наслов публикације, ако постоји.</td>
+      </tr>
+      <tr>
+        <td><code>doi_work_or_edition</code></td>
+        <td>DOI који се односи на дело, публикацију, рад или конкретно издање, ако постоји.</td>
+      </tr>
+      <tr>
+        <td><code>doi_landing_page</code></td>
+        <td>DOI који резолвује на приступну страну публикације на овом сајту, ако је такав модел примењен.</td>
+      </tr>
+      <tr>
+        <td><code>doi_repository</code></td>
+        <td>DOI репозиторијумске или депоноване верзије публикације, на пример Zenodo записа, ако постоји.</td>
+      </tr>
+      <tr>
+        <td><code>doi_note</code></td>
+        <td>Кратка напомена о односу DOI бројева, нарочито када постоји више верзија, више записа или могућа недоумица.</td>
+      </tr>
+      <tr>
+        <td><code>landing_page</code></td>
+        <td>Приступна страна публикације на овом сајту.</td>
+      </tr>
+      <tr>
+        <td><code>zenodo</code></td>
+        <td>Zenodo запис или DOI линк ка депонованој верзији, ако постоји.</td>
+      </tr>
+      <tr>
+        <td><code>wikidata</code></td>
+        <td>Wikidata ставка за дело или публикацију, ако постоји.</td>
+      </tr>
+      <tr>
+        <td><code>cobiss</code></td>
+        <td>COBISS.SR-ID или други релевантан COBISS запис.</td>
+      </tr>
+      <tr>
+        <td><code>cluster</code></td>
+        <td>Истраживачки кластер или више кластера којима публикација припада.</td>
+      </tr>
+      <tr>
+        <td><code>status</code></td>
+        <td>Статус провере података: <code>checked</code>, <code>draft</code>, <code>needs_update</code>, <code>needs_review</code>, <code>waiting_indexing</code>.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Структура фајла wikidata-items.csv</h2>
+
+  <p>
+    Фајл <code>wikidata-items.csv</code> садржи контролни списак Wikidata ставки повезаних са дигиталним научним корпусом. Један ред представља једну Wikidata ставку: аутора, публикацију, истраживачки оквир, кластер, тему, институцију или друго повезано чвориште.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Колона</th>
+        <th>Значење</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>local_id</code></td>
+        <td>Унутрашња стабилна ознака ставке у оквиру овог сајта.</td>
+      </tr>
+      <tr>
+        <td><code>wikidata_qid</code></td>
+        <td>Wikidata QID идентификатор.</td>
+      </tr>
+      <tr>
+        <td><code>wikidata_url</code></td>
+        <td>Пун линк ка Wikidata ставки.</td>
+      </tr>
+      <tr>
+        <td><code>item_type</code></td>
+        <td>Тип ставке: аутор, публикација, истраживачки оквир, кластер, тема, установа или друго.</td>
+      </tr>
+      <tr>
+        <td><code>label_sr</code></td>
+        <td>Назив ставке на српском језику, када је доступан.</td>
+      </tr>
+      <tr>
+        <td><code>label_en</code></td>
+        <td>Назив ставке на енглеском језику или у латиничном облику.</td>
+      </tr>
+      <tr>
+        <td><code>description_sr</code></td>
+        <td>Кратак опис на српском језику, када је доступан.</td>
+      </tr>
+      <tr>
+        <td><code>description_en</code></td>
+        <td>Кратак опис на енглеском језику.</td>
+      </tr>
+      <tr>
+        <td><code>site_page</code></td>
+        <td>Страница овог сајта на којој се ставка користи или објашњава.</td>
+      </tr>
+      <tr>
+        <td><code>related_publication_id</code></td>
+        <td>Унутрашња ознака повезане публикације, ако се ставка односи на публикацију.</td>
+      </tr>
+      <tr>
+        <td><code>related_cluster_id</code></td>
+        <td>Истраживачки кластер или више кластера са којима је ставка повезана.</td>
+      </tr>
+      <tr>
+        <td><code>relation_to_corpus</code></td>
+        <td>Улога ставке у корпусу: аутор, кластер, публикација, главни оквир, повезана тема и слично.</td>
+      </tr>
+      <tr>
+        <td><code>status</code></td>
+        <td>Статус провере података.</td>
+      </tr>
+      <tr>
+        <td><code>checked_date</code></td>
+        <td>Датум последње провере.</td>
+      </tr>
+      <tr>
+        <td><code>notes</code></td>
+        <td>Кратка напомена о ставци.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Структура фајла doi-list.csv</h2>
+
+  <p>
+    Фајл <code>doi-list.csv</code> садржи контролни списак DOI бројева повезаних са приступним странама публикација. Његова сврха је да раздвоји главни DOI публикације, рада или издања од DOI броја репозиторијумске верзије, као и да забележи случајеве који захтевају додатну проверу.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Колона</th>
+        <th>Значење</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>local_id</code></td>
+        <td>Унутрашња стабилна ознака публикације или приступне стране.</td>
+      </tr>
+      <tr>
+        <td><code>page_type</code></td>
+        <td>Тип странице или публикације: књига, каталог, поглавље, рад са скупа, чланак и слично.</td>
+      </tr>
+      <tr>
+        <td><code>title_key</code></td>
+        <td>Поједностављени облик наслова, погодан за контролу, претрагу и упоређивање записа.</td>
+      </tr>
+      <tr>
+        <td><code>landing_page</code></td>
+        <td>Приступна страна публикације на овом сајту.</td>
+      </tr>
+      <tr>
+        <td><code>doi_work_or_edition</code></td>
+        <td>Главни DOI публикације, рада, књиге, каталога, поглавља или конкретног издања, ако је наведен.</td>
+      </tr>
+      <tr>
+        <td><code>doi_work_or_edition_url</code></td>
+        <td>Пун DOI линк за главни DOI публикације или издања.</td>
+      </tr>
+      <tr>
+        <td><code>doi_repository</code></td>
+        <td>DOI репозиторијумске или депоноване верзије, најчешће Zenodo DOI.</td>
+      </tr>
+      <tr>
+        <td><code>doi_repository_url</code></td>
+        <td>Пун DOI линк за репозиторијумску верзију.</td>
+      </tr>
+      <tr>
+        <td><code>repository_record_url</code></td>
+        <td>Линк ка репозиторијумском запису, на пример Zenodo запису, када постоји.</td>
+      </tr>
+      <tr>
+        <td><code>status</code></td>
+        <td>Статус провере DOI података: <code>checked</code>, <code>needs_review</code> или други радни статус.</td>
+      </tr>
+      <tr>
+        <td><code>checked_date</code></td>
+        <td>Датум последње провере података.</td>
+      </tr>
+      <tr>
+        <td><code>notes</code></td>
+        <td>Кратка напомена о DOI броју, односу више DOI бројева, Zenodo запису или потреби за додатном провером.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="identifier-box">
+  <h2>Правила за DOI бројеве</h2>
+
+  <p>
+    DOI бројеви се уносе према функцији коју имају у корпусу. Главни DOI публикације, рада, књиге, каталога, поглавља или издања уноси се у поље <code>doi_work_or_edition</code>. DOI репозиторијумске или депоноване верзије уноси се у поље <code>doi_repository</code>.
+  </p>
+
+  <p>
+    Ако је DOI јасно означен као Zenodo DOI, DOI депоноване верзије, repository DOI или DOI репозиторијумске верзије, он се не третира као главни DOI публикације, већ као DOI репозиторијумске верзије.
+  </p>
+
+  <p>
+    Ако на приступној страни није јасно да ли се DOI односи на публикацију, приступну страну или репозиторијумску верзију, запис добија статус <code>needs_review</code>.
+  </p>
+</section>
+
+<section>
+  <h2>Контролисане вредности</h2>
+
+  <h3>Статус провере</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Вредност</th>
+        <th>Значење</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>checked</code></td>
+        <td>Запис је проверен у односу на приступну страну и основне спољне идентификаторе.</td>
+      </tr>
+      <tr>
+        <td><code>draft</code></td>
+        <td>Радни унос који још није потпуно проверен.</td>
+      </tr>
+      <tr>
+        <td><code>needs_update</code></td>
+        <td>Запис постоји, али га треба исправити или допунити.</td>
+      </tr>
+      <tr>
+        <td><code>needs_review</code></td>
+        <td>Однос података није довољно јасан и потребна је ручна провера.</td>
+      </tr>
+      <tr>
+        <td><code>waiting_indexing</code></td>
+        <td>Подаци су припремљени, али још нису преузети или препознати у спољним агрегаторима.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Типови ставки и страница</h3>
+
+  <p>
+    Типови као што су <code>book</code>, <code>article</code>, <code>chapter</code>, <code>catalogue</code>, <code>conference_paper</code>, <code>publication</code>, <code>research_cluster</code>, <code>research_framework</code>, <code>person</code>, <code>institution</code>, <code>place</code> и <code>topic</code> користе се као контролисане вредности. Нове вредности треба додавати само када постоји стварна потреба.
+  </p>
+</section>
+
+<section class="license-box">
+  <h2>Лиценца и услови употребе / License and Reuse</h2>
+
+  <p>
+    <strong>Метаподаци:</strong>
+    могу се користити под лиценцом
+    <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">
+      Creative Commons Attribution 4.0 International (CC BY 4.0)
+    </a>,
+    уз навођење извора.
+  </p>
+
+  <p>
+    <strong>Пуни текстови, фотографије и илустрације:</strong>
+    нису обухваћени овом лиценцом. За њих важе права аутора, издавача, установа, репозиторијума и других носилаца права.
+  </p>
+
+  <p lang="en">
+    <strong>Metadata:</strong>
+    may be reused under the
+    <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">
+      Creative Commons Attribution 4.0 International License (CC BY 4.0)
+    </a>,
+    with attribution. Full texts, photographs and illustrations are not covered by this license; they remain subject to the rights of authors, publishers, institutions, repositories and other rights holders.
+  </p>
+</section>
+
+<section>
+  <h2>Како цитирати речник података</h2>
+
+  <div class="citation-box">
+    <p>
+      <strong>Препоручени облик навођења:</strong>
+    </p>
+
+    <p>
+      Милош Тимотијевић, „Речник података дигиталног научног корпуса”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, приступљено [датум приступа].
+    </p>
+
+    <p>
+      <strong>English citation form:</strong>
+    </p>
+
+    <p lang="en">
+      Miloš Timotijević, “Data Dictionary of the Digital Scholarly Corpus,” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, accessed [access date].
+    </p>
+  </div>
+
+  <p>
+    Када се користи сам CSV фајл, треба навести конкретан фајл, верзију ако је назначена, адресу фајла и датум приступа. Када се цитира појединачна публикација, предност треба дати самом делу, DOI броју, репозиторијумском запису или библиографском запису.
+  </p>
+</section>
+
+<section>
+  <h2>Ограничења</h2>
+
+  <p>
+    Речник података описује структуру локалног отвореног извоза. Он не представља потпуну националну библиографију, нити замену за COBISS, ORCID, Wikidata, DOI регистре или репозиторијуме.
+  </p>
+
+  <p>
+    Кластери су интерпретативне категорије и служе да покажу како се публикације повезују у шире истраживачке целине. Они нису једина могућа класификација, већ аналитички слој који помаже читању опуса као повезане целине.
+  </p>
+</section>
+
+<section>
+  <h2>Одржавање</h2>
+
+  <p>
+    Речник података треба ажурирати када се промени структура CSV фајлова, када се уведе нова колона, када се промени правило за DOI бројеве или када се промени режим лиценце и цитирања.
+  </p>
+
+  <p>
+    Препоручени редослед одржавања је: најпре ажурирати CSV фајл, затим ажурирати овај речник података, а потом проверити страницу <a href="index.html">Подаци / Data</a> и sitemap.
+  </p>
+</section>
+
+<p>
+  For the wider digital humanities context of this data layer, see
+  <a href="../knowledge-graph/about-digital-humanities-project.html">About this Digital Humanities Project</a>.
+</p>
+
+<p><a href="../knowledge-graph/method.html">Метод / Method</a></p>
+
+<p class="date-note">
+  Последње ажурирање: 29. јун 2026.
+</p>
+
+<p class="back-link"><a href="#top">↑ На врх / Back to top</a></p>
+<p><a href="index.html">← Назад на податке / Back to Data</a></p>
+<p><a href="../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
+<p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
+
+</body>
+</html>
