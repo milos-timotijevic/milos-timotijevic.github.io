@@ -508,6 +508,84 @@
       </tr>
     </tbody>
   </table>
+    </section>
+
+  <section>
+  <h2>Структура фајла doi-list.csv</h2>
+
+  <p>
+    Фајл <code>doi-list.csv</code> садржи контролни списак DOI бројева
+    повезаних са приступним странама публикација. Његова сврха је да раздвоји
+    главни DOI публикације, рада или издања од DOI броја репозиторијумске
+    верзије, као и да забележи случајеве који захтевају додатну проверу.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Колона</th>
+        <th>Значење</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>local_id</code></td>
+        <td>Унутрашња стабилна ознака публикације или приступне стране.</td>
+      </tr>
+      <tr>
+        <td><code>page_type</code></td>
+        <td>Тип странице или публикације: књига, каталог, поглавље, рад са скупа, чланак и слично.</td>
+      </tr>
+      <tr>
+        <td><code>title_key</code></td>
+        <td>Поједностављени облик наслова, погодан за контролу, претрагу и упоређивање записа.</td>
+      </tr>
+      <tr>
+        <td><code>landing_page</code></td>
+        <td>Приступна страна публикације на овом сајту.</td>
+      </tr>
+      <tr>
+        <td><code>doi_work_or_edition</code></td>
+        <td>Главни DOI публикације, рада, књиге, каталога, поглавља или конкретног издања, ако је наведен.</td>
+      </tr>
+      <tr>
+        <td><code>doi_work_or_edition_url</code></td>
+        <td>Пун DOI линк за главни DOI публикације или издања.</td>
+      </tr>
+      <tr>
+        <td><code>doi_repository</code></td>
+        <td>DOI репозиторијумске или депоноване верзије, најчешће Zenodo DOI.</td>
+      </tr>
+      <tr>
+        <td><code>doi_repository_url</code></td>
+        <td>Пун DOI линк за репозиторијумску верзију.</td>
+      </tr>
+      <tr>
+        <td><code>repository_record_url</code></td>
+        <td>Линк ка репозиторијумском запису, на пример Zenodo запису, када постоји.</td>
+      </tr>
+      <tr>
+        <td><code>status</code></td>
+        <td>Статус провере DOI података: <code>checked</code>, <code>needs_review</code> или други радни статус.</td>
+      </tr>
+      <tr>
+        <td><code>checked_date</code></td>
+        <td>Датум последње провере података.</td>
+      </tr>
+      <tr>
+        <td><code>notes</code></td>
+        <td>Кратка напомена о DOI броју, односу више DOI бројева, Zenodo запису или потреби за додатном провером.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="small-note">
+    Правило за унос: DOI који је јасно означен као Zenodo DOI, DOI депоноване
+    верзије или DOI репозиторијумске верзије уноси се у колону
+    <code>doi_repository</code>. Главни DOI публикације, рада или издања уноси се
+    у колону <code>doi_work_or_edition</code>. Ако однос није јасан, запис добија
+    статус <code>needs_review</code>.
+  </p>
 </section>
 
 <section>
