@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://milos-timotijevic.github.io/#person",
+      "@type": "Person",
+      "name": "Miloš Timotijević",
+      "alternateName": "Милош Тимотијевић",
+      "url": "https://milos-timotijevic.github.io/",
+      "sameAs": [
+        "https://orcid.org/0000-0002-0457-6125",
+        "https://www.wikidata.org/wiki/Q112514230",
+        "https://openalex.org/authors/a5072525869"
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/#website",
+      "@type": "WebSite",
+      "name": "Miloš Timotijević — Academic Profile and Knowledge Graph",
+      "url": "https://milos-timotijevic.github.io/",
+      "inLanguage": ["sr", "en"],
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "hasPart": [
+        {"@id": "https://milos-timotijevic.github.io/knowledge-graph/#page"},
+        {"@id": "https://milos-timotijevic.github.io/data/#dataset"}
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/#page",
+      "@type": "CollectionPage",
+      "name": "Граф знања и дигитална видљивост",
+      "alternateName": "Knowledge Graph and Digital Visibility",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/#website"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "hasPart": [
+        {"@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"},
+        {"@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#cluster"},
+        {"@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#cluster"},
+        {"@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#cluster"},
+        {"@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#cluster"},
+        {"@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#cluster"},
+        {"@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#cluster"}
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/#dataset",
+      "@type": "Dataset",
+      "name": "Open Data of the Digital Scholarly Corpus of Miloš Timotijević",
+      "url": "https://milos-timotijevic.github.io/data/",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "application/ld+json",
+        "contentUrl": "https://milos-timotijevic.github.io/data/knowledge-graph.jsonld"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework",
+      "@type": "ResearchProject",
+      "name": "Локална модерност и симболичка моћ у југоисточној Европи",
+      "alternateName": "Local Modernity and Symbolic Power in Southeast Europe",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139501155"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster",
+      "@type": "DefinedTerm",
+      "name": "Чачак као студија случаја локалне модерности",
+      "alternateName": "Čačak as a Case Study of Local Modernity",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139413866"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#cluster",
+      "@type": "DefinedTerm",
+      "name": "Политички ритуали и симболичка политика",
+      "alternateName": "Political Rituals and Symbolic Politics",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139413904"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#cluster",
+      "@type": "DefinedTerm",
+      "name": "Национална идеологија и интелектуалне расправе",
+      "alternateName": "National Ideology and Intellectual Debates",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569355"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#cluster",
+      "@type": "DefinedTerm",
+      "name": "Рат, пропаганда и култура сећања",
+      "alternateName": "War, Propaganda and Memory",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569742"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#cluster",
+      "@type": "DefinedTerm",
+      "name": "Култура, национализам и симболичка репрезентација",
+      "alternateName": "Culture, Nationalism and Symbolic Representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569852"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#cluster",
+      "@type": "DefinedTerm",
+      "name": "Културно наслеђе, музеји и јавна историја",
+      "alternateName": "Cultural Heritage, Museums and Public History",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139570560"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#cluster",
+      "@type": "DefinedTerm",
+      "name": "Религијски живот и друштвене праксе",
+      "alternateName": "Religious Life and Social Practices",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139570614"
+    }
+  ]
+}
