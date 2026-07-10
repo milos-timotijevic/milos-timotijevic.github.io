@@ -28,13 +28,16 @@
     <loc>https://milos-timotijevic.github.io/data/</loc>
   </url>
   <url>
-  <loc>https://milos-timotijevic.github.io/data/</loc>
-</url>
-  <url>
     <loc>https://milos-timotijevic.github.io/data/publications.csv</loc>
   </url>
   <url>
     <loc>https://milos-timotijevic.github.io/data/wikidata-items.csv</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/data/doi-list.csv</loc>
+  </url>
+  <url>
+    <loc>https://milos-timotijevic.github.io/data/data-dictionary.html</loc>
   </url>
   <url>
     <loc>https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html</loc>
@@ -301,3 +304,4 @@
   <loc>https://milos-timotijevic.github.io/public-activity/</loc>
 </url>
 </urlset>
+
