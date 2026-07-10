@@ -96,7 +96,7 @@
 
 <section class="intro">
   <p>
-    Ова страна описује структуру отворених података који се користе у оквиру дигиталног научног корпуса Милоша Тимотијевића. Речник података објашњава значење колона у фајловима <code>publications.csv</code>, <code>wikidata-items.csv</code> и <code>doi-list.csv</code>, као и правила за унос DOI бројева, статус проверe, лиценцу и начин цитирања.
+    Ова страна описује структуру отворених података који се користе у оквиру дигиталног научног корпуса Милоша Тимотијевића. Речник података објашњава значење колона у CSV фајловима, JSON-LD извоз графа знања, правила за унос DOI бројева, статус проверe, лиценцу и начин цитирања.
   </p>
 
   <p>
@@ -108,7 +108,7 @@
   <h2>English Summary</h2>
 
   <p>
-    This page describes the structure of the open data used in the digital scholarly corpus of Miloš Timotijević. It explains the columns in <code>publications.csv</code>, <code>wikidata-items.csv</code> and <code>doi-list.csv</code>, together with DOI rules, verification status, licensing and citation practice.
+    This page describes the structure of the open data used in the digital scholarly corpus of Miloš Timotijević. It explains the CSV columns, the JSON-LD knowledge graph export, DOI rules, verification status, licensing and citation practice.
   </p>
 
   <p>
@@ -147,6 +147,15 @@
       </p>
       <p>
         <a href="doi-list.csv">Преузми / Download</a>
+      </p>
+    </article>
+    <article class="data-card">
+      <h3>knowledge-graph.jsonld</h3>
+      <p>
+        Машински читљив извоз главних ентитета и односа графа знања.
+      </p>
+      <p>
+        <a href="knowledge-graph.jsonld" type="application/ld+json">Преузми / Download</a>
       </p>
     </article>
   </div>
@@ -518,6 +527,18 @@
 </section>
 
 <section>
+  <h2>Структура фајла knowledge-graph.jsonld</h2>
+
+  <p>
+    Фајл <code>knowledge-graph.jsonld</code> користи JSON-LD и речник Schema.org. Поље <code>@graph</code> садржи главне чворове корпуса, док стабилни <code>@id</code> идентификатори омогућавају повезивање аутора, сајта, улазне странице, кровног оквира и тематских кластера.
+  </p>
+
+  <p lang="en">
+    The <code>knowledge-graph.jsonld</code> file uses JSON-LD and the Schema.org vocabulary. Its <code>@graph</code> array contains the main corpus nodes, while stable <code>@id</code> values connect the author, website, graph entry page, main framework and thematic clusters.
+  </p>
+</section>
+
+<section>
   <h2>Ограничења</h2>
 
   <p>
@@ -549,7 +570,7 @@
 <p><a href="../knowledge-graph/method.html">Метод / Method</a></p>
 
 <p class="date-note">
-  Последње ажурирање: 29. јун 2026.
+  Последње ажурирање: 10. јул 2026.
 </p>
 
 <p class="back-link"><a href="#top">↑ На врх / Back to top</a></p>

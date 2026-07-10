@@ -7,6 +7,7 @@
   <meta name="robots" content="index, follow">
   <meta name="description" content="Страница са отвореним табеларним и структурисаним подацима о изабраним публикацијама, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама и истраживачким кластерима у оквиру дигиталног научног корпуса Милоша Тимотијевића.">
   <link rel="canonical" href="https://milos-timotijevic.github.io/data/">
+  <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" title="Machine-readable knowledge graph">
 
   <style>
     body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #222; background: #fff; }
@@ -60,7 +61,7 @@
     "sr",
     "en"
   ],
-  "dateModified": "2026-06-29",
+  "dateModified": "2026-07-10",
   "description": "Страница са отвореним табеларним и структурисаним подацима о изабраним публикацијама, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама и истраживачким кластерима у оквиру дигиталног научног корпуса Милоша Тимотијевића.",
   "isPartOf": {
     "@type": "WebSite",
@@ -87,7 +88,7 @@
     "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
     "version": "0.1",
     "datePublished": "2026-06-20",
-    "dateModified": "2026-06-29",
+    "dateModified": "2026-07-10",
     "description": "Отворени CSV скупови података о изабраним публикацијама Милоша Тимотијевића, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама, COBISS записима и истраживачким кластерима.",
     "creator": {
       "@type": "Person",
@@ -114,6 +115,12 @@
         "name": "doi-list.csv",
         "encodingFormat": "text/csv",
         "contentUrl": "https://milos-timotijevic.github.io/data/doi-list.csv"
+      },
+      {
+        "@type": "DataDownload",
+        "name": "knowledge-graph.jsonld",
+        "encodingFormat": "application/ld+json",
+        "contentUrl": "https://milos-timotijevic.github.io/data/knowledge-graph.jsonld"
       }
     ]
   },
@@ -189,7 +196,7 @@
   </p>
 
   <p>
-    Тренутно су доступни CSV фајлови <code>publications.csv</code>, <code>wikidata-items.csv</code> и <code>doi-list.csv</code>. Први фајл садржи основне податке о изабраним публикацијама, други контролни списак Wikidata ставки, а трећи контролни списак DOI бројева.
+    Тренутно су доступни CSV фајлови <code>publications.csv</code>, <code>wikidata-items.csv</code> и <code>doi-list.csv</code>, као и <code>knowledge-graph.jsonld</code>. JSON-LD извоз описује главне ентитете и везе графа у машински читљивом облику.
   </p>
 
   <p>
@@ -223,6 +230,11 @@
       <li>
         <a href="doi-list.csv">doi-list.csv</a> —
         контролни списак DOI бројева / control list of DOI identifiers
+      </li>
+      <li>
+        <a href="knowledge-graph.jsonld" type="application/ld+json">knowledge-graph.jsonld</a> —
+        машински читљив извоз главних чворова и односа /
+        machine-readable export of the main graph nodes and relations
       </li>
     </ul>
 
@@ -320,12 +332,12 @@
     </article>
 
     <article class="data-card">
-      <h3>knowledge-graph.csv</h3>
+      <h3>knowledge-graph.jsonld</h3>
       <p>
-        Будући табеларни извоз односа у графу знања: публикација припада кластеру, дело има DOI, дело има Wikidata ставку, аутор је повезан са делом.
+        JSON-LD извоз главних чворова и односа у графу знања: аутор, сајт, улазна страница, кровни оквир и тематски кластери.
       </p>
-      <p class="small-note">
-        Планирано / Planned.
+      <p>
+        <a href="knowledge-graph.jsonld" type="application/ld+json">Преузми / Download</a>
       </p>
     </article>
   </div>
