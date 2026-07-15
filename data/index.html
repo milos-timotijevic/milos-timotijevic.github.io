@@ -7,6 +7,7 @@
   <meta name="robots" content="index, follow">
   <meta name="description" content="Страница са отвореним табеларним и структурисаним подацима о изабраним публикацијама, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама и истраживачким кластерима у оквиру дигиталног научног корпуса Милоша Тимотијевића.">
   <link rel="canonical" href="https://milos-timotijevic.github.io/data/">
+  <link rel="describedby" type="application/json" href="https://milos-timotijevic.github.io/data/manifest.json" title="Data integrity manifest">
   <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/publications.jsonld" title="Machine-readable bibliography graph">
   <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" title="Machine-readable knowledge graph">
 
@@ -87,7 +88,7 @@
     "@type": "Dataset",
     "name": "Open Data of the Digital Scholarly Corpus of Miloš Timotijević",
     "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
-    "version": "0.3",
+    "version": "0.4",
     "datePublished": "2026-06-20",
     "dateModified": "2026-07-15",
     "description": "Отворени CSV, JSON и JSON-LD скупови података о изабраним публикацијама Милоша Тимотијевића, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама, COBISS записима и истраживачким кластерима.",
@@ -120,6 +121,12 @@
         "name": "publications.jsonld",
         "encodingFormat": "application/ld+json",
         "contentUrl": "https://milos-timotijevic.github.io/data/publications.jsonld"
+      },
+      {
+        "@type": "DataDownload",
+        "name": "manifest.json",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://milos-timotijevic.github.io/data/manifest.json"
       },
       {
         "@type": "DataDownload",
@@ -213,7 +220,7 @@
   </p>
 
   <p>
-    Тренутно су доступни CSV фајлови <code>publications.csv</code>, <code>wikidata-items.csv</code> и <code>doi-list.csv</code>, JSON извоз <code>publications.json</code>, Schema.org извоз <code>publications.jsonld</code>, као и <code>knowledge-graph.jsonld</code>. JSON и JSON-LD извоз омогућавају машинску обраду записа и односа графа знања.
+    Тренутно су доступни CSV фајлови <code>publications.csv</code>, <code>wikidata-items.csv</code> и <code>doi-list.csv</code>, JSON извоз <code>publications.json</code>, Schema.org извоз <code>publications.jsonld</code>, као и <code>knowledge-graph.jsonld</code>. JSON и JSON-LD извоз омогућавају машинску обраду записа и односа графа знања, док <code>manifest.json</code> омогућава проверу величине, броја записа и SHA-256 отиска главних извоза.
   </p>
 
   <p>
@@ -244,6 +251,11 @@
       <li>
         <a href="publications.jsonld" type="application/ld+json">publications.jsonld</a> —
         Schema.org граф проверених публикација / Schema.org graph of verified publications
+      </li>
+
+      <li>
+        <a href="manifest.json" type="application/json">manifest.json</a> —
+        контролни манифест величине, броја записа и SHA-256 отисака / integrity manifest with byte sizes, record counts and SHA-256 checksums
       </li>
 
       <li>
@@ -369,6 +381,16 @@
     </article>
 
     <article class="data-card">
+      <h3>manifest.json</h3>
+      <p>
+        Контролни манифест за <code>publications.csv</code>, <code>publications.json</code> и <code>publications.jsonld</code>, са величином фајла, бројем записа и SHA-256 отиском за независну проверу интегритета.
+      </p>
+      <p>
+        <a href="manifest.json" type="application/json">Преузми / Download</a>
+      </p>
+    </article>
+
+    <article class="data-card">
       <h3>knowledge-graph.jsonld</h3>
       <p>
         JSON-LD извоз главних чворова и односа у графу знања: аутор, сајт, улазна страница, кровни оквир и тематски кластери.
@@ -489,7 +511,7 @@
   </p>
 
   <p>
-    Препоручени ритам одржавања је једноставан: најпре се ажурира приступна страна публикације, затим се уноси или исправља ред у <code>publications.csv</code>, а потом се поново генеришу <code>publications.json</code> и <code>publications.jsonld</code> и, ако је потребно, ажурирају <code>doi-list.csv</code>, <code>wikidata-items.csv</code> и главни граф извоз.
+    Препоручени ритам одржавања је једноставан: најпре се ажурира приступна страна публикације, затим се уноси или исправља ред у <code>publications.csv</code>, а потом се поново генеришу <code>publications.json</code>, <code>publications.jsonld</code> и <code>manifest.json</code> и, ако је потребно, ажурирају <code>doi-list.csv</code>, <code>wikidata-items.csv</code> и главни граф извоз.
   </p>
 </section>
 
