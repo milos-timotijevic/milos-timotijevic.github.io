@@ -1,0 +1,52 @@
+# Miloš Timotijević — Academic Profile and Knowledge Graph
+
+> Bilingual Serbian-English academic website of historian Miloš Timotijević, with a complete bibliography, publication landing pages, research clusters, a knowledge graph and open machine-readable data.
+
+The site documents modern Serbian and Yugoslav history, local modernity, political rituals, war and memory, nationalism, cultural heritage, museums, public history and religious life. Serbian titles are commonly shown together with English titles or summaries. Stable publication identifiers must be treated as distinct records even when two works discuss the same subject or share a landing page.
+
+## Core pages
+
+- [Academic profile](https://milos-timotijevic.github.io/): Main bilingual profile, biography, persistent researcher identifiers and navigation.
+- [Complete bibliography](https://milos-timotijevic.github.io/bibliography/): Full bibliography organized by publication type, with stable fragment identifiers for verified entries.
+- [Knowledge graph](https://milos-timotijevic.github.io/knowledge-graph/): Entry point to research clusters, publication landing pages and linked scholarly identifiers.
+- [Digital humanities project](https://milos-timotijevic.github.io/knowledge-graph/about-digital-humanities-project.html): English description of the project's aims, structure and scholarly context.
+- [Method](https://milos-timotijevic.github.io/knowledge-graph/method.html): Methodological explanation of identifiers, evidence, research clusters and data maintenance.
+
+## Machine-readable data
+
+- [Open data](https://milos-timotijevic.github.io/data/): Human-readable description and download page for the open bibliographic data.
+- [Data dictionary](https://milos-timotijevic.github.io/data/data-dictionary.html): Field definitions, status values, identifier rules, licensing and citation guidance.
+- [Bibliography JSON-LD](https://milos-timotijevic.github.io/data/publications.jsonld): Schema.org Dataset graph with one stable node for each verified publication record.
+- [Knowledge graph JSON-LD](https://milos-timotijevic.github.io/data/knowledge-graph.jsonld): Machine-readable graph of the author, website, research framework and thematic clusters.
+- [Bibliography JSON](https://milos-timotijevic.github.io/data/publications.json): Normalized JSON export corresponding to the CSV source.
+- [Bibliography CSV](https://milos-timotijevic.github.io/data/publications.csv): Primary tabular source for verified publication metadata.
+- [Integrity manifest](https://milos-timotijevic.github.io/data/manifest.json): SHA-256 checksums, byte sizes and record counts for the principal data exports.
+
+## Research framework and clusters
+
+- [Local Modernity and Symbolic Power in Southeast Europe](https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html): Umbrella research framework.
+- [Čačak as a Case Study of Local Modernity](https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html): Urban transformation, local institutions, everyday life and identity.
+- [Political Rituals and Symbolic Politics](https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html): Ritual, commemoration and symbolic authority.
+- [National Ideology and Intellectual Debates](https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html): National ideas, intellectual history and ideological debate.
+- [War, Propaganda and Memory](https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html): Occupation, violence, propaganda, resistance and memory culture.
+- [Culture, Nationalism and Symbolic Representation](https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html): Cultural production, nationalism and representation.
+- [Cultural Heritage, Museums and Public History](https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html): Museum practice, heritage interpretation and public history.
+- [Religious Life and Social Practices](https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html): Religious institutions, belief and social practice.
+
+## Publication collections
+
+- [Books](https://milos-timotijevic.github.io/books/): Books and monographs with dedicated landing pages.
+- [Catalogues](https://milos-timotijevic.github.io/catalogues/): Exhibition and collection catalogues.
+- [Book chapters](https://milos-timotijevic.github.io/book-chapters/): Chapters in edited volumes.
+- [Conference papers](https://milos-timotijevic.github.io/conference-papers/): Papers and contributions from scholarly meetings.
+- [Journal articles](https://milos-timotijevic.github.io/articles/): Journal and research articles with dedicated landing pages.
+- [Book reviews](https://milos-timotijevic.github.io/book-reviews/): Thematically organized reviews and review essays.
+
+## Optional
+
+- [Sitemap](https://milos-timotijevic.github.io/sitemap.xml): Full machine-readable URL inventory.
+- [Robots policy](https://milos-timotijevic.github.io/robots.txt): Public crawler access policy and sitemap location.
+- [ORCID](https://orcid.org/0000-0002-0457-6125): Persistent researcher identifier.
+- [Wikidata](https://www.wikidata.org/wiki/Q112514230): Linked open-data identity record for Miloš Timotijević.
+- [OpenAlex](https://openalex.org/authors/a5072525869): Scholarly author record.
+

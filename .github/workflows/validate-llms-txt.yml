@@ -1,0 +1,32 @@
+name: Validate llms.txt
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - llms.txt
+      - scripts/validate_llms_txt.py
+      - .github/workflows/validate-llms-txt.yml
+  pull_request:
+    paths:
+      - llms.txt
+      - scripts/validate_llms_txt.py
+      - .github/workflows/validate-llms-txt.yml
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate llms.txt structure and links
+        run: python scripts/validate_llms_txt.py
+
