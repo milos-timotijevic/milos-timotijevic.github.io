@@ -61,7 +61,7 @@
     "sr",
     "en"
   ],
-  "dateModified": "2026-07-10",
+  "dateModified": "2026-07-15",
   "description": "Страница са отвореним табеларним и структурисаним подацима о изабраним публикацијама, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама и истраживачким кластерима у оквиру дигиталног научног корпуса Милоша Тимотијевића.",
   "isPartOf": {
     "@type": "WebSite",
@@ -86,23 +86,33 @@
     "@type": "Dataset",
     "name": "Open Data of the Digital Scholarly Corpus of Miloš Timotijević",
     "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
-    "version": "0.1",
+    "version": "0.2",
     "datePublished": "2026-06-20",
-    "dateModified": "2026-07-10",
-    "description": "Отворени CSV скупови података о изабраним публикацијама Милоша Тимотијевића, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама, COBISS записима и истраживачким кластерима.",
+    "dateModified": "2026-07-15",
+    "description": "Отворени CSV, JSON и JSON-LD скупови података о изабраним публикацијама Милоша Тимотијевића, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама, COBISS записима и истраживачким кластерима.",
     "creator": {
       "@type": "Person",
       "name": "Miloš Timotijević",
       "sameAs": "https://orcid.org/0000-0002-0457-6125"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/",
-    "encodingFormat": "text/csv",
+    "encodingFormat": [
+      "text/csv",
+      "application/json",
+      "application/ld+json"
+    ],
     "distribution": [
       {
         "@type": "DataDownload",
         "name": "publications.csv",
         "encodingFormat": "text/csv",
         "contentUrl": "https://milos-timotijevic.github.io/data/publications.csv"
+      },
+      {
+        "@type": "DataDownload",
+        "name": "publications.json",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://milos-timotijevic.github.io/data/publications.json"
       },
       {
         "@type": "DataDownload",
@@ -196,7 +206,7 @@
   </p>
 
   <p>
-    Тренутно су доступни CSV фајлови <code>publications.csv</code>, <code>wikidata-items.csv</code> и <code>doi-list.csv</code>, као и <code>knowledge-graph.jsonld</code>. JSON-LD извоз описује главне ентитете и везе графа у машински читљивом облику.
+    Тренутно су доступни CSV фајлови <code>publications.csv</code>, <code>wikidata-items.csv</code> и <code>doi-list.csv</code>, JSON извоз <code>publications.json</code>, као и <code>knowledge-graph.jsonld</code>. JSON и JSON-LD извоз омогућавају машинску обраду записа и односа графа знања.
   </p>
 
   <p>
@@ -217,6 +227,11 @@
       <li>
         <a href="publications.csv">publications.csv</a> —
         основна табела изабраних публикација / main table of selected publications
+      </li>
+
+      <li>
+        <a href="publications.json" type="application/json">publications.json</a> —
+        JSON извоз проверених библиографских записа / JSON export of verified bibliography records
       </li>
 
       <li>
@@ -324,10 +339,10 @@
     <article class="data-card">
       <h3>publications.json</h3>
       <p>
-        Будући JSON извоз истих података, погодан за машинску обраду, апликације, визуализације и даље повезивање са графом знања.
+        JSON извоз проверених библиографских записа, погодан за машинску обраду, апликације, визуализације и даље повезивање са графом знања.
       </p>
-      <p class="small-note">
-        Планирано / Planned.
+      <p>
+        <a href="publications.json" type="application/json">Преузми / Download</a>
       </p>
     </article>
 
@@ -452,7 +467,7 @@
   </p>
 
   <p>
-    Препоручени ритам одржавања је једноставан: најпре се ажурира приступна страна публикације, затим се уноси или исправља ред у <code>publications.csv</code>, а потом се, ако је потребно, ажурирају <code>doi-list.csv</code>, <code>wikidata-items.csv</code> и будући JSON или граф извоз.
+    Препоручени ритам одржавања је једноставан: најпре се ажурира приступна страна публикације, затим се уноси или исправља ред у <code>publications.csv</code>, а потом се поново генерише <code>publications.json</code> и, ако је потребно, ажурирају <code>doi-list.csv</code>, <code>wikidata-items.csv</code> и граф извоз.
   </p>
 </section>
 
@@ -486,7 +501,7 @@
 </section>
 
 <p class="date-note">
-  Последње ажурирање: 29. јун 2026.
+  Последње ажурирање: 15. јул 2026.
 </p>
 
 <p class="back-link"><a href="#top">↑ На врх / Back to top</a></p>
