@@ -1,0 +1,35 @@
+name: Validate open data
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - data/publications.csv
+      - data/publications.json
+      - scripts/generate_publications_json.py
+      - scripts/validate_data.py
+      - .github/workflows/validate-data.yml
+  pull_request:
+    paths:
+      - data/publications.csv
+      - data/publications.json
+      - scripts/generate_publications_json.py
+      - scripts/validate_data.py
+      - .github/workflows/validate-data.yml
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate CSV and JSON exports
+        run: python scripts/validate_data.py
