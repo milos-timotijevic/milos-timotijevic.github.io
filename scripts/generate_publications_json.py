@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 from datetime import date
 from pathlib import Path
@@ -28,6 +29,7 @@ def main() -> int:
     csv_path = root / "data" / "publications.csv"
     json_path = root / "data" / "publications.json"
     jsonld_path = root / "data" / "publications.jsonld"
+    manifest_path = root / "data" / "manifest.json"
 
     with csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle)
@@ -167,6 +169,36 @@ def main() -> int:
         handle.write("\n")
 
     print(f"Wrote {len(graph)} Schema.org work nodes to {jsonld_path}")
+
+    formats = {
+        csv_path: "text/csv",
+        json_path: "application/json",
+        jsonld_path: "application/ld+json",
+    }
+    files = []
+    for path, media_type in formats.items():
+        content = path.read_bytes()
+        files.append(
+            {
+                "path": f"data/{path.name}",
+                "contentUrl": f"https://milos-timotijevic.github.io/data/{path.name}",
+                "encodingFormat": media_type,
+                "byteSize": len(content),
+                "sha256": hashlib.sha256(content).hexdigest(),
+                "recordCount": len(rows),
+            }
+        )
+    manifest = {
+        "schemaVersion": 1,
+        "name": "Integrity manifest for the bibliography data exports",
+        "dateModified": date.today().isoformat(),
+        "algorithm": "SHA-256",
+        "files": files,
+    }
+    with manifest_path.open("w", encoding="utf-8", newline="\n") as handle:
+        json.dump(manifest, handle, ensure_ascii=False, indent=2)
+        handle.write("\n")
+    print(f"Wrote integrity metadata for {len(files)} files to {manifest_path}")
     return 0
 
 

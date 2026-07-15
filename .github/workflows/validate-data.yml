@@ -8,6 +8,7 @@ on:
       - data/publications.csv
       - data/publications.json
       - data/publications.jsonld
+      - data/manifest.json
       - scripts/generate_publications_json.py
       - scripts/validate_data.py
       - .github/workflows/validate-data.yml
@@ -16,6 +17,7 @@ on:
       - data/publications.csv
       - data/publications.json
       - data/publications.jsonld
+      - data/manifest.json
       - scripts/generate_publications_json.py
       - scripts/validate_data.py
       - .github/workflows/validate-data.yml

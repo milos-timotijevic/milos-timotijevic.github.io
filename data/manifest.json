@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "name": "Integrity manifest for the bibliography data exports",
+  "dateModified": "2026-07-15",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "data/publications.csv",
+      "contentUrl": "https://milos-timotijevic.github.io/data/publications.csv",
+      "encodingFormat": "text/csv",
+      "byteSize": 79767,
+      "sha256": "035a0167d5a6f0e47294dbd986e5bf24df0bbd6772c2ca7d25f239eccd788fbe",
+      "recordCount": 150
+    },
+    {
+      "path": "data/publications.json",
+      "contentUrl": "https://milos-timotijevic.github.io/data/publications.json",
+      "encodingFormat": "application/json",
+      "byteSize": 138558,
+      "sha256": "a1ba2809805aebf64c8b900cae4ddaea21b3b3c202f61580d0e9122c96767431",
+      "recordCount": 150
+    },
+    {
+      "path": "data/publications.jsonld",
+      "contentUrl": "https://milos-timotijevic.github.io/data/publications.jsonld",
+      "encodingFormat": "application/ld+json",
+      "byteSize": 208210,
+      "sha256": "5702a97d44417c568d9b0cafea8ff421a42732c927f697f3213987141b519dc7",
+      "recordCount": 150
+    }
+  ]
+}

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import sys
 from collections import Counter
@@ -58,6 +59,7 @@ def main() -> int:
     csv_path = root / "data" / "publications.csv"
     json_path = root / "data" / "publications.json"
     jsonld_path = root / "data" / "publications.jsonld"
+    manifest_path = root / "data" / "manifest.json"
     errors: list[str] = []
 
     if not csv_path.is_file():
@@ -66,6 +68,8 @@ def main() -> int:
         errors.append(f"Missing file: {json_path}")
     if not jsonld_path.is_file():
         errors.append(f"Missing file: {jsonld_path}")
+    if not manifest_path.is_file():
+        errors.append(f"Missing file: {manifest_path}")
     if errors:
         return report(errors)
 
@@ -170,6 +174,44 @@ def main() -> int:
     if jsonld_ids != csv_ids:
         errors.append("JSON-LD stable identifiers do not exactly match CSV ids.")
 
+    try:
+        with manifest_path.open("r", encoding="utf-8") as handle:
+            manifest = json.load(handle)
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"Cannot read valid JSON from {manifest_path}: {exc}")
+        return report(errors)
+
+    if manifest.get("schemaVersion") != 1:
+        errors.append("Manifest schemaVersion must be 1.")
+    if manifest.get("algorithm") != "SHA-256":
+        errors.append("Manifest algorithm must be SHA-256.")
+    entries = manifest.get("files")
+    if not isinstance(entries, list):
+        errors.append("Manifest files must be a list.")
+        entries = []
+    expected_paths = {
+        "data/publications.csv": csv_path,
+        "data/publications.json": json_path,
+        "data/publications.jsonld": jsonld_path,
+    }
+    entries_by_path = {
+        entry.get("path"): entry for entry in entries if isinstance(entry, dict)
+    }
+    if set(entries_by_path) != set(expected_paths):
+        errors.append("Manifest file list differs from the expected three data exports.")
+    for relative_path, path in expected_paths.items():
+        entry = entries_by_path.get(relative_path)
+        if not entry:
+            continue
+        content = path.read_bytes()
+        actual_hash = hashlib.sha256(content).hexdigest()
+        if entry.get("sha256") != actual_hash:
+            errors.append(f"Manifest SHA-256 mismatch for {relative_path}.")
+        if entry.get("byteSize") != len(content):
+            errors.append(f"Manifest byteSize mismatch for {relative_path}.")
+        if entry.get("recordCount") != len(rows):
+            errors.append(f"Manifest recordCount mismatch for {relative_path}.")
+
     status_counts = Counter(row.get("status", "").strip() for row in rows)
     if errors:
         return report(errors)
@@ -181,6 +223,7 @@ def main() -> int:
     print(f"  statuses: {dict(sorted(status_counts.items()))}")
     print("  publications.json exactly matches publications.csv")
     print(f"  publications.jsonld contains {len(work_nodes)} Schema.org work nodes")
+    print("  manifest SHA-256 values and byte sizes match all three exports")
     return 0
 
 
