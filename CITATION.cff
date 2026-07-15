@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this academic website or its open bibliographic data, please cite it using these metadata."
+title: "Miloš Timotijević — Academic Profile and Knowledge Graph"
+type: dataset
+authors:
+  - family-names: "Timotijević"
+    given-names: "Miloš"
+    orcid: "https://orcid.org/0000-0002-0457-6125"
+abstract: "A bilingual academic website, bibliography, knowledge graph and open-data corpus describing the scholarly work of historian Miloš Timotijević."
+keywords:
+  - bibliography
+  - knowledge graph
+  - digital humanities
+  - public history
+  - Serbian history
+license: CC-BY-4.0
+repository-code: "https://github.com/milos-timotijevic/milos-timotijevic.github.io"
+url: "https://milos-timotijevic.github.io/"
