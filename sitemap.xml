@@ -28,6 +28,10 @@
     <loc>https://milos-timotijevic.github.io/data/</loc>
   </url>
   <url>
+    <loc>https://milos-timotijevic.github.io/citation/</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
     <loc>https://milos-timotijevic.github.io/data/publications.csv</loc>
   </url>
   <url>
@@ -332,4 +336,5 @@
     <lastmod>2026-07-15</lastmod>
   </url>
 </urlset>
+
 
