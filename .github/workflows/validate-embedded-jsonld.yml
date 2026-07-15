@@ -1,0 +1,42 @@
+name: Validate embedded JSON-LD
+
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "bibliography/index.html"
+      - "knowledge-graph/index.html"
+      - "data/index.html"
+      - "citation/index.html"
+      - "scripts/validate_embedded_jsonld.py"
+      - ".github/workflows/validate-embedded-jsonld.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "index.html"
+      - "bibliography/index.html"
+      - "knowledge-graph/index.html"
+      - "data/index.html"
+      - "citation/index.html"
+      - "scripts/validate_embedded_jsonld.py"
+      - ".github/workflows/validate-embedded-jsonld.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate embedded JSON-LD
+        run: python scripts/validate_embedded_jsonld.py
