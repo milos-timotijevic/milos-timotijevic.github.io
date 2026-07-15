@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate publications.csv and its publications.json export."""
+"""Validate CSV, JSON and JSON-LD bibliography exports."""
 
 from __future__ import annotations
 
@@ -57,12 +57,15 @@ def main() -> int:
     root = parse_args().root.resolve()
     csv_path = root / "data" / "publications.csv"
     json_path = root / "data" / "publications.json"
+    jsonld_path = root / "data" / "publications.jsonld"
     errors: list[str] = []
 
     if not csv_path.is_file():
         errors.append(f"Missing file: {csv_path}")
     if not json_path.is_file():
         errors.append(f"Missing file: {json_path}")
+    if not jsonld_path.is_file():
+        errors.append(f"Missing file: {jsonld_path}")
     if errors:
         return report(errors)
 
@@ -126,6 +129,47 @@ def main() -> int:
     if payload.get("records") != expected_records:
         errors.append("JSON records do not exactly match normalized CSV records.")
 
+    try:
+        with jsonld_path.open("r", encoding="utf-8") as handle:
+            jsonld_payload = json.load(handle)
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"Cannot read valid JSON-LD from {jsonld_path}: {exc}")
+        return report(errors)
+
+    graph = jsonld_payload.get("@graph")
+    if not isinstance(graph, list) or not graph:
+        errors.append("JSON-LD @graph is missing or empty.")
+        work_nodes = []
+    else:
+        work_nodes = graph[1:]
+        dataset = graph[0]
+        if dataset.get("@type") != "Dataset":
+            errors.append("First JSON-LD node must be the Dataset node.")
+        if len(dataset.get("hasPart", [])) != len(rows):
+            errors.append("JSON-LD Dataset hasPart count differs from CSV row count.")
+    if len(work_nodes) != len(rows):
+        errors.append(
+            f"JSON-LD contains {len(work_nodes)} work nodes; expected {len(rows)}."
+        )
+    node_ids = [node.get("@id") for node in work_nodes]
+    if any(not node_id for node_id in node_ids):
+        errors.append("One or more JSON-LD work nodes have no @id.")
+    if len(set(node_ids)) != len(node_ids):
+        errors.append("JSON-LD work-node @id values are not unique.")
+    csv_ids = set(identifiers)
+    jsonld_ids = {
+        value
+        for node in work_nodes
+        for value in (
+            node.get("identifier", [])
+            if isinstance(node.get("identifier"), list)
+            else [node.get("identifier")]
+        )
+        if isinstance(value, str)
+    }
+    if jsonld_ids != csv_ids:
+        errors.append("JSON-LD stable identifiers do not exactly match CSV ids.")
+
     status_counts = Counter(row.get("status", "").strip() for row in rows)
     if errors:
         return report(errors)
@@ -136,6 +180,7 @@ def main() -> int:
     print(f"  non-empty Wikidata ids: {len(qids)}")
     print(f"  statuses: {dict(sorted(status_counts.items()))}")
     print("  publications.json exactly matches publications.csv")
+    print(f"  publications.jsonld contains {len(work_nodes)} Schema.org work nodes")
     return 0
 
 
