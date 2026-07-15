@@ -7,6 +7,7 @@ on:
     paths:
       - data/publications.csv
       - data/publications.json
+      - data/publications.jsonld
       - scripts/generate_publications_json.py
       - scripts/validate_data.py
       - .github/workflows/validate-data.yml
@@ -14,6 +15,7 @@ on:
     paths:
       - data/publications.csv
       - data/publications.json
+      - data/publications.jsonld
       - scripts/generate_publications_json.py
       - scripts/validate_data.py
       - .github/workflows/validate-data.yml

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate data/publications.json from data/publications.csv."""
+"""Generate JSON and JSON-LD bibliography exports from publications.csv."""
 
 from __future__ import annotations
 
@@ -27,6 +27,7 @@ def main() -> int:
     root = parse_args().root.resolve()
     csv_path = root / "data" / "publications.csv"
     json_path = root / "data" / "publications.json"
+    jsonld_path = root / "data" / "publications.jsonld"
 
     with csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle)
@@ -54,6 +55,118 @@ def main() -> int:
         handle.write("\n")
 
     print(f"Wrote {len(rows)} records to {json_path}")
+
+    type_map = {
+        "article": "ScholarlyArticle",
+        "book": "Book",
+        "book_chapter": "Chapter",
+        "chapter": "Chapter",
+        "catalogue": "Book",
+        "conference-paper": "ScholarlyArticle",
+        "conference_abstract": "ScholarlyArticle",
+        "conference_paper": "ScholarlyArticle",
+    }
+
+    graph = []
+    work_ids = []
+    for row in rows:
+        landing_page = row.get("landing_page")
+        work_id = (
+            "https://milos-timotijevic.github.io/data/publications.jsonld#"
+            f"{row['id']}"
+        )
+        work_ids.append({"@id": work_id})
+        authors = [
+            {"@type": "Person", "name": name.strip()}
+            for name in (row.get("author_en") or row.get("author_sr") or "").split(";")
+            if name.strip()
+        ]
+        node = {
+            "@id": work_id,
+            "@type": type_map.get(row.get("type"), "CreativeWork"),
+            "identifier": row["id"],
+            "name": row.get("title_en") or row.get("title_sr") or row["id"],
+            "inLanguage": ["sr", "en"],
+        }
+        if row.get("title_sr") and row.get("title_en"):
+            node["alternateName"] = row["title_sr"]
+        if authors:
+            node["author"] = authors
+        if landing_page:
+            node["url"] = landing_page
+        if row.get("year"):
+            node["datePublished"] = row["year"]
+        if row.get("wikidata"):
+            node["sameAs"] = f"https://www.wikidata.org/wiki/{row['wikidata']}"
+        if row.get("cobiss"):
+            node.setdefault("additionalType", "https://schema.org/CreativeWork")
+        identifiers = []
+        for property_id, key in (
+            ("DOI work or edition", "doi_work_or_edition"),
+            ("DOI landing page", "doi_landing_page"),
+            ("DOI repository", "doi_repository"),
+            ("COBISS.SR-ID", "cobiss"),
+        ):
+            if row.get(key):
+                identifiers.append(
+                    {
+                        "@type": "PropertyValue",
+                        "propertyID": property_id,
+                        "value": row[key],
+                    }
+                )
+        if identifiers:
+            node["identifier"] = [row["id"], *identifiers]
+        if row.get("zenodo"):
+            node["isBasedOn"] = [
+                {"@type": "CreativeWork", "url": url.strip()}
+                for url in row["zenodo"].split(";")
+                if url.strip()
+            ]
+        if row.get("cluster"):
+            node["about"] = [
+                {
+                    "@id": "https://milos-timotijevic.github.io/knowledge-graph/"
+                    f"research/{cluster.strip()}.html#cluster"
+                }
+                for cluster in row["cluster"].split(";")
+                if cluster.strip()
+            ]
+        graph.append(node)
+
+    dataset_id = "https://milos-timotijevic.github.io/data/publications.jsonld#dataset"
+    jsonld_payload = {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "schema": "https://schema.org/",
+        },
+        "@graph": [
+            {
+                "@id": dataset_id,
+                "@type": "Dataset",
+                "name": payload["name"],
+                "alternateName": payload["alternateName"],
+                "url": "https://milos-timotijevic.github.io/data/",
+                "license": payload["license"],
+                "dateModified": payload["dateModified"],
+                "creator": {
+                    "@id": "https://milos-timotijevic.github.io/#person"
+                },
+                "distribution": {
+                    "@type": "DataDownload",
+                    "encodingFormat": "application/ld+json",
+                    "contentUrl": "https://milos-timotijevic.github.io/data/publications.jsonld",
+                },
+                "hasPart": work_ids,
+            },
+            *graph,
+        ],
+    }
+    with jsonld_path.open("w", encoding="utf-8", newline="\n") as handle:
+        json.dump(jsonld_payload, handle, ensure_ascii=False, indent=2)
+        handle.write("\n")
+
+    print(f"Wrote {len(graph)} Schema.org work nodes to {jsonld_path}")
     return 0
 
 
