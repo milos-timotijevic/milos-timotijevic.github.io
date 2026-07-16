@@ -389,7 +389,7 @@
     },
     {
       "id": "grad-u-unutrasnjosti",
-      "type": "chapter",
+      "type": "book_chapter",
       "year": null,
       "author_sr": "Милош Тимотијевић",
       "author_en": "Miloš Timotijević",
@@ -408,7 +408,7 @@
     },
     {
       "id": "miroslav-jovanovic-drustvena-istorija",
-      "type": "chapter",
+      "type": "book_chapter",
       "year": null,
       "author_sr": "Милош Тимотијевић",
       "author_en": "Miloš Timotijević",
@@ -427,7 +427,7 @@
     },
     {
       "id": "plavi-horizonti-radojko-nikolic",
-      "type": "chapter",
+      "type": "book_chapter",
       "year": null,
       "author_sr": "Милош Тимотијевић",
       "author_en": "Miloš Timotijević",
@@ -446,7 +446,7 @@
     },
     {
       "id": "sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
-      "type": "chapter",
+      "type": "book_chapter",
       "year": null,
       "author_sr": "Милош Тимотијевић",
       "author_en": "Miloš Timotijević",
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "book-chapter-2007-grad-u-unutrasnjosti",
-      "type": "chapter",
+      "type": "book_chapter",
       "year": "2007",
       "author_sr": "Милош Тимотијевић",
       "author_en": "Miloš Timotijević",
@@ -1353,7 +1353,7 @@
       "zenodo": "https://zenodo.org/records/20463894",
       "wikidata": "Q139332468",
       "cobiss": "COBISS.SR-ID 198796556",
-      "cluster": "cacak-local-modernity;culture-nationalism-symbolic-representation",
+      "cluster": "cacak-local-modernity; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
@@ -1372,7 +1372,7 @@
       "zenodo": null,
       "wikidata": "Q139471005",
       "cobiss": "COBISS.SR-ID 129404681",
-      "cluster": "cacak-local-modernity;cultural-heritage-museums-public-history",
+      "cluster": "cacak-local-modernity; cultural-heritage-museums-public-history",
       "status": "checked"
     },
     {
@@ -1448,7 +1448,7 @@
       "zenodo": "https://zenodo.org/records/20621072",
       "wikidata": "Q139549522",
       "cobiss": "COBISS.SR-ID 95980044",
-      "cluster": "cacak-local-modernity;war-propaganda-memory",
+      "cluster": "cacak-local-modernity; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -1467,7 +1467,7 @@
       "zenodo": "https://zenodo.org/records/20562154",
       "wikidata": "Q139555830",
       "cobiss": "COBISS.SR-ID 93029132",
-      "cluster": "cacak-local-modernity;political-rituals-symbolic-politics",
+      "cluster": "cacak-local-modernity; political-rituals-symbolic-politics",
       "status": "checked"
     },
     {
@@ -1505,7 +1505,7 @@
       "zenodo": "https://zenodo.org/records/20595403",
       "wikidata": "Q139569269",
       "cobiss": "COBISS.SR-ID 170040844",
-      "cluster": "cacak-local-modernity;culture-nationalism-symbolic-representation",
+      "cluster": "cacak-local-modernity; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
@@ -1524,7 +1524,7 @@
       "zenodo": "https://zenodo.org/records/20561998",
       "wikidata": "Q139569304",
       "cobiss": "211321100",
-      "cluster": "cacak-local-modernity;political-rituals-symbolic-politics",
+      "cluster": "cacak-local-modernity; political-rituals-symbolic-politics",
       "status": "checked"
     },
     {
@@ -1638,7 +1638,7 @@
       "zenodo": "https://zenodo.org/records/20555510",
       "wikidata": "Q138470911",
       "cobiss": "COBISS.SR-ID 167759881",
-      "cluster": "national-ideology-intellectual-debates;political-rituals-symbolic-politics",
+      "cluster": "national-ideology-intellectual-debates; political-rituals-symbolic-politics",
       "status": "checked"
     },
     {
@@ -1695,12 +1695,12 @@
       "zenodo": "https://zenodo.org/records/20556472",
       "wikidata": "Q138480439",
       "cobiss": "COBISS.SR-ID 228923148",
-      "cluster": "national-ideology-intellectual-debates;political-rituals-symbolic-politics",
+      "cluster": "national-ideology-intellectual-debates; political-rituals-symbolic-politics",
       "status": "checked"
     },
     {
       "id": "ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to",
-      "type": "conference-paper",
+      "type": "conference_paper",
       "year": "2024",
       "author_sr": "Милош Тимотијевић",
       "author_en": "Miloš Timotijević",
@@ -1719,7 +1719,7 @@
     },
     {
       "id": "rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor",
-      "type": "conference-paper",
+      "type": "conference_paper",
       "year": "2023",
       "author_sr": "Милош Тимотијевић",
       "author_en": "Miloš Timotijević",
@@ -1752,7 +1752,7 @@
       "zenodo": "https://zenodo.org/records/20476861",
       "wikidata": "Q139412435",
       "cobiss": "COBISS.SR-ID 18599689",
-      "cluster": "political-rituals-symbolic-politics;war-propaganda-memory",
+      "cluster": "political-rituals-symbolic-politics; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -1771,7 +1771,7 @@
       "zenodo": "https://zenodo.org/records/20682771",
       "wikidata": "Q139413108",
       "cobiss": "14447625",
-      "cluster": "political-rituals-symbolic-politics;war-propaganda-memory",
+      "cluster": "political-rituals-symbolic-politics; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -1790,7 +1790,7 @@
       "zenodo": null,
       "wikidata": "Q139526047",
       "cobiss": null,
-      "cluster": "national-ideology-intellectual-debates;political-rituals-symbolic-politics",
+      "cluster": "national-ideology-intellectual-debates; political-rituals-symbolic-politics",
       "status": "checked"
     },
     {
@@ -1809,7 +1809,7 @@
       "zenodo": "https://zenodo.org/records/20675171",
       "wikidata": "Q139528747",
       "cobiss": null,
-      "cluster": "national-ideology-intellectual-debates;political-rituals-symbolic-politics",
+      "cluster": "national-ideology-intellectual-debates; political-rituals-symbolic-politics",
       "status": "checked"
     },
     {
@@ -1847,7 +1847,7 @@
       "zenodo": "https://zenodo.org/records/20682186",
       "wikidata": "Q139545635",
       "cobiss": "35040265",
-      "cluster": "political-rituals-symbolic-politics;war-propaganda-memory",
+      "cluster": "political-rituals-symbolic-politics; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -1866,7 +1866,7 @@
       "zenodo": null,
       "wikidata": "Q139550827",
       "cobiss": null,
-      "cluster": "political-rituals-symbolic-politics;war-propaganda-memory",
+      "cluster": "political-rituals-symbolic-politics; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -1885,7 +1885,7 @@
       "zenodo": null,
       "wikidata": "Q139550895",
       "cobiss": null,
-      "cluster": "political-rituals-symbolic-politics;war-propaganda-memory",
+      "cluster": "political-rituals-symbolic-politics; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -1904,7 +1904,7 @@
       "zenodo": "https://zenodo.org/records/20699300",
       "wikidata": "Q139553899",
       "cobiss": "COBISS.SR-ID 146115337",
-      "cluster": "cultural-heritage-museums-public-history;political-rituals-symbolic-politics",
+      "cluster": "cultural-heritage-museums-public-history; political-rituals-symbolic-politics",
       "status": "checked"
     },
     {
@@ -1961,7 +1961,7 @@
       "zenodo": "https://zenodo.org/records/20555310",
       "wikidata": "Q139593533",
       "cobiss": "COBISS.SR-ID 192672521",
-      "cluster": "political-rituals-symbolic-politics;culture-nationalism-symbolic-representation",
+      "cluster": "political-rituals-symbolic-politics; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
@@ -2056,7 +2056,7 @@
       "zenodo": "https://zenodo.org/records/20476296",
       "wikidata": "Q139439391",
       "cobiss": "COBISS.SR-ID 59304713",
-      "cluster": "national-ideology-intellectual-debates;war-propaganda-memory",
+      "cluster": "national-ideology-intellectual-debates; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -2132,7 +2132,7 @@
       "zenodo": "https://zenodo.org/records/20687743",
       "wikidata": "Q139378720",
       "cobiss": "COBISS.SR-ID 218287372",
-      "cluster": "cultural-heritage-museums-public-history;war-propaganda-memory",
+      "cluster": "cultural-heritage-museums-public-history; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -2170,7 +2170,7 @@
       "zenodo": "https://zenodo.org/records/20476032",
       "wikidata": "Q139385880",
       "cobiss": "276209676",
-      "cluster": "culture-nationalism-symbolic-representation;war-propaganda-memory",
+      "cluster": "culture-nationalism-symbolic-representation; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -2189,7 +2189,7 @@
       "zenodo": "https://zenodo.org/records/20506260",
       "wikidata": "Q139393885",
       "cobiss": "COBISS.SR-ID 274586892",
-      "cluster": "cultural-heritage-museums-public-history;war-propaganda-memory",
+      "cluster": "cultural-heritage-museums-public-history; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -2208,7 +2208,7 @@
       "zenodo": "https://zenodo.org/records/20556136",
       "wikidata": "Q139413207",
       "cobiss": "COBISS.SR-ID 171079945",
-      "cluster": "culture-nationalism-symbolic-representation;war-propaganda-memory",
+      "cluster": "culture-nationalism-symbolic-representation; war-propaganda-memory",
       "status": "checked"
     },
     {
@@ -2322,7 +2322,7 @@
       "zenodo": null,
       "wikidata": "Q138618382",
       "cobiss": null,
-      "cluster": "cultural-heritage-museums-public-history;culture-nationalism-symbolic-representation",
+      "cluster": "cultural-heritage-museums-public-history; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
@@ -2341,7 +2341,7 @@
       "zenodo": null,
       "wikidata": "Q138637338",
       "cobiss": null,
-      "cluster": "cultural-heritage-museums-public-history;culture-nationalism-symbolic-representation",
+      "cluster": "cultural-heritage-museums-public-history; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
@@ -2360,7 +2360,7 @@
       "zenodo": null,
       "wikidata": "Q138638440",
       "cobiss": null,
-      "cluster": "cultural-heritage-museums-public-history;culture-nationalism-symbolic-representation",
+      "cluster": "cultural-heritage-museums-public-history; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
@@ -2379,7 +2379,7 @@
       "zenodo": null,
       "wikidata": "Q138642077",
       "cobiss": null,
-      "cluster": "cultural-heritage-museums-public-history;culture-nationalism-symbolic-representation",
+      "cluster": "cultural-heritage-museums-public-history; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
@@ -2398,7 +2398,7 @@
       "zenodo": null,
       "wikidata": "Q138646011",
       "cobiss": null,
-      "cluster": "cultural-heritage-museums-public-history;culture-nationalism-symbolic-representation",
+      "cluster": "cultural-heritage-museums-public-history; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
@@ -2417,7 +2417,7 @@
       "zenodo": null,
       "wikidata": "Q138649812",
       "cobiss": null,
-      "cluster": "cultural-heritage-museums-public-history;culture-nationalism-symbolic-representation",
+      "cluster": "cultural-heritage-museums-public-history; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
@@ -2436,12 +2436,12 @@
       "zenodo": null,
       "wikidata": "Q138652424",
       "cobiss": null,
-      "cluster": "cultural-heritage-museums-public-history;culture-nationalism-symbolic-representation",
+      "cluster": "cultural-heritage-museums-public-history; culture-nationalism-symbolic-representation",
       "status": "checked"
     },
     {
       "id": "battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19",
-      "type": "conference-paper",
+      "type": "conference_paper",
       "year": "2016",
       "author_sr": "Милош Тимотијевић",
       "author_en": "Miloš Timotijević",
@@ -2550,7 +2550,7 @@
       "zenodo": "https://zenodo.org/records/20560203",
       "wikidata": "Q139512370",
       "cobiss": "COBISS.SR-ID 157060620",
-      "cluster": "culture-nationalism-symbolic-representation;religious-life-social-practices",
+      "cluster": "culture-nationalism-symbolic-representation; religious-life-social-practices",
       "status": "checked"
     },
     {
@@ -2645,7 +2645,7 @@
       "zenodo": null,
       "wikidata": "Q139069298",
       "cobiss": null,
-      "cluster": "cultural-heritage-museums-public-history;religious-life-social-practices",
+      "cluster": "cultural-heritage-museums-public-history; religious-life-social-practices",
       "status": "checked"
     },
     {

@@ -8,24 +8,24 @@
       "path": "data/publications.csv",
       "contentUrl": "https://milos-timotijevic.github.io/data/publications.csv",
       "encodingFormat": "text/csv",
-      "byteSize": 79767,
-      "sha256": "035a0167d5a6f0e47294dbd986e5bf24df0bbd6772c2ca7d25f239eccd788fbe",
+      "byteSize": 79823,
+      "sha256": "da28596cd4a79b2b14b9a22e000fe3923c444bd0be58dd162d1f02537b8052cd",
       "recordCount": 150
     },
     {
       "path": "data/publications.json",
       "contentUrl": "https://milos-timotijevic.github.io/data/publications.json",
       "encodingFormat": "application/json",
-      "byteSize": 138558,
-      "sha256": "a1ba2809805aebf64c8b900cae4ddaea21b3b3c202f61580d0e9122c96767431",
+      "byteSize": 138614,
+      "sha256": "4070a1c93169916945e2ef45848c02bb06b8562fc748401e8e1d50e1c16f4f97",
       "recordCount": 150
     },
     {
       "path": "data/publications.jsonld",
       "contentUrl": "https://milos-timotijevic.github.io/data/publications.jsonld",
       "encodingFormat": "application/ld+json",
-      "byteSize": 208210,
-      "sha256": "5702a97d44417c568d9b0cafea8ff421a42732c927f697f3213987141b519dc7",
+      "byteSize": 208211,
+      "sha256": "99c34a6e5001894f11ab3d047160010649e312a8a6e1e7d009ff54185fa11809",
       "recordCount": 150
     }
   ]
