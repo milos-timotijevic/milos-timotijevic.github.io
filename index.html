@@ -140,22 +140,25 @@
     .main-nav {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 1.25rem 2rem;
+      gap: 1rem;
       margin: .55rem 0 0;
-      padding: 1rem 0 1.1rem;
+      padding: 1rem 0 1.25rem;
       border-top: 1px solid var(--line);
     }
 
     .nav-group {
       display: block;
       margin: 0;
+      padding: 1rem 1.05rem;
+      border: 1px solid var(--line);
+      background: #fff;
     }
 
     .nav-label {
       display: block;
       margin-bottom: .35rem;
-      color: var(--text);
-      font-weight: normal;
+      color: var(--link);
+      font-weight: bold;
     }
 
     .main-nav a {
@@ -207,8 +210,8 @@
     .work-card,
     .entry-point-card {
       margin: 0;
-      padding: .45rem 0 .65rem;
-      border: 0;
+      padding: 1rem 1.05rem;
+      border: 1px solid var(--line);
       border-radius: 0;
       background: #fff;
     }
@@ -217,7 +220,8 @@
     .entry-point-card h3 {
       margin: 0 0 .2rem;
       font-size: 1rem;
-      font-weight: normal;
+      font-weight: bold;
+      color: var(--link);
     }
 
     .work-card p,
@@ -225,6 +229,21 @@
       margin: .18rem 0;
       color: #444;
       font-size: .9rem;
+    }
+
+    .entry-point-card:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
+    }
+
+    .boxed-section {
+      margin: 1.15rem 0;
+      padding: 1.25rem 1.3rem;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .boxed-section > h2:first-child {
+      margin-top: 0;
     }
 
     details {
@@ -302,6 +321,15 @@
       .works-grid,
       .entry-point-grid,
       .identity-grid { grid-template-columns: 1fr; }
+
+      .entry-point-card:last-child:nth-child(odd) { grid-column: auto; }
+
+      .nav-group,
+      .work-card,
+      .entry-point-card,
+      .boxed-section {
+        padding: .9rem;
+      }
 
       .main-nav { gap: 1rem; }
       .site-search-form { grid-template-columns: 1fr; }
@@ -863,7 +891,7 @@ and the public professional activity of Miloš Timotijević.
   </p>
 </section>
   
-<section id="selected-works" class="featured-section">
+<section id="selected-works" class="featured-section boxed-section">
   <h2>Изабрана дела / Selected Works</h2>
 
   <p>
@@ -938,7 +966,7 @@ and the public professional activity of Miloš Timotijević.
     
 <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
 
-<section id="public-activity" class="featured-section">
+<section id="public-activity" class="featured-section boxed-section">
   <h2>Јавни рад / Public Activity</h2>
 
   <p>
@@ -970,7 +998,7 @@ and the public professional activity of Miloš Timotijević.
   <a href="#top">↑ На врх / Back to top</a>
 </p>
 
-<section id="digital-infrastructure" class="intro">
+<section id="digital-infrastructure" class="intro boxed-section">
   <h2>Дигитална инфраструктура / Digital Infrastructure</h2>
 
   <p>
