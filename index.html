@@ -50,6 +50,8 @@
       --line: #dedede;
       --link: #0645ad;
       --link-hover: #04357f;
+      --card-background: #eeeeee;
+      --card-border: #d2d2d2;
     }
 
     * { box-sizing: border-box; }
@@ -147,19 +149,19 @@
     }
 
     .nav-group {
-      display: block;
-      margin: 0;
-      padding: 1rem 1.05rem;
-      border: 1px solid var(--line);
-      background: #fff;
-    }
+  display: block;
+  margin: 0;
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--card-border);
+  background-color: var(--card-background);
+}
 
     .nav-label {
-      display: block;
-      margin-bottom: .35rem;
-      color: var(--link);
-      font-weight: bold;
-    }
+  display: block;
+  margin-bottom: .35rem;
+  color: var(--text);
+  font-weight: bold;
+}
 
     .main-nav a {
       display: block;
@@ -208,28 +210,36 @@
     }
 
     .work-card,
-    .entry-point-card {
-      margin: 0;
-      padding: 1rem 1.05rem;
-      border: 1px solid var(--line);
-      border-radius: 0;
-      background: #fff;
-    }
+.entry-point-card {
+  margin: 0;
+  padding: 1rem 1.05rem;
+  border-radius: 0;
+}
 
-    /* Светлосива подлога само за пет картица у одељку
-   „Како користити сајт / How to Use the Site“ */
+.work-card {
+  border: 1px solid var(--line);
+  background-color: #fff;
+}
+
 .entry-points .entry-point-grid > .entry-point-card {
-  background-color: #eeeeee;
-  border-color: #d5d5d5;
+  border: 1px solid var(--card-border);
+  background-color: var(--card-background);
 }
 
     .work-card h3,
-    .entry-point-card h3 {
-      margin: 0 0 .2rem;
-      font-size: 1rem;
-      font-weight: bold;
-      color: var(--link);
-    }
+.entry-point-card h3 {
+  margin: 0 0 .2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.work-card h3 {
+  color: var(--link);
+}
+
+.entry-point-card h3 {
+  color: var(--text);
+}
 
     .work-card p,
     .entry-point-card p {
@@ -348,22 +358,7 @@
       .site-search-form { display: none; }
       a { color: #111; text-decoration: underline; }
     }
-
-    /* Пет картица у одељку „Како користити сајт“ */
-.entry-points .entry-point-grid > .entry-point-card {
-  background-color: #e8e8e8;
-  border: 1px solid #c9c9c9;
-}
-
-/* Некликабилни наслови картица остају црни */
-.entry-points .entry-point-card > h3 {
-  color: var(--text);
-}
-
-/* Линкови у картицама задржавају тамноплаву боју */
-.entry-points .entry-point-card a {
-  color: var(--link);
-}
+ 
   </style>
   
   <script type="application/ld+json">
