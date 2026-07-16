@@ -24,9 +24,10 @@
       "path": "data/publications.jsonld",
       "contentUrl": "https://milos-timotijevic.github.io/data/publications.jsonld",
       "encodingFormat": "application/ld+json",
-      "byteSize": 208211,
-      "sha256": "99c34a6e5001894f11ab3d047160010649e312a8a6e1e7d009ff54185fa11809",
+      "byteSize": 208210,
+      "sha256": "5702a97d44417c568d9b0cafea8ff421a42732c927f697f3213987141b519dc7",
       "recordCount": 150
     }
   ]
 }
+
