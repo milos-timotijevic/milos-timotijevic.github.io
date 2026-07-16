@@ -22,6 +22,7 @@ import xml.etree.ElementTree as ET
 
 SITE_ORIGIN = "https://milos-timotijevic.github.io"
 IGNORED_DIRS = {".git", ".github", "node_modules", "vendor"}
+IGNORED_PAGES = {"articles/test.html", "google61a9ae6e657c98d9.html"}
 SKIPPED_SCHEMES = {"mailto", "tel", "javascript", "data"}
 
 
@@ -91,7 +92,10 @@ class PageParser(HTMLParser):
 def iter_html(root: Path) -> list[Path]:
     pages: list[Path] = []
     for path in root.rglob("*.html"):
-        if any(part in IGNORED_DIRS for part in path.relative_to(root).parts):
+        rel = path.relative_to(root)
+        if any(part in IGNORED_DIRS for part in rel.parts):
+            continue
+        if rel.as_posix() in IGNORED_PAGES:
             continue
         pages.append(path)
     return sorted(pages)
@@ -203,7 +207,10 @@ def validate(root: Path) -> list[Finding]:
             findings.append(Finding("warning", page, "page is missing from sitemap.xml"))
 
     for page, parser in parsed_pages.items():
-        for href in parser.links:
+        # A canonical and several hreflang links can repeat the same target.
+        # Validate each distinct target once per source page so the report
+        # describes unique repair work instead of repeated symptoms.
+        for href in dict.fromkeys(parser.links):
             resolved = resolve_local_target(root, page, href)
             if resolved is None:
                 continue
