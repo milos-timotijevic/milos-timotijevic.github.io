@@ -33,6 +33,8 @@
     .small-note { color: #555; font-size: 0.96em; }
     .date-note { color: #555; font-size: 0.96em; margin-top: 2em; }
     .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
+    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
+    .skip-link:focus { left: 1em; top: 1em; }
   </style>
 
   <script type="application/ld+json">
@@ -83,6 +85,8 @@
 </head>
 
 <body id="top">
+  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+  <main id="main-content">
 
 <p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
 <p><a href="index.html">← Назад на податке / Back to Data</a></p>
@@ -578,5 +582,6 @@
 <p><a href="../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
 <p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
 
+  </main>
 </body>
 </html>

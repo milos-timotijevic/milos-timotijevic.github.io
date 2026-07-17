@@ -201,6 +201,8 @@
       border-top: 1px solid #ddd;
       padding-top: 1em;
     }
+    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
+    .skip-link:focus { left: 1em; top: 1em; }
   </style>
 
   <!-- Schema.org JSON-LD -->
@@ -502,6 +504,8 @@
 </head>
 
 <body id="top">
+  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+  <main id="main-content">
   <p><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
 
   <h1>Чачак као студија случаја локалне модерности</h1>
@@ -1136,5 +1140,6 @@
       <a href="/">← Назад на главну страну / Back to the main page</a>
     </p>
   </div>
+  </main>
 </body>
 </html>
