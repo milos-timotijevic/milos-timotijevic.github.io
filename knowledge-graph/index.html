@@ -56,6 +56,10 @@
     .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
     .small-note { color: #555; font-size: 0.96em; }
   </style>
+  <style>
+    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .55rem .75rem; border: 2px solid #0645ad; color: #fff; background: #0645ad; }
+    .skip-link:focus { top: 1rem; color: #fff; }
+  </style>
 
   <script type="application/ld+json">
 {
@@ -156,6 +160,9 @@
   </script>
 </head>
 <body id="top">
+
+<a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+<main id="main-content">
 
 <p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
 
@@ -489,6 +496,8 @@
 
 <p class="back-link"><a href="#top">↑ На врх / Back to top</a></p>
 <p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
+
+</main>
 
 </body>
 </html>
