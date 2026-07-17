@@ -1,0 +1,37 @@
+name: Validate accessibility baseline
+
+on:
+  pull_request:
+    paths:
+      - "**.html"
+      - "scripts/audit_accessibility.py"
+      - ".github/workflows/validate-accessibility.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "**.html"
+      - "scripts/audit_accessibility.py"
+      - ".github/workflows/validate-accessibility.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate the complete site first
+        run: python scripts/validate_site.py .
+
+      - name: Audit accessibility baseline
+        run: python scripts/audit_accessibility.py .
