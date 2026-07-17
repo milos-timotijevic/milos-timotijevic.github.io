@@ -182,6 +182,8 @@
       border-top: 1px solid #ddd;
       padding-top: 1em;
     }
+    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
+    .skip-link:focus { left: 1em; top: 1em; }
   </style>
 
   <script type="application/ld+json">
@@ -477,6 +479,8 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+  <main id="main-content">
   <h1>Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</h1>
 
   <p class="subtitle">
@@ -821,5 +825,6 @@
     <a href="../book-chapters/">← Назад на поглавља у књигама / Back to book chapters</a><br>
     <a href="../index.html">← Назад на главну страницу / Back to main page</a>
   </p>
+  </main>
 </body>
 </html>
