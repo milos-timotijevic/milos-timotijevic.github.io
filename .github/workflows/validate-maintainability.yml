@@ -1,0 +1,39 @@
+name: Validate delivery and maintainability
+
+on:
+  pull_request:
+    paths:
+      - "**.html"
+      - "**.css"
+      - "scripts/audit_maintainability.py"
+      - ".github/workflows/validate-maintainability.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "**.html"
+      - "**.css"
+      - "scripts/audit_maintainability.py"
+      - ".github/workflows/validate-maintainability.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate the complete site first
+        run: python scripts/validate_site.py .
+
+      - name: Audit delivery size and maintainability
+        run: python scripts/audit_maintainability.py .
