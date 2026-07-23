@@ -190,16 +190,19 @@ def main() -> int:
         errors.append("Manifest files must be a list.")
         entries = []
     expected_paths = {
-        "data/publications.csv": csv_path,
-        "data/publications.json": json_path,
-        "data/publications.jsonld": jsonld_path,
+        "data/publications.csv": (csv_path, len(rows)),
+        "data/publications.json": (json_path, len(rows)),
+        "data/publications.jsonld": (jsonld_path, len(rows)),
+        "data/wikidata-items.csv": (root / "data" / "wikidata-items.csv", 111),
+        "data/doi-list.csv": (root / "data" / "doi-list.csv", 67),
+        "data/knowledge-graph.jsonld": (root / "data" / "knowledge-graph.jsonld", 12),
     }
     entries_by_path = {
         entry.get("path"): entry for entry in entries if isinstance(entry, dict)
     }
     if set(entries_by_path) != set(expected_paths):
-        errors.append("Manifest file list differs from the expected three data exports.")
-    for relative_path, path in expected_paths.items():
+        errors.append("Manifest file list differs from the expected machine-readable exports.")
+    for relative_path, (path, expected_count) in expected_paths.items():
         entry = entries_by_path.get(relative_path)
         if not entry:
             continue
@@ -209,7 +212,7 @@ def main() -> int:
             errors.append(f"Manifest SHA-256 mismatch for {relative_path}.")
         if entry.get("byteSize") != len(content):
             errors.append(f"Manifest byteSize mismatch for {relative_path}.")
-        if entry.get("recordCount") != len(rows):
+        if entry.get("recordCount") != expected_count:
             errors.append(f"Manifest recordCount mismatch for {relative_path}.")
 
     status_counts = Counter(row.get("status", "").strip() for row in rows)
@@ -223,7 +226,7 @@ def main() -> int:
     print(f"  statuses: {dict(sorted(status_counts.items()))}")
     print("  publications.json exactly matches publications.csv")
     print(f"  publications.jsonld contains {len(work_nodes)} Schema.org work nodes")
-    print("  manifest SHA-256 values and byte sizes match all three exports")
+    print("  manifest SHA-256 values, byte sizes and record counts match all exports")
     return 0
 
 
@@ -236,3 +239,4 @@ def report(errors: list[str]) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

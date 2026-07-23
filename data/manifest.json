@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "name": "Integrity manifest for the bibliography data exports",
-  "dateModified": "2026-07-15",
+  "name": "Integrity manifest for the machine-readable data exports",
+  "dateModified": "2026-07-23",
   "algorithm": "SHA-256",
   "files": [
     {
@@ -27,7 +27,30 @@
       "byteSize": 208210,
       "sha256": "5702a97d44417c568d9b0cafea8ff421a42732c927f697f3213987141b519dc7",
       "recordCount": 150
+    },
+    {
+      "path": "data/wikidata-items.csv",
+      "contentUrl": "https://milos-timotijevic.github.io/data/wikidata-items.csv",
+      "encodingFormat": "text/csv",
+      "byteSize": 53757,
+      "sha256": "375b856f0ea99dd1ae732c4c22ecb52cb946be75158a757d71e48abd64989836",
+      "recordCount": 111
+    },
+    {
+      "path": "data/doi-list.csv",
+      "contentUrl": "https://milos-timotijevic.github.io/data/doi-list.csv",
+      "encodingFormat": "text/csv",
+      "byteSize": 26603,
+      "sha256": "646371503a7458b943945557a8f7723b9fbbbda6d6bf7257dfa315ee70626472",
+      "recordCount": 67
+    },
+    {
+      "path": "data/knowledge-graph.jsonld",
+      "contentUrl": "https://milos-timotijevic.github.io/data/knowledge-graph.jsonld",
+      "encodingFormat": "application/ld+json",
+      "byteSize": 7262,
+      "sha256": "01f7ba25c3a4dbbea116f2167e64a6c2c5cc7c9affbb9ee717e5752513e8bdeb",
+      "recordCount": 12
     }
   ]
 }
-
