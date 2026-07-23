@@ -9,125 +9,201 @@
   <link rel="canonical" href="https://milos-timotijevic.github.io/bibliography/">
 
   <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.6;
-      max-width: 980px;
-      margin: 40px auto;
-      padding: 0 24px;
-      color: #222;
+    :root {
+      --text: #111;
+      --muted: #555;
+      --line: #dedede;
+      --link: #0645ad;
+      --link-hover: #04357f;
+      --panel: #f3f3f3;
+      --panel-border: #d8d8d8;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
       background: #fff;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 42px 28px 30px;
+      color: var(--text);
+      background: #fff;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.58;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: -5rem;
+      z-index: 1000;
+      padding: .55rem .75rem;
+      border: 2px solid var(--link);
+      color: #fff;
+      background: var(--link);
+    }
+
+    .skip-link:focus {
+      top: 1rem;
+      color: #fff;
     }
 
     h1, h2, h3 {
+      color: var(--text);
       line-height: 1.25;
-      color: #111;
     }
 
     h1 {
-      font-size: 2.05em;
-      margin-bottom: 0.2em;
+      margin: 0 0 .12rem;
+      font-size: 1.85rem;
     }
 
     h2 {
-      margin-top: 2em;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 0.25em;
+      margin: 0 0 .85rem;
+      padding: 0 0 .32rem;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.38rem;
     }
+
+    p { margin: .6rem 0; }
 
     a {
-      color: #0645ad;
+      color: var(--link);
       text-decoration: none;
+      text-underline-offset: .15em;
     }
 
-    a:hover {
+    a:hover,
+    a:focus-visible {
+      color: var(--link-hover);
       text-decoration: underline;
     }
 
-    p {
-      margin: 0.75em 0;
-    }
-
     .subtitle {
-      font-size: 1.08em;
-      margin-bottom: 1.5em;
-      color: #444;
+      margin: .18rem 0 1.25rem;
+      color: var(--muted);
+      font-size: 1rem;
     }
 
-    .intro, .note {
-      background: #f8f8f8;
-      border-left: 4px solid #bbb;
-      padding: 1em;
-      margin: 1.5em 0 2em 0;
+    .intro,
+    .note {
+      margin: 1.25rem 0 1.4rem;
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--panel-border);
+      background: var(--panel);
     }
 
-    .intro p, .note p {
-      margin: 0.35em 0;
+    .intro p,
+    .note p {
+      margin: .38rem 0;
     }
 
     .contents {
-      background: #fbfbfb;
-      border: 1px solid #e2e2e2;
-      padding: 1em 1.2em;
-      margin: 1.5em 0 2em 0;
+      margin: 1.4rem 0 2rem;
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--panel-border);
+      background: #fff;
     }
 
     .contents h2 {
-      margin-top: 0;
-      border-bottom: none;
-      padding-bottom: 0;
-      font-size: 1.2em;
+      margin: 0 0 .65rem;
+      padding: 0 0 .32rem;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.18rem;
     }
 
     .contents ol {
       columns: 2;
-      column-gap: 2.5em;
-      padding-left: 1.35em;
-      margin-bottom: 0;
+      column-gap: 2.25rem;
+      margin: 0;
+      padding-left: 1.35rem;
     }
 
     .contents li {
       break-inside: avoid;
-      margin-bottom: 0.35em;
+      margin: .3rem 0;
     }
 
     .bibliography-section {
-      scroll-margin-top: 1.5em;
+      padding: 1.35rem 0 0;
+      border-top: 1px solid var(--line);
+      scroll-margin-top: 1.25rem;
+    }
+
+    .bibliography-section + .bibliography-section {
+      margin-top: 1.5rem;
     }
 
     .bibliography-list {
-      padding-left: 1.45em;
+      margin: 0;
+      padding-left: 1.45rem;
     }
 
     .bibliography-list > li {
-      margin-bottom: 1.05em;
+      margin-bottom: 1.05rem;
+      padding-left: .08rem;
     }
 
+    .back-link,
     .back-to-top {
-      margin-top: 1.5em;
-      font-size: 0.95em;
+      margin: 1rem 0 0;
+      font-size: .9rem;
+      text-align: right;
     }
 
     .site-links {
-      margin: 2.5em 0 0 0;
-      border-top: 1px solid #ddd;
-      padding-top: 1em;
+      margin: 1.6rem 0 0;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      font-size: .95rem;
     }
 
     @media (max-width: 720px) {
       body {
-        margin: 24px auto;
-        padding: 0 18px;
+        padding: 24px 18px;
+        font-size: 16px;
       }
 
-      .contents ol {
-        columns: 1;
+      h1 { font-size: 1.65rem; }
+      h2 { font-size: 1.25rem; }
+
+      .contents ol { columns: 1; }
+
+      .intro,
+      .note,
+      .contents {
+        padding: .9rem;
+      }
+
+      .bibliography-list {
+        overflow-wrap: anywhere;
       }
     }
-  </style>
-  <style>
-    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .55rem .75rem; border: 2px solid #0645ad; color: #fff; background: #0645ad; }
-    .skip-link:focus { top: 1rem; color: #fff; }
+
+    @media print {
+      body {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .skip-link,
+      .back-link,
+      .back-to-top,
+      .site-links {
+        display: none;
+      }
+
+      a {
+        color: #111;
+        text-decoration: underline;
+      }
+    }
   </style>
 
   <script type="application/ld+json">
@@ -259,8 +335,7 @@
   <p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
 
   <main id="main-content">
-    <h1>Библиографија</h1>
-    <p><strong>Bibliography</strong></p>
+    <h1>Библиографија / Bibliography</h1>
     <p class="subtitle">Пуна библиографија Милоша Тимотијевића<br>
     <em>Complete Bibliography of Miloš Timotijević</em></p>
 
