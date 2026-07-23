@@ -389,16 +389,6 @@
       font-size: 1.08rem;
     }
 
-    .page-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: .3rem 1rem;
-      margin: 0;
-      padding: .9rem 0 1.2rem;
-      border-top: 1px solid var(--line);
-      font-size: .95rem;
-    }
-
     .metadata {
       margin: .75rem 0 0;
       padding: 1rem 1.05rem;
@@ -422,17 +412,16 @@
     }
 
     .resource-links {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: .8rem;
       margin: .75rem 0 0;
     }
 
     .resource-card {
-      padding: 1rem 1.05rem;
-      border: 1px solid var(--panel-line);
-      background: var(--panel);
+      padding: .8rem 0;
+      border-top: 1px solid var(--line);
+      background: #fff;
     }
+
+    .resource-card:last-child { border-bottom: 1px solid var(--line); }
 
     .resource-card p {
       margin: 0.35em 0;
@@ -471,20 +460,17 @@
 
       h1 { font-size: 1.72rem; }
 
-      .resource-links { grid-template-columns: 1fr; }
-
       #external-identifiers ul,
       #topics ul { columns: 1; }
 
       .metadata,
       .citation,
-      .resource-card { padding: .9rem; }
+      .resource-card { padding: .75rem 0; }
     }
 
     @media print {
       body { max-width: none; margin: 0; padding: 0; }
       .skip-link,
-      .page-nav { display: none; }
       a { color: #111; text-decoration: underline; }
     }
   </style>
@@ -507,14 +493,6 @@
         Cultural Treasury of Čačak: From Prehistory to the Present Time
       </div>
     </header>
-
-    <nav class="page-nav" aria-label="Садржај странице / Page contents">
-      <a href="#bibliographic-information">Библиографски подаци / Bibliographic Information</a>
-      <a href="#available-version">Доступна верзија / Available Version</a>
-      <a href="#research-focus">Истраживачки фокус / Research Focus</a>
-      <a href="#abstract">Сажетак / Abstract</a>
-      <a href="#suggested-citation">Цитирање / Citation</a>
-    </nav>
 
     <section id="bibliographic-information">
       <h2>Библиографски подаци / Bibliographic Information</h2>
@@ -592,7 +570,7 @@
     </section>
 
     <section id="available-version">
-      <h2>Доступна верзија / Available Version</h2>
+      <h2>Доступне верзије / Available Versions</h2>
 
       <div class="resource-links">
         <div class="resource-card">
