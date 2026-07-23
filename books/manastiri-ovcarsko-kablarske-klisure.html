@@ -535,12 +535,15 @@
       border-top: 1px solid #ddd;
       padding-top: 1em;
     }
+      .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: 0.65rem 0.9rem; background: #fff; color: #0645ad; border: 2px solid #0645ad; }
+    .skip-link:focus { left: 1rem; top: 1rem; }
   </style>
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
 
-  <main>
+  <main id="main-content">
 
     <header>
       <h1>Манастири Овчарско-кабларске клисуре</h1>
