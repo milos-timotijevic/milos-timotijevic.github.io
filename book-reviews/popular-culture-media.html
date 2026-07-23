@@ -145,6 +145,8 @@ footer {
   border-top: 1px solid #ddd;
   padding-top: 1em;
 }
+      .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: 0.65rem 0.9rem; background: #fff; color: #0645ad; border: 2px solid #0645ad; }
+    .skip-link:focus { left: 1rem; top: 1rem; }
   </style>
 
   <script type="application/ld+json">
@@ -193,6 +195,7 @@ footer {
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
 
   <h1>Популарна култура и медији</h1>
   <p class="subtitle">Popular Culture and Media</p>
@@ -211,7 +214,7 @@ footer {
     of academic historiography.
   </p>
 
-  <main>
+  <main id="main-content">
 
     <article class="review-entry">
       <h2>Зоран Маринковић, <em>Бјесови</em></h2>
