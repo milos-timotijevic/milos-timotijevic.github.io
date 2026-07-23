@@ -207,6 +207,8 @@
       border-top: 1px solid #ddd;
       padding-top: 1em;
     }
+    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
+    .skip-link:focus { left: 1em; top: 1em; }
   </style>
 
   <!-- Schema.org JSON-LD -->
@@ -475,6 +477,8 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+  <main id="main-content">
   <h1>Чачак у предвечерје Другог светског рата 1938–1941: социјална, економска и политичка структура</h1>
 
   <p class="subtitle">
@@ -784,5 +788,6 @@
       <a href="../index.html">← Назад на главну страницу / Back to main page</a>
     </p>
   </div>
+  </main>
 </body>
 </html>
