@@ -178,7 +178,7 @@
 
     .starting-point > h2 { border-bottom: 0; margin-bottom: .45rem; }
 
-    .path-grid,
+    .entry-point-grid,
     .works-grid,
     .identity-grid {
       display: grid;
@@ -187,24 +187,28 @@
       margin-top: 1rem;
     }
 
-    .path-card,
+    .entry-point-card,
     .work-card {
       padding: .9rem 1rem;
       border: 1px solid var(--line);
       background: #fff;
     }
 
-    .path-card h3,
+    .entry-point-card h3,
     .work-card h3 {
       margin: 0 0 .25rem;
       font-size: 1rem;
     }
 
-    .path-card p,
+    .entry-point-card p,
     .work-card p {
       margin: .2rem 0;
       color: #444;
       font-size: .92rem;
+    }
+
+    .entry-point-card:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
     }
 
     .topic-line {
@@ -342,8 +346,9 @@
 
     @media (max-width: 720px) {
       body { padding: 24px 18px; font-size: 16px; }
-      .main-nav, .path-grid, .works-grid, .identity-grid { grid-template-columns: 1fr; }
-      .nav-group, .path-card, .work-card, .boxed-section { padding: .9rem; }
+      .main-nav, .entry-point-grid, .works-grid, .identity-grid { grid-template-columns: 1fr; }
+      .nav-group, .entry-point-card, .work-card, .boxed-section { padding: .9rem; }
+      .entry-point-card:last-child:nth-child(odd) { grid-column: auto; }
       #selected-works { padding: 1rem; }
       .site-search-form { grid-template-columns: 1fr; }
       .site-search-form label { grid-column: auto; }
@@ -457,31 +462,48 @@
   </nav>
 
   <main id="main-content">
-    <section id="entry-points" class="starting-point">
+    <section id="entry-points" class="starting-point entry-points">
       <h2>Полазна тачка / Starting Point</h2>
       <p>
-        Овај сајт је академски профил историчара Милоша Тимотијевића и приступно место за његову биографију, публикације, библиографију, изложбе, јавни и стручни рад, граф знања и отворене податке.
+        Овај сајт је академски профил историчара Милоша Тимотијевића и приступно место за његову биографију, публикације, библиографију, изложбе, јавни и стручни рад, граф знања и отворене податке. За основне податке о аутору отворите <a href="#biografija">Биографију / Biography</a>.
       </p>
       <p lang="en-GB">
-        This website is the academic profile of historian Miloš Timotijević and an access point to his biography, publications, bibliography, exhibitions, public and professional activity, knowledge graph and open data.
+        This website is the academic profile of historian Miloš Timotijević and an access point to his biography, publications, bibliography, exhibitions, public and professional activity, knowledge graph and open data. For essential information about the author, open <a href="#biography">Biography / Биографија</a>.
       </p>
 
-      <div class="path-grid">
-        <article class="path-card">
-          <h3><a href="#biografija">Профил и биографија / Profile and Biography</a></h3>
-          <p>Кратка и опширна биографија, академски профили, идентификатори и награде.</p>
+      <div class="entry-point-grid">
+        <article class="entry-point-card">
+          <h3>Библиографија / Bibliography</h3>
+          <p>Пуна библиографија и брз приступ изабраним монографијама, чланцима и другим публикацијама.</p>
+          <p>
+            <a href="/bibliography/">Пуна библиографија / Full Bibliography</a> ·
+            <a href="/books/">Монографије / Books</a> ·
+            <a href="/articles/">Чланци / Articles</a>
+          </p>
         </article>
-        <article class="path-card">
-          <h3><a href="#selected-works">Публикације и библиографија / Publications and Bibliography</a></h3>
-          <p>Изабрана дела са приступним странама и потпуна библиографија.</p>
+
+        <article class="entry-point-card">
+          <h3>Теме / Research Themes</h3>
+          <p>Читање опуса кроз истраживачке кластере: локална модерност, рат, култура сећања, религија, наслеђе и јавна историја.</p>
+          <p><a href="/knowledge-graph/">Граф знања / Knowledge Graph</a></p>
         </article>
-        <article class="path-card">
-          <h3><a href="/public-activity/">Изложбе, стручни и јавни рад / Exhibitions, Professional and Public Activity</a></h3>
-          <p>Музејске изложбе, уреднички рад, медијски наступи и јавна тумачења прошлости.</p>
+
+        <article class="entry-point-card">
+          <h3>Подаци / Data</h3>
+          <p>Преузимање и провера отворених метаподатака о публикацијама, идентификаторима и Wikidata ставкама.</p>
+          <p><a href="/data/">Подаци / Data</a></p>
         </article>
-        <article class="path-card">
-          <h3><a href="/knowledge-graph/">Граф знања и подаци / Knowledge Graph and Data</a></h3>
-          <p>Тематска мапа која повезује публикације, истраживачке области, идентификаторе и структурисане податке.</p>
+
+        <article class="entry-point-card">
+          <h3>Музејски рад / Museum Work</h3>
+          <p>Преглед сталних поставки, повремених изложби, изложби на отвореном и других облика музејске јавне историје.</p>
+          <p><a href="/exhibitions/">Изложбе / Exhibitions</a></p>
+        </article>
+
+        <article class="entry-point-card">
+          <h3>Стручни рад / Professional Service</h3>
+          <p>Уреднички, рецензентски и стручни рад: редакције, рецензије, комисије и други професионални ангажмани.</p>
+          <p><a href="/professional-service/">Уреднички и стручни рад / Professional Service</a></p>
         </article>
       </div>
     </section>
