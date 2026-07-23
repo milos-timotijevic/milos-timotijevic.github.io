@@ -55,6 +55,23 @@
     .keywords { color: #333; }
     .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
     .small-note { color: #555; font-size: 0.96em; }
+    .route-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85em; margin-top: 1em; }
+    .route-card { border: 1px solid #d6d6d6; background: #f4f4f4; padding: 0.9em 1em; }
+    .route-card h3 { margin: 0 0 0.35em; font-size: 1.04em; }
+    .route-card p { margin: 0.25em 0; color: #444; font-size: 0.95em; }
+    .technical-notes { margin-top: 2em; }
+    .technical-notes > h2 { margin-bottom: 0.75em; }
+    details.technical-note { border-top: 1px solid #ddd; padding: 0.8em 0; }
+    details.technical-note:last-child { border-bottom: 1px solid #ddd; }
+    details.technical-note summary { cursor: pointer; color: #111; font-weight: bold; }
+    details.technical-note[open] summary { margin-bottom: 0.75em; }
+    @media (max-width: 680px) {
+      body { margin: 0 auto; padding: 24px 18px; font-size: 16px; }
+      h1 { font-size: 1.7em; }
+      .route-grid, .cluster-grid, .architecture { grid-template-columns: 1fr; }
+      .route-card, .cluster-card { padding: 0.85em; }
+      .graph-wrap { margin-right: -18px; padding-right: 18px; }
+    }
   </style>
   <style>
     .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .55rem .75rem; border: 2px solid #0645ad; color: #fff; background: #0645ad; }
@@ -169,11 +186,60 @@
 <h1>Граф знања и дигитална видљивост</h1>
 <p><strong>Knowledge Graph and Digital Visibility</strong></p>
 <p class="subtitle">Истраживачка мапа, приступне стране, отворени подаци и системи научне видљивости<br>
-<em>Research Map, Landing Pages, Open Data and Scholarly Visibility Systems</em></p>
+<em lang="en">Research Map, Landing Pages, Open Data and Scholarly Visibility Systems</em></p>
 
   <p> 
-    <a href="/knowledge-graph/method.html">Метод / Method</a> — како је изграђен граф знања, како се повезују публикације, кластери, идентификатори и спољни системи. 
+    <a href="/knowledge-graph/method.html">Метод / Method</a> — како је изграђен граф знања, како се повезују публикације, кластери, идентификатори и спољни системи.
+    <span lang="en">How the knowledge graph is built and how publications, clusters, identifiers and external systems are connected.</span>
   </p>
+
+<section aria-labelledby="choose-research-route">
+  <h2 id="choose-research-route">Изаберите истраживачки пут / <span lang="en">Choose a Research Route</span></h2>
+  <p>Крените од кровног оквира или непосредно од једног од седам тематских кластера.</p>
+  <p lang="en">Begin with the main framework or go directly to one of the seven thematic clusters.</p>
+  <div class="route-grid">
+    <article class="route-card">
+      <h3><a href="research/local-modernity-symbolic-power.html">Кровни истраживачки оквир / <span lang="en">Main Research Framework</span></a></h3>
+      <p>Локална модерност и симболичка моћ у југоисточној Европи.</p>
+      <p lang="en">Local Modernity and Symbolic Power in Southeast Europe.</p>
+    </article>
+    <article class="route-card">
+      <h3><a href="research/cacak-local-modernity-case-study.html">Чачак и локална модерност / <span lang="en">Čačak and Local Modernity</span></a></h3>
+      <p>Град као студија случаја модернизације, власти, простора и идентитета.</p>
+      <p lang="en">The town as a case study of modernization, power, space and identity.</p>
+    </article>
+    <article class="route-card">
+      <h3><a href="research/political-rituals-symbolic-politics.html">Политички ритуали / <span lang="en">Political Rituals</span></a></h3>
+      <p>Јавне церемоније, симболи, лојалност и легитимација власти.</p>
+      <p lang="en">Public ceremonies, symbols, loyalty and the legitimation of power.</p>
+    </article>
+    <article class="route-card">
+      <h3><a href="research/national-ideology-intellectual-debates.html">Национална идеологија / <span lang="en">National Ideology</span></a></h3>
+      <p>Политичка мисао, интелектуалне расправе и спорна наслеђа.</p>
+      <p lang="en">Political thought, intellectual debates and contested legacies.</p>
+    </article>
+    <article class="route-card">
+      <h3><a href="research/war-propaganda-memory.html">Рат, пропаганда и памћење / <span lang="en">War, Propaganda and Memory</span></a></h3>
+      <p>Рат, окупација, идеолошки сукоби и култура сећања.</p>
+      <p lang="en">War, occupation, ideological conflict and memory culture.</p>
+    </article>
+    <article class="route-card">
+      <h3><a href="research/culture-nationalism-symbolic-representation.html">Култура и симболичка репрезентација / <span lang="en">Culture and Symbolic Representation</span></a></h3>
+      <p>Култура, национализам, јавни симболи и локални идентитети.</p>
+      <p lang="en">Culture, nationalism, public symbols and local identities.</p>
+    </article>
+    <article class="route-card">
+      <h3><a href="research/cultural-heritage-museums-public-history.html">Наслеђе, музеји и јавна историја / <span lang="en">Heritage, Museums and Public History</span></a></h3>
+      <p>Музејска пракса, баштинска интерпретација и јавни наративи.</p>
+      <p lang="en">Museum practice, heritage interpretation and public narratives.</p>
+    </article>
+    <article class="route-card">
+      <h3><a href="research/religious-life-social-practices.html">Религијски живот / <span lang="en">Religious Life</span></a></h3>
+      <p>Религиозност, секуларизација, сакрални простори и друштвене праксе.</p>
+      <p lang="en">Religiosity, secularization, sacred spaces and social practices.</p>
+    </article>
+  </div>
+</section>
 
   <section class="reader-entry" aria-labelledby="why-this-map-matters">
   <h2 id="why-this-map-matters">Зашто ова мапа постоји? / Why This Map Matters</h2>
@@ -195,29 +261,30 @@
 </p>
 </section>
 
-<section class="intro">
-  <h2>Шта је овај граф? / What Is This Graph?</h2>
+<section class="technical-notes" aria-labelledby="technical-notes-title">
+<h2 id="technical-notes-title">Техничка и методолошка објашњења / <span lang="en">Technical and Methodological Notes</span></h2>
+
+<details class="technical-note">
+  <summary>Шта је овај граф? / <span lang="en">What Is This Graph?</span></summary>
   <p>Ова страница није кровни истраживачки есеј, већ улазна мапа графа знања. Она показује како су кровни оквир, тематски кластери, приступне стране публикација и спољни идентификатори повезани у јединствен систем.</p>
   <p><em>This page is not the main research essay, but the entry map of the knowledge graph. It shows how the main framework, thematic clusters, publication landing pages and external identifiers are connected within a single system.</em></p>
   <p>Граф овде није само визуелни дијаграм, већ структурисана семантичка мрежа веза између публикација, истраживачких кластера, приступних страна и спољних идентификатора.</p>
   <p><em>The graph is not only a visual diagram, but a structured semantic network of relations between publications, research clusters, landing pages and external identifiers.</em></p>
   <p>За читаоца, граф функционише као истраживачка мапа. За дигиталне системе, он функционише као мрежа повезаних идентификатора: Wikidata ставки, DOI записа, ORCID профила, репозиторијума, библиотечких каталога и агрегатора.</p>
   <p><em>For readers, the graph functions as a research map. For digital systems, it functions as a network of linked identifiers: Wikidata items, DOI records, ORCID, repositories, library catalogues and aggregators.</em></p>
-</section>
+</details>
 
-  <p>
-  For a concise English overview of the whole digital humanities project, see
-  <a href="/knowledge-graph/about-digital-humanities-project.html">About this Digital Humanities Project</a>.
-</p>
+  <p>За сажет преглед целог пројекта дигиталне хуманистике погледајте
+  <a href="/knowledge-graph/about-digital-humanities-project.html">О овом пројекту дигиталне хуманистике / <span lang="en">About this Digital Humanities Project</span></a>.</p>
 
-<section>
-  <h2>Истраживачка функција графа / Scholarly Function of the Graph</h2>
+<details class="technical-note">
+  <summary>Истраживачка функција графа / <span lang="en">Scholarly Function of the Graph</span></summary>
   <p>Граф показује да публикације нису изоловани библиографски записи, већ делови повезане истраживачке мреже. Кроз тематске кластере види се како се радови групишу око локалне модерности, симболичке моћи, рата, националне идеологије, културне репрезентације, музејске јавне историје и религијских пракси.</p>
   <p><em>The graph shows that publications are not isolated bibliographic records, but parts of a connected research network. Through thematic clusters, it becomes visible how works are grouped around local modernity, symbolic power, war, national ideology, cultural representation, museum-based public history and religious practices.</em></p>
-</section>
+</details>
 
-<section>
-  <h2 id="how-to-read">Како читати овај граф / How to Read This Graph</h2>
+<details class="technical-note" id="how-to-read">
+  <summary>Како читати овај граф / <span lang="en">How to Read This Graph</span></summary>
   <ol class="reading-path" aria-label="Како читати граф знања">
     <li>
       <span class="reading-path-title">Главна страница графа</span>
@@ -245,10 +312,12 @@
       <span class="reading-path-en" lang="en">External systems: ORCID, Wikidata, Zenodo, OpenAlex, Google Scholar and library catalogues.</span>
     </li>
   </ol>
+</details>
 </section>
 
 <section>
   <h2>Визуелна мапа графа / Visual Map of the Graph</h2>
+  <p class="small-note">Превуците водоравно на ужем екрану / <span lang="en">Swipe horizontally on a narrow screen.</span></p>
   <p class="small-note">Ова схема приказује основну архитектуру графа: улазну страницу, кровни истраживачки оквир, тематске кластере, приступне стране публикација и спољне идентификаторе.</p>
   <p class="small-note"><em>This diagram shows the basic architecture of the graph: the entry page, the main research framework, thematic clusters, publication landing pages and external identifiers.</em></p>
   <div class="graph-wrap" role="img" aria-label="Визуелна мапа графа знања са кровним оквиром, седам кластера и спољним идентификаторима.">
@@ -456,37 +525,41 @@
   </ul>
 </section>
 
-<section id="how-graph-works">
-  <h2>Како граф функционише / How the Graph Works</h2>
+<section class="technical-notes" aria-labelledby="additional-technical-notes-title">
+<h2 id="additional-technical-notes-title">Додатна објашњења / <span lang="en">Additional Notes</span></h2>
+
+<details class="technical-note" id="how-graph-works">
+  <summary>Како граф функционише / <span lang="en">How the Graph Works</span></summary>
   <p>Сваки кластер повезује више нивоа: тематски оквир, Wikidata item, приступне стране публикација, DOI и репозиторијумске записе где постоје, библиотечке и ауторитетске идентификаторе, као и спољне агрегаторе.</p>
   <p><em>Each cluster connects several levels: a thematic framework, a Wikidata item, publication landing pages, DOI and repository records where available, library and authority identifiers, and external aggregators.</em></p>
   <p>Циљ није само попис радова, већ стварање мреже истраживачких веза која је истовремено читљива људима и употребљива системима машинског читања.</p>
   <p><em>The aim is not only to list publications, but to create a network of research relations that is both readable to humans and usable by machine-reading systems.</em></p>
-</section>
+</details>
 
-<section>
-  <h2>Дигитална видљивост / Digital Visibility</h2>
+<details class="technical-note">
+  <summary>Дигитална видљивост / <span lang="en">Digital Visibility</span></summary>
   <p>Овај модел повезује лични научни сајт, Wikidata, ORCID, DOI записе, Zenodo, библиотечке каталоге и системе као што су OpenAlex и Google Scholar. Посебне странице кластера имају улогу средњег нивоа: оне не замењују појединачне приступне стране, већ објашњавају како се радови повезују у шире истраживачке целине.</p>
   <p><em>This model connects the personal scholarly website, Wikidata, ORCID, DOI records, Zenodo, library catalogues and systems such as OpenAlex and Google Scholar. The cluster pages function as a middle layer: they do not replace individual publication landing pages, but explain how the works form broader research units.</em></p>
   <p>На тај начин публикације нису приказане само као библиографски записи, већ као повезани ентитети у отвореним подацима, академским профилима, репозиторијумима и претраживачким системима.</p>
   <p><em>In this way, publications are presented not only as bibliographic records, but as connected entities in open data, academic profiles, repositories and search systems.</em></p>
-</section>
+</details>
 
-<section>
-  <h2>Домен и домет / Scope and Use</h2>
+<details class="technical-note">
+  <summary>Домен и домет / <span lang="en">Scope and Use</span></summary>
   <p>Граф је намењен истраживачима, студентима, уредницима, музејским радницима, библиотекарима, дигиталним агрегаторима и системима машинског читања.</p>
   <p><em>The graph is intended for researchers, students, editors, museum professionals, librarians, digital aggregators and machine-reading systems.</em></p>
   <p>За истраживаче, граф је мапа тема и корпуса. За студенте, он је улаз у истраживачке области. За уреднике и библиотекаре, он је поуздан скуп идентификатора и библиографских веза. За машинске системе, он је структурисана мрежа ентитета, тема и публикација.</p>
   <p><em>For researchers, the graph is a map of themes and corpora. For students, it is an entry point into research areas. For editors and librarians, it is a reliable set of identifiers and bibliographic links. For machine systems, it is a structured network of entities, themes and publications.</em></p>
+</details>
 </section>
 
 <section id="core-identifiers" class="identifier-box">
   <h2>Основни идентификатори / Core Identifiers</h2>
   <ul>
-    <li><strong>Author ORCID:</strong> <a href="https://orcid.org/0000-0002-0457-6125">0000-0002-0457-6125</a></li>
-    <li><strong>Author Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q112514230">Q112514230 — Miloš Timotijević</a></li>
-    <li><strong>OpenAlex author profile:</strong> <a href="https://openalex.org/authors/a5072525869">A5072525869</a></li>
-    <li><strong>Main research framework:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155 — Local Modernity and Symbolic Power in Southeast Europe</a></li>
+    <li><strong>Ауторски ORCID / <span lang="en">Author ORCID</span>:</strong> <a href="https://orcid.org/0000-0002-0457-6125">0000-0002-0457-6125</a></li>
+    <li><strong>Ауторски Wikidata запис / <span lang="en">Author Wikidata</span>:</strong> <a href="https://www.wikidata.org/wiki/Q112514230">Q112514230 — Miloš Timotijević</a></li>
+    <li><strong>Ауторски профил OpenAlex / <span lang="en">OpenAlex Author Profile</span>:</strong> <a href="https://openalex.org/authors/a5072525869">A5072525869</a></li>
+    <li><strong>Кровни истраживачки оквир / <span lang="en">Main Research Framework</span>:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155 — Local Modernity and Symbolic Power in Southeast Europe</a></li>
   </ul>
   <p>
     <strong>Машински читљив извоз / Machine-readable export:</strong>
