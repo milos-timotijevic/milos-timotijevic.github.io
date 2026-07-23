@@ -27,6 +27,8 @@
     .links { display: flex; flex-wrap: wrap; gap: 0.55em; margin: 1.2em 0; }
     .links a { padding: 0.35em 0.65em; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; background: #fafafa; }
     footer { margin-top: 3em; border-top: 1px solid #ddd; padding-top: 1em; color: #444; font-size: 0.95em; }
+      .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: 0.65rem 0.9rem; background: #fff; color: #0645ad; border: 2px solid #0645ad; }
+    .skip-link:focus { left: 1rem; top: 1rem; }
   </style>
   <script type="application/ld+json">
   {
@@ -44,8 +46,9 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
   <p><a href="/">← Назад на главну страну / Back to main page</a></p>
-  <main>
+  <main id="main-content">
     <h1>Како цитирати сајт и податке</h1>
     <p lang="en"><strong>How to Cite the Website and Data</strong></p>
     <div class="intro">
