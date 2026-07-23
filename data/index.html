@@ -67,7 +67,7 @@
     "sr",
     "en"
   ],
-  "dateModified": "2026-07-15",
+  "dateModified": "2026-07-23",
   "description": "Страница са отвореним табеларним и структурисаним подацима о изабраним публикацијама, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама и истраживачким кластерима у оквиру дигиталног научног корпуса Милоша Тимотијевића.",
   "isPartOf": {
     "@type": "WebSite",
@@ -94,7 +94,7 @@
     "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
     "version": "0.4",
     "datePublished": "2026-06-20",
-    "dateModified": "2026-07-15",
+    "dateModified": "2026-07-23",
     "description": "Отворени CSV, JSON и JSON-LD скупови података о изабраним публикацијама Милоша Тимотијевића, DOI бројевима, приступним странама, Zenodo записима, Wikidata ставкама, COBISS записима и истраживачким кластерима.",
     "creator": {
       "@type": "Person",
@@ -178,6 +178,28 @@
   "keywords": "open data, digital humanities, scholarly metadata, bibliographic data, knowledge graph, DOI, ORCID, Wikidata, Zenodo, COBISS, research clusters, machine readability, local history, public history, Miloš Timotijević"
 }
   </script>
+
+  <style>
+    :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f1f1f1; }
+    body { max-width: 860px; color:var(--text); font-size:17px; }
+    .data-toolbar { display:flex; flex-wrap:wrap; gap:.35rem 1rem; margin:1rem 0 1.4rem; padding:.8rem 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .intro-bilingual { margin:1.25rem 0; padding:1.1rem 1.2rem; border:1px solid var(--line); background:#fff; }
+    .intro-bilingual p { margin:.45rem 0; }
+    .route-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.85rem; margin-top:1rem; }
+    .route-card { padding:1rem 1.05rem; border:1px solid #cfcfcf; background:var(--soft); }
+    .route-card h3 { margin:0 0 .35rem; color:var(--text); font-size:1.05rem; }
+    .route-card p { margin:.3rem 0; }
+    .data-card { background:var(--soft); border-color:#cfcfcf; }
+    .data-card h3 { color:var(--text); }
+    details.technical { margin:1rem 0; border:1px solid var(--line); background:#fff; }
+    details.technical > summary { cursor:pointer; padding:.8rem 1rem; color:var(--text); font-weight:bold; }
+    details.technical > .technical-body { padding:0 1rem 1rem; }
+    @media (max-width:680px) {
+      body { margin:0 auto; padding:24px 18px; font-size:16px; }
+      .route-grid,.data-grid { grid-template-columns:1fr; }
+    }
+  </style>
+
 </head>
 
 <body id="top">
@@ -197,96 +219,49 @@
   <em>Publications, DOI Records, Landing Pages, Repositories, Wikidata Items and Research Clusters</em>
 </p>
 
-<section class="intro">
-  <p>
-    Ова страна садржи отворене табеларне и структурисане податке о изабраним публикацијама Милоша Тимотијевића. Подаци повезују библиографске јединице са приступним странама, DOI бројевима, Zenodo записима, Wikidata ставкама, COBISS записима и истраживачким кластерима.
-  </p>
 
-  <p>
-    Сврха овог одељка није да замени библиографије, библиотечке каталоге, DOI регистре, ORCID профил, Wikidata или репозиторијуме, већ да омогући да се један научни и музејски корпус преузме, провери, цитира, машински чита и даље користи у истраживањима.
-  </p>
-</section>
+<nav class="data-toolbar" aria-label="Навигација странице / Page navigation">
+  <a href="#downloads">Преузимање / Downloads</a>
+  <a href="#principles">Принципи / Principles</a>
+  <a href="#citation">Цитирање / Citation</a>
+  <a href="data-dictionary.html">Речник података / Data Dictionary</a>
+</nav>
 
-<section class="note" lang="en">
-  <h2>English Summary</h2>
-
-  <p>
-    This page provides open tabular and structured data about selected publications by Miloš Timotijević. The data connect bibliographic records with landing pages, DOI identifiers, Zenodo records, Wikidata items, COBISS records and research clusters.
-  </p>
-
-  <p>
-    The purpose of this section is not to replace bibliographies, library catalogues, DOI registries, ORCID, Wikidata or repositories, but to make a scholarly and museum-based corpus downloadable, verifiable, citable, machine-readable and reusable for further research.
-  </p>
+<section class="intro-bilingual">
+  <h2>О отвореним подацима / About the Open Data</h2>
+  <p>Ова страна садржи отворене табеларне и структурисане податке о изабраним публикацијама Милоша Тимотијевића и повезује библиографске јединице са приступним странама, DOI бројевима, Zenodo записима, Wikidata ставкама, COBISS записима и истраживачким кластерима.</p>
+  <p lang="en">This page provides open tabular and structured data about selected publications by Miloš Timotijević and connects bibliographic records with landing pages, DOI identifiers, Zenodo records, Wikidata items, COBISS records and research clusters.</p>
+  <p>Сврха није да се замене библиографије и нормативни извори, већ да корпус буде доступан за преузимање, проверу, цитирање и машинску обраду.</p>
+  <p lang="en">The purpose is not to replace bibliographies or authority sources, but to make the corpus downloadable, verifiable, citable and machine-readable.</p>
 </section>
 
 <section class="data-nav">
-  <h2>Како користити ову страну</h2>
-
-  <p>
-    Ова страна је улаз у отворене податке. За читаоца она служи као кратко објашњење доступних скупова података, а за машине као стабилна приступна тачка за преузимање табеларних записа.
-  </p>
-
-  <p>
-    Тренутно су доступни CSV фајлови <code>publications.csv</code>, <code>wikidata-items.csv</code> и <code>doi-list.csv</code>, JSON извоз <code>publications.json</code>, Schema.org извоз <code>publications.jsonld</code>, као и <code>knowledge-graph.jsonld</code>. JSON и JSON-LD извоз омогућавају машинску обраду записа и односа графа знања, док <code>manifest.json</code> омогућава проверу величине, броја записа и SHA-256 отиска главних извоза.
-  </p>
-
-  <p>
-    Детаљан опис колона, правила уноса, DOI поља, статуса провере, лиценце и начина цитирања доступан је на страници
-    <a href="data-dictionary.html">Речник података / Data Dictionary</a>.
-  </p>
-</section>
-
-<section>
-  <h2>Преузимање података / Download Data</h2>
-
-  <div class="download-list">
-    <p>
-      Тренутно доступни скупови података:
-    </p>
-
-    <ul>
-      <li>
-        <a href="publications.csv">publications.csv</a> —
-        основна табела изабраних публикација / main table of selected publications
-      </li>
-
-      <li>
-        <a href="publications.json" type="application/json">publications.json</a> —
-        JSON извоз проверених библиографских записа / JSON export of verified bibliography records
-      </li>
-
-      <li>
-        <a href="publications.jsonld" type="application/ld+json">publications.jsonld</a> —
-        Schema.org граф проверених публикација / Schema.org graph of verified publications
-      </li>
-
-      <li>
-        <a href="manifest.json" type="application/json">manifest.json</a> —
-        контролни манифест величине, броја записа и SHA-256 отисака / integrity manifest with byte sizes, record counts and SHA-256 checksums
-      </li>
-
-      <li>
-        <a href="wikidata-items.csv">wikidata-items.csv</a> —
-        контролна табела Wikidata ставки повезаних са аутором, публикацијама,
-        истраживачким кластерима и графом знања /
-        control table of Wikidata items connected with the author, publications,
-        research clusters and the knowledge graph
-      </li>
-
-      <li>
-        <a href="doi-list.csv">doi-list.csv</a> —
-        контролни списак DOI бројева / control list of DOI identifiers
-      </li>
-      <li>
-        <a href="knowledge-graph.jsonld" type="application/ld+json">knowledge-graph.jsonld</a> —
-        машински читљив извоз главних чворова и односа /
-        machine-readable export of the main graph nodes and relations
-      </li>
-    </ul>
-
-    <p class="small-note">
-      Напомена: фајлови се постепено допуњују. Прва верзија обухвата проверене јединице са приступним странама, основним идентификаторима, Wikidata ставкама и DOI подацима.
-    </p>
+  <h2>Како користити ову страну / How to Use This Page</h2>
+  <div class="route-grid">
+    <article class="route-card">
+      <h3>Преглед за читаоце / Reader Overview</h3>
+      <p>Почните од картица испод и изаберите формат који вам је потребан.</p>
+      <p lang="en">Start with the cards below and choose the format you need.</p>
+      <p><a href="#downloads">Доступни фајлови / Available files</a></p>
+    </article>
+    <article class="route-card">
+      <h3>Провера података / Data Verification</h3>
+      <p>Манифест садржи величину, број записа и SHA-256 отисак извоза.</p>
+      <p lang="en">The manifest records file size, record count and SHA-256 checksum.</p>
+      <p><a href="manifest.json" type="application/json">manifest.json</a></p>
+    </article>
+    <article class="route-card">
+      <h3>Структура поља / Field Structure</h3>
+      <p>Речник објашњава колоне, статусе провере, DOI поља и правила цитирања.</p>
+      <p lang="en">The dictionary explains columns, verification states, DOI fields and citation rules.</p>
+      <p><a href="data-dictionary.html">Речник података / Data Dictionary</a></p>
+    </article>
+    <article class="route-card">
+      <h3>Граф знања / Knowledge Graph</h3>
+      <p>JSON-LD извози повезују публикације, истраживачке теме и главне ентитете.</p>
+      <p lang="en">The JSON-LD exports connect publications, research themes and core entities.</p>
+      <p><a href="../knowledge-graph/">Отвори граф / Open the graph</a></p>
+    </article>
   </div>
 </section>
 
@@ -320,10 +295,10 @@
 </section>
 
 <section>
-  <h2>Доступни и планирани скупови података / Available and Planned Data Files</h2>
+  <h2 id="downloads">Доступни скупови података / Available Data Files</h2>
 
   <p>
-    Овај одељак приказује доступне и планиране скупове података. Доступни фајлови могу се одмах преузети, док су остали предвиђени за касније фазе развоја дигиталног корпуса.
+    Овај одељак приказује фајлове који су сада доступни за преузимање и проверу.<br><span lang="en">This section lists the files currently available for download and verification.</span>
   </p>
 
   <div class="data-grid">
@@ -332,6 +307,8 @@
       <p>
         Главна табела изабраних публикација. Садржи основне библиографске податке, DOI податке, приступну страну, Zenodo запис, Wikidata ставку, COBISS запис, кластер и статус провере.
       </p>
+      <p lang="en">Main table of selected publications with bibliographic metadata, identifiers, landing pages, clusters and verification status.</p>
+
       <p>
         <a href="publications.csv">Преузми / Download</a>
       </p>
@@ -342,6 +319,8 @@
       <p>
         Контролна табела Wikidata ставки за аутора, публикације, истраживачке оквире, кластере и повезане теме.
       </p>
+      <p lang="en">Control table of Wikidata items for the author, publications, research frameworks, clusters and related topics.</p>
+
       <p>
         <a href="wikidata-items.csv">Преузми / Download</a>
       </p>
@@ -352,6 +331,8 @@
       <p>
         Контролни списак DOI бројева, са разликовањем главног DOI броја публикације, рада или издања и DOI броја репозиторијумске верзије.
       </p>
+      <p lang="en">Control list distinguishing publication or edition DOI values from repository-version DOI values.</p>
+
       <p>
         <a href="doi-list.csv">Преузми / Download</a>
       </p>
@@ -362,6 +343,8 @@
       <p>
         Речник података са описом колона, правилима уноса, DOI пољима, статусима провере, лиценцом и препорученим обликом цитирања.
       </p>
+      <p lang="en">Field dictionary covering columns, entry rules, DOI fields, verification status, licensing and citation.</p>
+
       <p>
         <a href="data-dictionary.html">Отвори / Open</a>
       </p>
@@ -372,6 +355,8 @@
       <p>
         JSON извоз проверених библиографских записа, погодан за машинску обраду, апликације, визуализације и даље повезивање са графом знања.
       </p>
+      <p lang="en">JSON export of verified bibliographic records for applications, analysis and visualisation.</p>
+
       <p>
         <a href="publications.json" type="application/json">Преузми / Download</a>
       </p>
@@ -382,6 +367,8 @@
       <p>
         Schema.org JSON-LD извоз свих проверених публикација као књига, поглавља и научних радова, са ауторима, DOI, Wikidata и COBISS идентификаторима.
       </p>
+      <p lang="en">Schema.org JSON-LD graph of verified publications and their identifiers.</p>
+
       <p>
         <a href="publications.jsonld" type="application/ld+json">Преузми / Download</a>
       </p>
@@ -392,6 +379,8 @@
       <p>
         Контролни манифест за <code>publications.csv</code>, <code>publications.json</code> и <code>publications.jsonld</code>, са величином фајла, бројем записа и SHA-256 отиском за независну проверу интегритета.
       </p>
+      <p lang="en">Integrity manifest with file sizes, record counts and SHA-256 checksums.</p>
+
       <p>
         <a href="manifest.json" type="application/json">Преузми / Download</a>
       </p>
@@ -402,6 +391,8 @@
       <p>
         JSON-LD извоз главних чворова и односа у графу знања: аутор, сајт, улазна страница, кровни оквир и тематски кластери.
       </p>
+      <p lang="en">Machine-readable export of the principal entities and relationships in the knowledge graph.</p>
+
       <p>
         <a href="knowledge-graph.jsonld" type="application/ld+json">Преузми / Download</a>
       </p>
@@ -410,7 +401,7 @@
 </section>
 
 <section>
-  <h2>Основни принципи</h2>
+  <h2 id="principles">Основни принципи</h2>
 
   <div class="data-grid">
     <article class="data-card">
@@ -485,7 +476,7 @@
 </section>
 
 <section>
-  <h2>Како цитирати податке</h2>
+  <h2 id="citation">Како цитирати податке</h2>
 
   <div class="citation-box">
     <p>
@@ -565,3 +556,4 @@
 
 </body>
 </html>
+
