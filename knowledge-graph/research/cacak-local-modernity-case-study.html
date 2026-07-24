@@ -1,574 +1,732 @@
-<!doctype html>
+
+<!DOCTYPE html>
+
 <html lang="sr-Cyrl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity</title>
+<meta content="Истраживачка страница о Чачку као студији случаја локалне модерности: урбана трансформација, локална власт, индустријализација, јавни простор, свакодневица, спорт, култура сећања и локални идентитет." name="description"/>
+<meta content="Милош Тимотијевић, Miloš Timotijević, Чачак, Čačak, локална модерност, local modernity, студија случаја, case study, симболичка моћ, symbolic power, урбана историја, urban history, социјална историја, social history, локална власт, local government, јавни простор, public space, свакодневица, everyday life, меморијални пејзаж, memorial landscape, култура сећања, memory culture, спорт и идентитет, sport and identity, социјалистичка модернизација, socialist modernization, локални идентитет, local identity, Чачак као студија случаја локалне модерности" name="keywords"/>
+<meta content="Miloš Timotijević" name="author"/>
+<meta content="index, follow" name="robots"/>
+<link href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html" rel="canonical"/>
+<link href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" rel="alternate" title="Machine-readable knowledge graph" type="application/ld+json"/>
+<link href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html" hreflang="sr-Cyrl" rel="alternate"/>
+<link href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html" hreflang="en-GB" rel="alternate"/>
+<link href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html" hreflang="x-default" rel="alternate"/>
+<!-- Dublin Core metadata -->
+<meta content="Чачак као студија случаја локалне модерности" name="DC.title"/>
+<meta content="Čačak as a Case Study of Local Modernity" name="DC.title"/>
+<meta content="Милош Тимотијевић" name="DC.creator"/>
+<meta content="Miloš Timotijević" name="DC.creator"/>
+<meta content="Research cluster" name="DC.type"/>
+<meta content="sr" name="DC.language"/>
+<meta content="Чачак" name="DC.subject"/>
+<meta content="Čačak" name="DC.subject"/>
+<meta content="локална модерност" name="DC.subject"/>
+<meta content="local modernity" name="DC.subject"/>
+<meta content="урбана трансформација" name="DC.subject"/>
+<meta content="urban transformation" name="DC.subject"/>
+<meta content="локална власт" name="DC.subject"/>
+<meta content="local government" name="DC.subject"/>
+<meta content="социјална структура" name="DC.subject"/>
+<meta content="social structure" name="DC.subject"/>
+<meta content="јавни простор" name="DC.subject"/>
+<meta content="public space" name="DC.subject"/>
+<meta content="култура сећања" name="DC.subject"/>
+<meta content="memory culture" name="DC.subject"/>
+<meta content="спорт и идентитет" name="DC.subject"/>
+<meta content="sport and identity" name="DC.subject"/>
+<meta content="свакодневица" name="DC.subject"/>
+<meta content="everyday life" name="DC.subject"/>
+<meta content="локални идентитет" name="DC.subject"/>
+<meta content="local identity" name="DC.subject"/>
+<meta content="студија случаја" name="DC.subject"/>
+<meta content="case study" name="DC.subject"/>
+<meta content="Wikidata Q139413866" name="DC.identifier"/>
+<meta content="https://www.wikidata.org/wiki/Q139413866" name="DC.relation"/>
+<meta content="https://www.wikidata.org/wiki/Q139501155" name="DC.relation"/>
+<!-- Open Graph metadata -->
+<meta content="Чачак као студија случаја локалне модерности" property="og:title"/>
+<meta content="Чачак као студија случаја локалне модерности: урбана трансформација, локална власт, индустријализација, јавни простор, свакодневица, спорт, култура сећања и локални идентитет." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html" property="og:url"/>
+<meta content="Miloš Timotijević — Knowledge Graph" property="og:site_name"/>
+<meta content="sr_RS" property="og:locale"/>
+<meta content="en_GB" property="og:locale:alternate"/>
+<!-- Twitter / generic card metadata -->
+<meta content="summary" name="twitter:card"/>
+<meta content="Чачак као студија случаја локалне модерности" name="twitter:title"/>
+<meta content="Research cluster: Čačak as a case study of local modernity, public space, institutions, memory culture and local identity in Southeast Europe." name="twitter:description"/>
+<style>
+    :root {
+      --text: #111;
+      --muted: #555;
+      --line: #dedede;
+      --link: #0645ad;
+      --link-hover: #04357f;
+      --panel: #f4f4f4;
+      --soft: #f8f8f8;
+      --card: #fff;
+      --border: #d6d6d6;
+    }
 
-  <title>Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity</title>
+    * { box-sizing: border-box; }
 
-  <meta name="description" content="Истраживачки кластер о Чачку као студији случаја локалне модерности у модерној Србији и југоисточној Европи, са фокусом на урбану трансформацију, локалну власт, индустријализацију, јавни простор, свакодневицу, спорт, културу сећања и производњу локалног идентитета.">
-  <meta name="keywords" content="Милош Тимотијевић, Miloš Timotijević, Чачак, Čačak, локална модерност, local modernity, студија случаја, case study, симболичка моћ, symbolic power, урбана историја, urban history, социјална историја, social history, локална власт, local government, јавни простор, public space, свакодневица, everyday life, меморијални пејзаж, memorial landscape, култура сећања, memory culture, спорт и идентитет, sport and identity, социјалистичка модернизација, socialist modernization, локални идентитет, local identity, Чачак као студија случаја локалне модерности">
-  <meta name="author" content="Miloš Timotijević">
-  <meta name="robots" content="index, follow">
-
-<link rel="canonical" href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
-<link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" title="Machine-readable knowledge graph">
-  <link rel="alternate" hreflang="sr" href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
-  <link rel="alternate" hreflang="en" href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
-  <link rel="alternate" hreflang="x-default" href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
-
-  <!-- Dublin Core metadata -->
-  <meta name="DC.title" content="Чачак као студија случаја локалне модерности">
-  <meta name="DC.title" content="Čačak as a Case Study of Local Modernity">
-  <meta name="DC.creator" content="Милош Тимотијевић">
-  <meta name="DC.creator" content="Miloš Timotijević">
-  <meta name="DC.type" content="Research cluster">
-  <meta name="DC.language" content="sr">
-  <meta name="DC.subject" content="Чачак">
-  <meta name="DC.subject" content="Čačak">
-  <meta name="DC.subject" content="локална модерност">
-  <meta name="DC.subject" content="local modernity">
-  <meta name="DC.subject" content="урбана трансформација">
-  <meta name="DC.subject" content="urban transformation">
-  <meta name="DC.subject" content="локална власт">
-  <meta name="DC.subject" content="local government">
-  <meta name="DC.subject" content="социјална структура">
-  <meta name="DC.subject" content="social structure">
-  <meta name="DC.subject" content="јавни простор">
-  <meta name="DC.subject" content="public space">
-  <meta name="DC.subject" content="култура сећања">
-  <meta name="DC.subject" content="memory culture">
-  <meta name="DC.subject" content="спорт и идентитет">
-  <meta name="DC.subject" content="sport and identity">
-  <meta name="DC.subject" content="свакодневица">
-  <meta name="DC.subject" content="everyday life">
-  <meta name="DC.subject" content="локални идентитет">
-  <meta name="DC.subject" content="local identity">
-  <meta name="DC.subject" content="студија случаја">
-  <meta name="DC.subject" content="case study">
-  <meta name="DC.identifier" content="Wikidata Q139413866">
-  <meta name="DC.relation" content="https://www.wikidata.org/wiki/Q139413866">
-  <meta name="DC.relation" content="https://www.wikidata.org/wiki/Q139501155">
-
-  <!-- Open Graph metadata -->
-  <meta property="og:title" content="Чачак као студија случаја локалне модерности">
-  <meta property="og:description" content="Истраживачки кластер о Чачку као студији случаја локалне модерности: урбана трансформација, локална власт, индустријализација, јавни простор, свакодневица, спорт, култура сећања и локални идентитет.">
-  <meta property="og:type" content="website">
-<meta property="og:url" content="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
-<meta property="og:site_name" content="Miloš Timotijević — Knowledge Graph">
-  <meta property="og:locale" content="sr_RS">
-  <meta property="og:locale:alternate" content="en_US">
-
-  <!-- Twitter / generic card metadata -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Чачак као студија случаја локалне модерности">
-  <meta name="twitter:description" content="Research cluster: Čačak as a case study of local modernity, public space, institutions, memory culture and local identity in Southeast Europe.">
-
-  <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.6;
-      max-width: 980px;
-      margin: 40px auto;
-      padding: 0 24px;
-      color: #222;
+    html {
       background: #fff;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 42px 28px 30px;
+      color: var(--text);
+      background: #fff;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.58;
     }
 
     h1, h2, h3 {
+      color: var(--text);
       line-height: 1.25;
-      color: #111;
     }
 
     h1 {
-      font-size: 2.1em;
-      margin-bottom: 0.2em;
+      margin: 0 0 .08em;
+      font-size: 2.05rem;
     }
 
     h2 {
-      margin-top: 2em;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 0.25em;
+      margin: 0 0 .85rem;
+      padding: 0 0 .32rem;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.42rem;
     }
 
     h3 {
-      margin-top: 1.8em;
-      color: #222;
+      margin: 1.3rem 0 .55rem;
+      font-size: 1.12rem;
     }
+
+    p { margin: .7rem 0; }
+    ul, ol { padding-left: 1.4rem; }
+    li { margin: .45rem 0; }
 
     a {
-      color: #0645ad;
+      color: var(--link);
       text-decoration: none;
+      text-underline-offset: .15em;
     }
 
-    a:hover {
+    a:hover,
+    a:focus-visible {
+      color: var(--link-hover);
       text-decoration: underline;
     }
 
-    p {
-      margin: 0.75em 0;
+    section[id] { scroll-margin-top: 1rem; }
+
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: -5rem;
+      z-index: 1000;
+      padding: .55rem .75rem;
+      border: 2px solid var(--link);
+      color: #fff;
+      background: var(--link);
     }
 
-    ul li {
-      margin-bottom: 0.75em;
+    .skip-link:focus {
+      top: 1rem;
+      color: #fff;
+    }
+
+    .page-header {
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .back-link {
+      margin: 0 0 1.1rem;
+      font-size: .94rem;
+    }
+
+    .name-latin {
+      margin: .18rem 0;
+      color: var(--muted);
+      font-size: 1rem;
     }
 
     .subtitle {
-      font-size: 1.1em;
-      margin-bottom: 1.5em;
+      margin: .45rem 0 0;
       color: #444;
+      font-size: 1rem;
     }
 
+    .site-nav,
+    .contents {
+      margin: 1.35rem 0;
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--border);
+      background: var(--panel);
+    }
+
+    .site-nav ul,
+    .site-links p {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem 1rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .site-nav li { margin: 0; }
+
+    .contents h2 {
+      margin-top: 0;
+      border-bottom-color: #c9c9c9;
+      font-size: 1.18rem;
+    }
+
+    .contents ol {
+      columns: 2;
+      column-gap: 2.5rem;
+      margin-bottom: 0;
+      padding-left: 1.35rem;
+    }
+
+    .contents li {
+      break-inside: avoid;
+      margin-bottom: .35rem;
+    }
+
+    .content-section {
+      padding: 1.45rem 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .reader-entry,
     .executive-summary,
-    .broader-item,
-    .cluster-function,
     .research-question,
     .research-claim,
     .methodological-focus,
     .analytical-scope,
+    .cluster-function,
+    .broader-framework,
     .identifier-box,
     .note,
     .citation {
-      background: #f8f8f8;
+      margin: 1rem 0;
+      padding: 1rem 1.1rem;
       border-left: 4px solid #bbb;
-      padding: 1em;
-      margin: 1.5em 0 2em 0;
+      background: var(--soft);
     }
 
+    .reader-entry p,
     .executive-summary p,
-    .broader-framework p,
-    .cluster-function p,
     .research-question p,
     .research-claim p,
     .methodological-focus p,
     .analytical-scope p,
+    .cluster-function p,
+    .broader-framework p,
     .identifier-box p,
     .note p,
     .citation p {
-      margin: 0.35em 0;
+      margin: .4rem 0;
     }
 
-    .cluster-box {
-      background: #f5f5f5;
-      border-left: 4px solid #999;
-      padding: 1em;
-      margin: 1.5em 0;
+    .scope-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
     }
 
-    .cluster-box p {
-      margin: 0.35em 0;
+    .scope-card {
+      padding: 1rem 1.05rem;
+      border: 1px solid var(--border);
+      background: var(--card);
     }
-
-    .work-list {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .work-card {
-      background: #f8f8f8;
-      border-left: 4px solid #bbb;
-      padding: 1em;
-      margin: 1em 0;
-    }
-
-    .work-card p {
-      margin: 0.45em 0;
-    }
-
-    .work-links {
-      font-size: 0.95em;
-    }
-
-
 
     .scope-list {
       display: grid;
       grid-template-columns: max-content 1fr;
-      gap: 0.35em 1em;
-      margin: 0.5em 0 0 0;
-    }
-
-    .scope-list dt {
-      font-weight: bold;
-    }
-
-    .scope-list dd {
+      gap: .35rem 1rem;
       margin: 0;
     }
 
-    .back-link {
-      margin-top: 2.5em;
-      border-top: 1px solid #ddd;
-      padding-top: 1em;
-    }
-    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
-    .skip-link:focus { left: 1em; top: 1em; }
-  </style>
+    .scope-list dt { font-weight: bold; }
+    .scope-list dd { margin: 0; }
 
-  <!-- Schema.org JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
+    .publication-group {
+      margin: 1.4rem 0 2rem;
+    }
+
+    .publication-group > h3 {
+      padding-bottom: .35rem;
+      border-bottom: 1px solid #e4e4e4;
+    }
+
+    .work-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .work-card {
+      margin: .85rem 0;
+      padding: 1rem 1.05rem;
+      border: 1px solid var(--border);
+      background: var(--card);
+    }
+
+    .work-card p {
+      margin: .45rem 0;
+    }
+
+    .work-role {
+      color: #333;
+      font-size: .96rem;
+    }
+
+    .work-links {
+      margin-top: .55rem;
+      overflow-wrap: anywhere;
+      font-size: .94rem;
+    }
+
+    .small-note {
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    .keywords {
+      color: #333;
+      overflow-wrap: anywhere;
+    }
+
+    .site-links {
+      margin: 2rem 0 0;
+      padding: 1rem 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    footer {
+      margin-top: 1rem;
+      color: #444;
+      font-size: .9rem;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        padding: 24px 18px;
+        font-size: 16px;
+      }
+
+      .contents ol { columns: 1; }
+      .scope-grid { grid-template-columns: 1fr; }
+
+      .reader-entry,
+      .executive-summary,
+      .research-question,
+      .research-claim,
+      .methodological-focus,
+      .analytical-scope,
+      .cluster-function,
+      .broader-framework,
+      .identifier-box,
+      .note,
+      .citation,
+      .work-card,
+      .site-nav,
+      .contents {
+        padding: .9rem;
+      }
+
+      .scope-list {
+        display: block;
+      }
+
+      .scope-list dt {
+        margin-top: .65rem;
+      }
+
+      .site-nav ul,
+      .site-links p {
+        display: block;
+      }
+
+      .site-nav a,
+      .site-links a {
+        display: block;
+        margin: .28rem 0;
+      }
+    }
+
+    @media print {
+      body {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .site-nav,
+      .contents,
+      .site-links,
+      .skip-link,
+      footer {
+        display: none;
+      }
+
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .work-card {
+        break-inside: avoid;
+      }
+    }
+</style>
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#webpage",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
+      "name": "Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity",
+      "description": "Истраживачка страница о Чачку као студији случаја локалне модерности: урбана трансформација, локална власт, индустријализација, јавни простор, свакодневица, спорт, култура сећања и локални идентитет.",
+      "keywords": [
+        "Чачак",
+        "Čačak",
+        "local modernity",
+        "case study",
+        "urban transformation",
+        "local government",
+        "public space",
+        "industrialization",
+        "everyday life",
+        "memory culture",
+        "local identity",
+        "symbolic power"
+      ],
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "author": {
+        "@id": "https://www.wikidata.org/wiki/Q112514230"
+      },
+      "isPartOf": {
         "@type": "CollectionPage",
-        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#webpage",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
-        "name": "Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity",
-        "description": "Истраживачки кластер о Чачку као студији случаја локалне модерности у модерној Србији и југоисточној Европи, са фокусом на урбану трансформацију, локалну власт, индустријализацију, јавни простор, свакодневицу, спорт, културу сећања и производњу локалног идентитета.",
-        "keywords": [
-          "Чачак",
-          "Čačak",
-          "local modernity",
-          "case study",
-          "urban transformation",
-          "local government",
-          "public space",
-          "industrialization",
-          "everyday life",
-          "memory culture",
-          "local identity",
-          "symbolic power"
-        ],
-        "inLanguage": ["sr", "en"],
-        "author": {
-          "@id": "https://www.wikidata.org/wiki/Q112514230"
-        },
-        "isPartOf": {
-          "@type": "CollectionPage",
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#webpage",
-          "name": "Локална модерност и симболичка моћ у југоисточној Европи",
-          "alternateName": "Local Modernity and Symbolic Power in Southeast Europe",
-          "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
-          "sameAs": "https://www.wikidata.org/wiki/Q139501155"
-        },
-        "mainEntity": {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
-        }
-      },
-      {
-        "@type": "Person",
-        "@id": "https://www.wikidata.org/wiki/Q112514230",
-        "name": "Милош Тимотијевић",
-        "alternateName": "Miloš Timotijević",
-        "sameAs": [
-          "https://orcid.org/0000-0002-0457-6125",
-          "https://www.wikidata.org/wiki/Q112514230",
-          "https://openalex.org/authors/a5072525869"
-        ]
-      },
-      {
-        "@type": "CreativeWork",
-        "@id": "https://www.wikidata.org/wiki/Q139501155",
-        "name": "Local modernity and symbolic power in Southeast Europe",
-        "alternateName": "Локална модерност и симболичка моћ у југоисточној Европи",
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#webpage",
+        "name": "Локална модерност и симболичка моћ у југоисточној Европи",
+        "alternateName": "Local Modernity and Symbolic Power in Southeast Europe",
         "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
         "sameAs": "https://www.wikidata.org/wiki/Q139501155"
       },
-      {
-        "@type": "CreativeWork",
-        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster",
-        "name": "Чачак као студија случаја локалне модерности",
-        "alternateName": "Čačak as a Case Study of Local Modernity in Southeast Europe",
-        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
-        "sameAs": "https://www.wikidata.org/wiki/Q139413866",
-        "inLanguage": ["sr", "en"],
-        "author": {
-          "@id": "https://www.wikidata.org/wiki/Q112514230"
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
+      },
+      "dateModified": "2026-07-24"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.wikidata.org/wiki/Q112514230",
+      "name": "Милош Тимотијевић",
+      "alternateName": "Miloš Timotijević",
+      "sameAs": [
+        "https://orcid.org/0000-0002-0457-6125",
+        "https://www.wikidata.org/wiki/Q112514230",
+        "https://openalex.org/authors/a5072525869"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.wikidata.org/wiki/Q139501155",
+      "name": "Local modernity and symbolic power in Southeast Europe",
+      "alternateName": "Локална модерност и симболичка моћ у југоисточној Европи",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139501155"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster",
+      "name": "Чачак као студија случаја локалне модерности",
+      "alternateName": "Čačak as a Case Study of Local Modernity in Southeast Europe",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139413866",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "author": {
+        "@id": "https://www.wikidata.org/wiki/Q112514230"
+      },
+      "description": "Истраживачка целина о Чачку као студији случаја за проучавање урбаних, друштвених, привредних и политичких промена, јавног простора, културе сећања и локалног идентитета.",
+      "keywords": [
+        "Чачак",
+        "Čačak",
+        "локална модерност",
+        "local modernity",
+        "студија случаја",
+        "case study",
+        "урбана историја",
+        "urban history",
+        "социјална историја",
+        "social history",
+        "локална власт",
+        "local government",
+        "индустријализација",
+        "industrialization",
+        "јавни простор",
+        "public space",
+        "свакодневица",
+        "everyday life",
+        "култура сећања",
+        "memory culture",
+        "локални идентитет",
+        "local identity",
+        "симболичка моћ",
+        "symbolic power"
+      ],
+      "temporalCoverage": "19th century/20th century",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Чачак",
+          "alternateName": "Čačak",
+          "sameAs": "https://www.wikidata.org/wiki/Q188512"
         },
-        "description": "Истраживачки кластер о Чачку као историјској лабораторији за проучавање локалне модерности, односно начина на који се шире државне, друштвене, економске и идеолошке промене преводе у локалне институције, јавни простор, свакодневицу, меморијалне праксе и симболе локалног идентитета.",
-        "keywords": [
-          "Чачак",
-          "Čačak",
-          "локална модерност",
-          "local modernity",
-          "студија случаја",
-          "case study",
-          "урбана историја",
-          "urban history",
-          "социјална историја",
-          "social history",
-          "локална власт",
-          "local government",
-          "индустријализација",
-          "industrialization",
-          "јавни простор",
-          "public space",
-          "свакодневица",
-          "everyday life",
-          "култура сећања",
-          "memory culture",
-          "локални идентитет",
-          "local identity",
-          "симболичка моћ",
-          "symbolic power"
-        ],
-        "temporalCoverage": "19th century/20th century",
-        "spatialCoverage": [
-          {
-            "@type": "Place",
-            "name": "Чачак",
-            "alternateName": "Čačak",
-            "sameAs": "https://www.wikidata.org/wiki/Q188512"
-          },
-          {
-            "@type": "Place",
-            "name": "Western Serbia"
-          },
-          {
-            "@type": "Place",
-            "name": "Southeast Europe"
-          }
-        ],
-        "isPartOf": {
-          "@id": "https://www.wikidata.org/wiki/Q139501155"
+        {
+          "@type": "Place",
+          "name": "Western Serbia"
         },
-        "about": [
-          {
-            "@type": "Place",
-            "name": "Чачак",
-            "alternateName": "Čačak",
-            "sameAs": "https://www.wikidata.org/wiki/Q188512"
-          },
-          {
-            "@type": "Thing",
-            "name": "local modernity"
-          },
-          {
-            "@type": "Thing",
-            "name": "urban history"
-          },
-          {
-            "@type": "Thing",
-            "name": "social history"
-          },
-          {
-            "@type": "Thing",
-            "name": "local government"
-          },
-          {
-            "@type": "Thing",
-            "name": "political elites"
-          },
-          {
-            "@type": "Thing",
-            "name": "public space"
-          },
-          {
-            "@type": "Thing",
-            "name": "socialist modernization"
-          },
-          {
-            "@type": "Thing",
-            "name": "cultural memory"
-          },
-          {
-            "@type": "Thing",
-            "name": "everyday life"
-          },
-          {
-            "@type": "Thing",
-            "name": "memorial landscape"
-          },
-          {
-            "@type": "Thing",
-            "name": "local identity"
-          },
-          {
-            "@type": "Thing",
-            "name": "sport and identity"
-          },
-          {
-            "@type": "Thing",
-            "name": "symbolic power"
-          }
-        ],
-        "hasPart": [
-          {
-            "@type": "Book",
-            "name": "Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма",
-            "alternateName": "Modernization of the Balkan City (1944–1989): A Comparative Analysis of the Development of Čačak and Blagoevgrad in the Socialist Era",
-            "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q138007034"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)",
-            "alternateName": "City Center and Architectural Heritage of Socialism: The Case of Čačak (1944–1990)",
-            "url": "https://milos-timotijevic.github.io/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q138757156"
-          },
-          {
-            "@type": "Chapter",
-            "name": "Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку",
-            "alternateName": "Town in the Interior: Forms, Spaces and Boundaries of Private and Public in the 20th Century",
-            "url": "https://milos-timotijevic.github.io/book-chapters/grad-u-unutrasnjosti.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q138862911"
-          },
-          {
-            "@type": "CreativeWork",
-            "name": "Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи",
-            "alternateName": "Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power",
-            "url": "https://milos-timotijevic.github.io/catalogues/cacak-u-doba-socijalizma.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139332468"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "„Први грађанин мале вароши”: значај председника општине у локалној елити власти током социјализма – пример Чачка",
-            "alternateName": "“First Citizen of a Small Town”: The Role of the Municipal President in the Local Power Elite during Socialism – The Case of Čačak",
-            "url": "https://milos-timotijevic.github.io/articles/prvi-gradjanin-male-varosi.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139555900"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "Општинска власт у Чачку између два светска рата",
-            "alternateName": "Municipal Government in Čačak between the Two World Wars",
-            "url": "https://milos-timotijevic.github.io/articles/opstinska-vlast-cacak-izmedju-dva-rata.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139592921"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "Председници општине Чачак (1944–2010)",
-            "alternateName": "Presidents of the Municipality of Čačak (1944–2010)",
-            "url": "https://milos-timotijevic.github.io/articles/predsednici-opstine-cacak-1944-2010.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139593166"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "У лавиринту унутрашњих граница: положај Чачка у територијалној подели Србије 1804–2009",
-            "alternateName": "In the Labyrinth within Internal Boundaries: Location of Čačak in the Territorial Division of Serbia, 1804–2009",
-            "url": "https://milos-timotijevic.github.io/articles/u-lavirintu-unutrasnjih-granica.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139569269"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "Чачак у предвечерје Другог светског рата 1938–1941: социјална, економска и политичка структура",
-            "alternateName": "Čačak on the Eve of the Second World War, 1938–1941: Social, Economic, and Political Structure",
-            "url": "https://milos-timotijevic.github.io/articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139588128"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "Чачак под окупацијом 1941–1944: привреда и друштво",
-            "alternateName": "Čačak under Occupation, 1941–1944: Economy and Society",
-            "url": "https://milos-timotijevic.github.io/articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139549522"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "Индустријализација Чачка 1944–1956",
-            "alternateName": "Industrialization of Čačak, 1944–1956",
-            "url": "https://milos-timotijevic.github.io/articles/industrijalizacija-cacka-1944-1956.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139588535"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "Проституција у Чачку током XX века",
-            "alternateName": "Prostitution in Čačak during the 20th Century",
-            "url": "https://milos-timotijevic.github.io/articles/prostitucija-u-cacku-tokom-xx-veka.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139500857"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета",
-            "alternateName": "The Street Names of Čačak, 1893–1992: A Century of Constructing Collective Identity",
-            "url": "https://milos-timotijevic.github.io/articles/nazivi-ulica-cacka-1893-1992.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139555830"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955",
-            "alternateName": "“Although You Are Not Physically Alive, You Radiate Upon Us Like Living Beings”: The Construction of the Memorial Ossuary and the Shaping of the Central Square in Čačak, 1945–1955",
-            "url": "https://milos-timotijevic.github.io/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139569304"
-          },
-          {
-            "@type": "Book",
-            "name": "Како је Чачак постао град кошарке (1945–1969): спорт и идентитет",
-            "alternateName": "How Čačak Became the City of Basketball (1945–1969): Sport and Identity",
-            "url": "https://milos-timotijevic.github.io/books/kako-je-cacak-postao-grad-kosarke.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139439617"
-          },
-          {
-            "@type": "ScholarlyArticle",
-            "name": "Кошарка и конструкција локалног идентитета Чачка",
-            "alternateName": "Basketball and the Creation of the Local Identity of Čačak",
-            "url": "https://milos-timotijevic.github.io/articles/kosarka-konstrukcija-lokalnog-identiteta-cacka.html",
-            "sameAs": "https://www.wikidata.org/wiki/Q139487858"
-          }
-        ]
-      }
-    ]
-  }
-  </script>
+        {
+          "@type": "Place",
+          "name": "Southeast Europe"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://www.wikidata.org/wiki/Q139501155"
+      },
+      "about": [
+        {
+          "@type": "Place",
+          "name": "Чачак",
+          "alternateName": "Čačak",
+          "sameAs": "https://www.wikidata.org/wiki/Q188512"
+        },
+        {
+          "@type": "Thing",
+          "name": "local modernity"
+        },
+        {
+          "@type": "Thing",
+          "name": "urban history"
+        },
+        {
+          "@type": "Thing",
+          "name": "social history"
+        },
+        {
+          "@type": "Thing",
+          "name": "local government"
+        },
+        {
+          "@type": "Thing",
+          "name": "political elites"
+        },
+        {
+          "@type": "Thing",
+          "name": "public space"
+        },
+        {
+          "@type": "Thing",
+          "name": "socialist modernization"
+        },
+        {
+          "@type": "Thing",
+          "name": "cultural memory"
+        },
+        {
+          "@type": "Thing",
+          "name": "everyday life"
+        },
+        {
+          "@type": "Thing",
+          "name": "memorial landscape"
+        },
+        {
+          "@type": "Thing",
+          "name": "local identity"
+        },
+        {
+          "@type": "Thing",
+          "name": "sport and identity"
+        },
+        {
+          "@type": "Thing",
+          "name": "symbolic power"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "Book",
+          "name": "Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма",
+          "alternateName": "Modernization of the Balkan City (1944–1989): A Comparative Analysis of the Development of Čačak and Blagoevgrad in the Socialist Era",
+          "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q138007034"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)",
+          "alternateName": "City Center and Architectural Heritage of Socialism: The Case of Čačak (1944–1990)",
+          "url": "https://milos-timotijevic.github.io/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q138757156"
+        },
+        {
+          "@type": "Chapter",
+          "name": "Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку",
+          "alternateName": "Town in the Interior: Forms, Spaces and Boundaries of Private and Public in the 20th Century",
+          "url": "https://milos-timotijevic.github.io/book-chapters/grad-u-unutrasnjosti.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q138862911"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи",
+          "alternateName": "Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power",
+          "url": "https://milos-timotijevic.github.io/catalogues/cacak-u-doba-socijalizma.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139332468"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "„Први грађанин мале вароши”: значај председника општине у локалној елити власти током социјализма – пример Чачка",
+          "alternateName": "“First Citizen of a Small Town”: The Role of the Municipal President in the Local Power Elite during Socialism – The Case of Čačak",
+          "url": "https://milos-timotijevic.github.io/articles/prvi-gradjanin-male-varosi.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139555900"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Општинска власт у Чачку између два светска рата",
+          "alternateName": "Municipal Government in Čačak between the Two World Wars",
+          "url": "https://milos-timotijevic.github.io/articles/opstinska-vlast-cacak-izmedju-dva-rata.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139592921"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Председници општине Чачак (1944–2010)",
+          "alternateName": "Presidents of the Municipality of Čačak (1944–2010)",
+          "url": "https://milos-timotijevic.github.io/articles/predsednici-opstine-cacak-1944-2010.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139593166"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "У лавиринту унутрашњих граница: положај Чачка у територијалној подели Србије 1804–2009",
+          "alternateName": "In the Labyrinth within Internal Boundaries: Location of Čačak in the Territorial Division of Serbia, 1804–2009",
+          "url": "https://milos-timotijevic.github.io/articles/u-lavirintu-unutrasnjih-granica.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139569269"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Чачак у предвечерје Другог светског рата 1938–1941: социјална, економска и политичка структура",
+          "alternateName": "Čačak on the Eve of the Second World War, 1938–1941: Social, Economic, and Political Structure",
+          "url": "https://milos-timotijevic.github.io/articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139588128"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Чачак под окупацијом 1941–1944: привреда и друштво",
+          "alternateName": "Čačak under Occupation, 1941–1944: Economy and Society",
+          "url": "https://milos-timotijevic.github.io/articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139549522"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Индустријализација Чачка 1944–1956",
+          "alternateName": "Industrialization of Čačak, 1944–1956",
+          "url": "https://milos-timotijevic.github.io/articles/industrijalizacija-cacka-1944-1956.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139588535"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Проституција у Чачку током XX века",
+          "alternateName": "Prostitution in Čačak during the 20th Century",
+          "url": "https://milos-timotijevic.github.io/articles/prostitucija-u-cacku-tokom-xx-veka.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139500857"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета",
+          "alternateName": "The Street Names of Čačak, 1893–1992: A Century of Constructing Collective Identity",
+          "url": "https://milos-timotijevic.github.io/articles/nazivi-ulica-cacka-1893-1992.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139555830"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955",
+          "alternateName": "“Although You Are Not Physically Alive, You Radiate Upon Us Like Living Beings”: The Construction of the Memorial Ossuary and the Shaping of the Central Square in Čačak, 1945–1955",
+          "url": "https://milos-timotijevic.github.io/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139569304"
+        },
+        {
+          "@type": "Book",
+          "name": "Како је Чачак постао град кошарке (1945–1969): спорт и идентитет",
+          "alternateName": "How Čačak Became the City of Basketball (1945–1969): Sport and Identity",
+          "url": "https://milos-timotijevic.github.io/books/kako-je-cacak-postao-grad-kosarke.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139439617"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Кошарка и конструкција локалног идентитета Чачка",
+          "alternateName": "Basketball and the Creation of the Local Identity of Čačak",
+          "url": "https://milos-timotijevic.github.io/articles/kosarka-konstrukcija-lokalnog-identiteta-cacka.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139487858"
+        }
+      ],
+      "dateModified": "2026-07-24"
+    }
+  ]
+}</script>
 </head>
-
 <body id="top">
-  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
-  <main id="main-content">
-  <p><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
-
-  <h1>Чачак као студија случаја локалне модерности</h1>
-
-  <p class="subtitle">
-    Čačak as a Case Study of Local Modernity in Southeast Europe
-  </p>
-
-  <section class="reader-entry" aria-labelledby="why-cacak-modernity">
-  <h2 id="why-cacak-modernity">Зашто је Чачак добар пример модерности? / Why Čačak Is a Good Case of Modernity</h2>
-
-  <p>
-    Чачак је погодан пример за проучавање модерности зато што се у његовој историји не виде само велике политичке и друштвене промене, већ и њихове свакодневне последице. Модернизација се овде може пратити кроз урбани простор, индустријализацију, локалну власт, јавне установе, спорт, фотографију, меморијалне праксе и обликовање локалног идентитета.
-  </p>
-
-  <p lang="en">
+<a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+<header class="page-header"><p class="back-link"><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p><h1>Чачак као студија случаја локалне модерности</h1><p class="name-latin" lang="en-GB">Čačak as a Case Study of Local Modernity</p><p class="subtitle">Чачак као пример урбаних, друштвених и симболичких промена у модерној Србији<br/><span lang="en-GB">Čačak as a case of urban, social and symbolic change in modern Serbia</span></p></header><nav aria-label="Главна навигација / Main navigation" class="site-nav"><ul><li><a href="/">Главна страна / Main Page</a></li><li><a href="/knowledge-graph/">Граф знања / Knowledge Graph</a></li><li><a href="/knowledge-graph/research/local-modernity-symbolic-power.html">Кровни оквир / Main Framework</a></li><li><a href="/bibliography/">Библиографија / Bibliography</a></li><li><a href="/data/">Подаци / Data</a></li><li><a href="/knowledge-graph/method.html">Метод / Method</a></li></ul></nav><main id="main-content"><nav aria-label="Садржај странице / Page contents" class="contents"><h2>Садржај / Contents</h2><ol><li><a href="#why-cacak">Зашто Чачак? / Why Čačak?</a></li><li><a href="#summary">Сажетак / Summary</a></li><li><a href="#premises">Полазишта / Premises</a></li><li><a href="#research-question">Истраживачко питање / Research Question</a></li><li><a href="#research-claim">Теза / Research Claim</a></li><li><a href="#method">Методолошки приступ / Methodological Approach</a></li><li><a href="#scope">Временски и просторни оквир / Analytical Scope</a></li><li><a href="#core-publications">Носеће публикације / Core Publications</a></li><li><a href="#related-works">Сродни радови / Related Works</a></li><li><a href="#identifiers">Идентификатори / Identifiers</a></li><li><a href="#suggested-citation">Предлог цитирања / Suggested Citation</a></li></ol></nav>
+<section aria-labelledby="why-cacak-title" class="reader-entry content-section" id="why-cacak">
+<h2 id="why-cacak-title">Зашто Чачак? / <span lang="en-GB">Why Čačak?</span></h2>
+<p>Историја Чачка омогућава да се модернизација прати у конкретној средини: у изгледу града, развоју индустрије, деловању локалне власти, расту јавних установа, спорту, фотографији, споменичкој култури и променама свакодневног живота.</p>
+<p lang="en-GB">
     Čačak is a useful case for studying modernity because its history reveals not only major political and social changes, but also their everyday consequences. Modernization can be traced here through urban space, industrialization, local government, public institutions, sport, photography, memorial practices and the formation of local identity.
   </p>
-
-  <p>
-    Зато Чачак у овом кластеру није представљен као затворена завичајна тема. Он је историјска лабораторија у којој се види како се шири државни, друштвени и идеолошки процеси преламају у животу једне средине: у њеним институцијама, улицама, радним навикама, јавним симболима и начинима памћења.
-  </p>
-
-  <p lang="en">
+<p>Град зато није само завичајна тема већ пример на коме се могу испитивати односи између државне политике, локалних елита, друштвених група и јавног простора. Тако се јасно види како општи процеси добијају локални облик и како се мењају представе о граду и његовом идентитету.</p>
+<p lang="en-GB">
     Čačak is therefore not presented in this cluster as a closed local-history topic. It functions as a historical laboratory in which broader state, social and ideological processes can be seen as they are refracted through the life of a local community: its institutions, streets, work habits, public symbols and forms of memory.
   </p>
 </section>
-
-  <section class="executive-summary" aria-labelledby="executive-summary-title">
-    <h2 id="executive-summary-title">Кратак преглед / Executive Summary</h2>
-
-    <p>
-      Овај кластер представља Чачак као аналитичко поље за проучавање
-      локалне модерности у Србији и југоисточној Европи. У средишту су
-      урбана трансформација, локална власт, индустријализација, социјална
-      структура, јавни простор, свакодневица, спорт, култура сећања и
-      производња локалног идентитета.
-    </p>
-
-    <p lang="en">
+<section aria-labelledby="summary-title" class="executive-summary content-section" id="summary">
+<h2 id="summary-title">Сажетак / <span lang="en-GB">Summary</span></h2>
+<p>Корпус обухвата радове о урбаној трансформацији, локалној власти, индустријализацији, друштвеној структури, јавном простору, свакодневици, спорту и култури сећања. Заједничко им је испитивање начина на који су модернизацијски процеси мењали Чачак и обликовали његов локални идентитет.</p>
+<p lang="en-GB">
       This cluster presents Čačak as an analytical field for studying local
       modernity in Serbia and Southeast Europe. Its focus includes urban
       transformation, local government, industrialization, social structure,
       public space, everyday life, sport, memory culture and the production
       of local identity.
     </p>
-  </section>
-
-  <section>
-    <h2>О кластеру / About the Cluster</h2>
-
-    <p>
-      Чачак се у овом кластеру не третира као затворена завичајна тема,
-      већ као студија случаја кроз коју се прате начини на које се шире
-      политичке, друштвене, економске и културне промене претварају у
-      локалне институције, јавни простор, свакодневицу и облике колективног
-      идентитета. Историја града и његове околине омогућава анализу
-      институција, елита, привредног развоја, индустријализације,
-      социјалне структуре, меморијалних пракси, спорта и културне
-      репрезентације.
-    </p>
-
-    <p lang="en">
+</section>
+<section class="content-section" id="premises">
+<h2>Полазишта / <span lang="en-GB">Premises</span></h2>
+<p>Чачак се посматра као студија случаја модерне Србије, а не као издвојена завичајна тема. На истом простору могу се пратити деловање установа и елита, привредни развој, индустријализација, друштвене промене, меморијалне праксе, спорт и културне представе о граду.</p>
+<p lang="en-GB">
       In this cluster, Čačak is not treated as a self-contained local-history
       subject, but as a case study through which broader political, social,
       economic and cultural transformations can be examined at the level of
@@ -578,42 +736,21 @@
       industrialization, social structure, memorial practices, sport and
       cultural representation.
     </p>
-  </section>
-
-
-  <section class="research-question" aria-labelledby="research-question-title">
-    <h2 id="research-question-title">Истраживачко питање / Research Question</h2>
-
-    <p>
-      Како се модерност обликовала у локалној средини модерне Србије и на који
-      начин су урбана трансформација, локална власт, индустријализација, јавни
-      простор, социјални односи, спорт и култура сећања учествовали у производњи
-      локалног идентитета?
-    </p>
-
-    <p lang="en">
+</section>
+<section aria-labelledby="research-question-title" class="research-question content-section" id="research-question">
+<h2 id="research-question-title">Истраживачко питање / <span lang="en-GB">Research Question</span></h2>
+<p>Како су урбана трансформација, локална власт, индустријализација, јавни простор, друштвени односи, спорт и култура сећања мењали Чачак и утицали на обликовање локалног идентитета?</p>
+<p lang="en-GB">
       How was modernity shaped in a local setting of modern Serbia, and how did
       urban transformation, local government, industrialization, public space,
       social relations, sport and memory culture participate in the production
       of local identity?
     </p>
-  </section>
-
-  <section class="research-claim" aria-labelledby="research-claim-title">
-    <h2 id="research-claim-title">Истраживачка теза / Research Claim</h2>
-
-    <p>
-      Овај кластер показује да се модерност у локалној средини није испољавала
-      само кроз урбанистичке, индустријске или административне промене. Она се
-      обликовала као сложен процес преуређења власти, простора, друштвених
-      односа, меморијалног пејзажа и симболичких ресурса локалног идентитета.
-      Чачак се зато овде не посматра само као предмет локалне историје, већ као
-      историјска лабораторија за проучавање начина на који се шире државне,
-      друштвене и идеолошке промене преводе у локалне институције, јавни простор
-      и свакодневни живот.
-    </p>
-
-    <p lang="en">
+</section>
+<section aria-labelledby="research-claim-title" class="research-claim content-section" id="research-claim">
+<h2 id="research-claim-title">Теза / <span lang="en-GB">Research Claim</span></h2>
+<p>Модерност се у Чачку није исцрпљивала у урбанистичким, индустријским и управним променама. Она је захватила односе власти, друштвену структуру, јавни простор, свакодневицу и културу сећања. Историја Чачка зато показује како су се државни, друштвени и идеолошки процеси прилагођавали локалним условима и постајали део живота града.</p>
+<p lang="en-GB">
       This cluster shows that modernity in a local setting was not expressed
       only through urban, industrial or administrative change. It was shaped as
       a complex process of reorganizing power, space, social relations, memorial
@@ -623,88 +760,54 @@
       transformations were translated into local institutions, public space and
       everyday life.
     </p>
-  </section>
-
-  <section class="methodological-focus" aria-labelledby="methodological-focus-title">
-    <h2 id="methodological-focus-title">Методологија / Methodological Focus</h2>
-
-    <p>
-      Радови у овом кластеру повезују урбану историју, социјалну историју,
-      политичку историју, историју свакодневице, студије јавног простора,
-      историју спорта и студије сећања. Чачак се користи као студија случаја у
-      којој се могу пратити односи између државне политике, локалних елита,
-      институција, простора, друштвених група и симболичких пракси.
-    </p>
-
-    <p lang="en">
+</section>
+<section aria-labelledby="methodological-focus-title" class="methodological-focus content-section" id="method">
+<h2 id="methodological-focus-title">Методолошки приступ / <span lang="en-GB">Methodological Approach</span></h2>
+<p>Корпус повезује урбану, социјалну и политичку историју са историјом свакодневице, јавног простора, спорта и културе сећања. Чачак служи као студија случаја за анализу односа државне политике, локалних елита, установа, друштвених група и симболичких пракси.</p>
+<p lang="en-GB">
       The works in this cluster combine urban history, social history, political
       history, the history of everyday life, studies of public space, the history
       of sport and memory studies. Čačak is used as a case study through which
       relations between state policy, local elites, institutions, space, social
       groups and symbolic practices can be examined.
     </p>
-  </section>
-
-  <section class="analytical-scope" aria-labelledby="analytical-scope-title">
-    <h2 id="analytical-scope-title">Оријентациони оквир / Analytical Scope</h2>
-
-    <dl class="scope-list">
-      <dt>Период:</dt>
-      <dd>XIX–XX век, са тежиштем на социјалистичком периоду.</dd>
-      <dt>Простор:</dt>
-      <dd>Чачак, западна Србија, модерна Србија; у појединим радовима и компаративни балкански оквир.</dd>
-      <dt>Главне теме:</dt>
-      <dd>урбана трансформација, локална власт, индустријализација, јавни простор, социјална структура, меморијализација, спорт и локални идентитет.</dd>
-      <dt>Главни проблем:</dt>
-      <dd>како се модернизација види, спроводи и памти у локалној средини.</dd>
-    </dl>
-
-    <dl class="scope-list" lang="en">
-      <dt>Period:</dt>
-      <dd>the nineteenth and twentieth centuries, with particular emphasis on the socialist period.</dd>
-      <dt>Geographical focus:</dt>
-      <dd>Čačak, western Serbia, modern Serbia; in some works, a comparative Balkan framework.</dd>
-      <dt>Main themes:</dt>
-      <dd>urban transformation, local government, industrialization, public space, social structure, memorialization, sport and local identity.</dd>
-      <dt>Main problem:</dt>
-      <dd>how modernization is made visible, implemented and remembered in a local setting.</dd>
-    </dl>
-  </section>
-
-  <section class="cluster-function" aria-labelledby="cluster-function-title">
-    <h2 id="cluster-function-title">Функција кластера / Function of the Cluster</h2>
-
-    <p>
-      Ова страница функционише као тематски чвор у ауторовом графу знања.
-      Њена улога је да повеже приступне стране публикација, Wikidata ставке
-      и шири истраживачки оквир у једну читљиву целину. Публикације су
-      распоређене по примарној истраживачкој улози, како би се јасно видело
-      које аспекте локалне модерности обрађују.
-    </p>
-
-    <p lang="en">
+</section>
+<section aria-labelledby="analytical-scope-title" class="analytical-scope content-section" id="scope">
+<h2 id="analytical-scope-title">Временски и просторни оквир / <span lang="en-GB">Analytical Scope</span></h2>
+<div class="scope-grid"><div class="scope-card"><dl class="scope-list">
+<dt>Период:</dt>
+<dd>XIX и XX век, са тежиштем на социјалистичком периоду.</dd>
+<dt>Простор:</dt>
+<dd>Чачак и западна Србија; поједини радови укључују и упоредни балкански оквир.</dd>
+<dt>Главне теме:</dt>
+<dd>урбана трансформација, локална власт, индустријализација, јавни простор, друштвена структура, меморијализација, спорт и локални идентитет.</dd>
+<dt>Главни проблем:</dt>
+<dd>како су модернизацијски процеси мењали локалне установе, простор, друштвене односе и памћење.</dd>
+</dl></div><div class="scope-card"><dl class="scope-list" lang="en-GB">
+<dt>Period:</dt>
+<dd>the nineteenth and twentieth centuries, with particular emphasis on the socialist period.</dd>
+<dt>Geographical focus:</dt>
+<dd>Čačak, western Serbia, modern Serbia; in some works, a comparative Balkan framework.</dd>
+<dt>Main themes:</dt>
+<dd>urban transformation, local government, industrialization, public space, social structure, memorialization, sport and local identity.</dd>
+<dt>Main problem:</dt>
+<dd>how modernization is made visible, implemented and remembered in a local setting.</dd>
+</dl></div></div></section>
+<section aria-labelledby="cluster-function-title" class="cluster-function content-section" id="knowledge-graph-role">
+<h2 id="cluster-function-title">Место у графу знања / <span lang="en-GB">Place in the Knowledge Graph</span></h2>
+<p>Страница повезује тематски сродне публикације, њихове приступне стране и Wikidata записе. Радови су распоређени према главном истраживачком проблему, а додатне везе воде ка другим тематским целинама графа знања.</p>
+<p lang="en-GB">
       This page functions as a thematic node in the author’s knowledge graph.
       Its role is to connect publication landing pages, Wikidata items and the
       broader research framework into a readable structure. Publications are
       grouped according to their primary research role, making clear which
       aspects of local modernity they address.
     </p>
-  </section>
-
-  <section class="broader-framework" aria-labelledby="broader-framework-title">
-    <h2 id="broader-framework-title">Шири истраживачки оквир / Broader Research Framework</h2>
-
-    <p>
-      Овај кластер је конкретизација ширег оквира
-      <a href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
-        „Локална модерност и симболичка моћ у југоисточној Европи”
-      </a>.
-      Док кровни кластер повезује различите облике модерности, симболичке моћи
-      и културе сећања, ова страница издваја радове у којима је Чачак главно
-      аналитичко поље.
-    </p>
-
-    <p lang="en">
+</section>
+<section aria-labelledby="broader-framework-title" class="broader-framework content-section" id="broader-framework">
+<h2 id="broader-framework-title">Шири истраживачки оквир / <span lang="en-GB">Broader Research Framework</span></h2>
+<p>Ова целина припада ширем оквиру <a href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">„Локална модерност и симболичка моћ у југоисточној Европи”</a>. Тај оквир обухвата различите облике локалне модерности, симболичке моћи и културе сећања, док је овде тежиште на радовима у којима је Чачак главни предмет анализе.</p>
+<p lang="en-GB">
       This cluster is a focused branch of the broader framework
       <a href="https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html">
         “Local Modernity and Symbolic Power in Southeast Europe”
@@ -713,325 +816,225 @@
       symbolic power and memory culture, this page highlights works in which
       Čačak is the main analytical field.
     </p>
-  </section>
-
-  <section class="identifier-box" aria-labelledby="identifiers-title">
-    <h2 id="identifiers-title">Идентификатори и повезивање / Identifiers and Linking</h2>
-
-    <p>
-      Следећи идентификатори повезују овај кластер са спољним системима
-      за научну видљивост, машинско читање и отворене податке.
-    </p>
-
-    <p lang="en">
+</section>
+<section aria-labelledby="identifiers-title" class="identifier-box content-section" id="identifiers">
+<h2 id="identifiers-title">Идентификатори / <span lang="en-GB">Identifiers</span></h2>
+<p>Идентификатори повезују страницу са Wikidata, ORCID и другим системима отворених података.</p>
+<p lang="en-GB">
       The following identifiers connect this cluster with external systems
       for scholarly visibility, machine readability and open data.
     </p>
-
-    <p>
-      <strong>Wikidata cluster:</strong>
-      <a href="https://www.wikidata.org/wiki/Q139413866">Q139413866</a>
+<p>
+<strong>Wikidata целина / Wikidata cluster:</strong>
+<a href="https://www.wikidata.org/wiki/Q139413866">Q139413866</a>
       —
-      <span lang="en">Čačak as a case study of local modernity in Southeast Europe</span>
-    </p>
-
-    <p>
-      <strong>Broader Wikidata item:</strong>
-      <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155</a>
+      <span lang="en-GB">Čačak as a case study of local modernity in Southeast Europe</span>
+</p>
+<p>
+<strong>Кровна Wikidata ставка / Broader Wikidata item:</strong>
+<a href="https://www.wikidata.org/wiki/Q139501155">Q139501155</a>
       —
-      <span lang="en">Local modernity and symbolic power in Southeast Europe</span>
-    </p>
-
-    <p>
-      <strong>Author:</strong>
+      <span lang="en-GB">Local modernity and symbolic power in Southeast Europe</span>
+</p>
+<p>
+<strong>Аутор / Author:</strong>
       Miloš Timotijević —
       <a href="https://orcid.org/0000-0002-0457-6125">ORCID 0000-0002-0457-6125</a>;
       <a href="https://www.wikidata.org/wiki/Q112514230">Wikidata Q112514230</a>
-    </p>
-  </section>
-
-  <h2>Носеће публикације / Core Publications</h2>
-
-  <h3>Модернизација, урбана трансформација и јавни простор / Modernization, Urban Transformation and Public Space</h3>
-
-  <ul class="work-list">
-    <li class="work-card">
-      <p>
-        <a href="../../books/modernizacija-balkanskog-grada.html"><strong><em>Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</em></strong></a><br>
-        <span lang="en"><em>Modernization of the Balkan City (1944–1989): A Comparative Analysis of the Development of Čačak and Blagoevgrad in the Socialist Era</em></span>
-      </p>
-      <p>
-        <strong>Примарна улога:</strong> носећа монографија овог кластера /
-        <span lang="en">Primary role: core monograph of this cluster.</span>
-      </p>
-      <p>
-        Главна студија о социјалистичкој модернизацији, урбанизацији, локалним елитама, индустријализацији и свакодневном животу у компаративном оквиру Чачак–Благоевград.
-      </p>
-      <p class="work-links">
-        <a href="../../books/modernizacija-balkanskog-grada.html">Landing page</a> ·
+</p>
+</section>
+<section class="content-section" id="core-publications"><h2>Носеће публикације / <span lang="en-GB">Core Publications</span></h2><div class="publication-group" id="modernization-public-space"><h3>Модернизација, урбани преображај и јавни простор / <span lang="en-GB">Modernization, Urban Change and Public Space</span></h3><ul class="work-list">
+<li class="work-card">
+<p>
+<a href="../../books/modernizacija-balkanskog-grada.html"><strong><em>Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</em></strong></a><br/>
+<span lang="en-GB"><em>Modernization of the Balkan City (1944–1989): A Comparative Analysis of the Development of Čačak and Blagoevgrad in the Socialist Era</em></span>
+</p>
+<p class="work-role">Носећа монографија овог корпуса.</p>
+<p>Монографија пореди развој Чачка и Благоевграда и испитује социјалистичку модернизацију, урбанизацију, локалне елите, индустријализацију и свакодневни живот.</p>
+<p class="work-links">
+<a href="../../books/modernizacija-balkanskog-grada.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q138007034">Wikidata Q138007034</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html"><strong><em>Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</em></strong></a><br>
-        <span lang="en"><em>City Center and Architectural Heritage of Socialism: The Case of Čačak (1944–1990)</em></span>
-      </p>
-      <p>
-        <strong>Примарна улога:</strong> урбани простор и социјалистичко наслеђе /
-        <span lang="en">Primary role: urban space and socialist heritage.</span>
-      </p>
-      <p>
-        Рад је важан за анализу градског центра, архитектонског наслеђа и просторне репрезентације социјалистичке модерности.
-      </p>
-      <p class="work-links">
-        <a href="../../conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html"><strong><em>Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</em></strong></a><br/>
+<span lang="en-GB"><em>City Center and Architectural Heritage of Socialism: The Case of Čačak (1944–1990)</em></span>
+</p>
+<p class="work-role">У средишту су градски простор и социјалистичко наслеђе.</p>
+<p>Студија анализира преобликовање градског центра, архитектонско наслеђе и просторне изразе социјалистичке модернизације.</p>
+<p class="work-links">
+<a href="../../conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q138757156">Wikidata Q138757156</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../book-chapters/grad-u-unutrasnjosti.html"><strong><em>Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</em></strong></a><br>
-        <span lang="en"><em>Town in the Interior: Forms, Spaces and Boundaries of Private and Public in the 20th Century</em></span>
-      </p>
-      <p>
-        <strong>Примарна улога:</strong> однос приватног и јавног простора /
-        <span lang="en">Primary role: private and public space.</span>
-      </p>
-      <p>
-        Рад отвара питање односа приватног и јавног простора као једне од кључних тема модерног градског живота.
-      </p>
-      <p class="work-links">
-        <a href="../../book-chapters/grad-u-unutrasnjosti.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../book-chapters/grad-u-unutrasnjosti.html"><strong><em>Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</em></strong></a><br/>
+<span lang="en-GB"><em>Town in the Interior: Forms, Spaces and Boundaries of Private and Public in the 20th Century</em></span>
+</p>
+<p class="work-role">У средишту је однос приватног и јавног простора.</p>
+<p>Текст разматра границе приватног и јавног простора као једно од средишњих питања градског живота у XX веку.</p>
+<p class="work-links">
+<a href="../../book-chapters/grad-u-unutrasnjosti.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q138862911">Wikidata Q138862911</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../catalogues/cacak-u-doba-socijalizma.html"><strong><em>Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи</em></strong></a><br>
-        <span lang="en"><em>Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power</em></span>
-      </p>
-      <p>
-        <strong>Примарна улога:</strong> визуелна репрезентација локалне модерности /
-        <span lang="en">Primary role: visual representation of local modernity.</span>
-      </p>
-      <p>
-        Каталог повезује фотографију, јавну репрезентацију власти и визуелну културу социјалистичке модерности.
-      </p>
-      <p class="work-links">
-        <a href="../../catalogues/cacak-u-doba-socijalizma.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../catalogues/cacak-u-doba-socijalizma.html"><strong><em>Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи</em></strong></a><br/>
+<span lang="en-GB"><em>Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power</em></span>
+</p>
+<p class="work-role">У средишту су фотографија и визуелна култура.</p>
+<p>Каталог испитује фотографију као средство јавног представљања власти и визуелног обликовања социјалистичке модерности.</p>
+<p class="work-links">
+<a href="../../catalogues/cacak-u-doba-socijalizma.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139332468">Wikidata Q139332468</a>
-      </p>
-    </li>
-  </ul>
-
-  <h3>Локална власт, институције и политичка структура / Local Government, Institutions and Political Structure</h3>
-
-  <ul class="work-list">
-    <li class="work-card">
-      <p>
-        <a href="../../articles/prvi-gradjanin-male-varosi.html"><strong><em>„Први грађанин мале вароши”: значај председника општине у локалној елити власти током социјализма – пример Чачка</em></strong></a><br>
-        <span lang="en"><em>“First Citizen of a Small Town”: The Role of the Municipal President in the Local Power Elite during Socialism – The Case of Čačak</em></span>
-      </p>
-      <p>
-        Рад показује како се локална власт обликовала у систему социјалистичке политичке моћи.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/prvi-gradjanin-male-varosi.html">Landing page</a> ·
+</p>
+</li>
+</ul></div><div class="publication-group" id="local-government"><h3>Локална власт, установе и политичка структура / <span lang="en-GB">Local Government, Institutions and Political Structure</span></h3><ul class="work-list">
+<li class="work-card">
+<p>
+<a href="../../articles/prvi-gradjanin-male-varosi.html"><strong><em>„Први грађанин мале вароши”: значај председника општине у локалној елити власти током социјализма – пример Чачка</em></strong></a><br/>
+<span lang="en-GB"><em>“First Citizen of a Small Town”: The Role of the Municipal President in the Local Power Elite during Socialism – The Case of Čačak</em></span>
+</p>
+<p>Студија испитује положај председника општине у локалној елити власти и механизме политичког одлучивања у социјализму.</p>
+<p class="work-links">
+<a href="../../articles/prvi-gradjanin-male-varosi.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139555900">Wikidata Q139555900</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../articles/opstinska-vlast-cacak-izmedju-dva-rata.html"><strong><em>Општинска власт у Чачку између два светска рата</em></strong></a><br>
-        <span lang="en"><em>Municipal Government in Čačak between the Two World Wars</em></span>
-      </p>
-      <p>
-        Рад повезује локалну управу, политичке односе и институционални развој града у међуратном периоду.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/opstinska-vlast-cacak-izmedju-dva-rata.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../articles/opstinska-vlast-cacak-izmedju-dva-rata.html"><strong><em>Општинска власт у Чачку између два светска рата</em></strong></a><br/>
+<span lang="en-GB"><em>Municipal Government in Čačak between the Two World Wars</em></span>
+</p>
+<p>Студија повезује локалну управу, политичке односе и институционални развој Чачка између два светска рата.</p>
+<p class="work-links">
+<a href="../../articles/opstinska-vlast-cacak-izmedju-dva-rata.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139592921">Wikidata Q139592921</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../articles/predsednici-opstine-cacak-1944-2010.html"><strong><em>Председници општине Чачак (1944–2010)</em></strong></a><br>
-        <span lang="en"><em>Presidents of the Municipality of Čačak (1944–2010)</em></span>
-      </p>
-      <p>
-        Публикација документује локалну управљачку структуру у дугом периоду после Другог светског рата.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/predsednici-opstine-cacak-1944-2010.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../articles/predsednici-opstine-cacak-1944-2010.html"><strong><em>Председници општине Чачак (1944–2010)</em></strong></a><br/>
+<span lang="en-GB"><em>Presidents of the Municipality of Čačak (1944–2010)</em></span>
+</p>
+<p>Биографски и институционални преглед председника општине показује промене у локалној власти од 1944. до 2010. године.</p>
+<p class="work-links">
+<a href="../../articles/predsednici-opstine-cacak-1944-2010.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139593166">Wikidata Q139593166</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../articles/u-lavirintu-unutrasnjih-granica.html"><strong><em>У лавиринту унутрашњих граница: положај Чачка у територијалној подели Србије 1804–2009</em></strong></a><br>
-        <span lang="en"><em>In the Labyrinth within Internal Boundaries: Location of Čačak in the Territorial Division of Serbia, 1804–2009</em></span>
-      </p>
-      <p>
-        Рад прати административни положај Чачка као део шире историје државне организације и локалног значаја.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/u-lavirintu-unutrasnjih-granica.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../articles/u-lavirintu-unutrasnjih-granica.html"><strong><em>У лавиринту унутрашњих граница: положај Чачка у територијалној подели Србије 1804–2009</em></strong></a><br/>
+<span lang="en-GB"><em>In the Labyrinth within Internal Boundaries: Location of Čačak in the Territorial Division of Serbia, 1804–2009</em></span>
+</p>
+<p>Студија прати место Чачка у територијалној организацији Србије и промене његовог управног значаја од 1804. до 2009. године.</p>
+<p class="work-links">
+<a href="../../articles/u-lavirintu-unutrasnjih-granica.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139569269">Wikidata Q139569269</a>
-      </p>
-    </li>
-  </ul>
-
-  <h3>Социјална, економска и ратна структура града / Social, Economic and Wartime Structure of the Town</h3>
-
-  <ul class="work-list">
-    <li class="work-card">
-      <p>
-        <a href="../../articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html"><strong><em>Чачак у предвечерје Другог светског рата 1938–1941: социјална, економска и политичка структура</em></strong></a><br>
-        <span lang="en"><em>Čačak on the Eve of the Second World War, 1938–1941: Social, Economic, and Political Structure</em></span>
-      </p>
-      <p>
-        Рад даје пресек социјалне, економске и политичке структуре Чачка и чачанског краја непосредно пред рат.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html">Landing page</a> ·
+</p>
+</li>
+</ul></div><div class="publication-group" id="social-economic-wartime"><h3>Друштвена, привредна и ратна структура града / <span lang="en-GB">Social, Economic and Wartime Structure of the Town</span></h3><ul class="work-list">
+<li class="work-card">
+<p>
+<a href="../../articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html"><strong><em>Чачак у предвечерје Другог светског рата 1938–1941: социјална, економска и политичка структура</em></strong></a><br/>
+<span lang="en-GB"><em>Čačak on the Eve of the Second World War, 1938–1941: Social, Economic, and Political Structure</em></span>
+</p>
+<p>Студија даје пресек друштвених, привредних и политичких односа у Чачку и околини непосредно пред Други светски рат.</p>
+<p class="work-links">
+<a href="../../articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139588128">Wikidata Q139588128</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html"><strong><em>Чачак под окупацијом 1941–1944: привреда и друштво</em></strong></a><br>
-        <span lang="en"><em>Čačak under Occupation, 1941–1944: Economy and Society</em></span>
-      </p>
-      <p>
-        Рад анализира локалну привреду, снабдевање, друштвене односе и свакодневицу у условима окупације и грађанског сукоба.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html"><strong><em>Чачак под окупацијом 1941–1944: привреда и друштво</em></strong></a><br/>
+<span lang="en-GB"><em>Čačak under Occupation, 1941–1944: Economy and Society</em></span>
+</p>
+<p>Студија анализира привреду, снабдевање, друштвене односе и свакодневни живот под окупацијом и у условима грађанског сукоба.</p>
+<p class="work-links">
+<a href="../../articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139549522">Wikidata Q139549522</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../articles/industrijalizacija-cacka-1944-1956.html"><strong><em>Индустријализација Чачка 1944–1956</em></strong></a><br>
-        <span lang="en"><em>Industrialization of Čačak, 1944–1956</em></span>
-      </p>
-      <p>
-        Рад прати рану фазу послератне индустријализације као један од темеља социјалистичке модернизације.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/industrijalizacija-cacka-1944-1956.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../articles/industrijalizacija-cacka-1944-1956.html"><strong><em>Индустријализација Чачка 1944–1956</em></strong></a><br/>
+<span lang="en-GB"><em>Industrialization of Čačak, 1944–1956</em></span>
+</p>
+<p>Студија прати прву деценију послератне индустријализације и њен утицај на привредни и друштвени преображај Чачка.</p>
+<p class="work-links">
+<a href="../../articles/industrijalizacija-cacka-1944-1956.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139588535">Wikidata Q139588535</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../articles/prostitucija-u-cacku-tokom-xx-veka.html"><strong><em>Проституција у Чачку током XX века</em></strong></a><br>
-        <span lang="en"><em>Prostitution in Čačak during the 20th Century</em></span>
-      </p>
-      <p>
-        Рад је значајан за социјалну историју града, јавни морал, родне односе, маргиналност и институционалну контролу.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/prostitucija-u-cacku-tokom-xx-veka.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../articles/prostitucija-u-cacku-tokom-xx-veka.html"><strong><em>Проституција у Чачку током XX века</em></strong></a><br/>
+<span lang="en-GB"><em>Prostitution in Čačak during the 20th Century</em></span>
+</p>
+<p>Студија повезује историју проституције са јавним моралом, родним односима, друштвеном маргиналношћу и институционалном контролом.</p>
+<p class="work-links">
+<a href="../../articles/prostitucija-u-cacku-tokom-xx-veka.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139500857">Wikidata Q139500857</a>
-      </p>
-    </li>
-  </ul>
-
-  <h3>Меморијални простор, улице и колективни идентитет / Memorial Space, Street Names and Collective Identity</h3>
-
-  <ul class="work-list">
-    <li class="work-card">
-      <p>
-        <a href="../../articles/nazivi-ulica-cacka-1893-1992.html"><strong><em>Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета</em></strong></a><br>
-        <span lang="en"><em>The Street Names of Čačak, 1893–1992: A Century of Constructing Collective Identity</em></span>
-      </p>
-      <p>
-        Рад показује како именовање улица учествује у обликовању јавног памћења и локалног идентитета.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/nazivi-ulica-cacka-1893-1992.html">Landing page</a> ·
+</p>
+</li>
+</ul></div><div class="publication-group" id="memory-public-space"><h3>Меморијални простор, улице и колективни идентитет / <span lang="en-GB">Memorial Space, Street Names and Collective Identity</span></h3><ul class="work-list">
+<li class="work-card">
+<p>
+<a href="../../articles/nazivi-ulica-cacka-1893-1992.html"><strong><em>Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета</em></strong></a><br/>
+<span lang="en-GB"><em>The Street Names of Čačak, 1893–1992: A Century of Constructing Collective Identity</em></span>
+</p>
+<p>Студија показује како су називи улица одражавали политичке промене и обликовали јавно памћење и локални идентитет.</p>
+<p class="work-links">
+<a href="../../articles/nazivi-ulica-cacka-1893-1992.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139555830">Wikidata Q139555830</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html"><strong><em>„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955</em></strong></a><br>
-        <span lang="en"><em>“Although You Are Not Physically Alive, You Radiate Upon Us Like Living Beings”: The Construction of the Memorial Ossuary and the Shaping of the Central Square in Čačak, 1945–1955</em></span>
-      </p>
-      <p>
-        Рад повезује споменичку културу, обликовање градског центра и производњу социјалистичког меморијалног простора.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html"><strong><em>„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955</em></strong></a><br/>
+<span lang="en-GB"><em>“Although You Are Not Physically Alive, You Radiate Upon Us Like Living Beings”: The Construction of the Memorial Ossuary and the Shaping of the Central Square in Čačak, 1945–1955</em></span>
+</p>
+<p>Студија повезује споменичку културу, преуређење градског центра и обликовање социјалистичког меморијалног простора.</p>
+<p class="work-links">
+<a href="../../articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139569304">Wikidata Q139569304</a>
-      </p>
-    </li>
-  </ul>
-
-  <h3>Спорт, локални идентитет и музејска репрезентација / Sport, Local Identity and Museum Representation</h3>
-
-  <ul class="work-list">
-    <li class="work-card">
-      <p>
-        <a href="../../books/kako-je-cacak-postao-grad-kosarke.html"><strong><em>Како је Чачак постао град кошарке (1945–1969): спорт и идентитет</em></strong></a><br>
-        <span lang="en"><em>How Čačak Became the City of Basketball (1945–1969): Sport and Identity</em></span>
-      </p>
-      <p>
-        <strong>Примарна улога:</strong> спорт као ресурс локалног идентитета /
-        <span lang="en">Primary role: sport as a resource of local identity.</span>
-      </p>
-      <p>
-        Књига анализира кошарку као део локалне модерности, урбаног идентитета и јавне културе Чачка.
-      </p>
-      <p class="work-links">
-        <a href="../../books/kako-je-cacak-postao-grad-kosarke.html">Landing page</a> ·
+</p>
+</li>
+</ul></div><div class="publication-group" id="sport-identity"><h3>Спорт, локални идентитет и музејско представљање / <span lang="en-GB">Sport, Local Identity and Museum Representation</span></h3><ul class="work-list">
+<li class="work-card">
+<p>
+<a href="../../books/kako-je-cacak-postao-grad-kosarke.html"><strong><em>Како је Чачак постао град кошарке (1945–1969): спорт и идентитет</em></strong></a><br/>
+<span lang="en-GB"><em>How Čačak Became the City of Basketball (1945–1969): Sport and Identity</em></span>
+</p>
+<p class="work-role">У средишту су спорт и локални идентитет.</p>
+<p>Књига анализира кошарку као део урбане културе, локалне модерности и идентитета Чачка.</p>
+<p class="work-links">
+<a href="../../books/kako-je-cacak-postao-grad-kosarke.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139439617">Wikidata Q139439617</a>
-      </p>
-    </li>
-
-    <li class="work-card">
-      <p>
-        <a href="../../articles/kosarka-konstrukcija-lokalnog-identiteta-cacka.html"><strong><em>Кошарка и конструкција локалног идентитета Чачка</em></strong></a><br>
-        <span lang="en"><em>Basketball and the Creation of the Local Identity of Čačak</em></span>
-      </p>
-      <p>
-        Рад издваја кошарку као симболички ресурс у изградњи локалног идентитета и као основу музејске репрезентације Чачка као „града кошарке”.
-      </p>
-      <p class="work-links">
-        <a href="../../articles/kosarka-konstrukcija-lokalnog-identiteta-cacka.html">Landing page</a> ·
+</p>
+</li>
+<li class="work-card">
+<p>
+<a href="../../articles/kosarka-konstrukcija-lokalnog-identiteta-cacka.html"><strong><em>Кошарка и конструкција локалног идентитета Чачка</em></strong></a><br/>
+<span lang="en-GB"><em>Basketball and the Creation of the Local Identity of Čačak</em></span>
+</p>
+<p>Студија испитује место кошарке у обликовању представе о Чачку као „граду кошарке” и у музејском представљању тог наслеђа.</p>
+<p class="work-links">
+<a href="../../articles/kosarka-konstrukcija-lokalnog-identiteta-cacka.html">Приступна страна / Landing page</a> ·
         <a href="https://www.wikidata.org/wiki/Q139487858">Wikidata Q139487858</a>
-      </p>
-    </li>
-  </ul>
-
-  <section>
-    <h2>Сродни радови и попречне везе / Related Works and Cross-Links</h2>
-
-    <h3>Културни пејзаж и дуго трајање / Cultural Landscape and Longue Durée</h3>
-
-    <p>
-      Радови о Овчарско-кабларским манастирима и сакралном наслеђу нису носећи
-      у овом кластеру, али су важни као попречна веза са локалним културним
-      пејзажом и дугим трајањем религијских, меморијалних и просторних пракси.
-      Њихово примарно место је у кластерима
-      <a href="cultural-heritage-museums-public-history.html">Културно наслеђе, музеји и јавна историја</a>
-      и
-      <a href="religious-life-social-practices.html">Религијски живот и друштвене праксе</a>.
-    </p>
-
-    <p lang="en">
+</p>
+</li>
+</ul></div></section>
+<section class="content-section" id="related-works">
+<h2>Сродни радови / <span lang="en-GB">Related Works</span></h2>
+<h3>Културни пејзаж и дуго трајање / <span lang="en-GB">Cultural Landscape and Longue Durée</span></h3>
+<p>Радови о Овчарско-кабларским манастирима и сакралном наслеђу нису у средишту ове целине, али допуњују слику локалног културног пејзажа и дугог трајања верских, меморијалних и просторних пракси. Њихово основно место је у целинама <a href="cultural-heritage-museums-public-history.html">Културно наслеђе, музеји и јавна историја</a> и <a href="religious-life-social-practices.html">Религијски живот и друштвене праксе</a>.</p>
+<p lang="en-GB">
       Works on the Ovčar–Kablar monasteries and sacred heritage are not core
       works of this cluster, but they remain important as cross-links with the
       local cultural landscape and the longue durée of religious, memorial and
@@ -1040,44 +1043,22 @@
       and
       <a href="religious-life-social-practices.html">religious life and social practices</a>.
     </p>
-  </section>
-
-  <section class="note" aria-labelledby="cluster-use-note-title">
-    <h2 id="cluster-use-note-title">Напомена о употреби кластера / Note on the Use of the Cluster</h2>
-
-    <p>
-      Овај кластер треба читати као оријентациону мапу радова о Чачку као
-      студији случаја локалне модерности. Његове границе нису затворене:
-      поједине публикације могу имати примарно место у овом кластеру, а
-      секундарне везе са кластерима о политичким ритуалима, култури сећања,
-      јавном простору, културном наслеђу, музејској јавној историји или
-      религијским и друштвеним праксама.
-    </p>
-
-    <p lang="en">
+</section>
+<section aria-labelledby="cluster-use-note-title" class="note content-section" id="corpus-boundaries">
+<h2 id="cluster-use-note-title">Границе корпуса / <span lang="en-GB">Scope of the Corpus</span></h2>
+<p>Корпус није затворен. Поједини радови о Чачку припадају и темама политичких ритуала, културе сећања, јавног простора, културног наслеђа, музејске историје или религијских пракси. Овде су распоређени према свом главном истраживачком проблему.</p>
+<p lang="en-GB">
       This cluster should be read as an orientation map of works on Čačak as
       a case study of local modernity. Its boundaries are not closed: individual
       publications may have a primary place in this cluster and secondary links
       with clusters on political rituals, memory culture, public space, cultural
       heritage, museum-based public history or religious and social practices.
     </p>
-  </section>
-
-  <section>
-    <h2>Кључне теме / Research Themes</h2>
-
-    <p>
-      Радови у овом кластеру показују више повезаних линија истраживања:
-      модернизацију града, институционалну изградњу, локалну власт,
-      социјалну структуру, индустријализацију, обликовање јавног простора,
-      политику именовања улица, меморијализацију, спорт и музејску
-      репрезентацију локалног идентитета. Заједничко им је питање како се
-      велике историјске промене — државна модернизација, социјалистичка
-      урбанизација, политичка власт, култура сећања и производња идентитета —
-      претварају у конкретне локалне облике.
-    </p>
-
-    <p lang="en">
+</section>
+<section class="content-section" id="research-themes">
+<h2>Истраживачке теме / <span lang="en-GB">Research Themes</span></h2>
+<p>Радове повезују четири шире линије: преображај града и јавног простора; локална власт и установе; друштвена и привредна структура; култура сећања, спорт и локални идентитет. У њиховом средишту је питање како су модернизацијски процеси добијали локални облик.</p>
+<p lang="en-GB">
       The works in this cluster point to several connected lines of research:
       urban modernization, institution-building, local government, social
       structure, industrialization, the shaping of public space, street naming,
@@ -1087,59 +1068,37 @@
       culture and the production of identity — are translated into concrete
       local forms.
     </p>
-  </section>
-
-  <section>
-    <h2>Кључне речи / Keywords</h2>
-
-    <p>
+</section>
+<section class="content-section" id="keywords">
+<h2>Кључне речи / <span lang="en-GB">Keywords</span></h2>
+<p class="keywords">
       локална модерност; Чачак; западна Србија; студија случаја; урбана трансформација;
       социјалистичка модернизација; локална власт; јавни простор; свакодневица;
       индустријализација; социјална структура; спорт; култура сећања;
       меморијални простор; називи улица; локални идентитет; симболичка моћ
     </p>
-
-    <p lang="en">
+<p class="keywords" lang="en-GB">
       local modernity; Čačak; western Serbia; case study; urban transformation;
       socialist modernization; local government; public space; everyday life;
       industrialization; social structure; sport; memory culture; memorial space;
       street names; local identity; symbolic power
     </p>
-  </section>
-
-  <section>
-    <h2>Предлог цитирања / Suggested Citation</h2>
-
-    <div class="citation">
-      <p>
-        Милош Тимотијевић, „Чачак као студија случаја локалне модерности:
-        истраживачки кластер”, лични научни сајт, приступљено [датум],
-        <a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
-          https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html
-        </a>.
-      </p>
-
-      <p lang="en">
+</section>
+<section class="content-section" id="suggested-citation">
+<h2>Предлог цитирања / <span lang="en-GB">Suggested Citation</span></h2>
+<div class="citation">
+<p>Милош Тимотијевић, „Чачак као студија случаја локалне модерности”, лични научни сајт, приступљено [датум], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html</a>.</p>
+<p lang="en-GB">
         Miloš Timotijević, “Čačak as a Case Study of Local Modernity: Research
         Cluster,” personal scholarly website, accessed [date],
         <a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html">
           https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html
         </a>.
       </p>
-    </div>
-  </section>
-
-  <p>
-    О методологији повезивања публикација, тема, кластера и дигиталних идентификатора видети: <a href="/knowledge-graph/method.html">Метод / Method</a>. 
-  </p>
-
-  <div class="back-link">
-    <p>
-      <a href="#top">↑ На врх / Back to top</a><br>
-      <a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a><br>
-      <a href="/">← Назад на главну страну / Back to the main page</a>
-    </p>
-  </div>
-  </main>
+</div>
+</section>
+<section class="content-section" id="method-note"><h2>Метод повезивања / <span lang="en-GB">Linking Method</span></h2><p>Метод повезивања публикација, тема, истраживачких целина и дигиталних идентификатора описан је на страници <a href="/knowledge-graph/method.html">Метод / Method</a>.</p></section>
+<nav aria-label="Сродне странице / Related pages" class="site-links"><p><a href="/">Главна страна / Main Page</a> · <a href="/knowledge-graph/">Граф знања / Knowledge Graph</a> · <a href="/knowledge-graph/research/local-modernity-symbolic-power.html">Кровни оквир / Main Framework</a> · <a href="/bibliography/">Библиографија / Bibliography</a> · <a href="/data/">Подаци / Data</a> · <a href="#top">На врх / Back to top</a></p></nav>
+</main><footer><p>Последње ажурирање / Last updated: 24. јул 2026 / 24 July 2026.</p></footer>
 </body>
 </html>
