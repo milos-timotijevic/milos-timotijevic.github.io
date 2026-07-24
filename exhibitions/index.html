@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="sr">
+<html lang="sr-Cyrl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,239 +11,221 @@
   <link rel="canonical" href="https://milos-timotijevic.github.io/exhibitions/">
 
   <style>
+    :root {
+      --text: #111;
+      --muted: #555;
+      --line: #dedede;
+      --link: #0645ad;
+      --link-hover: #04357f;
+      --soft-background: #f8f8f8;
+      --section-background: #eeeeee;
+      --card-background: #fff;
+      --card-border: #d2d2d2;
+    }
+
+    * { box-sizing: border-box; }
+    html { background: #fff; scroll-behavior: smooth; }
+
     body {
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.6;
       max-width: 980px;
-      margin: 40px auto;
-      padding: 0 24px;
-      color: #222;
+      margin: 0 auto;
+      padding: 42px 28px 30px;
+      color: var(--text);
       background: #fff;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.58;
     }
 
-    h1,
-    h2,
-    h3,
-    h4 {
-      line-height: 1.25;
-      color: #111;
-    }
-
-    h1 {
-      font-size: 2.05em;
-      margin-bottom: 0.2em;
-    }
-
+    h1, h2, h3, h4 { color: var(--text); line-height: 1.25; }
+    h1 { margin: 0 0 .08em; font-size: 2.05rem; }
     h2 {
-      margin-top: 2em;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 0.25em;
+      margin: 0 0 .85rem;
+      padding: 0 0 .32rem;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.45rem;
     }
+    h3 { margin: 1.2rem 0 .4rem; font-size: 1.08rem; }
 
-    h3 {
-      margin-top: 1.35em;
-      font-size: 1.13em;
-    }
+    p { margin: .68rem 0; }
+    ul, ol { padding-left: 1.4rem; }
+    li { margin: .42rem 0; }
 
     a {
-      color: #0645ad;
+      color: var(--link);
       text-decoration: none;
+      text-underline-offset: .15em;
     }
-
-    a:hover {
+    a:hover, a:focus-visible {
+      color: var(--link-hover);
       text-decoration: underline;
     }
 
-    p {
-      margin: 0.75em 0;
-    }
+    section[id] { scroll-margin-top: 1rem; }
 
-    ul li,
-    ol li {
-      margin-bottom: 0.85em;
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: -5rem;
+      z-index: 1000;
+      padding: .55rem .75rem;
+      border: 2px solid var(--link);
+      color: #fff;
+      background: var(--link);
     }
+    .skip-link:focus { top: 1rem; color: #fff; }
 
-    .subtitle {
-      font-size: 1.08em;
-      margin-bottom: 1.5em;
-      color: #444;
+    .page-header {
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--line);
     }
+    .back-link { margin: 0 0 1.1rem; font-size: .94rem; }
+    .name-latin { margin: .18rem 0; color: var(--muted); font-size: 1rem; }
+    .subtitle { margin: .45rem 0 0; color: #444; font-size: 1rem; }
 
     .site-nav {
-      background: #f8f8f8;
-      border: 1px solid #e2e2e2;
-      padding: 0.85em 1em;
-      margin: 1.25em 0 1.75em 0;
+      margin: 1.3rem 0 1.55rem;
+      padding: .9rem 1rem;
+      border: 1px solid var(--card-border);
+      background: var(--section-background);
     }
-
     .site-nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.65em 1em;
-    }
-
-    .site-nav li {
+      gap: .4rem 1rem;
       margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .site-nav li { margin: 0; }
+
+    .context-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin: 1.35rem 0 1.7rem;
     }
 
-    .intro,
-    .note,
-    .identifier-box,
-    .reader-entry {
-      background: #f8f8f8;
+    .reader-entry, .intro, .note, .identifier-box {
+      margin: 0;
+      padding: 1.05rem 1.15rem;
       border-left: 4px solid #bbb;
-      padding: 1em;
-      margin: 1.5em 0 2em 0;
+      background: var(--soft-background);
+    }
+    .reader-entry h2, .intro h2, .note h2, .identifier-box h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    .reader-entry p, .intro p, .note p, .identifier-box p { margin: .38rem 0; }
+    .reader-entry p[lang], .intro p[lang], .exhibition-description p[lang] {
+      color: var(--muted);
     }
 
-    .intro p,
-    .note p,
-    .identifier-box p,
-    .reader-entry p {
-      margin: 0.35em 0;
+    .overview-section {
+      margin: 1.45rem 0 1.8rem;
+      padding: 1.1rem;
+      background: var(--section-background);
     }
+    .overview-section > h2 { border-bottom-color: #c8c8c8; }
+    .small-note { color: var(--muted); font-size: .94rem; }
 
     .cluster-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-      gap: 1em;
-      margin-top: 1em;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: .9rem;
+      margin-top: 1rem;
     }
-
     .cluster-card {
-      background: #fbfbfb;
-      border: 1px solid #e2e2e2;
-      padding: 1em;
+      padding: 1rem;
+      border: 1px solid var(--card-border);
+      background: var(--card-background);
     }
-
-    .cluster-card h3 {
-      margin-top: 0;
+    .cluster-card h3 { margin-top: 0; font-size: 1.04rem; }
+    .cluster-card h3 em {
+      color: var(--muted);
+      font-size: .92rem;
+      font-weight: normal;
     }
-
-    .cluster-card p {
-      margin: 0.45em 0;
-    }
+    .cluster-card p { margin: .45rem 0; }
+    .cluster-card p[lang] { color: var(--muted); font-size: .94rem; }
 
     .links {
       display: block;
-      margin-top: 0.5em;
-      font-size: 0.96em;
-      word-break: break-word;
+      margin-top: .65rem;
+      padding-top: .55rem;
+      border-top: 1px solid #e5e5e5;
+      font-size: .94rem;
+      overflow-wrap: anywhere;
     }
 
-    .links a {
-      display: inline;
+    .exhibition-section {
+      padding: 1.5rem 0;
+      border-top: 1px solid var(--line);
     }
-
-    .reading-path {
-      padding-left: 1.4em;
-    }
-
-    .reading-path li {
-      margin-bottom: 0.9em;
-    }
-
-    .reading-path-title {
-      display: block;
-      font-weight: bold;
-    }
-
-    .reading-path-description {
-      display: block;
-    }
-
-    .reading-path-en {
-      display: block;
-      color: #555;
-      font-size: 0.96em;
-      font-style: italic;
-    }
-
-    .small-note {
-      color: #555;
-      font-size: 0.96em;
-    }
-
-    .exhibition-list {
-      padding-left: 1.35em;
-    }
-
+    .exhibition-list { margin: 0; padding-left: 1.4rem; }
     .exhibition-list > li {
-      margin-bottom: 2em;
-      padding-bottom: 1.2em;
-      border-bottom: 1px solid #eee;
+      margin: 0 0 1rem;
+      padding: 1rem 1.1rem;
+      border: 1px solid #e0e0e0;
+      background: #fbfbfb;
     }
-
-    .exhibition-list > li:last-child {
-      border-bottom: none;
-    }
-
-    .compact-exhibition-list > li {
-  margin-bottom: 0.75em;
-  padding-bottom: 0.45em;
-  border-bottom: none;
-}
-
-.compact-exhibition-list .exhibition-title {
-  font-size: 1.04em;
-  line-height: 1.3;
-  margin: 0 0 0.12em 0;
-}
-
-.compact-exhibition-list .exhibition-meta {
-  margin: 0;
-  line-height: 1.45;
-  color: #333;
-}
-
-.compact-exhibition-list .without-catalogue {
-  color: #666;
-  font-size: 0.95em;
-}
-
+    .exhibition-list > li::marker { color: #666; font-weight: bold; }
     .exhibition-title {
-      font-size: 1.22em;
-      margin: 0 0 0.25em 0;
+      margin: 0 0 .2rem;
+      font-size: 1.12rem;
       font-weight: bold;
-      color: #111;
     }
-
-    .exhibition-title em {
-      font-style: normal;
-    }
-
+    .exhibition-title em { font-style: normal; }
     .exhibition-meta {
-      margin: 0.15em 0 0.75em 0;
+      margin: .1rem 0 .7rem;
       color: #333;
+      line-height: 1.48;
+    }
+    .exhibition-description { margin-top: .6rem; color: #333; }
+    .exhibition-description p { margin: .45rem 0; }
+
+    .compact-exhibition-list > li { padding: .75rem .9rem; }
+    .compact-exhibition-list .exhibition-title { font-size: 1.04rem; }
+    .compact-exhibition-list .exhibition-meta { margin-bottom: 0; }
+    .without-catalogue { color: #666; font-size: .94rem; }
+
+    .supplementary-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .supplementary-grid ul { margin-bottom: 0; }
+
+    .site-links {
+      margin: 1.5rem 0 0;
+      padding: 1rem 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .site-links p {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem 1rem;
+      margin: 0;
     }
 
-    .exhibition-description {
-      margin-top: 0.65em;
-      color: #333;
+    footer { margin-top: 1rem; color: #444; font-size: .9rem; }
+
+    @media (max-width: 760px) {
+      body { padding: 24px 18px; font-size: 16px; }
+      .context-grid, .supplementary-grid { grid-template-columns: 1fr; }
+      .site-nav ul, .site-links p { display: block; }
+      .site-nav a, .site-links a { display: block; margin: .28rem 0; }
+      .overview-section, .cluster-card, .exhibition-list > li,
+      .reader-entry, .intro, .note, .identifier-box { padding: .9rem; }
     }
 
-    .exhibition-description p {
-      margin: 0.45em 0;
+    @media print {
+      body { max-width: none; margin: 0; padding: 0; }
+      a { color: #111; text-decoration: underline; }
+      .site-nav, .site-links, .skip-link { display: none; }
     }
-
-    .exhibition-description p[lang="en"] {
-      color: #555;
-    }
-
-    .without-catalogue {
-      color: #555;
-    }
-
-    .back-link {
-      margin-top: 2.5em;
-      border-top: 1px solid #ddd;
-      padding-top: 1em;
-    }
-    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
-    .skip-link:focus { left: 1em; top: 1em; }
   </style>
 
   <script type="application/ld+json">
@@ -252,7 +234,7 @@
   "@type": "CollectionPage",
   "name": "Изложбе",
   "alternateName": "Exhibitions and Museum Displays",
-  "url": "https://milos-timotijevic.github.io/exhibitions/index.html",
+  "url": "https://milos-timotijevic.github.io/exhibitions/",
   "inLanguage": [
     "sr",
     "en"
@@ -278,9 +260,9 @@
     "local history",
     "museological workshops",
     "participatory museum",
-     "museum education",
-     "heritage workshops",
-     "personal heritage",
+    "museum education",
+    "heritage workshops",
+    "personal heritage",
     "Čačak",
     "National Museum in Čačak",
     "Miloš Timotijević"
@@ -290,79 +272,84 @@
       "@type": "WebPageElement",
       "name": "Сталне музејске поставке",
       "alternateName": "Permanent Museum Displays",
-      "url": "https://milos-timotijevic.github.io/exhibitions/index.html#permanent-museum-displays"
+      "url": "https://milos-timotijevic.github.io/exhibitions/#permanent-museum-displays"
     },
     {
       "@type": "WebPageElement",
       "name": "Повремене изложбе",
       "alternateName": "Temporary Exhibitions",
-      "url": "https://milos-timotijevic.github.io/exhibitions/index.html#temporary-exhibitions"
+      "url": "https://milos-timotijevic.github.io/exhibitions/#temporary-exhibitions"
     },
     {
       "@type": "WebPageElement",
       "name": "Коауторске повремене изложбе",
       "alternateName": "Co-authored Temporary Exhibitions",
-      "url": "https://milos-timotijevic.github.io/exhibitions/index.html#co-authored-temporary-exhibitions"
+      "url": "https://milos-timotijevic.github.io/exhibitions/#co-authored-temporary-exhibitions"
     },
     {
       "@type": "WebPageElement",
       "name": "Тематске изложбе у другим установама",
       "alternateName": "Thematic Exhibitions in Other Institutions",
-      "url": "https://milos-timotijevic.github.io/exhibitions/index.html#thematic-exhibitions-other-institutions"
+      "url": "https://milos-timotijevic.github.io/exhibitions/#thematic-exhibitions-other-institutions"
     },
     {
       "@type": "WebPageElement",
       "name": "Мале тематске изложбе",
       "alternateName": "Small Thematic Exhibitions",
-      "url": "https://milos-timotijevic.github.io/exhibitions/index.html#small-thematic-exhibitions"
+      "url": "https://milos-timotijevic.github.io/exhibitions/#small-thematic-exhibitions"
     },
     {
       "@type": "WebPageElement",
       "name": "Изложбе на отвореном простору",
       "alternateName": "Open-air Exhibitions",
-      "url": "https://milos-timotijevic.github.io/exhibitions/index.html#open-air-exhibitions"
+      "url": "https://milos-timotijevic.github.io/exhibitions/#open-air-exhibitions"
     },
     {
-  "@type": "WebPageElement",
-  "name": "Музеолошке радионице",
-  "alternateName": "Museological Workshops",
-  "url": "https://milos-timotijevic.github.io/exhibitions/index.html#museological-workshops"
-}
+      "@type": "WebPageElement",
+      "name": "Музеолошке радионице",
+      "alternateName": "Museological Workshops",
+      "url": "https://milos-timotijevic.github.io/exhibitions/#museological-workshops"
+    }
   ],
-  "keywords": "Милош Тимотијевић, Miloš Timotijević, изложбе, музејске поставке, сталне поставке, Народни музеј у Чачку, Музеј кошарке, јавна историја, културно наслеђе, Чачак, музеолошке радионице, партиципативни музеј, музејска едукација, лично наслеђе, Moje tajno blago, museological workshops, participatory museum, personal heritage, exhibitions, museum displays, public history, cultural heritage"
+  "keywords": "Милош Тимотијевић, Miloš Timotijević, изложбе, музејске поставке, сталне поставке, Народни музеј у Чачку, Музеј кошарке, јавна историја, културно наслеђе, Чачак, музеолошке радионице, партиципативни музеј, музејска едукација, лично наслеђе, Moje tajno blago, museological workshops, participatory museum, personal heritage, exhibitions, museum displays, public history, cultural heritage",
+  "dateModified": "2026-07-24",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Miloš Timotijević",
+    "url": "https://milos-timotijevic.github.io/"
+  }
 }
   </script>
 </head>
 
 <body id="top">
   <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+
+  <header class="page-header">
+    <p class="back-link"><a href="/">← Главна страна / Main Page</a></p>
+    <h1>Изложбе</h1>
+    <p class="name-latin" lang="en-GB">Exhibitions and Museum Displays</p>
+    <p class="subtitle">
+      Музејске поставке, повремене изложбе, тематски пројекти и изложбе у јавном простору<br>
+      <span lang="en-GB">Museum displays, temporary exhibitions, thematic projects and exhibitions in public space</span>
+    </p>
+  </header>
+
   <main id="main-content">
+    <nav class="site-nav" aria-label="Навигација ка другим страницама сајта / Navigation to other site pages">
+      <ul>
+        <li><a href="/">Главна страна / Main Page</a></li>
+        <li><a href="/books/">Књиге / Books</a></li>
+        <li><a href="/articles/">Радови / Articles</a></li>
+        <li><a href="/catalogues/">Каталози / Catalogues</a></li>
+        <li><a href="/book-reviews/">Прикази књига / Book Reviews</a></li>
+        <li><a href="/professional-service/">Стручни рад / Professional Service</a></li>
+        <li><a href="/knowledge-graph/">Граф знања / Knowledge Graph</a></li>
+        <li><a href="/knowledge-graph/research/cultural-heritage-museums-public-history.html">Музеји и јавно наслеђе / Museums and Public History</a></li>
+      </ul>
+    </nav>
 
-<p>
-  <a href="../index.html">← Назад на главну страну / Back to main page</a>
-</p>
-
-<nav class="site-nav" aria-label="Навигација ка другим страницама сајта">
-  <ul>
-    <li><a href="../index.html">Главна страна / Main page</a></li>
-    <li><a href="../books/">Књиге / Books</a></li>
-    <li><a href="../articles/">Радови / Articles</a></li>
-    <li><a href="../catalogues/">Каталози / Catalogues</a></li>
-    <li><a href="../book-reviews/index.html">Прикази књига / Book Reviews</a></li>
-    <li><a href="../professional-service/index.html">Стручни рад / Professional Service</a></li>
-    <li><a href="../knowledge-graph/index.html">Граф знања / Knowledge Graph</a></li>
-    <li><a href="../knowledge-graph/research/cultural-heritage-museums-public-history.html">Музеји и јавно наслеђе / Museums and Public History</a></li>
-  </ul>
-</nav>
-
-<h1>Изложбе / Exhibitions</h1>
-<p><strong>Exhibitions and Museum Displays</strong></p>
-
-<p class="subtitle">
-  Музејске поставке, повремене изложбе, тематски пројекти и изложбе у јавном простору<br>
-  <em>Museum displays, temporary exhibitions, thematic projects and exhibitions in public space</em>
-</p>
-
+    <div class="context-grid">
 <section class="reader-entry" aria-labelledby="why-this-page-matters">
   <h2 id="why-this-page-matters">Зашто ова страница постоји? / Why This Page Matters</h2>
 
@@ -379,13 +366,13 @@
     препознаје и преноси новим генерацијама.
   </p>
 
-  <p lang="en">
+  <p lang="en-GB">
     Exhibitions are an important part of Miloš Timotijević’s museum and historiographical work.
     They are not merely a way of presenting completed research to the public, but a distinct
     form of interpreting the past.
   </p>
 
-  <p lang="en">
+  <p lang="en-GB">
     In exhibition work, historical writing enters space, objects, photographs, documents,
     captions and visual arrangement. For that reason, exhibitions should be understood as
     part of public history: they shape how local history is remembered, recognised and passed
@@ -409,13 +396,13 @@
     сећања и јавним представљањем наслеђа.
   </p>
 
-  <p lang="en">
+  <p lang="en-GB">
     This page provides an overview of permanent museum displays, temporary exhibitions,
     co-authored exhibitions, thematic exhibitions in other institutions, smaller exhibition
     projects and open-air exhibitions.
   </p>
 
-  <p lang="en">
+  <p lang="en-GB">
     The data are separated from the main bibliography in order to make exhibition work
     visible as a distinct professional field. It belongs to museum practice, but it is also
     closely connected with scholarly research, local history, memory culture and the public
@@ -423,14 +410,16 @@
   </p>
 </section>
 
-<section aria-labelledby="exhibition-overview">
+    </div>
+
+    <section class="overview-section" aria-labelledby="exhibition-overview">
   <h2 id="exhibition-overview">Преглед изложбеног рада / Overview of Exhibition Work</h2>
 
   <p class="small-note">
     Овај преглед служи као кратка оријентација пре детаљног списка изложби.
   </p>
 
-  <p class="small-note" lang="en">
+  <p class="small-note" lang="en-GB">
     This overview provides a short orientation before the detailed exhibition list.
   </p>
 
@@ -443,7 +432,7 @@
         предметни и едукативни облик.
       </p>
 
-      <p lang="en">
+      <p lang="en-GB">
         <em>More durable museum formats in which research takes spatial, material and educational form.</em>
       </p>
 
@@ -460,7 +449,7 @@
         грађи, фотографијама, документима и предметима из музејских збирки.
       </p>
 
-      <p lang="en">
+      <p lang="en-GB">
         <em>Authorial exhibitions in the home institution, usually based on historical material, photographs, documents and museum objects.</em>
       </p>
 
@@ -477,7 +466,7 @@
         кустоске перспективе повезују у једну изложбену целину.
       </p>
 
-      <p lang="en">
+      <p lang="en-GB">
         <em>Collaborative museum projects that bring together different collections, disciplines and curatorial perspectives.</em>
       </p>
 
@@ -494,7 +483,7 @@
         културним, локалним или црквеним установама.
       </p>
 
-      <p lang="en">
+      <p lang="en-GB">
         <em>Exhibitions realised outside the National Museum in Čačak, in cooperation with other cultural, local or church institutions.</em>
       </p>
 
@@ -511,7 +500,7 @@
         или ужим завичајним темама.
       </p>
 
-      <p lang="en">
+      <p lang="en-GB">
         <em>Smaller formats devoted to individuals, donations, legacies, models or focused local-history themes.</em>
       </p>
 
@@ -528,7 +517,7 @@
         историја излази из музејске сале и постаје део свакодневног кретања.
       </p>
 
-      <p lang="en">
+      <p lang="en-GB">
         <em>Exhibitions placed in public space, where history leaves the museum hall and becomes part of everyday urban movement.</em>
       </p>
 
@@ -545,7 +534,7 @@
     чувар грађе, већ као посредник у разговору о личном, породичном и локалном наслеђу.
   </p>
 
-  <p lang="en">
+  <p lang="en-GB">
     <em>Workshop-based and participatory programmes in which the museum acts not only
     as a keeper of collections, but as a mediator in conversations about personal,
     family and local heritage.</em>
@@ -558,7 +547,7 @@
   </div>
 </section>
 
-<section id="permanent-museum-displays">
+<section id="permanent-museum-displays" class="exhibition-section">
   <h2>Сталне музејске поставке / Permanent Museum Displays</h2>
 
   <ol class="exhibition-list">
@@ -592,21 +581,21 @@
           интерпретативне слојеве.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           The initial display of the Museum of Basketball in Čačak is the first
           and foundational step in shaping the future permanent exhibition. Its
           purpose is not to close the story of basketball, but to establish the
           basic museological, thematic and spatial framework for further work.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           The display outlines the main narratives of Yugoslav, Serbian and Čačak
           basketball. Čačak is presented not only as a city of outstanding players
           and coaches, but as a community in which basketball became part of local
           identity, everyday life and memory culture.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           For this reason, the display should be understood as a starting foundation,
           not as the final form of the permanent exhibition. Its future development
           will depend on new objects, donations, loans, testimonies, biographical
@@ -626,7 +615,7 @@
   </ol>
 </section>
 
-<section id="temporary-exhibitions">
+<section id="temporary-exhibitions" class="exhibition-section">
   <h2>Повремене изложбе / Temporary Exhibitions</h2>
 
   <ol class="exhibition-list">
@@ -647,7 +636,7 @@
           који се варош постепено претварала у модернији урбани простор.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           This exhibition addressed an important but often overlooked subject: how
           Čačak functioned as a local political and administrative community between
           the two world wars. The story of municipal presidents is also a story of
@@ -679,7 +668,7 @@
           друштву, већ о културном преображају вароши у првој половини XX века.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           The exhibition on the Sokol society followed an organisation whose role
           in Čačak went far beyond sport. The Sokol movement connected physical
           exercise, national education, cultural work, public ceremonies and new
@@ -715,7 +704,7 @@
           простора и свакодневице.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           At the centre of this exhibition was photography as both a historical source
           and a medium of political representation. Čačak was examined through images
           of urban development, industry, ceremonies, public rituals and official
@@ -748,7 +737,7 @@
           отпор и култура сећања постављени су у исти интерпретативни оквир.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           The exhibition marked seven decades since the victory over fascism, but it
           was not only a commemorative display. Its purpose was to connect the European
           history of the Second World War with Yugoslav, Serbian and local experiences.
@@ -765,7 +754,7 @@
   </ol>
 </section>
 
-<section id="co-authored-temporary-exhibitions">
+<section id="co-authored-temporary-exhibitions" class="exhibition-section">
   <h2>Коауторске повремене изложбе / Co-authored Temporary Exhibitions</h2>
 
   <ol class="exhibition-list">
@@ -787,7 +776,7 @@
           институција, њена документација, истраживачка пракса и јавна улога у граду.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           The jubilee exhibition marking fifty years of the National Museum in Čačak
           presented the museum not only as a keeper of objects, but as an institution
           producing knowledge about the local community. Its co-authored nature was
@@ -819,7 +808,7 @@
           низ промена у простору, изгледу и начину живота.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           This exhibition presented Čačak through photography and visual traces of
           the old town. Instead of a dry chronology, it brought forward what photography
           preserves best: streets, houses, public spaces, people, ceremonies and everyday
@@ -854,7 +843,7 @@
           рада који стоји иза сваке музејске поставке.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           The exhibition showed what a museum does between major jubilees and visible
           public programmes: it researches, collects, documents, preserves and reinterprets
           material. In that sense, <em>The Treasure of the National Museum</em> was not
@@ -871,7 +860,7 @@
   </ol>
 </section>
 
-<section id="thematic-exhibitions-other-institutions">
+<section id="thematic-exhibitions-other-institutions" class="exhibition-section">
   <h2>Тематске изложбе у другим установама / Thematic Exhibitions in Other Institutions</h2>
 
  <ol class="exhibition-list compact-exhibition-list">
@@ -915,7 +904,7 @@
   </ol>
 </section>
 
-<section id="small-thematic-exhibitions">
+<section id="small-thematic-exhibitions" class="exhibition-section">
   <h2>Мале тематске изложбе / Small Thematic Exhibitions</h2>
 
   <ol class="exhibition-list compact-exhibition-list">
@@ -959,7 +948,7 @@
   </ol>
 </section>
 
-<section id="open-air-exhibitions">
+<section id="open-air-exhibitions" class="exhibition-section">
   <h2>Изложбе на отвореном простору / Open-air Exhibitions</h2>
 
   <ol class="exhibition-list compact-exhibition-list">
@@ -985,7 +974,7 @@
   </ol>
 </section>
 
-  <section id="museological-workshops">
+  <section id="museological-workshops" class="exhibition-section">
   <h2>Музеолошке радионице / Museological Workshops</h2>
 
   <ol class="exhibition-list">
@@ -1025,7 +1014,7 @@
           публиком која иначе често остаје изван музејског простора.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           <em>My Secret Treasure</em> belongs to the field of museological workshops
           and participatory museum programmes in which the museum opens itself to
           personal memories, family stories and objects that citizens themselves
@@ -1034,7 +1023,7 @@
           adults an active role in recognising heritage.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           The Čačak experience was important because it showed that a museum can work
           with heritage that is not yet part of its collections, but already has a strong
           place in personal and family memory. Children selected their own “secret
@@ -1042,7 +1031,7 @@
           generational layer of memory through their comments.
         </p>
 
-        <p lang="en">
+        <p lang="en-GB">
           The importance of this workshop lies not only in its exhibition result, but
           in a change of museum perspective. <em>My Secret Treasure</em> marks a shift
           from a museum that only presents already collected material towards a museum
@@ -1061,6 +1050,7 @@
   </ol>
 </section>
 
+<div class="supplementary-grid">
 <section id="related-pages" class="note">
   <h2>Сродне странице / Related Pages</h2>
 
@@ -1083,15 +1073,21 @@
     <li><strong>Main website:</strong> <a href="https://milos-timotijevic.github.io/">milos-timotijevic.github.io</a></li>
   </ul>
 </section>
+</div>
 
-<p class="back-link">
-  <a href="#top">↑ На врх / Back to top</a>
-</p>
-
-<p>
-  <a href="../index.html">← Назад на главну страну / Back to main page</a>
-</p>
-
+<nav class="site-links" aria-label="Везе ка другим деловима сајта / Links to other site sections">
+      <p>
+        <a href="/">Главна страна / Main Page</a>
+        <a href="/bibliography/">Библиографија / Bibliography</a>
+        <a href="/public-activity/">Јавни рад / Public Activity</a>
+        <a href="/knowledge-graph/">Граф знања / Knowledge Graph</a>
+        <a href="/data/">Подаци / Data</a>
+      </p>
+    </nav>
   </main>
+
+  <footer>
+    <p>Последње ажурирање / Last updated: 24. јул 2026 / 24 July 2026.</p>
+  </footer>
 </body>
 </html>
