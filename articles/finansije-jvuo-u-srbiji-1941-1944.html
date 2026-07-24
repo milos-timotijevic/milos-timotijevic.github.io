@@ -336,6 +336,8 @@
       border-top: 1px solid #ddd;
       padding-top: 1em;
     }
+    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
+    .skip-link:focus { left: 1em; top: 1em; }
   </style>
 
   <meta name="DC.relation" content="https://doi.org/10.29362/IST20VEKA.2019.2.TIM.137-156">
@@ -350,8 +352,9 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
 
-  <main>
+  <main id="main-content">
 
     <header>
       <h1>Finansije JVuO u Srbiji 1941–1944.</h1>
@@ -639,4 +642,3 @@
 
 </body>
 </html>
-
