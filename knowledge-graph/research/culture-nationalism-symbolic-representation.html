@@ -1,71 +1,312 @@
 
-<!doctype html>
-<html lang="sr">
+<!DOCTYPE html>
+
+<html lang="sr-Cyrl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Култура, национализам и симболичка репрезентација / Culture, Nationalism and Symbolic Representation</title>
-  <meta name="robots" content="index, follow">
-<meta name="description" content="Истраживачки кластер о култури као пољу производње јавних симбола, националних, политичких и локалних значења: уметност, југословенство, модернизам, споменици, фотографија, фестивали, медијске слике, сакрални наративи и измишљене традиције.">
-<link rel="canonical" href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html">
-<link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" title="Machine-readable knowledge graph">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Култура, национализам и симболичка репрезентација / Culture, Nationalism and Symbolic Representation</title>
+<meta content="index, follow" name="robots"/>
+<meta content="Истраживачка целина о уметности, модернизму, јавним споменицима, фотографији, фестивалима, медијским представама, сакралним традицијама и начинима на које култура обликује националне, политичке и локалне идентитете." name="description"/>
+<link href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html" rel="canonical"/><link href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html" hreflang="x-default" rel="alternate"/><link href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html" hreflang="en-GB" rel="alternate"/><link href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html" hreflang="sr-Cyrl" rel="alternate"/>
+<link href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" rel="alternate" title="Machine-readable knowledge graph" type="application/ld+json"/>
+<meta content="Култура, национализам и симболичка репрезентација" property="og:title"/>
+<meta content="Уметност, модернизам, јавни симболи, фестивали, фотографија, медијске представе и локални идентитети у модерној српској култури." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html" property="og:url"/>
+<meta content="Miloš Timotijević — Knowledge Graph" property="og:site_name"/>
+<meta content="sr_RS" property="og:locale"/>
+<meta content="en_GB" property="og:locale:alternate"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Culture, Nationalism and Symbolic Representation" name="twitter:title"/>
+<meta content="Research framework on art, modernism, public symbols, festivals, media images and local identities." name="twitter:description"/>
+<style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.65;
+      max-width: 980px;
+      margin: 40px auto;
+      padding: 0 24px;
+      color: #222;
+      background: #fff;
+    }
 
-<meta property="og:title" content="Култура, национализам и симболичка репрезентација">
-<meta property="og:description" content="Истраживачки кластер о уметности, модернизму, јавним симболима, националним представама, медијским сликама и локалним идентитетима.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html">
-<meta property="og:site_name" content="Miloš Timotijević — Knowledge Graph">
-<meta property="og:locale" content="sr_RS">
-<meta property="og:locale:alternate" content="en_US">
+    h1, h2, h3, h4 {
+      line-height: 1.25;
+      color: #111;
+    }
 
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Culture, Nationalism and Symbolic Representation">
-<meta name="twitter:description" content="Research cluster on art, modernism, public symbols, national representation, media images and local identities.">
+    h1 {
+      font-size: 2.05em;
+      margin: 0 0 0.2em;
+    }
 
-  <style>
-    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #222; background: #fff; }
-    h1, h2, h3, h4 { line-height: 1.25; color: #111; }
-    h1 { font-size: 2.05em; margin-bottom: 0.2em; }
-    h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.25em; }
-    h3 { margin-top: 1.6em; font-size: 1.16em; }
-    h4 { margin-top: 1.15em; font-size: 1.04em; }
-    a { color: #0645ad; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    p { margin: 0.75em 0; }
-    ul li { margin-bottom: 0.75em; }
-    table { width: 100%; border-collapse: collapse; margin: 1em 0; }
-    th, td { border: 1px solid #ddd; padding: 0.45em 0.55em; vertical-align: top; }
-    th { background: #f4f4f4; text-align: left; }
-    .subtitle { font-size: 1.08em; margin-bottom: 1.5em; color: #444; }
-    .intro, .note, .identifier-box, .framework-box { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin: 1.5em 0 2em 0; }
-    .intro p, .note p, .identifier-box p, .framework-box p { margin: 0.35em 0; }
-    .work-list { padding-left: 1.25em; }
-    .work-list li { margin-bottom: 1.15em; }
-    .work-note { display: block; color: #444; margin-top: 0.15em; font-size: 0.97em; }
-    .links { display: block; margin-top: 0.2em; font-size: 0.96em; }
-    .role { display: inline-block; margin-top: 0.25em; font-size: 0.9em; color: #555; }
-    .related-box, .reviewed-box { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 0.9em 1em; margin: 1em 0; }
-    .reviewed-box { border-left: 4px solid #bbb; }
-    .keywords { color: #333; }
-    .citation { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin-top: 1em; }
-    .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
-    .small-note { color: #555; font-size: 0.96em; }
-    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
-    .skip-link:focus { left: 1em; top: 1em; }
-  </style>
+    h2 {
+      margin-top: 2em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.25em;
+    }
 
-  <script type="application/ld+json">
-  {
+    h3 {
+      margin-top: 1.6em;
+      font-size: 1.16em;
+    }
+
+    h4 {
+      margin-top: 1.15em;
+      font-size: 1.04em;
+    }
+
+    a {
+      color: #0645ad;
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 0.75em 0;
+    }
+
+    ul li,
+    ol li {
+      margin-bottom: 0.7em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.5em 0.6em;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f4f4f4;
+      text-align: left;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: -5rem;
+      z-index: 1000;
+      padding: 0.55rem 0.75rem;
+      border: 2px solid #0645ad;
+      color: #fff;
+      background: #0645ad;
+    }
+
+    .skip-link:focus {
+      top: 1rem;
+      color: #fff;
+    }
+
+    .site-nav,
+    .contents {
+      background: #f8f8f8;
+      border: 1px solid #e2e2e2;
+      padding: 0.9em 1em;
+      margin: 1.25em 0 1.75em;
+    }
+
+    .site-nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55em 1em;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .site-nav li {
+      margin: 0;
+    }
+
+    .contents h2 {
+      margin-top: 0;
+      border-bottom: none;
+      font-size: 1.2em;
+    }
+
+    .contents ol {
+      columns: 2;
+      column-gap: 2.5em;
+      padding-left: 1.35em;
+      margin-bottom: 0;
+    }
+
+    .contents li {
+      break-inside: avoid;
+      margin-bottom: 0.35em;
+    }
+
+    .subtitle {
+      font-size: 1.08em;
+      margin-bottom: 1.5em;
+      color: #444;
+    }
+
+    .intro,
+    .summary,
+    .research-box,
+    .scope-box,
+    .identifier-box,
+    .framework-box,
+    .note,
+    .citation {
+      background: #f8f8f8;
+      border-left: 4px solid #bbb;
+      padding: 1em;
+      margin: 1.5em 0 2em;
+    }
+
+    .intro p,
+    .summary p,
+    .research-box p,
+    .scope-box p,
+    .identifier-box p,
+    .framework-box p,
+    .note p,
+    .citation p {
+      margin: 0.4em 0;
+    }
+
+    .scope-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1em;
+    }
+
+    .scope-list {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 0.4em 1em;
+      margin: 0;
+    }
+
+    .scope-list dt {
+      font-weight: bold;
+    }
+
+    .scope-list dd {
+      margin: 0;
+    }
+
+    .work-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .work-card {
+      background: #fbfbfb;
+      border: 1px solid #e2e2e2;
+      padding: 1em;
+      margin: 1em 0;
+    }
+
+    .work-card p {
+      margin: 0.45em 0;
+    }
+
+    .work-note {
+      display: block;
+      color: #444;
+      margin-top: 0.2em;
+      font-size: 0.97em;
+    }
+
+    .links,
+    .work-links {
+      display: block;
+      margin-top: 0.25em;
+      font-size: 0.95em;
+    }
+
+    .role {
+      display: inline-block;
+      margin-top: 0.3em;
+      font-size: 0.92em;
+      color: #555;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1em;
+    }
+
+    .related-box,
+    .reviewed-box {
+      background: #fbfbfb;
+      border: 1px solid #e2e2e2;
+      padding: 1em;
+    }
+
+    .related-box h3,
+    .reviewed-box h3 {
+      margin-top: 0;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    .keywords {
+      color: #333;
+    }
+
+    .back-link {
+      margin-top: 2.5em;
+      border-top: 1px solid #ddd;
+      padding-top: 1em;
+    }
+
+    .small-note,
+    .updated {
+      color: #555;
+      font-size: 0.95em;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        margin: 24px auto;
+        padding: 0 18px;
+      }
+
+      .contents ol {
+        columns: 1;
+      }
+
+      .scope-list {
+        grid-template-columns: 1fr;
+        gap: 0.1em;
+      }
+
+      .scope-list dd {
+        margin-bottom: 0.55em;
+      }
+    }
+</style>
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Култура, национализам и симболичка репрезентација",
   "alternateName": "Culture, Nationalism and Symbolic Representation",
   "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
   "inLanguage": [
-    "sr",
-    "en"
+    "sr-Cyrl",
+    "en-GB"
   ],
-  "description": "Истраживачки кластер о култури као пољу производње јавних симбола, националних, политичких и локалних значења у модерној српској култури.",
+  "description": "Истраживачка целина о уметности, модернизму, јавним споменицима, фотографији, фестивалима, медијским представама, сакралним традицијама и обликовању националних, политичких и локалних идентитета.",
   "author": {
     "@type": "Person",
     "name": "Miloš Timotijević",
@@ -223,284 +464,344 @@
       "url": "https://milos-timotijevic.github.io/articles/ikona-halyard.html",
       "sameAs": "https://www.wikidata.org/wiki/Q139413207"
     }
-  ]
+  ],
+  "dateModified": "2026-07-24"
 }
-  </script>
+</script>
 </head>
-
-<body>
-  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
-  <main id="main-content">
-  <p id="top"><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
-
-  <h1>Култура, национализам и симболичка репрезентација</h1>
-  <p class="subtitle">
-    Culture, Nationalism and Symbolic Representation<br>
-    Уметност, визуелна култура, јавни симболи и производња националних, политичких и локалних значења<br>
-    Art, Visual Culture, Public Symbols and the Production of National, Political and Local Meanings
-  </p>
-
-  <section class="reader-entry" aria-labelledby="why-culture-symbol">
-  <h2 id="why-culture-symbol">Како култура постаје јавни симбол? / How Culture Becomes a Public Symbol</h2>
-
-  <p>
-    Култура није само одраз већ постојећих политичких или националних идеја. Она често постаје простор у коме се те идеје стварају, приказују и претварају у јавне симболе. Уметничко дело, фотографија, фестивал, споменик, спортска традиција или медијска слика могу постати начин да заједница представи себе, своју прошлост и своје место у ширем националном или политичком простору.
-  </p>
-
-  <p lang="en">
-    Culture is not merely a reflection of already existing political or national ideas. It often becomes the space in which such ideas are created, displayed and transformed into public symbols. A work of art, a photograph, a festival, a monument, a sporting tradition or a media image can become a way for a community to represent itself, its past and its place within a wider national or political space.
-  </p>
-
-  <p>
-    Зато овај кластер не окупља све радове о култури, већ оне у којима културни облици добијају јавни значај: они производе значења, стварају ауторитет, граде идентитет и учествују у обликовању колективног памћења.
-  </p>
-
-  <p lang="en">
-    This cluster therefore does not gather all works on culture, but those in which cultural forms acquire public significance: they produce meanings, create authority, build identity and participate in the shaping of collective memory.
-  </p>
+<body id="top">
+<a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+<main id="main-content">
+<p class="top-link"><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p><nav aria-label="Главна навигација" class="site-nav">
+<ul>
+<li><a href="/">Главна страна / Main Page</a></li>
+<li><a href="/knowledge-graph/">Граф знања / Knowledge Graph</a></li>
+<li><a href="/knowledge-graph/research/local-modernity-symbolic-power.html">Шири истраживачки оквир / Broader Framework</a></li>
+<li><a href="/knowledge-graph/method.html">Метод / Method</a></li>
+<li><a href="/data/">Подаци / Data</a></li>
+</ul>
+</nav>
+<h1>Култура, национализам и симболичка репрезентација</h1>
+<p class="subtitle">
+<strong lang="en">Culture, Nationalism and Symbolic Representation</strong><br/>
+Уметност, визуелна култура, јавни симболи и обликовање националних, политичких и локалних идентитета<br/>
+<em lang="en">Art, visual culture, public symbols and the shaping of national, political and local identities</em>
+</p>
+<section aria-labelledby="culture-public-meaning-title" class="intro" id="culture-public-meaning">
+<h2 id="culture-public-meaning-title">Култура у јавном простору / Culture in Public Space</h2>
+<p>
+  Културни облици не одражавају само већ постојеће политичке и националне идеје.
+  Уметничка дела, фотографије, споменици, фестивали, спортске традиције и медијске
+  представе утичу на начин на који заједница види себе, своју прошлост и своје
+  место у ширем друштвеном и политичком окружењу.
+</p>
+<p>
+  Ова страница окупља радове у којима култура има јасну јавну улогу: у обликовању
+  националних и локалних идентитета, културног ауторитета, колективног памћења и
+  представа о историјском наслеђу.
+</p>
+<p lang="en">
+  Cultural forms do not merely reflect pre-existing political and national ideas.
+  Artworks, photographs, monuments, festivals, sporting traditions and media
+  representations influence how communities understand themselves, their past and
+  their place within a wider social and political setting.
+</p>
+</section><nav aria-label="Садржај странице" class="contents">
+<h2>Садржај / Contents</h2>
+<ol>
+<li><a href="#summary">Сажетак / Summary</a></li>
+<li><a href="#research-question">Истраживачко питање / Research Question</a></li>
+<li><a href="#research-claim">Истраживачка теза / Research Claim</a></li>
+<li><a href="#method">Методолошки приступ / Method</a></li>
+<li><a href="#scope">Временски и просторни оквир / Scope</a></li>
+<li><a href="#knowledge-graph-place">Место у графу знања / Knowledge Graph</a></li>
+<li><a href="#core-publications">Носеће публикације / Core Publications</a></li>
+<li><a href="#representational-links">Публикације са важном јавном улогом / Cross-Links</a></li>
+<li><a href="#reviewed-publications">Рецензирана издања / Reviewed Publications</a></li>
+<li><a href="#related-themes">Сродне теме / Related Themes</a></li>
+<li><a href="#identifiers">Идентификатори / Identifiers</a></li>
+<li><a href="#citation">Предлог цитирања / Suggested Citation</a></li>
+</ol>
+</nav>
+<section class="summary" id="summary">
+<h2>Сажетак / Summary</h2>
+<p>
+  Ова истраживачка целина повезује радове о уметности, модернизму, јавним
+  споменицима, фотографији, фестивалима, спорту, медијским представама и
+  сакралним традицијама. Заједничко им је питање како културни садржаји добијају
+  шири друштвени значај и постају део националног, политичког или локалног
+  идентитета.
+</p>
+<p>
+  Посебно место имају радови о Надежди Петровић, југословенству и модерној
+  уметности, Сабору трубача у Гучи, званичној култури Чачка, визуелном
+  представљању политичке моћи и накнадно обликованим историјским традицијама.
+</p>
+<p lang="en">
+  This research section connects works on art, modernism, public monuments,
+  photography, festivals, sport, media representations and sacred traditions.
+  Their common concern is how cultural content acquires wider social significance
+  and becomes part of national, political or local identity.
+</p>
 </section>
 
+<section class="research-box" id="research-question">
+<h2>Истраживачко питање / Research Question</h2>
+<p>
+  Како уметничка дела, споменици, фотографије, ритуали, фестивали, спорт,
+  медијске представе и сакралне традиције добијају национални, политички и
+  локални значај у модерној српској култури?
+</p>
+<p lang="en">
+  How do artworks, monuments, photographs, rituals, festivals, sport, media
+  representations and sacred traditions acquire national, political and local
+  significance in modern Serbian culture?
+</p>
+</section>
+<section class="research-box" id="research-claim">
+<h2>Истраживачка теза / Research Claim</h2>
+<p>
+  Култура није само одраз политичких и националних идеја. Она учествује у
+  њиховом јавном обликовању. Уметност, споменици, фотографије, фестивали,
+  спортске праксе и медијске представе могу да утврде културни ауторитет,
+  усмере памћење и промене начин на који заједница тумачи себе и своју прошлост.
+</p>
+<p>
+  Значење тих облика није непроменљиво. Оно зависи од историјског тренутка,
+  институција, медија, политичких потреба и начина на који их јавност прихвата,
+  оспорава или накнадно тумачи.
+</p>
+<p lang="en">
+  Culture is not merely a reflection of political and national ideas. It takes part
+  in shaping them publicly. Art, monuments, photographs, festivals, sporting
+  practices and media representations can establish cultural authority, guide
+  memory and alter how communities interpret themselves and their past.
+</p>
+</section>
+<section class="research-box" id="method">
+<h2>Методолошки приступ / Methodological Approach</h2>
+<p>
+  Радови повезују културну историју, историју уметности, проучавање
+  национализма, визуелну културу, студије сећања, историју јавних споменика,
+  фестивала, спорта и медија, као и истраживање измишљених традиција.
+</p>
+<p>
+  Анализа обухвата однос између предмета, слике, простора, ритуала, тела,
+  медија и институција. Посебно се испитује како се поједина културна појава
+  мењала од времена настанка до каснијег јавног тумачења.
+</p>
+<p lang="en">
+  The works combine cultural history, art history, the study of nationalism,
+  visual culture, memory studies, the history of public monuments, festivals,
+  sport and media, as well as research on invented traditions.
+</p>
+</section>
+<section class="scope-box" id="scope">
+<h2>Временски и просторни оквир / Temporal and Spatial Scope</h2>
+<div class="scope-grid">
+<dl class="scope-list">
+<dt>Период:</dt>
+<dd>XIX–XXI век, са тежиштем на модерној и савременој српској култури.</dd>
+<dt>Простор:</dt>
+<dd>Србија, Чачак, западна Србија и шири југословенски и балкански простор.</dd>
+<dt>Извори:</dt>
+<dd>уметничка дела, споменици, фотографије, штампа, фестивали, музејски предмети, ритуали и сакрална предања.</dd>
+<dt>Теме:</dt>
+<dd>уметност и нација, југословенство, модернизам, јавни симболи, култура сећања, локални идентитет и културни ауторитет.</dd>
+</dl>
+<dl class="scope-list" lang="en">
+<dt>Period:</dt>
+<dd>The nineteenth to the twenty-first century, with emphasis on modern and contemporary Serbian culture.</dd>
+<dt>Geographical focus:</dt>
+<dd>Serbia, Čačak, western Serbia and the wider Yugoslav and Balkan region.</dd>
+<dt>Sources:</dt>
+<dd>Artworks, monuments, photographs, the press, festivals, museum objects, rituals and sacred traditions.</dd>
+<dt>Themes:</dt>
+<dd>Art and nation, Yugoslavism, modernism, public symbols, memory culture, local identity and cultural authority.</dd>
+</dl>
+</div>
+</section>
 
-  <section>
-    <h2>Кратак преглед / Executive Summary</h2>
-    <p>Овај кластер окупља радове који анализирају културу као поље производње јавних симбола, националних представа и локалних идентитета. Уметничка дела, споменици, фотографије, фестивали, спортске праксе, медијске слике и сакрални наративи посматрају се као облици кроз које се стварају национална, политичка, локална и меморијална значења.</p>
-    <p lang="en">This cluster brings together works that analyze culture as a field of producing public symbols, national representations and local identities. Artworks, monuments, photographs, festivals, sports practices, media images and sacred narratives are examined as forms through which national, political, local and memorial meanings are created.</p>
-    <p>Кластер припада ширем оквиру локалне модерности и симболичке моћи, али не окупља „сву културу”. У њему су издвојени они радови у којима културни облици постају јавни симболи и носиоци културног ауторитета.</p>
-    <p lang="en">The cluster belongs to the broader framework of local modernity and symbolic power, but it does not gather “culture” in general. It focuses on works in which cultural forms become public symbols and carriers of cultural authority.</p>
-  </section>
+<section class="framework-box" id="knowledge-graph-place">
+<h2>Место у графу знања / Place in the Knowledge Graph</h2>
+<p>
+  Ова страница је део ширег оквира
+  <a href="/knowledge-graph/research/local-modernity-symbolic-power.html">„Локална модерност и симболичка моћ у југоисточној Европи”</a>.
+  Она издваја културне појаве које повезују јавни простор, националне идеје,
+  локалне заједнице, институције и културу сећања.
+</p>
+<p>
+  Публикације су овде сврстане према главном истраживачком питању. Радови који
+  пре свега припадају историји политичких ритуала, рата, религијског живота,
+  музејске праксе или локалне модерности наведени су као попречне везе када
+  имају изразиту визуелну, симболичку или репрезентативну улогу.
+</p>
+<p lang="en">
+  This page is part of the broader framework
+  <a href="/knowledge-graph/research/local-modernity-symbolic-power.html">“Local Modernity and Symbolic Power in Southeast Europe”</a>.
+  It focuses on cultural phenomena connecting public space, national ideas,
+  local communities, institutions and memory.
+</p>
+</section>
+<section class="identifier-box" id="identifiers">
+<h2>Идентификатори и повезивање / Identifiers and Linking</h2>
+<p>Идентификатори повезују ову истраживачку целину са Wikidata, ORCID и ширим графом знања.</p>
+<p lang="en">The identifiers link this research section with Wikidata, ORCID and the broader knowledge graph.</p>
+<ul>
+<li><strong>Wikidata cluster:</strong> <a href="https://www.wikidata.org/wiki/Q139569852">Q139569852 — Culture, Nationalism and Symbolic Representation</a></li>
+<li><strong>Broader Wikidata framework:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155 — Local Modernity and Symbolic Power in Southeast Europe</a></li>
+<li><strong>Author:</strong> <a href="https://orcid.org/0000-0002-0457-6125">Miloš Timotijević — ORCID 0000-0002-0457-6125</a>; <a href="https://www.wikidata.org/wiki/Q112514230">Wikidata Q112514230</a></li>
+</ul>
+</section>
 
-  <section>
-    <h2>О кластеру / About the Cluster</h2>
-    <p>Култура се у овом кластеру не посматра као пуки додатак политичкој или националној историји. Она се анализира као простор симболичке производње у коме слике, предмети, споменици, ритуали, фестивали, медији и сакрални наративи обликују начине на које заједница види себе, своју прошлост и своје место у јавном простору.</p>
-    <p lang="en">In this cluster, culture is not treated as a mere supplement to political or national history. It is analyzed as a field of symbolic production in which images, objects, monuments, rituals, festivals, media and sacred narratives shape how a community sees itself, its past and its place in public space.</p>
-    <p>Посебна пажња посвећена је Надежди Петровић као уметници, националној фигури, југословенској културној актерки и меморијалном симболу; Гучи као фестивалу и медијском спектаклу; званичној репрезентативној култури Чачка; медијским сликама политичког простора; као и сакралним и историјским традицијама које се накнадно конструишу.</p>
-    <p lang="en">Particular attention is devoted to Nadežda Petrović as an artist, national figure, Yugoslav cultural actor and memorial symbol; to Guča as a festival and media spectacle; to the official culture of representation in Čačak; to media images of political space; and to sacred and historical traditions that are constructed retrospectively.</p>
-  </section>
+<section id="core-publications">
+<h2>Носеће публикације / Core Publications</h2>
+<div class="note">
+<p>
+  Носеће публикације распоређене су у четири тематске целине: уметност и
+  национални идентитет; фестивали и традиција; локална култура сећања; медијске
+  представе и сакрална предања.
+</p>
+<p lang="en">
+  Core publications are arranged in four thematic groups: art and national
+  identity; festivals and tradition; local memory culture; media representations
+  and sacred traditions.
+</p>
+</div>
+<h3>Уметност, нација и културни ауторитет / Art, Nation and Cultural Authority</h3>
+<p>Ова целина показује како су уметничка биографија, модерна уметност, југословенски културни пројекат, јавни споменик и посмртно памћење Надежде Петровић створили трајан културни ауторитет.</p>
+<p lang="en">This section forms the core of the cluster because it shows how an artistic biography, modern art, the Yugoslav cultural project, a public monument and posthumous memorialization can produce a national figure, a supranational symbol and lasting cultural authority.</p>
+<ul class="work-list">
+<li class="work-card"><strong><a href="/books/nadezda-petrovic-life-art-service-nation.html">Надежда Петровић: живот и уметност у служби нације</a></strong><br/><span lang="en">Nadežda Petrović: Life and Art in the Service of the Nation</span><span class="role">Место у целини: носећа монографија о уметници као националној фигури и меморијалном симболу. / Primary role: core monograph of this cluster.</span><span class="work-note">Монографија прати живот, уметност и посмртно памћење Надежде Петровић и објашњава како је постала национална и културна фигура.</span><span class="work-note" lang="en">The monograph analyzes Nadežda Petrović as an artist, a national figure, a public symbol and part of memory culture.</span><span class="links"><a href="/books/nadezda-petrovic-life-art-service-nation.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138001364">Wikidata Q138001364</a></span></li>
+<li class="work-card">
+<strong><a href="/articles/jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta.html">Југословенско опредељење Надежде Петровић: култура, модернизам и конструкција идентитета</a></strong><br/>
+<span lang="en">The Yugoslav Orientation of Nadežda Petrović: Culture, Modernism, and the Construction of Identity</span>
+<span class="role">Место у целини: југословенство, модерна уметност и наднационални идентитет. / Primary role: Yugoslavism, modern art and the construction of supranational identity.</span>
+<span class="work-note">Рад испитује како је Надежда Петровић повезивала српску традицију, модерну уметност и сарадњу са Иваном Мештровићем у оквиру југословенског културног пројекта.</span>
+<span class="work-note" lang="en">The article analyzes how Nadežda Petrović used Serbian tradition, modern art and cooperation with Ivan Meštrović to shape the Yugoslav cultural project and new models of identity.</span>
+<span class="links"><a href="/articles/jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta.html">Приступна страна / Landing page</a> · <a href="https://doi.org/10.65627/zrnmuc.2026.56.2">DOI</a> · <a href="https://www.wikidata.org/wiki/Q140353418">Wikidata Q140353418</a></span>
+</li>
+<li class="work-card"><strong><a href="/articles/politika-umetnost-stvaranje-tradicija.html">Политика, уметност и стварање традиција: подизање споменика Надежди Петровић у Чачку 1955. године</a></strong><br/><span lang="en">Politics, Art and the Creation of Traditions: The Erection of the Nadežda Petrović Monument in Čačak in 1955</span><span class="role">Место у целини: јавни споменик, локална меморијализација и културни ауторитет. / Primary role: public monument as cultural representation.</span><span class="work-note">Рад показује како су подизање споменика, локална политика и културне установе учврстили место Надежде Петровић у јавном памћењу Чачка.</span><span class="work-note" lang="en">The article connects art, the public monument, local memorialization and the creation of cultural authority.</span><span class="links"><a href="/articles/politika-umetnost-stvaranje-tradicija.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138824150">Wikidata Q138824150</a></span></li>
+<li class="work-card"><strong><a href="/articles/heroizacija-nadezde-petrovic.html">Хероизација сликарке Надежде Петровић (1915–1941)</a></strong><br/><span lang="en">Heroization of the Painter Nadežda Petrović (1915–1941)</span><span class="role">Место у целини: хероизација уметнице и обликовање националног сећања. / Primary role: heroization of the artist as a national and memorial symbol.</span><span class="work-note">Рад прати како је после смрти уметница постепено представљана као национални, морални и меморијални узор.</span><span class="work-note" lang="en">The article analyzes the process through which the artist was transformed into a national, moral and memorial symbol.</span><span class="links"><a href="/articles/heroizacija-nadezde-petrovic.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139593533">Wikidata Q139593533</a></span></li>
+</ul>
+<h3>Фестивал, спектакл и обликовање традиције / Festival, Spectacle and the Shaping of Tradition</h3>
+<p>Ова целина прати како је локални фестивал прерастао у национални симбол, медијски спектакл и место на коме се расправља о традицији и културној аутентичности.</p>
+<p lang="en">This section highlights the festival as a cultural mechanism through which a local practice can become a national symbol, a media spectacle and a site for producing ideas of the people, tradition and cultural authenticity.</p>
+<ul class="work-list">
+<li class="work-card"><strong><a href="/books/karneval-u-guci.html">Karneval u Guči: Sabor trubača 1961–2004</a></strong><br/><span lang="en">Carnival in Guča: Trumpet Festival 1961–2004</span><span class="role">Место у целини: фестивал као национални симбол и медијски спектакл. / Primary role: festival as symbolic representation.</span><span class="work-note">Књига показује како је Сабор трубача у Гучи од локалне манифестације постао национални симбол, медијски догађај и спорно место тумачења традиције.</span><span class="work-note" lang="en">The book is important for this cluster because it shows how a local festival becomes a national symbol, a media spectacle and a site for producing ideas of the people, tradition and cultural authenticity.</span><span class="links"><a href="/books/karneval-u-guci.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138912053">Wikidata Q138912053</a></span></li>
+</ul>
+<h3>Локална култура сећања и јавни симболи / Local Memory Culture and Public Symbols</h3>
+<p>Ова целина испитује како су локални историјски догађаји, меморијални простори и јавни симболи постали део званичне културе Чачка и његовог градског идентитета.</p>
+<p lang="en">This section follows the ways in which local historical events, memorial spaces and public symbols become part of a town’s official culture and collective identity.</p>
+<ul class="work-list">
+<li class="work-card"><strong><a href="/conference-papers/boj-na-ljubicu-reprezentativna-kultura-cacka.html">„Бој на Љубићу у званичној репрезентативној култури Чачка током XIX и XX века”</a></strong><br/><span lang="en">The Battle of Ljubić in the Official Representative Culture of Čačak in the 19th and 20th Centuries</span><span class="role">Место у целини: локална култура сећања и јавни симболи. / Primary role: local representative culture and memory culture.</span><span class="work-note">Рад анализира место Боја на Љубићу, Танаска Рајића и брда Љубић у званичним свечаностима, споменицима и јавном памћењу Чачка.</span><span class="work-note" lang="en">The article analyzes how the Battle of Ljubić, Tanasko Rajić and the memorial space of Ljubić Hill became part of official local culture, public symbols, commemorative practices and political representation.</span><span class="links"><a href="/conference-papers/boj-na-ljubicu-reprezentativna-kultura-cacka.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138748192">Wikidata Q138748192</a></span></li>
+</ul>
+<h3>Медијске представе, простор и накнадно обликоване традиције / Media Representations, Space and Retrospectively Shaped Traditions</h3>
+<p>Ова целина повезује медијско представљање геополитичког простора са накнадним обликовањем сакралних и историјских традиција.</p>
+<p lang="en">This section brings together different, but thematically connected, examples of symbolic representation: the media production of geopolitical space, the contemporary shaping of wartime alliance and the later construction of sacred tradition.</p>
+<ul class="work-list">
+<li class="work-card"><strong><a href="/articles/balkanski-savez-1953-1954-jugoslovenska-medijska-slika.html">Balkanski savez 1953–1954. i jugoslovenska medijska slika političkog i geografskog okruženja</a></strong><br/><span lang="en">The Balkan Alliance 1953–1954 and the Yugoslav Media Image of the Political and Geographical Environment</span><span class="role">Место у целини: медијско представљање политичког и географског окружења. / Primary role: media image of the political and geographical environment.</span><span class="work-note">Рад испитује како је југословенска штампа у доба Хладног рата представљала савезништва, суседне државе, Балкан и безбедносни положај Југославије.</span><span class="work-note" lang="en">The article shows how the Yugoslav press, in the context of the Cold War, shaped representations of alliances, neighboring countries, the Balkans, security and the political positioning of space.</span><span class="links"><a href="/articles/balkanski-savez-1953-1954-jugoslovenska-medijska-slika.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139496049">Wikidata Q139496049</a></span></li>
+<li class="work-card"><strong><a href="/articles/manastir-stjenik-pod-jelicom.html">Манастир Стјеник под Јелицом: стварна и измишљена традиција</a></strong><br/><span lang="en">Monastery of Stjenik at the Foot of Jelica Mountain: Real and Invented Traditions</span><span class="role">Попречна веза са истраживањем религијског живота и сакралног простора. / Cross-link with the religious life cluster.</span><span class="work-note">Рад разликује историјски утемељена предања од новијих тумачења манастира Стјеник и прати њихову улогу у локалној побожности и национализацији наслеђа.</span><span class="work-note" lang="en">Here it is relevant as an analysis of the invention of tradition, the nationalization of sacred heritage, local piety and the symbolic construction of historical legitimacy.</span><span class="links"><a href="/articles/manastir-stjenik-pod-jelicom.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139512370">Wikidata Q139512370</a></span></li>
+</ul>
+</section>
+<section id="representational-links">
+<h2>Публикације важне за јавно представљање / Publications Important for Public Representation</h2>
+<p>Следеће публикације главно место имају у другим истраживачким целинама, али су овде важне због фотографије, политичких свечаности, телесне културе, спорта и савременог јавног памћења.</p>
+<p lang="en">The following publications have their primary place in other clusters, but are retained here as important cross-links because they show how photography, political rituals, physical culture, sport and contemporary memorialization produce public symbols and collective representations.</p>
+<ul class="work-list">
+<li class="work-card"><strong><a href="/catalogues/cacak-u-doba-socijalizma.html">Чачак у доба социјализма: (1944–1990): фотографија као репрезент политичке моћи</a></strong><br/><span lang="en">Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power</span><span class="role">Главна веза: Чачак као студија случаја локалне модерности и музејска јавна историја. / Primarily connected with the Čačak local modernity cluster and museum-based public history.</span><span class="work-note">Каталог показује како је фотографија коришћена у јавном представљању политичке моћи и социјалистичке модернизације Чачка.</span><span class="work-note" lang="en">Here it is significant as an analysis of photography, visual culture and the public representation of political power in a socialist local setting.</span><span class="links"><a href="/catalogues/cacak-u-doba-socijalizma.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139332468">Wikidata Q139332468</a></span></li>
+<li class="work-card"><strong><a href="/books/usklici-iskrenog-odusevljenja.html">Усклици искреног одушевљења: ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године</a></strong><br/><span lang="en">Exclamations of Sincere Enthusiasm: The Ephemeral Spectacle and the Journey of King Alexander and Queen Draga Obrenović through Serbia in 1901</span><span class="role">Главна веза: политички ритуали и симболичка политика. / Primarily connected with the political rituals cluster.</span><span class="work-note">Монографија је важна због визуелног и свечаног обликовања владарске власти, династичке репрезентације и јавног исказивања лојалности.</span><span class="work-note" lang="en">Here it is relevant because of ephemeral spectacle, public ceremonies, dynastic representation, the visual shaping of loyalty and the cultural production of political authority.</span><span class="links"><a href="/books/usklici-iskrenog-odusevljenja.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138005790">Wikidata Q138005790</a></span></li>
+<li class="work-card"><strong><a href="/books/sokoli-cacka.html">Соколи Чачка 1910–1941.</a></strong><br/><span lang="en">The Sokol Movement in Čačak, 1910–1941</span><span class="role">Главна веза: национална идеологија, соколство и грађанска култура. / Primarily connected with the national ideology cluster.</span><span class="work-note">Књига повезује телесну културу, јавне наступе, националну мобилизацију и грађански идентитет соколског покрета.</span><span class="work-note" lang="en">The publication is relevant here because of physical culture, public symbols, civic representation, national mobilization and the production of collective identity.</span><span class="links"><a href="/books/sokoli-cacka.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139255236">Wikidata Q139255236</a></span></li>
+<li class="work-card"><strong><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Како је Чачак постао град кошарке 1945–1969: спорт и идентитет</a></strong><br/><span lang="en">How Čačak Became the City of Basketball, 1945–1969: Sport and Identity</span><span class="role">Главна веза: Чачак као студија случаја локалне модерности. / Primarily connected with the Čačak local modernity cluster.</span><span class="work-note">Књига показује како је кошарка постала трајно обележје градског идентитета и јавне препознатљивости Чачка.</span><span class="work-note" lang="en">The book is relevant here because it treats sport as a symbolic resource of local identity, public representation and the recognition of Čačak as the “city of basketball”.</span><span class="links"><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139439617">Wikidata Q139439617</a></span></li>
+<li class="work-card"><strong><a href="/articles/ikona-halyard.html">„Икона Халијард”: један пример савременог конструисања српско-америчког савезништва у Другом светском рату</a></strong><br/><span lang="en">“Icon Halyard”: An Example of Contemporary Construction of the Serbian-American Alliance in World War II</span><span class="role">Главна веза: рат, пропаганда и култура сећања. / Primarily connected with the war and memory cluster.</span><span class="work-note">Рад анализира савремени меморијални предмет и начин на који се преко њега тумаче српско-америчко савезништво и мисија „Халијард”.</span><span class="work-note" lang="en">Here it is relevant as an analysis of the contemporary symbolic construction of a historical alliance, a visual memorial object and the public use of the wartime past.</span><span class="links"><a href="/articles/ikona-halyard.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139413207">Wikidata Q139413207</a></span></li>
+</ul>
+</section>
+<section id="reviewed-publications">
+<h2>Рецензирана издања / Reviewed Publications</h2>
+<div class="reviewed-box">
+<h3>Династичка култура, музејски предмети и представљање власти / Dynastic Culture, Museum Objects and the Representation of Power</h3>
+<p>Серија „Династија Обреновић у музејским и другим збиркама Србије / Србије и Европе”, књ. 1–7, овде је наведена због династичког наслеђа, музејских предмета, визуелне културе и јавног представљања власти. Милош Тимотијевић је у овим издањима учествовао као рецензент.</p>
+<p lang="en">The series <em>The Obrenović Dynasty in Museum and Other Collections of Serbia / Serbia and Europe</em>, Vols. 1–7, has a strong connection with this cluster because of dynastic heritage, museum objects, visual culture and the public representation of power. It is not listed here as an authored or core corpus, but as a reviewed series with a clear thematic connection to the symbolic representation of political authority.</p>
+<p><strong>Рецензентска улога / Reviewer role:</strong><br/>Милош Тимотијевић је повезан са овим издањима на нивоу рецензентске улоге.</p>
+<p lang="en"><strong>Reviewer role:</strong><br/>Miloš Timotijević is connected with these publications through his role as reviewer.</p>
+<table>
+<thead>
+<tr><th>Књига / Volume</th><th>Wikidata</th></tr>
+</thead>
+<tbody>
+<tr><td>Династија Обреновић у музејским и другим збиркама Србије. 1</td><td><a href="https://www.wikidata.org/wiki/Q138618382">Q138618382</a></td></tr>
+<tr><td>Династија Обреновић у музејским и другим збиркама Србије. 2</td><td><a href="https://www.wikidata.org/wiki/Q138637338">Q138637338</a></td></tr>
+<tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 3</td><td><a href="https://www.wikidata.org/wiki/Q138638440">Q138638440</a></td></tr>
+<tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 4</td><td><a href="https://www.wikidata.org/wiki/Q138642077">Q138642077</a></td></tr>
+<tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 5</td><td><a href="https://www.wikidata.org/wiki/Q138646011">Q138646011</a></td></tr>
+<tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 6</td><td><a href="https://www.wikidata.org/wiki/Q138649812">Q138649812</a></td></tr>
+<tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 7</td><td><a href="https://www.wikidata.org/wiki/Q138652424">Q138652424</a></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="related-themes">
+<h2>Сродне теме и попречне везе / Related Themes and Cross-Links</h2>
+<div class="related-grid"><div class="related-box">
+<h3>Музејска пракса и јавна историја / Museum Practice and Public History</h3>
+<p>Радови о музејским предметима, фотографији и изложбеним каталозима повезани су и са истраживањем културног наслеђа, музеја и јавне историје.</p>
+<p lang="en">Works on museum objects, photography and exhibition catalogues have a strong museum and heritage dimension. Their other important place is the cluster on cultural heritage, museums and public history.</p>
+<p><a href="/knowledge-graph/research/cultural-heritage-museums-public-history.html">Културно наслеђе, музеји и јавна историја / Cultural Heritage, Museums and Public History</a></p>
+</div><div class="related-box">
+<h3>Чачак и локална модерност / Čačak and Local Modernity</h3>
+<p>Радови о социјалистичком Чачку, Боју на Љубићу и кошарци главно место имају у студији локалне модерности, а овде су важни због фотографије, јавног простора, локалних симбола и градског идентитета.</p>
+<p lang="en">Works on Čačak in the era of socialism, the Battle of Ljubić and basketball are primarily connected with the Čačak cluster as a case study of local modernity. Here they are important when they analyze photography, public space, local symbols, sport and the cultural representation of urban identity.</p>
+<p><a href="/knowledge-graph/research/cacak-local-modernity-case-study.html">Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity</a></p>
+</div><div class="related-box">
+<h3>Национална идеологија и телесна култура / National Ideology and Physical Culture</h3>
+<p>Соколство и друге теме националне културе повезују ову страницу са истраживањем националне идеологије и интелектуалних расправа.</p>
+<p lang="en">Works on the Sokol movement, national symbols and cultural figures have a strong connection with the national ideology cluster. In this cluster, they are important when they show how national ideas are visualized, embodied, ritualized or transformed into public cultural authority.</p>
+<p><a href="/knowledge-graph/research/national-ideology-intellectual-debates.html">Национална идеологија и интелектуалне расправе / National Ideology and Intellectual Debates</a></p>
+</div><div class="related-box">
+<h3>Политички ритуали и спектакл / Political Rituals and Spectacle</h3>
+<p>„Усклици искреног одушевљења” главно место имају у истраживању политичких ритуала, али су овде важни због визуелног и свечаног представљања владарске власти.</p>
+<p lang="en"><em>Exclamations of Sincere Enthusiasm</em> primarily belongs to the cluster on political rituals and symbolic politics, but is retained here because of the visual, ceremonial and representational dimension of political spectacle.</p>
+<p><a href="/knowledge-graph/research/political-rituals-symbolic-politics.html">Политички ритуали и симболичка политика / Political Rituals and Symbolic Politics</a></p>
+</div><div class="related-box">
+<h3>Ратно памћење и представа о савезништву / War Memory and Representations of Alliance</h3>
+<p>Радови о мисији „Халијард” повезују ову страницу са истраживањем рата и културе сећања, посебно кроз савремено јавно тумачење савезништва.</p>
+<p lang="en">Publications on Operation Halyard primarily belong to the cluster on war, propaganda and memory. This page retains the part concerned with the contemporary symbolic construction of alliance and the public use of the wartime past.</p>
+<p><a href="/knowledge-graph/research/war-propaganda-memory.html">Рат, пропаганда и култура сећања / War, Propaganda and Memory</a></p>
+</div><div class="related-box">
+<h3>Религијски живот и сакрални простор / Religious Life and Sacred Space</h3>
+<p>Рад о манастиру Стјеник повезује културно памћење са религијским животом, сакралним простором и накнадно обликованим традицијама.</p>
+<p lang="en">The article on the Monastery of Stjenik at the foot of Jelica Mountain is primarily connected with the cluster on religious life and social practices. In this cluster, it is important because of sacred space, local piety, the nationalization of heritage and the invention of tradition.</p>
+<p><a href="/knowledge-graph/research/religious-life-social-practices.html">Религијски живот и друштвене праксе / Religious Life and Social Practices</a></p>
+</div></div>
 
-  <section>
-    <h2>Истраживачко питање / Research Question</h2>
-    <p>Како културни облици — уметничка дела, споменици, фотографије, ритуали, фестивали, спорт, медијске слике и сакрални наративи — постају носиоци националних, политичких и локалних значења у модерној српској култури?</p>
-    <p lang="en">How do cultural forms — artworks, monuments, photographs, rituals, festivals, sport, media images and sacred narratives — become carriers of national, political and local meanings in modern Serbian culture?</p>
-  </section>
 
-  <section>
-    <h2>Истраживачка теза / Research Claim</h2>
-    <p>Овај кластер показује да култура није само одраз већ постојећих националних или политичких идеја, већ активно поље у коме се те идеје обликују, визуализују, материјализују и претварају у јавне симболе.</p>
-    <p>Уметничка дела, споменици, фотографије, фестивали, спортске праксе, медијске слике и сакрални наративи не преносе само значења; они стварају ауторитет, производе памћење и одређују начин на који заједница види себе, своју прошлост и своје место у јавном простору.</p>
-    <p lang="en">This cluster shows that culture is not merely a reflection of pre-existing national or political ideas, but an active field in which such ideas are shaped, visualized, materialized and transformed into public symbols.</p>
-    <p lang="en">Artworks, monuments, photographs, festivals, sports practices, media images and sacred narratives do not merely transmit meanings; they create authority, produce memory and determine how a community sees itself, its past and its place in public space.</p>
-  </section>
 
-  <section>
-    <h2>Методологија / Methodological Focus</h2>
-    <p>Радови у овом кластеру повезују културну историју, историју уметности, историју национализма и теорије нације, студије визуелне културе, студије сећања, историју јавних споменика, историју фестивала и телесне културе, анализу медијских представа и истраживање измишљених традиција.</p>
-    <p>Посебно је важан однос између предмета, слике, простора, ритуала, тела, медија, националних идеја и јавног значења.</p>
-    <p lang="en">The works in this cluster combine cultural history, art history, the history of nationalism and theories of nationhood, visual culture studies, memory studies, the history of public monuments, the history of festivals and physical culture, the analysis of media representations and the study of invented traditions.</p>
-    <p lang="en">Particularly important is the relationship between objects, images, space, ritual, the body, media, national ideas and public meaning.</p>
-  </section>
 
-  <section>
-    <h2>Оријентациони оквир / Analytical Scope</h2>
-    <p><strong>Период:</strong><br>XIX–XXI век, са тежиштем на модерној и савременој српској култури.</p>
-    <p><strong>Простор:</strong><br>Србија, Чачак, западна Србија и шири југословенски и балкански контекст; у појединим радовима и европски музејски, медијски и колекционарски оквир.</p>
-    <p><strong>Главне теме:</strong><br>уметност и нација, југословенство, модернизам, културни национализам, конструкција идентитета, Иван Мештровић, визуелна култура, јавни споменици, фотографија, династичка репрезентација, јавни ритуали, фестивали, телесна култура, спорт, медијске слике, сакрални простор, измишљене традиције, локални идентитет и културни ауторитет.</p>
-    <p><strong>Главни проблем:</strong><br>како културни облици, предмети, слике, ритуали и медијске представе постају носиоци националних, политичких и локалних значења.</p>
-    <p lang="en"><strong>Period:</strong><br>The nineteenth to the twenty-first century, with a focus on modern and contemporary Serbian culture.</p>
-    <p lang="en"><strong>Geographical focus:</strong><br>Serbia, Čačak, western Serbia and the wider Yugoslav and Balkan context; in some works, also European museum, media and collecting contexts.</p>
-    <p lang="en"><strong>Main themes:</strong><br>art and nation, Yugoslavism, modernism, cultural nationalism, identity construction, Ivan Meštrović, visual culture, public monuments, photography, dynastic representation, public rituals, festivals, physical culture, sport, media images, sacred space, invented traditions, local identity and cultural authority.</p>
-    <p lang="en"><strong>Main problem:</strong><br>how cultural forms, objects, images, rituals and media representations become carriers of national, political and local meanings.</p>
-  </section>
 
-  <section>
-    <h2>Функција кластера / Function of the Cluster</h2>
-    <p>Ова страница функционише као тематски чвор у ауторовом графу знања. Њена улога је да повеже приступне стране публикација, Wikidata ставке, DOI и репозиторијумске записе, као и шири истраживачки оквир у читљиву целину.</p>
-    <p>Публикације су распоређене тако да се јасно разликују носеће публикације, публикације са снажном репрезентацијском димензијом и попречне везе са другим кластерима.</p>
-    <p lang="en">This page functions as a thematic node in the author’s knowledge graph. Its role is to connect publication landing pages, Wikidata items, DOI and repository records, as well as the broader research framework, into a readable structure.</p>
-    <p lang="en">Publications are arranged so that core publications, works with a strong representational dimension and cross-links with other clusters are clearly distinguished.</p>
-  </section>
+</section>
+<section id="research-themes">
+<h2>Истраживачке теме / Research Themes</h2>
+<p>Публикације повезују уметност и нацију, југословенство, модернизам, јавне споменике, фотографију, фестивале, спорт, медијске представе, сакрални простор и измишљене традиције са питањима националног, политичког и локалног идентитета.</p>
+<p lang="en">The cluster connects research on art, Yugoslavism, modernism, public symbols, monuments, photography, festivals, sport, media images, sacred space and invented traditions as forms of producing national, political, supranational and local meanings.</p>
+</section>
+<section id="keywords">
+<h2>Кључне речи / Keywords</h2>
+<p class="keywords">култура; национализам; симболичка репрезентација; визуелна култура; национални симболи; уметност и нација; југословенство; модернизам; културни национализам; конструкција идентитета; Иван Мештровић; етносимболички инжењеринг; јавни споменици; музејске колекције; династија Обреновић; Надежда Петровић; фотографија; јавни ритуали; репрезентативна култура; фестивали; телесна култура; соколство; спорт; кошарка; медијске слике; измишљене традиције; сакрални простор; културни ауторитет; Чачак</p>
+<p class="keywords" lang="en">culture; nationalism; symbolic representation; visual culture; national symbols; art and nation; Yugoslavism; modernism; cultural nationalism; identity construction; Ivan Meštrović; ethno-symbolic engineering; public monuments; museum collections; Obrenović dynasty; Nadežda Petrović; photography; public rituals; official culture of representation; festivals; physical culture; Sokol movement; sport; basketball; media images; invented traditions; sacred space; cultural authority; Čačak</p>
+</section>
+<section id="citation">
+<h2>Предлог цитирања / Suggested Citation</h2>
+<div class="citation">
+<p>Милош Тимотијевић, „Култура, национализам и симболичка репрезентација”, лични научни сајт, приступљено [датум], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html">https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html</a>.</p>
+<p lang="en">Miloš Timotijević, “Culture, Nationalism and Symbolic Representation,” personal scholarly website, accessed [date], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html">https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html</a>.</p>
+</div>
+</section>
+<p>О методологији повезивања публикација, тема и дигиталних идентификатора видети: <a href="/knowledge-graph/method.html">Метод / Method</a>.</p>
+<p class="updated">Последње ажурирање / Last updated: 24. јул 2026 / 24 July 2026</p><p class="back-link"><a href="#top">↑ На врх / Back to top</a><br/>
+<a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a><br/>
+<a href="/">← Назад на главну страну / Back to the main page</a></p>
 
-  <section class="framework-box">
-    <h2>Шири истраживачки оквир / Broader Research Framework</h2>
-    <p>Овај кластер је део ширег оквира „Локална модерност и симболичка моћ у југоисточној Европи”. Док кровни оквир повезује различите облике модерности, јавног простора, симболичке моћи, културе сећања, музејске праксе и јавне историје, ова страница издваја културу као поље у коме се симболичка моћ визуализује, материјализује, ритуализује и институционално преноси.</p>
-    <p lang="en">This cluster is part of the broader framework “Local Modernity and Symbolic Power in Southeast Europe”. While the umbrella framework connects different forms of modernity, public space, symbolic power, memory culture, museum practice and public history, this page highlights culture as a field in which symbolic power is visualized, materialized, ritualized and institutionally transmitted.</p>
-    <p><a href="/knowledge-graph/research/local-modernity-symbolic-power.html">Локална модерност и симболичка моћ у југоисточној Европи / Local Modernity and Symbolic Power in Southeast Europe</a></p>
-  </section>
 
-  <section class="identifier-box">
-    <h2>Идентификатори и повезивање / Identifiers and Linking</h2>
-    <p>Следећи идентификатори повезују овај кластер са спољним системима за научну видљивост, машинско читање и отворене податке.</p>
-    <p lang="en">The following identifiers connect this cluster with external systems for scholarly visibility, machine readability and open data.</p>
-    <ul>
-      <li><strong>Wikidata cluster:</strong> <a href="https://www.wikidata.org/wiki/Q139569852">Q139569852 — Culture, Nationalism and Symbolic Representation</a></li>
-      <li><strong>Broader Wikidata framework:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155 — Local Modernity and Symbolic Power in Southeast Europe</a></li>
-      <li><strong>Author:</strong> <a href="https://orcid.org/0000-0002-0457-6125">Miloš Timotijević — ORCID 0000-0002-0457-6125</a>; <a href="https://www.wikidata.org/wiki/Q112514230">Wikidata Q112514230</a></li>
-    </ul>
-  </section>
-
-  <section class="note">
-    <p>Ова страница не окупља све радове који се могу назвати „културним”. У њу су укључене публикације у којима културни облици постају јавни симболи и носиоци националног, политичког, локалног или меморијалног значења.</p>
-    <p lang="en">This page does not gather all works that could be described as “cultural”. It includes publications in which cultural forms become public symbols and carriers of national, political, local or memorial meaning.</p>
-  </section>
-
-  <section>
-    <h2>Носеће публикације / Core Publications</h2>
-
-    <div class="note">
-      <p>Носеће публикације распоређене су у четири подцелине: уметност, нација и културни ауторитет; фестивал, спектакл и производња традиције; локална репрезентативна култура; медијске, геополитичке и сакралне конструкције.</p>
-      <p lang="en">Core publications are arranged into four sections: art, nation and cultural authority; festival, spectacle and the production of tradition; local representative culture; and media, geopolitical and sacred constructions.</p>
-    </div>
-
-    <h3>Уметност, нација и културни ауторитет / Art, Nation and Cultural Authority</h3>
-    <p>Ова целина представља језгро кластера јер показује како уметничка биографија, модерна уметност, југословенски културни пројекат, јавни споменик и постхумна меморијализација могу произвести националну фигуру, наднационални симбол и трајни културни ауторитет.</p>
-    <p lang="en">This section forms the core of the cluster because it shows how an artistic biography, modern art, the Yugoslav cultural project, a public monument and posthumous memorialization can produce a national figure, a supranational symbol and lasting cultural authority.</p>
-    <ul class="work-list">
-      <li><strong><a href="/books/nadezda-petrovic-life-art-service-nation.html">Надежда Петровић: живот и уметност у служби нације</a></strong><br><span lang="en">Nadežda Petrović: Life and Art in the Service of the Nation</span><span class="role">Примарна улога: носећа монографија овог кластера / Primary role: core monograph of this cluster.</span><span class="work-note">Монографија анализира Надежду Петровић као уметницу, националну фигуру, јавни симбол и део културе сећања.</span><span class="work-note" lang="en">The monograph analyzes Nadežda Petrović as an artist, a national figure, a public symbol and part of memory culture.</span><span class="links"><a href="/books/nadezda-petrovic-life-art-service-nation.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138001364">Wikidata Q138001364</a></span></li>
-      <li>
-        <strong><a href="/articles/jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta.html">Југословенско опредељење Надежде Петровић: култура, модернизам и конструкција идентитета</a></strong><br>
-        <span lang="en">The Yugoslav Orientation of Nadežda Petrović: Culture, Modernism, and the Construction of Identity</span>
-        <span class="role">Примарна улога: југословенство, модерна уметност и конструкција наднационалног идентитета / Primary role: Yugoslavism, modern art and the construction of supranational identity.</span>
-        <span class="work-note">Рад анализира како је Надежда Петровић српску традицију, модерну уметност и сарадњу са Иваном Мештровићем користила за обликовање југословенског културног пројекта и нових идентитетских модела.</span>
-        <span class="work-note" lang="en">The article analyzes how Nadežda Petrović used Serbian tradition, modern art and cooperation with Ivan Meštrović to shape the Yugoslav cultural project and new models of identity.</span>
-        <span class="links"><a href="/articles/jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta.html">Landing page</a> · <a href="https://doi.org/10.65627/zrnmuc.2026.56.2">DOI</a> · <a href="https://www.wikidata.org/wiki/Q140353418">Wikidata Q140353418</a></span>
-      </li>
-      <li><strong><a href="/articles/politika-umetnost-stvaranje-tradicija.html">Политика, уметност и стварање традиција: подизање споменика Надежди Петровић у Чачку 1955. године</a></strong><br><span lang="en">Politics, Art and the Creation of Traditions: The Erection of the Nadežda Petrović Monument in Čačak in 1955</span><span class="role">Примарна улога: јавни споменик као културна репрезентација / Primary role: public monument as cultural representation.</span><span class="work-note">Рад повезује уметност, јавни споменик, локалну меморијализацију и стварање културног ауторитета.</span><span class="work-note" lang="en">The article connects art, the public monument, local memorialization and the creation of cultural authority.</span><span class="links"><a href="/articles/politika-umetnost-stvaranje-tradicija.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138824150">Wikidata Q138824150</a></span></li>
-      <li><strong><a href="/articles/heroizacija-nadezde-petrovic.html">Хероизација сликарке Надежде Петровић (1915–1941)</a></strong><br><span lang="en">Heroization of the Painter Nadežda Petrović (1915–1941)</span><span class="role">Примарна улога: хероизација уметнице као националног и меморијалног симбола / Primary role: heroization of the artist as a national and memorial symbol.</span><span class="work-note">Рад анализира процес претварања уметнице у национални, морални и меморијални симбол.</span><span class="work-note" lang="en">The article analyzes the process through which the artist was transformed into a national, moral and memorial symbol.</span><span class="links"><a href="/articles/heroizacija-nadezde-petrovic.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139593533">Wikidata Q139593533</a></span></li>
-    </ul>
-
-    <h3>Фестивал, спектакл и производња традиције / Festival, Spectacle and the Production of Tradition</h3>
-    <p>Ова целина издваја фестивал као културни механизам кроз који локална пракса може постати национални симбол, медијски спектакл и место производње представа о народу, традицији и културној аутентичности.</p>
-    <p lang="en">This section highlights the festival as a cultural mechanism through which a local practice can become a national symbol, a media spectacle and a site for producing ideas of the people, tradition and cultural authenticity.</p>
-    <ul class="work-list">
-      <li><strong><a href="/books/karneval-u-guci.html">Karneval u Guči: Sabor trubača 1961–2004</a></strong><br><span lang="en">Carnival in Guča: Trumpet Festival 1961–2004</span><span class="role">Примарна улога: фестивал као симболичка репрезентација / Primary role: festival as symbolic representation.</span><span class="work-note">Књига је важна за овај кластер јер показује како један локални фестивал постаје национални симбол, медијски спектакл и место производње представа о народу, традицији и културној аутентичности.</span><span class="work-note" lang="en">The book is important for this cluster because it shows how a local festival becomes a national symbol, a media spectacle and a site for producing ideas of the people, tradition and cultural authenticity.</span><span class="links"><a href="/books/karneval-u-guci.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138912053">Wikidata Q138912053</a></span></li>
-    </ul>
-
-    <h3>Локална репрезентативна култура и јавни симболи / Local Representative Culture and Public Symbols</h3>
-    <p>Ова целина прати начине на које локални историјски догађаји, меморијални простори и јавни симболи постају део званичне културе града и његовог колективног идентитета.</p>
-    <p lang="en">This section follows the ways in which local historical events, memorial spaces and public symbols become part of a town’s official culture and collective identity.</p>
-    <ul class="work-list">
-      <li><strong><a href="/conference-papers/boj-na-ljubicu-reprezentativna-kultura-cacka.html">„Бој на Љубићу у званичној репрезентативној култури Чачка током XIX и XX века”</a></strong><br><span lang="en">The Battle of Ljubić in the Official Representative Culture of Čačak in the 19th and 20th Centuries</span><span class="role">Примарна улога: локална репрезентативна култура и култура сећања / Primary role: local representative culture and memory culture.</span><span class="work-note">Рад анализира како су Бој на Љубићу, Танаско Рајић и меморијални простор брда Љубић постали део званичне локалне културе, јавних симбола, комеморативних пракси и политичке репрезентације.</span><span class="work-note" lang="en">The article analyzes how the Battle of Ljubić, Tanasko Rajić and the memorial space of Ljubić Hill became part of official local culture, public symbols, commemorative practices and political representation.</span><span class="links"><a href="/conference-papers/boj-na-ljubicu-reprezentativna-kultura-cacka.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138748192">Wikidata Q138748192</a></span></li>
-    </ul>
-
-    <h3>Медијске слике, простор и савремене конструкције / Media Images, Space and Contemporary Constructions</h3>
-    <p>Ова целина окупља различите, али тематски повезане примере симболичке репрезентације: медијску производњу геополитичког простора, савремено обликовање ратног савезништва и накнадно конструисање сакралне традиције.</p>
-    <p lang="en">This section brings together different, but thematically connected, examples of symbolic representation: the media production of geopolitical space, the contemporary shaping of wartime alliance and the later construction of sacred tradition.</p>
-    <ul class="work-list">
-      <li><strong><a href="/articles/balkanski-savez-1953-1954-jugoslovenska-medijska-slika.html">Balkanski savez 1953–1954. i jugoslovenska medijska slika političkog i geografskog okruženja</a></strong><br><span lang="en">The Balkan Alliance 1953–1954 and the Yugoslav Media Image of the Political and Geographical Environment</span><span class="role">Примарна улога: медијска слика политичког и географског окружења / Primary role: media image of the political and geographical environment.</span><span class="work-note">Рад показује како југословенска штампа у контексту Хладног рата обликује представе о савезништвима, суседству, Балкану, безбедности и политичком позиционирању простора.</span><span class="work-note" lang="en">The article shows how the Yugoslav press, in the context of the Cold War, shaped representations of alliances, neighboring countries, the Balkans, security and the political positioning of space.</span><span class="links"><a href="/articles/balkanski-savez-1953-1954-jugoslovenska-medijska-slika.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139496049">Wikidata Q139496049</a></span></li>
-      <li><strong><a href="/articles/manastir-stjenik-pod-jelicom.html">Манастир Стјеник под Јелицом: стварна и измишљена традиција</a></strong><br><span lang="en">Monastery of Stjenik at the Foot of Jelica Mountain: Real and Invented Traditions</span><span class="role">Попречна веза са кластером о религијском животу / Cross-link with the religious life cluster.</span><span class="work-note">Овде је релевантан као анализа измишљања традиције, национализације сакралног наслеђа, локалне побожности и симболичког конструисања историјског легитимитета.</span><span class="work-note" lang="en">Here it is relevant as an analysis of the invention of tradition, the nationalization of sacred heritage, local piety and the symbolic construction of historical legitimacy.</span><span class="links"><a href="/articles/manastir-stjenik-pod-jelicom.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139512370">Wikidata Q139512370</a></span></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Публикације са снажном репрезентацијском димензијом / Publications with a Strong Representational Dimension</h2>
-    <p>Следеће публикације имају примарно место у другим кластерима, али су овде задржане као важне попречне везе јер показују како фотографија, политички ритуали, телесна култура, спорт и савремена меморијализација производе јавне симболе и колективне представе.</p>
-    <p lang="en">The following publications have their primary place in other clusters, but are retained here as important cross-links because they show how photography, political rituals, physical culture, sport and contemporary memorialization produce public symbols and collective representations.</p>
-    <ul class="work-list">
-      <li><strong><a href="/catalogues/cacak-u-doba-socijalizma.html">Чачак у доба социјализма: (1944–1990): фотографија као репрезент политичке моћи</a></strong><br><span lang="en">Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power</span><span class="role">Примарно повезано са кластером о Чачку и музејском јавном историјом / Primarily connected with the Čačak local modernity cluster and museum-based public history.</span><span class="work-note">Овде је значајно као анализа фотографије, визуелне културе и јавне репрезентације политичке моћи у социјалистичкој локалној средини.</span><span class="work-note" lang="en">Here it is significant as an analysis of photography, visual culture and the public representation of political power in a socialist local setting.</span><span class="links"><a href="/catalogues/cacak-u-doba-socijalizma.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139332468">Wikidata Q139332468</a></span></li>
-      <li><strong><a href="/books/usklici-iskrenog-odusevljenja.html">Усклици искреног одушевљења: ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године</a></strong><br><span lang="en">Exclamations of Sincere Enthusiasm: The Ephemeral Spectacle and the Journey of King Alexander and Queen Draga Obrenović through Serbia in 1901</span><span class="role">Примарно повезано са кластером о политичким ритуалима / Primarily connected with the political rituals cluster.</span><span class="work-note">Овде је релевантно због ефемерног спектакла, јавних свечаности, династичке репрезентације, визуелног обликовања лојалности и културне производње политичког ауторитета.</span><span class="work-note" lang="en">Here it is relevant because of ephemeral spectacle, public ceremonies, dynastic representation, the visual shaping of loyalty and the cultural production of political authority.</span><span class="links"><a href="/books/usklici-iskrenog-odusevljenja.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138005790">Wikidata Q138005790</a></span></li>
-      <li><strong><a href="/books/sokoli-cacka.html">Соколи Чачка 1910–1941.</a></strong><br><span lang="en">The Sokol Movement in Čačak, 1910–1941</span><span class="role">Примарно повезано са кластером о националној идеологији / Primarily connected with the national ideology cluster.</span><span class="work-note">Публикација је овде релевантна због телесне културе, јавних симбола, грађанске репрезентације, националне мобилизације и производње колективног идентитета.</span><span class="work-note" lang="en">The publication is relevant here because of physical culture, public symbols, civic representation, national mobilization and the production of collective identity.</span><span class="links"><a href="/books/sokoli-cacka.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139255236">Wikidata Q139255236</a></span></li>
-      <li><strong><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Како је Чачак постао град кошарке 1945–1969: спорт и идентитет</a></strong><br><span lang="en">How Čačak Became the City of Basketball, 1945–1969: Sport and Identity</span><span class="role">Примарно повезано са кластером о Чачку / Primarily connected with the Čačak local modernity cluster.</span><span class="work-note">Књига је овде релевантна јер спорт посматра као симболички ресурс локалног идентитета, јавне репрезентације и препознатљивости Чачка као „града кошарке”.</span><span class="work-note" lang="en">The book is relevant here because it treats sport as a symbolic resource of local identity, public representation and the recognition of Čačak as the “city of basketball”.</span><span class="links"><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139439617">Wikidata Q139439617</a></span></li>
-      <li><strong><a href="/articles/ikona-halyard.html">„Икона Халијард”: један пример савременог конструисања српско-америчког савезништва у Другом светском рату</a></strong><br><span lang="en">“Icon Halyard”: An Example of Contemporary Construction of the Serbian-American Alliance in World War II</span><span class="role">Примарно повезано са ратним кластером / Primarily connected with the war and memory cluster.</span><span class="work-note">Овде је релевантно као анализа савремене симболичке конструкције историјског савезништва, визуелног меморијалног објекта и јавне употребе ратне прошлости.</span><span class="work-note" lang="en">Here it is relevant as an analysis of the contemporary symbolic construction of a historical alliance, a visual memorial object and the public use of the wartime past.</span><span class="links"><a href="/articles/ikona-halyard.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139413207">Wikidata Q139413207</a></span></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Рецензирани корпус / Reviewed Corpus</h2>
-    <div class="reviewed-box">
-      <h3>Династичка култура, музејски предмети и репрезентација власти / Dynastic Culture, Museum Objects and the Representation of Power</h3>
-      <p>Серија <em>Династија Обреновић у музејским и другим збиркама Србије / Србије и Европе</em>, књ. 1–7, има снажну везу са овим кластером због династичког наслеђа, музејских предмета, визуелне културе и јавне репрезентације власти. Овде се не наводи као ауторски или носећи корпус, већ као рецензирана серија са јасном тематском везом са симболичким представљањем политичког ауторитета.</p>
-      <p lang="en">The series <em>The Obrenović Dynasty in Museum and Other Collections of Serbia / Serbia and Europe</em>, Vols. 1–7, has a strong connection with this cluster because of dynastic heritage, museum objects, visual culture and the public representation of power. It is not listed here as an authored or core corpus, but as a reviewed series with a clear thematic connection to the symbolic representation of political authority.</p>
-      <p><strong>Рецензентска улога / Reviewer role:</strong><br>Милош Тимотијевић је повезан са овим издањима на нивоу рецензентске улоге.</p>
-      <p lang="en"><strong>Reviewer role:</strong><br>Miloš Timotijević is connected with these publications through his role as reviewer.</p>
-      <table>
-        <thead>
-          <tr><th>Књига / Volume</th><th>Wikidata</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Династија Обреновић у музејским и другим збиркама Србије. 1</td><td><a href="https://www.wikidata.org/wiki/Q138618382">Q138618382</a></td></tr>
-          <tr><td>Династија Обреновић у музејским и другим збиркама Србије. 2</td><td><a href="https://www.wikidata.org/wiki/Q138637338">Q138637338</a></td></tr>
-          <tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 3</td><td><a href="https://www.wikidata.org/wiki/Q138638440">Q138638440</a></td></tr>
-          <tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 4</td><td><a href="https://www.wikidata.org/wiki/Q138642077">Q138642077</a></td></tr>
-          <tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 5</td><td><a href="https://www.wikidata.org/wiki/Q138646011">Q138646011</a></td></tr>
-          <tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 6</td><td><a href="https://www.wikidata.org/wiki/Q138649812">Q138649812</a></td></tr>
-          <tr><td>Династија Обреновић у музејским и другим збиркама Србије и Европе. 7</td><td><a href="https://www.wikidata.org/wiki/Q138652424">Q138652424</a></td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>Сродни радови и попречне везе / Related Works and Cross-Links</h2>
-
-    <div class="related-box">
-      <h3>Музејска пракса и јавна историја / Museum Practice and Public History</h3>
-      <p>Радови о музејским предметима, фотографији и изложбеним каталозима имају снажну музејску и баштинску димензију. Њихово друго важно место је кластер о културном наслеђу, музејима и јавној историји.</p>
-      <p lang="en">Works on museum objects, photography and exhibition catalogues have a strong museum and heritage dimension. Their other important place is the cluster on cultural heritage, museums and public history.</p>
-      <p><a href="/knowledge-graph/research/cultural-heritage-museums-public-history.html">Културно наслеђе, музеји и јавна историја / Cultural Heritage, Museums and Public History</a></p>
-    </div>
-
-    <div class="related-box">
-      <h3>Чачак и локална модерност / Čačak and Local Modernity</h3>
-      <p>Радови о Чачку у доба социјализма, Бојy на Љубићу и кошарци примарно су повезани са кластером о Чачку као студији случаја локалне модерности. Овде су важни онда када анализирају фотографију, јавни простор, локалне симболе, спорт и културну репрезентацију градског идентитета.</p>
-      <p lang="en">Works on Čačak in the era of socialism, the Battle of Ljubić and basketball are primarily connected with the Čačak cluster as a case study of local modernity. Here they are important when they analyze photography, public space, local symbols, sport and the cultural representation of urban identity.</p>
-      <p><a href="/knowledge-graph/research/cacak-local-modernity-case-study.html">Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity</a></p>
-    </div>
-
-    <div class="related-box">
-      <h3>Национална идеологија и телесна култура / National Ideology and Physical Culture</h3>
-      <p>Радови о соколству, националним симболима и културним фигурама имају јаку везу са кластером о националној идеологији. У овом кластеру важни су онда када показују како се националне идеје визуализују, утеловљују, ритуализују или претварају у јавни културни ауторитет.</p>
-      <p lang="en">Works on the Sokol movement, national symbols and cultural figures have a strong connection with the national ideology cluster. In this cluster, they are important when they show how national ideas are visualized, embodied, ritualized or transformed into public cultural authority.</p>
-      <p><a href="/knowledge-graph/research/national-ideology-intellectual-debates.html">Национална идеологија и интелектуалне расправе / National Ideology and Intellectual Debates</a></p>
-    </div>
-
-    <div class="related-box">
-      <h3>Политички ритуали и спектакл / Political Rituals and Spectacle</h3>
-      <p><em>Усклици искреног одушевљења</em> примарно припадају кластеру о политичким ритуалима и симболичкој политици, али су овде задржани због визуелне, свечане и репрезентацијске димензије политичког спектакла.</p>
-      <p lang="en"><em>Exclamations of Sincere Enthusiasm</em> primarily belongs to the cluster on political rituals and symbolic politics, but is retained here because of the visual, ceremonial and representational dimension of political spectacle.</p>
-      <p><a href="/knowledge-graph/research/political-rituals-symbolic-politics.html">Политички ритуали и симболичка политика / Political Rituals and Symbolic Politics</a></p>
-    </div>
-
-    <div class="related-box">
-      <h3>Ратна меморија и конструкција савезништва / War Memory and Alliance Construction</h3>
-      <p>Публикације о мисији „Халијард” примарно припадају кластеру о рату, пропаганди и култури сећања. Овде остаје онај део који се бави савременом симболичком конструкцијом савезништва и јавном употребом ратне прошлости.</p>
-      <p lang="en">Publications on Operation Halyard primarily belong to the cluster on war, propaganda and memory. This page retains the part concerned with the contemporary symbolic construction of alliance and the public use of the wartime past.</p>
-      <p><a href="/knowledge-graph/research/war-propaganda-memory.html">Рат, пропаганда и култура сећања / War, Propaganda and Memory</a></p>
-    </div>
-
-    <div class="related-box">
-      <h3>Религијски живот и сакрални простор / Religious Life and Sacred Space</h3>
-      <p>Рад о Манастиру Стјенику под Јелицом примарно је повезан са кластером о религијском животу и друштвеним праксама. У овом кластеру је важан због сакралног простора, локалне побожности, национализације наслеђа и измишљања традиције.</p>
-      <p lang="en">The article on the Monastery of Stjenik at the foot of Jelica Mountain is primarily connected with the cluster on religious life and social practices. In this cluster, it is important because of sacred space, local piety, the nationalization of heritage and the invention of tradition.</p>
-      <p><a href="/knowledge-graph/research/religious-life-social-practices.html">Религијски живот и друштвене праксе / Religious Life and Social Practices</a></p>
-    </div>
-  </section>
-
-  <section>
-    <h2>Кључне теме / Research Themes</h2>
-    <p>Кластер повезује истраживања о уметности, југословенству, модернизму, јавним симболима, споменицима, фотографији, фестивалима, спорту, медијским сликама, сакралном простору и измишљеним традицијама као облицима производње националних, политичких, наднационалних и локалних значења.</p>
-    <p lang="en">The cluster connects research on art, Yugoslavism, modernism, public symbols, monuments, photography, festivals, sport, media images, sacred space and invented traditions as forms of producing national, political, supranational and local meanings.</p>
-  </section>
-
-  <section>
-    <h2>Кључне речи / Keywords</h2>
-    <p class="keywords">култура; национализам; симболичка репрезентација; визуелна култура; национални симболи; уметност и нација; југословенство; модернизам; културни национализам; конструкција идентитета; Иван Мештровић; етносимболички инжењеринг; јавни споменици; музејске колекције; династија Обреновић; Надежда Петровић; фотографија; јавни ритуали; репрезентативна култура; фестивали; телесна култура; соколство; спорт; кошарка; медијске слике; измишљене традиције; сакрални простор; културни ауторитет; Чачак</p>
-    <p class="keywords" lang="en">culture; nationalism; symbolic representation; visual culture; national symbols; art and nation; Yugoslavism; modernism; cultural nationalism; identity construction; Ivan Meštrović; ethno-symbolic engineering; public monuments; museum collections; Obrenović dynasty; Nadežda Petrović; photography; public rituals; official culture of representation; festivals; physical culture; Sokol movement; sport; basketball; media images; invented traditions; sacred space; cultural authority; Čačak</p>
-  </section>
-
-  <section>
-    <h2>Предлог цитирања / Suggested Citation</h2>
-    <div class="citation">
-      <p>Милош Тимотијевић, „Култура, национализам и симболичка репрезентација: истраживачки кластер”, лични научни сајт, приступљено [датум], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html">https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html</a></p>
-      <p lang="en">Miloš Timotijević, “Culture, Nationalism and Symbolic Representation: Research Cluster,” personal scholarly website, accessed [date], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html">https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html</a></p>
-    </div>
-  </section>
-
-  <p>
-    О методологији повезивања публикација, тема, кластера и дигиталних идентификатора видети: <a href="/knowledge-graph/method.html">Метод / Method</a>. 
-  </p>
-
-  <p class="back-link"><a href="#top">↑ На врх / Back to top</a></p>
-  <p><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
-  <p><a href="/">← Назад на главну страницу / Back to the main page</a></p>
-  </main>
+</main>
 </body>
 </html>
