@@ -1,182 +1,352 @@
-<!doctype html>
-<html lang="sr">
+
+<!DOCTYPE html>
+
+<html lang="sr-Cyrl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Уреднички, рецензентски и стручни рад / Editorial, Reviewing and Professional Service</title>
-
-  <meta name="robots" content="index, follow">
-  <meta name="description" content="Преглед уредничког, рецензентског и стручног рада Милоша Тимотијевића: уређивање Зборника радова Народног музеја у Чачку, рад у редакцијама, рецензије књига других аутора и чланство у комисијама.">
-  <link rel="canonical" href="https://milos-timotijevic.github.io/professional-service/">
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Уреднички, рецензентски и стручни рад / Editorial, Reviewing and Professional Service</title>
+<meta content="index, follow" name="robots"/>
+<meta content="Преглед уредничког, рецензентског и стручног рада Милоша Тимотијевића: уређивање Зборника радова Народног музеја у Чачку, рад у редакцијама, рецензије књига других аутора и чланство у комисијама." name="description"/>
+<link href="https://milos-timotijevic.github.io/professional-service/" rel="canonical"/>
+<style>
+  :root {
+    --text: #111;
+    --muted: #555;
+    --line: #dedede;
+    --link: #0645ad;
+    --link-hover: #04357f;
+    --panel: #eeeeee;
+    --card: #fff;
+    --soft: #f8f8f8;
+    --border: #d2d2d2;
+  }
+  
+  * { box-sizing: border-box; }
+  
+  html {
+    background: #fff;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 42px 28px 30px;
+    color: var(--text);
+    background: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.58;
+  }
+  
+  h1, h2, h3, h4 {
+    color: var(--text);
+    line-height: 1.25;
+  }
+  
+  h1 {
+    margin: 0 0 .08rem;
+    font-size: 2.05rem;
+  }
+  
+  h2 {
+    margin: 0 0 .85rem;
+    padding-bottom: .32rem;
+    border-bottom: 1px solid var(--line);
+    font-size: 1.45rem;
+  }
+  
+  h3 {
+    margin: 1.1rem 0 .45rem;
+    font-size: 1.08rem;
+  }
+  
+  p { margin: .68rem 0; }
+  ol, ul { padding-left: 1.4rem; }
+  li { margin: .42rem 0; }
+  
+  a {
+    color: var(--link);
+    text-decoration: none;
+    text-underline-offset: .15em;
+  }
+  
+  a:hover,
+  a:focus-visible {
+    color: var(--link-hover);
+    text-decoration: underline;
+  }
+  
+  section[id] { scroll-margin-top: 1rem; }
+  
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -5rem;
+    z-index: 1000;
+    padding: .55rem .75rem;
+    border: 2px solid var(--link);
+    color: #fff;
+    background: var(--link);
+  }
+  
+  .skip-link:focus {
+    top: 1rem;
+    color: #fff;
+  }
+  
+  .page-header {
+    padding-bottom: 1.1rem;
+    border-bottom: 1px solid var(--line);
+  }
+  
+  .back-link {
+    margin: 0 0 1.1rem;
+    padding: 0;
+    border: 0;
+    font-size: .94rem;
+  }
+  
+  .name-latin {
+    margin: .18rem 0;
+    color: var(--muted);
+    font-size: 1rem;
+  }
+  
+  .subtitle {
+    margin: .45rem 0 0;
+    color: #444;
+    font-size: 1rem;
+  }
+  
+  .site-nav {
+    margin: 1.25rem 0 1.45rem;
+    padding: .9rem 1rem;
+    border: 1px solid var(--border);
+    background: var(--panel);
+  }
+  
+  .site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .site-nav li { margin: 0; }
+  
+  .intro-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.35rem 0;
+  }
+  
+  .intro-card,
+  .reading-card,
+  .visibility-box,
+  .note,
+  .identifier-box {
+    padding: 1rem 1.1rem;
+    border-left: 4px solid #bbb;
+    background: var(--soft);
+  }
+  
+  .intro-card h2,
+  .reading-card h2,
+  .visibility-box h3,
+  .note h3,
+  .identifier-box h2 {
+    margin-top: 0;
+  }
+  
+  .intro-card p,
+  .reading-card p,
+  .visibility-box p,
+  .note p,
+  .identifier-box p {
+    margin: .4rem 0;
+  }
+  
+  .reading-card {
+    margin: 0 0 1.35rem;
+  }
+  
+  .overview-panel {
+    margin: 1.35rem 0 1.8rem;
+    padding: 1.1rem;
+    border: 1px solid var(--border);
+    background: var(--panel);
+  }
+  
+  .overview-panel > h2 {
+    border-bottom-color: #c8c8c8;
+  }
+  
+  .small-note {
+    color: var(--muted);
+    font-size: .95rem;
+  }
+  
+  .cluster-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .cluster-card {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    background: var(--card);
+  }
+  
+  .cluster-card h3 { margin-top: 0; }
+  .cluster-card p { margin: .45rem 0; }
+  .cluster-card p[lang="en-GB"] { color: var(--muted); }
+  
+  .links {
+    display: block;
+    margin-top: .5rem;
+    color: #444;
+    font-size: .94rem;
+    overflow-wrap: anywhere;
+  }
+  
+  .service-section {
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--line);
+  }
+  
+  .service-section > h2 { margin-top: 0; }
+  
+  .editorial-list,
+  .committee-list,
+  .review-list,
+  .project-list {
+    margin-top: 1rem;
+  }
+  
+  .editorial-list > li,
+  .committee-list > li,
+  .review-list > li {
+    margin-bottom: 1rem;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid #ececec;
+  }
+  
+  .editorial-list > li:last-child,
+  .committee-list > li:last-child,
+  .review-list > li:last-child {
+    border-bottom: 0;
+  }
+  
+  .long-list {
+    margin: 1rem 0 0;
+    padding: .9rem 1rem;
+    border: 1px solid var(--border);
+    background: #fbfbfb;
+  }
+  
+  .long-list summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .project-list {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+  
+  .project-list > li {
+    margin: 1rem 0;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--border);
+    background: #fbfbfb;
+  }
+  
+  .back-to-top {
+    margin: .8rem 0 0;
+    font-size: .9rem;
+    text-align: right;
+  }
+  
+  .utility-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .site-links {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  
+  .site-links p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem 1rem;
+    margin: 0;
+  }
+  
+  footer {
+    margin-top: 1rem;
+    color: #444;
+    font-size: .9rem;
+  }
+  
+  @media (max-width: 720px) {
     body {
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.6;
-      max-width: 980px;
-      margin: 40px auto;
-      padding: 0 24px;
-      color: #222;
-      background: #fff;
+      padding: 24px 18px;
+      font-size: 16px;
     }
-
-    h1,
-    h2,
-    h3,
-    h4 {
-      line-height: 1.25;
-      color: #111;
+  
+    .intro-grid,
+    .cluster-grid,
+    .utility-grid {
+      grid-template-columns: 1fr;
     }
-
-    h1 {
-      font-size: 2.05em;
-      margin-bottom: 0.2em;
-    }
-
-    h2 {
-      margin-top: 2em;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 0.25em;
-    }
-
-    h3 {
-      margin-top: 1.35em;
-      font-size: 1.13em;
-    }
-
-    a {
-      color: #0645ad;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    p {
-      margin: 0.75em 0;
-    }
-
-    ul li,
-    ol li {
-      margin-bottom: 0.65em;
-    }
-
-    .subtitle {
-      font-size: 1.08em;
-      margin-bottom: 1.5em;
-      color: #444;
-    }
-
-    .intro,
-    .note,
-    .identifier-box,
-    .visibility-box,
-    .reader-entry {
-      background: #f8f8f8;
-      border-left: 4px solid #bbb;
-      padding: 1em;
-      margin: 1.5em 0 2em 0;
-    }
-
-    .intro p,
-    .note p,
-    .identifier-box p,
-    .visibility-box p,
-    .reader-entry p {
-      margin: 0.35em 0;
-    }
-
-    .cluster-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-      gap: 1em;
-      margin-top: 1em;
-    }
-
-    .cluster-card {
-      background: #fbfbfb;
-      border: 1px solid #e2e2e2;
-      padding: 1em;
-    }
-
-    .cluster-card h3 {
-      margin-top: 0;
-    }
-
-    .cluster-card p {
-      margin: 0.45em 0;
-    }
-
-    .links {
-      display: block;
-      margin-top: 0.5em;
-      font-size: 0.96em;
-    }
-
-    .reading-path {
-      padding-left: 1.4em;
-    }
-
-    .reading-path li {
-      margin-bottom: 0.9em;
-    }
-
-    .reading-path-title {
-      display: block;
-      font-weight: bold;
-    }
-
-    .reading-path-description {
+  
+    .site-nav ul,
+    .site-links p {
       display: block;
     }
-
-    .reading-path-en {
+  
+    .site-nav a,
+    .site-links a {
       display: block;
-      color: #555;
-      font-size: 0.96em;
-      font-style: italic;
+      margin: .3rem 0;
     }
-
-    .small-note {
-      color: #555;
-      font-size: 0.96em;
+  }
+  
+  @media print {
+    body {
+      max-width: none;
+      margin: 0;
+      padding: 0;
     }
-
-    .editorial-list li,
-    .review-list li,
-    .committee-list li {
-      margin-bottom: 0.85em;
-    }
-
-    .back-link {
-      margin-top: 2.5em;
-      border-top: 1px solid #ddd;
-      padding-top: 1em;
-    }
-
-    .back-to-top {
-      margin-top: 1.8em;
-      text-align: right;
-      font-size: 0.96em;
-    }
-  </style>
-  <style>
-    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .55rem .75rem; border: 2px solid #0645ad; color: #fff; background: #0645ad; }
-    .skip-link:focus { top: 1rem; color: #fff; }
-  </style>
-
-  <script type="application/ld+json">
+  
+    details { display: block; }
+    details > * { display: block; }
+    a { color: #111; text-decoration: underline; }
+  }
+</style>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Уреднички, рецензентски и стручни рад",
   "alternateName": "Editorial, Reviewing and Professional Service",
-  "url": "https://milos-timotijevic.github.io/professional-service/index.html",
+  "url": "https://milos-timotijevic.github.io/professional-service/",
   "inLanguage": [
-    "sr",
-    "en"
+    "sr-Cyrl",
+    "en-GB"
   ],
   "description": "Преглед уредничког, рецензентског и стручног рада Милоша Тимотијевића: уређивање часописа, рад у редакцијама, рецензије књига и публикација других аутора и чланство у комисијама.",
   "author": {
@@ -206,564 +376,498 @@
       "@type": "WebPageElement",
       "name": "Уреднички рад и редакције",
       "alternateName": "Editorial Work and Editorial Boards",
-      "url": "https://milos-timotijevic.github.io/professional-service/index.html#editorial-work"
+      "url": "https://milos-timotijevic.github.io/professional-service/#editorial-work"
     },
     {
       "@type": "WebPageElement",
       "name": "Рецензије књига других аутора",
       "alternateName": "Reviews of Books by Other Authors",
-      "url": "https://milos-timotijevic.github.io/professional-service/index.html#reviews-by-author"
+      "url": "https://milos-timotijevic.github.io/professional-service/#reviews-by-author"
     },
     {
       "@type": "WebPageElement",
       "name": "Чланство у комисијама",
       "alternateName": "Committee Memberships",
-      "url": "https://milos-timotijevic.github.io/professional-service/index.html#committee-memberships"
+      "url": "https://milos-timotijevic.github.io/professional-service/#committee-memberships"
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Остали стручни ангажмани",
+      "alternateName": "Other Professional Service",
+      "url": "https://milos-timotijevic.github.io/professional-service/#other-professional-service"
     }
   ],
-  "keywords": "Милош Тимотијевић, Miloš Timotijević, уреднички рад, рецензије књига, стручни рад, Зборник радова Народног музеја у Чачку, Ужички зборник, professional service, editorial work, reviewing, historiography, museum publications"
+  "keywords": "Милош Тимотијевић, Miloš Timotijević, уреднички рад, рецензије књига, стручни рад, Зборник радова Народног музеја у Чачку, Ужички зборник, professional service, editorial work, reviewing, historiography, museum publications",
+  "dateModified": "2026-07-24",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Miloš Timotijević",
+    "url": "https://milos-timotijevic.github.io/"
+  }
 }
   </script>
 </head>
-
 <body id="top">
-
 <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
-<main id="main-content">
-
-<p>
-  <a href="../index.html">← Назад на главну страну / Back to main page</a>
-</p>
-
+<header class="page-header">
+<p class="back-link"><a href="/">← Главна страна / Main Page</a></p>
 <h1>Уреднички, рецензентски и стручни рад</h1>
-<p><strong>Editorial, Reviewing and Professional Service</strong></p>
-
+<p class="name-latin" lang="en-GB">Editorial, Reviewing and Professional Service</p>
 <p class="subtitle">
-  Уређивање часописа, рад у редакцијама, рецензије публикација и учешће у стручним комисијама<br>
-  <em>Editorial work, editorial boards, publication reviews and professional committee service</em>
+    Уређивање часописа, рад у редакцијама, рецензије публикација и учешће у стручним комисијама<br/>
+<span lang="en-GB">Editorial work, editorial boards, publication reviews and professional committee service</span>
 </p>
-
-<section class="reader-entry" aria-labelledby="why-this-page-matters">
-  <h2 id="why-this-page-matters">Зашто ова страница постоји? / Why This Page Matters</h2>
-
-  <p>
+</header><nav aria-label="Главна навигација / Main navigation" class="site-nav">
+<ul>
+<li><a href="/">Главна страна / Main Page</a></li>
+<li><a href="/bibliography/">Библиографија / Bibliography</a></li>
+<li><a href="/exhibitions/">Изложбе / Exhibitions</a></li>
+<li><a href="/public-activity/">Јавни рад / Public Activity</a></li>
+<li><a href="/knowledge-graph/">Граф знања / Knowledge Graph</a></li>
+<li><a href="/data/">Подаци / Data</a></li>
+</ul>
+</nav><main id="main-content">
+<div class="intro-grid"><section aria-labelledby="why-this-page-matters" class="intro-card" id="why-this-page-matters-section">
+<h2 id="why-this-page-matters">Зашто ова страница постоји? / Why This Page Matters</h2>
+<p>
     Ова страница издваја део рада Милоша Тимотијевића који није непосредно ауторска библиографија, али је важан за разумевање његовог места у научном, музејском и завичајном пољу.
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     This page presents the part of Miloš Timotijević’s work that is not strictly an author bibliography, but is important for understanding his role in scholarly, museum and local-history fields.
   </p>
-
-  <p>
+<p>
     Уреднички рад, рецензије публикација других аутора и учешће у комисијама показују поверење институција, стручну процену рукописа и учешће у обликовању научне и музејске продукције.
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     Editorial work, reviews of other authors’ publications and committee memberships show institutional trust, professional evaluation of manuscripts and participation in shaping scholarly and museum production.
   </p>
-</section>
-
-<section class="intro">
-  <h2>Шта је обухваћено? / What Is Included?</h2>
-
-  <p>
+</section><section class="intro-card" id="included">
+<h2>Шта је обухваћено? / What Is Included?</h2>
+<p>
     Страница обухвата уреднички рад, рад у редакцијама, рецензије књига, зборника, каталога и монографских публикација других аутора, као и чланство у академским и стручним комисијама.
   </p>
-
-  <p>
+<p>
     Ови подаци су издвојени од главне библиографије како би се јасније видело шта припада ауторском опусу, а шта ширем професионалном и институционалном раду.
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     The page includes editorial work, editorial board memberships, reviews of books, proceedings, catalogues and monographic publications by other authors, as well as membership in academic and professional committees.
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     These data are separated from the main bibliography in order to distinguish more clearly between authored works and broader professional and institutional service.
   </p>
-</section>
-
-<section id="how-to-read">
-  <h2>Како читати ову страницу / How to Read This Page</h2>
-
-  <p>
+</section></div>
+<section class="reading-card" id="how-to-read">
+<h2>Како читати ову страницу / How to Read This Page</h2>
+<p>
     Страница је организована у неколико целина. Најпре је приказан уреднички рад
     и рад у редакцијама, затим рецензије публикација других аутора, потом учешће
     у комисијама и други стручни ангажмани.
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     The page is organized into several sections. It first presents editorial work
     and editorial board service, then reviews of other authors’ publications,
     followed by committee memberships and other professional engagements.
   </p>
 </section>
-  
-<section>
-  <h2>Преглед стручног рада / Overview of Professional Service</h2>
-
-  <p class="small-note">
+<section class="overview-panel" id="professional-overview">
+<h2>Преглед стручног рада / Overview of Professional Service</h2>
+<p class="small-note">
     Овај преглед служи као брза оријентација пре детаљних спискова.
   </p>
-
-  <p class="small-note" lang="en">
+<p class="small-note" lang="en-GB">
     This overview provides a quick orientation before the detailed lists.
   </p>
-
-  <div class="cluster-grid">
-    <article class="cluster-card">
-      <h3>Уреднички рад<br><em>Editorial Work</em></h3>
-
-      <p>
+<div class="cluster-grid">
+<article class="cluster-card">
+<h3>Уреднички рад<br/><em>Editorial Work</em></h3>
+<p>
         Уређивање <em>Зборника радова Народног музеја у Чачку</em> од двоброја 52/53 и рад у редакцијама стручних публикација.
       </p>
-
-      <p lang="en">
-        <em>Editing the Journal of the National Museum in Čačak from double issue 52/53 and serving on editorial boards.</em>
-      </p>
-
-      <p class="links">
-        <a href="#editorial-work">Види одељак / See section</a>
-      </p>
-    </article>
-
-    <article class="cluster-card">
-      <h3>Рецензије публикација<br><em>Publication Reviews</em></h3>
-
-      <p>
+<p lang="en-GB">
+<em>Editing the Journal of the National Museum in Čačak from double issue 52/53 and serving on editorial boards.</em>
+</p>
+<p class="links">
+<a href="#editorial-work">Види одељак / See section</a>
+</p>
+</article>
+<article class="cluster-card">
+<h3>Рецензије публикација<br/><em>Publication Reviews</em></h3>
+<p>
         Рецензије, предговори и стручне оцене књига, зборника, каталога и монографских издања других аутора.
       </p>
-
-      <p lang="en">
-        <em>Reviews, forewords and professional evaluations of books, proceedings, catalogues and monographic publications by other authors.</em>
-      </p>
-
-      <p class="links">
-        <a href="#reviews-by-author">Види одељак / See section</a>
-      </p>
-    </article>
-
-    <article class="cluster-card">
-      <h3>Комисије<br><em>Committees</em></h3>
-
-      <p>
+<p lang="en-GB">
+<em>Reviews, forewords and professional evaluations of books, proceedings, catalogues and monographic publications by other authors.</em>
+</p>
+<p class="links">
+<a href="#reviews-by-author">Види одељак / See section</a>
+</p>
+</article>
+<article class="cluster-card">
+<h3>Комисије<br/><em>Committees</em></h3>
+<p>
         Учешће у комисијама за одбрану докторских дисертација и другим академским и стручним поступцима.
       </p>
-
-      <p lang="en">
-        <em>Membership in dissertation defence committees and other academic and professional procedures.</em>
-      </p>
-
-      <p class="links">
-        <a href="#committee-memberships">Види одељак / See section</a>
-      </p>
-    </article>
-  </div>
+<p lang="en-GB">
+<em>Membership in dissertation defence committees and other academic and professional procedures.</em>
+</p>
+<p class="links">
+<a href="#committee-memberships">Види одељак / See section</a>
+</p>
+</article>
+<article class="cluster-card">
+<h3>Остали стручни ангажмани<br/><em>Other Professional Service</em></h3>
+<p>
+    Рад у културним, музејским и медијским пројектима, укључујући програм
+    Националне престонице културе и историјске консултације за филм и телевизију.
+  </p>
+<p lang="en-GB">
+<em>Work in cultural, museum and media projects, including the National Capital
+    of Culture programme and historical consultancy for film and television.</em>
+</p>
+<p class="links">
+<a href="#other-professional-service">Види одељак / See section</a>
+</p>
+</article></div>
 </section>
-
-<section id="editorial-work">
-  <h2>Уреднички рад и редакције / Editorial Work and Editorial Boards</h2>
-
-  <div class="visibility-box">
-  <p>
+<section class="service-section" id="editorial-work">
+<h2>Уреднички рад и редакције / Editorial Work and Editorial Boards</h2>
+<div class="visibility-box"><h3>Уредничке улоге / Editorial Roles</h3>
+<p>
     Милош Тимотијевић је члан редакције <em>Зборника радова Народног музеја у Чачку</em> од броја 31 (2001).
   </p>
-
-  <p>
+<p>
     Уредник <em>Зборника радова Народног музеја у Чачку</em> је од двоброја 52/53.
   </p>
-
-  <p>
+<p>
     Од 2023. године члан је редакције <em>Ужичког зборника</em>.
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     Miloš Timotijević has been a member of the editorial board of the <em>Journal of the National Museum in Čačak</em> since issue 31 (2001).
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     He has been editor of the <em>Journal of the National Museum in Čačak</em> since double issue 52/53.
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     Since 2023, he has been a member of the editorial board of the <em>Užice Journal</em>.
   </p>
 </div>
-
-  <ol class="editorial-list">
-    <li>
-      <strong><em>Зборник радова Народног музеја у Чачку</em>, двоброј 52/53 (2022/2023)</strong> — уредник.
+<ol class="editorial-list">
+<li>
+<strong><em>Зборник радова Народног музеја у Чачку</em>, двоброј 52/53 (2022/2023)</strong> — уредник.
       <span class="links">
-        <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_53.html">Страница двоброја 52/53 / Double issue 52/53</a>
-      </span>
-    </li>
-
-    <li>
-      <strong><em>Зборник радова Народног музеја у Чачку</em>, број 54 (2024)</strong> — уредник.
+<a href="https://zbornik.cacakmuzej.org.rs/Zbornik_53.html">Страница двоброја 52/53 / Double issue 52/53</a>
+</span>
+</li>
+<li>
+<strong><em>Зборник радова Народног музеја у Чачку</em>, број 54 (2024)</strong> — уредник.
       <span class="links">
-        <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_54.html">Страница броја 54 / Issue 54</a>
-      </span>
-    </li>
-
-    <li>
-      <strong><em>Зборник радова Народног музеја у Чачку</em>, број 55 (2025)</strong> — уредник.
+<a href="https://zbornik.cacakmuzej.org.rs/Zbornik_54.html">Страница броја 54 / Issue 54</a>
+</span>
+</li>
+<li>
+<strong><em>Зборник радова Народног музеја у Чачку</em>, број 55 (2025)</strong> — уредник.
       <span class="links">
-        <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_55.html">Страница броја 55 / Issue 55</a>
-      </span>
-    </li>
-
-    <li>
-      <strong><em>Зборник радова Народног музеја у Чачку</em>, број 56 (2026)</strong> — уредник.
+<a href="https://zbornik.cacakmuzej.org.rs/Zbornik_55.html">Страница броја 55 / Issue 55</a>
+</span>
+</li>
+<li>
+<strong><em>Зборник радова Народног музеја у Чачку</em>, број 56 (2026)</strong> — уредник.
       <span class="links">
-        <a href="https://zbornik.cacakmuzej.org.rs/Zbornik_56.html">Страница броја 56 / Issue 56</a>
-      </span>
+<a href="https://zbornik.cacakmuzej.org.rs/Zbornik_56.html">Страница броја 56 / Issue 56</a>
+</span>
+</li>
+<li>
+<strong>Архива <em>Зборника радова Народног музеја у Чачку</em></strong>
+<span class="links">
+<a href="https://zbornik.cacakmuzej.org.rs/arhiva.html">Архива свих бројева / Archive of all issues</a>
+</span>
+</li>
+<li>
+<strong><em>Ужички зборник</em></strong> — члан редакције од 2023. године.
     </li>
-
-    <li>
-      <strong>Архива <em>Зборника радова Народног музеја у Чачку</em></strong>
-      <span class="links">
-        <a href="https://zbornik.cacakmuzej.org.rs/arhiva.html">Архива свих бројева / Archive of all issues</a>
-      </span>
-    </li>
-
-    <li>
-      <strong><em>Ужички зборник</em></strong> — члан редакције од 2023. године.
-    </li>
-  </ol>
-</section>
-
-<p class="back-to-top">
-  <a href="#top">↑ На врх / Back to top</a>
-</p>
-
-<section id="reviews-by-author">
-  <h2>Рецензије књига других аутора / Reviews of Books by Other Authors</h2>
-
-  <p>
+</ol>
+</section><p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
+<section class="service-section" id="reviews-by-author">
+<h2>Рецензије књига других аутора / Reviews of Books by Other Authors</h2>
+<p>
     Овај одељак доноси списак књига, зборника и монографских публикација других аутора и приређивача за које је Милош Тимотијевић писао рецензије, предговоре или стручне оцене.
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     This section lists books, proceedings and monographic publications by other authors and editors for which Miloš Timotijević wrote reviews, forewords or professional evaluations.
   </p>
-
-  <ol class="review-list">
-  <li>
-    <em>Обреновићи у музејским и другим збиркама Србије I</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2013).
+<details class="long-list"><summary>Прикажи списак рецензираних публикација (29) / Show reviewed publications (29)</summary><ol class="review-list">
+<li>
+<em>Обреновићи у музејским и другим збиркама Србије I</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2013).
     <span class="links">
       Wikidata:
       <a href="https://www.wikidata.org/wiki/Q138618382">Q138618382</a>
       ·
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/203171596#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
-    <em>Обреновићи у музејским и другим збиркама Србије II</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2014).
+</span>
+</li>
+<li>
+<em>Обреновићи у музејским и другим збиркама Србије II</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2014).
     <span class="links">
       Wikidata:
       <a href="https://www.wikidata.org/wiki/Q138637338">Q138637338</a>
       ·
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/212125964">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Живко Перишић, <em>Сачувана огњишта: Леушићи</em> (Горњи Милановац: Културни центар, 2014).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/205666572#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
-    <em>Обреновићи у музејским и другим збиркама Србије III</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2015).
+</span>
+</li>
+<li>
+<em>Обреновићи у музејским и другим збиркама Србије III</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2015).
     <span class="links">
       Wikidata:
       <a href="https://www.wikidata.org/wiki/Q138638440">Q138638440</a>
       ·
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/220541708">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Слађана Луковић, Светислав Љ. Марковић, <em>Западноморавски рудници угља</em> (Чачак: Међуопштински историјски архив, 2015).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/216132876#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Ивица Тодоровић, <em>Српска тајна: експериментална разматрања специфичних структурних и семантичких образаца</em> (Београд: Невен; Етнографски институт САНУ, 2015).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/216025612#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
-    <em>Обреновићи у музејским и другим збиркама Србије IV</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2016).
+</span>
+</li>
+<li>
+<em>Обреновићи у музејским и другим збиркама Србије IV</em>, ур. Александар Марушић, Ана Боловић (Горњи Милановац: Музеј рудничко-таковског краја, 2016).
     <span class="links">
       Wikidata:
       <a href="https://www.wikidata.org/wiki/Q138642077">Q138642077</a>
       ·
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/230622220#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Маријана Матовић, <em>Јермени у Чачку: 1885–1950</em> (Чачак: Народни музеј Чачак, 2017).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/249589004#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Виктор Бејатовић, <em>Лепеза смрти: вишедисциплинарни приступ ратном злочину у Крагујевцу октобра 1941</em> (Крагујевац: Спомен-парк Крагујевачки октобар, 2017).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/252205324#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
-    <em>Обреновићи у музејским и другим збиркама Србије V</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2018).
+</span>
+</li>
+<li>
+<em>Обреновићи у музејским и другим збиркама Србије V</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2018).
     <span class="links">
       Wikidata:
       <a href="https://www.wikidata.org/wiki/Q138646011">Q138646011</a>
       ·
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/267118092#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Саша Савовић, <em>Крст у дубу: записи и закрштена стабла рудничко-таковског краја</em> (Горњи Милановац: Музеј рудничко-таковског краја; Удружење ликовних и примењених уметника, 2019).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/278215692#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Владимир Димитријевић, <em>Из епа у филм: Владимир Вујић</em> (Краљево: Народна библиотека „Стефан Првовенчани”, 2019).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/277121292#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
-    <em>Обреновићи у музејским и другим збиркама Србије VI</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2020).
+</span>
+</li>
+<li>
+<em>Обреновићи у музејским и другим збиркама Србије VI</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2020).
     <span class="links">
       Wikidata:
       <a href="https://www.wikidata.org/wiki/Q138649812">Q138649812</a>
       ·
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/283433740#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Драгана Божовић, <em>Породица Надежде Петровић кроз 19. век</em> (Чачак: Уметничка галерија „Надежда Петровић”, 2020).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/27104777#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Раде Ристановић, <em>Београдски равногорци 1941–1944</em> (Београд: Институт за савремену историју, 2020).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/18416905#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Милутин Живковић, <em>Стара Рашка под италијанском окупацијом 1941–1943</em>, књ. 1–2 (Београд: Catena mundi; Институт за савремену историју, 2020).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/32021257#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Немања Девић, <em>За Партију и Тита</em> (Београд: Службени гласник; Институт за савремену историју, 2021).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/39259913#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Саша Савовић, <em>Кафанска историја Горњег Милановца (1820–1980)</em> (Горњи Милановац: Музеј рудничко-таковског краја; Графопринт, 2021).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/44986377#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Радоје Јанковић, <em>Како је убијана Краљевина Југославија</em>, прир. Даница Оташевић (Нови Сад: Прометеј; Чачак: Градска библиотека „Владислав Петковић Дис”, 2021).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/55255561#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Миодраг Даниловић, <em>Фрагменти породичне хронике</em> (Горњи Милановац: Графопринт, 2021).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/52337673#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Владимир Димитријевић, <em>Југословенски месијанизам и српско становиште</em> (Београд: Институт за књижевност и уметност, 2022).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/68991753#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Владимир Димитријевић, <em>Олтарски простори српске књижевности</em> (Београд: Добротољубље, 2022).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/76007433#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
-    <em>Обреновићи у музејским и другим збиркама Србије VII</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2022).
+</span>
+</li>
+<li>
+<em>Обреновићи у музејским и другим збиркама Србије VII</em>, ур. Александар Марушић, Ана Ранковић (Горњи Милановац: Музеј рудничко-таковског краја, 2022).
     <span class="links">
       Wikidata:
       <a href="https://www.wikidata.org/wiki/Q138652424">Q138652424</a>
       ·
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/80736265#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Радојле Маркићевић, <em>Затирањем српског постојања комунисти писали историју</em> (Сремска Митровица: Удружење културних стваралаца Србије „Завичај”, 2022).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/81612297#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Слободан Јаковљевић, <em>У светом и свечасном храму овом</em> (Краљево: Епархија жичка, 2023).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/132558345#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Борис Томанић, <em>Равногорски записи: четнички дневници и мемоарске белешке као извор за историју Другог светског рата</em> (Београд: Институт за савремену историју; Catena mundi, 2023).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/126534409#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Добрило Аранитовић, <em>Старовлашке теме</em> (Земун: Д. Аранитовић, 2024).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/148434185#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Вук Даутовић, Слободан Јаковљевић, <em>Ризница Саборне цркве у Чачку</em> (Чачак–Краљево: Епархија жичка, 2024).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/140057353#full">COBISS</a>
-    </span>
-  </li>
-
-  <li>
+</span>
+</li>
+<li>
     Зоран А. Живановић, <em>Бој на Свилеуви</em> (Коцељева: Завичајни музеј, 2024).
     <span class="links">
       Link:
       <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/150987017#full">COBISS</a>
-    </span>
-  </li>
-</ol> 
-</section>
-
-<p class="back-to-top">
-  <a href="#top">↑ На врх / Back to top</a>
-</p>
-
-<section id="committee-memberships">
-  <h2>Чланство у комисијама / Committee Memberships</h2>
-
-  <p>
+</span>
+</li>
+</ol></details>
+</section><p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
+<section class="service-section" id="committee-memberships">
+<h2>Чланство у комисијама / Committee Memberships</h2>
+<p>
     Овај одељак издваја учешће у академским и стручним комисијама.
   </p>
-
-  <p lang="en">
+<p lang="en-GB">
     This section records participation in academic and professional committees.
   </p>
-
-  <ol class="committee-list">
-    <li>
+<ol class="committee-list">
+<li>
   Милош Тимотијевић, члан комисије за одбрану докторске дисертације Владимира Тодића,
   <em>Постсоцијалистичка транзиција власти на Балкану – случај две престонице: Београд и Софија деведесетих година 20. века</em>,
   Филозофски факултет Универзитета у Београду, 2020.
   <span class="links">
     Link:
     <a href="https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/26562569#full">COBISS</a>
-  </span>
+</span>
 </li>
-  </ol>
-</section>
-
-<p class="back-to-top">
-  <a href="#top">↑ На врх / Back to top</a>
-</p>
-
-<section id="other-professional-service">
-  <h2>Остали стручни ангажмани / Other Professional Service</h2>
-
-  <div class="note">
-    <p>
+</ol>
+</section><p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
+<section class="service-section" id="other-professional-service">
+<h2>Остали стручни ангажмани / Other Professional Service</h2>
+<div class="note">
+<p>
       Овај одељак издваја стручне ангажмане у културним, музејским и медијским пројектима који нису део уже ауторске библиографије, али показују рад у области јавне историје, културног наслеђа и историјске интерпретације.
     </p>
-
-    <p lang="en">
+<p lang="en-GB">
       This section presents professional engagements in cultural, museum and media projects that are not part of the author bibliography proper, but reflect work in public history, cultural heritage and historical interpretation.
     </p>
-  </div>
-
-  <ol class="project-list">
-    <li>
-      <strong>Чачак — Национална престоница културе Србије 2023: „Чачанска родна”</strong> — члан пројектног тима.
-      <br>
+</div>
+<ol class="project-list">
+<li>
+<strong>Чачак — Национална престоница културе Србије 2023: „Чачанска родна”</strong> — члан пројектног тима.
+      <br/>
       У оквиру програма „Чачанска родна”, којим је Чачак 2023. године понео статус прве Националне престонице културе Србије, Милош Тимотијевић је као члан пројектног тима био задужен за припрему основе за оснивање Музеја кошарке у Чачку. Тај рад се ослањао на његова ранија истраживања о историји чачанске кошарке, значају Соколане и месту спорта у обликовању локалног идентитета.
-      <br>
+      <br/>
       Поред овог задужења, учествовао је и у припреми програмских целина које су се односиле на историју града, културно наслеђе, музејску интерпретацију и јавно представљање Чачка у години националне престонице културе.
-      <br>
-      <span lang="en">
-        <em>Within the programme “Čačanska rodna”, through which Čačak became the first National Capital of Culture of Serbia in 2023, Miloš Timotijević participated as a member of the project team and was responsible for preparing the basis for the establishment of the Basketball Museum in Čačak. This work drew on his earlier research into the history of basketball in Čačak, the significance of the Sokolana building and the place of sport in shaping local identity.</em>
-      </span>
-      <br>
-      <span lang="en">
-        <em>In addition to this task, he also participated in the preparation of programme units related to the history of the town, cultural heritage, museum interpretation and the public presentation of Čačak during its year as National Capital of Culture.</em>
-      </span>
-      <span class="links">
+      <br/>
+<span lang="en-GB">
+<em>Within the programme “Čačanska rodna”, through which Čačak became the first National Capital of Culture of Serbia in 2023, Miloš Timotijević participated as a member of the project team and was responsible for preparing the basis for the establishment of the Basketball Museum in Čačak. This work drew on his earlier research into the history of basketball in Čačak, the significance of the Sokolana building and the place of sport in shaping local identity.</em>
+</span>
+<br/>
+<span lang="en-GB">
+<em>In addition to this task, he also participated in the preparation of programme units related to the history of the town, cultural heritage, museum interpretation and the public presentation of Čačak during its year as National Capital of Culture.</em>
+</span>
+<span class="links">
         Извори о манифестацији:
         <a href="https://www.srbija.gov.rs/vest/692346/cacak-postao-prva-nacionalna-prestonica-kulture-za-2023-godinu.php">Влада Републике Србије</a>
         ·
@@ -772,7 +876,7 @@
         <a href="https://www.caglas.rs/cacak-nacionalna-prestonica-kulture-2023-planovi-i-ocekivanja/">Чачански глас</a>
         ·
         <a href="https://kultura.gov.rs/vest/sr/10724/predstavljenprogram-svecanog-otvaranja-nacionalne-prestonice-kulture-2023-.php">Министарство културе</a>
-        <br>
+<br/>
         Извештаји Музеја о раду:
         <a href="https://zbornik.cacakmuzej.org.rs/files/zbornik/51-52/ZRNMC_51-52_17.pdf">Зборник 51/52</a>
         ·
@@ -781,24 +885,23 @@
         <a href="https://zbornik.cacakmuzej.org.rs/files/zbornik/54/ZRNMC_54_11.pdf">Зборник 54</a>
         ·
         <a href="https://zbornik.cacakmuzej.org.rs/files/zbornik/55/ZRNMC_55_12.pdf">Зборник 55</a>
-      </span>
-    </li>
-
-    <li>
-      <strong>Филм <em>Хероји Халијарда</em> и телевизијска серија <em>Ваздушни мост</em></strong> — стручни консултант за историју.
-      <br>
+</span>
+</li>
+<li>
+<strong>Филм <em>Хероји Халијарда</em> и телевизијска серија <em>Ваздушни мост</em></strong> — стручни консултант за историју.
+      <br/>
       Милош Тимотијевић је био стручни консултант за историју на играном филму <em>Хероји Халијарда</em> и телевизијској серији <em>Ваздушни мост</em>, посвећеним Мисији „Халијард” и евакуацији савезничких авијатичара из Србије 1944. године.
-      <br>
+      <br/>
       Његов ангажман био је повезан са историјским оквиром догађаја, темом Југословенске војске у отаџбини, савезничких ваздухопловаца и јавним представљањем једне од најзначајнијих епизода ратне историје Србије у Другом светском рату.
-      <br>
-      <span lang="en">
-        <em>Miloš Timotijević served as historical consultant on the feature film Heroes of Halyard and the television series Vazdušni most, dedicated to the Halyard Mission and the evacuation of Allied airmen from Serbia in 1944.</em>
-      </span>
-      <br>
-      <span lang="en">
-        <em>His work was related to the historical framework of the events, the Yugoslav Army in the Fatherland, Allied airmen and the public presentation of one of the most significant episodes of Serbia’s wartime history during the Second World War.</em>
-      </span>
-      <span class="links">
+      <br/>
+<span lang="en-GB">
+<em>Miloš Timotijević served as historical consultant on the feature film Heroes of Halyard and the television series Vazdušni most, dedicated to the Halyard Mission and the evacuation of Allied airmen from Serbia in 1944.</em>
+</span>
+<br/>
+<span lang="en-GB">
+<em>His work was related to the historical framework of the events, the Yugoslav Army in the Fatherland, Allied airmen and the public presentation of one of the most significant episodes of Serbia’s wartime history during the Second World War.</em>
+</span>
+<span class="links">
         Филм и серија:
         <a href="https://www.imdb.com/title/tt12769908/">IMDb — <em>Heroes of Halyard</em></a>
         ·
@@ -811,38 +914,46 @@
         <a href="https://www.rts.rs/rts/rts-predstavlja/snima-se/4431388/film-i-tv-serija-o-herojima-halijarda.html">РТС</a>
         ·
         <a href="https://rtv.rs/sr_lat/drustvo/pocelo-snimanje-filma-o-drazi-mihailovicu-i-spasavanju-saveznickih-pilota_1241822.html">РТВ</a>
-        <br>
+<br/>
         Извештаји Музеја о раду:
         <a href="https://zbornik.cacakmuzej.org.rs/files/zbornik/53/ZRNMC_53_11.pdf">Зборник 53</a>
         ·
         <a href="https://zbornik.cacakmuzej.org.rs/files/zbornik/54/ZRNMC_54_11.pdf">Зборник 54</a>
         ·
         <a href="https://zbornik.cacakmuzej.org.rs/files/zbornik/55/ZRNMC_55_12.pdf">Зборник 55</a>
-      </span>
-    </li>
-  </ol>
-</section>
-
-<section id="core-identifiers" class="identifier-box">
-  <h2>Основни идентификатори / Core Identifiers</h2>
-
-  <ul>
-    <li><strong>Author ORCID:</strong> <a href="https://orcid.org/0000-0002-0457-6125">0000-0002-0457-6125</a></li>
-    <li><strong>Author Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q112514230">Q112514230 — Miloš Timotijević</a></li>
-    <li><strong>OpenAlex author profile:</strong> <a href="https://openalex.org/authors/a5072525869">A5072525869</a></li>
-    <li><strong>Main website:</strong> <a href="https://milos-timotijevic.github.io/">milos-timotijevic.github.io</a></li>
-  </ul>
-</section>
-
-<p class="back-link">
-  <a href="#top">↑ На врх / Back to top</a>
-</p>
-
+</span>
+</li>
+</ol>
+</section><p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
+<div class="utility-grid"><section class="note" id="related-pages">
+<h2>Сродне странице / Related Pages</h2>
+<ul>
+<li><a href="/bibliography/">Библиографија / Bibliography</a></li>
+<li><a href="/exhibitions/">Изложбе / Exhibitions</a></li>
+<li><a href="/public-activity/">Јавни рад / Public Activity</a></li>
+<li><a href="/knowledge-graph/">Граф знања / Knowledge Graph</a></li>
+<li><a href="/data/">Подаци / Data</a></li>
+</ul>
+</section><section class="identifier-box" id="core-identifiers">
+<h2>Основни идентификатори / Core Identifiers</h2>
+<ul>
+<li><strong>Author ORCID:</strong> <a href="https://orcid.org/0000-0002-0457-6125">0000-0002-0457-6125</a></li>
+<li><strong>Author Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q112514230">Q112514230 — Miloš Timotijević</a></li>
+<li><strong>OpenAlex author profile:</strong> <a href="https://openalex.org/authors/a5072525869">A5072525869</a></li>
+<li><strong>Main website:</strong> <a href="https://milos-timotijevic.github.io/">milos-timotijevic.github.io</a></li>
+</ul>
+</section></div>
+<nav aria-label="Везе ка другим деловима сајта / Links to other site sections" class="site-links">
 <p>
-  <a href="../index.html">← Назад на главну страну / Back to main page</a>
+<a href="/">Главна страна / Main Page</a>
+<a href="/bibliography/">Библиографија / Bibliography</a>
+<a href="/exhibitions/">Изложбе / Exhibitions</a>
+<a href="/public-activity/">Јавни рад / Public Activity</a>
+<a href="/knowledge-graph/">Граф знања / Knowledge Graph</a>
+<a href="/data/">Подаци / Data</a>
 </p>
-
-</main>
-
+</nav></main><footer>
+<p>Последње ажурирање / Last updated: 24. јул 2026 / 24 July 2026.</p>
+</footer>
 </body>
 </html>
