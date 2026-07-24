@@ -1,156 +1,243 @@
 <!doctype html>
-<html lang="sr">
+<html lang="sr-Cyrl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Јавни рад / Public Activity — Милош Тимотијевић</title>
   <meta name="robots" content="index, follow">
   <meta name="description" content="Јавни рад Милоша Тимотијевића: новински и интернет текстови, фељтони, интервјуи, ТВ, радио и подкаст гостовања, јавна предавања, промоције, представљања публикација и отварања изложби.">
-  <link rel="canonical" href="https://milos-timotijevic.github.io/public-activity/">
+  <link rel="canonical" href="https://milos-timotijevic.github.io/public-activity/">  <style>
+    :root {
+      --text: #111;
+      --muted: #555;
+      --line: #dedede;
+      --link: #0645ad;
+      --link-hover: #04357f;
+      --card-background: #eeeeee;
+      --card-border: #d2d2d2;
+      --soft-background: #f8f8f8;
+    }
 
-  <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.6;
-      max-width: 980px;
-      margin: 40px auto;
-      padding: 0 24px;
-      color: #222;
+    * { box-sizing: border-box; }
+
+    html {
       background: #fff;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 42px 28px 30px;
+      color: var(--text);
+      background: #fff;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.58;
     }
 
     h1, h2, h3 {
+      color: var(--text);
       line-height: 1.25;
-      color: #111;
     }
 
     h1 {
-      font-size: 2.05em;
-      margin-bottom: 0.2em;
+      margin: 0 0 .08em;
+      font-size: 2.05rem;
     }
 
     h2 {
-      margin-top: 2em;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 0.25em;
+      margin: 0 0 .85rem;
+      padding: 0 0 .32rem;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.45rem;
     }
+
+    h3 {
+      margin: 1.25rem 0 .45rem;
+      font-size: 1.08rem;
+    }
+
+    p { margin: .68rem 0; }
+    ol, ul { padding-left: 1.4rem; }
+    li { margin: .42rem 0; }
 
     a {
-      color: #0645ad;
+      color: var(--link);
       text-decoration: none;
+      text-underline-offset: .15em;
     }
 
-    a:hover {
+    a:hover,
+    a:focus-visible {
+      color: var(--link-hover);
       text-decoration: underline;
     }
 
-    p {
-      margin: 0.75em 0;
+    section[id] { scroll-margin-top: 1rem; }
+
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: -5rem;
+      z-index: 1000;
+      padding: .55rem .75rem;
+      border: 2px solid var(--link);
+      color: #fff;
+      background: var(--link);
+    }
+
+    .skip-link:focus {
+      top: 1rem;
+      color: #fff;
+    }
+
+    .page-header {
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .back-link {
+      margin: 0 0 1.1rem;
+      font-size: .94rem;
+    }
+
+    .name-latin {
+      margin: .18rem 0;
+      color: var(--muted);
+      font-size: 1rem;
     }
 
     .subtitle {
-      font-size: 1.08em;
-      margin-bottom: 1.5em;
+      margin: .45rem 0 0;
       color: #444;
+      font-size: 1rem;
     }
 
-    .intro, .note {
-      background: #f8f8f8;
+    .intro {
+      margin: 1.35rem 0;
+      padding: 1.05rem 1.15rem;
       border-left: 4px solid #bbb;
-      padding: 1em;
-      margin: 1.5em 0 2em 0;
+      background: var(--soft-background);
     }
 
-    .intro p, .note p {
-      margin: 0.35em 0;
-    }
+    .intro p { margin: .35rem 0; }
 
     .contents {
-      background: #fbfbfb;
-      border: 1px solid #e2e2e2;
-      padding: 1em 1.2em;
-      margin: 1.5em 0 2em 0;
+      margin: 1.35rem 0 1.75rem;
+      padding: 1rem 1.15rem;
+      border: 1px solid var(--card-border);
+      background: var(--card-background);
     }
 
     .contents h2 {
       margin-top: 0;
-      border-bottom: none;
-      padding-bottom: 0;
-      font-size: 1.2em;
+      border-bottom-color: #c8c8c8;
+      font-size: 1.2rem;
     }
 
     .contents ol {
       columns: 2;
-      column-gap: 2.5em;
-      padding-left: 1.35em;
+      column-gap: 2.5rem;
       margin-bottom: 0;
+      padding-left: 1.35rem;
     }
 
     .contents li {
       break-inside: avoid;
-      margin-bottom: 0.35em;
+      margin-bottom: .4rem;
     }
 
     .public-activity-section {
-      scroll-margin-top: 1.5em;
+      padding: 1.45rem 0;
+      border-top: 1px solid var(--line);
     }
 
     .public-activity-section > p {
-      margin-bottom: 1em;
+      margin-bottom: .55rem;
+    }
+
+    .section-description-en {
+      color: var(--muted);
+      font-size: .95rem;
     }
 
     .public-activity-section details {
+      margin: 1rem 0 1.35rem;
+      padding: .85rem 1rem;
+      border: 1px solid var(--card-border);
       background: #fbfbfb;
-      border: 1px solid #e2e2e2;
-      padding: 0.8em 1em;
-      margin: 1em 0 1.4em 0;
     }
 
     .public-activity-section summary {
       cursor: pointer;
-      color: #111;
+      color: var(--text);
+      font-weight: bold;
     }
 
     .public-activity-section details ol {
-      padding-left: 1.45em;
-      margin-top: 1em;
-      margin-bottom: 0.3em;
+      margin: 1rem 0 .3rem;
+      padding-left: 1.45rem;
     }
 
     .public-activity-section details li {
-      margin-bottom: 0.8em;
+      margin-bottom: .8rem;
+      overflow-wrap: anywhere;
     }
 
     .public-activity-section details ol ol {
-      margin-top: 0.6em;
-      margin-bottom: 0.6em;
+      margin: .6rem 0;
     }
 
     .back-to-top {
-      margin-top: 1.5em;
-      font-size: 0.95em;
+      margin: .8rem 0 0;
+      font-size: .9rem;
+      text-align: right;
     }
 
     .site-links {
-      margin: 2.5em 0 0 0;
-      border-top: 1px solid #ddd;
-      padding-top: 1em;
+      margin: 2rem 0 0;
+      padding: 1rem 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .site-links p {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem 1rem;
+      margin: 0;
+    }
+
+    footer {
+      margin-top: 1rem;
+      color: #444;
+      font-size: .9rem;
     }
 
     @media (max-width: 720px) {
       body {
-        margin: 24px auto;
-        padding: 0 18px;
+        padding: 24px 18px;
+        font-size: 16px;
       }
 
-      .contents ol {
-        columns: 1;
-      }
+      .contents ol { columns: 1; }
+      .intro, .contents, .public-activity-section details { padding: .9rem; }
+      .site-links p { display: block; }
+      .site-links a { display: block; margin: .28rem 0; }
     }
-  </style>
-  <style>
-    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .55rem .75rem; border: 2px solid #0645ad; color: #fff; background: #0645ad; }
-    .skip-link:focus { top: 1rem; color: #fff; }
+
+    @media print {
+      body {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      details { display: block; }
+      details > * { display: block; }
+      a { color: #111; text-decoration: underline; }
+    }
   </style>
 
   <script type="application/ld+json">
@@ -183,7 +270,6 @@
   "mainEntity": {
     "@type": "ItemList",
     "name": "Public Activity",
-    "numberOfItems": 475,
     "itemListElement": [
       {
         "@type": "ListItem",
@@ -212,7 +298,7 @@
       {
         "@type": "ListItem",
         "position": 5,
-        "name": "Аудио-визуелни и радио интервјуи / Audiovisual and Radio Interviews",
+        "name": "ТВ, радио и подкаст / TV, Radio and Podcast",
         "url": "https://milos-timotijevic.github.io/public-activity/#av-interviews"
       },
       {
@@ -228,46 +314,38 @@
   </script>
 </head>
 <body id="top">
-
   <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
 
-  <p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
+  <header class="page-header">
+    <p class="back-link"><a href="/">← Главна страна / Main Page</a></p>
+    <h1>Јавни рад</h1>
+    <p class="name-latin" lang="en-GB">Public Activity</p>
+    <p class="subtitle">
+      Новински текстови, интервјуи, јавни наступи и јавна тумачења историје<br>
+      <span lang="en-GB">Newspaper articles, interviews, public appearances and public interpretations of history</span>
+    </p>
+  </header>
 
   <main id="main-content">
-    <h1>Јавни рад</h1>
-    <p><strong>Public Activity</strong></p>
-    <p class="subtitle">Новински текстови, интервјуи, јавни наступи и јавна тумачења историје<br>
-    <em>Newspaper articles, interviews, public appearances and public interpretations of history</em></p>
-
-    <section class="intro">
+    <section class="intro" aria-label="Увод / Introduction">
       <p>
         Јавни рад обухвата новинске и интернет текстове, фељтоне, интервјуе,
         телевизијска, радијска и подкаст гостовања, јавна предавања, промоције,
         представљања публикација, отварања изложби и друге облике јавног тумачења
-        историје, културног наслеђа и музејског рада.
+        историје, културног наслеђа и музејског рада. Страна је организована према
+        облику јавног рада, а дужи спискови смештени су у отвориве целине са сталним
+        сидреним везама.
       </p>
-
-      <p lang="en">
+      <p lang="en-GB">
         Public activity includes newspaper and online articles, serialised texts,
         interviews, television, radio and podcast appearances, public lectures,
         book presentations, exhibition openings and other forms of public interpretation
-        of history, cultural heritage and museum work.
-      </p>
-
-      <p>
-        Страна је организована према облику јавног рада. Већи спискови су смештени
-        у отвориве целине, како би страница остала прегледна, а појединачни одељци
-        доступни преко сталних сидрених веза.
-      </p>
-
-      <p lang="en">
-        The page is organized by type of public activity. Longer lists are placed
-        in expandable sections in order to keep the page readable while preserving
-        stable anchor links to each section.
+        of history, cultural heritage and museum work. Longer lists are placed in
+        expandable sections with stable anchor links.
       </p>
     </section>
 
-    <nav class="contents" aria-label="Садржај јавног рада">
+<nav class="contents" aria-label="Садржај јавног рада">
       <h2>Садржај / Contents</h2>
       <ol>
         <li><a href="#newspaper-articles">Новински чланци / Newspaper Articles</a></li>
@@ -285,6 +363,7 @@
   <p>
     Одељак обухвата избор новинских и популарних текстова из дневне, недељне и периодичне штампе, посвећених историји, културном наслеђу, јавном памћењу, музејском раду и локалној историји.
   </p>
+  <p lang="en-GB" class="section-description-en" data-section="newspaper-articles">This section contains a selection of newspaper and popular-history articles published in daily, weekly and periodical press.</p>
 
   <details>
     <summary>Прикажи списак новинских чланака / Show newspaper articles</summary>
@@ -411,6 +490,7 @@
   <p>
     Одељак обухвата фељтоне и серијске текстове објављене у дневној и локалној штампи, посвећене локалној историји, Другом светском рату, култури сећања, политичким ритуалима, историји Чачка и српској модерној историји.
   </p>
+  <p lang="en-GB" class="section-description-en" data-section="serials">This section presents serialised newspaper texts and thematic series published in successive instalments.</p>
 
   <details>
     <summary>Прикажи списак фељтона / Show serialised texts</summary>
@@ -673,6 +753,7 @@
   <p>
     Одељак обухвата интервјуе и разговоре објављене у дневној, недељној и периодичној штампи, као и на интернет порталима, посвећене историографским истраживањима, музејском раду, културном наслеђу, јавном памћењу и темама из модерне српске историје.
   </p>
+  <p lang="en-GB" class="section-description-en" data-section="interviews">This section contains selected print and online interviews devoted to history, cultural heritage, museum work and public debates about the past.</p>
 
   <details>
     <summary>Прикажи списак интервјуа / Show interviews</summary>
@@ -683,11 +764,11 @@
       <li>„Манастири Овчарско-кабларске клисуре”, разговор водила Јелена Обренић, <em>Гимназион</em>, Чачак, септембар 2005, 26.</li>
 
       <li>„Шест векова од писаног помена Чачка”, разговор водио Гвозден Оташевић, <em>Политика</em>, 13. децембар 2008.<br>
-        <a href="https://www.politika.rs/scc/clanak/67288/Sest-vekova-od-pisanog-pomena-Cacka">https://www.politika.rs/scc/clanak/67288/Sest-vekova-od-pisanog-pomena-Cacka</a>
+        <a href="https://www.politika.rs/scc/clanak/67288/Sest-vekova-od-pisanog-pomena-Cacka">Прочитај текст / Read online</a>
       </li>
 
       <li>„Чачак, кадровска база СПЦ”, разговор водио Гвозден Оташевић, <em>Политика</em>, 19. април 2010.<br>
-        <a href="https://www.politika.rs/scc/clanak/131804/Cacak-kadrovska-baza-SPC">https://www.politika.rs/scc/clanak/131804/Cacak-kadrovska-baza-SPC</a>
+        <a href="https://www.politika.rs/scc/clanak/131804/Cacak-kadrovska-baza-SPC">Прочитај текст / Read online</a>
       </li>
 
       <li>„Демистификација прошлости”, разговор водио Душан Даријевић, <em>Чачанске новине</em>, 11. јануар 2011, 24–25.</li>
@@ -711,7 +792,7 @@
       <li>„Сви ратови Звонка Вучковића: капетанове заблуде и спорења”, разговор водио Милош Лазић, <em>Илустрована Политика</em>, 13. октобар 2015, 23–26.</li>
 
       <li>„Otkriće: pečat kneza Lazara otkriven na Rudniku”, разговор водио Владимир Никитовић, <em>Blic</em>, 22. октобар 2015.<br>
-        <a href="https://www.blic.rs/vesti/srbija/otkrice-neprocenjive-vrednosti-pecat-kneza-lazara-pronaden-na-rudniku/bf8c98e">https://www.blic.rs/vesti/srbija/otkrice-neprocenjive-vrednosti-pecat-kneza-lazara-pronaden-na-rudniku/bf8c98e</a>
+        <a href="https://www.blic.rs/vesti/srbija/otkrice-neprocenjive-vrednosti-pecat-kneza-lazara-pronaden-na-rudniku/bf8c98e">Прочитај текст / Read online</a>
       </li>
 
       <li>„Грађански рат (1941–1945) и култура сећања”, разговор водио Владимир Димитријевић, <em>Геополитика</em>, март 2015, 54–58.</li>
@@ -745,11 +826,11 @@
       <li>„Др Милош Тимотијевић: о митовима новије српске историје”, разговор водио Владимир Димитријевић, <em>Печат</em> 714, 13. мај 2022, 58–62.</li>
 
       <li>„’Кошаркашки рат’ почео ритуалним спаљивањем”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 5. фебруар 2023, 27.<br>
-        <a href="https://www.novosti.rs/c/drustvo/vesti/1198916/kosarkaski-rat-poceo-ritualnim-spaljivanjem-neobican-sportski-sukob-cacka-beograda-koji-traje-70-godina-pokazuje-znake-smirivanja">https://www.novosti.rs/c/drustvo/vesti/1198916/kosarkaski-rat-poceo-ritualnim-spaljivanjem-neobican-sportski-sukob-cacka-beograda-koji-traje-70-godina-pokazuje-znake-smirivanja</a>
+        <a href="https://www.novosti.rs/c/drustvo/vesti/1198916/kosarkaski-rat-poceo-ritualnim-spaljivanjem-neobican-sportski-sukob-cacka-beograda-koji-traje-70-godina-pokazuje-znake-smirivanja">Прочитај текст / Read online</a>
       </li>
 
       <li>„Владика Николај и комунизам”, разговор водио Владимир Димитријевић, <em>Печат</em> 762, 19. мај 2023, 48–52.<br>
-        <a href="https://www.pecat.co.rs/2023/05/milos-timotijevic-istoricar-vladika-nikolaj-i-komunizam/">https://www.pecat.co.rs/2023/05/milos-timotijevic-istoricar-vladika-nikolaj-i-komunizam/</a>
+        <a href="https://www.pecat.co.rs/2023/05/milos-timotijevic-istoricar-vladika-nikolaj-i-komunizam/">Прочитај текст / Read online</a>
       </li>
 
       <li>„Чудесна историја ’религије’ крај Мораве: нова књига др Милоша Тимотијевића ’Како је Чачак постао град кошарке’”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 15. август 2023, 23.</li>
@@ -759,45 +840,45 @@
       <li>„Халијард – спасоносни ваздушни мост”, разговор водио Гвозден Оташевић, <em>Политика</em>, 8. октобар 2023, 9.</li>
 
       <li>„Милош Тимотијевић, стручни сарадник на сценарију филма Радоша Бајића уочи вечерашње премијере: ’Халијард’ нападају јер руши комунистички мит”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 10. октобар 2023, 24–25.<br>
-        <a href="https://www.novosti.rs/c/kultura/vesti/1289914/halijard-napadaju-jer-rusi-komunisticki-mit-istoricar-milos-timotijevic-saradnik-scenariju-filma-radosa-bajica">https://www.novosti.rs/c/kultura/vesti/1289914/halijard-napadaju-jer-rusi-komunisticki-mit-istoricar-milos-timotijevic-saradnik-scenariju-filma-radosa-bajica</a>
+        <a href="https://www.novosti.rs/c/kultura/vesti/1289914/halijard-napadaju-jer-rusi-komunisticki-mit-istoricar-milos-timotijevic-saradnik-scenariju-filma-radosa-bajica">Прочитај текст / Read online</a>
       </li>
 
       <li>„Зашто су се велике силе успротивиле резолуцији УН о борби против величања нацизма: западу нацисти милији од Руса”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 24. децембар 2023, 18–19.<br>
-        <a href="https://www.novosti.rs/c/drustvo/vesti/1316252/zapadu-nacisti-miliji-rusa-zasto-velike-sile-usprotivile-rezoluciji-borbi-protiv-velicanja-nacizma">https://www.novosti.rs/c/drustvo/vesti/1316252/zapadu-nacisti-miliji-rusa-zasto-velike-sile-usprotivile-rezoluciji-borbi-protiv-velicanja-nacizma</a>
+        <a href="https://www.novosti.rs/c/drustvo/vesti/1316252/zapadu-nacisti-miliji-rusa-zasto-velike-sile-usprotivile-rezoluciji-borbi-protiv-velicanja-nacizma">Прочитај текст / Read online</a>
       </li>
 
       <li>„Како су Срби испунили немањићки завет на Сретење: Устанак 1804. и устав из 1835. на судбински дан који наговештава победу”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 15–16. децембар 2023, 18–19.<br>
-        <a href="https://www.novosti.rs/c/drustvo/vesti/1333380/kako-srbi-ispunili-nemanjicki-zavet-sretenje-ustanak-1804-ustav-1835-sudbinski-dan-koji-nagovestava-pobedu">https://www.novosti.rs/c/drustvo/vesti/1333380/kako-srbi-ispunili-nemanjicki-zavet-sretenje-ustanak-1804-ustav-1835-sudbinski-dan-koji-nagovestava-pobedu</a>
+        <a href="https://www.novosti.rs/c/drustvo/vesti/1333380/kako-srbi-ispunili-nemanjicki-zavet-sretenje-ustanak-1804-ustav-1835-sudbinski-dan-koji-nagovestava-pobedu">Прочитај текст / Read online</a>
       </li>
 
       <li>„Позната здања: конак господара Јована – најстарија чачанска зграда”, разговор водио Драгољуб Стевановић, <em>Политика Магазин</em> 1385, 14. април 2024, 23.</li>
 
       <li>„У дефиницији холокауста и хомосексуалци али Срба нема: како Англосаксонци тумаче резолуцију УН из 2005. о геноциду у Другом светском рату”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 22. април 2023.<br>
-        <a href="https://www.novosti.rs/c/drustvo/vesti/1358873/definiciji-holokausta-homoseksualci-ali-srba-nema-kako-anglosaksonci-tumace-rezoluciju-2005-genocidu-drugom-svetskom-ratu">https://www.novosti.rs/c/drustvo/vesti/1358873/definiciji-holokausta-homoseksualci-ali-srba-nema-kako-anglosaksonci-tumace-rezoluciju-2005-genocidu-drugom-svetskom-ratu</a>
+        <a href="https://www.novosti.rs/c/drustvo/vesti/1358873/definiciji-holokausta-homoseksualci-ali-srba-nema-kako-anglosaksonci-tumace-rezoluciju-2005-genocidu-drugom-svetskom-ratu">Прочитај текст / Read online</a>
       </li>
 
       <li>„Пре 95 година у Чачку преминуо велики српски војсковођа, војвода Степа Степановић: код Једрена осветио Угљешу и Вукашина”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 29. април 2023, 23.<br>
-        <a href="https://www.novosti.rs/reportaze/vesti/1361447/stepa-kod-jedrena-osvetio-ugljesu-vukasina-pre-85-godina-cacku-preminuo-vojvoda-stepa-stepanovic-veliki-srpski-vojskovodja">https://www.novosti.rs/reportaze/vesti/1361447/stepa-kod-jedrena-osvetio-ugljesu-vukasina-pre-85-godina-cacku-preminuo-vojvoda-stepa-stepanovic-veliki-srpski-vojskovodja</a>
+        <a href="https://www.novosti.rs/reportaze/vesti/1361447/stepa-kod-jedrena-osvetio-ugljesu-vukasina-pre-85-godina-cacku-preminuo-vojvoda-stepa-stepanovic-veliki-srpski-vojskovodja">Прочитај текст / Read online</a>
       </li>
 
       <li>„Историчар др Милош Тимотијевић о лоповима, преварантима и дамама сумњивог морала у периоду нацистичке власти: харали окупираном Србијом по рецепту ’Балкан експреса’”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 14. јул 2023, 22–23.<br>
-        <a href="https://www.novosti.rs/c/reportaze/vesti/1387981/harali-okupiranom-srbijom-receptu-balkan-ekspresa-lopovi-prevaranti-prostitutke-periodu-nacisticke-vlasti">https://www.novosti.rs/c/reportaze/vesti/1387981/harali-okupiranom-srbijom-receptu-balkan-ekspresa-lopovi-prevaranti-prostitutke-periodu-nacisticke-vlasti</a>
+        <a href="https://www.novosti.rs/c/reportaze/vesti/1387981/harali-okupiranom-srbijom-receptu-balkan-ekspresa-lopovi-prevaranti-prostitutke-periodu-nacisticke-vlasti">Прочитај текст / Read online</a>
       </li>
 
       <li>„Михаиловићеви равногорци 1942. напали рудник у Лиси, не знајући какве ће последице изазвати: како су четнички опанци потопили подморнице Рајха”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 21. јул 2023, 22.<br>
-        <a href="https://www.novosti.rs/c/reportaze/vesti/1390279/cetnicki-opanci-potopili-nemacke-podmornice-akcija-zbog-pogonskog-kaisa-zaustavljeno-kopanje-rude-neophodne-baterije">https://www.novosti.rs/c/reportaze/vesti/1390279/cetnicki-opanci-potopili-nemacke-podmornice-akcija-zbog-pogonskog-kaisa-zaustavljeno-kopanje-rude-neophodne-baterije</a>
+        <a href="https://www.novosti.rs/c/reportaze/vesti/1390279/cetnicki-opanci-potopili-nemacke-podmornice-akcija-zbog-pogonskog-kaisa-zaustavljeno-kopanje-rude-neophodne-baterije">Прочитај текст / Read online</a>
       </li>
 
       <li>„Навршава се 110 година од Церске битке, првог великог успеха српске армије у Великом рату: победа ’отписаних’ војника и сељака”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 15. август 2023, 16.<br>
-        <a href="https://www.novosti.rs/reportaze/vesti/1399191/simbol-hrabrosti-izdrzljivosti-vojnika-seljaka-navrsava-110-godina-cerske-bitke-prvog-trijumfa-srpske-vojske-velikom-ratu">https://www.novosti.rs/reportaze/vesti/1399191/simbol-hrabrosti-izdrzljivosti-vojnika-seljaka-navrsava-110-godina-cerske-bitke-prvog-trijumfa-srpske-vojske-velikom-ratu</a>
+        <a href="https://www.novosti.rs/reportaze/vesti/1399191/simbol-hrabrosti-izdrzljivosti-vojnika-seljaka-navrsava-110-godina-cerske-bitke-prvog-trijumfa-srpske-vojske-velikom-ratu">Прочитај текст / Read online</a>
       </li>
 
       <li>„Како наводно свезнајући и непристрасни софтвер ревидира историју у корист својих твораца: вештачка интелигенција негира српску голготу”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 20. август 2023, 23.<br>
-        <a href="https://www.novosti.rs/c/kultura/vesti/1400778/kako-navodno-sveznajuci-nepristrasni-softver-revidira-istoriju-cetbot-negira-srpsku-golgotu">https://www.novosti.rs/c/kultura/vesti/1400778/kako-navodno-sveznajuci-nepristrasni-softver-revidira-istoriju-cetbot-negira-srpsku-golgotu</a>
+        <a href="https://www.novosti.rs/c/kultura/vesti/1400778/kako-navodno-sveznajuci-nepristrasni-softver-revidira-istoriju-cetbot-negira-srpsku-golgotu">Прочитај текст / Read online</a>
       </li>
 
       <li>„Дан примирја у Првом светском рату: шта смо добили, а шта изгубили 11. новембра 1918?”, разговор водила Јелена Чалија, <em>RT Balkan</em>, 11. новембар 2024.<br>
-        <a href="https://rt.rs/srbija-i-balkan/117038-dan-primirja-prvi-svetski-rat-srbija-dobici-gubici/">https://rt.rs/srbija-i-balkan/117038-dan-primirja-prvi-svetski-rat-srbija-dobici-gubici/</a>
+        <a href="https://rt.rs/srbija-i-balkan/117038-dan-primirja-prvi-svetski-rat-srbija-dobici-gubici/">Прочитај текст / Read online</a>
       </li>
 
       <li>„Судбински догађаји из фебруара 1804. и 1835. показали наш неуништиви дух и идентитет и пред Европом: и Немци признали – Срби су истински историјски народ”, разговор водио Борис Субашић, <em>Вечерње новости</em>, 18. фебруар 2025, 18–19.</li>
@@ -829,578 +910,579 @@
   <p>
     Одељак обухвата избор текстова објављених на интернет сајтовима, порталима и електронским издањима новина, посвећених локалној историји, културном наслеђу, историји Чачка, Овчарско-кабларској клисури, Другом светском рату, кошаркашкој култури и јавном памћењу.
   </p>
+  <p lang="en-GB" class="section-description-en" data-section="online-articles">This section lists texts available in online editions and on web portals; printed versions are recorded separately under Newspaper Articles.</p>
 
   <details>
     <summary>Прикажи избор интернет чланака / Show selected online articles</summary>
 
     <ol>
-      <li>Милош Тимотијевић, „Немој, па се не бој!”, <em>Iskra</em>, 12. јун 2019.<br><a href="https://iskra.co/region/vladimir-dimitrijevic-nemoj-pa-se-ne-boj/">https://iskra.co/region/vladimir-dimitrijevic-nemoj-pa-se-ne-boj/</a></li>
+      <li>Милош Тимотијевић, „Немој, па се не бој!”, <em>Iskra</em>, 12. јун 2019.<br><a href="https://iskra.co/region/vladimir-dimitrijevic-nemoj-pa-se-ne-boj/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Prvi čačanski štampar”, <em>Ozonpress</em>, 23. oktobar 2020.<br><a href="https://www.ozonpress.net/hronika/prvi-cacanski-stampar/">https://www.ozonpress.net/hronika/prvi-cacanski-stampar/</a></li>
+      <li>Miloš Timotijević, „Prvi čačanski štampar”, <em>Ozonpress</em>, 23. oktobar 2020.<br><a href="https://www.ozonpress.net/hronika/prvi-cacanski-stampar/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Албум старог Чачка (1870–1941): град, људи, догађаји”, <em>Stella Polare</em>, 24. октобар 2020.<br><a href="https://stellapolarebooks.com/2020/10/24/албум-старог-чачака-1870-1941-град-људи-догађ/">https://stellapolarebooks.com/2020/10/24/албум-старог-чачака-1870-1941-град-људи-догађ/</a><br>ISSN (Online) 2738-1773</li>
+      <li>Милош Тимотијевић, „Албум старог Чачка (1870–1941): град, људи, догађаји”, <em>Stella Polare</em>, 24. октобар 2020.<br><a href="https://stellapolarebooks.com/2020/10/24/албум-старог-чачака-1870-1941-град-људи-догађ/">Прочитај текст / Read online</a><br>ISSN (Online) 2738-1773</li>
 
-      <li>Miloš Timotijević, „Utvrđenje Kulina u Ovčarsko-kablarskoj klisuri”, <em>Ozonpress</em>, 25. oktobar 2020.<br><a href="https://www.ozonpress.net/kultura/utvrdjenje-kulina-u-ovcarsko-kablarskoj-klisuri/">https://www.ozonpress.net/kultura/utvrdjenje-kulina-u-ovcarsko-kablarskoj-klisuri/</a></li>
+      <li>Miloš Timotijević, „Utvrđenje Kulina u Ovčarsko-kablarskoj klisuri”, <em>Ozonpress</em>, 25. oktobar 2020.<br><a href="https://www.ozonpress.net/kultura/utvrdjenje-kulina-u-ovcarsko-kablarskoj-klisuri/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Tajna natpisa na steni u Ovčar Banji”, <em>Ozonpress</em>, 12. novembar 2020.<br><a href="https://www.ozonpress.net/hronika/tajna-natpisa-na-steni-u-ovcar-banji-2/">https://www.ozonpress.net/hronika/tajna-natpisa-na-steni-u-ovcar-banji-2/</a></li>
+      <li>Miloš Timotijević, „Tajna natpisa na steni u Ovčar Banji”, <em>Ozonpress</em>, 12. novembar 2020.<br><a href="https://www.ozonpress.net/hronika/tajna-natpisa-na-steni-u-ovcar-banji-2/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Никољски бор”, <em>Ozonpress</em>, 9. децембар 2020.<br><a href="https://www.ozonpress.net/drustvo/nikoljski-bor/">https://www.ozonpress.net/drustvo/nikoljski-bor/</a></li>
+      <li>Милош Тимотијевић, „Никољски бор”, <em>Ozonpress</em>, 9. децембар 2020.<br><a href="https://www.ozonpress.net/drustvo/nikoljski-bor/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Sokolana u Čačku”, <em>Ozonpress</em>, 14. decembar 2020.<br><a href="https://www.ozonpress.net/zivotni-stil/sokolana-u-cacku/">https://www.ozonpress.net/zivotni-stil/sokolana-u-cacku/</a></li>
+      <li>Miloš Timotijević, „Sokolana u Čačku”, <em>Ozonpress</em>, 14. decembar 2020.<br><a href="https://www.ozonpress.net/zivotni-stil/sokolana-u-cacku/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Konak Jovana Obrenovića”, <em>Ozonpress</em>, 28. decembar 2020.<br><a href="https://www.ozonpress.net/kultura/konak-jovana-obrenovica/">https://www.ozonpress.net/kultura/konak-jovana-obrenovica/</a></li>
+      <li>Miloš Timotijević, „Konak Jovana Obrenovića”, <em>Ozonpress</em>, 28. decembar 2020.<br><a href="https://www.ozonpress.net/kultura/konak-jovana-obrenovica/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Како је Надежда Петровић заувек остала Чачанка”, <em>Ozonpress</em>, 3. јануар 2021.<br><a href="https://www.ozonpress.net/drustvo/kako-je-nadezda-petrovic-zauvek-ostala-cacanka/">https://www.ozonpress.net/drustvo/kako-je-nadezda-petrovic-zauvek-ostala-cacanka/</a></li>
+      <li>Милош Тимотијевић, „Како је Надежда Петровић заувек остала Чачанка”, <em>Ozonpress</em>, 3. јануар 2021.<br><a href="https://www.ozonpress.net/drustvo/kako-je-nadezda-petrovic-zauvek-ostala-cacanka/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Pećina Turčinovac na liticama Kablara”, <em>Ozonpress</em>, 5. januar 2021.<br><a href="https://www.ozonpress.net/hronika/pecina-turcinovac-na-liticama-kablara/">https://www.ozonpress.net/hronika/pecina-turcinovac-na-liticama-kablara/</a></li>
+      <li>Miloš Timotijević, „Pećina Turčinovac na liticama Kablara”, <em>Ozonpress</em>, 5. januar 2021.<br><a href="https://www.ozonpress.net/hronika/pecina-turcinovac-na-liticama-kablara/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Izgled crkve u Čačku pre obnove iz 1926–1929. godine”, <em>Ozonpress</em>, 9. januar 2021.<br><a href="https://www.ozonpress.net/hronika/izgled-crkve-u-cacku-pre-obnove-iz-1926-1929-godine/">https://www.ozonpress.net/hronika/izgled-crkve-u-cacku-pre-obnove-iz-1926-1929-godine/</a></li>
+      <li>Miloš Timotijević, „Izgled crkve u Čačku pre obnove iz 1926–1929. godine”, <em>Ozonpress</em>, 9. januar 2021.<br><a href="https://www.ozonpress.net/hronika/izgled-crkve-u-cacku-pre-obnove-iz-1926-1929-godine/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Vuk Karadžić i Ovčarsko-kablarska klisura”, <em>Ozonpress</em>, 12. januar 2021.<br><a href="https://www.ozonpress.net/kultura/vuk-karadzic-i-ovcarsko-kablarska-klisura/">https://www.ozonpress.net/kultura/vuk-karadzic-i-ovcarsko-kablarska-klisura/</a></li>
+      <li>Miloš Timotijević, „Vuk Karadžić i Ovčarsko-kablarska klisura”, <em>Ozonpress</em>, 12. januar 2021.<br><a href="https://www.ozonpress.net/kultura/vuk-karadzic-i-ovcarsko-kablarska-klisura/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Planina Kablar”, <em>Ozonpress</em>, 17. januar 2021.<br><a href="https://www.ozonpress.net/drustvo/planina-kablar/">https://www.ozonpress.net/drustvo/planina-kablar/</a></li>
+      <li>Miloš Timotijević, „Planina Kablar”, <em>Ozonpress</em>, 17. januar 2021.<br><a href="https://www.ozonpress.net/drustvo/planina-kablar/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Чачанско Четворојеванђеље”, <em>Ozonpress</em>, 19. јануар 2021.<br><a href="https://www.ozonpress.net/kultura/cacansko-cetvorojevandjelje/">https://www.ozonpress.net/kultura/cacansko-cetvorojevandjelje/</a></li>
+      <li>Милош Тимотијевић, „Чачанско Четворојеванђеље”, <em>Ozonpress</em>, 19. јануар 2021.<br><a href="https://www.ozonpress.net/kultura/cacansko-cetvorojevandjelje/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Kada je izgrađen i kako je nestao manastir Staro Jovanje”, <em>Ozonpress</em>, 26. januar 2021.<br><a href="https://www.ozonpress.net/kultura/kada-je-izgradjen-i-kako-je-nestao-manastir-staro-jovanje/">https://www.ozonpress.net/kultura/kada-je-izgradjen-i-kako-je-nestao-manastir-staro-jovanje/</a></li>
+      <li>Miloš Timotijević, „Kada je izgrađen i kako je nestao manastir Staro Jovanje”, <em>Ozonpress</em>, 26. januar 2021.<br><a href="https://www.ozonpress.net/kultura/kada-je-izgradjen-i-kako-je-nestao-manastir-staro-jovanje/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Dan sećanja na žrtve Holokausta: kako su Čačani spasavali Jevreje”, <em>Ozonpress</em>, 27. januar 2021.<br><a href="https://www.ozonpress.net/projekat/dan-secanja-na-zrtve-holokausta-kako-su-cacani-spasavali-jevreje/">https://www.ozonpress.net/projekat/dan-secanja-na-zrtve-holokausta-kako-su-cacani-spasavali-jevreje/</a></li>
+      <li>Miloš Timotijević, „Dan sećanja na žrtve Holokausta: kako su Čačani spasavali Jevreje”, <em>Ozonpress</em>, 27. januar 2021.<br><a href="https://www.ozonpress.net/projekat/dan-secanja-na-zrtve-holokausta-kako-su-cacani-spasavali-jevreje/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Savinje na Kablaru”, <em>Ozonpress</em>, 31. januar 2021.<br><a href="https://www.ozonpress.net/zivotni-stil/savinje-na-kablaru/">https://www.ozonpress.net/zivotni-stil/savinje-na-kablaru/</a></li>
+      <li>Miloš Timotijević, „Savinje na Kablaru”, <em>Ozonpress</em>, 31. januar 2021.<br><a href="https://www.ozonpress.net/zivotni-stil/savinje-na-kablaru/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Манастир Сретење под Овчаром”, <em>Ozonpress</em>, 12. фебруар 2021.<br><a href="https://www.ozonpress.net/kultura/manastir-sretenje-pod-ovcarom/">https://www.ozonpress.net/kultura/manastir-sretenje-pod-ovcarom/</a></li>
+      <li>Милош Тимотијевић, „Манастир Сретење под Овчаром”, <em>Ozonpress</em>, 12. фебруар 2021.<br><a href="https://www.ozonpress.net/kultura/manastir-sretenje-pod-ovcarom/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Четворојеванђеље из манастира Вазнесење у Овчарско-кабларској клисури”, <em>Ozonpress</em>, 17. фебруар 2021.<br><a href="https://www.ozonpress.net/kultura/cetvorojevandjelje-iz-manastira-vaznesenje-u-ovcarsko-kablarskoj-klisuri/">https://www.ozonpress.net/kultura/cetvorojevandjelje-iz-manastira-vaznesenje-u-ovcarsko-kablarskoj-klisuri/</a></li>
+      <li>Милош Тимотијевић, „Четворојеванђеље из манастира Вазнесење у Овчарско-кабларској клисури”, <em>Ozonpress</em>, 17. фебруар 2021.<br><a href="https://www.ozonpress.net/kultura/cetvorojevandjelje-iz-manastira-vaznesenje-u-ovcarsko-kablarskoj-klisuri/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Gradske priče: kako je izgrađena Stara robna kuća”, <em>Ozonpress</em>, 19. februar 2021.<br><a href="https://www.ozonpress.net/kultura/gradske-price-kako-je-izgradjena-stara-robna-kuca/">https://www.ozonpress.net/kultura/gradske-price-kako-je-izgradjena-stara-robna-kuca/</a></li>
+      <li>Miloš Timotijević, „Gradske priče: kako je izgrađena Stara robna kuća”, <em>Ozonpress</em>, 19. februar 2021.<br><a href="https://www.ozonpress.net/kultura/gradske-price-kako-je-izgradjena-stara-robna-kuca/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Gradske priče: kako je rastao broj automobila u Čačku”, <em>Ozonpress</em>, 4. mart 2021.<br><a href="https://www.ozonpress.net/zivotni-stil/gradske-price-kako-je-rastao-broj-automobila-u-cacku/">https://www.ozonpress.net/zivotni-stil/gradske-price-kako-je-rastao-broj-automobila-u-cacku/</a></li>
+      <li>Miloš Timotijević, „Gradske priče: kako je rastao broj automobila u Čačku”, <em>Ozonpress</em>, 4. mart 2021.<br><a href="https://www.ozonpress.net/zivotni-stil/gradske-price-kako-je-rastao-broj-automobila-u-cacku/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Интимни живот на паланачки начин – случај Чачка”, <em>Stella Polare</em>, 5. март 2021.<br><a href="https://stellapolarebooks.com/2021/03/05/2435/">https://stellapolarebooks.com/2021/03/05/2435/</a><br>ISSN (Online) 2738-1773</li>
+      <li>Милош Тимотијевић, „Интимни живот на паланачки начин – случај Чачка”, <em>Stella Polare</em>, 5. март 2021.<br><a href="https://stellapolarebooks.com/2021/03/05/2435/">Прочитај текст / Read online</a><br>ISSN (Online) 2738-1773</li>
 
-      <li>Miloš Timotijević, „Čačanska crkva tri puta pretvarana u džamiju”, <em>Ozonpress</em>, 16. mart 2021.<br><a href="https://www.ozonpress.net/kultura/cacanska-crkva-tri-puta-pretvarana-u-dzamiju/">https://www.ozonpress.net/kultura/cacanska-crkva-tri-puta-pretvarana-u-dzamiju/</a></li>
+      <li>Miloš Timotijević, „Čačanska crkva tri puta pretvarana u džamiju”, <em>Ozonpress</em>, 16. mart 2021.<br><a href="https://www.ozonpress.net/kultura/cacanska-crkva-tri-puta-pretvarana-u-dzamiju/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Легенде о закопаном благу Царске столице у Атеници”, <em>Ozonpress</em>, 30. март 2021.<br><a href="https://www.ozonpress.net/kultura/legende-o-zakopanom-blagu-carske-stolice-u-atenici/">https://www.ozonpress.net/kultura/legende-o-zakopanom-blagu-carske-stolice-u-atenici/</a></li>
+      <li>Милош Тимотијевић, „Легенде о закопаном благу Царске столице у Атеници”, <em>Ozonpress</em>, 30. март 2021.<br><a href="https://www.ozonpress.net/kultura/legende-o-zakopanom-blagu-carske-stolice-u-atenici/">Прочитај текст / Read online</a></li>
 
-      <li>Miloš Timotijević, „Stara Sarajevska ulica u Čačku”, <em>Ozonpress</em>, 6. april 2021.<br><a href="https://www.ozonpress.net/kultura/stara-sarajevska-ulica-u-cacku/">https://www.ozonpress.net/kultura/stara-sarajevska-ulica-u-cacku/</a></li>
+      <li>Miloš Timotijević, „Stara Sarajevska ulica u Čačku”, <em>Ozonpress</em>, 6. april 2021.<br><a href="https://www.ozonpress.net/kultura/stara-sarajevska-ulica-u-cacku/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Изгубљени манастир Светог Георгија у Овчарско-кабларској клисури”, <em>Ozonpress</em>, 21. април 2021.<br><a href="https://www.ozonpress.net/kultura/izgubljeni-manastir-svetog-georgija-u-ovcarsko-kablarskoj-klisuri/">https://www.ozonpress.net/kultura/izgubljeni-manastir-svetog-georgija-u-ovcarsko-kablarskoj-klisuri/</a></li>
+      <li>Милош Тимотијевић, „Изгубљени манастир Светог Георгија у Овчарско-кабларској клисури”, <em>Ozonpress</em>, 21. април 2021.<br><a href="https://www.ozonpress.net/kultura/izgubljeni-manastir-svetog-georgija-u-ovcarsko-kablarskoj-klisuri/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Да ли је вредело борити се: мајски одговори Милоша Тимотијевића”, <em>Iskra</em>, 10. мај 2021.<br><a href="https://iskra.co/srbija/da-li-je-vredelo-boriti-se-majski-odgovori-milosa-timotijevica/">https://iskra.co/srbija/da-li-je-vredelo-boriti-se-majski-odgovori-milosa-timotijevica/</a></li>
+      <li>Милош Тимотијевић, „Да ли је вредело борити се: мајски одговори Милоша Тимотијевића”, <em>Iskra</em>, 10. мај 2021.<br><a href="https://iskra.co/srbija/da-li-je-vredelo-boriti-se-majski-odgovori-milosa-timotijevica/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „На данашњи дан почела евакуација савезничких пилота из Прањана”, <em>Ozonpress</em>, 27. мај 2021.<br><a href="https://www.ozonpress.net/hronika/na-danasnji-dan-pocela-evakuacija-saveznickih-pilota-iz-pranjana/">https://www.ozonpress.net/hronika/na-danasnji-dan-pocela-evakuacija-saveznickih-pilota-iz-pranjana/</a></li>
+      <li>Милош Тимотијевић, „На данашњи дан почела евакуација савезничких пилота из Прањана”, <em>Ozonpress</em>, 27. мај 2021.<br><a href="https://www.ozonpress.net/hronika/na-danasnji-dan-pocela-evakuacija-saveznickih-pilota-iz-pranjana/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Хотел ’Морава’ у Чачку”, <em>Čačanski glas</em> (интернет издање), 2. јун 2021.<br><a href="https://www.caglas.rs/hotel-morava-u-cacku/">https://www.caglas.rs/hotel-morava-u-cacku/</a></li>
+      <li>Милош Тимотијевић, „Хотел ’Морава’ у Чачку”, <em>Čačanski glas</em> (интернет издање), 2. јун 2021.<br><a href="https://www.caglas.rs/hotel-morava-u-cacku/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Оснивање предузећа ’Слобода – Чачак’”, <em>Čačanski glas</em> (интернет издање), 4. јун 2021.<br><a href="https://www.caglas.rs/fabrika-sloboda-je-osnovana-10-jula-1948-godine/">https://www.caglas.rs/fabrika-sloboda-je-osnovana-10-jula-1948-godine/</a></li>
+      <li>Милош Тимотијевић, „Оснивање предузећа ’Слобода – Чачак’”, <em>Čačanski glas</em> (интернет издање), 4. јун 2021.<br><a href="https://www.caglas.rs/fabrika-sloboda-je-osnovana-10-jula-1948-godine/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Старо начелство у Чачку”, <em>Čačanski glas</em> (интернет издање), 9. јун 2021.<br><a href="https://www.caglas.rs/staro-nacelstvo-u-cacku/">https://www.caglas.rs/staro-nacelstvo-u-cacku/</a></li>
+      <li>Милош Тимотијевић, „Старо начелство у Чачку”, <em>Čačanski glas</em> (интернет издање), 9. јун 2021.<br><a href="https://www.caglas.rs/staro-nacelstvo-u-cacku/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Легенде о закопаном благу из околине Чачка”, <em>Ozonpress</em>, 10. јун 2021.<br><a href="https://www.ozonpress.net/kultura/legende-o-zakopanom-blagu-iz-okoline-cacka/">https://www.ozonpress.net/kultura/legende-o-zakopanom-blagu-iz-okoline-cacka/</a></li>
+      <li>Милош Тимотијевић, „Легенде о закопаном благу из околине Чачка”, <em>Ozonpress</em>, 10. јун 2021.<br><a href="https://www.ozonpress.net/kultura/legende-o-zakopanom-blagu-iz-okoline-cacka/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Индустријализација Чачка 1944–1956.”, <em>Čačanski glas</em> (интернет издање), 14. јун 2021.<br><a href="https://www.caglas.rs/industrijalizacija-cacka-1944-1956/">https://www.caglas.rs/industrijalizacija-cacka-1944-1956/</a></li>
+      <li>Милош Тимотијевић, „Индустријализација Чачка 1944–1956.”, <em>Čačanski glas</em> (интернет издање), 14. јун 2021.<br><a href="https://www.caglas.rs/industrijalizacija-cacka-1944-1956/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Манастир Света Тројица под Овчаром”, <em>Čačanski glas</em> (интернет издање), 23. јун 2021.<br><a href="https://www.caglas.rs/manastir-sveta-trojica-pod-ovcarom/">https://www.caglas.rs/manastir-sveta-trojica-pod-ovcarom/</a></li>
+      <li>Милош Тимотијевић, „Манастир Света Тројица под Овчаром”, <em>Čačanski glas</em> (интернет издање), 23. јун 2021.<br><a href="https://www.caglas.rs/manastir-sveta-trojica-pod-ovcarom/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Пећина Кађеница”, <em>Čačanski glas</em> (интернет издање), 28. јун 2021.<br><a href="https://www.caglas.rs/pecina-kadjenica/">https://www.caglas.rs/pecina-kadjenica/</a></li>
+      <li>Милош Тимотијевић, „Пећина Кађеница”, <em>Čačanski glas</em> (интернет издање), 28. јун 2021.<br><a href="https://www.caglas.rs/pecina-kadjenica/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Други балкански рат и књижевник Dragiša Vasić”, <em>Čačanski glas</em> (интернет издање), 29. јун 2021.<br><a href="https://www.caglas.rs/drugi-balkanski-rat-i-knjizevnik-dragisa-vasic/">https://www.caglas.rs/drugi-balkanski-rat-i-knjizevnik-dragisa-vasic/</a></li>
+      <li>Милош Тимотијевић, „Други балкански рат и књижевник Dragiša Vasić”, <em>Čačanski glas</em> (интернет издање), 29. јун 2021.<br><a href="https://www.caglas.rs/drugi-balkanski-rat-i-knjizevnik-dragisa-vasic/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Манастир Трнава под Јелицом и Хаџи-Проданова буна из 1814. године”, <em>Čačanski glas</em> (интернет издање), 29. јун 2021.<br><a href="https://www.caglas.rs/manastir-trnava-pod-jelicom-i-hadzi-prodanova-buna-iz-1814-godine/">https://www.caglas.rs/manastir-trnava-pod-jelicom-i-hadzi-prodanova-buna-iz-1814-godine/</a></li>
+      <li>Милош Тимотијевић, „Манастир Трнава под Јелицом и Хаџи-Проданова буна из 1814. године”, <em>Čačanski glas</em> (интернет издање), 29. јун 2021.<br><a href="https://www.caglas.rs/manastir-trnava-pod-jelicom-i-hadzi-prodanova-buna-iz-1814-godine/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Српско-турски (Јаворски) рат, 1876–1877. године”, <em>Čačanski glas</em> (интернет издање), 30. јун 2021.<br><a href="https://www.caglas.rs/srpsko-turski-javorski-rat/">https://www.caglas.rs/srpsko-turski-javorski-rat/</a></li>
+      <li>Милош Тимотијевић, „Српско-турски (Јаворски) рат, 1876–1877. године”, <em>Čačanski glas</em> (интернет издање), 30. јун 2021.<br><a href="https://www.caglas.rs/srpsko-turski-javorski-rat/">Прочитај текст / Read online</a></li>
 
-      <li>Милош Тимотијевић, „Каранско јеванђеље из ризнице манастира Никоље под Кабларом”, <em>Stella Polare</em>, 12. јул 2021.<br><a href="https://stellapolarebooks.com/2021/07/12/каранско-јеванђеље-из-ризнице-манаст/">https://stellapolarebooks.com/2021/07/12/каранско-јеванђеље-из-ризнице-манаст/</a><br>ISSN (Online) 2738-1773</li>
+      <li>Милош Тимотијевић, „Каранско јеванђеље из ризнице манастира Никоље под Кабларом”, <em>Stella Polare</em>, 12. јул 2021.<br><a href="https://stellapolarebooks.com/2021/07/12/каранско-јеванђеље-из-ризнице-манаст/">Прочитај текст / Read online</a><br>ISSN (Online) 2738-1773</li>
 
-      <li>Милош Тимотијевић, „Манастир Јовање под Кабларом”, <em>Čačanski glas</em> (интернет издање), 15. јул 2021.<br><a href="https://www.caglas.rs/manastir-jovanje-pod-kablarom/">https://www.caglas.rs/manastir-jovanje-pod-kablarom/</a></li>
+      <li>Милош Тимотијевић, „Манастир Јовање под Кабларом”, <em>Čačanski glas</em> (интернет издање), 15. јул 2021.<br><a href="https://www.caglas.rs/manastir-jovanje-pod-kablarom/">Прочитај текст / Read online</a></li>
    
     <li>
   Милош Тимотијевић, „Заборављени Чачани – Александар Ацо Ђурчић”, <em>Ozonpress</em>, 20. јул 2021.<br>
-  <a href="https://www.ozonpress.net/hronika/zaboravljeni-cacani-aleksandar-aco-djurcic/">https://www.ozonpress.net/hronika/zaboravljeni-cacani-aleksandar-aco-djurcic/</a>
+  <a href="https://www.ozonpress.net/hronika/zaboravljeni-cacani-aleksandar-aco-djurcic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Чачак у доба рококоа – време када је варош на Западној Морави припадала Хабзбуршком царству (1717–1739)”, <em>Čačanski glas</em> (интернет издање), 22. јул 2021.<br>
-  <a href="https://www.caglas.rs/cacak-u-doba-rokokoa/">https://www.caglas.rs/cacak-u-doba-rokokoa/</a>
+  <a href="https://www.caglas.rs/cacak-u-doba-rokokoa/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „На данашњи дан основана Техничка школа”, <em>Čačanski glas</em> (интернет издање), 31. јул 2021.<br>
-  <a href="https://www.caglas.rs/na-danasnji-dan-osnovana-tehnicka-skola/">https://www.caglas.rs/na-danasnji-dan-osnovana-tehnicka-skola/</a>
+  <a href="https://www.caglas.rs/na-danasnji-dan-osnovana-tehnicka-skola/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Први називи улица Чачка из 1893. године”, <em>Ozonpress</em>, 31. јул 2021.<br>
-  <a href="https://www.ozonpress.net/drustvo/prvi-nazivi-ulica-cacka-iz-1893-godine/">https://www.ozonpress.net/drustvo/prvi-nazivi-ulica-cacka-iz-1893-godine/</a>
+  <a href="https://www.ozonpress.net/drustvo/prvi-nazivi-ulica-cacka-iz-1893-godine/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Манастир Вујан”, <em>Čačanski glas</em> (интернет издање), 2. август 2021.<br>
-  <a href="https://www.caglas.rs/manastir-vujan/">https://www.caglas.rs/manastir-vujan/</a>
+  <a href="https://www.caglas.rs/manastir-vujan/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Песник Бранко В. Радичевић (1925–2001) и Сабор трубача у Гучи”, <em>Čačanski glas</em> (интернет издање), 13. август 2021.<br>
-  <a href="https://www.caglas.rs/pesnik-branko-v-radicevic-1925-2001-i-sabor-trubaca-i-guci/">https://www.caglas.rs/pesnik-branko-v-radicevic-1925-2001-i-sabor-trubaca-i-guci/</a>
+  <a href="https://www.caglas.rs/pesnik-branko-v-radicevic-1925-2001-i-sabor-trubaca-i-guci/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Први називи улица Чачка из 1893. године”, <em>Čačanski glas</em> (интернет издање), 19. август 2021.<br>
-  <a href="https://www.caglas.rs/prvi-nazivi-ulica-cacka-iz-1893-godine/">https://www.caglas.rs/prvi-nazivi-ulica-cacka-iz-1893-godine/</a>
+  <a href="https://www.caglas.rs/prvi-nazivi-ulica-cacka-iz-1893-godine/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Порекло породице књижевника Dragiša Vasić”, <em>Poreklo</em>, 23. август 2021.<br>
-  <a href="https://www.poreklo.rs/2021/08/23/poreklo-porodice-knjizevnika-dragise-vasica/">https://www.poreklo.rs/2021/08/23/poreklo-porodice-knjizevnika-dragise-vasica/</a>
+  <a href="https://www.poreklo.rs/2021/08/23/poreklo-porodice-knjizevnika-dragise-vasica/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Оснивање музеја у Чачку 30. августа 1952. године”, <em>Čačanski glas</em> (интернет издање), 30. август 2021.<br>
-  <a href="https://www.caglas.rs/osnivanje-muzeja-u-cacku-30-avgusta-1952-godine/">https://www.caglas.rs/osnivanje-muzeja-u-cacku-30-avgusta-1952-godine/</a>
+  <a href="https://www.caglas.rs/osnivanje-muzeja-u-cacku-30-avgusta-1952-godine/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Манастир Стјеник под Јелицом”, <em>Ozonpress</em>, 12. септембар 2021.<br>
-  <a href="https://www.ozonpress.net/kultura/manastir-stjenik-pod-jelicom/">https://www.ozonpress.net/kultura/manastir-stjenik-pod-jelicom/</a>
+  <a href="https://www.ozonpress.net/kultura/manastir-stjenik-pod-jelicom/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Тако је створен ’Сабор трубача’”, <em>Čačanski glas</em> (интернет издање), 14. октобар 2021.<br>
-  <a href="https://www.caglas.rs/tako-je-stvoren-sabor-trubaca/">https://www.caglas.rs/tako-je-stvoren-sabor-trubaca/</a>
+  <a href="https://www.caglas.rs/tako-je-stvoren-sabor-trubaca/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Краљица Драга и ефемерни спектакл”, <em>Stella Polare</em>, 23. октобар 2021.<br>
-  <a href="https://stellapolarebooks.com/2021/10/23/краљица-драга-и-ефемерни-спектакл-мил/">https://stellapolarebooks.com/2021/10/23/краљица-драга-и-ефемерни-спектакл-мил/</a><br>
+  <a href="https://stellapolarebooks.com/2021/10/23/краљица-драга-и-ефемерни-спектакл-мил/">Прочитај текст / Read online</a><br>
   ISSN (Online) 2738-1773
 </li>
 
 <li>
   Милош Тимотијевић, „Разгледница Чачка, издање књижаре Анастаса Ђ. Константиновића у Чачку”, <em>Čačanski glas</em> (интернет издање), 28. октобар 2021.<br>
-  <a href="https://www.caglas.rs/razglednica-cacka-izdanje-knjizare-anastasa-dj-konstantinovica-u-cacku-pre-1912/">https://www.caglas.rs/razglednica-cacka-izdanje-knjizare-anastasa-dj-konstantinovica-u-cacku-pre-1912/</a>
+  <a href="https://www.caglas.rs/razglednica-cacka-izdanje-knjizare-anastasa-dj-konstantinovica-u-cacku-pre-1912/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Порекло америчког ратног обавештајца Николе Ника Лалића (1916–2001)”, <em>Poreklo</em>, 7. новембар 2021.<br>
-  <a href="https://www.poreklo.rs/2021/11/07/poreklo-americkog-ratnog-obavestajca-nikole-nika-lalica-1916-2001/">https://www.poreklo.rs/2021/11/07/poreklo-americkog-ratnog-obavestajca-nikole-nika-lalica-1916-2001/</a>
+  <a href="https://www.poreklo.rs/2021/11/07/poreklo-americkog-ratnog-obavestajca-nikole-nika-lalica-1916-2001/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Заборављене српске грађанске породице – браћа Сокићи из Ивањице”, <em>Poreklo</em>, 11. новембар 2021.<br>
-  <a href="https://www.poreklo.rs/2021/11/11/zaboravljene-srpske-gradjanske-porodice-braca-sokici-iz-ivanjice/">https://www.poreklo.rs/2021/11/11/zaboravljene-srpske-gradjanske-porodice-braca-sokici-iz-ivanjice/</a>
+  <a href="https://www.poreklo.rs/2021/11/11/zaboravljene-srpske-gradjanske-porodice-braca-sokici-iz-ivanjice/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Архитекта Драгутин Маслаћ и зграда Гимназије у Чачку”, <em>Čačanski glas</em> (интернет издање), 22. новембар 2021.<br>
-  <a href="https://www.caglas.rs/arhitekta-dragutin-maslac-i-zgrada-gimnazije-u-cacku/">https://www.caglas.rs/arhitekta-dragutin-maslac-i-zgrada-gimnazije-u-cacku/</a>
+  <a href="https://www.caglas.rs/arhitekta-dragutin-maslac-i-zgrada-gimnazije-u-cacku/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Манастир Благовештење под Кабларом”, <em>Čačanski glas</em> (интернет издање), 7. април 2022.<br>
-  <a href="https://www.caglas.rs/manastir-blagovestenje-pod-kablarom/">https://www.caglas.rs/manastir-blagovestenje-pod-kablarom/</a>
+  <a href="https://www.caglas.rs/manastir-blagovestenje-pod-kablarom/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Radisav Ćurčić – jedini Čačanin koji je igrao u NBA ligi”, <em>Moravainfo</em>, 11. april 2022.<br>
-  <a href="http://moravainfo.rs/radisav-curcic-jedini-cacanin-koji-je-igrao-u-nba-ligi/">http://moravainfo.rs/radisav-curcic-jedini-cacanin-koji-je-igrao-u-nba-ligi/</a>
+  <a href="http://moravainfo.rs/radisav-curcic-jedini-cacanin-koji-je-igrao-u-nba-ligi/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Radoslav Rade Šljivić – kadetski i juniorski prvak Jugoslavije, živa legenda Žela”, <em>Moravainfo</em>, 17. april 2022.<br>
-  <a href="http://moravainfo.rs/radoslav-rade-sljivic-kadetski-i-juniorski-prvak-jugoslavije-ziva-legenda-zela/">http://moravainfo.rs/radoslav-rade-sljivic-kadetski-i-juniorski-prvak-jugoslavije-ziva-legenda-zela/</a>
+  <a href="http://moravainfo.rs/radoslav-rade-sljivic-kadetski-i-juniorski-prvak-jugoslavije-ziva-legenda-zela/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Slobodan Rica Gordić, prvi Čačanin koji je igrao za košarkašku reprezentaciju Jugoslavije”, <em>Moravainfo</em>, 25. april 2022.<br>
-  <a href="http://moravainfo.rs/slobodan-rica-gordic-prvi-cacanin-koji-je-igrao-za-kosarkasku-reprezentaciju-jugoslavije/">http://moravainfo.rs/slobodan-rica-gordic-prvi-cacanin-koji-je-igrao-za-kosarkasku-reprezentaciju-jugoslavije/</a>
+  <a href="http://moravainfo.rs/slobodan-rica-gordic-prvi-cacanin-koji-je-igrao-za-kosarkasku-reprezentaciju-jugoslavije/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Pre 82 godine prva osoba iz Čačka upoznala se sa košarkom, to je bila žena”, <em>Moravainfo</em>, 30. april 2022.<br>
-  <a href="http://moravainfo.rs/pre-82-godine-prva-osoba-iz-cacka-upoznala-se-sa-kosarkom-to-je-bila-zena/">http://moravainfo.rs/pre-82-godine-prva-osoba-iz-cacka-upoznala-se-sa-kosarkom-to-je-bila-zena/</a>
+  <a href="http://moravainfo.rs/pre-82-godine-prva-osoba-iz-cacka-upoznala-se-sa-kosarkom-to-je-bila-zena/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Prvi veliki uspeh košarke u Čačku: Juniori Borca vicešampioni Jugoslavije 1951.”, <em>Moravainfo</em>, 6. maj 2022.<br>
-  <a href="http://moravainfo.rs/prvi-veliki-uspeh-kosarke-u-cacku-juniori-borca-vicesampioni-jugoslavije-1951/">http://moravainfo.rs/prvi-veliki-uspeh-kosarke-u-cacku-juniori-borca-vicesampioni-jugoslavije-1951/</a>
+  <a href="http://moravainfo.rs/prvi-veliki-uspeh-kosarke-u-cacku-juniori-borca-vicesampioni-jugoslavije-1951/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Dvojica košarkaša Železničara donela prve reprezentativne zlatne medalje u Čačak 1971. godine”, <em>Moravainfo</em>, 9. maj 2022.<br>
-  <a href="http://moravainfo.rs/dvojica-kosarkasa-zeleznicara-donela-prve-reprezentativne-zlatne-medalje-u-cacak-1971-godine/">http://moravainfo.rs/dvojica-kosarkasa-zeleznicara-donela-prve-reprezentativne-zlatne-medalje-u-cacak-1971-godine/</a>
+  <a href="http://moravainfo.rs/dvojica-kosarkasa-zeleznicara-donela-prve-reprezentativne-zlatne-medalje-u-cacak-1971-godine/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Slobodan Conja Koprivica, trenerska i igračka legenda Borca”, <em>Moravainfo</em>, 11. maj 2022.<br>
-  <a href="http://moravainfo.rs/slobodan-conja-koprivica-trenerska-i-igracka-legenda-borca/">http://moravainfo.rs/slobodan-conja-koprivica-trenerska-i-igracka-legenda-borca/</a>
+  <a href="http://moravainfo.rs/slobodan-conja-koprivica-trenerska-i-igracka-legenda-borca/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Пионири кошарке у Чачку – браћа Александар и Срећко Икодиновић”, <em>Ozonpress</em>, 16. мај 2022.<br>
-  <a href="https://www.ozonpress.net/sport/pioniri-kosarke-u-cacku-braca-aleksandar-i-srecko-ikodinovic/">https://www.ozonpress.net/sport/pioniri-kosarke-u-cacku-braca-aleksandar-i-srecko-ikodinovic/</a>
+  <a href="https://www.ozonpress.net/sport/pioniri-kosarke-u-cacku-braca-aleksandar-i-srecko-ikodinovic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Манастир Никоље под Кабларом”, <em>Čačanski glas</em> (интернет издање), 21. мај 2022.<br>
-  <a href="https://www.caglas.rs/manastir-nikolje-pod-kablarom/">https://www.caglas.rs/manastir-nikolje-pod-kablarom/</a>
+  <a href="https://www.caglas.rs/manastir-nikolje-pod-kablarom/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Ako je neko bio ravan Radmilu Mišoviću, onda je to bio on – Tomislav Đelošević Ćamila”, <em>Moravainfo</em>, 3. jun 2022.<br>
-  <a href="http://moravainfo.rs/ako-je-neko-bio-ravan-radmilu-misovicu-onda-je-to-bio-on-tomislav-djelosevic-camila/">http://moravainfo.rs/ako-je-neko-bio-ravan-radmilu-misovicu-onda-je-to-bio-on-tomislav-djelosevic-camila/</a>
+  <a href="http://moravainfo.rs/ako-je-neko-bio-ravan-radmilu-misovicu-onda-je-to-bio-on-tomislav-djelosevic-camila/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Заборављени кошаркаши Чачка – Бранко Цицварић (1935–1993)”, <em>Ozonpress</em>, 10. јун 2022.<br>
-  <a href="https://www.ozonpress.net/sport/zaboravljeni-kosarkasi-cacka-branko-cicvaric-1935-1993/">https://www.ozonpress.net/sport/zaboravljeni-kosarkasi-cacka-branko-cicvaric-1935-1993/</a>
+  <a href="https://www.ozonpress.net/sport/zaboravljeni-kosarkasi-cacka-branko-cicvaric-1935-1993/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Zaboravljeni košarkaši Čačka: Milutin Kovačević – Mićo Gus”, <em>Moravainfo</em>, 14. jun 2022.<br>
-  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-milutin-kovacevic-mico-gus/">http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-milutin-kovacevic-mico-gus/</a>
+  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-milutin-kovacevic-mico-gus/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Пионири кошарке у Чачку: Владимир Вова Бондаренко (1930–1982)”, <em>Ozonpress</em>, 17. јун 2022.<br>
-  <a href="https://www.ozonpress.net/sport/pioniri-kosarke-u-cacku-vladimir-vova-bondarenko-1930-1982/">https://www.ozonpress.net/sport/pioniri-kosarke-u-cacku-vladimir-vova-bondarenko-1930-1982/</a>
+  <a href="https://www.ozonpress.net/sport/pioniri-kosarke-u-cacku-vladimir-vova-bondarenko-1930-1982/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Čačanski ’plemići’”, <em>Društvo za urbanu istoriju</em>, 18. jun 2022.<br>
-  <a href="https://www.urbanaistorija.rs/cacanski-plemici/">https://www.urbanaistorija.rs/cacanski-plemici/</a>
+  <a href="https://www.urbanaistorija.rs/cacanski-plemici/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Ranko Bugarčić – od košarkaša Borca do Titovog sekretara”, <em>Moravainfo</em>, 24. jun 2022.<br>
-  <a href="http://moravainfo.rs/ranko-bugarcic-od-kosarkasa-borca-do-titovog-sekretara/">http://moravainfo.rs/ranko-bugarcic-od-kosarkasa-borca-do-titovog-sekretara/</a>
+  <a href="http://moravainfo.rs/ranko-bugarcic-od-kosarkasa-borca-do-titovog-sekretara/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Pioniri čačanske košarke: Miodrag Pantelić – Ježo”, <em>Moravainfo</em>, 28. jun 2022.<br>
-  <a href="http://moravainfo.rs/pioniri-cacanske-kosarke-miodrag-pantelic-jezo/">http://moravainfo.rs/pioniri-cacanske-kosarke-miodrag-pantelic-jezo/</a>
+  <a href="http://moravainfo.rs/pioniri-cacanske-kosarke-miodrag-pantelic-jezo/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Pioniri čačanske košarke: Dušan Dule Jakovljević”, <em>Moravainfo</em>, 12. jul 2022.<br>
-  <a href="http://moravainfo.rs/pioniri-kosarke-u-cacku-dusan-dule-jakovljevic/">http://moravainfo.rs/pioniri-kosarke-u-cacku-dusan-dule-jakovljevic/</a>
+  <a href="http://moravainfo.rs/pioniri-kosarke-u-cacku-dusan-dule-jakovljevic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Predrag Prevo Vučićević, legendarni trener koji nije želeo da napusti svoj Železničar”, <em>Moravainfo</em>, 15. jul 2022.<br>
-  <a href="http://moravainfo.rs/predrag-prevo-vucicevic-legendarni-trener-koji-nije-zeleo-da-napusti-svoj-zeleznicar/">http://moravainfo.rs/predrag-prevo-vucicevic-legendarni-trener-koji-nije-zeleo-da-napusti-svoj-zeleznicar/</a>
+  <a href="http://moravainfo.rs/predrag-prevo-vucicevic-legendarni-trener-koji-nije-zeleo-da-napusti-svoj-zeleznicar/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Ljubomir Šaja Radivojević – košarkaš, profesor gimnazije, šahista, pisac”, <em>Moravainfo</em>, 29. jul 2022.<br>
-  <a href="http://moravainfo.rs/ljubomir-saja-radivojevic-kosarkas-profesor-gimnazije-sahista-pisac/">http://moravainfo.rs/ljubomir-saja-radivojevic-kosarkas-profesor-gimnazije-sahista-pisac/</a>
+  <a href="http://moravainfo.rs/ljubomir-saja-radivojevic-kosarkas-profesor-gimnazije-sahista-pisac/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Легенде чачанске кошарке: Миољуб Боле Денић”, <em>Poreklo</em>, 29. јул 2022.<br>
-  <a href="https://www.poreklo.rs/2022/07/29/legende-cacanske-kosarke-mioljub-bole-denic/">https://www.poreklo.rs/2022/07/29/legende-cacanske-kosarke-mioljub-bole-denic/</a>
+  <a href="https://www.poreklo.rs/2022/07/29/legende-cacanske-kosarke-mioljub-bole-denic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Легенде чачанске кошарке: Драган Ђукић”, <em>Ozonpress</em>, 29. јул 2022.<br>
-  <a href="https://www.ozonpress.net/sport/legende-cacanske-kosarke-dragan-djukic/">https://www.ozonpress.net/sport/legende-cacanske-kosarke-dragan-djukic/</a>
+  <a href="https://www.ozonpress.net/sport/legende-cacanske-kosarke-dragan-djukic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Josip Jole Farčić, legenda čačanske košarke: Dalmatinac i podoficir u dresu Borca”, <em>Moravainfo</em>, 6. avgust 2022.<br>
-  <a href="http://moravainfo.rs/josip-jole-farcic-legenda-cacanske-kosarke-dalmatinac-i-podoficir-u-dresu-borca/">http://moravainfo.rs/josip-jole-farcic-legenda-cacanske-kosarke-dalmatinac-i-podoficir-u-dresu-borca/</a>
+  <a href="http://moravainfo.rs/josip-jole-farcic-legenda-cacanske-kosarke-dalmatinac-i-podoficir-u-dresu-borca/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Legende čačanske košarke: Mirko Drobnjak, rekorder po broju odigranih utakmica za Borac”, <em>Moravainfo</em>, 12. avgust 2022.<br>
-  <a href="http://moravainfo.rs/legende-cacanske-kosarke-mirko-drobnjak-rekorder-po-broju-odigranih-utakmica-za-borac/">http://moravainfo.rs/legende-cacanske-kosarke-mirko-drobnjak-rekorder-po-broju-odigranih-utakmica-za-borac/</a>
+  <a href="http://moravainfo.rs/legende-cacanske-kosarke-mirko-drobnjak-rekorder-po-broju-odigranih-utakmica-za-borac/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Iz arhive čačanske košarke: igrač Železničara kapiten reprezentacije SFRJ koja je pre 45 godina bila druga na EP za kadete”, <em>Moravainfo</em>, 15. avgust 2022.<br>
-  <a href="http://moravainfo.rs/iz-arhive-cacanske-kosarke-igrac-zeleznicara-kapiten-ekipe-koja-je-pre-45-godina-bila-druga-na-ep-za-kadete/">http://moravainfo.rs/iz-arhive-cacanske-kosarke-igrac-zeleznicara-kapiten-ekipe-koja-je-pre-45-godina-bila-druga-na-ep-za-kadete/</a>
+  <a href="http://moravainfo.rs/iz-arhive-cacanske-kosarke-igrac-zeleznicara-kapiten-ekipe-koja-je-pre-45-godina-bila-druga-na-ep-za-kadete/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Zaboravljeni košarkaši Čačka: Ranko Laćo Tripković”, <em>Moravainfo</em>, 20. avgust 2022.<br>
-  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacak-ranko-laco-tripkovic/">http://moravainfo.rs/zaboravljeni-kosarkasi-cacak-ranko-laco-tripkovic/</a>
+  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacak-ranko-laco-tripkovic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Порекло чачанске кошаркашке породице Мишовић”, <em>Poreklo</em>, 26. август 2022.<br>
-  <a href="https://www.poreklo.rs/2022/08/26/poreklo-cacanske-kosarkaske-porodice-misovic/">https://www.poreklo.rs/2022/08/26/poreklo-cacanske-kosarkaske-porodice-misovic/</a>
+  <a href="https://www.poreklo.rs/2022/08/26/poreklo-cacanske-kosarkaske-porodice-misovic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Zaboravljeni košarkaši Čačka: Nikola Mišović Rokli, igrač i trenerska legenda”, <em>Moravainfo</em>, 27. avgust 2022.<br>
-  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-nikola-misovic-rokli/">http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-nikola-misovic-rokli/</a>
+  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-nikola-misovic-rokli/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Zaboravljeni košarkaši Čačka: Sadik Dida Zejnilović, prvi košarkaš koji je u Čačak doneo evropsku medalju”, <em>Moravainfo</em>, 2. septembar 2022.<br>
-  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-sadik-dida-zejnilovic-prvi-kosarkas-koji-je-u-cacak-doneo-evropsku-medalju-foto/">http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-sadik-dida-zejnilovic-prvi-kosarkas-koji-je-u-cacak-doneo-evropsku-medalju-foto/</a>
+  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-sadik-dida-zejnilovic-prvi-kosarkas-koji-je-u-cacak-doneo-evropsku-medalju-foto/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Iz istorije grada: Dan kada su u Čačku osvanule dve piramide”, <em>Ozonpress</em>, 7. septembar 2022.<br>
-  <a href="https://www.ozonpress.net/hronika/iz-istorije-grada-dan-kada-su-u-cacku-osvanule-dve-piramide/">https://www.ozonpress.net/hronika/iz-istorije-grada-dan-kada-su-u-cacku-osvanule-dve-piramide/</a>
+  <a href="https://www.ozonpress.net/hronika/iz-istorije-grada-dan-kada-su-u-cacku-osvanule-dve-piramide/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Legende čačanske košarke: braća Predrag i Milan Gari Kurćubić”, <em>Moravainfo</em>, 9. septembar 2022.<br>
-  <a href="http://moravainfo.rs/legende-cacanske-kosarke-braca-predrag-i-milan-gari-kurcubic/">http://moravainfo.rs/legende-cacanske-kosarke-braca-predrag-i-milan-gari-kurcubic/</a>
+  <a href="http://moravainfo.rs/legende-cacanske-kosarke-braca-predrag-i-milan-gari-kurcubic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Bose noge, volovske zaprege i komšije stolari: Đorđe Nikolić (1928–1993) i prvi koraci u razvoju čačanske košarke”, <em>Moravainfo</em>, 16. septembar 2022.<br>
-  <a href="http://moravainfo.rs/bose-noge-volovske-zaprege-i-komsije-stolari-djordje-nikolic-1928-1993-i-prvi-koraci-u-razvoju-cacanske-kosarke/">http://moravainfo.rs/bose-noge-volovske-zaprege-i-komsije-stolari-djordje-nikolic-1928-1993-i-prvi-koraci-u-razvoju-cacanske-kosarke/</a>
+  <a href="http://moravainfo.rs/bose-noge-volovske-zaprege-i-komsije-stolari-djordje-nikolic-1928-1993-i-prvi-koraci-u-razvoju-cacanske-kosarke/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Legende čačanske košarke: Milan Peca Petronijević, član Želove idealne petorke”, <em>Moravainfo</em>, 23. septembar 2022.<br>
-  <a href="http://moravainfo.rs/legende-cacanske-kosarke-milan-peca-petronijevic-clan-zelove-idealne-petorke-foto/">http://moravainfo.rs/legende-cacanske-kosarke-milan-peca-petronijevic-clan-zelove-idealne-petorke-foto/</a>
+  <a href="http://moravainfo.rs/legende-cacanske-kosarke-milan-peca-petronijevic-clan-zelove-idealne-petorke-foto/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Radmilo Mišović, najveća košarkaška legenda Čačka”, <em>Moravainfo</em>, 30. septembar 2022.<br>
-  <a href="http://moravainfo.rs/radmilo-misovic-najveca-kosarkaska-legenda-cacka/">http://moravainfo.rs/radmilo-misovic-najveca-kosarkaska-legenda-cacka/</a>
+  <a href="http://moravainfo.rs/radmilo-misovic-najveca-kosarkaska-legenda-cacka/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Dragan Kićanović, najveće košarkaško ime grada na Moravi”, <em>Moravainfo</em>, 7. oktobar 2022.<br>
-  <a href="http://moravainfo.rs/dragan-kicanovic-najvece-kosarkasko-ime-grada-na-moravi/">http://moravainfo.rs/dragan-kicanovic-najvece-kosarkasko-ime-grada-na-moravi/</a>
+  <a href="http://moravainfo.rs/dragan-kicanovic-najvece-kosarkasko-ime-grada-na-moravi/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Slobodan Bobo Stefanović: košarkaš, pedagog, muzičar i prvi trener Dragana Kićanovića”, <em>Moravainfo</em>, 14. oktobar 2022.<br>
-  <a href="http://moravainfo.rs/slobodan-bobo-stefanovic-kosarkas-pegagog-muzicar-i-prvi-trener-dragana-kicanovica-foto/">http://moravainfo.rs/slobodan-bobo-stefanovic-kosarkas-pegagog-muzicar-i-prvi-trener-dragana-kicanovica-foto/</a>
+  <a href="http://moravainfo.rs/slobodan-bobo-stefanovic-kosarkas-pegagog-muzicar-i-prvi-trener-dragana-kicanovica-foto/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Zaboravljeni košarkaši Čačka: Nikola Jeković, vrsni šuter legendarne generacije Borca”, <em>Moravainfo</em>, 21. oktobar 2022.<br>
-  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-nikola-jekovic-vrsni-suter-legendarne-generacije-borca/">http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-nikola-jekovic-vrsni-suter-legendarne-generacije-borca/</a>
+  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-nikola-jekovic-vrsni-suter-legendarne-generacije-borca/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Aleksandar Stefanović Puš: profesor sa Morave i jedan od ‘očeva’ čačanske košarke”, <em>Moravainfo</em>, 28. oktobar 2022.<br>
-  <a href="http://moravainfo.rs/aleksandar-stefanovic-pus-profesor-sa-morave-i-jedan-od-oceva-cacanske-kosarke-foto/">http://moravainfo.rs/aleksandar-stefanovic-pus-profesor-sa-morave-i-jedan-od-oceva-cacanske-kosarke-foto/</a>
+  <a href="http://moravainfo.rs/aleksandar-stefanovic-pus-profesor-sa-morave-i-jedan-od-oceva-cacanske-kosarke-foto/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Pioniri čačanske košarke: braća Dragić i Gradimir Jovanović”, <em>Moravainfo</em>, 4. novembar 2022.<br>
-  <a href="http://moravainfo.rs/pioniri-cacanske-kosarke-braca-dragic-i-gradimir-jovanovic/">http://moravainfo.rs/pioniri-cacanske-kosarke-braca-dragic-i-gradimir-jovanovic/</a>
+  <a href="http://moravainfo.rs/pioniri-cacanske-kosarke-braca-dragic-i-gradimir-jovanovic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Zaboravljeni košarkaši Čačka: Slavoljub Kempo Smiljanić”, <em>Moravainfo</em>, 11. novembar 2022.<br>
-  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-slavoljub-kempo-smiljanic/">http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-slavoljub-kempo-smiljanic/</a>
+  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-slavoljub-kempo-smiljanic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Када је Милан Обреновић посетио Чачак?”, <em>Ozonpress</em>, 12. новембар 2022.<br>
-  <a href="https://www.ozonpress.net/kultura/kada-je-milan-obrenovic-posetio-cacak/">https://www.ozonpress.net/kultura/kada-je-milan-obrenovic-posetio-cacak/</a>
+  <a href="https://www.ozonpress.net/kultura/kada-je-milan-obrenovic-posetio-cacak/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Mioljub Bole Denić, ‘otac’ čačanske košarke i čovek koji je ‘otkrio’ Radmila Mišovića”, <em>Moravainfo</em>, 18. novembar 2022.<br>
-  <a href="http://moravainfo.rs/mioljub-bole-denic-otac-cacanske-kosarke-i-covek-koji-je-otkrio-radmila-misovica-foto/">http://moravainfo.rs/mioljub-bole-denic-otac-cacanske-kosarke-i-covek-koji-je-otkrio-radmila-misovica-foto/</a>
+  <a href="http://moravainfo.rs/mioljub-bole-denic-otac-cacanske-kosarke-i-covek-koji-je-otkrio-radmila-misovica-foto/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Legende čačanske košarke: Miodrag Marjanović Marjan, 11 sezona prvotimac Železničara”, <em>Moravainfo</em>, 25. novembar 2022.<br>
-  <a href="http://moravainfo.rs/legende-cacanske-kosarke-miodrag-marjanovic-marjan-11-sezona-prvotimac-zeleznicara/">http://moravainfo.rs/legende-cacanske-kosarke-miodrag-marjanovic-marjan-11-sezona-prvotimac-zeleznicara/</a>
+  <a href="http://moravainfo.rs/legende-cacanske-kosarke-miodrag-marjanovic-marjan-11-sezona-prvotimac-zeleznicara/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Legende čačanske košarke: Predrag Katanić – Katanac”, <em>Moravainfo</em>, 2. decembar 2022.<br>
-  <a href="http://moravainfo.rs/legende-cacanske-kosarke-predrag-katanic-katanac-foto/">http://moravainfo.rs/legende-cacanske-kosarke-predrag-katanic-katanac-foto/</a>
+  <a href="http://moravainfo.rs/legende-cacanske-kosarke-predrag-katanic-katanac-foto/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Pioniri čačanske košarke: Vidosav Vide Novaković, jedan od osnivača KK Železničar”, <em>Moravainfo</em>, 9. decembar 2022.<br>
-  <a href="http://moravainfo.rs/pioniri-cacanske-kosarke-vidosav-vide-novakovic-jedan-od-osnivaca-kk-zeleznicar/">http://moravainfo.rs/pioniri-cacanske-kosarke-vidosav-vide-novakovic-jedan-od-osnivaca-kk-zeleznicar/</a>
+  <a href="http://moravainfo.rs/pioniri-cacanske-kosarke-vidosav-vide-novakovic-jedan-od-osnivaca-kk-zeleznicar/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Na današnji dan pre 20 godina poginuo velikan čačanske košarke Maško Purić”, <em>Moravainfo</em>, 20. januar 2023.<br>
-  <a href="http://moravainfo.rs/na-danasnji-dan-pre-20-godine-poginuo-velikan-cacanske-kosarke-masko-puric/">http://moravainfo.rs/na-danasnji-dan-pre-20-godine-poginuo-velikan-cacanske-kosarke-masko-puric/</a>
+  <a href="http://moravainfo.rs/na-danasnji-dan-pre-20-godine-poginuo-velikan-cacanske-kosarke-masko-puric/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Zaboravljeni košarkaši Čačka: Stojan Kačar”, <em>Moravainfo</em>, 27. januar 2023.<br>
-  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-stojan-kacar/">http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-stojan-kacar/</a>
+  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-stojan-kacar/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Kako je počeo ‘košarkaški rat’ Čačka i Beograda 1952.”, <em>Moravainfo</em>, 3. februar 2023.<br>
-  <a href="http://moravainfo.rs/kako-je-poceo-kosarkaski-rat-cacka-i-beograda-1952/">http://moravainfo.rs/kako-je-poceo-kosarkaski-rat-cacka-i-beograda-1952/</a>
+  <a href="http://moravainfo.rs/kako-je-poceo-kosarkaski-rat-cacka-i-beograda-1952/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Zaboravljeni košarkaši Čačka: Radomir Raško Stefanović (1932–1990)”, <em>Moravainfo</em>, 10. februar 2023.<br>
-  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-radomir-rasko-stefanovic-1932-1990/">http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-radomir-rasko-stefanovic-1932-1990/</a>
+  <a href="http://moravainfo.rs/zaboravljeni-kosarkasi-cacka-radomir-rasko-stefanovic-1932-1990/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Velike pobede Borca: dramatični meč sa Zadrom iz 1966. godine”, <em>Moravainfo</em>, 17. februar 2023.<br>
-  <a href="http://moravainfo.rs/velike-pobede-borca-dramaticni-mec-sa-zadrom-iz-1966-godine/">http://moravainfo.rs/velike-pobede-borca-dramaticni-mec-sa-zadrom-iz-1966-godine/</a>
+  <a href="http://moravainfo.rs/velike-pobede-borca-dramaticni-mec-sa-zadrom-iz-1966-godine/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Pioniri čačanske košarke: Milovan Vulović, čuveni predsednik KK Železničar”, <em>Moravainfo</em>, 24. februar 2023.<br>
-  <a href="http://moravainfo.rs/pioniri-cacanske-kosarke-milovan-vulovic-cuveni-predsednik-kk-zeleznicar/">http://moravainfo.rs/pioniri-cacanske-kosarke-milovan-vulovic-cuveni-predsednik-kk-zeleznicar/</a>
+  <a href="http://moravainfo.rs/pioniri-cacanske-kosarke-milovan-vulovic-cuveni-predsednik-kk-zeleznicar/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Kako je počelo košarkaško rivalstvo Čačka i Kraljeva”, <em>Moravainfo</em>, 3. mart 2023.<br>
-  <a href="http://moravainfo.rs/kako-je-pocelo-kosarkasko-rivalstvo-cacka-i-kraljeva/">http://moravainfo.rs/kako-je-pocelo-kosarkasko-rivalstvo-cacka-i-kraljeva/</a>
+  <a href="http://moravainfo.rs/kako-je-pocelo-kosarkasko-rivalstvo-cacka-i-kraljeva/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Istorija čačanske košarke: Aleksandar Cale Kerković, najstariji živi košarkaš u Srbiji”, <em>Moravainfo</em>, 10. mart 2023.<br>
-  <a href="http://moravainfo.rs/istorija-cacanske-kosarke-aleksandar-cale-kerkovic-najstariji-zivi-kosarkas-u-srbiji/">http://moravainfo.rs/istorija-cacanske-kosarke-aleksandar-cale-kerkovic-najstariji-zivi-kosarkas-u-srbiji/</a>
+  <a href="http://moravainfo.rs/istorija-cacanske-kosarke-aleksandar-cale-kerkovic-najstariji-zivi-kosarkas-u-srbiji/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Veliko košarkaško rivalstvo Čačka i Kragujevca: pesničenja, ulasci na teren, prekidi mečeva…”, <em>Moravainfo</em>, 17. mart 2023.<br>
-  <a href="http://moravainfo.rs/veliko-kosarkasko-rivalstvo-cacka-i-kragujevca-pesnicenja-ulasci-na-teren-prekidi-meceva/">http://moravainfo.rs/veliko-kosarkasko-rivalstvo-cacka-i-kragujevca-pesnicenja-ulasci-na-teren-prekidi-meceva/</a>
+  <a href="http://moravainfo.rs/veliko-kosarkasko-rivalstvo-cacka-i-kragujevca-pesnicenja-ulasci-na-teren-prekidi-meceva/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Košarkaške legende Čačka: braća Ratko i Aleksandar Joksić”, <em>Moravainfo</em>, 24. mart 2023.<br>
-  <a href="http://moravainfo.rs/kosarkaske-legende-cacka-braca-ratko-i-aleksandar-joksic/">http://moravainfo.rs/kosarkaske-legende-cacka-braca-ratko-i-aleksandar-joksic/</a>
+  <a href="http://moravainfo.rs/kosarkaske-legende-cacka-braca-ratko-i-aleksandar-joksic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Istorija čačanske košarke: prva velika pobeda Borca nad Partizanom”, <em>Moravainfo</em>, 31. mart 2023.<br>
-  <a href="http://moravainfo.rs/istorija-cacanske-kosarke-prva-velika-pobeda-borca-nad-partizanom/">http://moravainfo.rs/istorija-cacanske-kosarke-prva-velika-pobeda-borca-nad-partizanom/</a>
+  <a href="http://moravainfo.rs/istorija-cacanske-kosarke-prva-velika-pobeda-borca-nad-partizanom/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Legende čačanske košarke: Radivoje Živković – Žil, juniorski i seniorski reprezentativac Jugoslavije”, <em>Moravainfo</em>, 7. april 2023.<br>
-  <a href="http://moravainfo.rs/legende-cacanske-kosarke-radivoje-zivkovic-zil-juniorski-i-seniorski-reprezentativac-jugoslavije/">http://moravainfo.rs/legende-cacanske-kosarke-radivoje-zivkovic-zil-juniorski-i-seniorski-reprezentativac-jugoslavije/</a>
+  <a href="http://moravainfo.rs/legende-cacanske-kosarke-radivoje-zivkovic-zil-juniorski-i-seniorski-reprezentativac-jugoslavije/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Istorija čačanske košarke: vruća gostovanja u Peći na Kosovu”, <em>Moravainfo</em>, 14. april 2023.<br>
-  <a href="http://moravainfo.rs/istorija-cacanske-kosarke-vruca-gostovanja-u-peci-na-kosovu/">http://moravainfo.rs/istorija-cacanske-kosarke-vruca-gostovanja-u-peci-na-kosovu/</a>
+  <a href="http://moravainfo.rs/istorija-cacanske-kosarke-vruca-gostovanja-u-peci-na-kosovu/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Košarkaške legende Čačka: Aco Janjić, tvorac šampionske kadetske i juniorske generacije Železničara”, <em>Moravainfo</em>, 21. april 2023.<br>
-  <a href="http://moravainfo.rs/aco-janjic-tvorac-sampionske-kadetske-i-juniorske-generacije-zeleznicara/">http://moravainfo.rs/aco-janjic-tvorac-sampionske-kadetske-i-juniorske-generacije-zeleznicara/</a>
+  <a href="http://moravainfo.rs/aco-janjic-tvorac-sampionske-kadetske-i-juniorske-generacije-zeleznicara/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Košarkaška sećanja: kako je napravljena Hala kraj Morave”, <em>Moravainfo</em>, 28. april 2023.<br>
-  <a href="http://moravainfo.rs/kosarkaska-secanja-kako-je-napravljena-hala-kraj-morave/">http://moravainfo.rs/kosarkaska-secanja-kako-je-napravljena-hala-kraj-morave/</a>
+  <a href="http://moravainfo.rs/kosarkaska-secanja-kako-je-napravljena-hala-kraj-morave/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Istorija čačanske košarke: Milan Marinković, prvi profesionalni kondicioni trener Borca i Žela”, <em>Moravainfo</em>, 5. maj 2023.<br>
-  <a href="http://moravainfo.rs/istorija-cacanske-kosarke-milan-marinkovic-prvi-profesionalni-kondicioni-trener-borca-i-zela/">http://moravainfo.rs/istorija-cacanske-kosarke-milan-marinkovic-prvi-profesionalni-kondicioni-trener-borca-i-zela/</a>
+  <a href="http://moravainfo.rs/istorija-cacanske-kosarke-milan-marinkovic-prvi-profesionalni-kondicioni-trener-borca-i-zela/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Pet najvećih ‘krivaca’ za razvoj košarke u Čačku”, <em>Moravainfo</em>, 12. maj 2023.<br>
-  <a href="http://moravainfo.rs/pet-najvecih-krivaca-za-razvoj-kosarke-u-cacku/">http://moravainfo.rs/pet-najvecih-krivaca-za-razvoj-kosarke-u-cacku/</a>
+  <a href="http://moravainfo.rs/pet-najvecih-krivaca-za-razvoj-kosarke-u-cacku/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Zaboravljeni sugrađani: pukovnik Milorad Denić (1882–1972), junak oslobodilačkih ratova”, <em>Moravainfo</em>, 15. maj 2023.<br>
-  <a href="http://moravainfo.rs/zaboravljeni-sugradjani-pukovnik-milorad-denic-1882-1972-junak-oslobodilackih-ratova/">http://moravainfo.rs/zaboravljeni-sugradjani-pukovnik-milorad-denic-1882-1972-junak-oslobodilackih-ratova/</a>
+  <a href="http://moravainfo.rs/zaboravljeni-sugradjani-pukovnik-milorad-denic-1882-1972-junak-oslobodilackih-ratova/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Osvojio titulu prvaka sveta i došao da trenira Borac: profesor Aleksandar Nikolić”, <em>Moravainfo</em>, 19. maj 2023.<br>
-  <a href="http://moravainfo.rs/osvojio-titulu-prvaka-sveta-i-dosao-da-trenira-borac-profesor-aleksandar-nikolic/">http://moravainfo.rs/osvojio-titulu-prvaka-sveta-i-dosao-da-trenira-borac-profesor-aleksandar-nikolic/</a>
+  <a href="http://moravainfo.rs/osvojio-titulu-prvaka-sveta-i-dosao-da-trenira-borac-profesor-aleksandar-nikolic/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Istorija čačanske košarke: prvo gostovanje Borca u inostranstvu 1955. godine”, <em>Moravainfo</em>, 26. maj 2023.<br>
-  <a href="https://moravainfo.rs/istorija-cacanske-kosarke-prvo-gostovanje-borca-u-inostranstvu-1955-godine/">https://moravainfo.rs/istorija-cacanske-kosarke-prvo-gostovanje-borca-u-inostranstvu-1955-godine/</a>
+  <a href="https://moravainfo.rs/istorija-cacanske-kosarke-prvo-gostovanje-borca-u-inostranstvu-1955-godine/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Манастир Света Тројица под Овчаром”, <em>Čačanski glas</em> (интернет издање), 4. јун 2023.<br>
-  <a href="https://www.caglas.rs/manastir-sveta-trojica-pod-ovcarom-2/">https://www.caglas.rs/manastir-sveta-trojica-pod-ovcarom-2/</a>
+  <a href="https://www.caglas.rs/manastir-sveta-trojica-pod-ovcarom-2/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Како је основана ‘Фабрика резног алата’ у Чачку”, <em>Ozonpress</em>, 30. јул 2023.<br>
-  <a href="https://www.ozonpress.net/ekonomija/kako-je-osnovana-fabrika-reznog-alata-u-cacku/">https://www.ozonpress.net/ekonomija/kako-je-osnovana-fabrika-reznog-alata-u-cacku/</a>
+  <a href="https://www.ozonpress.net/ekonomija/kako-je-osnovana-fabrika-reznog-alata-u-cacku/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Порекло браће потпуковника Александра Глишића (1873–1912) и потпуковника Душана Глишића (1875–1915)”, <em>Društvo srpskih rodoslovaca Poreklo</em>, 25. август 2023.<br>
-  <a href="https://www.poreklo.rs/2023/08/25/poreklo-brace-potpukovnika-aleksandra-glisica-1873-1912-i-potpukovnika-dusana-glisica-1875-1915/">https://www.poreklo.rs/2023/08/25/poreklo-brace-potpukovnika-aleksandra-glisica-1873-1912-i-potpukovnika-dusana-glisica-1875-1915/</a>
+  <a href="https://www.poreklo.rs/2023/08/25/poreklo-brace-potpukovnika-aleksandra-glisica-1873-1912-i-potpukovnika-dusana-glisica-1875-1915/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Da li su ‘Heroji Halijarda’ stvarni ili izmišljeni likovi? Istoričar odgovara na goruće pitanje koje muči mnoge, a ovo je istina”, <em>Kurir</em> (elektronsko izdanje), 8. oktobar 2023.<br>
-  <a href="https://www.kurir.rs/zabava/kultura/4261122/da-li-su-heroji-halijarda-stvarni-ili-izmisljeni-likovi-istoricar-odgovara">https://www.kurir.rs/zabava/kultura/4261122/da-li-su-heroji-halijarda-stvarni-ili-izmisljeni-likovi-istoricar-odgovara</a>
+  <a href="https://www.kurir.rs/zabava/kultura/4261122/da-li-su-heroji-halijarda-stvarni-ili-izmisljeni-likovi-istoricar-odgovara">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Ko su stvarni, a ko fiktivni likovi i događaji u ‘Herojima Halijarda’? Istoričar otkriva šta je umetnička sloboda u filmu, a šta je verodostojno iz istorijskih izvora”, <em>Blic</em> (elektronsko izdanje), 8. oktobar 2023.<br>
-  <a href="https://www.blic.rs/kultura/ko-su-stvarni-a-ko-fiktivni-likovi-i-dogadaji-u-herojima-halijarda-istoricar-otkriva/8ej94qc">https://www.blic.rs/kultura/ko-su-stvarni-a-ko-fiktivni-likovi-i-dogadaji-u-herojima-halijarda-istoricar-otkriva/8ej94qc</a>
+  <a href="https://www.blic.rs/kultura/ko-su-stvarni-a-ko-fiktivni-likovi-i-dogadaji-u-herojima-halijarda-istoricar-otkriva/8ej94qc">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Порекло и војна каријера пуковника Драгутина П. Гавриловића (1882–1945)”, <em>Društvo srpskih rodoslovaca Poreklo</em>, 27. новембар 2023.<br>
-  <a href="https://www.poreklo.rs/2023/11/27/poreklo-i-vojna-karijera-pukovnika-dragutina-p-gavrilovica-1882-1945/">https://www.poreklo.rs/2023/11/27/poreklo-i-vojna-karijera-pukovnika-dragutina-p-gavrilovica-1882-1945/</a>
+  <a href="https://www.poreklo.rs/2023/11/27/poreklo-i-vojna-karijera-pukovnika-dragutina-p-gavrilovica-1882-1945/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Umrla žena heroja Halijarda: Anka je poživela 100 godina, na engleski je prevela memoare muža koji je spasavao američke pilote”, <em>Kurir</em> (elektronsko izdanje), 13. decembar 2023.<br>
-  <a href="https://www.kurir.rs/vesti/drustvo/4314904/umrla-supruga-heroja-halijarda-u-100-godini">https://www.kurir.rs/vesti/drustvo/4314904/umrla-supruga-heroja-halijarda-u-100-godini</a>
+  <a href="https://www.kurir.rs/vesti/drustvo/4314904/umrla-supruga-heroja-halijarda-u-100-godini">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Kao beba je bežao od ustaša, pa postao legenda čačanske košarke: čudesna životna priča velikana sa Morave”, <em>Kurir</em> (elektronsko izdanje), 15. februar 2024.<br>
-  <a href="https://www.kurir.rs/sport/kosarka/4354024/stojan-kacar-legenda-cacanske-kosarke">https://www.kurir.rs/sport/kosarka/4354024/stojan-kacar-legenda-cacanske-kosarke</a>
+  <a href="https://www.kurir.rs/sport/kosarka/4354024/stojan-kacar-legenda-cacanske-kosarke">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Манастир Сретење под Овчаром”, <em>Čačanski glas</em> (интернет издање), 15. фебруар 2024.<br>
-  <a href="https://www.caglas.rs/manastir-sretenje-pod-ovcarom/">https://www.caglas.rs/manastir-sretenje-pod-ovcarom/</a>
+  <a href="https://www.caglas.rs/manastir-sretenje-pod-ovcarom/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Милош Тимотијевић, „Окупациона штампа, београдски џепароши и морална паника”, <em>Stella Polare</em>, 28. јун 2024.<br>
-  <a href="https://stellapolarebooks.com/2024/06/28/srbija-okupacija-kriminal-drugi-svetski-rat/">https://stellapolarebooks.com/2024/06/28/srbija-okupacija-kriminal-drugi-svetski-rat/</a><br>
+  <a href="https://stellapolarebooks.com/2024/06/28/srbija-okupacija-kriminal-drugi-svetski-rat/">Прочитај текст / Read online</a><br>
   ISSN (Online) 2738-1773
 </li>
 
 <li>
   Милош Тимотијевић, „Породично порекло сликарке Надежде Петровић (1873–1915)”, <em>Društvo srpskih rodoslovaca Poreklo</em>, 23. октобар 2024.<br>
-  <a href="https://www.poreklo.rs/2024/10/23/porodicno-poreklo-slikarke-nadezde-petrovic-1873-1915/">https://www.poreklo.rs/2024/10/23/porodicno-poreklo-slikarke-nadezde-petrovic-1873-1915/</a>
+  <a href="https://www.poreklo.rs/2024/10/23/porodicno-poreklo-slikarke-nadezde-petrovic-1873-1915/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Kako su mikročipovi oblikovali svet: od svakodnevice do globalne politike”, <em>Moravainfo</em>, 14. novembar 2024.<br>
-  <a href="https://moravainfo.rs/kako-su-mikrocipovi-oblikovali-svet-od-svakodnevice-do-globalne-politike/">https://moravainfo.rs/kako-su-mikrocipovi-oblikovali-svet-od-svakodnevice-do-globalne-politike/</a>
+  <a href="https://moravainfo.rs/kako-su-mikrocipovi-oblikovali-svet-od-svakodnevice-do-globalne-politike/">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Prikaz knjige – Kosta Nikolić, ‘Bosna i Hercegovina, rat koji su mnogi želeli (1992–1995)’, 2024”, <em>Historiografija.hr</em>, 7. februar 2025.<br>
-  <a href="https://historiografija.hr/?p=44756">https://historiografija.hr/?p=44756</a><br>
+  <a href="https://historiografija.hr/?p=44756">Прочитај текст / Read online</a><br>
   ISSN 1848-1728
 </li>
 
 <li>
   Милош Тимотијевић, „Сликарка оптужена за порнографију: случај Надежде Петровић”, <em>Stella Polare</em>, 26. октобар 2025.<br>
-  <a href="https://stellapolarebooks.com/2025/10/26/nadezda-petrovic-milos-timotijevic/">https://stellapolarebooks.com/2025/10/26/nadezda-petrovic-milos-timotijevic/</a><br>
+  <a href="https://stellapolarebooks.com/2025/10/26/nadezda-petrovic-milos-timotijevic/">Прочитај текст / Read online</a><br>
   ISSN (Online) 2738-1773
 </li>
 
 <li>
   Милош Тимотијевић, „Генерал Пижо: француски савезник у српској ризници сећања”, <em>Narodni muzej Čačak</em>, 19. децембар 2025.<br>
-  <a href="https://www.cacakmuzej.org.rs/General_Pigeaud.html">https://www.cacakmuzej.org.rs/General_Pigeaud.html</a>
+  <a href="https://www.cacakmuzej.org.rs/General_Pigeaud.html">Прочитај текст / Read online</a>
 </li>
 
 <li>
   Miloš Timotijević, „Kako je okupacija menjala svakodnevni život Čačka 1941. godine – policijski čas, zabranjeni korzo i kafane pod nadzorom”, <em>Moravainfo</em>, 25. jun 2026.<br>
-  <a href="https://moravainfo.rs/milos-timotijevic-kako-je-okupacija-menjala-svakodnevni-zivot-cacka-1941-godine-policijski-cas-zabranjeni-korzo-i-kafane-pod-nadzorom/">https://moravainfo.rs/milos-timotijevic-kako-je-okupacija-menjala-svakodnevni-zivot-cacka-1941-godine-policijski-cas-zabranjeni-korzo-i-kafane-pod-nadzorom/</a>
+  <a href="https://moravainfo.rs/milos-timotijevic-kako-je-okupacija-menjala-svakodnevni-zivot-cacka-1941-godine-policijski-cas-zabranjeni-korzo-i-kafane-pod-nadzorom/">Прочитај текст / Read online</a>
 </li>      
     </ol>
 <p>
@@ -1409,11 +1491,12 @@
 </section>
 
 <section id="av-interviews" class="public-activity-section">
-  <h2>Аудио-визуелни и радио интервјуи / Audiovisual and Radio Interviews</h2>
+  <h2>ТВ, радио и подкаст / TV, Radio and Podcast</h2>
 
   <p>
     Одељак обухвата избор телевизијских, видео, подкаст и радио разговора посвећених историографским истраживањима, музејском раду, култури сећања, локалној историји Чачка, Другом светском рату и темама из модерне српске историје.
   </p>
+  <p lang="en-GB" class="section-description-en" data-section="av-interviews">This section contains television, video, radio and podcast appearances, grouped by medium while preserving the permanent section anchor.</p>
 
   <details>
     <summary>Прикажи избор аудио-визуелних и радио интервјуа / Show selected audiovisual and radio interviews</summary>
@@ -1423,62 +1506,62 @@
     <ol>
       <li>
         „Oko magazin: Užice i Čačak, komšijska Tu-Ča”, <em>Radio-televizija Srbije</em>, 26. novembar 2014.<br>
-        <a href="https://www.youtube.com/watch?v=FSs3cPJBNvc">https://www.youtube.com/watch?v=FSs3cPJBNvc</a>
+        <a href="https://www.youtube.com/watch?v=FSs3cPJBNvc">Прочитај текст / Read online</a>
       </li>
 
       <li>
         „Oko magazin: Od Prve proleterske do poslednjeg đenerala; Dragiša Vasić i srpska nacionalna ideja”, <em>Radio-televizija Srbije</em>, 27. mart 2017.<br>
-        <a href="https://www.youtube.com/watch?v=kaOIaN9XRCo">https://www.youtube.com/watch?v=kaOIaN9XRCo</a>
+        <a href="https://www.youtube.com/watch?v=kaOIaN9XRCo">Прочитај текст / Read online</a>
       </li>
 
       <li>
         „Предговор – ‘Злато четника и партизана – деконструкција једног мита’ – др Милош Тимотијевић”, <em>Телевизија Храм</em>, 19. јун 2019.<br>
-        <a href="https://www.youtube.com/watch?v=vFVuVeVmcoE">https://www.youtube.com/watch?v=vFVuVeVmcoE</a>
+        <a href="https://www.youtube.com/watch?v=vFVuVeVmcoE">Прочитај текст / Read online</a>
       </li>
 
       <li>
         „Oko magazin: Nad Kraljevom živa vatra seva – od koalicije do rata četnika i partizana”, <em>Radio-televizija Srbije</em>, 1. jul 2020.<br>
-        <a href="https://www.rts.rs/page/tv/sr/story/20/rts-1/4005325/nad-kraljevom-ziva-vatra-seva---od-koalicije-do-rata-cetnika-i-partizana.html">https://www.rts.rs/page/tv/sr/story/20/rts-1/4005325/nad-kraljevom-ziva-vatra-seva---od-koalicije-do-rata-cetnika-i-partizana.html</a>
+        <a href="https://www.rts.rs/page/tv/sr/story/20/rts-1/4005325/nad-kraljevom-ziva-vatra-seva---od-koalicije-do-rata-cetnika-i-partizana.html">Прочитај текст / Read online</a>
       </li>
 
       <li>
         „Oko magazin: Patrijarh Irinej – Čačak, Prizren, Ostrog, Niš, Beograd”, <em>Radio-televizija Srbije</em>, 20. novembar 2020.<br>
-        <a href="https://www.youtube.com/watch?v=e8o849FU834">https://www.youtube.com/watch?v=e8o849FU834</a>
+        <a href="https://www.youtube.com/watch?v=e8o849FU834">Прочитај текст / Read online</a>
       </li>
 
       <li>
         „Код Бране 048: Милош Тимотијевић – истина о четницима и комунистима”, подкаст <em>Catena mundi</em>, 12. јун 2022.<br>
-        <a href="https://www.youtube.com/watch?v=8V0e3GK9wfk">https://www.youtube.com/watch?v=8V0e3GK9wfk</a>
+        <a href="https://www.youtube.com/watch?v=8V0e3GK9wfk">Прочитај текст / Read online</a>
       </li>
 
       <li>
         „Oko magazin: Heroji Halijarda – od Pranjana do Sarajeva”, <em>Radio-televizija Srbije</em>, 23. avgust 2023.<br>
-        <a href="https://rts.rs/tv/rts1/5259089/heroji-halijarda---od-pranjana-do-sarajeva.html">https://rts.rs/tv/rts1/5259089/heroji-halijarda---od-pranjana-do-sarajeva.html</a>
+        <a href="https://rts.rs/tv/rts1/5259089/heroji-halijarda---od-pranjana-do-sarajeva.html">Прочитај текст / Read online</a>
       </li>
 
       <li>
         „Како је изгледало краљевско путовање по Србији”, аутор емисије Силвија Пашајлић, <em>Radio-televizija Srbije</em>, 8. мај 2025.<br>
-        <a href="https://rts.rs/vesti/srbija-danas/5707106/kako-je-izgledalo-kraljevsko-putovanje-po-srbiji.html">https://rts.rs/vesti/srbija-danas/5707106/kako-je-izgledalo-kraljevsko-putovanje-po-srbiji.html</a>
+        <a href="https://rts.rs/vesti/srbija-danas/5707106/kako-je-izgledalo-kraljevsko-putovanje-po-srbiji.html">Прочитај текст / Read online</a>
       </li>
 
       <li>
         „Oko magazin: Драгиша Васић – писац краја који је створио Србију”, аутор емисије Јована Милованчевић, <em>Radio-televizija Srbije</em>, 13. август 2025.<br>
-        <a href="https://www.rts.rs/tv/rts1/5769012/dragisa-vasic--pisac-kraja-koji-je-stvorio-srbiju.html">https://www.rts.rs/tv/rts1/5769012/dragisa-vasic--pisac-kraja-koji-je-stvorio-srbiju.html</a>
+        <a href="https://www.rts.rs/tv/rts1/5769012/dragisa-vasic--pisac-kraja-koji-je-stvorio-srbiju.html">Прочитај текст / Read online</a>
       </li>
 
       <li>
   „Код Бране: „Храбри“ партизани и „зли“ четници? Истина и митови”, подкаст <em>Catena mundi</em>, 25. август 2025.<br>
-  <a href="https://www.youtube.com/watch?v=gCEOBHRJKas">https://www.youtube.com/watch?v=gCEOBHRJKas</a>
+  <a href="https://www.youtube.com/watch?v=gCEOBHRJKas">Прочитај текст / Read online</a>
 </li>
 
 <li>
   „Novo sagledavanje delovanja Nadežde Petrović iz pera istoričara dr Miloša Timotijevića”, <em>Radio-televizija Srbije</em>, 26. oktobar 2025.<br>
-  <a href="https://www.rts.rs/lat/magazin/kultura/vesti/5814359/nadezda-petrovic--zivot-i-umetnost-u-sluzbi-nacije-dr-milos-timotijevic-cacak.html">https://www.rts.rs/lat/magazin/kultura/vesti/5814359/nadezda-petrovic--zivot-i-umetnost-u-sluzbi-nacije-dr-milos-timotijevic-cacak.html</a>
+  <a href="https://www.rts.rs/lat/magazin/kultura/vesti/5814359/nadezda-petrovic--zivot-i-umetnost-u-sluzbi-nacije-dr-milos-timotijevic-cacak.html">Прочитај текст / Read online</a>
 </li>
 
 <li>
   „Код Бране: Митови новије српске историје, Милош Тимотијевић”, подкаст <em>Catena mundi</em>, 5. март 2026.<br>
-  <a href="https://www.youtube.com/watch?v=Rib33hv7-2k">https://www.youtube.com/watch?v=Rib33hv7-2k</a>
+  <a href="https://www.youtube.com/watch?v=Rib33hv7-2k">Прочитај текст / Read online</a>
 </li>
     </ol>
 
@@ -1487,12 +1570,12 @@
     <ol>
       <li>
         Милош Тимотијевић, „Чачак град кошарке”, интервју у емисији „Спортски споменар”, бр. 565, разговор водио Слободан Нешић, <em>Radio-televizija Srbije</em>, 24. септембар 2023.<br>
-        <a href="https://www.rts.rs/radio/radio-beograd-1/5273426/-cacak-grad-kosarke.html">https://www.rts.rs/radio/radio-beograd-1/5273426/-cacak-grad-kosarke.html</a>
+        <a href="https://www.rts.rs/radio/radio-beograd-1/5273426/-cacak-grad-kosarke.html">Прочитај текст / Read online</a>
       </li>
 
       <li>
         Милош Тимотијевић, „Др Милош Тимотијевић о соколском покрету”, интервју у емисији „Спортски споменар”, разговор водио Слободан Нешић, <em>Radio-televizija Srbije</em>, 6. јул 2025.<br>
-        <a href="https://www.rts.rs/radio/radio-beograd-1/5739796/-dr-milos-timotijevic-o-sokolskom-pokretu.html">https://www.rts.rs/radio/radio-beograd-1/5739796/-dr-milos-timotijevic-o-sokolskom-pokretu.html</a>
+        <a href="https://www.rts.rs/radio/radio-beograd-1/5739796/-dr-milos-timotijevic-o-sokolskom-pokretu.html">Прочитај текст / Read online</a>
       </li>
     </ol>
   </details>
@@ -1506,6 +1589,7 @@
     
     
   </p>
+  <p lang="en-GB" class="section-description-en" data-section="public-appearances">This section presents selected conference papers, public lectures, book presentations, exhibition openings and other professional appearances.</p>
 
   <details>
   <summary><strong>Усмена излагања на научним скуповима / Oral Presentations at Scholarly Conferences</strong></summary>
@@ -2125,16 +2209,19 @@
   </ol>
 </details>
 
-    <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>
-
-    <nav class="site-links" aria-label="Везе ка другим деловима сајта">
+    <p class="back-to-top"><a href="#top">↑ На врх / Back to top</a></p>    <nav class="site-links" aria-label="Везе ка другим деловима сајта / Links to other site sections">
       <p>
-        <a href="../index.html">Главна страна / Main page</a> ·
-        <a href="../bibliography/">Библиографија / Bibliography</a> ·
-        <a href="../knowledge-graph/research/local-modernity-symbolic-power.html">Истраживачки оквир / Research Framework</a>
+        <a href="/">Главна страна / Main Page</a>
+        <a href="/bibliography/">Библиографија / Bibliography</a>
+        <a href="/knowledge-graph/">Граф знања / Knowledge Graph</a>
+        <a href="/data/">Подаци / Data</a>
+        <a href="/knowledge-graph/research/local-modernity-symbolic-power.html">Истраживачки оквир / Research Framework</a>
       </p>
     </nav>
   </main>
 
+  <footer>
+    <p>Последње ажурирање / Last updated: 24. јул 2026 / 24 July 2026.</p>
+  </footer>
 </body>
 </html>
