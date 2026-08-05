@@ -1,13 +1,15 @@
 <!doctype html>
-<html lang="sr">
+<html lang="sr-Cyrl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Каталози / Catalogues</title>
+  <meta name="robots" content="index, follow">
   <meta name="description" content="Приступне стране за изабране каталоге Милоша Тимотијевића. Landing pages for selected catalogues by Miloš Timotijević.">
 
-    <link rel="canonical" href="https://milos-timotijevic.github.io/catalogues/">
-<style>
+  <link rel="canonical" href="https://milos-timotijevic.github.io/catalogues/">
+
+  <style>
     body {
       font-family: Georgia, "Times New Roman", serif;
       line-height: 1.6;
@@ -39,12 +41,23 @@
       text-decoration: none;
     }
 
-    a:hover {
+    a:hover,
+    a:focus-visible {
       text-decoration: underline;
     }
 
     ol li {
       margin-bottom: 0.8em;
+    }
+
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35em 1em;
+      margin: 0 0 1.6em;
+      padding: 0 0 0.85em;
+      border-bottom: 1px solid #ddd;
+      font-size: 0.95em;
     }
 
     .subtitle {
@@ -53,141 +66,206 @@
       color: #444;
     }
 
+    .intro {
+      background: #f8f8f8;
+      border-left: 4px solid #bbb;
+      padding: 1em;
+      margin: 1.5em 0 1.2em;
+    }
+
+    .intro p {
+      margin: 0.35em 0;
+    }
+
+    .selection-note {
+      margin: 0 0 2em;
+      color: #444;
+      font-size: 0.96em;
+    }
+
+    .selection-note p {
+      margin: 0.35em 0;
+    }
+
     .back-link {
       margin-top: 2.5em;
       border-top: 1px solid #ddd;
       padding-top: 1em;
     }
-    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
-    .skip-link:focus { left: 1em; top: 1em; }
-  </style>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "CollectionPage",
-      "@id": "https://milos-timotijevic.github.io/catalogues/#webpage",
-      "url": "https://milos-timotijevic.github.io/catalogues/",
-      "name": "Каталози Милоша Тимотијевића",
-      "alternateName": "Catalogues by Miloš Timotijević",
-      "description": "Приступне стране за изабране каталоге Милоша Тимотијевића. Landing pages for selected catalogues by Miloš Timotijević.",
-      "inLanguage": [
-        "sr",
-        "en"
-      ],
-      "about": {
-        "@id": "https://milos-timotijevic.github.io/#milos-timotijevic"
-      },
-      "isPartOf": {
-        "@id": "https://milos-timotijevic.github.io/#website"
-      },
-      "mainEntity": {
-        "@id": "https://milos-timotijevic.github.io/catalogues/#item-list"
-      }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://milos-timotijevic.github.io/#milos-timotijevic",
-      "name": "Miloš Timotijević",
-      "alternateName": "Милош Тимотијевић",
-      "url": "https://milos-timotijevic.github.io/",
-      "sameAs": [
-        "https://orcid.org/0000-0002-0457-6125",
-        "https://www.wikidata.org/wiki/Q112514230",
-        "https://openalex.org/authors/a5072525869"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://milos-timotijevic.github.io/#website",
-      "url": "https://milos-timotijevic.github.io/",
-      "name": "Miloš Timotijević — Academic Profile and Knowledge Graph"
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://milos-timotijevic.github.io/catalogues/#item-list",
-      "name": "Каталози Милоша Тимотијевића",
-      "numberOfItems": 3,
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power",
-          "url": "https://milos-timotijevic.github.io/catalogues/cacak-u-doba-socijalizma.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Седамдесет година од победе над фашизмом (1945–2015) Seventy Years Since the Victory over Fascism (1945–2015)",
-          "url": "https://milos-timotijevic.github.io/catalogues/sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Албум старог Чачка: 1870–1941 Album of Old Čačak: 1870–1941",
-          "url": "https://milos-timotijevic.github.io/catalogues/album-starog-cacka-1870-1941.html"
-        }
-      ]
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      z-index: 1000;
+      padding: 0.65em 0.85em;
+      color: #fff;
+      background: #0645ad;
     }
-  ]
-}
+
+    .skip-link:focus {
+      left: 1em;
+      top: 1em;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        margin: 24px auto;
+        padding: 0 18px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://milos-timotijevic.github.io/catalogues/#webpage",
+        "url": "https://milos-timotijevic.github.io/catalogues/",
+        "name": "Каталози Милоша Тимотијевића",
+        "alternateName": "Catalogues by Miloš Timotijević",
+        "description": "Приступне стране за изабране каталоге Милоша Тимотијевића. Landing pages for selected catalogues by Miloš Timotijević.",
+        "inLanguage": [
+          "sr-Cyrl",
+          "en-GB"
+        ],
+        "about": {
+          "@id": "https://milos-timotijevic.github.io/#milos-timotijevic"
+        },
+        "isPartOf": {
+          "@id": "https://milos-timotijevic.github.io/#website"
+        },
+        "mainEntity": {
+          "@id": "https://milos-timotijevic.github.io/catalogues/#item-list"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://milos-timotijevic.github.io/#milos-timotijevic",
+        "name": "Miloš Timotijević",
+        "alternateName": "Милош Тимотијевић",
+        "url": "https://milos-timotijevic.github.io/",
+        "sameAs": [
+          "https://orcid.org/0000-0002-0457-6125",
+          "https://www.wikidata.org/wiki/Q112514230",
+          "https://openalex.org/authors/a5072525869"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://milos-timotijevic.github.io/#website",
+        "url": "https://milos-timotijevic.github.io/",
+        "name": "Miloš Timotijević — Academic Profile and Knowledge Graph"
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://milos-timotijevic.github.io/catalogues/#item-list",
+        "name": "Каталози Милоша Тимотијевића",
+        "numberOfItems": 3,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power",
+            "url": "https://milos-timotijevic.github.io/catalogues/cacak-u-doba-socijalizma.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Седамдесет година од победе над фашизмом (1945–2015) Seventy Years Since the Victory over Fascism (1945–2015)",
+            "url": "https://milos-timotijevic.github.io/catalogues/sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Албум старог Чачка: 1870–1941 Album of Old Čačak: 1870–1941",
+            "url": "https://milos-timotijevic.github.io/catalogues/album-starog-cacka-1870-1941.html"
+          }
+        ]
+      }
+    ]
+  }
   </script>
 </head>
 
 <body>
   <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+
+  <nav class="site-nav" aria-label="Главна навигација / Main navigation">
+    <a href="/">Главна страна / Main Page</a>
+    <a href="/bibliography/">Библиографија / Bibliography</a>
+    <a href="/books/">Монографије / Monographs</a>
+    <a href="/exhibitions/">Изложбе / Exhibitions</a>
+    <a href="/knowledge-graph/">Граф знања / Knowledge Graph</a>
+  </nav>
+
   <main id="main-content">
-  <h1>Каталози / Catalogues</h1>
+    <h1>Каталози / Catalogues</h1>
 
-  <p class="subtitle">
-    Приступне стране за изабране каталоге Милоша Тимотијевића.
-  </p>
+    <p class="subtitle">
+      Приступне стране за изабране каталоге Милоша Тимотијевића.<br>
+      <span lang="en-GB">Landing pages for selected catalogues by Miloš Timotijević.</span>
+    </p>
 
-  <section id="catalogues-intro">
-  <p>
-    Каталошке публикације представљају посебан део музејског и историографског рада Милоша Тимотијевића. Оне прате изложбе и сродне музејске пројекте, али имају и самосталну вредност као писани, документарни и библиографски траг истраживања.
-  </p>
+    <section id="catalogues-intro" class="intro">
+      <p>
+        Каталошке публикације представљају посебан део музејског и историографског рада Милоша Тимотијевића. Оне прате изложбе и сродне музејске пројекте, али имају и самосталну вредност као писани, документарни и библиографски траг истраживања.
+      </p>
 
-  <p>
-    У овом одељку налазе се приступне стране за изабране каталоге. Свака страна повезује основне библиографске податке, теме изложбе или пројекта, доступне дигиталне верзије и спољне идентификаторе, када су они доступни.
-  </p>
+      <p>
+        У овом одељку налазе се приступне стране за изабране каталоге. Свака страна повезује основне библиографске податке, теме изложбе или пројекта, доступне дигиталне верзије и постојеће спољне идентификаторе.
+      </p>
 
-  <p lang="en">
-    Catalogue publications form a distinct part of Miloš Timotijević’s museum and historiographical work. They accompany exhibitions and related museum projects, while also having independent value as written, documentary and bibliographic records of research.
-  </p>
+      <p lang="en-GB">
+        Catalogue publications form a distinct part of Miloš Timotijević’s museum and historiographical work. They accompany exhibitions and related museum projects, while also having independent value as written, documentary and bibliographic records of research.
+      </p>
 
-  <p lang="en">
-    This section provides landing pages for selected catalogues. Each page connects basic bibliographic information, the themes of the exhibition or project, available digital versions and external identifiers, where available.
-  </p>
-</section>
+      <p lang="en-GB">
+        This section provides landing pages for selected catalogues. Each page connects basic bibliographic information, the themes of the exhibition or project, available digital versions and existing external identifiers.
+      </p>
+    </section>
 
-  <ol>
-    <li>
-      <a href="cacak-u-doba-socijalizma.html">
-        <em>Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи</em><br>
-        <em>Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power</em>
-      </a>
-    </li>
+    <div class="selection-note">
+      <p>
+        Страна представља избор каталога. Потпун списак каталога и других публикација доступан је у
+        <a href="/bibliography/">Библиографији / Bibliography</a>.
+      </p>
+      <p lang="en-GB">
+        This page presents a selection of catalogues. A complete list of catalogues and other publications is available in the
+        <a href="/bibliography/">Bibliography / Библиографија</a>.
+      </p>
+    </div>
 
-    <li>
-  <a href="sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html">
-    <em>Седамдесет година од победе над фашизмом (1945–2015)</em><br>
-    <em>Seventy Years Since the Victory over Fascism (1945–2015)</em>
-  </a>
-</li>
+    <h2>Изабрани каталози / Selected Catalogues</h2>
 
-    <li>
-  <a href="album-starog-cacka-1870-1941.html">
-    <em>Албум старог Чачка: 1870–1941</em><br>
-    <em>Album of Old Čačak: 1870–1941</em>
-  </a>
-</li>
-  </ol>
+    <ol>
+      <li>
+        <a href="cacak-u-doba-socijalizma.html">
+          <em>Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи</em><br>
+          <em lang="en-GB">Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power</em>
+        </a>
+      </li>
 
-  <p class="back-link">
-    <a href="../index.html">← Назад на главну страницу / Back to main page</a>
-  </p>
+      <li>
+        <a href="sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html">
+          <em>Седамдесет година од победе над фашизмом (1945–2015)</em><br>
+          <em lang="en-GB">Seventy Years Since the Victory over Fascism (1945–2015)</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="album-starog-cacka-1870-1941.html">
+          <em>Албум старог Чачка: 1870–1941</em><br>
+          <em lang="en-GB">Album of Old Čačak: 1870–1941</em>
+        </a>
+      </li>
+    </ol>
+
+    <p class="back-link">
+      <a href="/">← Назад на главну страницу / Back to main page</a>
+    </p>
   </main>
 </body>
 </html>
