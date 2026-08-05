@@ -1,13 +1,15 @@
 <!doctype html>
-<html lang="sr">
+<html lang="sr-Cyrl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Објављени радови са научних скупова / Published Conference Papers</title>
+  <meta name="robots" content="index, follow">
   <meta name="description" content="Приступне стране за изабране објављене радове са научних скупова Милоша Тимотијевића. Landing pages for selected published conference papers by Miloš Timotijević.">
 
-    <link rel="canonical" href="https://milos-timotijevic.github.io/conference-papers/">
-<style>
+  <link rel="canonical" href="https://milos-timotijevic.github.io/conference-papers/">
+
+  <style>
     body {
       font-family: Georgia, "Times New Roman", serif;
       line-height: 1.6;
@@ -39,12 +41,23 @@
       text-decoration: none;
     }
 
-    a:hover {
+    a:hover,
+    a:focus-visible {
       text-decoration: underline;
     }
 
     ol li {
       margin-bottom: 0.8em;
+    }
+
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35em 1em;
+      margin: 0 0 1.6em;
+      padding: 0 0 0.85em;
+      border-bottom: 1px solid #ddd;
+      font-size: 0.95em;
     }
 
     .subtitle {
@@ -53,14 +66,56 @@
       color: #444;
     }
 
+    .intro {
+      background: #f8f8f8;
+      border-left: 4px solid #bbb;
+      padding: 1em;
+      margin: 1.5em 0 1.2em;
+    }
+
+    .intro p {
+      margin: 0.35em 0;
+    }
+
+    .selection-note {
+      margin: 0 0 2em;
+      color: #444;
+      font-size: 0.96em;
+    }
+
+    .selection-note p {
+      margin: 0.35em 0;
+    }
+
     .back-link {
       margin-top: 2.5em;
       border-top: 1px solid #ddd;
       padding-top: 1em;
     }
-    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
-    .skip-link:focus { left: 1em; top: 1em; }
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      z-index: 1000;
+      padding: 0.65em 0.85em;
+      color: #fff;
+      background: #0645ad;
+    }
+
+    .skip-link:focus {
+      left: 1em;
+      top: 1em;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        margin: 24px auto;
+        padding: 0 18px;
+      }
+    }
   </style>
+
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -73,8 +128,8 @@
       "alternateName": "Published Conference Papers by Miloš Timotijević",
       "description": "Приступне стране за изабране објављене радове са научних скупова Милоша Тимотијевића. Landing pages for selected published conference papers by Miloš Timotijević.",
       "inLanguage": [
-        "sr",
-        "en"
+        "sr-Cyrl",
+        "en-GB"
       ],
       "about": {
         "@id": "https://milos-timotijevic.github.io/#milos-timotijevic"
@@ -173,77 +228,114 @@
 
 <body>
   <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+
+  <nav class="site-nav" aria-label="Главна навигација / Main navigation">
+    <a href="/">Главна страна / Main Page</a>
+    <a href="/bibliography/">Библиографија / Bibliography</a>
+    <a href="/articles/">Научни чланци / Scholarly Articles</a>
+    <a href="/book-chapters/">Поглавља и прилози / Book Chapters</a>
+    <a href="/knowledge-graph/">Граф знања / Knowledge Graph</a>
+  </nav>
+
   <main id="main-content">
-  <h1>Радови са научних скупова / Published Conference Papers</h1>
+    <h1>Објављени радови са научних скупова / Published Conference Papers</h1>
 
-  <ol>
-    <li>
-      <a href="vladari-i-varosi.html">
-        <em>„Владари и вароши: Штампа о посетама Обреновића и Карађорђевића Краљеву, Чачку и Горњем Милановцу (XIX и почетак XX века)”</em><br>
-        <em>Rulers and Towns: The Press on the Visits of the Obrenović and Karađorđević Dynasties to Kraljevo, Čačak, and Gornji Milanovac (19th and Early 20th Century)</em>
-      </a>
-    </li>
+    <p class="subtitle">
+      Приступне стране за изабране објављене радове са научних скупова Милоша Тимотијевића.<br>
+      <span lang="en-GB">Landing pages for selected published conference papers by Miloš Timotijević.</span>
+    </p>
 
-    <li>
-      <a href="efemerni-spektakl-knez-mihailo.html">
-        <em>„Ефемерни спектакл и владарске посете кнеза Михаила Обреновића варошима Србије”</em><br>
-        <em>Ephemeral Spectacle: The Official Visits of Prince Mihailo Obrenović to Serbian Towns</em>
-      </a>
-    </li>
+    <section class="intro">
+      <p>
+        Објављени радови са научних скупова представљају посебан део научног рада Милоша Тимотијевића. Изабрани текстови обухватају владарске посете и политичке ритуале, интелектуалну и религијску историју, културу сећања, рат и пропаганду, урбану историју и архитектонско наслеђе социјализма.
+      </p>
 
-    <li>
-  <a href="interwar-attitudes-bishop-nikolaj-velimirovic-communists.html">
-    <em>Interwar Attitudes of Bishop Nikolaj Velimirović toward the Communists</em><br>
-    <em>Међуратни ставови епископа Николаја Велимировића према комунистима</em>
-  </a>
-</li>
+      <p>
+        Чачак и западна Србија у овим радовима имају важно место, али су поједине теме постављене у шири српски и југословенски оквир. Радови повезују анализу штампе, јавне репрезентације, свакодневног живота, приватног памћења и односа историје и културног наслеђа.
+      </p>
 
-    <li>
-  <a href="crvena-ili-sveta-rusija-krleza-vasic.html">
-    <em>„Црвена” или „света” Русија: компарација путописа Мирослава Крлеже и Драгише Васића о првој земљи социјализма</em><br>
-    <em>“Red” or “Holy” Russia: A Comparison of Miroslav Krleža’s and Dragiša Vasić’s Travelogues on the First Country of Socialism</em>
-  </a>
-</li>
+      <p lang="en-GB">
+        Published conference papers form a distinct part of Miloš Timotijević’s scholarly work. The selected texts cover royal visits and political rituals, intellectual and religious history, memory culture, war and propaganda, urban history and the architectural heritage of socialism.
+      </p>
 
-    <li>
-  <a href="boj-na-ljubicu-reprezentativna-kultura-cacka.html">
-    <em>„Бој на Љубићу у званичној репрезентативној култури Чачка током XIX и XX века”</em><br>
-    <em>Battle of Ljubić in Official Representative Culture of Čačak in the 19th and 20th Centuries</em>
-  </a>
-</li>
+      <p lang="en-GB">
+        Čačak and western Serbia occupy an important place in these works, while some topics are situated within a broader Serbian and Yugoslav framework. The papers connect the analysis of the press, public representation, everyday life, private memory and the relationship between history and cultural heritage.
+      </p>
+    </section>
 
-    <li>
-  <a href="vojnici-smrt-nadgrobna-obelezja-veliki-rat.html">
-    <em>Војници, смрт и надгробна обележја: приватно сећање на Велики рат у западној Србији</em><br>
-    <em>Soldiers, Death and Tombstone Markings: Private Memories of the Great War in Western Serbia</em>
-  </a>
-</li>
+    <div class="selection-note">
+      <p>
+        Страна представља избор објављених радова са научних скупова. Потпун списак ових и других публикација доступан је у
+        <a href="/bibliography/">Библиографији / Bibliography</a>.
+      </p>
+      <p lang="en-GB">
+        This page presents a selection of published conference papers. A complete list of these and other publications is available in the
+        <a href="/bibliography/">Bibliography / Библиографија</a>.
+      </p>
+    </div>
 
-    <li>
-  <a href="gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">
-    <em>Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</em><br>
-    <em>City Center and Architectural Heritage of Socialism: The Case of Čačak (1944–1990)</em>
-  </a>
-</li>  
+    <h2>Изабрани објављени радови са научних скупова / Selected Published Conference Papers</h2>
 
-<li>
-  <a href="grad-i-okupacija-svakodnevni-zivot-cacka-1941.html">
-    <em>Град и окупација – свакодневни живот Чачка 1941. године</em><br>
-    <em>The City and Occupation: Everyday Life in Čačak in 1941</em>
-  </a>
-</li>
+    <ol>
+      <li>
+        <a href="vladari-i-varosi.html">
+          <em>„Владари и вароши: Штампа о посетама Обреновића и Карађорђевића Краљеву, Чачку и Горњем Милановцу (XIX и почетак XX века)”</em><br>
+          <em lang="en-GB">Rulers and Towns: The Press on the Visits of the Obrenović and Karađorđević Dynasties to Kraljevo, Čačak, and Gornji Milanovac (19th and Early 20th Century)</em>
+        </a>
+      </li>
+      <li>
+        <a href="efemerni-spektakl-knez-mihailo.html">
+          <em>„Ефемерни спектакл и владарске посете кнеза Михаила Обреновића варошима Србије”</em><br>
+          <em lang="en-GB">Ephemeral Spectacle: The Official Visits of Prince Mihailo Obrenović to Serbian Towns</em>
+        </a>
+      </li>
+      <li>
+        <a href="interwar-attitudes-bishop-nikolaj-velimirovic-communists.html">
+          <em lang="en-GB">Interwar Attitudes of Bishop Nikolaj Velimirović toward the Communists</em><br>
+          <em>Међуратни ставови епископа Николаја Велимировића према комунистима</em>
+        </a>
+      </li>
+      <li>
+        <a href="crvena-ili-sveta-rusija-krleza-vasic.html">
+          <em>„Црвена” или „света” Русија: компарација путописа Мирослава Крлеже и Драгише Васића о првој земљи социјализма</em><br>
+          <em lang="en-GB">“Red” or “Holy” Russia: A Comparison of Miroslav Krleža’s and Dragiša Vasić’s Travelogues on the First Country of Socialism</em>
+        </a>
+      </li>
+      <li>
+        <a href="boj-na-ljubicu-reprezentativna-kultura-cacka.html">
+          <em>„Бој на Љубићу у званичној репрезентативној култури Чачка током XIX и XX века”</em><br>
+          <em lang="en-GB">Battle of Ljubić in Official Representative Culture of Čačak in the 19th and 20th Centuries</em>
+        </a>
+      </li>
+      <li>
+        <a href="vojnici-smrt-nadgrobna-obelezja-veliki-rat.html">
+          <em>Војници, смрт и надгробна обележја: приватно сећање на Велики рат у западној Србији</em><br>
+          <em lang="en-GB">Soldiers, Death and Tombstone Markings: Private Memories of the Great War in Western Serbia</em>
+        </a>
+      </li>
+      <li>
+        <a href="gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">
+          <em>Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</em><br>
+          <em lang="en-GB">City Center and Architectural Heritage of Socialism: The Case of Čačak (1944–1990)</em>
+        </a>
+      </li>
+      <li>
+        <a href="grad-i-okupacija-svakodnevni-zivot-cacka-1941.html">
+          <em>Град и окупација – свакодневни живот Чачка 1941. године</em><br>
+          <em lang="en-GB">The City and Occupation: Everyday Life in Čačak in 1941</em>
+        </a>
+      </li>
+      <li>
+        <a href="dodjite-da-locete-srpsku-krv-saveznicko-bombardovanje-srbije-1943-1944-propaganda.html">
+          <em>„Дођите да лочете српску крв, хијене англоамеричке!”: савезничко бомбардовање Србије 1943–1944. и пропаганда колаборационистичке штампе</em><br>
+          <em lang="en-GB">“Come and Drink Serbian Blood, You Anglo-American Hyenas!”: The Allied Bombing of Serbia 1943–1944 and the Propaganda of the Collaborationist Press</em>
+        </a>
+      </li>
+    </ol>
 
-    <li>
-  <a href="dodjite-da-locete-srpsku-krv-saveznicko-bombardovanje-srbije-1943-1944-propaganda.html">
-    <em>„Дођите да лочете српску крв, хијене англоамеричке!”: савезничко бомбардовање Србије 1943–1944. и пропаганда колаборационистичке штампе</em><br>
-    <em>“Come and Drink Serbian Blood, You Anglo-American Hyenas!”: The Allied Bombing of Serbia 1943–1944 and the Propaganda of the Collaborationist Press</em>
-  </a>
-</li>
-  </ol>
-
-  <p class="back-link">
-    <a href="../index.html">← Назад на главну страницу / Back to main page</a>
-  </p>
+    <p class="back-link">
+      <a href="/">← Назад на главну страницу / Back to main page</a>
+    </p>
   </main>
 </body>
 </html>
