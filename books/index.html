@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="sr">
+<html lang="sr-Cyrl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,8 +7,9 @@
   <meta name="robots" content="index, follow">
   <meta name="description" content="Приступне стране за изабране монографије Милоша Тимотијевића. Landing pages for selected monographs by Miloš Timotijević.">
 
-    <link rel="canonical" href="https://milos-timotijevic.github.io/books/">
-<style>
+  <link rel="canonical" href="https://milos-timotijevic.github.io/books/">
+
+  <style>
     body {
       font-family: Georgia, "Times New Roman", serif;
       line-height: 1.6;
@@ -40,12 +41,23 @@
       text-decoration: none;
     }
 
-    a:hover {
+    a:hover,
+    a:focus-visible {
       text-decoration: underline;
     }
 
     ol li {
       margin-bottom: 0.8em;
+    }
+
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35em 1em;
+      margin: 0 0 1.6em;
+      padding: 0 0 0.85em;
+      border-bottom: 1px solid #ddd;
+      font-size: 0.95em;
     }
 
     .subtitle {
@@ -58,10 +70,20 @@
       background: #f8f8f8;
       border-left: 4px solid #bbb;
       padding: 1em;
-      margin: 1.5em 0 2em 0;
+      margin: 1.5em 0 1.2em;
     }
 
     .intro p {
+      margin: 0.35em 0;
+    }
+
+    .selection-note {
+      margin: 0 0 2em;
+      color: #444;
+      font-size: 0.96em;
+    }
+
+    .selection-note p {
       margin: 0.35em 0;
     }
 
@@ -70,326 +92,367 @@
       border-top: 1px solid #ddd;
       padding-top: 1em;
     }
-    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
-    .skip-link:focus { left: 1em; top: 1em; }
-  </style>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "CollectionPage",
-      "@id": "https://milos-timotijevic.github.io/books/#webpage",
-      "url": "https://milos-timotijevic.github.io/books/",
-      "name": "Монографије Милоша Тимотијевића",
-      "alternateName": "Monographs by Miloš Timotijević",
-      "description": "Приступне стране за изабране монографије Милоша Тимотијевића. Landing pages for selected monographs by Miloš Timotijević.",
-      "inLanguage": [
-        "sr",
-        "en"
-      ],
-      "about": {
-        "@id": "https://milos-timotijevic.github.io/#milos-timotijevic"
-      },
-      "isPartOf": {
-        "@id": "https://milos-timotijevic.github.io/#website"
-      },
-      "mainEntity": {
-        "@id": "https://milos-timotijevic.github.io/books/#item-list"
-      }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://milos-timotijevic.github.io/#milos-timotijevic",
-      "name": "Miloš Timotijević",
-      "alternateName": "Милош Тимотијевић",
-      "url": "https://milos-timotijevic.github.io/",
-      "sameAs": [
-        "https://orcid.org/0000-0002-0457-6125",
-        "https://www.wikidata.org/wiki/Q112514230",
-        "https://openalex.org/authors/a5072525869"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://milos-timotijevic.github.io/#website",
-      "url": "https://milos-timotijevic.github.io/",
-      "name": "Miloš Timotijević — Academic Profile and Knowledge Graph"
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://milos-timotijevic.github.io/books/#item-list",
-      "name": "Монографије Милоша Тимотијевића",
-      "numberOfItems": 18,
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Надежда Петровић: живот и уметност у служби нације Nadežda Petrović: Life and Art in the Service of the Nation",
-          "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Драгиша Васић и српска национална идеја Dragiša Vasić and the Serbian National Idea",
-          "url": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Модернизација балканског града: 1944–1989: компаративна анализа развоја Чачка и Благоевграда у епохи социјализма Modernization of the Balkan City, 1944–1989: A Comparative Analysis of the Development of Čačak and Blagoevgrad in the Socialist Era",
-          "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Манастири Овчарско-кабларске клисуре Monasteries of the Ovčar-Kablar Gorge",
-          "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Усклици искреног одушевљења: ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године Exclamations of Sincere Enthusiasm: The Ephemeral Spectacle and the Journey of King Alexander and Queen Draga Obrenović through Serbia in 1901",
-          "url": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Мисија „Халијард”: ратна пропаганда, бомбардовање српских градова и евакуација савезничких авијатичара 1943–1944. године Operation “Halyard”: War Propaganda, the Bombing of Serbian Cities, and the Evacuation of Allied Airmen, 1943–1944",
-          "url": "https://milos-timotijevic.github.io/books/misija-halyard.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 7,
-          "name": "Злато четника и партизана — деконструкција једног мита: финансије и отпор окупатору у Србији и Југославији 1941–1945. The Gold of Chetniks and Partisans — Deconstructing a Myth: Finances and Resistance to the Occupier in Serbia and Yugoslavia, 1941–1945",
-          "url": "https://milos-timotijevic.github.io/books/zlato-cetnika-i-partizana.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 8,
-          "name": "„Храбри“ партизани и „зли“ четници: студије о Србији у Другом светском рату: 1941–1945. “Brave” Partisans and “Evil” Chetniks: Studies on Serbia in the Second World War, 1941–1945",
-          "url": "https://milos-timotijevic.github.io/books/brave-partisans-evil-chetniks.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 9,
-          "name": "Митови новије српске историје Myths of Modern Serbian History",
-          "url": "https://milos-timotijevic.github.io/books/mitovi-novije-srpske-istorije.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 10,
-          "name": "Звонко Вучковић: ратна биографија (1941–1944): расправа о проблемима прошлости и садашњости Zvonko Vučković: A Wartime Biography (1941–1944): A Debate on the Problems of Past and Present",
-          "url": "https://milos-timotijevic.github.io/books/zvonko-vuckovic-ratna-biografija.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 11,
-          "name": "Карневал у Гучи: Сабор трубача 1961–2004. Carnival in Guča: Trumpet Festival 1961–2004",
-          "url": "https://milos-timotijevic.github.io/books/karneval-u-guci.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 12,
-          "name": "Соколи Чачка 1910–1941. The Sokol Movement in Čačak, 1910–1941",
-          "url": "https://milos-timotijevic.github.io/books/sokoli-cacka.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 13,
-          "name": "Како је Чачак постао град кошарке 1945–1969: спорт и идентитет How Čačak Became the City of Basketball, 1945–1969: Sport and Identity",
-          "url": "https://milos-timotijevic.github.io/books/kako-je-cacak-postao-grad-kosarke.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 14,
-          "name": "Споменица погинулих у ратовима 1991–2000. године са подручја Краљева Memorial Book of Those Killed in the Wars of 1991–2000 from the Kraljevo Area",
-          "url": "https://milos-timotijevic.github.io/books/spomenica-poginulih-kraljevo.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 15,
-          "name": "Век сумње: религиозност у чачанском крају 1886–2008 A Century of Doubt: Religious Life in the Čačak District, 1886–2008",
-          "url": "https://milos-timotijevic.github.io/books/vek-sumnje-religioznost.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 16,
-          "name": "Културна ризница Чачка: од праисторије до савременог доба Cultural Treasury of Čačak: From Prehistory to the Present",
-          "url": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 17,
-          "name": "Храм Вазнесења Господњег у Чачку The Church of the Holy Ascension of Christ in Čačak",
-          "url": "https://milos-timotijevic.github.io/books/hram-vaznesenja-gospodnjeg-u-cacku.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 18,
-          "name": "Равна гора Mount Ravna Gora in Serbia",
-          "url": "https://milos-timotijevic.github.io/books/ravna-gora.html"
-        }
-      ]
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      z-index: 1000;
+      padding: 0.65em 0.85em;
+      color: #fff;
+      background: #0645ad;
     }
-  ]
-}
+
+    .skip-link:focus {
+      left: 1em;
+      top: 1em;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        margin: 24px auto;
+        padding: 0 18px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://milos-timotijevic.github.io/books/#webpage",
+        "url": "https://milos-timotijevic.github.io/books/",
+        "name": "Монографије Милоша Тимотијевића",
+        "alternateName": "Monographs by Miloš Timotijević",
+        "description": "Приступне стране за изабране монографије Милоша Тимотијевића. Landing pages for selected monographs by Miloš Timotijević.",
+        "inLanguage": [
+          "sr-Cyrl",
+          "en-GB"
+        ],
+        "about": {
+          "@id": "https://milos-timotijevic.github.io/#milos-timotijevic"
+        },
+        "isPartOf": {
+          "@id": "https://milos-timotijevic.github.io/#website"
+        },
+        "mainEntity": {
+          "@id": "https://milos-timotijevic.github.io/books/#item-list"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://milos-timotijevic.github.io/#milos-timotijevic",
+        "name": "Miloš Timotijević",
+        "alternateName": "Милош Тимотијевић",
+        "url": "https://milos-timotijevic.github.io/",
+        "sameAs": [
+          "https://orcid.org/0000-0002-0457-6125",
+          "https://www.wikidata.org/wiki/Q112514230",
+          "https://openalex.org/authors/a5072525869"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://milos-timotijevic.github.io/#website",
+        "url": "https://milos-timotijevic.github.io/",
+        "name": "Miloš Timotijević — Academic Profile and Knowledge Graph"
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://milos-timotijevic.github.io/books/#item-list",
+        "name": "Монографије Милоша Тимотијевића",
+        "numberOfItems": 18,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Надежда Петровић: живот и уметност у служби нације Nadežda Petrović: Life and Art in the Service of the Nation",
+            "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Драгиша Васић и српска национална идеја Dragiša Vasić and the Serbian National Idea",
+            "url": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Модернизација балканског града: 1944–1989: компаративна анализа развоја Чачка и Благоевграда у епохи социјализма Modernization of the Balkan City, 1944–1989: A Comparative Analysis of the Development of Čačak and Blagoevgrad in the Socialist Era",
+            "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Манастири Овчарско-кабларске клисуре Monasteries of the Ovčar-Kablar Gorge",
+            "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Усклици искреног одушевљења: ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године Exclamations of Sincere Enthusiasm: The Ephemeral Spectacle and the Journey of King Alexander and Queen Draga Obrenović through Serbia in 1901",
+            "url": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Мисија „Халијард”: ратна пропаганда, бомбардовање српских градова и евакуација савезничких авијатичара 1943–1944. године Operation “Halyard”: War Propaganda, the Bombing of Serbian Cities, and the Evacuation of Allied Airmen, 1943–1944",
+            "url": "https://milos-timotijevic.github.io/books/misija-halyard.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Злато четника и партизана — деконструкција једног мита: финансије и отпор окупатору у Србији и Југославији 1941–1945. The Gold of Chetniks and Partisans — Deconstructing a Myth: Finances and Resistance to the Occupier in Serbia and Yugoslavia, 1941–1945",
+            "url": "https://milos-timotijevic.github.io/books/zlato-cetnika-i-partizana.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "„Храбри“ партизани и „зли“ четници: студије о Србији у Другом светском рату: 1941–1945. “Brave” Partisans and “Evil” Chetniks: Studies on Serbia in the Second World War, 1941–1945",
+            "url": "https://milos-timotijevic.github.io/books/brave-partisans-evil-chetniks.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Митови новије српске историје Myths of Modern Serbian History",
+            "url": "https://milos-timotijevic.github.io/books/mitovi-novije-srpske-istorije.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Звонко Вучковић: ратна биографија (1941–1944): расправа о проблемима прошлости и садашњости Zvonko Vučković: A Wartime Biography (1941–1944): A Debate on the Problems of Past and Present",
+            "url": "https://milos-timotijevic.github.io/books/zvonko-vuckovic-ratna-biografija.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Карневал у Гучи: Сабор трубача 1961–2004. Carnival in Guča: Trumpet Festival 1961–2004",
+            "url": "https://milos-timotijevic.github.io/books/karneval-u-guci.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "name": "Соколи Чачка 1910–1941. The Sokol Movement in Čačak, 1910–1941",
+            "url": "https://milos-timotijevic.github.io/books/sokoli-cacka.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "name": "Како је Чачак постао град кошарке 1945–1969: спорт и идентитет How Čačak Became the City of Basketball, 1945–1969: Sport and Identity",
+            "url": "https://milos-timotijevic.github.io/books/kako-je-cacak-postao-grad-kosarke.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "name": "Споменица погинулих у ратовима 1991–2000. године са подручја Краљева Memorial Book of Those Killed in the Wars of 1991–2000 from the Kraljevo Area",
+            "url": "https://milos-timotijevic.github.io/books/spomenica-poginulih-kraljevo.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "name": "Век сумње: религиозност у чачанском крају 1886–2008 A Century of Doubt: Religious Life in the Čačak District, 1886–2008",
+            "url": "https://milos-timotijevic.github.io/books/vek-sumnje-religioznost.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "name": "Културна ризница Чачка: од праисторије до савременог доба Cultural Treasury of Čačak: From Prehistory to the Present",
+            "url": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "name": "Храм Вазнесења Господњег у Чачку The Church of the Holy Ascension of Christ in Čačak",
+            "url": "https://milos-timotijevic.github.io/books/hram-vaznesenja-gospodnjeg-u-cacku.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "name": "Равна гора Mount Ravna Gora in Serbia",
+            "url": "https://milos-timotijevic.github.io/books/ravna-gora.html"
+          }
+        ]
+      }
+    ]
+  }
   </script>
 </head>
 
 <body>
   <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+
+  <nav class="site-nav" aria-label="Главна навигација / Main navigation">
+    <a href="/">Главна страна / Main Page</a>
+    <a href="/bibliography/">Библиографија / Bibliography</a>
+    <a href="/knowledge-graph/">Граф знања / Knowledge Graph</a>
+    <a href="/exhibitions/">Изложбе / Exhibitions</a>
+    <a href="/data/">Подаци / Data</a>
+  </nav>
+
   <main id="main-content">
-  <h1>Монографије / Monographs</h1>
+    <h1>Монографије / Monographs</h1>
 
-  <p class="subtitle">
-    Приступне стране за изабране монографије Милоша Тимотијевића.<br>
-    Landing pages for selected monographs by Miloš Timotijević.
-  </p>
-
-  <section class="intro">
-    <p>
-      Монографије Милоша Тимотијевића обухватају модерну српску и југословенску историју, као и историју југоисточне Европе, са посебним интересовањем за локалну модерност, симболичку власт, политичку културу, рат, пропаганду, културно наслеђе, музеологију и културу сећања. Чачак и западна Србија имају важно место у овом корпусу, али истраживачки оквир укључује и шире теме: националну идеју, династију Обреновић, уметност и јавну репрезентацију, социјалистичку урбанизацију, религијски живот, спорт, Други светски рат, савезничке операције, политичке митове и спорна места колективног памћења. У овим књигама повезују се архивска истраживања, анализа штампе, визуелни извори, теренски рад, историјска географија, микроисторија и антрополошко тумачење симболичких пракси.
+    <p class="subtitle">
+      Приступне стране за изабране монографије Милоша Тимотијевића.<br>
+      <span lang="en-GB">Landing pages for selected monographs by Miloš Timotijević.</span>
     </p>
 
-    <p lang="en">
-      Miloš Timotijević’s monographs cover modern Serbian and Yugoslav history, as well as the history of Southeast Europe, with particular attention to local modernity, symbolic power, political culture, war, propaganda, cultural heritage, museology and memory culture. Čačak and western Serbia occupy an important place in this corpus, but the research framework also includes broader themes: national ideology, the Obrenović dynasty, art and public representation, socialist urbanization, religious life, sport, the Second World War, Allied operations, political myths and contested sites of collective memory. These books combine archival research, press analysis, visual sources, fieldwork, historical geography, microhistory and anthropological interpretation of symbolic practices.
+    <section class="intro">
+      <p>
+        Монографије Милоша Тимотијевића обухватају модерну српску и југословенску историју, као и историју југоисточне Европе, са посебним интересовањем за локалну модерност, симболичку моћ, политичку културу, рат, пропаганду, културно наслеђе, музеологију и културу сећања. Чачак и западна Србија имају важно место у овом корпусу, али истраживачки оквир укључује и шире теме: националну идеју, династију Обреновић, уметност и јавну репрезентацију, социјалистичку урбанизацију, религијски живот, спорт, Други светски рат, савезничке операције, политичке митове и спорна места колективног памћења. У овим књигама повезују се архивска истраживања, анализа штампе, визуелни извори, теренски рад, историјска географија, микроисторија и антрополошко тумачење симболичких пракси.
+      </p>
+
+      <p lang="en-GB">
+        Miloš Timotijević’s monographs cover modern Serbian and Yugoslav history, as well as the history of Southeast Europe, with particular attention to local modernity, symbolic power, political culture, war, propaganda, cultural heritage, museology and memory culture. Čačak and western Serbia occupy an important place in this corpus, but the research framework also includes broader themes: national ideology, the Obrenović dynasty, art and public representation, socialist urbanization, religious life, sport, the Second World War, Allied operations, political myths and contested sites of collective memory. These books combine archival research, press analysis, visual sources, fieldwork, historical geography, microhistory and anthropological interpretation of symbolic practices.
+      </p>
+    </section>
+
+    <div class="selection-note">
+      <p>
+        Страна представља избор монографија. Потпун списак књига и других публикација доступан је у
+        <a href="/bibliography/">Библиографији / Bibliography</a>.
+      </p>
+      <p lang="en-GB">
+        This page presents a selection of monographs. A complete list of books and other publications is available in the
+        <a href="/bibliography/">Bibliography / Библиографија</a>.
+      </p>
+    </div>
+
+    <h2>Изабране монографије / Selected Monographs</h2>
+
+    <ol>
+      <li>
+        <a href="nadezda-petrovic-life-art-service-nation.html">
+          <em>Надежда Петровић: живот и уметност у служби нације</em><br>
+          <em lang="en-GB">Nadežda Petrović: Life and Art in the Service of the Nation</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="dragisa-vasic-serbian-national-idea.html">
+          <em>Драгиша Васић и српска национална идеја</em><br>
+          <em lang="en-GB">Dragiša Vasić and the Serbian National Idea</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="modernizacija-balkanskog-grada.html">
+          <em>Модернизација балканског града: 1944–1989: компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</em><br>
+          <em lang="en-GB">Modernization of the Balkan City, 1944–1989: A Comparative Analysis of the Development of Čačak and Blagoevgrad in the Socialist Era</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="manastiri-ovcarsko-kablarske-klisure.html">
+          <em>Манастири Овчарско-кабларске клисуре</em><br>
+          <em lang="en-GB">Monasteries of the Ovčar-Kablar Gorge</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="usklici-iskrenog-odusevljenja.html">
+          <em>Усклици искреног одушевљења: ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године</em><br>
+          <em lang="en-GB">Exclamations of Sincere Enthusiasm: The Ephemeral Spectacle and the Journey of King Alexander and Queen Draga Obrenović through Serbia in 1901</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="misija-halyard.html">
+          <em>Мисија „Халијард”: ратна пропаганда, бомбардовање српских градова и евакуација савезничких авијатичара 1943–1944. године</em><br>
+          <em lang="en-GB">Operation “Halyard”: War Propaganda, the Bombing of Serbian Cities, and the Evacuation of Allied Airmen, 1943–1944</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="zlato-cetnika-i-partizana.html">
+          <em>Злато четника и партизана — деконструкција једног мита: финансије и отпор окупатору у Србији и Југославији 1941–1945.</em><br>
+          <em lang="en-GB">The Gold of Chetniks and Partisans — Deconstructing a Myth: Finances and Resistance to the Occupier in Serbia and Yugoslavia, 1941–1945</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="brave-partisans-evil-chetniks.html">
+          <em>„Храбри“ партизани и „зли“ четници: студије о Србији у Другом светском рату: 1941–1945.</em><br>
+          <em lang="en-GB">“Brave” Partisans and “Evil” Chetniks: Studies on Serbia in the Second World War, 1941–1945</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="mitovi-novije-srpske-istorije.html">
+          <em>Митови новије српске историје</em><br>
+          <em lang="en-GB">Myths of Modern Serbian History</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="zvonko-vuckovic-ratna-biografija.html">
+          <em>Звонко Вучковић: ратна биографија (1941–1944): расправа о проблемима прошлости и садашњости</em><br>
+          <em lang="en-GB">Zvonko Vučković: A Wartime Biography (1941–1944): A Debate on the Problems of Past and Present</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="karneval-u-guci.html">
+          <em>Карневал у Гучи: Сабор трубача 1961–2004.</em><br>
+          <em lang="en-GB">Carnival in Guča: Trumpet Festival 1961–2004</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="sokoli-cacka.html">
+          <em>Соколи Чачка 1910–1941.</em><br>
+          <em lang="en-GB">The Sokol Movement in Čačak, 1910–1941</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="kako-je-cacak-postao-grad-kosarke.html">
+          <em>Како је Чачак постао град кошарке 1945–1969: спорт и идентитет</em><br>
+          <em lang="en-GB">How Čačak Became the City of Basketball, 1945–1969: Sport and Identity</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="spomenica-poginulih-kraljevo.html">
+          <em>Споменица погинулих у ратовима 1991–2000. године са подручја Краљева</em><br>
+          <em lang="en-GB">Memorial Book of Those Killed in the Wars of 1991–2000 from the Kraljevo Area</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="vek-sumnje-religioznost.html">
+          <em>Век сумње: религиозност у чачанском крају 1886–2008</em><br>
+          <em lang="en-GB">A Century of Doubt: Religious Life in the Čačak District, 1886–2008</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="kulturna-riznica-cacka.html">
+          <em>Културна ризница Чачка: од праисторије до савременог доба</em><br>
+          <em lang="en-GB">Cultural Treasury of Čačak: From Prehistory to the Present</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="hram-vaznesenja-gospodnjeg-u-cacku.html">
+          <em>Храм Вазнесења Господњег у Чачку</em><br>
+          <em lang="en-GB">The Church of the Holy Ascension of Christ in Čačak</em>
+        </a>
+      </li>
+
+      <li>
+        <a href="ravna-gora.html">
+          <em>Равна гора</em><br>
+          <em lang="en-GB">Mount Ravna Gora in Serbia</em>
+        </a>
+      </li>
+    </ol>
+
+    <p class="back-link">
+      <a href="/">← Назад на главну страницу / Back to main page</a>
     </p>
-  </section>
-
-  <h2>Изабране монографије / Selected Monographs</h2>
-
-<ol>
-  <li>
-    <a href="nadezda-petrovic-life-art-service-nation.html">
-      <em>Надежда Петровић: живот и уметност у служби нације</em><br>
-      <em>Nadežda Petrović: Life and Art in the Service of the Nation</em>
-    </a>
-  </li>
-
-  <li>
-    <a href="dragisa-vasic-serbian-national-idea.html">
-      <em>Драгиша Васић и српска национална идеја</em><br>
-      <em>Dragiša Vasić and the Serbian National Idea</em>
-    </a>
-  </li>
-
-  <li>
-  <a href="modernizacija-balkanskog-grada.html">
-    <em>Модернизација балканског града: 1944–1989: компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</em><br>
-    <em>Modernization of the Balkan City, 1944–1989: A Comparative Analysis of the Development of Čačak and Blagoevgrad in the Socialist Era</em>
-  </a>
-</li>
-
-  <li>
-  <a href="manastiri-ovcarsko-kablarske-klisure.html">
-    <em>Манастири Овчарско-кабларске клисуре</em><br>
-    <em>Monasteries of the Ovčar-Kablar Gorge</em>
-  </a>
-</li>
-
-  <li>
-  <a href="usklici-iskrenog-odusevljenja.html">
-    <em>Усклици искреног одушевљења: ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године</em><br>
-    <em>Exclamations of Sincere Enthusiasm: The Ephemeral Spectacle and the Journey of King Alexander and Queen Draga Obrenović through Serbia in 1901</em>
-  </a>
-</li>
-
-  <li>
-      <a href="misija-halyard.html">
-        <em>Мисија „Халијард”: ратна пропаганда, бомбардовање српских градова и евакуација савезничких авијатичара 1943–1944. године</em><br>
-        <em>Operation “Halyard”: War Propaganda, the Bombing of Serbian Cities, and the Evacuation of Allied Airmen, 1943–1944</em>
-      </a>
-    </li>
-
-  <li>
-      <a href="zlato-cetnika-i-partizana.html">
-        <em>Злато четника и партизана — деконструкција једног мита: финансије и отпор окупатору у Србији и Југославији 1941–1945.</em><br>
-        <em>The Gold of Chetniks and Partisans — Deconstructing a Myth: Finances and Resistance to the Occupier in Serbia and Yugoslavia, 1941–1945</em>
-      </a>
-    </li>
-
-  <li>
-  <a href="brave-partisans-evil-chetniks.html">
-    <em>„Храбри“ партизани и „зли“ четници: студије о Србији у Другом светском рату: 1941–1945.</em><br>
-    <em>“Brave” Partisans and “Evil” Chetniks: Studies on Serbia in the Second World War, 1941–1945</em>
-  </a>
-</li>
-
-  <li>
-  <a href="mitovi-novije-srpske-istorije.html">
-    <em>Митови новије српске историје</em><br>
-    <em>Myths of Modern Serbian History</em>
-  </a>
-</li>
-
-  <li>
-  <a href="zvonko-vuckovic-ratna-biografija.html">
-    <em>Звонко Вучковић: ратна биографија (1941–1944): расправа о проблемима прошлости и садашњости</em><br>
-    <em>Zvonko Vučković: A Wartime Biography (1941–1944): A Debate on the Problems of Past and Present</em>
-  </a>
-</li>
-
-  <li>
-  <a href="karneval-u-guci.html">
-    <em>Карневал у Гучи: Сабор трубача 1961–2004.</em><br>
-    <em>Carnival in Guča: Trumpet Festival 1961–2004</em>
-  </a>
-</li>
-
-  <li>
-  <a href="sokoli-cacka.html">
-    <em>Соколи Чачка 1910–1941.</em><br>
-    <em>The Sokol Movement in Čačak, 1910–1941</em>
-  </a>
-</li>
-
-  <li>
-  <a href="kako-je-cacak-postao-grad-kosarke.html">
-    <em>Како је Чачак постао град кошарке 1945–1969: спорт и идентитет</em><br>
-    <em>How Čačak Became the City of Basketball, 1945–1969: Sport and Identity</em>
-  </a>
-</li>
-
-  <li>
-  <a href="spomenica-poginulih-kraljevo.html">
-    <em>Споменица погинулих у ратовима 1991–2000. године са подручја Краљева</em><br>
-    <em>Memorial Book of Those Killed in the Wars of 1991–2000 from the Kraljevo Area</em>
-  </a>
-</li>
-
-  <li>
-  <a href="vek-sumnje-religioznost.html">
-    <em>Век сумње: религиозност у чачанском крају 1886–2008</em><br>
-    <em>A Century of Doubt: Religious Life in the Čačak District, 1886–2008</em>
-  </a>
-</li>
-
-  <li>
-  <a href="kulturna-riznica-cacka.html">
-    <em>Културна ризница Чачка: од праисторије до савременог доба</em><br>
-    <em>Cultural Treasury of Čačak: From Prehistory to the Present</em>
-  </a>
-</li>
-
-  <li>
-  <a href="hram-vaznesenja-gospodnjeg-u-cacku.html">
-    <em>Храм Вазнесења Господњег у Чачку</em><br>
-    <em>The Church of the Holy Ascension of Christ in Čačak</em>
-  </a>
-</li>
-
-  <li>
-  <a href="ravna-gora.html">
-    <em>Равна гора</em><br>
-    <em>Mount Ravna Gora in Serbia</em>
-  </a>
-</li>
-</ol>
-
-<p class="back-link">
-  <a href="../index.html">← Назад на главну страницу / Back to main page</a>
-</p>
   </main>
 </body>
 </html>
