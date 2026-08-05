@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="sr">
+<html lang="sr-Cyrl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Прикази књига / Book Reviews | Милош Тимотијевић</title>
+  <meta name="robots" content="index, follow">
   <meta name="description" content="Тематске стране за изабране приказе књига Милоша Тимотијевића. Thematic pages for selected book reviews by Miloš Timotijević.">
 
   <link rel="canonical" href="https://milos-timotijevic.github.io/book-reviews/">
@@ -11,285 +12,374 @@
   <meta name="author" content="Miloš Timotijević">
   <meta name="keywords" content="Miloš Timotijević, Милош Тимотијевић, book reviews, прикази књига, historiography, историографија, Serbian history, Yugoslav history, local history, cultural heritage, popular culture">
 
-  <!-- Dublin Core metadata -->
   <meta name="DC.title" content="Прикази књига / Book Reviews">
   <meta name="DC.creator" content="Милош Тимотијевић">
   <meta name="DC.creator" content="Miloš Timotijević">
   <meta name="DC.subject" content="book reviews; historiography; Serbian history; Yugoslav history; local history; cultural heritage; popular culture">
   <meta name="DC.description" content="Тематске стране за изабране приказе књига Милоша Тимотијевића.">
   <meta name="DC.publisher" content="Miloš Timotijević">
-  <meta name="DC.language" content="sr">
+  <meta name="DC.language" content="sr-Cyrl">
   <meta name="DC.type" content="Text">
 
-  <!-- Open Graph metadata -->
   <meta property="og:title" content="Прикази књига / Book Reviews | Милош Тимотијевић">
   <meta property="og:description" content="Тематске стране за изабране приказе књига Милоша Тимотијевића.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://milos-timotijevic.github.io/book-reviews/">
   <meta property="og:locale" content="sr_RS">
 
-  <!-- Twitter / generic card metadata -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Прикази књига / Book Reviews">
   <meta name="twitter:description" content="Thematic pages for selected book reviews by historian Miloš Timotijević.">
 
   <style>
-body {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
-  line-height: 1.55;
-  max-width: 820px;
-  margin: 48px auto;
-  padding: 0 36px;
-  color: #111;
-  background: #fff;
-}
+    body {
+      max-width: 820px;
+      margin: 48px auto;
+      padding: 0 36px;
+      color: #111;
+      background: #fff;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      line-height: 1.55;
+    }
 
-h1, h2, h3 {
-  line-height: 1.25;
-  color: #111;
-  font-weight: bold;
-}
+    h1, h2, h3 {
+      color: #111;
+      font-weight: bold;
+      line-height: 1.25;
+    }
 
-h1 {
-  font-size: 2em;
-  margin-bottom: 0.2em;
-}
+    h1 {
+      margin-bottom: 0.2em;
+      font-size: 2em;
+    }
 
-h2 {
-  margin-top: 2em;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.25em;
-}
+    h2 {
+      margin-top: 2em;
+      padding-bottom: 0.25em;
+      border-bottom: 1px solid #ddd;
+    }
 
-h3 {
-  margin-top: 1.8em;
-  margin-bottom: 0.8em;
-}
+    h3 {
+      margin-top: 1.8em;
+      margin-bottom: 0.8em;
+    }
 
-p {
-  margin-top: 0.7em;
-  margin-bottom: 0.7em;
-}
+    p {
+      margin-top: 0.7em;
+      margin-bottom: 0.7em;
+    }
 
-a {
-  color: #0645ad;
-  text-decoration: none;
-}
+    a {
+      color: #0645ad;
+      text-decoration: none;
+      text-underline-offset: 0.15em;
+    }
 
-a:hover {
-  text-decoration: underline;
-}
+    a:hover,
+    a:focus-visible {
+      color: #04357f;
+      text-decoration: underline;
+    }
 
-ol {
-  padding-left: 1.6em;
-}
+    ol {
+      padding-left: 1.6em;
+    }
 
-ol li {
-  margin-bottom: 0.9em;
-  line-height: 1.45;
-}
+    ol li {
+      margin-bottom: 0.9em;
+      line-height: 1.45;
+    }
 
-footer {
-  margin-top: 3em;
-  font-size: 0.95em;
-  color: #444;
-  border-top: 1px solid #ddd;
-  padding-top: 1em;
-}
-    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; padding: .65em .85em; color: #fff; background: #0645ad; }
-    .skip-link:focus { left: 1em; top: 1em; }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35em 1em;
+      margin: 0 0 1.6em;
+      padding: 0 0 0.85em;
+      border-bottom: 1px solid #ddd;
+      font-size: 0.92em;
+    }
+
+    .subtitle {
+      margin: 0.25em 0 1.5em;
+      color: #444;
+      font-size: 1.05em;
+    }
+
+    .intro {
+      margin: 1.5em 0 1.3em;
+      padding: 1em 1.05em;
+      border-left: 4px solid #bbb;
+      background: #f8f8f8;
+    }
+
+    .intro p {
+      margin: 0.42em 0;
+    }
+
+    .bibliography-note {
+      margin: 0 0 2em;
+      color: #444;
+      font-size: 0.95em;
+    }
+
+    .bibliography-note p {
+      margin: 0.35em 0;
+    }
+
+    footer {
+      margin-top: 3em;
+      padding-top: 1em;
+      border-top: 1px solid #ddd;
+      color: #444;
+      font-size: 0.95em;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      z-index: 1000;
+      padding: 0.65em 0.85em;
+      color: #fff;
+      background: #0645ad;
+    }
+
+    .skip-link:focus {
+      left: 1em;
+      top: 1em;
+      color: #fff;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        margin: 24px auto;
+        padding: 0 18px;
+        font-size: 16px;
+      }
+    }
   </style>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Прикази књига",
-    "alternateName": "Book Reviews",
-    "url": "https://milos-timotijevic.github.io/book-reviews/",
-    "description": "Тематске стране за изабране приказе књига Милоша Тимотијевића.",
-    "inLanguage": "sr",
-    "author": {
-      "@type": "Person",
-      "name": "Милош Тимотијевић",
-      "alternateName": [
-        "Miloš Timotijević",
-        "Miloš M. Timotijević",
-        "Милош М. Тимотијевић"
-      ],
-      "url": "https://milos-timotijevic.github.io/",
-      "identifier": "https://orcid.org/0000-0002-0457-6125"
-    },
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": "Милош Тимотијевић | Miloš Timotijević",
-      "url": "https://milos-timotijevic.github.io/"
-    },
-    "mainEntity": {
-      "@type": "ItemList",
-      "name": "Тематске стране за приказе књига",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Државност, историјско наслеђе и балкански контексти",
-          "url": "https://milos-timotijevic.github.io/book-reviews/statehood-historical-heritage.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Завичајна и регионална историја",
-          "url": "https://milos-timotijevic.github.io/book-reviews/local-regional-history.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Културно наслеђе, уметност и визуелна култура",
-          "url": "https://milos-timotijevic.github.io/book-reviews/cultural-heritage-art-visual-culture.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Рат, окупација и отпор",
-          "url": "https://milos-timotijevic.github.io/book-reviews/war-occupation-resistance.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Југословенска политичка и интелектуална историја",
-          "url": "https://milos-timotijevic.github.io/book-reviews/yugoslav-political-intellectual-history.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Европа, књижевност и интелектуалне расправе",
-          "url": "https://milos-timotijevic.github.io/book-reviews/europe-literature-intellectual-debates.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 7,
-          "name": "Криза Југославије и постјугословенски ратови",
-          "url": "https://milos-timotijevic.github.io/book-reviews/yugoslav-crisis-post-yugoslav-wars.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 8,
-          "name": "Популарна култура и медији",
-          "url": "https://milos-timotijevic.github.io/book-reviews/popular-culture-media.html"
-        }
-      ]
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://milos-timotijevic.github.io/book-reviews/#webpage",
+  "name": "Прикази књига",
+  "alternateName": "Book Reviews",
+  "url": "https://milos-timotijevic.github.io/book-reviews/",
+  "description": "Тематске стране за изабране приказе књига Милоша Тимотијевића. Thematic pages for selected book reviews by Miloš Timotijević.",
+  "inLanguage": [
+    "sr-Cyrl",
+    "en-GB"
+  ],
+  "author": {
+    "@type": "Person",
+    "@id": "https://milos-timotijevic.github.io/#milos-timotijevic",
+    "name": "Милош Тимотијевић",
+    "alternateName": [
+      "Miloš Timotijević",
+      "Miloš M. Timotijević",
+      "Милош М. Тимотијевић"
+    ],
+    "url": "https://milos-timotijevic.github.io/",
+    "identifier": "https://orcid.org/0000-0002-0457-6125",
+    "sameAs": [
+      "https://orcid.org/0000-0002-0457-6125",
+      "https://www.wikidata.org/wiki/Q112514230",
+      "https://openalex.org/authors/a5072525869"
+    ]
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://milos-timotijevic.github.io/#website",
+    "name": "Милош Тимотијевић | Miloš Timotijević",
+    "url": "https://milos-timotijevic.github.io/"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "@id": "https://milos-timotijevic.github.io/book-reviews/#item-list",
+    "name": "Тематске стране за приказе књига",
+    "numberOfItems": 8,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Државност, историјско наслеђе и балкански контексти",
+        "alternateName": "Statehood, Historical Heritage and Balkan Contexts",
+        "url": "https://milos-timotijevic.github.io/book-reviews/statehood-historical-heritage.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Завичајна и регионална историја",
+        "alternateName": "Local and Regional History",
+        "url": "https://milos-timotijevic.github.io/book-reviews/local-regional-history.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Културно наслеђе, уметност и визуелна култура",
+        "alternateName": "Cultural Heritage, Art and Visual Culture",
+        "url": "https://milos-timotijevic.github.io/book-reviews/cultural-heritage-art-visual-culture.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Рат, окупација и отпор",
+        "alternateName": "War, Occupation and Resistance",
+        "url": "https://milos-timotijevic.github.io/book-reviews/war-occupation-resistance.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Југословенска политичка и интелектуална историја",
+        "alternateName": "Yugoslav Political and Intellectual History",
+        "url": "https://milos-timotijevic.github.io/book-reviews/yugoslav-political-intellectual-history.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Европа, књижевност и интелектуалне расправе",
+        "alternateName": "Europe, Literature and Intellectual Debates",
+        "url": "https://milos-timotijevic.github.io/book-reviews/europe-literature-intellectual-debates.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Криза Југославије и постјугословенски ратови",
+        "alternateName": "Yugoslav Crisis and Post-Yugoslav Wars",
+        "url": "https://milos-timotijevic.github.io/book-reviews/yugoslav-crisis-post-yugoslav-wars.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Популарна култура и медији",
+        "alternateName": "Popular Culture and Media",
+        "url": "https://milos-timotijevic.github.io/book-reviews/popular-culture-media.html"
+      }
+    ]
   }
+}
   </script>
 </head>
 
 <body>
   <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+
+  <nav class="site-nav" aria-label="Главна навигација / Main navigation">
+    <a href="/">Главна страна / Main Page</a>
+    <a href="/bibliography/#book-reviews">Пуна библиографија приказа / Complete Bibliography of Reviews</a>
+    <a href="/articles/">Научни чланци / Scholarly Articles</a>
+    <a href="/book-chapters/">Поглавља и прилози / Book Chapters</a>
+    <a href="/conference-papers/">Радови са скупова / Conference Papers</a>
+  </nav>
+
   <main id="main-content">
+    <h1>Прикази књига / Book Reviews</h1>
 
-  <h1>Прикази књига / Book Reviews</h1>
-
-  <p>
-    Тематске стране за изабране приказе књига Милоша Тимотијевића.
-  </p>
-
-  <p>
-    Thematic pages for selected book reviews by Miloš Timotijević.
-  </p>
-
-  <p>
-    Прикази књига обухватају историографска, мемоарска, документарна и културноисторијска издања
-    која се односе на српску и југословенску историју, завичајна истраживања, ратове, политичке идеје,
-    културно наслеђе, интелектуалну историју, европске расправе и популарну културу.
-  </p>
-
-  <p>
-    Овај одељак није замишљен као засебна библиографија, већ као тематски улаз у критичке осврте
-    на објављене књиге. Прикази су груписани према основној теми књиге која се приказује, како би
-    се јасније видело које су историографске расправе, јавне теме и културни феномени праћени
-    у дужем временском распону.
-  </p>
-
-  <p>
-    The reviews cover historiographical, memoir, documentary and cultural-historical works related
-    to Serbian and Yugoslav history, local history, wars, political ideas, cultural heritage,
-    intellectual history, European debates and popular culture.
-  </p>
-
-  <p>
-    This section is not conceived as a separate bibliography, but as a thematic access point to critical
-    notes on published books. The reviews are grouped according to the main topic of the books under
-    review, in order to show more clearly the historiographical debates, public issues and cultural
-    phenomena followed over time.
-  </p>
-
-  <h2>Тематске целине / Thematic Groups</h2>
-
-  <ol>
-    <li>
-      <a href="statehood-historical-heritage.html">
-        Државност, историјско наслеђе и балкански контексти<br>
-        Statehood, Historical Heritage and Balkan Contexts
-      </a>
-    </li>
-
-    <li>
-      <a href="local-regional-history.html">
-        Завичајна и регионална историја<br>
-        Local and Regional History
-      </a>
-    </li>
-
-    <li>
-      <a href="cultural-heritage-art-visual-culture.html">
-        Културно наслеђе, уметност и визуелна култура<br>
-        Cultural Heritage, Art and Visual Culture
-      </a>
-    </li>
-
-    <li>
-      <a href="war-occupation-resistance.html">
-        Рат, окупација и отпор<br>
-        War, Occupation and Resistance
-      </a>
-    </li>
-
-    <li>
-      <a href="yugoslav-political-intellectual-history.html">
-        Југословенска политичка и интелектуална историја<br>
-        Yugoslav Political and Intellectual History
-      </a>
-    </li>
-
-    <li>
-      <a href="europe-literature-intellectual-debates.html">
-        Европа, књижевност и интелектуалне расправе<br>
-        Europe, Literature and Intellectual Debates
-      </a>
-    </li>
-
-    <li>
-      <a href="yugoslav-crisis-post-yugoslav-wars.html">
-        Криза Југославије и постјугословенски ратови<br>
-        Yugoslav Crisis and Post-Yugoslav Wars
-      </a>
-    </li>
-
-    <li>
-      <a href="popular-culture-media.html">
-        Популарна култура и медији<br>
-        Popular Culture and Media
-      </a>
-    </li>
-  </ol>
-
-  <footer>
-    <p>
-      <a href="../">← Назад на главну страницу / Back to main page</a>
+    <p class="subtitle">
+      Тематске стране за изабране приказе књига Милоша Тимотијевића.<br>
+      <span lang="en-GB">Thematic pages for selected book reviews by Miloš Timotijević.</span>
     </p>
-  </footer>
 
+    <section class="intro">
+      <p>
+        Прикази књига обухватају историографска, мемоарска, документарна и културноисторијска издања која се односе на српску и југословенску историју, завичајна истраживања, ратове, политичке идеје, културно наслеђе, интелектуалну историју, европске расправе и популарну културу.
+      </p>
+
+      <p>
+        Овај одељак није замишљен као засебна библиографија, већ као тематски улаз у критичке осврте на објављене књиге. Прикази су груписани према основној теми књиге која се приказује, како би се јасније видело које су историографске расправе, јавне теме и културни феномени праћени у дужем временском распону.
+      </p>
+
+      <p lang="en-GB">
+        The reviews cover historiographical, memoir, documentary and cultural-historical works related to Serbian and Yugoslav history, local history, wars, political ideas, cultural heritage, intellectual history, European debates and popular culture.
+      </p>
+
+      <p lang="en-GB">
+        This section is not conceived as a separate bibliography, but as a thematic access point to critical notes on published books. The reviews are grouped according to the main topic of the books under review, in order to show more clearly the historiographical debates, public issues and cultural phenomena followed over time.
+      </p>
+    </section>
+
+    <div class="bibliography-note">
+      <p>
+        Потпун библиографски списак приказа доступан је у одељку
+        <a href="/bibliography/#book-reviews">Прикази књига / Book Reviews</a>
+        пуне библиографије.
+      </p>
+      <p lang="en-GB">
+        A complete bibliographic list is available in the
+        <a href="/bibliography/#book-reviews">Book Reviews / Прикази књига</a>
+        section of the full bibliography.
+      </p>
+    </div>
+
+    <h2>Тематске целине / Thematic Groups</h2>
+
+    <ol>
+      <li>
+        <a href="statehood-historical-heritage.html">
+          Државност, историјско наслеђе и балкански контексти<br>
+          <span lang="en-GB">Statehood, Historical Heritage and Balkan Contexts</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="local-regional-history.html">
+          Завичајна и регионална историја<br>
+          <span lang="en-GB">Local and Regional History</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="cultural-heritage-art-visual-culture.html">
+          Културно наслеђе, уметност и визуелна култура<br>
+          <span lang="en-GB">Cultural Heritage, Art and Visual Culture</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="war-occupation-resistance.html">
+          Рат, окупација и отпор<br>
+          <span lang="en-GB">War, Occupation and Resistance</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="yugoslav-political-intellectual-history.html">
+          Југословенска политичка и интелектуална историја<br>
+          <span lang="en-GB">Yugoslav Political and Intellectual History</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="europe-literature-intellectual-debates.html">
+          Европа, књижевност и интелектуалне расправе<br>
+          <span lang="en-GB">Europe, Literature and Intellectual Debates</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="yugoslav-crisis-post-yugoslav-wars.html">
+          Криза Југославије и постјугословенски ратови<br>
+          <span lang="en-GB">Yugoslav Crisis and Post-Yugoslav Wars</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="popular-culture-media.html">
+          Популарна култура и медији<br>
+          <span lang="en-GB">Popular Culture and Media</span>
+        </a>
+      </li>
+    </ol>
+
+    <footer>
+      <p>
+        <a href="/">← Назад на главну страницу / Back to main page</a>
+      </p>
+    </footer>
   </main>
 </body>
 </html>
