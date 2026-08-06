@@ -452,11 +452,27 @@
       border-top: 1px solid #ddd;
       padding-top: 1em;
     }
+    .skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -5rem;
+  z-index: 1000;
+  padding: .55rem .75rem;
+  border: 2px solid #0645ad;
+  color: #fff;
+  background: #0645ad;
+}
+
+.skip-link:focus {
+  top: 1rem;
+  color: #fff;
+}
   </style>
 </head>
 
 <body>
-  <main>
+  <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+  <main id="main-content">
     <header>
       <h1>Електрификација Србије после 1945. и подизање хидроелектрана у Овчарско-кабларској клисури</h1>
 
