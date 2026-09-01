@@ -4,7 +4,7 @@
   "description": "Machine-readable export of verified bibliographic records.",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "source": "https://milos-timotijevic.github.io/data/publications.csv",
-  "dateModified": "2026-08-31",
+  "dateModified": "2026-09-01",
   "recordCount": 106,
   "fields": [
     "id",
@@ -230,7 +230,7 @@
       "doi_note": "Zenodo DOI treated as repository DOI under adopted rule.",
       "landing_page": "https://milos-timotijevic.github.io/books/ravna-gora.html",
       "zenodo": "https://zenodo.org/records/20506529",
-      "wikidata": null,
+      "wikidata": "Q139175311",
       "cobiss": "COBISS.SR-ID 207875596",
       "cluster": "political-rituals-symbolic-politics",
       "status": "checked"

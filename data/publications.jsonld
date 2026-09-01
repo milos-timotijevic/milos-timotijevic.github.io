@@ -12,7 +12,7 @@
       "description": "Machine-readable export of verified bibliographic records.",
       "url": "https://milos-timotijevic.github.io/data/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2026-08-31",
+      "dateModified": "2026-09-01",
       "creator": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
@@ -385,7 +385,7 @@
       "archivedAt": "https://zenodo.org/records/20512664",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -501,7 +501,7 @@
       "archivedAt": "https://zenodo.org/records/20484571",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         },
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#cluster"
@@ -759,6 +759,7 @@
       ],
       "datePublished": "2014",
       "url": "https://milos-timotijevic.github.io/books/ravna-gora.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139175311",
       "archivedAt": "https://zenodo.org/records/20506529",
       "about": [
         {
@@ -1015,7 +1016,7 @@
       "archivedAt": "https://zenodo.org/records/20621484",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1228,7 +1229,7 @@
       "archivedAt": "https://zenodo.org/records/20587526",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ],
       "genre": "conference paper"
@@ -1264,7 +1265,7 @@
       "archivedAt": "https://zenodo.org/records/20539190",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1299,7 +1300,7 @@
       "archivedAt": "https://zenodo.org/records/20463894",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         },
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#cluster"
@@ -1335,7 +1336,7 @@
       "sameAs": "https://www.wikidata.org/wiki/Q139471005",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         },
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#cluster"
@@ -1373,7 +1374,7 @@
       "archivedAt": "https://zenodo.org/records/20624010",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1401,7 +1402,7 @@
       "sameAs": "https://www.wikidata.org/wiki/Q139488068",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1436,7 +1437,7 @@
       "archivedAt": "https://zenodo.org/records/20623542",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1471,7 +1472,7 @@
       "archivedAt": "https://zenodo.org/records/20621072",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         },
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#cluster"
@@ -1509,7 +1510,7 @@
       "archivedAt": "https://zenodo.org/records/20562154",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         },
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#cluster"
@@ -1547,7 +1548,7 @@
       "archivedAt": "https://zenodo.org/records/20587704",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1582,7 +1583,7 @@
       "archivedAt": "https://zenodo.org/records/20595403",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         },
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#cluster"
@@ -1620,7 +1621,7 @@
       "archivedAt": "https://zenodo.org/records/20561998",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         },
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#cluster"
@@ -1646,7 +1647,7 @@
       "sameAs": "https://www.wikidata.org/wiki/Q139588044",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1681,7 +1682,7 @@
       "archivedAt": "https://zenodo.org/records/20616690",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1716,7 +1717,7 @@
       "archivedAt": "https://zenodo.org/records/20594587",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1755,7 +1756,7 @@
       "archivedAt": "https://zenodo.org/records/20594974",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -1787,7 +1788,7 @@
       "sameAs": "https://www.wikidata.org/wiki/Q139600895",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ]
     },
@@ -3989,7 +3990,7 @@
       "sameAs": "https://www.wikidata.org/wiki/Q140917822",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ],
       "genre": "conference paper"
@@ -4019,7 +4020,7 @@
       "sameAs": "https://www.wikidata.org/wiki/Q140918531",
       "about": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
         }
       ],
       "genre": "conference paper"
