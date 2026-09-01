@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Integrity manifest for the machine-readable data exports",
-  "dateModified": "2026-08-31",
+  "dateModified": "2026-09-01",
   "algorithm": "SHA-256",
   "files": [
     {
@@ -32,9 +32,9 @@
       "path": "data/wikidata-items.csv",
       "contentUrl": "https://milos-timotijevic.github.io/data/wikidata-items.csv",
       "encodingFormat": "text/csv",
-      "byteSize": 73911,
-      "sha256": "c7972ab9bb46918fea62abcc7d25fdf048c0dba6eed3e7ebe90e787c3a5dce22",
-      "recordCount": 118
+      "byteSize": 73703,
+      "sha256": "1fd8947c087f80be141984d77dd2030e18b183950b1cbe58f7ed6ad87ac75b84",
+      "recordCount": 117
     },
     {
       "path": "data/doi-list.csv",
