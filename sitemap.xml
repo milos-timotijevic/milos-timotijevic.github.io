@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://milos-timotijevic.github.io/</loc>
@@ -35,6 +36,18 @@
 <loc>https://milos-timotijevic.github.io/data/publications.csv</loc>
 </url>
 <url>
+<loc>https://milos-timotijevic.github.io/data/publications.json</loc>
+<lastmod>2026-09-19</lastmod>
+</url>
+<url>
+<loc>https://milos-timotijevic.github.io/data/publications.jsonld</loc>
+<lastmod>2026-09-19</lastmod>
+</url>
+<url>
+<loc>https://milos-timotijevic.github.io/data/manifest.json</loc>
+<lastmod>2026-09-19</lastmod>
+</url>
+<url>
 <loc>https://milos-timotijevic.github.io/data/wikidata-items.csv</loc>
 </url>
 <url>
@@ -45,6 +58,7 @@
 </url>
 <url>
 <loc>https://milos-timotijevic.github.io/data/knowledge-graph.jsonld</loc>
+<lastmod>2026-09-19</lastmod>
 </url>
 <url>
 <loc>https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html</loc>
@@ -256,6 +270,10 @@
 </url>
 <url>
 <loc>https://milos-timotijevic.github.io/articles/ritual-politika-knjiga-kumstva.html</loc>
+</url>
+<url>
+<loc>https://milos-timotijevic.github.io/articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html</loc>
+<lastmod>2026-09-19</lastmod>
 </url>
 <url>
 <loc>https://milos-timotijevic.github.io/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html</loc>
