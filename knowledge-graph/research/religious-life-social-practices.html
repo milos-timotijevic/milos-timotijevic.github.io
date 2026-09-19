@@ -1,6 +1,4 @@
-
 <!DOCTYPE html>
-
 <html lang="sr-Cyrl">
 <head>
 <meta charset="utf-8"/>
@@ -21,307 +19,258 @@
 <meta content="Religious Life and Social Practices" name="twitter:title"/>
 <meta content="Religious life, secularization, sacred spaces, private memory and church public discourse in the Čačak region and western Serbia." name="twitter:description"/>
 <style>
-    :root {
-      color-scheme: light;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.65;
-      max-width: 980px;
-      margin: 40px auto;
-      padding: 0 24px;
-      color: #222;
-      background: #fff;
-    }
-
-    h1, h2, h3, h4 {
-      line-height: 1.25;
-      color: #111;
-    }
-
-    h1 {
-      margin: 0 0 0.2em;
-      font-size: 2.05em;
-    }
-
-    h2 {
-      margin-top: 2em;
-      padding-bottom: 0.25em;
-      border-bottom: 1px solid #ddd;
-    }
-
-    h3 {
-      margin-top: 1.65em;
-      font-size: 1.16em;
-    }
-
-    h4 {
-      margin-top: 1.2em;
-      font-size: 1.04em;
-    }
-
-    p {
-      margin: 0.75em 0;
-    }
-
-    a {
-      color: #0645ad;
-      text-decoration: none;
-    }
-
-    a:hover,
-    a:focus {
-      text-decoration: underline;
-    }
-
-    a:focus-visible {
-      outline: 2px solid #0645ad;
-      outline-offset: 3px;
-    }
-
-    .skip-link {
-      position: absolute;
-      left: 1rem;
-      top: -5rem;
-      z-index: 1000;
-      padding: 0.55rem 0.75rem;
-      border: 2px solid #0645ad;
-      color: #fff;
-      background: #0645ad;
-    }
-
-    .skip-link:focus {
-      top: 1rem;
-      color: #fff;
-    }
-
-    .site-nav,
-    .contents {
-      margin: 1.25em 0 1.75em;
-      padding: 0.9em 1em;
-      border: 1px solid #e2e2e2;
-      background: #f8f8f8;
-    }
-
-    .site-nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.55em 1em;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .site-nav li {
-      margin: 0;
-    }
-
-    .contents h2 {
-      margin-top: 0;
-      border-bottom: 0;
-      font-size: 1.2em;
-    }
-
-    .contents ol {
-      columns: 2;
-      column-gap: 2.5em;
-      margin-bottom: 0;
-      padding-left: 1.35em;
-    }
-
-    .contents li {
-      break-inside: avoid;
-      margin-bottom: 0.35em;
-    }
-
-    .subtitle {
-      margin-bottom: 1.5em;
-      color: #444;
-      font-size: 1.08em;
-    }
-
-    .intro,
-    .summary,
-    .research-box,
-    .scope-box,
-    .identifier-box,
-    .framework-box,
-    .note,
-    .citation {
-      margin: 1.5em 0 2em;
-      padding: 1em;
-      border-left: 4px solid #bbb;
-      background: #f8f8f8;
-    }
-
-    .intro p,
-    .summary p,
-    .research-box p,
-    .scope-box p,
-    .identifier-box p,
-    .framework-box p,
-    .note p,
-    .citation p {
-      margin: 0.4em 0;
-    }
-
-    .scope-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1em;
-    }
-
-    .scope-card {
-      padding: 1em;
-      border: 1px solid #e2e2e2;
-      background: #fbfbfb;
-    }
-
-    .scope-card h3 {
-      margin-top: 0;
-    }
-
-    .scope-list {
-      display: grid;
-      grid-template-columns: max-content 1fr;
-      gap: 0.4em 1em;
-      margin: 0;
-    }
-
-    .scope-list dt {
-      font-weight: bold;
-    }
-
-    .scope-list dd {
-      margin: 0;
-    }
-
-    .work-group {
-      margin-top: 2em;
-    }
-
-    .work-list {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .work-card {
-      margin: 1em 0;
-      padding: 1em;
-      border: 1px solid #e2e2e2;
-      background: #fbfbfb;
-    }
-
-    .work-card p {
-      margin: 0.45em 0;
-    }
-
-    .work-title {
-      font-size: 1.04em;
-    }
-
-    .work-note {
-      display: block;
-      margin-top: 0.3em;
-      color: #333;
-    }
-
-    .role {
-      display: block;
-      margin-top: 0.35em;
-      color: #555;
-      font-size: 0.93em;
-    }
-
-    .links {
-      display: block;
-      margin-top: 0.45em;
-      color: #444;
-      font-size: 0.95em;
-    }
-
-    .related-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1em;
-    }
-
-    .related-box {
-      margin: 0;
-      padding: 1em;
-      border: 1px solid #e2e2e2;
-      background: #fbfbfb;
-    }
-
-    .related-box h3 {
-      margin-top: 0;
-    }
-
-    .keywords {
-      color: #333;
-    }
-
-    .back-link {
-      margin-top: 2.5em;
-      padding-top: 1em;
-      border-top: 1px solid #ddd;
-    }
-
-    .updated {
-      color: #555;
-      font-size: 0.95em;
-    }
-
-    @media (max-width: 720px) {
-      body {
-        margin: 24px auto;
-        padding: 0 18px;
-      }
-
-      .contents ol {
-        columns: 1;
-      }
-
-      .scope-list {
-        grid-template-columns: 1fr;
-        gap: 0.1em;
-      }
-
-      .scope-list dd {
-        margin-bottom: 0.6em;
-      }
-    }
-
-    @media print {
-      .site-nav,
-      .contents,
-      .back-link,
-      .skip-link {
-        display: none;
-      }
-
-      body {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      a {
-        color: #000;
-      }
-    }
+:root {
+color-scheme: light;
+}
+* {
+box-sizing: border-box;
+}
+html {
+scroll-behavior: smooth;
+}
+body {
+font-family: Georgia, "Times New Roman", serif;
+line-height: 1.65;
+max-width: 980px;
+margin: 40px auto;
+padding: 0 24px;
+color: #222;
+background: #fff;
+}
+h1, h2, h3, h4 {
+line-height: 1.25;
+color: #111;
+}
+h1 {
+margin: 0 0 0.2em;
+font-size: 2.05em;
+}
+h2 {
+margin-top: 2em;
+padding-bottom: 0.25em;
+border-bottom: 1px solid #ddd;
+}
+h3 {
+margin-top: 1.65em;
+font-size: 1.16em;
+}
+h4 {
+margin-top: 1.2em;
+font-size: 1.04em;
+}
+p {
+margin: 0.75em 0;
+}
+a {
+color: #0645ad;
+text-decoration: none;
+}
+a:hover,
+a:focus {
+text-decoration: underline;
+}
+a:focus-visible {
+outline: 2px solid #0645ad;
+outline-offset: 3px;
+}
+.skip-link {
+position: absolute;
+left: 1rem;
+top: -5rem;
+z-index: 1000;
+padding: 0.55rem 0.75rem;
+border: 2px solid #0645ad;
+color: #fff;
+background: #0645ad;
+}
+.skip-link:focus {
+top: 1rem;
+color: #fff;
+}
+.site-nav,
+.contents {
+margin: 1.25em 0 1.75em;
+padding: 0.9em 1em;
+border: 1px solid #e2e2e2;
+background: #f8f8f8;
+}
+.site-nav ul {
+display: flex;
+flex-wrap: wrap;
+gap: 0.55em 1em;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.site-nav li {
+margin: 0;
+}
+.contents h2 {
+margin-top: 0;
+border-bottom: 0;
+font-size: 1.2em;
+}
+.contents ol {
+columns: 2;
+column-gap: 2.5em;
+margin-bottom: 0;
+padding-left: 1.35em;
+}
+.contents li {
+break-inside: avoid;
+margin-bottom: 0.35em;
+}
+.subtitle {
+margin-bottom: 1.5em;
+color: #444;
+font-size: 1.08em;
+}
+.intro,
+.summary,
+.research-box,
+.scope-box,
+.identifier-box,
+.framework-box,
+.note,
+.citation {
+margin: 1.5em 0 2em;
+padding: 1em;
+border-left: 4px solid #bbb;
+background: #f8f8f8;
+}
+.intro p,
+.summary p,
+.research-box p,
+.scope-box p,
+.identifier-box p,
+.framework-box p,
+.note p,
+.citation p {
+margin: 0.4em 0;
+}
+.scope-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1em;
+}
+.scope-card {
+padding: 1em;
+border: 1px solid #e2e2e2;
+background: #fbfbfb;
+}
+.scope-card h3 {
+margin-top: 0;
+}
+.scope-list {
+display: grid;
+grid-template-columns: max-content 1fr;
+gap: 0.4em 1em;
+margin: 0;
+}
+.scope-list dt {
+font-weight: bold;
+}
+.scope-list dd {
+margin: 0;
+}
+.work-group {
+margin-top: 2em;
+}
+.work-list {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.work-card {
+margin: 1em 0;
+padding: 1em;
+border: 1px solid #e2e2e2;
+background: #fbfbfb;
+}
+.work-card p {
+margin: 0.45em 0;
+}
+.work-title {
+font-size: 1.04em;
+}
+.work-note {
+display: block;
+margin-top: 0.3em;
+color: #333;
+}
+.role {
+display: block;
+margin-top: 0.35em;
+color: #555;
+font-size: 0.93em;
+}
+.links {
+display: block;
+margin-top: 0.45em;
+color: #444;
+font-size: 0.95em;
+}
+.related-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1em;
+}
+.related-box {
+margin: 0;
+padding: 1em;
+border: 1px solid #e2e2e2;
+background: #fbfbfb;
+}
+.related-box h3 {
+margin-top: 0;
+}
+.keywords {
+color: #333;
+}
+.back-link {
+margin-top: 2.5em;
+padding-top: 1em;
+border-top: 1px solid #ddd;
+}
+.updated {
+color: #555;
+font-size: 0.95em;
+}
+@media (max-width: 720px) {
+body {
+margin: 24px auto;
+padding: 0 18px;
+}
+.contents ol {
+columns: 1;
+}
+.scope-list {
+grid-template-columns: 1fr;
+gap: 0.1em;
+}
+.scope-list dd {
+margin-bottom: 0.6em;
+}
+}
+@media print {
+.site-nav,
+.contents,
+.back-link,
+.skip-link {
+display: none;
+}
+body {
+max-width: none;
+margin: 0;
+padding: 0;
+}
+a {
+color: #000;
+}
+}
 </style>
-<script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Религијски живот и друштвене праксе",
@@ -366,7 +315,7 @@
     "Čačak region",
     "western Serbia"
   ],
-  "keywords": "religious life, religiosity, secularization, sacred spaces, church heritage, Čačak region, western Serbia, Ovčar–Kablar monasteries, Church of the Holy Ascension, Monastery of Stjenik, Vujan Monastery, private memory, family memory, popular piety, tombstones, roadside memorials, epitaphs, cult of saints, church periodicals, Žiča Eparchy, Nikolaj Velimirović, Orthodox anti-modernism, tradition and modernity",
+  "keywords": "religious life, religiosity, secularization, sacred spaces, church heritage, Čačak region, western Serbia, Ovčar–Kablar monasteries, Church of the Holy Ascension, Monastery of Stjenik, Vujan Monastery, private memory, family memory, popular piety, tombstones, roadside memorials, epitaphs, cult of saints, church periodicals, Žiča Eparchy, Nikolaj Velimirović, Orthodox anti-modernism, tradition and modernity, sacrifice for the homeland, war, patriotism, Vidovdan ethics, Kosovo memory, repentance, Christian state",
   "hasPart": [
     {
       "@type": "CreativeWork",
@@ -451,6 +400,13 @@
     },
     {
       "@type": "CreativeWork",
+      "name": "Ставови епископа Николаја Велимировића о потреби жртвовања за отаџбину (1936–1941)",
+      "alternateName": "Bishop Nikolaj Velimirović’s Attitudes on the Need for Sacrifice for the Homeland (1936–1941)",
+      "sameAs": "https://www.wikidata.org/wiki/Q141252379",
+      "url": "https://milos-timotijevic.github.io/articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html"
+    },
+    {
+      "@type": "CreativeWork",
       "name": "Interwar Attitudes of Bishop Nikolaj Velimirović toward the Communists",
       "alternateName": "Међуратни ставови епископа Николаја Велимировића према комунистима",
       "sameAs": "https://www.wikidata.org/wiki/Q138841640",
@@ -487,9 +443,10 @@
       "sameAs": "https://www.wikidata.org/wiki/Q139569742"
     }
   ],
-  "dateModified": "2026-07-24",
+  "dateModified": "2026-09-19",
   "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#webpage"
-}</script>
+}
+</script>
 <link href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html" hreflang="sr-Cyrl" rel="alternate"/><link href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html" hreflang="en-GB" rel="alternate"/><link href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html" hreflang="x-default" rel="alternate"/></head>
 <body id="top">
 <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
@@ -675,6 +632,13 @@
 <span class="work-note" lang="en-GB">The article analyzes Žiča Eparchy church periodicals as a space in which Orthodox anti-modernism, anti-communism, anti-liberalism, antisemitic stereotypes and attitudes toward fascism and Nazism intersected.</span>
 <span class="links"><a href="../../articles/dunuli-su-vihorni-vetrovi-nikolaj-velimirovic.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139514358">Wikidata Q139514358</a></span>
 </li>
+<li class="work-card"><strong>Ставови епископа Николаја Велимировића о потреби жртвовања за отаџбину (1936–1941)</strong><br/>
+<em lang="en-GB">Bishop Nikolaj Velimirović’s Attitudes on the Need for Sacrifice for the Homeland (1936–1941)</em><br/>
+<span class="role">Повезано са црквеном јавношћу, ратом и национално-религијским дискурсом / Linked with church public discourse, war and national-religious discourse.</span>
+<span class="work-note">Рад анализира ставове епископа Николаја Велимировића о отаџбини, рату, жртвовању, покајању, вери и „Видовданској етици” у раздобљу од 1936. до 1941. године.</span>
+<span class="work-note" lang="en-GB">The article examines Bishop Nikolaj Velimirović’s views on homeland, war, sacrifice, repentance, faith and the “Vidovdan ethics” in the years immediately preceding the Second World War.</span>
+<span class="links"><a href="../../articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q141252379">Wikidata Q141252379</a> · <a href="https://doi.org/10.18485/ms_zmsi.2026.113.6">DOI 10.18485/ms_zmsi.2026.113.6</a> · <a href="https://zenodo.org/records/22301974">Zenodo</a></span>
+</li>
 <li class="work-card"><strong>Interwar Attitudes of Bishop Nikolaj Velimirović toward the Communists</strong><br/>
 <em lang="en-GB">Међуратни ставови епископа Николаја Велимировића према комунистима</em><br/>
 <span class="role">Повезано са националном идеологијом / Linked with national ideology.</span>
@@ -720,8 +684,8 @@
 </section>
 <section id="keywords">
 <h2>Кључне речи / Keywords</h2>
-<p class="keywords">религијски живот; религиозност; секуларизација; чачански крај; западна Србија; сакрални простори; црквено наслеђе; јавна побожност; приватно памћење; породично памћење; народна побожност; Овчарско-кабларски манастири; Храм Вазнесења Господњег; Манастир Стјеник; Манастир Вујан; друштвене праксе; локалне праксе; надгробна обележја; крајпуташи; епитафи; култ светитеља; места сећања; стварна традиција; измишљена традиција; црквена јавност; црквена штампа; Жичка епархија; Николај Велимировић; православни антимодернизам; антикомунизам; антилиберализам; секуларна модерност; традиција и модерност</p>
-<p class="keywords" lang="en-GB">religious life; religiosity; secularization; Čačak region; western Serbia; sacred spaces; church heritage; public piety; private memory; family memory; popular piety; Ovčar–Kablar monasteries; Church of the Holy Ascension; Monastery of Stjenik; Vujan Monastery; social practices; local practices; grave markers; roadside memorials; epitaphs; cult of saints; sites of memory; real tradition; invented tradition; church public discourse; church periodicals; Žiča Eparchy; Nikolaj Velimirović; Orthodox anti-modernism; anti-communism; anti-liberalism; secular modernity; tradition and modernity</p>
+<p class="keywords">религијски живот; религиозност; секуларизација; чачански крај; западна Србија; сакрални простори; црквено наслеђе; јавна побожност; приватно памћење; породично памћење; народна побожност; Овчарско-кабларски манастири; Храм Вазнесења Господњег; Манастир Стјеник; Манастир Вујан; друштвене праксе; локалне праксе; надгробна обележја; крајпуташи; епитафи; култ светитеља; места сећања; стварна традиција; измишљена традиција; црквена јавност; црквена штампа; Жичка епархија; Николај Велимировић; православни антимодернизам; антикомунизам; антилиберализам; секуларна модерност; традиција и модерност; жртвовање за отаџбину; рат; патриотизам; Видовданска етика; покајање; хришћанска држава</p>
+<p class="keywords" lang="en-GB">religious life; religiosity; secularization; Čačak region; western Serbia; sacred spaces; church heritage; public piety; private memory; family memory; popular piety; Ovčar–Kablar monasteries; Church of the Holy Ascension; Monastery of Stjenik; Vujan Monastery; social practices; local practices; grave markers; roadside memorials; epitaphs; cult of saints; sites of memory; real tradition; invented tradition; church public discourse; church periodicals; Žiča Eparchy; Nikolaj Velimirović; Orthodox anti-modernism; anti-communism; anti-liberalism; secular modernity; tradition and modernity; sacrifice for the homeland; war; patriotism; Vidovdan ethics; repentance; Christian state</p>
 </section>
 <section id="citation">
 <h2>Предлог цитирања / Suggested Citation</h2>
@@ -730,7 +694,7 @@
 <p lang="en-GB">Miloš Timotijević, “Religious Life and Social Practices,” personal scholarly website, accessed [date], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html">https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html</a></p>
 </div>
 </section>
-<p>О начину повезивања публикација, тема и дигиталних идентификатора видети: <a href="/knowledge-graph/method.html">Метод / Method</a>.</p><p class="updated">Последње ажурирање / Last updated: 24. јул 2026 / 24 July 2026</p>
+<p>О начину повезивања публикација, тема и дигиталних идентификатора видети: <a href="/knowledge-graph/method.html">Метод / Method</a>.</p><p class="updated">Последње ажурирање / Last updated: 19. септембар 2026 / 19 September 2026</p>
 <div class="back-link"><p class="back-link"><a href="#top">↑ На врх / Back to top</a></p><p><a href="../">← Назад на граф знања / Back to Knowledge Graph</a></p><p><a href="../../">← Назад на главну страницу / Back to the main page</a></p></div>
 </main>
 </body>
