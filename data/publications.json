@@ -4,8 +4,8 @@
   "description": "Machine-readable export of verified bibliographic records.",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "source": "https://milos-timotijevic.github.io/data/publications.csv",
-  "dateModified": "2026-09-01",
-  "recordCount": 106,
+  "dateModified": "2026-09-19",
+  "recordCount": 107,
   "fields": [
     "id",
     "type",
@@ -2038,6 +2038,25 @@
       "wikidata": "Q140918531",
       "cobiss": "COBISS.SR-ID 170458377",
       "cluster": "cacak-local-modernity",
+      "status": "checked"
+    },
+    {
+      "id": "article-2026-stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941",
+      "type": "article",
+      "year": "2026",
+      "author_sr": "Милош Тимотијевић",
+      "author_en": "Miloš Timotijević",
+      "title_sr": "Ставови епископа Николаја Велимировића о потреби жртвовања за отаџбину (1936–1941)",
+      "title_en": "Views of Bishop Nikolaj Velimirović on the Need for Sacrifice for the Homeland (1936–1941)",
+      "doi_work_or_edition": "10.18485/ms_zmsi.2026.113.6",
+      "doi_landing_page": null,
+      "doi_repository": null,
+      "doi_note": "Main article DOI present; Zenodo record listed without separate Zenodo DOI on landing page.",
+      "landing_page": "https://milos-timotijevic.github.io/articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html",
+      "zenodo": "https://zenodo.org/records/22301974",
+      "wikidata": "Q141252379",
+      "cobiss": null,
+      "cluster": "religious-life-social-practices; national-ideology-intellectual-debates",
       "status": "checked"
     }
   ]

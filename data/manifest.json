@@ -1,55 +1,55 @@
 {
   "schemaVersion": 1,
   "name": "Integrity manifest for the machine-readable data exports",
-  "dateModified": "2026-09-01",
+  "dateModified": "2026-09-19",
   "algorithm": "SHA-256",
   "files": [
     {
       "path": "data/publications.csv",
       "contentUrl": "https://milos-timotijevic.github.io/data/publications.csv",
       "encodingFormat": "text/csv",
-      "byteSize": 73299,
-      "sha256": "e06f6f1214c6dce0c4b1891b7e9ff3c85cb3d150a908ced9623bd0c03e348c15",
-      "recordCount": 116
+      "byteSize": 73934,
+      "sha256": "cf147f5f870f6449a13fa35d0901bbdd0013e6a44e9bad462c8c8232fa140fda",
+      "recordCount": 117
     },
     {
       "path": "data/publications.json",
       "contentUrl": "https://milos-timotijevic.github.io/data/publications.json",
       "encodingFormat": "application/json",
-      "byteSize": 108179,
-      "sha256": "859356b83f46da1ed71aaead84a678e097cfa23893883ff0883a1a5b7aa26bb0",
-      "recordCount": 106
+      "byteSize": 109356,
+      "sha256": "3c752499867875a3931d1ca6cb03e70942a99965c4e3aa3f591643c7517fa554",
+      "recordCount": 107
     },
     {
       "path": "data/publications.jsonld",
       "contentUrl": "https://milos-timotijevic.github.io/data/publications.jsonld",
       "encodingFormat": "application/ld+json",
-      "byteSize": 168419,
-      "sha256": "a7eacd7e3318c48840a6a1de8e4be14d6740657d1449ac1b922edb5cac79dc70",
-      "recordCount": 106
+      "byteSize": 170507,
+      "sha256": "0ec4b6bf899ce97e6bd23e330e9cd2f1075d4bfb09c9db2c9570cdf1d26c0090",
+      "recordCount": 107
     },
     {
       "path": "data/wikidata-items.csv",
       "contentUrl": "https://milos-timotijevic.github.io/data/wikidata-items.csv",
       "encodingFormat": "text/csv",
-      "byteSize": 73703,
-      "sha256": "1fd8947c087f80be141984d77dd2030e18b183950b1cbe58f7ed6ad87ac75b84",
-      "recordCount": 117
+      "byteSize": 75034,
+      "sha256": "f53a0a697ed9c4619322e58cf3948a7bbd355a7fe4ee04ecaee25b8607aee1e6",
+      "recordCount": 119
     },
     {
       "path": "data/doi-list.csv",
       "contentUrl": "https://milos-timotijevic.github.io/data/doi-list.csv",
       "encodingFormat": "text/csv",
-      "byteSize": 25448,
-      "sha256": "67e55093ae772161c8196b3ebe27e8bb1635dd239cf807dabe025f33b5b21141",
-      "recordCount": 68
+      "byteSize": 25913,
+      "sha256": "cd387fe38a62f557b72ce62166fb61375e4c21dbe209786674a820e54912501d",
+      "recordCount": 69
     },
     {
       "path": "data/knowledge-graph.jsonld",
       "contentUrl": "https://milos-timotijevic.github.io/data/knowledge-graph.jsonld",
       "encodingFormat": "application/ld+json",
       "byteSize": 10845,
-      "sha256": "75f15fdaa2c953811ce4339a1866d3814845efc67db347dd9c678db9af22086f",
+      "sha256": "ed44bef59409a7c0378bbdd07a129ed6ceb3683d19f428ffbc9b5379bb1c3bf0",
       "recordCount": 12
     }
   ]
