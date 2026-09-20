@@ -3,146 +3,129 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ентитетски граф истраживачког корпуса / Entity Graph of the Research Corpus</title>
+  <title>Ентитети и односи / Entities and Relations — пилотски скуп података</title>
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Пилотски ентитетски граф истраживачког корпуса Милоша Тимотијевића: публикације, личности, установе, места, историјски извори и проверљиви односи међу њима.">
-  <link rel="canonical" href="https://milos-timotijevic.github.io/knowledge-graph/entities/">
-  <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld" title="Machine-readable entity and relation graph">
+  <meta name="description" content="Пилотски Data слој истраживачког корпуса Милоша Тимотијевића: публикације, личности, установе, места, контролисани типови односа и подаци о пореклу сваке везе.">
+  <link rel="canonical" href="https://milos-timotijevic.github.io/data/entities/">
+  <link rel="describedby" type="application/json" href="https://milos-timotijevic.github.io/data/entities/entity-manifest.json" title="Entity data integrity manifest">
+  <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld" title="Machine-readable entity graph">
 
-  <meta property="og:title" content="Ентитетски граф истраживачког корпуса">
-  <meta property="og:description" content="Људски читљиви слој који повезује публикације, личности, установе, места и историјске изворе кроз проверљиве односе.">
+  <meta property="og:title" content="Ентитети и односи — пилотски скуп података">
+  <meta property="og:description" content="Отворени подаци о личностима, установама, местима, публикацијама и проверљивим односима у пилотском истраживачком корпусу.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://milos-timotijevic.github.io/knowledge-graph/entities/">
+  <meta property="og:url" content="https://milos-timotijevic.github.io/data/entities/">
   <meta property="og:site_name" content="Miloš Timotijević — Academic Profile and Knowledge Graph">
   <meta property="og:locale" content="sr_RS">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Entity Graph of the Research Corpus">
-  <meta name="twitter:description" content="A pilot entity graph connecting publications, people, institutions, places and historical sources through verifiable relations.">
+  <meta name="twitter:title" content="Entities and Relations — Pilot Dataset">
+  <meta name="twitter:description" content="Open entity and relation data derived from six publications in the digital scholarly corpus of Miloš Timotijević.">
 
   <style>
-    :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f4f4f4; }
-    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 40px auto; padding: 0 24px; color: var(--text); background:#fff; font-size:17px; }
-    h1,h2,h3,h4 { line-height:1.25; color:var(--text); }
-    h1 { font-size:2.05em; margin-bottom:.2em; }
-    h2 { margin-top:2em; border-bottom:1px solid #ddd; padding-bottom:.25em; }
-    h3 { margin-top:1.35em; font-size:1.13em; }
-    a { color:var(--link); text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    p { margin:.75em 0; }
-    ul li,ol li { margin-bottom:.65em; }
-    code { font-family:Consolas,"Liberation Mono",monospace; font-size:.92em; background:#f2f2f2; padding:.08em .25em; overflow-wrap:anywhere; }
-    blockquote { margin:1.4em 0; padding:.85em 1em; background:#f8f8f8; border-left:4px solid #777; }
-    blockquote p { margin:.25em 0; }
-    .subtitle { font-size:1.08em; margin-bottom:1.5em; color:#444; }
-    .intro,.note,.identifier-box,.status-box { background:#f8f8f8; border-left:4px solid #bbb; padding:1em; margin:1.5em 0 2em; }
-    .intro p,.note p,.identifier-box p,.status-box p { margin:.35em 0; }
-    .route-links { display:flex; flex-wrap:wrap; gap:.35rem 1rem; margin:1em 0 1.6em; padding:.75rem 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
-    .entity-grid,.relation-grid,.publication-grid,.architecture,.download-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1em; margin-top:1em; }
-    .entity-card,.relation-card,.publication-card,.step,.download-card { background:#fbfbfb; border:1px solid #e2e2e2; padding:1em; }
-    .entity-card h3,.relation-card h3,.publication-card h3,.download-card h3 { margin-top:0; }
-    .entity-card p,.relation-card p,.publication-card p,.download-card p { margin:.4em 0; }
-    .entity-number { display:block; font-size:2em; line-height:1; margin-bottom:.25em; color:#333; }
-    .relation-line { font-size:1.03em; line-height:1.5; }
-    .relation-line .predicate { color:#555; font-style:italic; }
-    .relation-source { margin-top:.7em; color:#555; font-size:.93em; }
-    .step strong { display:block; margin-bottom:.25em; }
-    .data-fields { margin-top:1em; padding-left:1.25em; }
-    .data-fields strong { display:inline-block; min-width:9em; }
-    .small-note { color:var(--muted); font-size:.96em; }
-    .back-link { margin-top:2.5em; border-top:1px solid #ddd; padding-top:1em; }
-    .skip-link { position:absolute; left:1rem; top:-5rem; z-index:1000; padding:.55rem .75rem; border:2px solid var(--link); color:#fff; background:var(--link); }
-    .skip-link:focus { top:1rem; color:#fff; }
-    @media (max-width:680px) {
-      body { margin:0 auto; padding:24px 18px; font-size:16px; }
-      h1 { font-size:1.7em; }
-      .entity-grid,.relation-grid,.publication-grid,.architecture,.download-grid { grid-template-columns:1fr; }
-      .entity-card,.relation-card,.publication-card,.download-card,.step { padding:.85em; }
-      .data-fields strong { display:block; min-width:0; }
+    :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f1f1f1; }
+    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 860px; margin: 40px auto; padding: 0 24px; color: var(--text); background: #fff; font-size: 17px; }
+    h1, h2, h3, h4 { line-height: 1.25; color: var(--text); }
+    h1 { font-size: 2.05em; margin-bottom: 0.2em; }
+    h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.25em; }
+    h3 { margin-top: 1.35em; font-size: 1.13em; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    p { margin: 0.75em 0; }
+    ul li, ol li { margin-bottom: 0.65em; }
+    code { font-family: Consolas, "Courier New", monospace; font-size: 0.92em; background: #f5f5f5; padding: 0.1em 0.25em; overflow-wrap: anywhere; }
+    table { width: 100%; border-collapse: collapse; margin: 1em 0 1.5em; font-size: 0.94em; }
+    th, td { border: 1px solid var(--line); padding: 0.65em 0.7em; text-align: left; vertical-align: top; }
+    th { background: var(--soft); }
+    caption { text-align: left; font-weight: bold; margin-bottom: 0.55em; }
+    .table-wrap { overflow-x: auto; }
+    .subtitle { font-size: 1.08em; margin-bottom: 1.5em; color: #444; }
+    .intro-bilingual { margin: 1.25rem 0; padding: 1.1rem 1.2rem; border: 1px solid var(--line); background: #fff; }
+    .intro-bilingual p { margin: .45rem 0; }
+    .data-toolbar { display: flex; flex-wrap: wrap; gap: .35rem 1rem; margin: 1rem 0 1.4rem; padding: .8rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .data-grid, .stat-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; margin-top: 1rem; }
+    .data-card, .stat-card { background: var(--soft); border: 1px solid #cfcfcf; padding: 1rem 1.05rem; }
+    .data-card h3, .stat-card h3 { margin: 0 0 .35rem; color: var(--text); font-size: 1.05rem; }
+    .data-card p, .stat-card p { margin: .3rem 0; }
+    .stat-number { display: block; font-size: 1.85em; line-height: 1; margin-bottom: .3em; color: #333; }
+    .note, .identifier-box, .license-box { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin: 1.5em 0 2em; }
+    .note p, .identifier-box p, .license-box p { margin: .35em 0; }
+    .license-box { border: 1px solid #e2e2e2; border-left: 4px solid #777; background: #fbfbfb; }
+    .status { display: inline-block; border: 1px solid #999; padding: .1em .45em; font-size: .85em; background: #fff; }
+    .small-note { color: var(--muted); font-size: .96em; }
+    .date-note { color: var(--muted); font-size: .96em; margin-top: 2em; }
+    .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
+    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .55rem .75rem; border: 2px solid var(--link); color: #fff; background: var(--link); }
+    .skip-link:focus { top: 1rem; color: #fff; }
+    @media (max-width: 680px) {
+      body { margin: 0 auto; padding: 24px 18px; font-size: 16px; }
+      h1 { font-size: 1.7em; }
+      .data-grid, .stat-grid { grid-template-columns: 1fr; }
+      th, td { min-width: 10em; }
     }
   </style>
 
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "@id": "https://milos-timotijevic.github.io/knowledge-graph/entities/#page",
-  "name": "Ентитетски граф истраживачког корпуса",
-  "alternateName": "Entity Graph of the Research Corpus",
-  "url": "https://milos-timotijevic.github.io/knowledge-graph/entities/",
-  "inLanguage": ["sr", "en"],
-  "dateModified": "2026-09-20",
-  "description": "Пилотски ентитетски граф који повезује десет публикација са личностима, установама, местима и историјским изворима посредством проверљивих односа.",
-  "isPartOf": {
-    "@type": "CollectionPage",
-    "@id": "https://milos-timotijevic.github.io/knowledge-graph/#page",
-    "name": "Граф знања и дигитална видљивост",
-    "url": "https://milos-timotijevic.github.io/knowledge-graph/"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Miloš Timotijević",
-    "alternateName": "Милош Тимотијевић",
-    "sameAs": [
-      "https://orcid.org/0000-0002-0457-6125",
-      "https://www.wikidata.org/wiki/Q112514230",
-      "https://openalex.org/authors/a5072525869"
-    ]
-  },
-  "mainEntity": {
-    "@type": "Dataset",
-    "@id": "https://milos-timotijevic.github.io/data/entities/#dataset",
-    "name": "Entity and Relation Data of the Research Corpus — Pilot",
-    "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://milos-timotijevic.github.io/data/entities/#page",
+    "name": "Ентитети и односи — пилотски скуп података",
+    "alternateName": "Entities and Relations — Pilot Dataset",
     "url": "https://milos-timotijevic.github.io/data/entities/",
-    "version": "0.2",
-    "datePublished": "2026-09-20",
+    "inLanguage": ["sr", "en"],
     "dateModified": "2026-09-20",
-    "description": "Pilot dataset comprising ten publications, 34 people, 26 institutions, 26 places, 18 historical sources, 22 controlled relation types and 259 source-based relations.",
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "creator": {
+    "description": "Пилотски Data слој који повезује шест публикација са личностима, установама и местима посредством изворно проверљивих односа.",
+    "isPartOf": {
+      "@type": "Dataset",
+      "@id": "https://milos-timotijevic.github.io/data/#dataset",
+      "name": "Open Data of the Digital Scholarly Corpus of Miloš Timotijević",
+      "url": "https://milos-timotijevic.github.io/data/"
+    },
+    "author": {
       "@type": "Person",
       "name": "Miloš Timotijević",
-      "sameAs": "https://orcid.org/0000-0002-0457-6125"
+      "alternateName": "Милош Тимотијевић",
+      "sameAs": [
+        "https://orcid.org/0000-0002-0457-6125",
+        "https://www.wikidata.org/wiki/Q112514230",
+        "https://openalex.org/authors/a5072525869"
+      ]
     },
-    "variableMeasured": [
-      "publications",
-      "people",
-      "institutions",
-      "places",
-      "historical sources",
-      "relation types",
-      "relations",
-      "provenance",
-      "confidence"
-    ],
-    "distribution": [
-      {"@type":"DataDownload","name":"people.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/people.csv"},
-      {"@type":"DataDownload","name":"institutions.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/institutions.csv"},
-      {"@type":"DataDownload","name":"places.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/places.csv"},
-      {"@type":"DataDownload","name":"sources.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/sources.csv"},
-      {"@type":"DataDownload","name":"relations.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relations.csv"},
-      {"@type":"DataDownload","name":"relation-types.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relation-types.csv"},
-      {"@type":"DataDownload","name":"entity-graph.jsonld","encodingFormat":"application/ld+json","contentUrl":"https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld"}
-    ]
-  },
-  "about": [
-    "entity graph",
-    "research knowledge graph",
-    "people",
-    "institutions",
-    "places",
-    "historical sources",
-    "publications",
-    "relations",
-    "data provenance",
-    "digital humanities",
-    "political rituals",
-    "dynastic representation",
-    "places of memory",
-    "western Serbia"
-  ]
-}
+    "mainEntity": {
+      "@type": "Dataset",
+      "@id": "https://milos-timotijevic.github.io/data/entities/#dataset",
+      "name": "Entity and Relation Data of the Research Corpus — Pilot",
+      "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
+      "version": "0.1",
+      "datePublished": "2026-09-20",
+      "dateModified": "2026-09-20",
+      "description": "Pilot dataset comprising six publications, 26 people, 15 institutions, 20 places and 156 source-based relations.",
+      "creator": {
+        "@type": "Person",
+        "name": "Miloš Timotijević",
+        "sameAs": "https://orcid.org/0000-0002-0457-6125"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "encodingFormat": ["text/csv", "application/json", "application/ld+json"],
+      "isBasedOn": [
+        "book-2025-usklici-iskrenog-odusevljenja",
+        "article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i",
+        "article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o",
+        "conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to",
+        "conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor",
+        "conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19"
+      ],
+      "distribution": [
+        {"@type":"DataDownload","name":"people.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/people.csv"},
+        {"@type":"DataDownload","name":"institutions.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/institutions.csv"},
+        {"@type":"DataDownload","name":"places.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/places.csv"},
+        {"@type":"DataDownload","name":"relations.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relations.csv"},
+        {"@type":"DataDownload","name":"relation-types.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relation-types.csv"},
+        {"@type":"DataDownload","name":"entity-graph.jsonld","encodingFormat":"application/ld+json","contentUrl":"https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld"}
+      ]
+    },
+    "about": ["entity graph", "research knowledge graph", "people", "institutions", "places", "relations", "data provenance", "digital humanities"]
+  }
   </script>
 </head>
 
@@ -150,316 +133,151 @@
 <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
 
 <main id="main-content">
-  <p><a href="../">← Назад на граф знања / Back to Knowledge Graph</a></p>
-  <p><a href="../../data/entities/">Подаци ентитетског слоја / Entity-layer Data</a></p>
+  <p><a href="../../index.html">← Назад на главну страну / Back to main page</a></p>
+  <p><a href="../../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
+  <p><a href="../../knowledge-graph/entities/">Ентитетски граф / Entity Graph</a></p>
+  <p><a href="../">← Назад на Подаци / Back to Data</a></p>
 
-  <h1>Ентитетски граф истраживачког корпуса</h1>
-  <p><strong lang="en">Entity Graph of the Research Corpus</strong></p>
+  <h1>Ентитети и односи</h1>
+  <p><strong lang="en">Entities and Relations</strong></p>
   <p class="subtitle">
-    Личности, установе, места, историјски извори, публикације и проверљиве везе<br>
-    <em lang="en">People, Institutions, Places, Historical Sources, Publications and Verifiable Relations</em>
+    Пилотски Data слој истраживачког корпуса<br>
+    <em lang="en">Pilot Data Layer of the Research Corpus</em>
   </p>
 
-  <nav class="route-links" aria-label="Навигација странице / Page navigation">
-    <a href="#about">Шта је граф? / What is it?</a>
-    <a href="#pilot-corpus">Пилот-корпус / Pilot Corpus</a>
-    <a href="#entities">Ентитети / Entities</a>
-    <a href="#reading">Како се чита? / How to Read</a>
-    <a href="#provenance">Проверљивост / Verifiability</a>
-    <a href="#downloads">Подаци / Data</a>
+  <nav class="data-toolbar" aria-label="Навигација странице / Page navigation">
+    <a href="#scope">Обухват / Scope</a>
+    <a href="#files">Скупови / Datasets</a>
+    <a href="#publications">Публикације / Publications</a>
+    <a href="#model">Модел / Model</a>
+    <a href="#verification">Провера / Verification</a>
+    <a href="#citation">Цитирање / Citation</a>
   </nav>
 
-  <div class="intro">
-    <p>Ова страница представља људски читљиви слој ентитетског графа изграђеног на основу изабраних публикација Милоша Тимотијевића. Његов циљ није да понови библиографију, већ да покаже ко, шта и где повезује појединачна истраживања и на којим историјским изворима су поједине тврдње засноване.</p>
-    <p lang="en">This page presents the human-readable layer of an entity graph derived from selected publications by Miloš Timotijević. Its purpose is not to repeat the bibliography, but to show who, what and where connects individual studies and which historical sources support particular claims.</p>
-  </div>
-
-  <section id="about" aria-labelledby="about-heading">
-    <h2 id="about-heading">Шта је ентитетски граф? / <span lang="en">What Is an Entity Graph?</span></h2>
-
-    <p>Седам тематских кластера на главној страници <a href="../">графа знања</a> организује публикације према истраживачким проблемима: локалној модерности, политичким ритуалима, националној идеологији, рату и памћењу, културној репрезентацији, јавној историји и религијском животу.</p>
-    <p lang="en">The seven thematic clusters on the main <a href="../">Knowledge Graph</a> page organize publications according to research problems: local modernity, political rituals, national ideology, war and memory, cultural representation, public history and religious life.</p>
-
-    <p>Ентитетски граф уводи другу перспективу. Он издваја конкретне личности, установе, места и историјске изворе који се јављају у радовима, додељује им стабилне интерне ознаке и бележи односе међу њима. Тако постаје видљиво да исти владар, манастир, музеј, град, место сећања или историјски извор може повезивати више тематски различитих истраживања.</p>
-    <p lang="en">The entity graph introduces a different perspective. It identifies specific people, institutions, places and historical sources found in the publications, assigns them stable internal identifiers and records the relations among them. This reveals how the same ruler, monastery, museum, town, site of memory or historical source may connect several thematically different studies.</p>
-
-    <div class="architecture" aria-label="Однос слојева / Relationship between layers">
-      <div class="step">
-        <strong>1. Истраживачки кластери</strong>
-        <span>Објашњавају тематску и интерпретативну структуру корпуса.</span><br>
-        <span lang="en">Explain the thematic and interpretative structure of the corpus.</span>
-      </div>
-      <div class="step">
-        <strong>2. Публикације</strong>
-        <span>Носе аргументе, библиографске идентификаторе и доказни контекст.</span><br>
-        <span lang="en">Carry arguments, bibliographic identifiers and evidential context.</span>
-      </div>
-      <div class="step">
-        <strong>3. Ентитети и односи</strong>
-        <span>Повезују личности, установе, места и историјске изворе са конкретним радовима.</span><br>
-        <span lang="en">Connect people, institutions, places and historical sources with specific works.</span>
-      </div>
-      <div class="step">
-        <strong>4. Отворени подаци</strong>
-        <span>Омогућавају проверу, преузимање и машинску обраду.</span><br>
-        <span lang="en">Enable verification, download and machine processing.</span>
-      </div>
-    </div>
+  <section class="intro-bilingual" aria-labelledby="intro-heading">
+    <h2 id="intro-heading">О овом скупу / <span lang="en">About This Dataset</span></h2>
+    <p>Ова подстраница документује пилотски ентитетско-релациони слој дигиталног научног корпуса. Постојећи Data скуп описује публикације и њихове идентификаторе; овај слој додаје личности, установе, места и проверљиве односе изведене из самих радова.</p>
+    <p lang="en">This subpage documents the pilot entity-relation layer of the digital scholarly corpus. The existing Data collection describes publications and their identifiers; this layer adds people, institutions, places and verifiable relations derived from the works themselves.</p>
   </section>
 
-  <section id="pilot-corpus" aria-labelledby="pilot-corpus-heading">
-    <h2 id="pilot-corpus-heading">Пилот-корпус / <span lang="en">Pilot Corpus</span></h2>
-
-    <p>Пилот обухвата десет публикација изабраних зато што заједно образују тематски повезану, али жанровски и хронолошки разноврсну целину. Првих шест радова повезује политичке ритуале и владарске посете, династичку репрезентацију, места сећања, локалне установе, сакралне просторе и градове западне Србије. Четири нова рада уводе корпус о Надежди Петровић: породично и интелектуално окружење, југословенство, модерну уметност, хероизацију, јавне споменике и институционализацију културног памћења.</p>
-    <p lang="en">The pilot comprises ten publications selected because together they form a thematically connected, yet generically and chronologically diverse corpus. The first six works link political rituals and royal visits, dynastic representation, sites of memory, local institutions, sacred spaces and the towns of western Serbia. Four new works introduce the Nadežda Petrović corpus: her family and intellectual environment, Yugoslavism, modern art, heroization, public monuments and the institutionalization of cultural memory.</p>
-
-    <div class="publication-grid">
-      <article class="publication-card">
-        <h3><a href="../../articles/kult-svetitelja-mesta-secanja-politicki-mitovi-vujan.html">Култ светитеља, места сећања и политички митови</a></h3>
-        <p>Манастир Вујан, породица Луњевица и променљиви слојеви јавног памћења.</p>
-        <p lang="en">Vujan Monastery, the Lunjevica family and changing layers of public memory.</p>
-        <p class="small-note">2016 · научни рад / scholarly article</p>
-      </article>
-
-      <article class="publication-card">
-        <h3><a href="../../articles/ritual-politika-knjiga-kumstva.html">Ритуал и политика: „Књига кумства” краља Александра I Карађорђевића 1921–1934.</a></h3>
-        <p>Краљевско кумство као ритуални механизам повезивања монарха, поданика и државе.</p>
-        <p lang="en">Royal godparenthood as a ritual mechanism connecting monarch, subjects and state.</p>
-        <p class="small-note">2025 · научни рад / scholarly article</p>
-      </article>
-
-      <article class="publication-card">
-        <h3><a href="../../conference-papers/boj-na-ljubicu-reprezentativna-kultura-cacka.html">Бој на Љубићу у званичној репрезентативној култури Чачка</a></h3>
-        <p>Промене комеморативних пракси и политичке употребе места сећања током XIX и XX века.</p>
-        <p lang="en">Changing commemorative practices and political uses of a site of memory during the nineteenth and twentieth centuries.</p>
-        <p class="small-note">2016 · поглавље у зборнику / book chapter</p>
-      </article>
-
-      <article class="publication-card">
-        <h3><a href="../../conference-papers/efemerni-spektakl-knez-mihailo.html">Ефемерни спектакл и владарске посете кнеза Михаила Обреновића варошима Србије</a></h3>
-        <p>Јавне свечаности, путовања, војска и политичка комуникација у Србији XIX века.</p>
-        <p lang="en">Public ceremonies, travel, the military and political communication in nineteenth-century Serbia.</p>
-        <p class="small-note">2024 · поглавље у зборнику / book chapter</p>
-      </article>
-
-      <article class="publication-card">
-        <h3><a href="../../conference-papers/vladari-i-varosi.html">Владари и вароши</a></h3>
-        <p>Штампа о посетама Обреновића и Карађорђевића Краљеву, Чачку и Горњем Милановцу.</p>
-        <p lang="en">Press coverage of visits by the Obrenović and Karađorđević dynasties to Kraljevo, Čačak and Gornji Milanovac.</p>
-        <p class="small-note">2023 · поглавље у зборнику / book chapter</p>
-      </article>
-
-      <article class="publication-card">
-        <h3><a href="../../books/usklici-iskrenog-odusevljenja.html">Усклици искреног одушевљења</a></h3>
-        <p>Ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године.</p>
-        <p lang="en">Ephemeral spectacle and the journey of King Alexander and Queen Draga Obrenović through Serbia in 1901.</p>
-        <p class="small-note">2025 · монографија / monograph</p>
-      </article>
-
-      <article class="publication-card">
-        <h3><a href="../../books/nadezda-petrovic-life-art-service-nation.html">Надежда Петровић: живот и уметност у служби нације</a></h3>
-        <p>Биографска и интерпретативна синтеза о уметности, национализму, југословенству, модерности и јавној делатности Надежде Петровић.</p>
-        <p lang="en">A biographical and interpretative synthesis of Nadežda Petrović’s art, nationalism, Yugoslavism, modernity and public engagement.</p>
-        <p class="small-note">2025 · монографија / monograph</p>
-      </article>
-
-      <article class="publication-card">
-        <h3><a href="../../articles/jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta.html">Југословенско опредељење Надежде Петровић</a></h3>
-        <p>Култура, модернизам и конструкција идентитета кроз изложбе, уметничку сарадњу и југословенски културни пројекат.</p>
-        <p lang="en">Culture, modernism and identity construction through exhibitions, artistic cooperation and the Yugoslav cultural project.</p>
-        <p class="small-note">2026 · научни рад / scholarly article · DOI 10.65627/zrnmuc.2026.56.2</p>
-      </article>
-
-      <article class="publication-card">
-        <h3><a href="../../articles/heroizacija-nadezde-petrovic.html">Хероизација сликарке Надежде Петровић (1915–1941)</a></h3>
-        <p>Обликовање култа, пренос посмртних остатака, патриотска жртва и постепена интеграција у национални модернистички канон.</p>
-        <p lang="en">The shaping of her cult, the transfer of her remains, patriotic sacrifice and gradual integration into the national modernist canon.</p>
-        <p class="small-note">2026 · научни рад / scholarly article · DOI 10.31212/tokovi.2026.1.tim.125-152</p>
-      </article>
-
-      <article class="publication-card">
-        <h3><a href="../../articles/politika-umetnost-stvaranje-tradicija.html">Политика, уметност и стварање традиција</a></h3>
-        <p>Подизање споменика Надежди Петровић у Чачку 1955. године и улога локалне политике, Ивана Мештровића и јавног памћења.</p>
-        <p lang="en">The erection of the Nadežda Petrović monument in Čačak in 1955 and the role of local politics, Ivan Meštrović and public memory.</p>
-        <p class="small-note">2001 · научни рад / scholarly article · repository DOI 10.5281/zenodo.20459219</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="entities" aria-labelledby="entities-heading">
-    <h2 id="entities-heading">Основни ентитети / <span lang="en">Core Entities</span></h2>
-
-    <p>Подаци су организовани у четири ентитетске табеле — личности, установе, места и историјски извори — док се десет публикација преузима из главног публикационог скупа. Посебни слојеви садрже контролисани речник типова односа и саме релације. Четири ентитетске табеле тренутно садрже 104 самостална ентитета. Бројеви описују садашњи пилот, а не целокупан истраживачки опус.</p>
-    <p lang="en">The data are organized into four entity tables — people, institutions, places and historical sources — while ten publications are referenced from the main publication dataset. Separate layers contain the controlled relation vocabulary and the relations themselves. The four entity tables currently contain 104 distinct entities. The figures describe the current pilot, not the complete research corpus.</p>
-
-    <div class="entity-grid">
-      <article class="entity-card">
-        <span class="entity-number">34</span>
-        <h3>Личности / <span lang="en">People</span></h3>
-        <p>Владари, чланови династија, устаници, уметници, књижевници, хуманитарни радници, црквене личности и политичари.</p>
-      </article>
-      <article class="entity-card">
-        <span class="entity-number">26</span>
-        <h3>Установе / <span lang="en">Institutions</span></h3>
-        <p>Музеји, архиви, цркве, манастири, школе, државна тела, издавачи и уметничка или хуманитарна удружења.</p>
-      </article>
-      <article class="entity-card">
-        <span class="entity-number">26</span>
-        <h3>Места / <span lang="en">Places</span></h3>
-        <p>Државе, градови, вароши, села, локалитети и меморијални простори у Србији и европском контексту.</p>
-      </article>
-      <article class="entity-card">
-        <span class="entity-number">18</span>
-        <h3>Историјски извори / <span lang="en">Historical Sources</span></h3>
-        <p>Матичне и парохијске књиге, рукописи, архивски фондови, новине и друга документарна грађа.</p>
-      </article>
-      <article class="entity-card">
-        <span class="entity-number">10</span>
-        <h3>Публикације / <span lang="en">Publications</span></h3>
-        <p>Канонске публикационе јединице повезане са главним <code>publications.csv</code>.</p>
-      </article>
-      <article class="entity-card">
-        <span class="entity-number">22</span>
-        <h3>Типа односа / <span lang="en">Relation Types</span></h3>
-        <p>Контролисани предикати који одређују дозвољене типове субјеката и објеката.</p>
-      </article>
-      <article class="entity-card">
-        <span class="entity-number">259</span>
-        <h3>Односа / <span lang="en">Relations</span></h3>
-        <p>Проверљиве везе са доказним контекстом, страницом, напоменом и степеном поузданости.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="reading" aria-labelledby="reading-heading">
-    <h2 id="reading-heading">Како се граф чита? / <span lang="en">How to Read the Graph</span></h2>
-
-    <p>Свака тврдња у графу има облик: <strong>субјекат → однос → објекат</strong>. Публикација наведена у пољу <code>source_id</code> служи као доказни или аналитички контекст у коме је веза установљена.</p>
-    <p lang="en">Each statement in the graph has the form <strong>subject → relation → object</strong>. The publication recorded in <code>source_id</code> serves as the evidential or analytical context in which the relation is established.</p>
-
-    <div class="relation-grid">
-      <article class="relation-card">
-        <h3>Владарска посета</h3>
-        <p class="relation-line"><strong>Александар Обреновић</strong> <span class="predicate">→ visited →</span> <strong>Смедерево</strong></p>
-        <p class="relation-source">Доказни контекст: путовање краљевског пара по Србији 1901. године.</p>
-      </article>
-
-      <article class="relation-card">
-        <h3>Публикација и личност</h3>
-        <p class="relation-line"><strong>„Усклици искреног одушевљења”</strong> <span class="predicate">→ concernsPerson →</span> <strong>Драга Обреновић</strong></p>
-        <p class="relation-source">Доказни контекст: монографија посвећена путовању Александра и Драге Обреновић.</p>
-      </article>
-
-      <article class="relation-card">
-        <h3>Личност и место</h3>
-        <p class="relation-line"><strong>Танаско Рајић</strong> <span class="predicate">→ diedAt →</span> <strong>Љубић</strong></p>
-        <p class="relation-source">Доказни контекст: истраживање Боја на Љубићу и каснијих комеморативних пракси.</p>
-      </article>
-
-      <article class="relation-card">
-        <h3>Установа и историјски извор</h3>
-        <p class="relation-line"><strong>Црква Вазнесења Господњег у Чачку</strong> <span class="predicate">→ preservesSource →</span> <strong>Књига кумства краља Александра I Карађорђевића 1921–1934.</strong></p>
-        <p class="relation-source">Установа се повезује са извором који чува.</p>
-      </article>
-
-      <article class="relation-card">
-        <h3>Публикација и историјски извор</h3>
-        <p class="relation-line"><strong>Ритуал и политика: „Књига кумства”</strong> <span class="predicate">→ usesSource →</span> <strong>Књига кумства краља Александра I Карађорђевића 1921–1934.</strong></p>
-        <p class="relation-source">Овај тип везе раздваја историјски извор као ентитет од публикације која га анализира.</p>
-      </article>
-
-      <article class="relation-card">
-        <h3>Место рођења</h3>
-        <p class="relation-line"><strong>Надежда Петровић</strong> <span class="predicate">→ bornIn →</span> <strong>Чачак</strong></p>
-        <p class="relation-source">Доказни контекст: монографија о животу и уметности Надежде Петровић, PDF 47.</p>
-      </article>
-
-      <article class="relation-card">
-        <h3>Оснивање удружења</h3>
-        <p class="relation-line"><strong>Надежда Петровић</strong> <span class="predicate">→ founded →</span> <strong>Коло српских сестара</strong></p>
-        <p class="relation-source">Доказни контекст: поглавље о оснивању Кола српских сестара, PDF 81.</p>
-      </article>
-
-      <article class="relation-card">
-        <h3>Град и културно памћење</h3>
-        <p class="relation-line"><strong>Чачак</strong> <span class="predicate">→ commemorates →</span> <strong>Надежда Петровић</strong></p>
-        <p class="relation-source">Доказни контекст: споменик, Меморијал и Уметничка галерија „Надежда Петровић”.</p>
-      </article>
-
-      <article class="relation-card">
-        <h3>Установа и рукописна грађа</h3>
-        <p class="relation-line"><strong>Народни музеј Србије</strong> <span class="predicate">→ preservesSource →</span> <strong>Рукописи Надежде и Растка Петровића, К-2</strong></p>
-        <p class="relation-source">Доказни контекст: научни рад о хероизацији Надежде Петровић, PDF 13.</p>
-      </article>
+  <section id="scope" aria-labelledby="scope-heading">
+    <h2 id="scope-heading">Обухват пилота / <span lang="en">Pilot Scope</span></h2>
+    <div class="stat-grid">
+      <article class="stat-card"><span class="stat-number">6</span><h3>Публикација / Publications</h3></article>
+      <article class="stat-card"><span class="stat-number">26</span><h3>Личности / People</h3></article>
+      <article class="stat-card"><span class="stat-number">15</span><h3>Установа / Institutions</h3></article>
+      <article class="stat-card"><span class="stat-number">20</span><h3>Места / Places</h3></article>
+      <article class="stat-card"><span class="stat-number">156</span><h3>Односа / Relations</h3></article>
+      <article class="stat-card"><span class="stat-number">21</span><h3>Тип односа / Relation Types</h3></article>
     </div>
 
     <div class="note">
-      <p><strong>Важно:</strong> граф не третира све односе као исте. Ауторство, посета, место смрти, чување извора, коришћење извора и предмет истраживања представљају различите врсте веза и зато имају засебне контролисане предикате.</p>
-      <p lang="en"><strong>Important:</strong> the graph does not treat all relations as equivalent. Authorship, visits, place of death, preservation of a source, use of a source and subject matter are different kinds of relations and therefore use separate controlled predicates.</p>
+      <p><strong>Статус:</strong> <span class="status">пилот 0.1</span></p>
+      <p>Скуп је селективан и служи провери модела. Не представља потпун именски, институционални или географски регистар целокупног опуса.</p>
+      <p lang="en">The dataset is selective and intended to test the model. It is not a complete index of the people, institutions or places represented in the entire corpus.</p>
     </div>
   </section>
 
-  <section id="provenance" aria-labelledby="provenance-heading">
-    <h2 id="provenance-heading">Извори и проверљивост / <span lang="en">Sources and Verifiability</span></h2>
+  <section id="files" aria-labelledby="files-heading">
+    <h2 id="files-heading">Скупови података / <span lang="en">Data Files</span></h2>
+    <p>Фајлови испод чине једну повезану целину. Табеле ентитета добијају стабилне интерне ID ознаке, док <code>relations.csv</code> повезује ентитете и наводи извор сваке тврдње.</p>
+    <p lang="en">The files below form a single connected dataset. Entity tables receive stable internal IDs, while <code>relations.csv</code> connects the entities and records the source of every statement.</p>
 
-    <p>Језгро графа није списак ентитета, већ табела односа. Свака веза мора бити повезана са публикацијом из које је изведена и са довољно прецизним местом у тексту да се тврдња може проверити.</p>
-    <p lang="en">The core of the graph is not the entity list but the relations table. Every relation must be linked to the publication from which it was derived and to a sufficiently precise location in the text for the claim to be verified.</p>
+    <div class="data-grid">
+      <article class="data-card"><h3><code>people.csv</code></h3><p>Личности, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">People, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
+      <article class="data-card"><h3><code>institutions.csv</code></h3><p>Музеји, архиви, цркве, манастири, научне, школске и државне установе.</p><p lang="en">Museums, archives, churches, monasteries, scholarly, educational and state institutions.</p></article>
+      <article class="data-card"><h3><code>places.csv</code></h3><p>Градови, вароши, села, сакрални комплекси и меморијални простори.</p><p lang="en">Cities, towns, villages, sacred complexes and memorial sites.</p></article>
+      <article class="data-card"><h3><code>relations.csv</code></h3><p>Језгро графа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">The graph core: subject, relation type, object, source, source locator, note and confidence level.</p></article>
+      <article class="data-card"><h3><code>relation-types.csv</code></h3><p>Контролисани речник дозвољених односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of allowed relations and subject/object types.</p></article>
+      <article class="data-card"><h3><code>entity-graph.jsonld</code></h3><p>Машински читљиви JSON-LD извоз ентитета и односа.</p><p lang="en">Machine-readable JSON-LD export of entities and relations.</p></article>
+    </div>
 
-    <ul class="data-fields">
-      <li><strong><code>source_id</code></strong> канонски ID публикације која потврђује или образлаже однос;</li>
-      <li><strong><code>evidence_page</code></strong> страница, распон страница или одељак;</li>
-      <li><strong><code>evidence_note</code></strong> кратко објашњење зашто је веза унета;</li>
-      <li><strong><code>confidence</code></strong> степен поузданости: <code>high</code>, <code>medium</code> или <code>low</code>.</li>
-    </ul>
+    <p class="small-note">Појединачне везе за преузимање треба активирати истовремено са објављивањем одговарајућих фајлова и контролног манифеста. / Individual download links should be activated when the corresponding files and integrity manifest are published.</p>
+  </section>
+
+  <section id="publications" aria-labelledby="publications-heading">
+    <h2 id="publications-heading">Публикације у пилоту / <span lang="en">Publications in the Pilot</span></h2>
+    <p>Овде се користе канонске ID ознаке из главног <code>publications.csv</code>. Привремене ознаке <code>PUB001–PUB006</code> не треба објављивати.</p>
+    <p lang="en">This layer uses the canonical IDs from the main <code>publications.csv</code>. Temporary labels <code>PUB001–PUB006</code> should not be published.</p>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Канонске публикационе ID ознаке / Canonical publication IDs</caption>
+        <thead><tr><th>ID</th><th>Година</th><th>Публикација</th><th>Статус</th></tr></thead>
+        <tbody>
+          <tr><td><code>article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o</code></td><td>2016</td><td><a href="../../articles/kult-svetitelja-mesta-secanja-politicki-mitovi-vujan.html">Култ светитеља, места сећања и политички митови</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i</code></td><td>2025</td><td><a href="../../articles/ritual-politika-knjiga-kumstva.html">Ритуал и политика: „Књига кумства” краља Александра I Карађорђевића</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19</code></td><td>2016</td><td><a href="../../conference-papers/boj-na-ljubicu-reprezentativna-kultura-cacka.html">Бој на Љубићу у званичној репрезентативној култури Чачка</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to</code></td><td>2024</td><td><a href="../../conference-papers/efemerni-spektakl-knez-mihailo.html">Ефемерни спектакл и владарске посете кнеза Михаила Обреновића</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor</code></td><td>2023</td><td><a href="../../conference-papers/vladari-i-varosi.html">Владари и вароши</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2025-usklici-iskrenog-odusevljenja</code></td><td>2025</td><td><a href="../../books/usklici-iskrenog-odusevljenja.html">Усклици искреног одушевљења</a></td><td><span class="status">checked</span></td></tr>
+        </tbody>
+      </table>
+    </div>
 
     <div class="identifier-box">
-      <p><strong>Два значења „извора”:</strong> поље <code>source_id</code> у <code>relations.csv</code> садржи ID публикације која служи као доказни контекст за тврдњу. Насупрот томе, <code>S001–S018</code> у <code>sources.csv</code> представљају историјске изворе као самосталне ентитете.</p>
-      <p lang="en"><strong>Two meanings of “source”:</strong> the <code>source_id</code> field in <code>relations.csv</code> contains the ID of the publication that provides the evidential context for a statement. By contrast, <code>S001–S018</code> in <code>sources.csv</code> are historical sources modelled as entities in their own right.</p>
-    </div>
-
-    <p>Однос <code>usesSource</code> повезује публикацију са историјским извором који користи, док <code>preservesSource</code> повезује установу која извор чува са тим извором. На тај начин историјски извор није сведен на библиографску напомену него постаје чвор у графу.</p>
-    <p lang="en">The <code>usesSource</code> relation links a publication to a historical source it uses, while <code>preservesSource</code> links a holding institution to that source. In this way a historical source is not reduced to a bibliographic note but becomes a node in the graph.</p>
-
-    <p>Спољни идентификатори имају посебан статус провере. Ознака <code>verified_authority</code> значи да је идентитет проверен према ауторитетском запису. Статуси који почињу са <code>source_verified</code> означавају да је ентитет потврђен у публикацији, али поједини спољни или институционални подаци могу још бити отворени. Суфикс <code>pending</code> јасно означава да је потребна додатна ауторитетска провера. Када не постоји сигуран спољни идентификатор, задржава се само стабилан интерни ID.</p>
-    <p lang="en">External identifiers have a separate verification status. <code>verified_authority</code> means that the identity has been checked against an authority record. Status values beginning with <code>source_verified</code> indicate that the entity is confirmed in a publication, although some external or institutional metadata may remain open. The <code>pending</code> suffix explicitly marks the need for further authority review. When no reliable external identifier is available, only the stable internal ID is retained.</p>
-  </section>
-
-  <section id="downloads" aria-labelledby="downloads-heading">
-    <h2 id="downloads-heading">Преузимање података / <span lang="en">Data Downloads</span></h2>
-
-    <p>Подаци ентитетског слоја су објављени на посебној страници <a href="../../data/entities/">Ентитети и односи / Entities and Relations</a>. Ова страница пружа истраживачко објашњење графа, док Data слој служи као каталог за преузимање, проверу и машинску обраду.</p>
-    <p lang="en">Entity-layer data are published on the dedicated <a href="../../data/entities/">Entities and Relations</a> page. This page provides the scholarly explanation of the graph, while the Data layer serves as a catalogue for download, verification and machine processing.</p>
-
-    <div class="download-grid">
-      <article class="download-card"><h3><a href="../../data/entities/people.csv"><code>people.csv</code></a></h3><p>34 личности / 34 people</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/institutions.csv"><code>institutions.csv</code></a></h3><p>26 установа / 26 institutions</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/places.csv"><code>places.csv</code></a></h3><p>26 места / 26 places</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/sources.csv"><code>sources.csv</code></a></h3><p>18 историјских извора / 18 historical sources</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/relations.csv"><code>relations.csv</code></a></h3><p>259 односа / 259 relations</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/relation-types.csv"><code>relation-types.csv</code></a></h3><p>22 типа односа / 22 relation types</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви граф / machine-readable graph</p></article>
+      <p><strong>Напомена о издању:</strong> главна табела садржи и засебан запис <code>book-2026-usklici-iskrenog-odusevljenja</code>. Пошто је пилот изведен из приложеног издања из 2025. године, све релације у овом пилоту морају користити ID <code>book-2025-usklici-iskrenog-odusevljenja</code>.</p>
+      <p lang="en"><strong>Edition note:</strong> the main table also contains a separate record <code>book-2026-usklici-iskrenog-odusevljenja</code>. Because the pilot was derived from the supplied 2025 edition, all relations in this pilot must use <code>book-2025-usklici-iskrenog-odusevljenja</code>.</p>
     </div>
   </section>
 
-  <section id="pilot-status" aria-labelledby="pilot-status-heading">
-    <h2 id="pilot-status-heading">Статус пилота / <span lang="en">Pilot Status</span></h2>
-
-    <blockquote class="status-box">
-      <p><strong>Пилот-верзија 0.2 обухвата десет публикација и служи провери модела. Не представља потпун именски, институционални, географски или изворни регистар целокупног опуса.</strong></p>
-      <p lang="en"><strong>Pilot version 0.2 covers ten publications and is intended to test the model. It is not a complete index of the people, institutions, places or historical sources represented in the entire corpus.</strong></p>
-    </blockquote>
-
-    <p>Пилот служи за проверу модела података, речника односа, provenance правила и начина повезивања са постојећим публикационим корпусом. Нови записи додаваће се постепено, после провере интерних ID ознака, спољних идентификатора и изворне заснованости сваке везе.</p>
-    <p lang="en">The pilot is intended to test the data model, relation vocabulary, provenance rules and connection with the existing publication corpus. New records will be added gradually after checking internal IDs, external identifiers and the evidential basis of every relation.</p>
+  <section id="model" aria-labelledby="model-heading">
+    <h2 id="model-heading">Модел података / <span lang="en">Data Model</span></h2>
+    <p>Основна јединица графа је тврдња у облику <strong>субјекат → однос → објекат</strong>. Свака тврдња има сопствени ID и податак о пореклу.</p>
+    <p lang="en">The basic unit of the graph is a statement in the form <strong>subject → relation → object</strong>. Every statement has its own ID and provenance data.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Поље</th><th>Функција</th></tr></thead>
+        <tbody>
+          <tr><td><code>relation_id</code></td><td>Стабилна ознака појединачне везе.</td></tr>
+          <tr><td><code>subject_id</code></td><td>ID ентитета од кога веза полази.</td></tr>
+          <tr><td><code>relation</code></td><td>Контролисани тип односа.</td></tr>
+          <tr><td><code>object_id</code></td><td>ID ентитета ка коме је веза усмерена.</td></tr>
+          <tr><td><code>source_id</code></td><td>Канонски ID публикације која потврђује или образлаже везу.</td></tr>
+          <tr><td><code>evidence_page</code></td><td>Страница, распон страница или одељак.</td></tr>
+          <tr><td><code>evidence_note</code></td><td>Кратко образложење уноса.</td></tr>
+          <tr><td><code>confidence</code></td><td>Степен поузданости: <code>high</code>, <code>medium</code> или <code>low</code>.</td></tr>
+        </tbody>
+      </table>
+    </div>
   </section>
+
+  <section id="verification" aria-labelledby="verification-heading">
+    <h2 id="verification-heading">Провера и ограничења / <span lang="en">Verification and Limitations</span></h2>
+    <ul>
+      <li><code>verified</code> — спољни идентификатор је проверен према ауторитетском запису;</li>
+      <li><code>candidate</code> — подударање је вероватно, али захтева ручну потврду;</li>
+      <li><code>local</code> — ентитет засад има само стабилни интерни ID.</li>
+    </ul>
+    <p>Односи означени као <code>medium</code> или <code>low</code> морају бити ручно прегледани пре проширења скупа. Посебно треба раздвојити сложене или неодређене релације, проверити Wikidata идентификаторе и ускладити институције које истовремено функционишу као места.</p>
+    <p lang="en">Relations marked <code>medium</code> or <code>low</code> require manual review before the dataset is expanded. Complex or ambiguous relations should be separated, Wikidata identifiers verified and institutions that also function as places modelled consistently.</p>
+  </section>
+
+  <section id="license" aria-labelledby="license-heading">
+    <h2 id="license-heading">Лиценца и поновна употреба / <span lang="en">License and Reuse</span></h2>
+    <div class="license-box">
+      <p>Метаподаци су намењени објављивању под лиценцом <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>, уз навођење извора.</p>
+      <p>Пуни текстови, фотографије и илустрације нису обухваћени овом лиценцом.</p>
+      <p lang="en">Metadata are intended for release under the Creative Commons Attribution 4.0 International License. Full texts, photographs and illustrations are not covered by this license.</p>
+    </div>
+  </section>
+
+  <section id="citation" aria-labelledby="citation-heading">
+    <h2 id="citation-heading">Како цитирати / <span lang="en">How to Cite</span></h2>
+    <div class="identifier-box">
+      <p>Милош Тимотијевић, „Ентитети и односи: пилотски Data слој истраживачког корпуса”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, верзија 0.1, приступљено [датум приступа].</p>
+      <p lang="en">Miloš Timotijević, “Entities and Relations: Pilot Data Layer of the Research Corpus,” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, version 0.1, accessed [access date].</p>
+    </div>
+  </section>
+
+  <p class="date-note">Верзија 0.1 · последње ажурирање: 20. септембар 2026. / Version 0.1 · last updated: 20 September 2026.</p>
 
   <p class="back-link">
     <a href="#top">↑ На врх / Back to top</a><br>
-    <a href="../">← Назад на граф знања / Back to Knowledge Graph</a><br>
-    <a href="../../data/entities/">Подаци ентитетског слоја / Entity-layer Data →</a><br>
-    <a href="../../data/">Подаци / Data →</a>
+    <a href="../../knowledge-graph/entities/">← Ентитетски граф / Entity Graph</a><br>
+    <a href="../">← Назад на Подаци / Back to Data</a><br>
+    <a href="../../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a>
   </p>
 </main>
-
 </body>
 </html>
