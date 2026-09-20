@@ -19,7 +19,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Entities and Relations — Pilot Dataset">
-  <meta name="twitter:description" content="Open entity and relation data derived from six publications in the digital scholarly corpus of Miloš Timotijević.">
+  <meta name="twitter:description" content="Open entity and relation data derived from ten publications in the digital scholarly corpus of Miloš Timotijević.">
 
   <style>
     :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f1f1f1; }
@@ -74,7 +74,7 @@
     "url": "https://milos-timotijevic.github.io/data/entities/",
     "inLanguage": ["sr", "en"],
     "dateModified": "2026-09-20",
-    "description": "Пилотски Data слој који повезује шест публикација са личностима, установама и местима посредством изворно проверљивих односа.",
+    "description": "Пилотски Data слој који повезује десет публикација са личностима, установама, местима и историјским изворима посредством изворно проверљивих односа.",
     "isPartOf": {
       "@type": "Dataset",
       "@id": "https://milos-timotijevic.github.io/data/#dataset",
@@ -96,10 +96,10 @@
       "@id": "https://milos-timotijevic.github.io/data/entities/#dataset",
       "name": "Entity and Relation Data of the Research Corpus — Pilot",
       "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
-      "version": "0.1",
+      "version": "0.2",
       "datePublished": "2026-09-20",
       "dateModified": "2026-09-20",
-      "description": "Pilot dataset comprising six publications, 26 people, 15 institutions, 20 places and 156 source-based relations.",
+      "description": "Pilot dataset comprising ten publications, 34 people, 26 institutions, 26 places, 18 historical sources, 22 relation types and 259 source-based relations.",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -113,12 +113,17 @@
         "article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o",
         "conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to",
         "conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor",
-        "conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19"
+        "conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19",
+        "book-2025-nadezda-petrovic-life-art-service-nation",
+        "article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+        "article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+        "article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd"
       ],
       "distribution": [
         {"@type":"DataDownload","name":"people.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/people.csv"},
         {"@type":"DataDownload","name":"institutions.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/institutions.csv"},
         {"@type":"DataDownload","name":"places.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/places.csv"},
+        {"@type":"DataDownload","name":"sources.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/sources.csv"},
         {"@type":"DataDownload","name":"relations.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relations.csv"},
         {"@type":"DataDownload","name":"relation-types.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relation-types.csv"},
         {"@type":"DataDownload","name":"entity-graph.jsonld","encodingFormat":"application/ld+json","contentUrl":"https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld"}
@@ -163,16 +168,17 @@
   <section id="scope" aria-labelledby="scope-heading">
     <h2 id="scope-heading">Обухват пилота / <span lang="en">Pilot Scope</span></h2>
     <div class="stat-grid">
-      <article class="stat-card"><span class="stat-number">6</span><h3>Публикација / Publications</h3></article>
-      <article class="stat-card"><span class="stat-number">26</span><h3>Личности / People</h3></article>
-      <article class="stat-card"><span class="stat-number">15</span><h3>Установа / Institutions</h3></article>
-      <article class="stat-card"><span class="stat-number">20</span><h3>Места / Places</h3></article>
-      <article class="stat-card"><span class="stat-number">156</span><h3>Односа / Relations</h3></article>
-      <article class="stat-card"><span class="stat-number">21</span><h3>Тип односа / Relation Types</h3></article>
+      <article class="stat-card"><span class="stat-number">10</span><h3>Публикација / Publications</h3></article>
+      <article class="stat-card"><span class="stat-number">34</span><h3>Личности / People</h3></article>
+      <article class="stat-card"><span class="stat-number">26</span><h3>Установа / Institutions</h3></article>
+      <article class="stat-card"><span class="stat-number">26</span><h3>Места / Places</h3></article>
+      <article class="stat-card"><span class="stat-number">18</span><h3>Историјских извора / Historical Sources</h3></article>
+      <article class="stat-card"><span class="stat-number">259</span><h3>Односа / Relations</h3></article>
+      <article class="stat-card"><span class="stat-number">22</span><h3>Типа односа / Relation Types</h3></article>
     </div>
 
     <div class="note">
-      <p><strong>Статус:</strong> <span class="status">пилот 0.1</span></p>
+      <p><strong>Статус:</strong> <span class="status">пилот 0.2</span></p>
       <p>Скуп је селективан и служи провери модела. Не представља потпун именски, институционални или географски регистар целокупног опуса.</p>
       <p lang="en">The dataset is selective and intended to test the model. It is not a complete index of the people, institutions or places represented in the entire corpus.</p>
     </div>
@@ -184,21 +190,23 @@
     <p lang="en">The files below form a single connected dataset. Entity tables receive stable internal IDs, while <code>relations.csv</code> connects the entities and records the source of every statement.</p>
 
     <div class="data-grid">
-      <article class="data-card"><h3><code>people.csv</code></h3><p>Личности, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">People, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
-      <article class="data-card"><h3><code>institutions.csv</code></h3><p>Музеји, архиви, цркве, манастири, научне, школске и државне установе.</p><p lang="en">Museums, archives, churches, monasteries, scholarly, educational and state institutions.</p></article>
-      <article class="data-card"><h3><code>places.csv</code></h3><p>Градови, вароши, села, сакрални комплекси и меморијални простори.</p><p lang="en">Cities, towns, villages, sacred complexes and memorial sites.</p></article>
-      <article class="data-card"><h3><code>relations.csv</code></h3><p>Језгро графа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">The graph core: subject, relation type, object, source, source locator, note and confidence level.</p></article>
-      <article class="data-card"><h3><code>relation-types.csv</code></h3><p>Контролисани речник дозвољених односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of allowed relations and subject/object types.</p></article>
-      <article class="data-card"><h3><code>entity-graph.jsonld</code></h3><p>Машински читљиви JSON-LD извоз ентитета и односа.</p><p lang="en">Machine-readable JSON-LD export of entities and relations.</p></article>
+      <article class="data-card"><h3><a href="people.csv"><code>people.csv</code></a></h3><p>34 личности, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">34 people, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
+      <article class="data-card"><h3><a href="institutions.csv"><code>institutions.csv</code></a></h3><p>26 музеја, архива, цркава, манастира, научних, школских и државних установа.</p><p lang="en">26 museums, archives, churches, monasteries, scholarly, educational and state institutions.</p></article>
+      <article class="data-card"><h3><a href="places.csv"><code>places.csv</code></a></h3><p>26 градова, вароши, села, сакралних комплекса и меморијалних простора.</p><p lang="en">26 cities, towns, villages, sacred complexes and memorial sites.</p></article>
+      <article class="data-card"><h3><a href="sources.csv"><code>sources.csv</code></a></h3><p>18 историјских извора моделованих као засебни ентитети.</p><p lang="en">18 historical sources modelled as entities in their own right.</p></article>
+      <article class="data-card"><h3><a href="relations.csv"><code>relations.csv</code></a></h3><p>259 односа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">259 relations: subject, relation type, object, source, source locator, note and confidence level.</p></article>
+      <article class="data-card"><h3><a href="relation-types.csv"><code>relation-types.csv</code></a></h3><p>Контролисани речник од 22 дозвољена односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of 22 allowed relations and subject/object types.</p></article>
+      <article class="data-card"><h3><a href="entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви JSON-LD извоз са 396 чворова.</p><p lang="en">Machine-readable JSON-LD export containing 396 nodes.</p></article>
+      <article class="data-card"><h3><a href="entity-manifest.json"><code>entity-manifest.json</code></a></h3><p>Величина, број записа и SHA-256 контролни отисак сваког извоза.</p><p lang="en">File size, record count and SHA-256 checksum for every export.</p></article>
     </div>
 
-    <p class="small-note">Појединачне везе за преузимање треба активирати истовремено са објављивањем одговарајућих фајлова и контролног манифеста. / Individual download links should be activated when the corresponding files and integrity manifest are published.</p>
+    <p class="small-note">Сви фајлови су непосредно доступни за преузимање. Интегритет извоза проверава се помоћу <a href="entity-manifest.json"><code>entity-manifest.json</code></a>. / All files are directly available for download. Export integrity can be checked against <a href="entity-manifest.json"><code>entity-manifest.json</code></a>.</p>
   </section>
 
   <section id="publications" aria-labelledby="publications-heading">
     <h2 id="publications-heading">Публикације у пилоту / <span lang="en">Publications in the Pilot</span></h2>
-    <p>Овде се користе канонске ID ознаке из главног <code>publications.csv</code>. Привремене ознаке <code>PUB001–PUB006</code> не треба објављивати.</p>
-    <p lang="en">This layer uses the canonical IDs from the main <code>publications.csv</code>. Temporary labels <code>PUB001–PUB006</code> should not be published.</p>
+    <p>Овде се користе канонске ID ознаке из главног <code>publications.csv</code>. Привремене ознаке публикација не користе се у јавном скупу.</p>
+    <p lang="en">This layer uses the canonical IDs from the main <code>publications.csv</code>. Temporary publication labels are not used in the public dataset.</p>
 
     <div class="table-wrap">
       <table>
@@ -211,6 +219,10 @@
           <tr><td><code>conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to</code></td><td>2024</td><td><a href="../../conference-papers/efemerni-spektakl-knez-mihailo.html">Ефемерни спектакл и владарске посете кнеза Михаила Обреновића</a></td><td><span class="status">checked</span></td></tr>
           <tr><td><code>conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor</code></td><td>2023</td><td><a href="../../conference-papers/vladari-i-varosi.html">Владари и вароши</a></td><td><span class="status">checked</span></td></tr>
           <tr><td><code>book-2025-usklici-iskrenog-odusevljenja</code></td><td>2025</td><td><a href="../../books/usklici-iskrenog-odusevljenja.html">Усклици искреног одушевљења</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2025-nadezda-petrovic-life-art-service-nation</code></td><td>2025</td><td><a href="../../books/nadezda-petrovic-life-art-service-nation.html">Надежда Петровић: живот и уметност у служби нације</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta</code></td><td>2026</td><td><a href="../../articles/jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta.html">Југословенско опредељење Надежде Петровић</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941</code></td><td>2026</td><td><a href="../../articles/heroizacija-nadezde-petrovic.html">Хероизација сликарке Надежде Петровић (1915–1941)</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd</code></td><td>2001</td><td><a href="../../articles/politika-umetnost-stvaranje-tradicija.html">Политика, уметност и стварање традиција</a></td><td><span class="status">checked</span></td></tr>
         </tbody>
       </table>
     </div>
@@ -265,12 +277,12 @@
   <section id="citation" aria-labelledby="citation-heading">
     <h2 id="citation-heading">Како цитирати / <span lang="en">How to Cite</span></h2>
     <div class="identifier-box">
-      <p>Милош Тимотијевић, „Ентитети и односи: пилотски Data слој истраживачког корпуса”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, верзија 0.1, приступљено [датум приступа].</p>
-      <p lang="en">Miloš Timotijević, “Entities and Relations: Pilot Data Layer of the Research Corpus,” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, version 0.1, accessed [access date].</p>
+      <p>Милош Тимотијевић, „Ентитети и односи: пилотски Data слој истраживачког корпуса”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, верзија 0.2, приступљено [датум приступа].</p>
+      <p lang="en">Miloš Timotijević, “Entities and Relations: Pilot Data Layer of the Research Corpus,” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, version 0.2, accessed [access date].</p>
     </div>
   </section>
 
-  <p class="date-note">Верзија 0.1 · последње ажурирање: 20. септембар 2026. / Version 0.1 · last updated: 20 September 2026.</p>
+  <p class="date-note">Верзија 0.2 · последње ажурирање: 20. септембар 2026. / Version 0.2 · last updated: 20 September 2026.</p>
 
   <p class="back-link">
     <a href="#top">↑ На врх / Back to top</a><br>
