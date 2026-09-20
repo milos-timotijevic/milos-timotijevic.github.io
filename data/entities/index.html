@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ентитети и односи / Entities and Relations — пилотски скуп података</title>
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Пилотски Data слој истраживачког корпуса Милоша Тимотијевића: публикације, личности, установе, места, контролисани типови односа и подаци о пореклу сваке везе.">
+  <meta name="description" content="Пилотски Data слој истраживачког корпуса Милоша Тимотијевића: публикације, личности, установе, места, историјски извори, контролисани типови односа и подаци о пореклу сваке везе.">
   <link rel="canonical" href="https://milos-timotijevic.github.io/data/entities/">
-  <link rel="describedby" type="application/json" href="https://milos-timotijevic.github.io/data/entities/entity-manifest.json" title="Entity data integrity manifest">
   <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld" title="Machine-readable entity graph">
 
   <meta property="og:title" content="Ентитети и односи — пилотски скуп података">
@@ -74,7 +73,7 @@
     "url": "https://milos-timotijevic.github.io/data/entities/",
     "inLanguage": ["sr", "en"],
     "dateModified": "2026-09-20",
-    "description": "Пилотски Data слој који повезује шест публикација са личностима, установама и местима посредством изворно проверљивих односа.",
+    "description": "Пилотски Data слој који повезује шест публикација са личностима, установама, местима и историјским изворима посредством проверљивих односа.",
     "isPartOf": {
       "@type": "Dataset",
       "@id": "https://milos-timotijevic.github.io/data/#dataset",
@@ -99,14 +98,14 @@
       "version": "0.1",
       "datePublished": "2026-09-20",
       "dateModified": "2026-09-20",
-      "description": "Pilot dataset comprising six publications, 26 people, 15 institutions, 20 places and 156 source-based relations.",
+      "description": "Pilot dataset comprising six publications, 26 people, 15 institutions, 20 places, 10 historical sources, 22 controlled relation types and 156 source-based relations.",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
         "sameAs": "https://orcid.org/0000-0002-0457-6125"
       },
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "encodingFormat": ["text/csv", "application/json", "application/ld+json"],
+      "encodingFormat": ["text/csv", "application/ld+json"],
       "isBasedOn": [
         "book-2025-usklici-iskrenog-odusevljenja",
         "article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i",
@@ -119,12 +118,13 @@
         {"@type":"DataDownload","name":"people.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/people.csv"},
         {"@type":"DataDownload","name":"institutions.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/institutions.csv"},
         {"@type":"DataDownload","name":"places.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/places.csv"},
+        {"@type":"DataDownload","name":"sources.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/sources.csv"},
         {"@type":"DataDownload","name":"relations.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relations.csv"},
         {"@type":"DataDownload","name":"relation-types.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relation-types.csv"},
         {"@type":"DataDownload","name":"entity-graph.jsonld","encodingFormat":"application/ld+json","contentUrl":"https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld"}
       ]
     },
-    "about": ["entity graph", "research knowledge graph", "people", "institutions", "places", "relations", "data provenance", "digital humanities"]
+    "about": ["entity graph", "research knowledge graph", "people", "institutions", "places", "historical sources", "relations", "data provenance", "digital humanities"]
   }
   </script>
 </head>
@@ -156,8 +156,8 @@
 
   <section class="intro-bilingual" aria-labelledby="intro-heading">
     <h2 id="intro-heading">О овом скупу / <span lang="en">About This Dataset</span></h2>
-    <p>Ова подстраница документује пилотски ентитетско-релациони слој дигиталног научног корпуса. Постојећи Data скуп описује публикације и њихове идентификаторе; овај слој додаје личности, установе, места и проверљиве односе изведене из самих радова.</p>
-    <p lang="en">This subpage documents the pilot entity-relation layer of the digital scholarly corpus. The existing Data collection describes publications and their identifiers; this layer adds people, institutions, places and verifiable relations derived from the works themselves.</p>
+    <p>Ова подстраница документује пилотски ентитетско-релациони слој дигиталног научног корпуса. Постојећи Data скуп описује публикације и њихове идентификаторе; овај слој додаје личности, установе, места, историјске изворе и проверљиве односе изведене из самих радова.</p>
+    <p lang="en">This subpage documents the pilot entity-relation layer of the digital scholarly corpus. The existing Data collection describes publications and their identifiers; this layer adds people, institutions, places, historical sources and verifiable relations derived from the works themselves.</p>
   </section>
 
   <section id="scope" aria-labelledby="scope-heading">
@@ -167,8 +167,9 @@
       <article class="stat-card"><span class="stat-number">26</span><h3>Личности / People</h3></article>
       <article class="stat-card"><span class="stat-number">15</span><h3>Установа / Institutions</h3></article>
       <article class="stat-card"><span class="stat-number">20</span><h3>Места / Places</h3></article>
+      <article class="stat-card"><span class="stat-number">10</span><h3>Историјских извора / Sources</h3></article>
       <article class="stat-card"><span class="stat-number">156</span><h3>Односа / Relations</h3></article>
-      <article class="stat-card"><span class="stat-number">21</span><h3>Тип односа / Relation Types</h3></article>
+      <article class="stat-card"><span class="stat-number">22</span><h3>Типа односа / Relation Types</h3></article>
     </div>
 
     <div class="note">
@@ -180,19 +181,20 @@
 
   <section id="files" aria-labelledby="files-heading">
     <h2 id="files-heading">Скупови података / <span lang="en">Data Files</span></h2>
-    <p>Фајлови испод чине једну повезану целину. Табеле ентитета добијају стабилне интерне ID ознаке, док <code>relations.csv</code> повезује ентитете и наводи извор сваке тврдње.</p>
-    <p lang="en">The files below form a single connected dataset. Entity tables receive stable internal IDs, while <code>relations.csv</code> connects the entities and records the source of every statement.</p>
+    <p>Фајлови испод чине једну повезану целину. Табеле ентитета добијају стабилне интерне ID ознаке, <code>sources.csv</code> издваја историјске изворе као посебне ентитете, док <code>relations.csv</code> повезује ентитете и бележи порекло сваке тврдње.</p>
+    <p lang="en">The files below form a single connected dataset. Entity tables receive stable internal IDs, <code>sources.csv</code> models historical sources as separate entities, while <code>relations.csv</code> connects the entities and records the provenance of every statement.</p>
 
     <div class="data-grid">
-      <article class="data-card"><h3><code>people.csv</code></h3><p>Личности, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">People, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
-      <article class="data-card"><h3><code>institutions.csv</code></h3><p>Музеји, архиви, цркве, манастири, научне, школске и државне установе.</p><p lang="en">Museums, archives, churches, monasteries, scholarly, educational and state institutions.</p></article>
-      <article class="data-card"><h3><code>places.csv</code></h3><p>Градови, вароши, села, сакрални комплекси и меморијални простори.</p><p lang="en">Cities, towns, villages, sacred complexes and memorial sites.</p></article>
-      <article class="data-card"><h3><code>relations.csv</code></h3><p>Језгро графа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">The graph core: subject, relation type, object, source, source locator, note and confidence level.</p></article>
-      <article class="data-card"><h3><code>relation-types.csv</code></h3><p>Контролисани речник дозвољених односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of allowed relations and subject/object types.</p></article>
-      <article class="data-card"><h3><code>entity-graph.jsonld</code></h3><p>Машински читљиви JSON-LD извоз ентитета и односа.</p><p lang="en">Machine-readable JSON-LD export of entities and relations.</p></article>
+      <article class="data-card"><h3><a href="people.csv"><code>people.csv</code></a></h3><p>Личности, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">People, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
+      <article class="data-card"><h3><a href="institutions.csv"><code>institutions.csv</code></a></h3><p>Музеји, архиви, цркве, манастири, научне, школске и државне установе.</p><p lang="en">Museums, archives, churches, monasteries, scholarly, educational and state institutions.</p></article>
+      <article class="data-card"><h3><a href="places.csv"><code>places.csv</code></a></h3><p>Градови, вароши, села, сакрални комплекси и меморијални простори.</p><p lang="en">Cities, towns, villages, sacred complexes and memorial sites.</p></article>
+      <article class="data-card"><h3><a href="sources.csv"><code>sources.csv</code></a></h3><p>Историјски извори коришћени у пилот-корпусу, са стабилним S-ID ознакама и основним метаподацима.</p><p lang="en">Historical sources used in the pilot corpus, with stable S-identifiers and core metadata.</p></article>
+      <article class="data-card"><h3><a href="relations.csv"><code>relations.csv</code></a></h3><p>Језгро графа: субјекат, тип односа, објекат, публикација као доказни контекст, место у извору, напомена и степен поузданости.</p><p lang="en">The graph core: subject, relation type, object, publication as evidence context, source locator, note and confidence level.</p></article>
+      <article class="data-card"><h3><a href="relation-types.csv"><code>relation-types.csv</code></a></h3><p>Контролисани речник дозвољених односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of allowed relations and subject/object types.</p></article>
+      <article class="data-card"><h3><a href="entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви JSON-LD извоз ентитета и односа.</p><p lang="en">Machine-readable JSON-LD export of entities and relations.</p></article>
     </div>
 
-    <p class="small-note">Појединачне везе за преузимање треба активирати истовремено са објављивањем одговарајућих фајлова и контролног манифеста. / Individual download links should be activated when the corresponding files and integrity manifest are published.</p>
+    <p class="small-note">Шест CSV табела и JSON-LD извоз чине једну верзионисану целину; називи фајлова и интерне ID ознаке треба да остану стабилни при даљем проширењу. / The six CSV tables and the JSON-LD export form one versioned unit; file names and internal identifiers should remain stable as the dataset expands.</p>
   </section>
 
   <section id="publications" aria-labelledby="publications-heading">
@@ -233,12 +235,16 @@
           <tr><td><code>subject_id</code></td><td>ID ентитета од кога веза полази.</td></tr>
           <tr><td><code>relation</code></td><td>Контролисани тип односа.</td></tr>
           <tr><td><code>object_id</code></td><td>ID ентитета ка коме је веза усмерена.</td></tr>
-          <tr><td><code>source_id</code></td><td>Канонски ID публикације која потврђује или образлаже везу.</td></tr>
+          <tr><td><code>source_id</code></td><td>Канонски ID публикације из пилот-корпуса која потврђује или образлаже везу; не треба га мешати са S-ID ознакама историјских извора у <code>sources.csv</code>.</td></tr>
           <tr><td><code>evidence_page</code></td><td>Страница, распон страница или одељак.</td></tr>
           <tr><td><code>evidence_note</code></td><td>Кратко образложење уноса.</td></tr>
           <tr><td><code>confidence</code></td><td>Степен поузданости: <code>high</code>, <code>medium</code> или <code>low</code>.</td></tr>
         </tbody>
       </table>
+    </div>
+    <div class="note">
+      <p><strong>Историјски извори:</strong> ентитети у <code>sources.csv</code> користе ознаке <code>S001–S010</code>. Однос <code>usesSource</code> повезује публикацију са историјским извором, док <code>preservesSource</code> повезује установу која извор чува са тим извором.</p>
+      <p lang="en"><strong>Historical sources:</strong> entities in <code>sources.csv</code> use identifiers <code>S001–S010</code>. The <code>usesSource</code> relation links a publication to a historical source, while <code>preservesSource</code> links a holding institution to that source.</p>
     </div>
   </section>
 
