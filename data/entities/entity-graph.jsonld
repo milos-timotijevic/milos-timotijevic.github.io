@@ -232,7 +232,7 @@
       "url": "https://milos-timotijevic.github.io/knowledge-graph/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "dateModified": "2026-09-20",
-      "version": "0.1",
+      "version": "0.2",
       "creator": "https://milos-timotijevic.github.io/#person",
       "distribution": [
         {
@@ -282,27 +282,27 @@
         {
           "@type": "PropertyValue",
           "name": "people",
-          "value": 26
+          "value": 34
         },
         {
           "@type": "PropertyValue",
           "name": "institutions",
-          "value": 15
+          "value": 26
         },
         {
           "@type": "PropertyValue",
           "name": "places",
-          "value": 20
+          "value": 26
         },
         {
           "@type": "PropertyValue",
           "name": "sources",
-          "value": 10
+          "value": 18
         },
         {
           "@type": "PropertyValue",
           "name": "relations",
-          "value": 156
+          "value": 259
         },
         {
           "@type": "PropertyValue",
@@ -312,7 +312,7 @@
         {
           "@type": "PropertyValue",
           "name": "publications referenced",
-          "value": 6
+          "value": 10
         }
       ],
       "hasPart": [
@@ -565,408 +565,6 @@
         "https://milos-timotijevic.github.io/data/entities/#R154",
         "https://milos-timotijevic.github.io/data/entities/#R155",
         "https://milos-timotijevic.github.io/data/entities/#R156"
-      ]
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o",
-      "@type": "CreativeWork",
-      "identifier": "article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o",
-      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
-      "concernsPerson": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P006"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P007"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P016"
-        }
-      ],
-      "concernsInstitution": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I004"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I005"
-        }
-      ],
-      "concernsPlace": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL015"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL017"
-        }
-      ],
-      "usesSource": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
-        }
-      ]
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i",
-      "@type": "CreativeWork",
-      "identifier": "article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i",
-      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
-      "concernsPerson": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
-        }
-      ],
-      "concernsInstitution": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I009"
-        }
-      ],
-      "concernsPlace": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
-        }
-      ],
-      "publishedBy": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
-        }
-      ],
-      "usesSource": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S001"
-        }
-      ]
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "@type": "CreativeWork",
-      "identifier": "book-2025-usklici-iskrenog-odusevljenja",
-      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
-      "concernsPerson": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P003"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P014"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P015"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P016"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P017"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P018"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P019"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P020"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P021"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P022"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P023"
-        }
-      ],
-      "concernsInstitution": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I006"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I007"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I008"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I010"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I011"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I012"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I014"
-        }
-      ],
-      "concernsPlace": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL005"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL006"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL012"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL013"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL014"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL018"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL019"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL020"
-        }
-      ],
-      "publishedBy": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
-        }
-      ],
-      "usesSource": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S004"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S005"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S006"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S007"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S008"
-        }
-      ]
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19",
-      "@type": "CreativeWork",
-      "identifier": "conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19",
-      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
-      "concernsPerson": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P005"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P013"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P015"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
-        }
-      ],
-      "concernsInstitution": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I015"
-        }
-      ],
-      "concernsPlace": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL013"
-        }
-      ]
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor",
-      "@type": "CreativeWork",
-      "identifier": "conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor",
-      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
-      "concernsPerson": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P004"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P008"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P010"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P012"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P013"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P014"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P015"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P016"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P024"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
-        }
-      ],
-      "concernsPlace": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
-        }
-      ],
-      "publishedBy": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I003"
-        }
-      ]
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to",
-      "@type": "CreativeWork",
-      "identifier": "conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to",
-      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
-      "concernsPerson": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P004"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P008"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P009"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P011"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#P026"
-        }
-      ],
-      "concernsInstitution": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I006"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I007"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I008"
-        }
-      ],
-      "concernsPlace": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL005"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL006"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL011"
-        }
-      ],
-      "usesSource": [
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S003"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#S010"
-        }
       ]
     },
     {
@@ -5415,6 +5013,2031 @@
       }
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "@type": "Person",
+      "identifier": "P027",
+      "internalId": "P027",
+      "name": [
+        {
+          "@value": "Надежда Петровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nadežda Petrović",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1873",
+      "deathYear": "1915",
+      "occupationLabel": [
+        {
+          "@value": "сликарка и ратна болничарка",
+          "@language": "sr"
+        },
+        {
+          "@value": "painter and wartime nurse",
+          "@language": "en"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q264453"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "10",
+      "sourceEvidenceNote": {
+        "@value": "Централна личност монографије; живот, уметност, национални рад и посмртна хероизација анализирани су у целини.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P028",
+      "@type": "Person",
+      "identifier": "P028",
+      "internalId": "P028",
+      "name": [
+        {
+          "@value": "Иван Мештровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ivan Meštrović",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1883",
+      "deathYear": "1962",
+      "occupationLabel": [
+        {
+          "@value": "вајар и архитекта",
+          "@language": "sr"
+        },
+        {
+          "@value": "sculptor and architect",
+          "@language": "en"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q313828"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "sourceEvidencePage": "5",
+      "sourceEvidenceNote": {
+        "@value": "Кључни сарадник Надежде Петровић у југословенском уметничком покрету; аутор њеног споменика у Чачку.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P029",
+      "@type": "Person",
+      "identifier": "P029",
+      "internalId": "P029",
+      "name": [
+        {
+          "@value": "Растко Петровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Rastko Petrović",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1898",
+      "deathYear": "1949",
+      "occupationLabel": [
+        {
+          "@value": "књижевник и дипломата",
+          "@language": "sr"
+        },
+        {
+          "@value": "writer and diplomat",
+          "@language": "en"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q9286452"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "43",
+      "sourceEvidenceNote": {
+        "@value": "Брат Надежде Петровић и припадник породичног културног круга који је обликован у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P030",
+      "@type": "Person",
+      "identifier": "P030",
+      "internalId": "P030",
+      "name": [
+        {
+          "@value": "Делфа Иванић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Delfa Ivanić",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1881",
+      "deathYear": "1972",
+      "occupationLabel": [
+        {
+          "@value": "хуманитарна радница и сликарка",
+          "@language": "sr"
+        },
+        {
+          "@value": "humanitarian and painter",
+          "@language": "en"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q12750769"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "7",
+      "sourceEvidenceNote": {
+        "@value": "Једна од главних носитељки раног култа Надежде Петровић и организаторка меморијалних активности.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P031",
+      "@type": "Person",
+      "identifier": "P031",
+      "internalId": "P031",
+      "name": [
+        {
+          "@value": "Димитрије Мита Петровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dimitrije Mita Petrović",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1852",
+      "deathYear": "1911",
+      "occupationLabel": [
+        {
+          "@value": "историчар, учитељ и писац",
+          "@language": "sr"
+        },
+        {
+          "@value": "historian, teacher and writer",
+          "@language": "en"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q94661901"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "46",
+      "sourceEvidenceNote": {
+        "@value": "Отац Надежде Петровић; породично и интелектуално наслеђе анализирано је у поглављу о одрастању.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P032",
+      "@type": "Person",
+      "identifier": "P032",
+      "internalId": "P032",
+      "name": [
+        {
+          "@value": "Милева Петровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Mileva Petrović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "учитељица",
+          "@language": "sr"
+        },
+        {
+          "@value": "teacher",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "47",
+      "sourceEvidenceNote": {
+        "@value": "Мајка Надежде Петровић и важан носилац породичног васпитања и културног наслеђа.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "description": {
+        "@value": "Године рођења и смрти нису нормализоване у пилот-запису.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P033",
+      "@type": "Person",
+      "identifier": "P033",
+      "internalId": "P033",
+      "name": [
+        {
+          "@value": "Јован Скерлић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Jovan Skerlić",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1877",
+      "deathYear": "1914",
+      "occupationLabel": [
+        {
+          "@value": "књижевни критичар и историчар књижевности",
+          "@language": "sr"
+        },
+        {
+          "@value": "literary critic and literary historian",
+          "@language": "en"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1278008"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "sourceEvidencePage": "3",
+      "sourceEvidenceNote": {
+        "@value": "Разматран у интелектуалном и идеолошком оквиру југословенског опредељења Надежде Петровић.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P034",
+      "@type": "Person",
+      "identifier": "P034",
+      "internalId": "P034",
+      "name": [
+        {
+          "@value": "Вељко Петровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Veljko Petrović",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1884",
+      "deathYear": "1967",
+      "occupationLabel": [
+        {
+          "@value": "књижевник и историчар уметности",
+          "@language": "sr"
+        },
+        {
+          "@value": "writer and art historian",
+          "@language": "en"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q339501"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "sourceEvidencePage": "18",
+      "sourceEvidenceNote": {
+        "@value": "Учествовао у јавном представљању и тумачењу споменика Надежди Петровић у Чачку.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I016",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I016",
+      "internalId": "I016",
+      "name": [
+        {
+          "@value": "Народни музеј Србије",
+          "@language": "sr"
+        },
+        {
+          "@value": "National Museum of Serbia",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "музеј",
+          "@language": "sr"
+        },
+        {
+          "@value": "museum",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1844",
+      "historicalName": {
+        "@value": "Народни музеј у Београду",
+        "@language": "sr"
+      },
+      "currentName": {
+        "@value": "Народни музеј Србије",
+        "@language": "sr"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1277393"
+      ],
+      "url": "https://www.narodnimuzej.rs/",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "13",
+      "sourceEvidenceNote": {
+        "@value": "Чува рукописну грађу Надежде и Растка Петровића и учествује у музејској валоризацији њеног дела.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I017",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I017",
+      "internalId": "I017",
+      "name": [
+        {
+          "@value": "Етнографски музеј у Београду",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ethnographic Museum in Belgrade",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "музеј",
+          "@language": "sr"
+        },
+        {
+          "@value": "museum",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1901",
+      "currentName": {
+        "@value": "Етнографски музеј у Београду",
+        "@language": "sr"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1291533"
+      ],
+      "url": "https://etnografskimuzej.rs/",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "8",
+      "sourceEvidenceNote": {
+        "@value": "Његова архива и етнографска збирка Надежде Петровић користе се у реконструкцији јавног и националног рада.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I018",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I018",
+      "internalId": "I018",
+      "name": [
+        {
+          "@value": "Међуопштински историјски архив Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Intermunicipal Historical Archives of Čačak",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "архив",
+          "@language": "sr"
+        },
+        {
+          "@value": "archive",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1948",
+      "historicalName": {
+        "@value": "Историјски архив Чачак",
+        "@language": "sr"
+      },
+      "currentName": {
+        "@value": "Међуопштински историјски архив Чачак",
+        "@language": "sr"
+      },
+      "url": "https://arhivcacak.org.rs/",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "47",
+      "sourceEvidenceNote": {
+        "@value": "Архивска грађа установе коришћена је за породични и локални контекст Надежде Петровић.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_authority_pending"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I019",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I019",
+      "internalId": "I019",
+      "name": [
+        {
+          "@value": "Коло српских сестара",
+          "@language": "sr"
+        },
+        {
+          "@value": "Circle of Serbian Sisters",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "хуманитарно и патриотско удружење",
+          "@language": "sr"
+        },
+        {
+          "@value": "humanitarian and patriotic association",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1903",
+      "currentName": {
+        "@value": "Коло српских сестара",
+        "@language": "sr"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q5121486"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "81",
+      "sourceEvidenceNote": {
+        "@value": "Надежда Петровић и Делфа Иванић учествовале су у оснивању и раду удружења.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I020",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I020",
+      "internalId": "I020",
+      "name": [
+        {
+          "@value": "Народна одбрана",
+          "@language": "sr"
+        },
+        {
+          "@value": "Narodna Odbrana",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "патриотско удружење",
+          "@language": "sr"
+        },
+        {
+          "@value": "patriotic association",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1908",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1276907"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "166",
+      "sourceEvidenceNote": {
+        "@value": "Организација је важан оквир националног ангажмана Надежде Петровић после 1908.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I021",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I021",
+      "internalId": "I021",
+      "name": [
+        {
+          "@value": "Удружење пријатеља уметности „Цвијета Зузорић”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Cvijeta Zuzorić Association of Friends of Art",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "уметничко удружење",
+          "@language": "sr"
+        },
+        {
+          "@value": "art association",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1922",
+      "historicalName": {
+        "@value": "Удружење пријатеља уметности „Цвијета Зузорић”",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "19",
+      "sourceEvidenceNote": {
+        "@value": "Организовало је посмртну изложбу Надежде Петровић и допринело њеној уметничкој канонизацији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I022",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I022",
+      "internalId": "I022",
+      "name": [
+        {
+          "@value": "Југословенска уметничка колонија",
+          "@language": "sr"
+        },
+        {
+          "@value": "Yugoslav Art Colony",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "уметничка група",
+          "@language": "sr"
+        },
+        {
+          "@value": "art group",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1905",
+      "activeTo": "1907",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "sourceEvidencePage": "9",
+      "sourceEvidenceNote": {
+        "@value": "Један од кључних организационих облика југословенског културног програма Надежде Петровић и њених сарадника.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I023",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I023",
+      "internalId": "I023",
+      "name": [
+        {
+          "@value": "Одбор за организацију уметничких послова Србије и југословенства",
+          "@language": "sr"
+        },
+        {
+          "@value": "Committee for the Organization of Artistic Affairs of Serbia and Yugoslavism",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "уметнички и културни одбор",
+          "@language": "sr"
+        },
+        {
+          "@value": "art and cultural committee",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1913",
+      "activeTo": "1913",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "sourceEvidencePage": "1",
+      "sourceEvidenceNote": {
+        "@value": "Наведен као важна институционална тачка позног југословенског програма Надежде Петровић.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "description": {
+        "@value": "Назив је нормализован према формулацији у раду.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I024",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I024",
+      "internalId": "I024",
+      "name": [
+        {
+          "@value": "Српски Црвени крст",
+          "@language": "sr"
+        },
+        {
+          "@value": "Serbian Red Cross",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "хуманитарна организација",
+          "@language": "sr"
+        },
+        {
+          "@value": "humanitarian organization",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1876",
+      "historicalName": {
+        "@value": "Друштво Црвеног крста Србије",
+        "@language": "sr"
+      },
+      "currentName": {
+        "@value": "Црвени крст Србије",
+        "@language": "sr"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q20011251"
+      ],
+      "url": "https://www.redcross.org.rs/",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "169",
+      "sourceEvidenceNote": {
+        "@value": "Институционални оквир болничарског и хуманитарног деловања Надежде Петровић.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I025",
+      "internalId": "I025",
+      "name": [
+        {
+          "@value": "ЈП Службени гласник",
+          "@language": "sr"
+        },
+        {
+          "@value": "Official Gazette Publishing Company",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "издавач",
+          "@language": "sr"
+        },
+        {
+          "@value": "publisher",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1992",
+      "currentName": {
+        "@value": "ЈП Службени гласник",
+        "@language": "sr"
+      },
+      "url": "https://www.slglasnik.com/",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "3",
+      "sourceEvidenceNote": {
+        "@value": "Издавач монографије о Надежди Петровић из 2025. године.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_authority_pending"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I026",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I026",
+      "internalId": "I026",
+      "name": [
+        {
+          "@value": "Институт за новију историју Србије",
+          "@language": "sr"
+        },
+        {
+          "@value": "Institute for Recent History of Serbia",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "научни институт",
+          "@language": "sr"
+        },
+        {
+          "@value": "research institute",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1958",
+      "historicalName": {
+        "@value": "Институт за савремену историју",
+        "@language": "sr"
+      },
+      "currentName": {
+        "@value": "Институт за новију историју Србије",
+        "@language": "sr"
+      },
+      "url": "https://inis.bg.ac.rs/",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "1",
+      "sourceEvidenceNote": {
+        "@value": "Издавач часописа Токови историје у коме је објављен рад о хероизацији Надежде Петровић.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_authority_pending",
+      "description": {
+        "@value": "Wikidata претрага враћа две ставке истог назива; идентификатор није постављен без додатне проверe.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL021",
+      "@type": "Place",
+      "identifier": "PL021",
+      "internalId": "PL021",
+      "name": [
+        {
+          "@value": "Ваљево",
+          "@language": "sr"
+        },
+        {
+          "@value": "Valjevo",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.266667,
+        "longitude": 19.883333
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q193452",
+        "https://www.geonames.org/3188402"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "13",
+      "sourceEvidenceNote": {
+        "@value": "Место смрти и првобитног сахрањивања Надежде Петровић; полазиште преноса посмртних остатака 1935.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL022",
+      "@type": "Place",
+      "identifier": "PL022",
+      "internalId": "PL022",
+      "name": [
+        {
+          "@value": "Минхен",
+          "@language": "sr"
+        },
+        {
+          "@value": "Munich",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "DE",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.1375,
+        "longitude": 11.575
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1726",
+        "https://www.geonames.org/2867714"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "59",
+      "sourceEvidenceNote": {
+        "@value": "Главно место раног уметничког школовања Надежде Петровић.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL023",
+      "@type": "Place",
+      "identifier": "PL023",
+      "internalId": "PL023",
+      "name": [
+        {
+          "@value": "Париз",
+          "@language": "sr"
+        },
+        {
+          "@value": "Paris",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "FR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.856667,
+        "longitude": 2.352222
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q90",
+        "https://www.geonames.org/2988507"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "186",
+      "sourceEvidenceNote": {
+        "@value": "Средиште њеног каснијег уметничког усавршавања и модернистичког искуства.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL024",
+      "@type": "Place",
+      "identifier": "PL024",
+      "internalId": "PL024",
+      "name": [
+        {
+          "@value": "Загреб",
+          "@language": "sr"
+        },
+        {
+          "@value": "Zagreb",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "HR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.816667,
+        "longitude": 15.983333
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1435",
+        "https://www.geonames.org/3186886"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "sourceEvidencePage": "7",
+      "sourceEvidenceNote": {
+        "@value": "Једно од средишта југословенске уметничке сарадње и место ливења споменика за Чачак.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL025",
+      "@type": "Place",
+      "identifier": "PL025",
+      "internalId": "PL025",
+      "name": [
+        {
+          "@value": "Скопље",
+          "@language": "sr"
+        },
+        {
+          "@value": "Skopje",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "MK",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.996111,
+        "longitude": 21.431667
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q384",
+        "https://www.geonames.org/785842"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "93",
+      "sourceEvidenceNote": {
+        "@value": "Место националног и хуманитарног ангажмана у Старој Србији и Македонији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL026",
+      "@type": "Place",
+      "identifier": "PL026",
+      "internalId": "PL026",
+      "name": [
+        {
+          "@value": "Рим",
+          "@language": "sr"
+        },
+        {
+          "@value": "Rome",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "IT",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.893333,
+        "longitude": 12.482778
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q220",
+        "https://www.geonames.org/3169070"
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "sourceEvidencePage": "195",
+      "sourceEvidenceNote": {
+        "@value": "Место међународне изложбе 1911. и важна тачка југословенске уметничке репрезентације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "verified_authority"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S011",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S011",
+      "internalId": "S011",
+      "name": [
+        {
+          "@value": "Рукописи Надежде и Растка Петровића, К-2",
+          "@language": "sr"
+        },
+        {
+          "@value": "Manuscripts of Nadežda and Rastko Petrović, K-2",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "архивска збирка рукописа",
+          "@language": "sr"
+        },
+        {
+          "@value": "archival manuscript collection",
+          "@language": "en"
+        }
+      ],
+      "inLanguage": "sr",
+      "placeOfPublication": "Београд",
+      "preservingInstitution": "https://milos-timotijevic.github.io/data/entities/#I016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "13",
+      "verificationStatus": "source_verified_repository",
+      "description": {
+        "@value": "Конкретна сигнатура наведена је у научном апарату рада о хероизацији.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S012",
+      "internalId": "S012",
+      "name": [
+        {
+          "@value": "Политика",
+          "@language": "sr"
+        },
+        {
+          "@value": "Politika",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "новине",
+          "@language": "sr"
+        },
+        {
+          "@value": "newspaper",
+          "@language": "en"
+        }
+      ],
+      "inLanguage": "sr",
+      "placeOfPublication": "Београд",
+      "issn": "0350-4395",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "6",
+      "verificationStatus": "source_verified_title_issn",
+      "description": {
+        "@value": "Коришћена за праћење раних некролога, преноса посмртних остатака и посмртне репрезентације; Wikidata ID није постављен без недвосмислене провере.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S013",
+      "internalId": "S013",
+      "name": [
+        {
+          "@value": "Време",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vreme",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "новине",
+          "@language": "sr"
+        },
+        {
+          "@value": "newspaper",
+          "@language": "en"
+        }
+      ],
+      "inLanguage": "sr",
+      "placeOfPublication": "Београд",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "13",
+      "verificationStatus": "source_verified_title_period",
+      "description": {
+        "@value": "Историјски београдски дневни лист; не мешати са савременим недељником истог назива.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S014",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S014",
+      "internalId": "S014",
+      "name": [
+        {
+          "@value": "Правда",
+          "@language": "sr"
+        },
+        {
+          "@value": "Pravda",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "новине",
+          "@language": "sr"
+        },
+        {
+          "@value": "newspaper",
+          "@language": "en"
+        }
+      ],
+      "inLanguage": "sr",
+      "placeOfPublication": "Београд",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "6",
+      "verificationStatus": "source_verified_title_period",
+      "description": {
+        "@value": "Коришћена за некрологе и јавне интерпретације култа Надежде Петровић.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S015",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S015",
+      "internalId": "S015",
+      "name": [
+        {
+          "@value": "Пијемонт",
+          "@language": "sr"
+        },
+        {
+          "@value": "Pijemont",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "новине",
+          "@language": "sr"
+        },
+        {
+          "@value": "newspaper",
+          "@language": "en"
+        }
+      ],
+      "inLanguage": "sr",
+      "placeOfPublication": "Београд",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "sourceEvidencePage": "6",
+      "verificationStatus": "source_verified_title_period",
+      "description": {
+        "@value": "Лист је 1915. Надежду Петровић представио кроз архетип Косовке девојке.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S016",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S016",
+      "internalId": "S016",
+      "name": [
+        {
+          "@value": "Борба",
+          "@language": "sr"
+        },
+        {
+          "@value": "Borba",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "новине",
+          "@language": "sr"
+        },
+        {
+          "@value": "newspaper",
+          "@language": "en"
+        }
+      ],
+      "inLanguage": "sr",
+      "placeOfPublication": "Београд",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "sourceEvidencePage": "19",
+      "verificationStatus": "source_verified_title",
+      "description": {
+        "@value": "Коришћена за извештавање о откривању споменика Надежди Петровић у Чачку 1955; спољни ауторитетски ID није постављен без недвосмислене провере.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S017",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S017",
+      "internalId": "S017",
+      "name": [
+        {
+          "@value": "Архивска збирка Одељења за историју Народног музеја Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Archival Collection of the History Department, National Museum Čačak",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "музејска архивска збирка",
+          "@language": "sr"
+        },
+        {
+          "@value": "museum archival collection",
+          "@language": "en"
+        }
+      ],
+      "inLanguage": "sr",
+      "placeOfPublication": "Чачак",
+      "preservingInstitution": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "sourceEvidencePage": "11",
+      "verificationStatus": "source_verified_repository",
+      "description": {
+        "@value": "У раду је наведена конкретна музејска сигнатура И-1588 и преписка у вези са спомеником.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S018",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S018",
+      "internalId": "S018",
+      "name": [
+        {
+          "@value": "Народни одбор среза Чачак, К-8",
+          "@language": "sr"
+        },
+        {
+          "@value": "People's Committee of Čačak District, K-8",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "архивски фонд",
+          "@language": "sr"
+        },
+        {
+          "@value": "archival fonds",
+          "@language": "en"
+        }
+      ],
+      "inLanguage": "sr",
+      "placeOfPublication": "Чачак",
+      "preservingInstitution": "https://milos-timotijevic.github.io/data/entities/#I018",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "sourceEvidencePage": "20",
+      "verificationStatus": "source_verified_repository",
+      "description": {
+        "@value": "Фонд је коришћен за реконструкцију одлука, финансирања и откривања споменика 1955. године.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "@type": "CreativeWork",
+      "identifier": "article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P028"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL024"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S018"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o",
+      "@type": "CreativeWork",
+      "identifier": "article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P016"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I005"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL017"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i",
+      "@type": "CreativeWork",
+      "identifier": "article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I009"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "@type": "CreativeWork",
+      "identifier": "article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P030"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I021"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL021"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL023"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S015"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I026"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "@type": "CreativeWork",
+      "identifier": "article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P033"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I023"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL026"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "@type": "CreativeWork",
+      "identifier": "book-2025-nadezda-petrovic-life-art-service-nation",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P032"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P034"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I024"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL021"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL026"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S002"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I025"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
+      "@type": "CreativeWork",
+      "identifier": "book-2025-usklici-iskrenog-odusevljenja",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P021"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P023"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I014"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL020"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S008"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19",
+      "@type": "CreativeWork",
+      "identifier": "conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I015"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL013"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor",
+      "@type": "CreativeWork",
+      "identifier": "conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I003"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to",
+      "@type": "CreativeWork",
+      "identifier": "conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P026"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I008"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL011"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S010"
+        }
+      ]
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/entities/#R001",
       "@type": [
         "rdf:Statement",
@@ -8218,6 +9841,1860 @@
       "evidencePage": "PDF 17",
       "evidenceNote": {
         "@value": "Наведен међу листовима који су извештавали о путовању 1901; појединачни бројеви још нису нормализовани.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R157",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R157",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 10",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R158",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R158",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 126",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R159",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R159",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 43",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R160",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R160",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 81",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R161",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R161",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 46",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R162",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R162",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P032",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 47",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R163",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R163",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 113",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R164",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R164",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 235",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R165",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R165",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R166",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R166",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R167",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R167",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R168",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R168",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R169",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R169",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 7",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R170",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R170",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R171",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R171",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Публикација непосредно и садржински обрађује наведену личност.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R172",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R172",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 81",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R173",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R173",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I020",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 166",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R174",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R174",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I022",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 126",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R175",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R175",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I023",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 224",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R176",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R176",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I024",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 169",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R177",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R177",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I022",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 9",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R178",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R178",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I023",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R179",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R179",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R180",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R180",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I021",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 19",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R181",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R181",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R182",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R182",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R183",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R183",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 17",
+      "evidenceNote": {
+        "@value": "Установа или организација има непосредну улогу у анализи публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R184",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R184",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 47",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R185",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R185",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 50",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R186",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R186",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL021",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 233",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R187",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R187",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL022",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 59",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R188",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R188",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL023",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 186",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R189",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R189",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL024",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 144",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R190",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R190",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 93",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R191",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R191",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL026",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 195",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R192",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R192",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R193",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R193",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R194",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R194",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL022",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 12",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R195",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R195",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL023",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 7",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R196",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R196",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL024",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 7",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R197",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R197",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 14",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R198",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R198",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL026",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 12",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R199",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R199",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R200",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R200",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL021",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 13",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R201",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R201",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL022",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R202",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R202",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL023",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R203",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R203",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R204",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R204",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 13",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R205",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R205",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL023",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 14",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R206",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R206",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL024",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 15",
+      "evidenceNote": {
+        "@value": "Место представља значајан простор биографског, уметничког или меморијалног процеса анализираног у публикацији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R207",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R207",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S011",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 250",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R208",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R208",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 253",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R209",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R209",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S011",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 19",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R210",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R210",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 19",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R211",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R211",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R212",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R212",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S011",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 13",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R213",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R213",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 6",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R214",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R214",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 13",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R215",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R215",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S014",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 6",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R216",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R216",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S015",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 6",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R217",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R217",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 18",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R218",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R218",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 19",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R219",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R219",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S017",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R220",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R220",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S018",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Публикација користи наведени примарни или архивски извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R221",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R221",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Публикацију је објавила наведена установа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R222",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R222",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Публикацију је објавила наведена установа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R223",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R223",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I026",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Публикацију је објавила наведена установа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R224",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R224",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Публикацију је објавила наведена установа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R225",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R225",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#bornIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 47",
+      "evidenceNote": {
+        "@value": "Надежда Петровић рођена је у Чачку 1873. године.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R226",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R226",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#diedAt",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL021",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 13",
+      "evidenceNote": {
+        "@value": "Надежда Петровић умрла је у Ваљеву 1915. године као ратна болничарка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R227",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R227",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#descendantOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 46",
+      "evidenceNote": {
+        "@value": "Димитрије Мита Петровић је отац Надежде Петровић.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R228",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R228",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#descendantOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P032",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 47",
+      "evidenceNote": {
+        "@value": "Милева Петровић је мајка Надежде Петровић.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R229",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R229",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#memberOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 81",
+      "evidenceNote": {
+        "@value": "Учествовала је у оснивању и раду Кола српских сестара.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R230",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R230",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#memberOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I020",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 166",
+      "evidenceNote": {
+        "@value": "Била је активна у Народној одбрани.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R231",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R231",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#memberOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I023",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 224",
+      "evidenceNote": {
+        "@value": "Учествовала је у раду Одбора за организацију уметничких послова Србије и југословенства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R232",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R232",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#memberOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I024",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 169",
+      "evidenceNote": {
+        "@value": "Њено болничарско деловање одвијало се у оквиру српског Црвеног крста.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R233",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R233",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#founded",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 81",
+      "evidenceNote": {
+        "@value": "Надежда Петровић била је међу оснивачицама Кола српских сестара.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R234",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R234",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P030",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#founded",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 81",
+      "evidenceNote": {
+        "@value": "Делфа Иванић била је међу оснивачицама Кола српских сестара.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R235",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R235",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P030",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#memberOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 81",
+      "evidenceNote": {
+        "@value": "Делфа Иванић имала је трајну организациону улогу у Колу српских сестара.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R236",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R236",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#founded",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I022",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 126",
+      "evidenceNote": {
+        "@value": "Надежда Петровић учествовала је у оснивању Југословенске уметничке колоније.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R237",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R237",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P028",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#memberOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I022",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 9",
+      "evidenceNote": {
+        "@value": "Иван Мештровић припадао је кругу Југословенске уметничке колоније.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R238",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R238",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I022",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 9",
+      "evidenceNote": {
+        "@value": "Југословенска уметничка колонија била је један од главних оквира њеног културног програма.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R239",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R239",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL022",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 59",
+      "evidenceNote": {
+        "@value": "Боравак или путовање документовано је у биографској реконструкцији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R240",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R240",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL023",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 186",
+      "evidenceNote": {
+        "@value": "Боравак или путовање документовано је у биографској реконструкцији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R241",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R241",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL024",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 144",
+      "evidenceNote": {
+        "@value": "Боравак или путовање документовано је у биографској реконструкцији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R242",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R242",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 93",
+      "evidenceNote": {
+        "@value": "Боравак или путовање документовано је у биографској реконструкцији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R243",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R243",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL026",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 195",
+      "evidenceNote": {
+        "@value": "Боравак или путовање документовано је у биографској реконструкцији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R244",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R244",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I016",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 13",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R245",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R245",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I017",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 8",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R246",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R246",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 47",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R247",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R247",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I019",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 81",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R248",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R248",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I020",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 166",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R249",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R249",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I021",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 19",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R250",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R250",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I022",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 9",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R251",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R251",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I023",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R252",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R252",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I024",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 169",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R253",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R253",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R254",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R254",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I026",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Седиште или примарни простор деловања установе у контексту публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R255",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R255",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I016",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#preservesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S011",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+      "evidencePage": "PDF 13",
+      "evidenceNote": {
+        "@value": "Народни музеј Србије чува наведену рукописну целину.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R256",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R256",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#preservesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S017",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Народни музеј Чачак чува архивску збирку коришћену у раду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R257",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R257",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#preservesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S018",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Међуопштински историјски архив Чачак чува фонд Народног одбора среза Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R258",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R258",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I002",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#commemorates",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Галерија носи име Надежде Петровић и институционално развија њено наслеђе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R259",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R259",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#commemorates",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Чачак кроз споменик, Меморијал и Галерију трајно обликује јавно сећање на Надежду Петровић.",
         "@language": "sr"
       },
       "confidence": "high"
