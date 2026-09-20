@@ -170,6 +170,13 @@
       "alternateName": "Religious Life and Social Practices",
       "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html",
       "sameAs": "https://www.wikidata.org/wiki/Q139570614"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Ентитетски граф истраживачког корпуса",
+      "alternateName": "Entity Graph of the Research Corpus",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/entities/",
+      "description": "Пилотски ентитетски слој који повезује публикације са личностима, установама и местима посредством изворно проверљивих односа."
     }
   ],
   "keywords": "knowledge graph, digital visibility, research clusters, landing pages, Wikidata, DOI, ORCID, Zenodo, OpenAlex, Google Scholar, scholarly visibility, machine readability, Miloš Timotijević, local modernity, symbolic power"
@@ -313,17 +320,28 @@
     </li>
   </ol>
 </details>
+
+<section aria-labelledby="entity-layer-heading">
+  <h2 id="entity-layer-heading">Ентитетски слој / <span lang="en">Entity Layer</span></h2>
+  <article class="cluster-card">
+    <h3><a href="entities/">Ентитетски граф истраживачког корпуса / <span lang="en">Entity Graph of the Research Corpus</span></a></h3>
+    <p>Тематски кластери показују истраживачке проблеме који повезују публикације. Ентитетски слој показује конкретне личности, установе и места која се појављују у радовима, као и проверљиве односе међу њима.</p>
+    <p lang="en">The thematic clusters show the research problems that connect publications. The entity layer identifies the people, institutions and places appearing in the works, together with verifiable relations among them.</p>
+    <p class="links"><a href="entities/">Отвори ентитетски граф / Open the Entity Graph</a></p>
+  </article>
+</section>
 </section>
 
 <section>
   <h2>Визуелна мапа графа / Visual Map of the Graph</h2>
   <p class="small-note">Превуците водоравно на ужем екрану / <span lang="en">Swipe horizontally on a narrow screen.</span></p>
-  <p class="small-note">Ова схема приказује основну архитектуру графа: улазну страницу, кровни истраживачки оквир, тематске кластере, приступне стране публикација и спољне идентификаторе.</p>
-  <p class="small-note"><em>This diagram shows the basic architecture of the graph: the entry page, the main research framework, thematic clusters, publication landing pages and external identifiers.</em></p>
-  <div class="graph-wrap" role="img" aria-label="Визуелна мапа графа знања са кровним оквиром, седам кластера и спољним идентификаторима.">
-    <svg class="knowledge-map" viewBox="0 0 950 720" xmlns="http://www.w3.org/2000/svg">
+  <p class="small-note">Ова схема приказује основну архитектуру графа: улазну страницу, кровни истраживачки оквир, тематске кластере, приступне стране публикација, ентитетски граф и спољне идентификаторе.</p>
+  <p class="small-note"><em>This diagram shows the basic architecture of the graph: the entry page, the main research framework, thematic clusters, publication landing pages, the entity graph and external identifiers.</em></p>
+  <div class="graph-wrap" role="img" aria-label="Визуелна мапа графа знања са кровним оквиром, седам кластера, ентитетским графом и спољним идентификаторима.">
+    <svg class="knowledge-map" viewBox="0 0 950 810" xmlns="http://www.w3.org/2000/svg">
       <line x1="475" y1="95" x2="475" y2="165" class="edge" />
-      <line x1="475" y1="600" x2="475" y2="645" class="edge" />
+      <line x1="475" y1="640" x2="475" y2="665" class="edge" />
+      <line x1="475" y1="735" x2="475" y2="750" class="edge" />
 
       <a href="#top"><g class="node main-node" tabindex="0">
         <rect x="300" y="35" width="350" height="70" rx="14" />
@@ -393,15 +411,21 @@
   <text x="475" y="614" text-anchor="middle" class="node-small">Publication landing pages</text>
 </g></a>
 
+      <a href="entities/"><g class="node data-node" tabindex="0">
+        <rect x="275" y="665" width="400" height="70" rx="14" />
+        <text x="475" y="694" text-anchor="middle">Ентитетски граф истраживачког корпуса</text>
+        <text x="475" y="716" text-anchor="middle" class="node-small">Entity Graph · people · institutions · places · relations</text>
+      </g></a>
+
       <a href="#core-identifiers"><g class="node data-node" tabindex="0">
-        <rect x="245" y="650" width="460" height="55" rx="14" />
-        <text x="475" y="681" text-anchor="middle">Wikidata · DOI · ORCID · Zenodo · OpenAlex · каталози</text>
+        <rect x="245" y="750" width="460" height="55" rx="14" />
+        <text x="475" y="781" text-anchor="middle">Wikidata · DOI · ORCID · Zenodo · OpenAlex · каталози</text>
       </g></a>
     </svg>
   </div>
   <div class="graph-map-alt" role="note" aria-label="Текстуални опис визуелне мапе графа">
-    <p><strong>Текстуални опис визуелне мапе:</strong> граф полази од главне странице „Граф знања и дигитална видљивост”, затим води ка кровном истраживачком оквиру „Локална модерност и симболичка моћ у југоисточној Европи”, одатле ка седам тематских кластера, а затим ка приступним странама публикација и спољним идентификаторима.</p>
-    <p lang="en"><strong>Textual description of the visual map:</strong> the graph starts from the main page “Knowledge Graph and Digital Visibility”, then leads to the main research framework “Local Modernity and Symbolic Power in Southeast Europe”, then to seven thematic clusters, and finally to publication landing pages and external identifiers.</p>
+    <p><strong>Текстуални опис визуелне мапе:</strong> граф полази од главне странице „Граф знања и дигитална видљивост”, затим води ка кровном истраживачком оквиру „Локална модерност и симболичка моћ у југоисточној Европи”, одатле ка седам тематских кластера и приступним странама публикација. Ентитетски граф повезује публикације са личностима, установама и местима, док спољни идентификатори омогућавају повезивање са другим научним системима.</p>
+    <p lang="en"><strong>Textual description of the visual map:</strong> the graph starts from the main page “Knowledge Graph and Digital Visibility”, then leads to the main research framework “Local Modernity and Symbolic Power in Southeast Europe”, seven thematic clusters and publication landing pages. The entity graph connects publications with people, institutions and places, while external identifiers provide links to other scholarly systems.</p>
     <ul>
       <li><a href="research/local-modernity-symbolic-power.html">Кровни истраживачки оквир / Main Research Framework</a></li>
       <li><a href="research/cacak-local-modernity-case-study.html">Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity</a></li>
@@ -411,6 +435,7 @@
       <li><a href="research/culture-nationalism-symbolic-representation.html">Култура, национализам и симболичка репрезентација / Culture, Nationalism and Symbolic Representation</a></li>
       <li><a href="research/cultural-heritage-museums-public-history.html">Културно наслеђе, музеји и јавна историја / Cultural Heritage, Museums and Public History</a></li>
       <li><a href="research/religious-life-social-practices.html">Религијски живот и друштвене праксе / Religious Life and Social Practices</a></li>
+      <li><a href="entities/">Ентитетски граф истраживачког корпуса / Entity Graph of the Research Corpus</a></li>
     </ul>
   </div>
 </section>
