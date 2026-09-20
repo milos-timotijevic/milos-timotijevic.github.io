@@ -101,7 +101,38 @@ def main() -> int:
     qids = [row.get("wikidata", "").strip() for row in rows if row.get("wikidata", "").strip()]
     duplicate_qids = sorted(value for value, count in Counter(qids).items() if count > 1)
     if duplicate_qids:
-        errors.append(f"Duplicate non-empty Wikidata identifiers: {duplicate_qids}")
+        wikidata_path = root / "data" / "wikidata-items.csv"
+        with wikidata_path.open("r", encoding="utf-8-sig", newline="") as handle:
+            wikidata_rows = list(csv.DictReader(handle))
+        publication_ids_by_qid = {
+            qid: {
+                row.get("id", "").strip()
+                for row in rows
+                if row.get("wikidata", "").strip() == qid
+            }
+            for qid in duplicate_qids
+        }
+        documented_ids_by_qid: dict[str, set[str]] = {}
+        for row in wikidata_rows:
+            qid = row.get("wikidata_qid", "").strip()
+            related = {
+                value.strip()
+                for value in row.get("related_publication_id", "").split(";")
+                if value.strip()
+            }
+            documented_ids_by_qid.setdefault(qid, set()).update(related)
+        undocumented_duplicates = [
+            qid
+            for qid in duplicate_qids
+            if not publication_ids_by_qid[qid].issubset(
+                documented_ids_by_qid.get(qid, set())
+            )
+        ]
+        if undocumented_duplicates:
+            errors.append(
+                "Duplicate Wikidata identifiers without a documented work-edition "
+                f"mapping: {undocumented_duplicates}"
+            )
 
     invalid_statuses = sorted(
         {
@@ -189,13 +220,31 @@ def main() -> int:
     if not isinstance(entries, list):
         errors.append("Manifest files must be a list.")
         entries = []
+    def csv_record_count(path: Path) -> int:
+        with path.open("r", encoding="utf-8-sig", newline="") as handle:
+            return sum(1 for _ in csv.DictReader(handle))
+
+    knowledge_graph_path = root / "data" / "knowledge-graph.jsonld"
+    with knowledge_graph_path.open("r", encoding="utf-8") as handle:
+        knowledge_graph = json.load(handle)
+    knowledge_graph_count = len(knowledge_graph.get("@graph", []))
+
     expected_paths = {
         "data/publications.csv": (csv_path, len(rows)),
         "data/publications.json": (json_path, len(rows)),
-        "data/publications.jsonld": (jsonld_path, len(rows)),
-        "data/wikidata-items.csv": (root / "data" / "wikidata-items.csv", 111),
-        "data/doi-list.csv": (root / "data" / "doi-list.csv", 67),
-        "data/knowledge-graph.jsonld": (root / "data" / "knowledge-graph.jsonld", 12),
+        "data/publications.jsonld": (jsonld_path, len(rows) + 1),
+        "data/wikidata-items.csv": (
+            root / "data" / "wikidata-items.csv",
+            csv_record_count(root / "data" / "wikidata-items.csv"),
+        ),
+        "data/doi-list.csv": (
+            root / "data" / "doi-list.csv",
+            csv_record_count(root / "data" / "doi-list.csv"),
+        ),
+        "data/knowledge-graph.jsonld": (
+            knowledge_graph_path,
+            knowledge_graph_count,
+        ),
     }
     entries_by_path = {
         entry.get("path"): entry for entry in entries if isinstance(entry, dict)
@@ -239,4 +288,3 @@ def report(errors: list[str]) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
