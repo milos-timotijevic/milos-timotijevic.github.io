@@ -8,6 +8,7 @@
   <meta name="description" content="Страница са отвореним табеларним и структурисаним подацима о публикацијама, идентификаторима, истраживачким кластерима, личностима, установама, местима, историјским изворима и проверљивим односима у оквиру дигиталног научног корпуса Милоша Тимотијевића.">
   <link rel="canonical" href="https://milos-timotijevic.github.io/data/">
   <link rel="describedby" type="application/json" href="https://milos-timotijevic.github.io/data/manifest.json" title="Data integrity manifest">
+  <link rel="describedby" type="application/json" href="https://milos-timotijevic.github.io/data/entities/entity-manifest.json" title="Entity data integrity manifest">
   <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/publications.jsonld" title="Machine-readable bibliography graph">
   <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" title="Machine-readable knowledge graph">
   <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld" title="Machine-readable entity and relation graph">
@@ -192,6 +193,12 @@
         "name": "entity-graph.jsonld",
         "encodingFormat": "application/ld+json",
         "contentUrl": "https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld"
+      },
+      {
+        "@type": "DataDownload",
+        "name": "entity-manifest.json",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/entity-manifest.json"
       }
     ]
   },
@@ -288,8 +295,8 @@
   <p lang="en">This page provides open tabular and structured data about selected publications by Miloš Timotijević and connects bibliographic records with landing pages, DOI identifiers, Zenodo records, Wikidata items, COBISS records and research clusters.</p>
   <p>Сврха није да се замене библиографије и нормативни извори, већ да корпус буде доступан за преузимање, проверу, цитирање и машинску обраду.</p>
   <p lang="en">The purpose is not to replace bibliographies or authority sources, but to make the corpus downloadable, verifiable, citable and machine-readable.</p>
-  <p>Од септембра 2026. Data слој садржи и пилотски ентитетско-релациони скуп који повезује шест публикација са личностима, установама, местима и историјским изворима посредством 156 изворно проверљивих односа.</p>
-  <p lang="en">Since September 2026, the Data layer also includes a pilot entity-relation dataset connecting six publications with people, institutions, places and historical sources through 156 source-based relations.</p>
+  <p>Од септембра 2026. Data слој садржи и пилотски ентитетско-релациони скуп, верзија 0.2, који повезује десет публикација са 34 личности, 26 установа, 26 места и 18 историјских извора посредством 259 изворно проверљивих односа.</p>
+  <p lang="en">Since September 2026, the Data layer has also included a pilot entity-relation dataset, version 0.2, connecting ten publications with 34 people, 26 institutions, 26 places and 18 historical sources through 259 source-based relations.</p>
 </section>
 
 <section class="data-nav">
@@ -461,10 +468,10 @@
   <h2 id="entities-relations-heading">Ентитети и односи — пилот / <span lang="en">Entities and Relations — Pilot</span></h2>
 
   <p>
-    Пилотски ентитетско-релациони слој повезује шест изабраних публикација са 26 личности, 15 установа, 20 места и 10 историјских извора посредством 156 проверљивих односа и контролисаног речника од 22 типа односа.
+    Пилотски ентитетско-релациони слој, верзија 0.2, повезује десет изабраних публикација са 34 личности, 26 установа, 26 места и 18 историјских извора посредством 259 проверљивих односа и контролисаног речника од 22 типа односа.
   </p>
   <p lang="en">
-    The pilot entity-relation layer connects six selected publications with 26 people, 15 institutions, 20 places and 10 historical sources through 156 verifiable relations and a controlled vocabulary of 22 relation types.
+    The pilot entity-relation layer, version 0.2, connects ten selected publications with 34 people, 26 institutions, 26 places and 18 historical sources through 259 verifiable relations and a controlled vocabulary of 22 relation types.
   </p>
 
   <div class="data-nav">
@@ -523,15 +530,22 @@
 
     <article class="data-card">
       <h3>entity-graph.jsonld</h3>
-      <p>Машински читљиви JSON-LD извоз ентитета, директних веза и provenance записа за R001–R156.</p>
-      <p lang="en">Machine-readable JSON-LD export of entities, direct relations and provenance statements for R001–R156.</p>
+      <p>Машински читљиви JSON-LD извоз ентитета, директних веза и provenance записа за R001–R259.</p>
+      <p lang="en">Machine-readable JSON-LD export of entities, direct relations and provenance statements for R001–R259.</p>
       <p><a href="entities/entity-graph.jsonld" type="application/ld+json">Преузми / Download</a></p>
+    </article>
+
+    <article class="data-card">
+      <h3>entity-manifest.json</h3>
+      <p>Контролни манифест верзије 0.2 са величином, бројем записа и SHA-256 отиском сваког ентитетског извоза.</p>
+      <p lang="en">Version 0.2 integrity manifest with file size, record count and SHA-256 checksum for every entity-layer export.</p>
+      <p><a href="entities/entity-manifest.json" type="application/json">Преузми / Download</a></p>
     </article>
   </div>
 
   <p class="small-note">
-    <code>entity-graph.json</code> и <code>entity-manifest.json</code> не треба приказивати као доступне фајлове док не буду стварно генерисани и објављени.
-    <span lang="en"><code>entity-graph.json</code> and <code>entity-manifest.json</code> should not be listed as available downloads until they are actually generated and published.</span>
+    Сви ентитетски извозни фајлови чине једну верзионисану целину. Њихов интегритет проверава се помоћу <a href="entities/entity-manifest.json"><code>entity-manifest.json</code></a>.
+    <span lang="en">All entity-layer exports form one versioned dataset. Their integrity can be checked against <a href="entities/entity-manifest.json"><code>entity-manifest.json</code></a>.</span>
   </p>
 </section>
 
