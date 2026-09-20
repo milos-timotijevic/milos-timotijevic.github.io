@@ -174,7 +174,23 @@ def main() -> int:
         csv_path: "text/csv",
         json_path: "application/json",
         jsonld_path: "application/ld+json",
+        root / "data" / "wikidata-items.csv": "text/csv",
+        root / "data" / "doi-list.csv": "text/csv",
+        root / "data" / "knowledge-graph.jsonld": "application/ld+json",
     }
+
+    def record_count(path: Path) -> int:
+        if path.suffix == ".csv":
+            with path.open("r", encoding="utf-8-sig", newline="") as handle:
+                return sum(1 for _ in csv.DictReader(handle))
+        if path.name == "publications.json":
+            with path.open("r", encoding="utf-8") as handle:
+                return int(json.load(handle)["recordCount"])
+        with path.open("r", encoding="utf-8") as handle:
+            graph_payload = json.load(handle)
+        graph = graph_payload.get("@graph", [])
+        return len(graph) if isinstance(graph, list) else 0
+
     files = []
     for path, media_type in formats.items():
         content = path.read_bytes()
@@ -185,12 +201,12 @@ def main() -> int:
                 "encodingFormat": media_type,
                 "byteSize": len(content),
                 "sha256": hashlib.sha256(content).hexdigest(),
-                "recordCount": len(rows),
+                "recordCount": record_count(path),
             }
         )
     manifest = {
         "schemaVersion": 1,
-        "name": "Integrity manifest for the bibliography data exports",
+        "name": "Integrity manifest for the machine-readable data exports",
         "dateModified": date.today().isoformat(),
         "algorithm": "SHA-256",
         "files": files,
