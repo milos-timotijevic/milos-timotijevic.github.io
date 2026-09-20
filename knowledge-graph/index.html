@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Граф знања и дигитална видљивост / Knowledge Graph and Digital Visibility</title>
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Улазна страница истраживачког графа знања која повезује кластере, приступне стране публикација, Wikidata, DOI, ORCID, Zenodo, библиотечке каталоге и научне агрегаторе.">
+  <meta name="description" content="Улазна страница истраживачког графа знања која повезује тематске кластере, приступне стране публикација, ентитете, историјске изворе, отворене податке и трајне научне идентификаторе.">
   <link rel="canonical" href="https://milos-timotijevic.github.io/knowledge-graph/">
   <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" title="Machine-readable knowledge graph">
+  <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld" title="Machine-readable entity and relation graph">
 
   <meta property="og:title" content="Граф знања и дигитална видљивост">
-  <meta property="og:description" content="Истраживачка мапа која повезује тематске кластере, публикације, отворене податке и трајне идентификаторе.">
+  <meta property="og:description" content="Истраживачка мапа која повезује тематске кластере, публикације, ентитете, изворе, отворене податке и трајне идентификаторе.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://milos-timotijevic.github.io/knowledge-graph/">
   <meta property="og:site_name" content="Miloš Timotijević — Academic Profile and Knowledge Graph">
@@ -18,7 +19,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Knowledge Graph and Digital Visibility">
-  <meta name="twitter:description" content="Research clusters, publication landing pages, open data and persistent scholarly identifiers.">
+  <meta name="twitter:description" content="Research clusters, publication landing pages, entity relations, open data and persistent scholarly identifiers.">
 
   <style>
     body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #222; background: #fff; }
@@ -89,7 +90,7 @@
     "sr",
     "en"
   ],
-  "description": "Улазна страница истраживачког графа знања која повезује кластере, приступне стране публикација, Wikidata, DOI, ORCID, Zenodo, библиотечке каталоге и научне агрегаторе.",
+  "description": "Улазна страница истраживачког графа знања која повезује тематске кластере, приступне стране публикација, ентитетски слој, историјске изворе, отворене податке и трајне научне идентификаторе.",
   "author": {
     "@type": "Person",
     "name": "Miloš Timotijević",
@@ -112,7 +113,14 @@
     "OpenAlex",
     "Google Scholar",
     "machine readability",
-    "scholarly communication"
+    "scholarly communication",
+    "entity graph",
+    "people",
+    "institutions",
+    "places",
+    "historical sources",
+    "relations",
+    "data provenance"
   ],
   "hasPart": [
     {
@@ -176,10 +184,18 @@
       "name": "Ентитетски граф истраживачког корпуса",
       "alternateName": "Entity Graph of the Research Corpus",
       "url": "https://milos-timotijevic.github.io/knowledge-graph/entities/",
-      "description": "Пилотски ентитетски слој који повезује публикације са личностима, установама и местима посредством изворно проверљивих односа."
+      "description": "Пилотски ентитетски слој који повезује публикације са личностима, установама, местима и историјским изворима посредством проверљивих односа."
+    },
+    {
+      "@type": "WebPage",
+      "name": "Ентитети и односи — пилотски Data слој",
+      "alternateName": "Entities and Relations — Pilot Data Layer",
+      "url": "https://milos-timotijevic.github.io/data/entities/",
+      "description": "Каталог и документација CSV и JSON-LD података ентитетског графа."
     }
   ],
-  "keywords": "knowledge graph, digital visibility, research clusters, landing pages, Wikidata, DOI, ORCID, Zenodo, OpenAlex, Google Scholar, scholarly visibility, machine readability, Miloš Timotijević, local modernity, symbolic power"
+  "keywords": "knowledge graph, entity graph, digital visibility, research clusters, landing pages, people, institutions, places, historical sources, relations, data provenance, Wikidata, DOI, ORCID, Zenodo, OpenAlex, Google Scholar, scholarly visibility, machine readability, Miloš Timotijević, local modernity, symbolic power",
+  "dateModified": "2026-09-20"
 }
   </script>
 </head>
@@ -195,9 +211,10 @@
 <p class="subtitle">Истраживачка мапа, приступне стране, отворени подаци и системи научне видљивости<br>
 <em lang="en">Research Map, Landing Pages, Open Data and Scholarly Visibility Systems</em></p>
 
-  <p> 
-    <a href="/knowledge-graph/method.html">Метод / Method</a> — како је изграђен граф знања, како се повезују публикације, кластери, идентификатори и спољни системи.
-    <span lang="en">How the knowledge graph is built and how publications, clusters, identifiers and external systems are connected.</span>
+  <p>
+    <a href="/knowledge-graph/method.html">Метод / Method</a> — како је изграђен граф знања, како се повезују публикације, кластери, идентификатори и спољни системи.<br>
+    <span lang="en">How the knowledge graph is built and how publications, clusters, identifiers and external systems are connected.</span><br>
+    <a href="../data/">Подаци / Data</a> · <a href="../data/entities/">Ентитети и односи — подаци / Entities and Relations — Data</a>
   </p>
 
 <section aria-labelledby="choose-research-route">
@@ -320,16 +337,18 @@
     </li>
   </ol>
 </details>
+</section>
 
 <section aria-labelledby="entity-layer-heading">
   <h2 id="entity-layer-heading">Ентитетски слој / <span lang="en">Entity Layer</span></h2>
   <article class="cluster-card">
     <h3><a href="entities/">Ентитетски граф истраживачког корпуса / <span lang="en">Entity Graph of the Research Corpus</span></a></h3>
-    <p>Тематски кластери показују истраживачке проблеме који повезују публикације. Ентитетски слој показује конкретне личности, установе и места која се појављују у радовима, као и проверљиве односе међу њима.</p>
-    <p lang="en">The thematic clusters show the research problems that connect publications. The entity layer identifies the people, institutions and places appearing in the works, together with verifiable relations among them.</p>
-    <p class="links"><a href="entities/">Отвори ентитетски граф / Open the Entity Graph</a></p>
+    <p>Тематски кластери показују истраживачке проблеме који повезују публикације. Ентитетски слој показује конкретне личности, установе, места и историјске изворе који се појављују у радовима, као и проверљиве односе међу њима.</p>
+    <p lang="en">The thematic clusters show the research problems that connect publications. The entity layer identifies the people, institutions, places and historical sources appearing in the works, together with verifiable relations among them.</p>
+    <p class="links"><a href="entities/">Отвори ентитетски граф / Open the Entity Graph</a><br>
+    <a href="../data/entities/">Подаци ентитетског слоја / Entity-layer Data</a><br>
+    <a href="../data/entities/entity-graph.jsonld" type="application/ld+json">entity-graph.jsonld</a></p>
   </article>
-</section>
 </section>
 
 <section>
@@ -414,7 +433,7 @@
       <a href="entities/"><g class="node data-node" tabindex="0">
         <rect x="275" y="665" width="400" height="70" rx="14" />
         <text x="475" y="694" text-anchor="middle">Ентитетски граф истраживачког корпуса</text>
-        <text x="475" y="716" text-anchor="middle" class="node-small">Entity Graph · people · institutions · places · relations</text>
+        <text x="475" y="716" text-anchor="middle" class="node-small">Entity Graph · people · institutions · places · sources · relations</text>
       </g></a>
 
       <a href="#core-identifiers"><g class="node data-node" tabindex="0">
@@ -424,8 +443,8 @@
     </svg>
   </div>
   <div class="graph-map-alt" role="note" aria-label="Текстуални опис визуелне мапе графа">
-    <p><strong>Текстуални опис визуелне мапе:</strong> граф полази од главне странице „Граф знања и дигитална видљивост”, затим води ка кровном истраживачком оквиру „Локална модерност и симболичка моћ у југоисточној Европи”, одатле ка седам тематских кластера и приступним странама публикација. Ентитетски граф повезује публикације са личностима, установама и местима, док спољни идентификатори омогућавају повезивање са другим научним системима.</p>
-    <p lang="en"><strong>Textual description of the visual map:</strong> the graph starts from the main page “Knowledge Graph and Digital Visibility”, then leads to the main research framework “Local Modernity and Symbolic Power in Southeast Europe”, seven thematic clusters and publication landing pages. The entity graph connects publications with people, institutions and places, while external identifiers provide links to other scholarly systems.</p>
+    <p><strong>Текстуални опис визуелне мапе:</strong> граф полази од главне странице „Граф знања и дигитална видљивост”, затим води ка кровном истраживачком оквиру „Локална модерност и симболичка моћ у југоисточној Европи”, одатле ка седам тематских кластера и приступним странама публикација. Ентитетски граф повезује публикације са личностима, установама, местима и историјским изворима, док спољни идентификатори омогућавају повезивање са другим научним системима.</p>
+    <p lang="en"><strong>Textual description of the visual map:</strong> the graph starts from the main page “Knowledge Graph and Digital Visibility”, then leads to the main research framework “Local Modernity and Symbolic Power in Southeast Europe”, seven thematic clusters and publication landing pages. The entity graph connects publications with people, institutions, places and historical sources, while external identifiers provide links to other scholarly systems.</p>
     <ul>
       <li><a href="research/local-modernity-symbolic-power.html">Кровни истраживачки оквир / Main Research Framework</a></li>
       <li><a href="research/cacak-local-modernity-case-study.html">Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity</a></li>
@@ -587,8 +606,13 @@
     <li><strong>Кровни истраживачки оквир / <span lang="en">Main Research Framework</span>:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155 — Local Modernity and Symbolic Power in Southeast Europe</a></li>
   </ul>
   <p>
-    <strong>Машински читљив извоз / Machine-readable export:</strong>
-    <a href="../data/knowledge-graph.jsonld" type="application/ld+json">knowledge-graph.jsonld</a>
+    <strong>Машински читљиви извози / Machine-readable exports:</strong><br>
+    <a href="../data/knowledge-graph.jsonld" type="application/ld+json">knowledge-graph.jsonld</a> — тематски и истраживачки слој / thematic and research layer<br>
+    <a href="../data/entities/entity-graph.jsonld" type="application/ld+json">entity-graph.jsonld</a> — ентитетски и релациони слој / entity and relation layer
+  </p>
+  <p>
+    <strong>Отворени подаци / Open Data:</strong>
+    <a href="../data/">Data</a> · <a href="../data/entities/">Entities and Relations</a>
   </p>
 </section>
 
