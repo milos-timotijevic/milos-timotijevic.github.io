@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="Речник података дигиталног научног корпуса Милоша Тимотијевића: структура CSV, JSON и JSON-LD извоза, DOI правила, Wikidata ставке, интегритет података, лиценца, цитирање и статус провере."
+    content="Речник података дигиталног научног корпуса Милоша Тимотијевића: публикације, личности, установе, места, историјски извори, односи, JSON-LD, DOI правила и интегритет података."
   >
 
   <link
@@ -215,8 +215,8 @@
       "sr",
       "en"
     ],
-    "dateModified": "2026-08-31",
-    "description": "Речник података дигиталног научног корпуса Милоша Тимотијевића: структура CSV, JSON и JSON-LD извоза, DOI правила, Wikidata ставке, интегритет података, лиценца, цитирање и статус провере.",
+    "dateModified": "2026-09-20",
+    "description": "Речник података дигиталног научног корпуса Милоша Тимотијевића: публикације, личности, установе, места, историјски извори, односи, JSON-LD, DOI правила и интегритет података.",
     "isPartOf": {
       "@id": "https://milos-timotijevic.github.io/#website"
     },
@@ -281,11 +281,11 @@
     <h1>Речник података / Data Dictionary</h1>
 
     <p class="subtitle">
-      Структура података, DOI правила, Wikidata ставке, интегритет,
+      Структура публикационог и ентитетског слоја, DOI правила, Wikidata ставке, интегритет,
       лиценца, цитирање и статус провере
       <br>
       <em>
-        Data Structure, DOI Rules, Wikidata Items, Integrity,
+        Publication and Entity Data Structure, DOI Rules, Wikidata Items, Integrity,
         License, Citation and Verification Status
       </em>
     </p>
@@ -294,7 +294,8 @@
       <p>
         Ова страна описује структуру отворених података дигиталног научног
         корпуса Милоша Тимотијевића. Речник објашњава значење колона и поља
-        у CSV, JSON и JSON-LD фајловима, разликовање DOI идентификатора,
+        у CSV, JSON и JSON-LD фајловима, укључујући публикације, личности,
+        установе, места, историјске изворе и проверљиве односе, разликовање DOI идентификатора,
         улогу Wikidata ставки, статусе провере, проверу интегритета,
         услове употребе и начин цитирања.
       </p>
@@ -313,7 +314,8 @@
       <p>
         This page describes the structure of the open data published as part
         of the digital scholarly corpus of Miloš Timotijević. It explains
-        the CSV, JSON and JSON-LD exports, DOI fields, Wikidata relations,
+        the CSV, JSON and JSON-LD exports, including publications, people,
+        institutions, places, historical sources and verifiable relations, DOI fields, Wikidata relations,
         verification status, data integrity, licensing and citation practice.
       </p>
 
@@ -437,6 +439,22 @@
             <a href="manifest.json" type="application/json">
               Преузми / Download
             </a>
+          </p>
+        </article>
+
+        <article class="data-card">
+          <h3>Ентитети и односи / Entities and Relations</h3>
+
+          <p>
+            Верзионисани слој који садржи <code>people.csv</code>,
+            <code>institutions.csv</code>, <code>places.csv</code>,
+            <code>sources.csv</code>, <code>relations.csv</code>,
+            <code>relation-types.csv</code>, <code>entity-graph.jsonld</code>
+            и <code>entity-manifest.json</code>.
+          </p>
+
+          <p>
+            <a href="entities/">Отвори документацију и преузимања / Open documentation and downloads</a>
           </p>
         </article>
 
@@ -1240,6 +1258,180 @@
       </p>
     </section>
 
+    <section id="entity-layer">
+      <h2>Ентитетски и релациони слој / Entity and Relation Layer</h2>
+
+      <p>
+        Верзија 0.2 повезује десет публикација са 34 личности, 26 установа,
+        26 места и 18 историјских извора посредством 259 односа и
+        контролисаног речника од 22 типа односа. Сви
+        <code>source_id</code> идентификатори у <code>relations.csv</code>
+        морају одговарати вредностима поља <code>id</code> у главном
+        <code>publications.csv</code>.
+      </p>
+
+      <p lang="en">
+        Version 0.2 connects ten publications with 34 people, 26 institutions,
+        26 places and 18 historical sources through 259 relations and a
+        controlled vocabulary of 22 relation types. Every
+        <code>source_id</code> in <code>relations.csv</code> must match an
+        <code>id</code> in the main <code>publications.csv</code> file.
+      </p>
+
+      <div class="note">
+        <p>
+          <strong>Два значења „извора”:</strong> у
+          <code>relations.csv</code>, <code>source_id</code> означава
+          публикацију која пружа доказни контекст за тврдњу. Насупрот томе,
+          ознаке <code>S001–S018</code> из <code>sources.csv</code>
+          представљају историјске изворе као самосталне ентитете графа.
+        </p>
+        <p lang="en">
+          <strong>Two meanings of “source”:</strong> in
+          <code>relations.csv</code>, <code>source_id</code> identifies the
+          publication providing the evidential context. By contrast,
+          <code>S001–S018</code> in <code>sources.csv</code> identify
+          historical sources modelled as graph entities in their own right.
+        </p>
+      </div>
+
+      <h3>Простори интерних идентификатора / Internal ID Spaces</h3>
+      <table>
+        <thead><tr><th scope="col">Облик</th><th scope="col">Ентитет</th><th scope="col">Правило</th></tr></thead>
+        <tbody>
+          <tr><td><code>P001…</code></td><td>Личност / Person</td><td>Стабилан <code>person_id</code>.</td></tr>
+          <tr><td><code>I001…</code></td><td>Установа / Institution</td><td>Стабилан <code>institution_id</code>.</td></tr>
+          <tr><td><code>PL001…</code></td><td>Место / Place</td><td>Стабилан <code>place_id</code>.</td></tr>
+          <tr><td><code>S001…</code></td><td>Историјски извор / Historical source</td><td>Стабилан <code>source_entity_id</code>; није публикациони <code>source_id</code>.</td></tr>
+          <tr><td><code>R001…</code></td><td>Однос / Relation</td><td>Стабилан <code>relation_id</code> појединачне тврдње.</td></tr>
+          <tr><td><code>RT001…</code></td><td>Тип односа / Relation type</td><td>Стабилан <code>relation_type_id</code> контролисаног предиката.</td></tr>
+          <tr><td><code>book-…</code>, <code>article-…</code>, <code>conference_paper-…</code></td><td>Публикација / Publication</td><td>Канонски <code>publications.id</code>; привремене ознаке <code>PUB…</code> нису дозвољене.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>people.csv</h3>
+      <p>Регистар личности обухваћених пилотом.</p>
+      <table>
+        <thead><tr><th scope="col">Поље</th><th scope="col">Значење</th></tr></thead>
+        <tbody>
+          <tr><td><code>person_id</code></td><td>Стабилни интерни ID личности.</td></tr>
+          <tr><td><code>name_sr</code>, <code>name_en</code></td><td>Нормализовано име на српском и енглеском.</td></tr>
+          <tr><td><code>birth</code>, <code>death</code></td><td>Година или датум рођења и смрти, када су проверени.</td></tr>
+          <tr><td><code>occupation_sr</code>, <code>occupation_en</code></td><td>Занимање или јавна улога.</td></tr>
+          <tr><td><code>wikidata</code>, <code>orcid</code></td><td>Проверени или кандидатски спољни идентификатори.</td></tr>
+          <tr><td><code>source_id</code></td><td>Канонски ID публикације из које је запис изведен.</td></tr>
+          <tr><td><code>evidence_page_pdf</code></td><td>Страница у коришћеном PDF издању.</td></tr>
+          <tr><td><code>evidence_note</code></td><td>Кратко образложење идентификације.</td></tr>
+          <tr><td><code>verification_status</code></td><td><code>verified</code>, <code>candidate</code> или <code>local</code>.</td></tr>
+          <tr><td><code>note</code></td><td>Додатна напомена о имену, идентитету или ограничењу.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>institutions.csv</h3>
+      <p>Регистар установа, организација и сакралних институција.</p>
+      <table>
+        <thead><tr><th scope="col">Поље</th><th scope="col">Значење</th></tr></thead>
+        <tbody>
+          <tr><td><code>institution_id</code></td><td>Стабилни интерни ID установе.</td></tr>
+          <tr><td><code>name_sr</code>, <code>name_en</code></td><td>Нормализовани називи.</td></tr>
+          <tr><td><code>institution_type_sr</code>, <code>institution_type_en</code></td><td>Тип установе на оба језика.</td></tr>
+          <tr><td><code>active_from</code>, <code>active_to</code></td><td>Познати временски оквир деловања.</td></tr>
+          <tr><td><code>historical_name_sr</code>, <code>current_name_sr</code></td><td>Историјски и савремени назив када се разликују.</td></tr>
+          <tr><td><code>wikidata</code>, <code>official_url</code></td><td>Спољни идентификатор и званична веб-адреса.</td></tr>
+          <tr><td><code>source_id</code>, <code>evidence_page_pdf</code>, <code>evidence_note</code></td><td>Публикациони доказ, место у PDF-у и образложење.</td></tr>
+          <tr><td><code>verification_status</code>, <code>note</code></td><td>Статус провере и додатна напомена.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>places.csv</h3>
+      <p>Регистар насеља, локалитета, меморијалних и сакралних простора.</p>
+      <table>
+        <thead><tr><th scope="col">Поље</th><th scope="col">Значење</th></tr></thead>
+        <tbody>
+          <tr><td><code>place_id</code></td><td>Стабилни интерни ID места.</td></tr>
+          <tr><td><code>name_sr</code>, <code>name_en</code></td><td>Нормализовани називи.</td></tr>
+          <tr><td><code>place_type_sr</code>, <code>place_type_en</code></td><td>Тип географског или меморијалног простора.</td></tr>
+          <tr><td><code>historical_names</code></td><td>Историјски и алтернативни називи.</td></tr>
+          <tr><td><code>country_code</code></td><td>Код државе, по правилу ISO 3166-1 alpha-2.</td></tr>
+          <tr><td><code>latitude</code>, <code>longitude</code></td><td>Географске координате у децималном формату.</td></tr>
+          <tr><td><code>wikidata</code>, <code>geonames</code></td><td>Wikidata и GeoNames идентификатори.</td></tr>
+          <tr><td><code>source_id</code>, <code>evidence_page_pdf</code>, <code>evidence_note</code></td><td>Публикациони доказ, место у PDF-у и образложење.</td></tr>
+          <tr><td><code>verification_status</code>, <code>note</code></td><td>Статус провере и додатна напомена.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>sources.csv</h3>
+      <p>Регистар историјских извора моделованих као ентитети.</p>
+      <table>
+        <thead><tr><th scope="col">Поље</th><th scope="col">Значење</th></tr></thead>
+        <tbody>
+          <tr><td><code>source_entity_id</code></td><td>Стабилни ID историјског извора, облика <code>S001…</code>.</td></tr>
+          <tr><td><code>title_sr</code>, <code>title_en</code></td><td>Нормализовани наслов извора.</td></tr>
+          <tr><td><code>source_type_sr</code>, <code>source_type_en</code></td><td>Тип извора на оба језика.</td></tr>
+          <tr><td><code>date_from</code>, <code>date_to</code></td><td>Временски распон настанка или излажења.</td></tr>
+          <tr><td><code>language</code></td><td>Језик извора.</td></tr>
+          <tr><td><code>place_of_publication_sr</code></td><td>Место објављивања, ако је применљиво.</td></tr>
+          <tr><td><code>preserving_institution_id</code></td><td><code>institution_id</code> установе која чува извор.</td></tr>
+          <tr><td><code>wikidata</code>, <code>issn</code></td><td>Спољни нормативни или серијски идентификатори.</td></tr>
+          <tr><td><code>source_id</code>, <code>evidence_page_pdf</code></td><td>Публикација-доказ и место у коришћеном PDF-у.</td></tr>
+          <tr><td><code>verification_status</code>, <code>note</code></td><td>Статус провере и додатна напомена.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>relations.csv</h3>
+      <p>Централна табела тврдњи у облику субјекат → однос → објекат.</p>
+      <table>
+        <thead><tr><th scope="col">Поље</th><th scope="col">Значење</th></tr></thead>
+        <tbody>
+          <tr><td><code>relation_id</code></td><td>Стабилни ID појединачне везе.</td></tr>
+          <tr><td><code>subject_id</code></td><td>ID ентитета од кога веза полази.</td></tr>
+          <tr><td><code>relation</code></td><td>Контролисани предикат из <code>relation-types.csv</code>.</td></tr>
+          <tr><td><code>object_id</code></td><td>ID ентитета ка коме је веза усмерена.</td></tr>
+          <tr><td><code>source_id</code></td><td>Канонски ID публикације која пружа доказни контекст.</td></tr>
+          <tr><td><code>evidence_page</code></td><td>Страница, распон страница или одељак публикације.</td></tr>
+          <tr><td><code>evidence_note</code></td><td>Кратко образложење тврдње.</td></tr>
+          <tr><td><code>confidence</code></td><td><code>high</code>, <code>medium</code> или <code>low</code>.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>relation-types.csv</h3>
+      <p>Контролисани речник предиката дозвољених у централној табели односа.</p>
+      <table>
+        <thead><tr><th scope="col">Поље</th><th scope="col">Значење</th></tr></thead>
+        <tbody>
+          <tr><td><code>relation_type_id</code></td><td>Стабилни ID типа односа.</td></tr>
+          <tr><td><code>relation</code></td><td>Канонски машински назив предиката.</td></tr>
+          <tr><td><code>label_sr</code>, <code>label_en</code></td><td>Читљиве ознаке на српском и енглеском.</td></tr>
+          <tr><td><code>definition_sr</code>, <code>definition_en</code></td><td>Нормативна дефиниција предиката.</td></tr>
+          <tr><td><code>subject_type</code>, <code>object_type</code></td><td>Дозвољене класе субјекта и објекта.</td></tr>
+          <tr><td><code>inverse_label_sr</code>, <code>inverse_label_en</code></td><td>Читљива ознака обрнутог смера.</td></tr>
+          <tr><td><code>symmetric</code></td><td>Да ли је однос симетричан.</td></tr>
+          <tr><td><code>time_applicability</code></td><td>Да ли однос може или мора имати временско ограничење.</td></tr>
+          <tr><td><code>source_id_required</code>, <code>evidence_required</code></td><td>Да ли су публикациони извор и доказна белешка обавезни.</td></tr>
+          <tr><td><code>status</code></td><td>Статус предиката у контролисаном речнику.</td></tr>
+          <tr><td><code>note</code></td><td>Правило употребе или ограничење.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>entity-graph.jsonld</h3>
+      <p>
+        Машински читљиви извоз верзије 0.2 садржи 396 чворова у
+        <code>@graph</code>: опис скупа, десет публикација, ентитете,
+        контролисане типове односа и 259 изворно заснованих тврдњи.
+        Стабилни <code>@id</code> повезује JSON-LD чворове са CSV табелама.
+      </p>
+
+      <h3>entity-manifest.json</h3>
+      <p>
+        Засебни манифест ентитетског слоја бележи верзију и обухват скупа,
+        као и <code>path</code>, <code>contentUrl</code>,
+        <code>encodingFormat</code>, <code>byteSize</code>,
+        <code>sha256</code> и <code>recordCount</code> за сваки од седам
+        ентитетских извоза. Код <code>entity-graph.jsonld</code>, број записа
+        означава број чворова у <code>@graph</code>.
+      </p>
+    </section>
+
     <section>
       <h2>Контролисане вредности</h2>
 
@@ -1295,8 +1487,39 @@
               индексу.
             </td>
           </tr>
+
+          <tr>
+            <td><code>verified</code></td>
+            <td>
+              Спољни идентификатор ентитета проверен је према
+              одговарајућем ауторитетском запису.
+            </td>
+          </tr>
+
+          <tr>
+            <td><code>candidate</code></td>
+            <td>
+              Подударање ентитета са спољним идентификатором је вероватно,
+              али захтева додатну ручну проверу.
+            </td>
+          </tr>
+
+          <tr>
+            <td><code>local</code></td>
+            <td>
+              Ентитет има стабилни интерни ID, али још нема потврђен
+              спољни ауторитетски идентификатор.
+            </td>
+          </tr>
         </tbody>
       </table>
+
+      <h3>Степен поузданости односа / Relation Confidence</h3>
+      <ul>
+        <li><code>high</code> — однос је непосредно и недвосмислено потврђен у наведеном изворном контексту;</li>
+        <li><code>medium</code> — однос је добро поткрепљен, али захтева интерпретативно повезивање или додатну проверу;</li>
+        <li><code>low</code> — однос је радна хипотеза и не треба га третирати као коначну тврдњу без ручне ревизије.</li>
+      </ul>
 
       <h3>Типови публикација</h3>
 
@@ -1527,7 +1750,9 @@
 
       <p>
         Git репозиторијум обезбеђује историју измена, док
-        <code>manifest.json</code> омогућава проверу да ли садржај
+        <code>manifest.json</code> за публикациони слој и
+        <code>entities/entity-manifest.json</code> за ентитетски слој
+        омогућавају проверу да ли садржај
         тренутно објављеног фајла одговара верзији за коју су
         израчунати величина и SHA-256 контролни збир.
       </p>
@@ -1537,7 +1762,8 @@
         прво исправка основних CSV података, затим регенерисање
         изведених JSON и JSON-LD фајлова, потом провера међусобне
         усклађености, а на крају регенерисање
-        <code>manifest.json</code>.
+        одговарајућег манифеста. Манифест се увек генерише последњи,
+        после коначног уписа свих контролисаних фајлова.
       </p>
     </section>
 
@@ -1555,7 +1781,7 @@
     </p>
 
     <p class="date-note">
-      Последње ажурирање: 31. август 2026.
+      Последње ажурирање: 20. септембар 2026. · Ентитетски слој 0.2.
     </p>
 
     <nav class="back-link" aria-label="Завршна навигација / Footer navigation">
