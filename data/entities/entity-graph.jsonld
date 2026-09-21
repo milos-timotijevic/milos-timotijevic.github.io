@@ -231,8 +231,8 @@
       ],
       "url": "https://milos-timotijevic.github.io/knowledge-graph/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2026-09-20",
-      "version": "0.2",
+      "dateModified": "2026-09-21",
+      "version": "0.3",
       "creator": "https://milos-timotijevic.github.io/#person",
       "distribution": [
         {
@@ -282,17 +282,17 @@
         {
           "@type": "PropertyValue",
           "name": "people",
-          "value": 34
+          "value": 49
         },
         {
           "@type": "PropertyValue",
           "name": "institutions",
-          "value": 26
+          "value": 30
         },
         {
           "@type": "PropertyValue",
           "name": "places",
-          "value": 26
+          "value": 29
         },
         {
           "@type": "PropertyValue",
@@ -302,7 +302,7 @@
         {
           "@type": "PropertyValue",
           "name": "relations",
-          "value": 259
+          "value": 321
         },
         {
           "@type": "PropertyValue",
@@ -312,259 +312,1477 @@
         {
           "@type": "PropertyValue",
           "name": "publications referenced",
-          "value": 10
+          "value": 20
         }
       ],
       "hasPart": [
-        "https://milos-timotijevic.github.io/data/entities/#P001",
-        "https://milos-timotijevic.github.io/data/entities/#P002",
-        "https://milos-timotijevic.github.io/data/entities/#P003",
-        "https://milos-timotijevic.github.io/data/entities/#P004",
-        "https://milos-timotijevic.github.io/data/entities/#P005",
-        "https://milos-timotijevic.github.io/data/entities/#P006",
-        "https://milos-timotijevic.github.io/data/entities/#P007",
-        "https://milos-timotijevic.github.io/data/entities/#P008",
-        "https://milos-timotijevic.github.io/data/entities/#P009",
-        "https://milos-timotijevic.github.io/data/entities/#P010",
-        "https://milos-timotijevic.github.io/data/entities/#P011",
-        "https://milos-timotijevic.github.io/data/entities/#P012",
-        "https://milos-timotijevic.github.io/data/entities/#P013",
-        "https://milos-timotijevic.github.io/data/entities/#P014",
-        "https://milos-timotijevic.github.io/data/entities/#P015",
-        "https://milos-timotijevic.github.io/data/entities/#P016",
-        "https://milos-timotijevic.github.io/data/entities/#P017",
-        "https://milos-timotijevic.github.io/data/entities/#P018",
-        "https://milos-timotijevic.github.io/data/entities/#P019",
-        "https://milos-timotijevic.github.io/data/entities/#P020",
-        "https://milos-timotijevic.github.io/data/entities/#P021",
-        "https://milos-timotijevic.github.io/data/entities/#P022",
-        "https://milos-timotijevic.github.io/data/entities/#P023",
-        "https://milos-timotijevic.github.io/data/entities/#P024",
-        "https://milos-timotijevic.github.io/data/entities/#P025",
-        "https://milos-timotijevic.github.io/data/entities/#P026",
-        "https://milos-timotijevic.github.io/data/entities/#I001",
-        "https://milos-timotijevic.github.io/data/entities/#I002",
-        "https://milos-timotijevic.github.io/data/entities/#I003",
-        "https://milos-timotijevic.github.io/data/entities/#I004",
-        "https://milos-timotijevic.github.io/data/entities/#I005",
-        "https://milos-timotijevic.github.io/data/entities/#I006",
-        "https://milos-timotijevic.github.io/data/entities/#I007",
-        "https://milos-timotijevic.github.io/data/entities/#I008",
-        "https://milos-timotijevic.github.io/data/entities/#I009",
-        "https://milos-timotijevic.github.io/data/entities/#I010",
-        "https://milos-timotijevic.github.io/data/entities/#I011",
-        "https://milos-timotijevic.github.io/data/entities/#I012",
-        "https://milos-timotijevic.github.io/data/entities/#I013",
-        "https://milos-timotijevic.github.io/data/entities/#I014",
-        "https://milos-timotijevic.github.io/data/entities/#I015",
-        "https://milos-timotijevic.github.io/data/entities/#PL001",
-        "https://milos-timotijevic.github.io/data/entities/#PL002",
-        "https://milos-timotijevic.github.io/data/entities/#PL003",
-        "https://milos-timotijevic.github.io/data/entities/#PL004",
-        "https://milos-timotijevic.github.io/data/entities/#PL005",
-        "https://milos-timotijevic.github.io/data/entities/#PL006",
-        "https://milos-timotijevic.github.io/data/entities/#PL007",
-        "https://milos-timotijevic.github.io/data/entities/#PL008",
-        "https://milos-timotijevic.github.io/data/entities/#PL009",
-        "https://milos-timotijevic.github.io/data/entities/#PL010",
-        "https://milos-timotijevic.github.io/data/entities/#PL011",
-        "https://milos-timotijevic.github.io/data/entities/#PL012",
-        "https://milos-timotijevic.github.io/data/entities/#PL013",
-        "https://milos-timotijevic.github.io/data/entities/#PL014",
-        "https://milos-timotijevic.github.io/data/entities/#PL015",
-        "https://milos-timotijevic.github.io/data/entities/#PL016",
-        "https://milos-timotijevic.github.io/data/entities/#PL017",
-        "https://milos-timotijevic.github.io/data/entities/#PL018",
-        "https://milos-timotijevic.github.io/data/entities/#PL019",
-        "https://milos-timotijevic.github.io/data/entities/#PL020",
-        "https://milos-timotijevic.github.io/data/entities/#S001",
-        "https://milos-timotijevic.github.io/data/entities/#S002",
-        "https://milos-timotijevic.github.io/data/entities/#S003",
-        "https://milos-timotijevic.github.io/data/entities/#S004",
-        "https://milos-timotijevic.github.io/data/entities/#S005",
-        "https://milos-timotijevic.github.io/data/entities/#S006",
-        "https://milos-timotijevic.github.io/data/entities/#S007",
-        "https://milos-timotijevic.github.io/data/entities/#S008",
-        "https://milos-timotijevic.github.io/data/entities/#S009",
-        "https://milos-timotijevic.github.io/data/entities/#S010",
-        "https://milos-timotijevic.github.io/data/entities/vocab#authorOf",
-        "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-        "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
-        "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-        "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
-        "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
-        "https://milos-timotijevic.github.io/data/entities/vocab#memberOf",
-        "https://milos-timotijevic.github.io/data/entities/vocab#heldOfficeIn",
-        "https://milos-timotijevic.github.io/data/entities/vocab#commanded",
-        "https://milos-timotijevic.github.io/data/entities/vocab#founded",
-        "https://milos-timotijevic.github.io/data/entities/vocab#restored",
-        "https://milos-timotijevic.github.io/data/entities/vocab#patronOf",
-        "https://milos-timotijevic.github.io/data/entities/vocab#visited",
-        "https://milos-timotijevic.github.io/data/entities/vocab#bornIn",
-        "https://milos-timotijevic.github.io/data/entities/vocab#diedAt",
-        "https://milos-timotijevic.github.io/data/entities/vocab#buriedAt",
-        "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
-        "https://milos-timotijevic.github.io/data/entities/vocab#preservesSource",
-        "https://milos-timotijevic.github.io/data/entities/vocab#commemorates",
-        "https://milos-timotijevic.github.io/data/entities/vocab#spouseOf",
-        "https://milos-timotijevic.github.io/data/entities/vocab#descendantOf",
-        "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
-        "https://milos-timotijevic.github.io/data/entities/#R001",
-        "https://milos-timotijevic.github.io/data/entities/#R002",
-        "https://milos-timotijevic.github.io/data/entities/#R003",
-        "https://milos-timotijevic.github.io/data/entities/#R004",
-        "https://milos-timotijevic.github.io/data/entities/#R005",
-        "https://milos-timotijevic.github.io/data/entities/#R006",
-        "https://milos-timotijevic.github.io/data/entities/#R007",
-        "https://milos-timotijevic.github.io/data/entities/#R008",
-        "https://milos-timotijevic.github.io/data/entities/#R009",
-        "https://milos-timotijevic.github.io/data/entities/#R010",
-        "https://milos-timotijevic.github.io/data/entities/#R011",
-        "https://milos-timotijevic.github.io/data/entities/#R012",
-        "https://milos-timotijevic.github.io/data/entities/#R013",
-        "https://milos-timotijevic.github.io/data/entities/#R014",
-        "https://milos-timotijevic.github.io/data/entities/#R015",
-        "https://milos-timotijevic.github.io/data/entities/#R016",
-        "https://milos-timotijevic.github.io/data/entities/#R017",
-        "https://milos-timotijevic.github.io/data/entities/#R018",
-        "https://milos-timotijevic.github.io/data/entities/#R019",
-        "https://milos-timotijevic.github.io/data/entities/#R020",
-        "https://milos-timotijevic.github.io/data/entities/#R021",
-        "https://milos-timotijevic.github.io/data/entities/#R022",
-        "https://milos-timotijevic.github.io/data/entities/#R023",
-        "https://milos-timotijevic.github.io/data/entities/#R024",
-        "https://milos-timotijevic.github.io/data/entities/#R025",
-        "https://milos-timotijevic.github.io/data/entities/#R026",
-        "https://milos-timotijevic.github.io/data/entities/#R027",
-        "https://milos-timotijevic.github.io/data/entities/#R028",
-        "https://milos-timotijevic.github.io/data/entities/#R029",
-        "https://milos-timotijevic.github.io/data/entities/#R030",
-        "https://milos-timotijevic.github.io/data/entities/#R031",
-        "https://milos-timotijevic.github.io/data/entities/#R032",
-        "https://milos-timotijevic.github.io/data/entities/#R033",
-        "https://milos-timotijevic.github.io/data/entities/#R034",
-        "https://milos-timotijevic.github.io/data/entities/#R035",
-        "https://milos-timotijevic.github.io/data/entities/#R036",
-        "https://milos-timotijevic.github.io/data/entities/#R037",
-        "https://milos-timotijevic.github.io/data/entities/#R038",
-        "https://milos-timotijevic.github.io/data/entities/#R039",
-        "https://milos-timotijevic.github.io/data/entities/#R040",
-        "https://milos-timotijevic.github.io/data/entities/#R041",
-        "https://milos-timotijevic.github.io/data/entities/#R042",
-        "https://milos-timotijevic.github.io/data/entities/#R043",
-        "https://milos-timotijevic.github.io/data/entities/#R044",
-        "https://milos-timotijevic.github.io/data/entities/#R045",
-        "https://milos-timotijevic.github.io/data/entities/#R046",
-        "https://milos-timotijevic.github.io/data/entities/#R047",
-        "https://milos-timotijevic.github.io/data/entities/#R048",
-        "https://milos-timotijevic.github.io/data/entities/#R049",
-        "https://milos-timotijevic.github.io/data/entities/#R050",
-        "https://milos-timotijevic.github.io/data/entities/#R051",
-        "https://milos-timotijevic.github.io/data/entities/#R052",
-        "https://milos-timotijevic.github.io/data/entities/#R053",
-        "https://milos-timotijevic.github.io/data/entities/#R054",
-        "https://milos-timotijevic.github.io/data/entities/#R055",
-        "https://milos-timotijevic.github.io/data/entities/#R056",
-        "https://milos-timotijevic.github.io/data/entities/#R057",
-        "https://milos-timotijevic.github.io/data/entities/#R058",
-        "https://milos-timotijevic.github.io/data/entities/#R059",
-        "https://milos-timotijevic.github.io/data/entities/#R060",
-        "https://milos-timotijevic.github.io/data/entities/#R061",
-        "https://milos-timotijevic.github.io/data/entities/#R062",
-        "https://milos-timotijevic.github.io/data/entities/#R063",
-        "https://milos-timotijevic.github.io/data/entities/#R064",
-        "https://milos-timotijevic.github.io/data/entities/#R065",
-        "https://milos-timotijevic.github.io/data/entities/#R066",
-        "https://milos-timotijevic.github.io/data/entities/#R067",
-        "https://milos-timotijevic.github.io/data/entities/#R068",
-        "https://milos-timotijevic.github.io/data/entities/#R069",
-        "https://milos-timotijevic.github.io/data/entities/#R070",
-        "https://milos-timotijevic.github.io/data/entities/#R071",
-        "https://milos-timotijevic.github.io/data/entities/#R072",
-        "https://milos-timotijevic.github.io/data/entities/#R073",
-        "https://milos-timotijevic.github.io/data/entities/#R074",
-        "https://milos-timotijevic.github.io/data/entities/#R075",
-        "https://milos-timotijevic.github.io/data/entities/#R076",
-        "https://milos-timotijevic.github.io/data/entities/#R077",
-        "https://milos-timotijevic.github.io/data/entities/#R078",
-        "https://milos-timotijevic.github.io/data/entities/#R079",
-        "https://milos-timotijevic.github.io/data/entities/#R080",
-        "https://milos-timotijevic.github.io/data/entities/#R081",
-        "https://milos-timotijevic.github.io/data/entities/#R082",
-        "https://milos-timotijevic.github.io/data/entities/#R083",
-        "https://milos-timotijevic.github.io/data/entities/#R084",
-        "https://milos-timotijevic.github.io/data/entities/#R085",
-        "https://milos-timotijevic.github.io/data/entities/#R086",
-        "https://milos-timotijevic.github.io/data/entities/#R087",
-        "https://milos-timotijevic.github.io/data/entities/#R088",
-        "https://milos-timotijevic.github.io/data/entities/#R089",
-        "https://milos-timotijevic.github.io/data/entities/#R090",
-        "https://milos-timotijevic.github.io/data/entities/#R091",
-        "https://milos-timotijevic.github.io/data/entities/#R092",
-        "https://milos-timotijevic.github.io/data/entities/#R093",
-        "https://milos-timotijevic.github.io/data/entities/#R094",
-        "https://milos-timotijevic.github.io/data/entities/#R095",
-        "https://milos-timotijevic.github.io/data/entities/#R096",
-        "https://milos-timotijevic.github.io/data/entities/#R097",
-        "https://milos-timotijevic.github.io/data/entities/#R098",
-        "https://milos-timotijevic.github.io/data/entities/#R099",
-        "https://milos-timotijevic.github.io/data/entities/#R100",
-        "https://milos-timotijevic.github.io/data/entities/#R101",
-        "https://milos-timotijevic.github.io/data/entities/#R102",
-        "https://milos-timotijevic.github.io/data/entities/#R103",
-        "https://milos-timotijevic.github.io/data/entities/#R104",
-        "https://milos-timotijevic.github.io/data/entities/#R105",
-        "https://milos-timotijevic.github.io/data/entities/#R106",
-        "https://milos-timotijevic.github.io/data/entities/#R107",
-        "https://milos-timotijevic.github.io/data/entities/#R108",
-        "https://milos-timotijevic.github.io/data/entities/#R109",
-        "https://milos-timotijevic.github.io/data/entities/#R110",
-        "https://milos-timotijevic.github.io/data/entities/#R111",
-        "https://milos-timotijevic.github.io/data/entities/#R112",
-        "https://milos-timotijevic.github.io/data/entities/#R113",
-        "https://milos-timotijevic.github.io/data/entities/#R114",
-        "https://milos-timotijevic.github.io/data/entities/#R115",
-        "https://milos-timotijevic.github.io/data/entities/#R116",
-        "https://milos-timotijevic.github.io/data/entities/#R117",
-        "https://milos-timotijevic.github.io/data/entities/#R118",
-        "https://milos-timotijevic.github.io/data/entities/#R119",
-        "https://milos-timotijevic.github.io/data/entities/#R120",
-        "https://milos-timotijevic.github.io/data/entities/#R121",
-        "https://milos-timotijevic.github.io/data/entities/#R122",
-        "https://milos-timotijevic.github.io/data/entities/#R123",
-        "https://milos-timotijevic.github.io/data/entities/#R124",
-        "https://milos-timotijevic.github.io/data/entities/#R125",
-        "https://milos-timotijevic.github.io/data/entities/#R126",
-        "https://milos-timotijevic.github.io/data/entities/#R127",
-        "https://milos-timotijevic.github.io/data/entities/#R128",
-        "https://milos-timotijevic.github.io/data/entities/#R129",
-        "https://milos-timotijevic.github.io/data/entities/#R130",
-        "https://milos-timotijevic.github.io/data/entities/#R131",
-        "https://milos-timotijevic.github.io/data/entities/#R132",
-        "https://milos-timotijevic.github.io/data/entities/#R133",
-        "https://milos-timotijevic.github.io/data/entities/#R134",
-        "https://milos-timotijevic.github.io/data/entities/#R135",
-        "https://milos-timotijevic.github.io/data/entities/#R136",
-        "https://milos-timotijevic.github.io/data/entities/#R137",
-        "https://milos-timotijevic.github.io/data/entities/#R138",
-        "https://milos-timotijevic.github.io/data/entities/#R139",
-        "https://milos-timotijevic.github.io/data/entities/#R140",
-        "https://milos-timotijevic.github.io/data/entities/#R141",
-        "https://milos-timotijevic.github.io/data/entities/#R142",
-        "https://milos-timotijevic.github.io/data/entities/#R143",
-        "https://milos-timotijevic.github.io/data/entities/#R144",
-        "https://milos-timotijevic.github.io/data/entities/#R145",
-        "https://milos-timotijevic.github.io/data/entities/#R146",
-        "https://milos-timotijevic.github.io/data/entities/#R147",
-        "https://milos-timotijevic.github.io/data/entities/#R148",
-        "https://milos-timotijevic.github.io/data/entities/#R149",
-        "https://milos-timotijevic.github.io/data/entities/#R150",
-        "https://milos-timotijevic.github.io/data/entities/#R151",
-        "https://milos-timotijevic.github.io/data/entities/#R152",
-        "https://milos-timotijevic.github.io/data/entities/#R153",
-        "https://milos-timotijevic.github.io/data/entities/#R154",
-        "https://milos-timotijevic.github.io/data/entities/#R155",
-        "https://milos-timotijevic.github.io/data/entities/#R156"
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P021"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P026"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#authorOf"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#memberOf"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#heldOfficeIn"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#commanded"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#founded"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#restored"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#patronOf"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#visited"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#bornIn"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#diedAt"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#buriedAt"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#preservesSource"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#commemorates"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#spouseOf"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#descendantOf"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P032"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I021"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I026"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL021"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL026"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R021"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R026"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R032"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R044"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R046"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R047"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R048"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R049"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R051"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R052"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R053"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R054"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R055"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R056"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R057"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R058"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R059"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R060"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R062"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R063"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R066"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R067"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R068"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R069"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R070"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R071"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R073"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R074"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R075"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R076"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R077"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R079"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R080"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R083"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R084"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R085"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R086"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R087"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R088"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R089"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R090"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R091"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R092"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R093"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R094"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R095"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R096"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R097"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R098"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R099"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R100"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R101"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R102"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R103"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R104"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R105"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R106"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R107"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R108"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R109"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R110"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R112"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R113"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R114"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R115"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R116"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R117"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R118"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R119"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R120"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R121"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R122"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R123"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R124"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R125"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R126"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R127"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R128"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R129"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R130"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R131"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R132"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R133"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R134"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R135"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R136"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R137"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R138"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R139"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R140"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R141"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R142"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R143"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R144"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R145"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R146"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R147"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R148"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R149"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R150"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R151"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R152"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R153"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R154"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R155"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R156"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R157"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R158"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R159"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R160"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R161"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R162"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R163"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R164"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R165"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R166"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R167"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R168"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R169"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R170"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R171"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R172"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R173"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R174"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R175"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R176"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R177"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R178"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R179"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R180"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R181"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R182"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R183"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R184"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R185"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R186"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R187"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R188"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R189"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R190"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R191"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R192"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R193"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R194"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R195"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R196"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R197"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R198"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R199"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R200"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R201"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R202"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R203"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R204"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R205"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R206"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R207"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R208"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R209"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R210"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R211"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R212"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R213"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R214"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R215"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R216"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R217"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R218"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R219"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R220"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R221"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R222"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R223"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R224"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R225"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R226"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R227"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R228"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R229"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R230"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R231"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R232"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R233"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R234"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R235"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R236"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R237"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R238"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R239"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R240"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R241"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R242"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R243"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R244"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R245"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R246"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R247"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R248"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R249"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R250"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R251"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R252"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R253"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R254"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R255"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R256"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R257"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R258"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R259"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P044"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P046"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P047"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P048"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P049"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2013-spomen-kosturnica-centralni-trg-cacak-1945-1955"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2013-cacak-in-the-era-of-socialism-1944-1990-photography-as-a-representatio"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R260"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R261"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R262"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R263"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R264"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R265"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R266"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R267"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R268"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R269"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R270"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R271"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R272"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R273"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R274"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R275"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R276"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R277"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R278"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R279"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R280"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R281"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R282"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R283"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R284"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R285"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R286"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R287"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R288"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R289"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R290"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R291"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R292"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R293"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R294"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R295"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R296"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R297"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R298"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R299"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R300"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R301"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R302"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R303"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R304"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R305"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R306"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R307"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R308"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R309"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R310"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R311"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R312"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R313"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R314"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R315"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R316"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R317"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R318"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R319"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R320"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R321"
+        }
       ]
     },
     {
@@ -11695,6 +12913,2314 @@
       "evidencePage": "PDF 20",
       "evidenceNote": {
         "@value": "Чачак кроз споменик, Меморијал и Галерију трајно обликује јавно сећање на Надежду Петровић.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P035",
+      "@type": "Person",
+      "identifier": "P035",
+      "internalId": "P035",
+      "name": [
+        {
+          "@value": "Драгомир Минић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragomir Minić",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1888",
+      "deathYear": "1964",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 2",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P036",
+      "@type": "Person",
+      "identifier": "P036",
+      "internalId": "P036",
+      "name": [
+        {
+          "@value": "Арсеније Ћендић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Arsenije Ćendić",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1899",
+      "deathYear": "1973",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 3",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P037",
+      "@type": "Person",
+      "identifier": "P037",
+      "internalId": "P037",
+      "name": [
+        {
+          "@value": "Радојко Крунић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Radojko Krunić",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1914",
+      "deathYear": "1987",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 3",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P038",
+      "@type": "Person",
+      "identifier": "P038",
+      "internalId": "P038",
+      "name": [
+        {
+          "@value": "Вучко Милошевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vučko Milošević",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1919",
+      "deathYear": "1990",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 4",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P039",
+      "@type": "Person",
+      "identifier": "P039",
+      "internalId": "P039",
+      "name": [
+        {
+          "@value": "Михаило Златић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Mihailo Zlatić",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1911",
+      "deathYear": "1977",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 5",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P040",
+      "@type": "Person",
+      "identifier": "P040",
+      "internalId": "P040",
+      "name": [
+        {
+          "@value": "Милорад Никшић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milorad Nikšić",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1927",
+      "deathYear": "1998",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 6",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P041",
+      "@type": "Person",
+      "identifier": "P041",
+      "internalId": "P041",
+      "name": [
+        {
+          "@value": "Милош Милосављевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Miloš Milosavljević",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1932",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 6",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P042",
+      "@type": "Person",
+      "identifier": "P042",
+      "internalId": "P042",
+      "name": [
+        {
+          "@value": "Драгић Јовановић – Трале",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragić Jovanović – Trale",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1926",
+      "deathYear": "1998",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 7",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P043",
+      "@type": "Person",
+      "identifier": "P043",
+      "internalId": "P043",
+      "name": [
+        {
+          "@value": "Велисав Богићевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Velisav Bogićević",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1931",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 9",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P044",
+      "@type": "Person",
+      "identifier": "P044",
+      "internalId": "P044",
+      "name": [
+        {
+          "@value": "Александар Вишњић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Aleksandar Višnjić",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1933",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 10",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P045",
+      "@type": "Person",
+      "identifier": "P045",
+      "internalId": "P045",
+      "name": [
+        {
+          "@value": "Милован Гавриловић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milovan Gavrilović",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1939",
+      "deathYear": "2008",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 11",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P046",
+      "@type": "Person",
+      "identifier": "P046",
+      "internalId": "P046",
+      "name": [
+        {
+          "@value": "Милош Урошевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Miloš Urošević",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1942",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 12",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P047",
+      "@type": "Person",
+      "identifier": "P047",
+      "internalId": "P047",
+      "name": [
+        {
+          "@value": "Родољуб Петровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Rodoljub Petrović",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1940",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 13",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P048",
+      "@type": "Person",
+      "identifier": "P048",
+      "internalId": "P048",
+      "name": [
+        {
+          "@value": "Велимир Илић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Velimir Ilić",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1951",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 15",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P049",
+      "@type": "Person",
+      "identifier": "P049",
+      "internalId": "P049",
+      "name": [
+        {
+          "@value": "Велимир Станојевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Velimir Stanojević",
+          "@language": "en"
+        }
+      ],
+      "birthYear": "1964",
+      "occupationLabel": [
+        {
+          "@value": "председник Општине Чачак; политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "president of the Municipality of Čačak; politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "sourceEvidencePage": "PDF 17",
+      "sourceEvidenceNote": {
+        "@value": "Име, године живота и функција потврђени у биографском одељку публикације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетски идентификатор није претпостављен; потребна је засебна провера пре допуне Wikidata поља.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I027",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I027",
+      "internalId": "I027",
+      "name": [
+        {
+          "@value": "Предузеће „Слобода – Чачак”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sloboda – Čačak Enterprise",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "предузеће војне индустрије",
+          "@language": "sr"
+        },
+        {
+          "@value": "defence-industry enterprise",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1948",
+      "historicalName": {
+        "@value": "Слобода – Чачак",
+        "@language": "sr"
+      },
+      "currentName": {
+        "@value": "Слобода Чачак а.д.",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958",
+      "sourceEvidencePage": "PDF 23",
+      "sourceEvidenceNote": {
+        "@value": "Публикација наводи да је предузеће званично основано 10. јула 1948.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Спољни ауторитетски идентификатор није унет без независне провере.",
+        "@language": "sr"
+      },
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I028",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I028",
+      "internalId": "I028",
+      "name": [
+        {
+          "@value": "Хидроелектрана „Овчар Бања”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ovčar Banja Hydroelectric Power Plant",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "хидроелектрана",
+          "@language": "sr"
+        },
+        {
+          "@value": "hydroelectric power plant",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1954",
+      "historicalName": {
+        "@value": "ХЕ Овчар Бања",
+        "@language": "sr"
+      },
+      "currentName": {
+        "@value": "ХЕ Овчар Бања",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "sourceEvidencePage": "PDF 31",
+      "sourceEvidenceNote": {
+        "@value": "Рад обрађује изградњу и пуштање у рад хидроелектране.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Ауторитетска допуна остаје одвојен задатак.",
+        "@language": "sr"
+      },
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL028"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I029",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I029",
+      "internalId": "I029",
+      "name": [
+        {
+          "@value": "Хидроелектрана „Међувршје”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Međuvršje Hydroelectric Power Plant",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "хидроелектрана",
+          "@language": "sr"
+        },
+        {
+          "@value": "hydroelectric power plant",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1955",
+      "historicalName": {
+        "@value": "ХЕ Међувршје",
+        "@language": "sr"
+      },
+      "currentName": {
+        "@value": "ХЕ Међувршје",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "sourceEvidencePage": "PDF 31",
+      "sourceEvidenceNote": {
+        "@value": "Рад обрађује изградњу и почетак рада хидроелектране.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Година означава пуштање првог генератора у рад.",
+        "@language": "sr"
+      },
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL029"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I030",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I030",
+      "internalId": "I030",
+      "name": [
+        {
+          "@value": "Технички ремонтни завод Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Technical Overhaul Institute Čačak",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "војно ремонтно предузеће",
+          "@language": "sr"
+        },
+        {
+          "@value": "military maintenance enterprise",
+          "@language": "en"
+        }
+      ],
+      "activeFrom": "1953",
+      "historicalName": {
+        "@value": "Технички ремонтни завод – Чачак",
+        "@language": "sr"
+      },
+      "currentName": {
+        "@value": "Технички ремонтни завод Чачак",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "sourceEvidencePage": "PDF 17",
+      "sourceEvidenceNote": {
+        "@value": "У раду је наведен међу кључним новим индустријским погонима, са годином оснивања 1953.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Спољни ауторитетски идентификатор није претпостављен.",
+        "@language": "sr"
+      },
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL027",
+      "@type": "Place",
+      "identifier": "PL027",
+      "internalId": "PL027",
+      "name": [
+        {
+          "@value": "Благоевград",
+          "@language": "sr"
+        },
+        {
+          "@value": "Blagoevgrad",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "historicalName": [
+        {
+          "@value": "Горња Џумаја",
+          "@language": "sr"
+        }
+      ],
+      "addressCountry": "BG",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 1",
+      "sourceEvidenceNote": {
+        "@value": "Град је један од два основна компаративна случаја монографије.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Координате и спољни идентификатори остављени су празни до засебне ауторитетске провере.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL028",
+      "@type": "Place",
+      "identifier": "PL028",
+      "internalId": "PL028",
+      "name": [
+        {
+          "@value": "Овчар Бања",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ovčar Banja",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "бањско насеље",
+          "@language": "sr"
+        },
+        {
+          "@value": "spa settlement",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "sourceEvidencePage": "PDF 31",
+      "sourceEvidenceNote": {
+        "@value": "Место је непосредно повезано са градилиштем и хидроелектраном Овчар Бања.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Не мешати насеље са хидроелектраном I017.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL029",
+      "@type": "Place",
+      "identifier": "PL029",
+      "internalId": "PL029",
+      "name": [
+        {
+          "@value": "Међувршје",
+          "@language": "sr"
+        },
+        {
+          "@value": "Međuvršje",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "насеље",
+          "@language": "sr"
+        },
+        {
+          "@value": "settlement",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "sourceEvidencePage": "PDF 31",
+      "sourceEvidenceNote": {
+        "@value": "Место је непосредно повезано са градилиштем и хидроелектраном Међувршје.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Не мешати насеље са хидроелектраном I018.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "@type": "CreativeWork",
+      "identifier": "article-2009-predsednici-opstine-cacak-1944-2010",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P044"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P046"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P047"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P048"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P049"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "@type": "CreativeWork",
+      "identifier": "article-2009-prvi-gradjanin-male-varosi",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P044"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P046"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "@type": "CreativeWork",
+      "identifier": "article-2010-industrijalizacija-cacka-1944-1956",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL029"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I030"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2013-spomen-kosturnica-centralni-trg-cacak-1945-1955",
+      "@type": "CreativeWork",
+      "identifier": "article-2013-spomen-kosturnica-centralni-trg-cacak-1945-1955",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "@type": "CreativeWork",
+      "identifier": "book-2012-balkan-city",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL027"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "@type": "CreativeWork",
+      "identifier": "book-chapter-2007-grad-u-unutrasnjosti",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2013-cacak-in-the-era-of-socialism-1944-1990-photography-as-a-representatio",
+      "@type": "CreativeWork",
+      "identifier": "catalogue-2013-cacak-in-the-era-of-socialism-1944-1990-photography-as-a-representatio",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "@type": "CreativeWork",
+      "identifier": "conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "@type": "CreativeWork",
+      "identifier": "conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL029"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I029"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958",
+      "@type": "CreativeWork",
+      "identifier": "conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I027"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R260",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R260",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R261",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R261",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2013-cacak-in-the-era-of-socialism-1944-1990-photography-as-a-representatio",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2013-cacak-in-the-era-of-socialism-1944-1990-photography-as-a-representatio",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R262",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R262",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R263",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R263",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R264",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R264",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2013-spomen-kosturnica-centralni-trg-cacak-1945-1955",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2013-spomen-kosturnica-centralni-trg-cacak-1945-1955",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R265",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R265",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "evidencePage": "PDF 23",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R266",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R266",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958",
+      "evidencePage": "PDF 19",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R267",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R267",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 8",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R268",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R268",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 10",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R269",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R269",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Чачак је непосредни простор анализе, потврђен насловом или сажетком публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R270",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R270",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Благоевград је други компаративни град наведен у наслову монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R271",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R271",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "evidencePage": "PDF 23; PDF 31",
+      "evidenceNote": {
+        "@value": "Место је део просторног оквира изградње хидроелектрана.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R272",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R272",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "evidencePage": "PDF 23; PDF 31",
+      "evidenceNote": {
+        "@value": "Место је део просторног оквира изградње хидроелектрана.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R273",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R273",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "evidencePage": "PDF 23; PDF 31",
+      "evidenceNote": {
+        "@value": "Место је део просторног оквира изградње хидроелектрана.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R274",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R274",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "evidencePage": "PDF 23; PDF 31",
+      "evidenceNote": {
+        "@value": "Хидроелектрана је непосредни предмет рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R275",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R275",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "evidencePage": "PDF 23; PDF 31",
+      "evidenceNote": {
+        "@value": "Хидроелектрана је непосредни предмет рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R276",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R276",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 15–17",
+      "evidenceNote": {
+        "@value": "Место је обрађено у делу о хидроенергетској инфраструктури индустријализације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R277",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R277",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 15–17",
+      "evidenceNote": {
+        "@value": "Место је обрађено у делу о хидроенергетској инфраструктури индустријализације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R278",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R278",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 15–17",
+      "evidenceNote": {
+        "@value": "Место је обрађено у делу о хидроенергетској инфраструктури индустријализације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R279",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R279",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 15–17",
+      "evidenceNote": {
+        "@value": "Установа или предузеће обрађено је као носилац индустријализације Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R280",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R280",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 15–17",
+      "evidenceNote": {
+        "@value": "Установа или предузеће обрађено је као носилац индустријализације Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R281",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R281",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 15–17",
+      "evidenceNote": {
+        "@value": "Установа или предузеће обрађено је као носилац индустријализације Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R282",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R282",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 15–17",
+      "evidenceNote": {
+        "@value": "Установа или предузеће обрађено је као носилац индустријализације Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R283",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R283",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958",
+      "evidencePage": "PDF 19; PDF 23",
+      "evidenceNote": {
+        "@value": "Предузеће „Слобода” је непосредни предмет публикације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R284",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R284",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Општина Чачак је непосредни институционални оквир анализе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R285",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R285",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Општина Чачак је непосредни институционални оквир анализе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R286",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R286",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P035",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R287",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R287",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R288",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R288",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R289",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R289",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P038",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 4",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R290",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R290",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P039",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 5",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R291",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R291",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 6",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R292",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R292",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P041",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 6",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R293",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R293",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P042",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 7",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R294",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R294",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P043",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 9",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R295",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R295",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P044",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 10",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R296",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R296",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P045",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R297",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R297",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P046",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 12",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R298",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R298",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P047",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 13",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R299",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R299",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P048",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 15",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R300",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R300",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P049",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-predsednici-opstine-cacak-1944-2010",
+      "evidencePage": "PDF 17",
+      "evidenceNote": {
+        "@value": "Публикација садржи засебну биографску јединицу о председнику Општине Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R301",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R301",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P035",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R302",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R302",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R303",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R303",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R304",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R304",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P038",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R305",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R305",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P039",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R306",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R306",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R307",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R307",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P041",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R308",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R308",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P042",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R309",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R309",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P043",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R310",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R310",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P044",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R311",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R311",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P045",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R312",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R312",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P046",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "pp. 235–268 (print)",
+      "evidenceNote": {
+        "@value": "Личност припада анализираној локалној елити председника општине у доба социјализма.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R313",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R313",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Народни музеј Чачак наведен је као издавач публикације или матичног часописа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R314",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R314",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2013-cacak-in-the-era-of-socialism-1944-1990-photography-as-a-representatio",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2013-cacak-in-the-era-of-socialism-1944-1990-photography-as-a-representatio",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Народни музеј Чачак наведен је као издавач публикације или матичног часописа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R315",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R315",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2009-prvi-gradjanin-male-varosi",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Народни музеј Чачак наведен је као издавач публикације или матичног часописа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R316",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R316",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Народни музеј Чачак наведен је као издавач публикације или матичног часописа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R317",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R317",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2013-spomen-kosturnica-centralni-trg-cacak-1945-1955",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2013-spomen-kosturnica-centralni-trg-cacak-1945-1955",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Народни музеј Чачак наведен је као издавач публикације или матичног часописа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R318",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R318",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I027",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958",
+      "evidencePage": "PDF 19; PDF 23",
+      "evidenceNote": {
+        "@value": "Предузеће је основано и делује у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R319",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R319",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I028",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "evidencePage": "PDF 31",
+      "evidenceNote": {
+        "@value": "Хидроелектрана је везана за простор Овчар Бање.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R320",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R320",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I029",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+      "evidencePage": "PDF 31",
+      "evidenceNote": {
+        "@value": "Хидроелектрана је везана за простор Међувршја.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R321",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R321",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I030",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2010-industrijalizacija-cacka-1944-1956",
+      "evidencePage": "PDF 17",
+      "evidenceNote": {
+        "@value": "Технички ремонтни завод је наведен као чачанско предузеће.",
         "@language": "sr"
       },
       "confidence": "high"
