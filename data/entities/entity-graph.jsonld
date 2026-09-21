@@ -232,7 +232,7 @@
       "url": "https://milos-timotijevic.github.io/knowledge-graph/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "dateModified": "2026-09-21",
-      "version": "0.3",
+      "version": "0.4",
       "creator": "https://milos-timotijevic.github.io/#person",
       "distribution": [
         {
@@ -282,27 +282,27 @@
         {
           "@type": "PropertyValue",
           "name": "people",
-          "value": 49
+          "value": 54
         },
         {
           "@type": "PropertyValue",
           "name": "institutions",
-          "value": 30
+          "value": 46
         },
         {
           "@type": "PropertyValue",
           "name": "places",
-          "value": 29
+          "value": 35
         },
         {
           "@type": "PropertyValue",
           "name": "sources",
-          "value": 18
+          "value": 20
         },
         {
           "@type": "PropertyValue",
           "name": "relations",
-          "value": 321
+          "value": 437
         },
         {
           "@type": "PropertyValue",
@@ -312,7 +312,7 @@
         {
           "@type": "PropertyValue",
           "name": "publications referenced",
-          "value": 20
+          "value": 27
         }
       ],
       "hasPart": [
@@ -1782,6 +1782,462 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#R321"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P051"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P052"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P053"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P054"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I032"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I044"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I046"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL032"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R322"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R323"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R324"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R325"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R326"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R327"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R328"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R329"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R330"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R331"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R332"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R333"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R334"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R335"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R336"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R337"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R338"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R339"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R340"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R341"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R342"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R343"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R344"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R345"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R346"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R347"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R348"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R349"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R350"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R351"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R352"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R353"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R354"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R355"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R356"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R357"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R358"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R359"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R360"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R361"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R362"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R363"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R364"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R365"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R366"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R367"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R368"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R369"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R370"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R371"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R372"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R373"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R374"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R375"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R376"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R377"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R378"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R379"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R380"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R381"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R382"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R383"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R384"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R385"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R386"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R387"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R388"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R389"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R390"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R391"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R392"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R393"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R394"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R395"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R396"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R397"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R398"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R399"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R400"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R401"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R402"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R403"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R404"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R405"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R406"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R407"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R408"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R409"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R410"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R411"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R412"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R413"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R414"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R415"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R416"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R417"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R418"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R419"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R420"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R421"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R422"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R423"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R424"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R425"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R426"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R427"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R428"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R429"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R430"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R431"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R432"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R433"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R434"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R435"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R436"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R437"
         }
       ]
     },
@@ -15221,6 +15677,3595 @@
       "evidencePage": "PDF 17",
       "evidenceNote": {
         "@value": "Технички ремонтни завод је наведен као чачанско предузеће.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P050",
+      "@type": "Person",
+      "identifier": "P050",
+      "internalId": "P050",
+      "name": [
+        {
+          "@value": "Радивоје Бојовић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Radivoje Bojović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "историчар и музејски кустос",
+          "@language": "sr"
+        },
+        {
+          "@value": "historian and museum curator",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "sourceEvidencePage": "24",
+      "sourceEvidenceNote": {
+        "@value": "Наведен као кустос Историјског одељења и аутор сталне музејске поставке.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Спољни ауторитетски идентификатор није унет без посебне провере.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P051",
+      "@type": "Person",
+      "identifier": "P051",
+      "internalId": "P051",
+      "name": [
+        {
+          "@value": "Страцимир Завидовић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Stracimir Zavidović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "српски велики жупан",
+          "@language": "sr"
+        },
+        {
+          "@value": "Serbian grand župan",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "sourceEvidencePage": "20",
+      "sourceEvidenceNote": {
+        "@value": "Повезан са средњовековном Богородицом Градачком, претходницом данашњег храма у Чачку.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Хронолошке податке и нормативни запис треба накнадно проверити.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P052",
+      "@type": "Person",
+      "identifier": "P052",
+      "internalId": "P052",
+      "name": [
+        {
+          "@value": "Никифор Максимовић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nikifor Maksimović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "епископ жички",
+          "@language": "sr"
+        },
+        {
+          "@value": "Bishop of Žiča",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "sourceEvidencePage": "46–47",
+      "sourceEvidenceNote": {
+        "@value": "Обрађен у вези са обновом храма и црквеним наслеђем Чачка.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Спољни ауторитетски идентификатор није унет без посебне провере.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P053",
+      "@type": "Person",
+      "identifier": "P053",
+      "internalId": "P053",
+      "name": [
+        {
+          "@value": "Јован Курсула",
+          "@language": "sr"
+        },
+        {
+          "@value": "Jovan Kursula",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "устанички војвода",
+          "@language": "sr"
+        },
+        {
+          "@value": "Serbian revolutionary commander",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "sourceEvidencePage": "3",
+      "sourceEvidenceNote": {
+        "@value": "Личност је представљена у сталној поставци цртежом, сликом и биографским контекстом.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "birthYear": "1768",
+      "deathYear": "1813"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P054",
+      "@type": "Person",
+      "identifier": "P054",
+      "internalId": "P054",
+      "name": [
+        {
+          "@value": "Милан Обреновић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milan Obrenović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "устанички војвода",
+          "@language": "sr"
+        },
+        {
+          "@value": "Serbian revolutionary commander",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "sourceEvidencePage": "3",
+      "sourceEvidenceNote": {
+        "@value": "Личност је представљена у сталној поставци портретом и документима.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "birthYear": "1767",
+      "deathYear": "1810",
+      "description": {
+        "@value": "Не мешати са краљем Миланом I Обреновићем (P013).",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I031",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I031",
+      "internalId": "I031",
+      "name": [
+        {
+          "@value": "Конак господара Јована Обреновића",
+          "@language": "sr"
+        },
+        {
+          "@value": "Residence of Master Jovan Obrenović",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "историјска грађевина и музејски простор",
+          "@language": "sr"
+        },
+        {
+          "@value": "historic residence and museum venue",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Конак господара Јована Обреновића",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "sourceEvidencePage": "1",
+      "sourceEvidenceNote": {
+        "@value": "Место сталне поставке „Устанци и ратови 1804–1941”.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I032",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I032",
+      "internalId": "I032",
+      "name": [
+        {
+          "@value": "Историјско одељење Народног музеја Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "History Department of the National Museum Čačak",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "музејско одељење",
+          "@language": "sr"
+        },
+        {
+          "@value": "museum department",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Историјско одељење Народног музеја Чачак",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "sourceEvidencePage": "8–19",
+      "sourceEvidenceNote": {
+        "@value": "Основни предмет рада о баштињењу и структури сталне поставке.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I033",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I033",
+      "internalId": "I033",
+      "name": [
+        {
+          "@value": "Манастир Благовештење",
+          "@language": "sr"
+        },
+        {
+          "@value": "Blagoveštenje Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастир",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastery",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Благовештење",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "15–18",
+      "sourceEvidenceNote": {
+        "@value": "Један од манастира Овчарско-кабларске клисуре обрађених у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I034",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I034",
+      "internalId": "I034",
+      "name": [
+        {
+          "@value": "Манастир Никоље",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nikolje Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастир",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastery",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Никоље",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "15–18",
+      "sourceEvidenceNote": {
+        "@value": "Један од манастира Овчарско-кабларске клисуре обрађених у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I035",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I035",
+      "internalId": "I035",
+      "name": [
+        {
+          "@value": "Манастир Сретење",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sretenje Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастир",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastery",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Сретење",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "15–18",
+      "sourceEvidenceNote": {
+        "@value": "Један од манастира Овчарско-кабларске клисуре обрађених у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I036",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I036",
+      "internalId": "I036",
+      "name": [
+        {
+          "@value": "Манастир Света Тројица",
+          "@language": "sr"
+        },
+        {
+          "@value": "Holy Trinity Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастир",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastery",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Света Тројица",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "15–18",
+      "sourceEvidenceNote": {
+        "@value": "Један од манастира Овчарско-кабларске клисуре обрађених у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I037",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I037",
+      "internalId": "I037",
+      "name": [
+        {
+          "@value": "Манастир Преображење",
+          "@language": "sr"
+        },
+        {
+          "@value": "Preobraženje Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастир",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastery",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Преображење",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "17–18",
+      "sourceEvidenceNote": {
+        "@value": "Један од манастира Овчарско-кабларске клисуре обрађених у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I038",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I038",
+      "internalId": "I038",
+      "name": [
+        {
+          "@value": "Манастир Ваведење",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vavedenje Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастир",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastery",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Ваведење",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "17–18",
+      "sourceEvidenceNote": {
+        "@value": "Један од манастира Овчарско-кабларске клисуре обрађених у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I039",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I039",
+      "internalId": "I039",
+      "name": [
+        {
+          "@value": "Манастир Вазнесење",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vaznesenje Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастир",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastery",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Вазнесење",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "17–18",
+      "sourceEvidenceNote": {
+        "@value": "Један од манастира Овчарско-кабларске клисуре обрађених у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I040",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I040",
+      "internalId": "I040",
+      "name": [
+        {
+          "@value": "Манастир Успење",
+          "@language": "sr"
+        },
+        {
+          "@value": "Uspenje Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастир",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastery",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Успење",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "17–18",
+      "sourceEvidenceNote": {
+        "@value": "Један од манастира Овчарско-кабларске клисуре обрађених у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I041",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I041",
+      "internalId": "I041",
+      "name": [
+        {
+          "@value": "Манастир Јовање",
+          "@language": "sr"
+        },
+        {
+          "@value": "Jovanje Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастир",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastery",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Јовање",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "17–18",
+      "sourceEvidenceNote": {
+        "@value": "Један од манастира Овчарско-кабларске клисуре обрађених у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I042",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I042",
+      "internalId": "I042",
+      "name": [
+        {
+          "@value": "Манастир Илиње",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ilinje Monastery",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "манастирски комплекс",
+          "@language": "sr"
+        },
+        {
+          "@value": "monastic complex",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Манастир Илиње",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "17–18",
+      "sourceEvidenceNote": {
+        "@value": "Сакрални комплекс у Овчарско-кабларској клисури обрађен у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I043",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I043",
+      "internalId": "I043",
+      "name": [
+        {
+          "@value": "Црква Савиње",
+          "@language": "sr"
+        },
+        {
+          "@value": "Savinje Church",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "црква",
+          "@language": "sr"
+        },
+        {
+          "@value": "church",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Црква Савиње",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "17–18",
+      "sourceEvidenceNote": {
+        "@value": "Сакрални локалитет у Овчарско-кабларској клисури обрађен у монографији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I044",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I044",
+      "internalId": "I044",
+      "name": [
+        {
+          "@value": "Народни музеј Ужице",
+          "@language": "sr"
+        },
+        {
+          "@value": "National Museum Užice",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "музеј",
+          "@language": "sr"
+        },
+        {
+          "@value": "museum",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Народни музеј Ужице",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "sourceEvidencePage": "3",
+      "sourceEvidenceNote": {
+        "@value": "Музеј из чије су збирке позајмљени предмети за сталну поставку.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I045",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I045",
+      "internalId": "I045",
+      "name": [
+        {
+          "@value": "Народна библиотека Србије",
+          "@language": "sr"
+        },
+        {
+          "@value": "National Library of Serbia",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "национална библиотека",
+          "@language": "sr"
+        },
+        {
+          "@value": "national library",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Народна библиотека Србије",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "sourceEvidencePage": "3",
+      "sourceEvidenceNote": {
+        "@value": "Установа из чије је грађе репродукован цртеж „Шанац Чачак”.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I046",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I046",
+      "internalId": "I046",
+      "name": [
+        {
+          "@value": "Државни архив Србије",
+          "@language": "sr"
+        },
+        {
+          "@value": "State Archives of Serbia",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "државни архив",
+          "@language": "sr"
+        },
+        {
+          "@value": "state archive",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Државни архив Србије",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "sourceEvidencePage": "3–4",
+      "sourceEvidenceNote": {
+        "@value": "Установа која чува Збирку Мите Петровића и документа коришћена у поставци.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL030",
+      "@type": "Place",
+      "identifier": "PL030",
+      "internalId": "PL030",
+      "name": [
+        {
+          "@value": "Каблар",
+          "@language": "sr"
+        },
+        {
+          "@value": "Kablar",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "планина",
+          "@language": "sr"
+        },
+        {
+          "@value": "mountain",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "15–22",
+      "sourceEvidenceNote": {
+        "@value": "Планина која образује северну страну Овчарско-кабларске клисуре.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL031",
+      "@type": "Place",
+      "identifier": "PL031",
+      "internalId": "PL031",
+      "name": [
+        {
+          "@value": "Овчар",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ovčar",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "планина",
+          "@language": "sr"
+        },
+        {
+          "@value": "mountain",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "15–22",
+      "sourceEvidenceNote": {
+        "@value": "Планина која образује јужну страну Овчарско-кабларске клисуре.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL032",
+      "@type": "Place",
+      "identifier": "PL032",
+      "internalId": "PL032",
+      "name": [
+        {
+          "@value": "Западна Морава",
+          "@language": "sr"
+        },
+        {
+          "@value": "West Morava",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "река",
+          "@language": "sr"
+        },
+        {
+          "@value": "river",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "sourceEvidencePage": "17",
+      "sourceEvidenceNote": {
+        "@value": "Река која протиче кроз Овчарско-кабларску клисуру.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL033",
+      "@type": "Place",
+      "identifier": "PL033",
+      "internalId": "PL033",
+      "name": [
+        {
+          "@value": "Парменац",
+          "@language": "sr"
+        },
+        {
+          "@value": "Parmenac",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "село",
+          "@language": "sr"
+        },
+        {
+          "@value": "village",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "sourceEvidencePage": "3",
+      "sourceEvidenceNote": {
+        "@value": "Локалитет код Чачка поменут уз споменик непознатог устаника.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL034",
+      "@type": "Place",
+      "identifier": "PL034",
+      "internalId": "PL034",
+      "name": [
+        {
+          "@value": "Бањица",
+          "@language": "sr"
+        },
+        {
+          "@value": "Banjica",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "село",
+          "@language": "sr"
+        },
+        {
+          "@value": "village",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "sourceEvidencePage": "3",
+      "sourceEvidenceNote": {
+        "@value": "Место порекла Лазара Стоврага, поменуто у опису музеалије.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL035",
+      "@type": "Place",
+      "identifier": "PL035",
+      "internalId": "PL035",
+      "name": [
+        {
+          "@value": "Јежевица",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ježevica",
+          "@language": "en"
+        }
+      ],
+      "placeType": [
+        {
+          "@value": "село",
+          "@language": "sr"
+        },
+        {
+          "@value": "village",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "sourceEvidencePage": "54",
+      "sourceEvidenceNote": {
+        "@value": "Насеље и сакрални локалитет у чачанском крају.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S019",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S019",
+      "internalId": "S019",
+      "name": [
+        {
+          "@value": "Фототека Народног музеја Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Photographic Collection of the National Museum Čačak",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "музејска фототека",
+          "@language": "sr"
+        },
+        {
+          "@value": "museum photographic collection",
+          "@language": "en"
+        }
+      ],
+      "preservingInstitution": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "sourceEvidencePage": "2–6",
+      "verificationStatus": "source_verified_repository",
+      "description": {
+        "@value": "Фотографска грађа представља основни изворни корпус каталога „Албум старог Чачка”.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S020",
+      "@type": [
+        "CreativeWork",
+        "kg:Source"
+      ],
+      "identifier": "S020",
+      "internalId": "S020",
+      "name": [
+        {
+          "@value": "Збирка Мите Петровића",
+          "@language": "sr"
+        },
+        {
+          "@value": "Mita Petrović Collection",
+          "@language": "en"
+        }
+      ],
+      "sourceType": [
+        {
+          "@value": "архивска збирка",
+          "@language": "sr"
+        },
+        {
+          "@value": "archival collection",
+          "@language": "en"
+        }
+      ],
+      "preservingInstitution": "https://milos-timotijevic.github.io/data/entities/#I046",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "sourceEvidencePage": "3–4",
+      "verificationStatus": "source_verified_repository",
+      "description": {
+        "@value": "Из збирке су коришћене копије тапија и докумената у сталној поставци.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "@type": "CreativeWork",
+      "identifier": "book-2008-kulturna-riznica-cacka",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I043"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P051"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P052"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "@type": "CreativeWork",
+      "identifier": "book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I032"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P027"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S019"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "@type": "CreativeWork",
+      "identifier": "article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I032"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P050"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S017"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "@type": "CreativeWork",
+      "identifier": "book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL032"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P051"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P052"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "@type": "CreativeWork",
+      "identifier": "article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I032"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I044"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I046"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL034"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P053"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P054"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S020"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "@type": "CreativeWork",
+      "identifier": "catalogue-2010-album-of-old-cacak-1870-1941",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I031"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S019"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "@type": "CreativeWork",
+      "identifier": "book-2012-ok-manastiri",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I043"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL032"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P051"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P052"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I025"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R322",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R322",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 14–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R323",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R323",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 14–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R324",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R324",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R325",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R325",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R326",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R326",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R327",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R327",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R328",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R328",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R329",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R329",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I035",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R330",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R330",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R331",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R331",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R332",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R332",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I038",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R333",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R333",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I039",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R334",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R334",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R335",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R335",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I041",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R336",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R336",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I042",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R337",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R337",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I043",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–132",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R338",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R338",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–140",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R339",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R339",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–140",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R340",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R340",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P005",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–140",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R341",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R341",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P006",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–140",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R342",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R342",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–140",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R343",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R343",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P051",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–140",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R344",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R344",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P052",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 45–140",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R345",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R345",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2008-kulturna-riznica-cacka",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Импресум наводи Народни музеј Чачак као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R346",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R346",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 5–94",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R347",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R347",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 5–94",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R348",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R348",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 5–94",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R349",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R349",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I032",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 5–94",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R350",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R350",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 5–33",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R351",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R351",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 5–33",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R352",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R352",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 24–94",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R353",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R353",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 24–94",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R354",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R354",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S017",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 5–60",
+      "evidenceNote": {
+        "@value": "Историја установе реконструисана је на основу музејске архивске грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R355",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R355",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 28",
+      "evidenceNote": {
+        "@value": "Публикација користи музејску фототеку као документарну грађу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R356",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R356",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Импресум наводи Народни музеј Чачак као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R357",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R357",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "evidencePage": "PDF 8–19",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R358",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R358",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "evidencePage": "PDF 8–19",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R359",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R359",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I032",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "evidencePage": "PDF 8–19",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R360",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R360",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "evidencePage": "PDF 8–19",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R361",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R361",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "evidencePage": "PDF 11–18",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R362",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R362",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S017",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "evidencePage": "PDF 8–19",
+      "evidenceNote": {
+        "@value": "Рад анализира документацију и историју Историјског одељења.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R363",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R363",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "evidencePage": "PDF 1–6",
+      "evidenceNote": {
+        "@value": "Рад је објављен у Зборнику радова Народног музеја Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R364",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R364",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 5–124",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R365",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R365",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 5–124",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R366",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R366",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 5–122",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R367",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R367",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL032",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 5–122",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R368",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R368",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 20–47",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R369",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R369",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P051",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 20–47",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R370",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R370",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P052",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 20–47",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R371",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R371",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 7",
+      "evidenceNote": {
+        "@value": "Импресум наводи Народни музеј Чачак као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R372",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R372",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–4",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R373",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R373",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–4",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R374",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R374",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I032",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–4",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R375",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R375",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I044",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–4",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R376",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R376",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I045",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–4",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R377",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R377",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I046",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–4",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R378",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R378",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R379",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R379",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R380",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R380",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R381",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R381",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R382",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R382",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 2–5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R383",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R383",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P005",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 2–5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R384",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R384",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P006",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 2–5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R385",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R385",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P053",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 2–5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R386",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R386",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P054",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 2–5",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R387",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R387",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S017",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1–13",
+      "evidenceNote": {
+        "@value": "Рад користи архиву Народног музеја за реконструкцију развоја поставке.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R388",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R388",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S020",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 3–4",
+      "evidenceNote": {
+        "@value": "Документи из Збирке Мите Петровића репродуковани су у поставци.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R389",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R389",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Рад је објављен у Зборнику радова Народног музеја Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R390",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R390",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "evidencePage": "PDF 2–34",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R391",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R391",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "evidencePage": "PDF 2–34",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R392",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R392",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "evidencePage": "PDF 4–331",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R393",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R393",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "evidencePage": "PDF 4–331",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R394",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R394",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "evidencePage": "PDF 2–6",
+      "evidenceNote": {
+        "@value": "Каталог је заснован на историјским фотографијама као основном изворном корпусу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R395",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R395",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Импресум наводи Народни музеј Чачак као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R396",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R396",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R397",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R397",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R398",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R398",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R399",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R399",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R400",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R400",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I035",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R401",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R401",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R402",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R402",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R403",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R403",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I038",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R404",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R404",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I039",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R405",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R405",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R406",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R406",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I041",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R407",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R407",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I042",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R408",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R408",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I043",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11–53",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R409",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R409",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–22",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R410",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R410",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–22",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R411",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R411",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–22",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R412",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R412",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–22",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R413",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R413",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL032",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–22",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R414",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R414",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 38–57",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R415",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R415",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 38–57",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R416",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R416",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P051",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 38–57",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R417",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R417",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P052",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 38–57",
+      "evidenceNote": {
+        "@value": "Публикација непосредно обрађује ентитет као значајан део теме.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R418",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R418",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Импресум наводи Народни музеј Чачак као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R419",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R419",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Импресум наводи ЈП Службени гласник као саиздавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R420",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R420",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I031",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 1",
+      "evidenceNote": {
+        "@value": "Конак Јована Обреновића налази се у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R421",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R421",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I032",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+      "evidencePage": "PDF 8",
+      "evidenceNote": {
+        "@value": "Историјско одељење припада Народном музеју у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R422",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R422",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I033",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R423",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R423",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I034",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R424",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R424",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I035",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R425",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R425",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I036",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R426",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R426",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I037",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R427",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R427",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I038",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R428",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R428",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I039",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R429",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R429",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I040",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R430",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R430",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I041",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R431",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R431",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I042",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R432",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R432",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I043",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-ok-manastiri",
+      "evidencePage": "PDF 15–18",
+      "evidenceNote": {
+        "@value": "Сакрални комплекс је смештен у Овчарско-кабларској клисури.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R433",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R433",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I044",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Народни музеј Ужице је музејска установа у Ужицу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R434",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R434",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I045",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Народна библиотека Србије налази се у Београду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R435",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R435",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I046",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 3–4",
+      "evidenceNote": {
+        "@value": "Државни архив Србије налази се у Београду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R436",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R436",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#preservesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#catalogue-2010-album-of-old-cacak-1870-1941",
+      "evidencePage": "PDF 2–6",
+      "evidenceNote": {
+        "@value": "Народни музеј Чачак чува фототеку коришћену за каталог.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R437",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R437",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I046",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#preservesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S020",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+      "evidencePage": "PDF 3–4",
+      "evidenceNote": {
+        "@value": "Државни архив Србије чува Збирку Мите Петровића.",
         "@language": "sr"
       },
       "confidence": "high"
