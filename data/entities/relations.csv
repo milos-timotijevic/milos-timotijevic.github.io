@@ -320,119 +320,106 @@ R318,I027,locatedIn,PL002,conference_paper-2025-osnivanje-rad-preduzeca-sloboda-
 R319,I028,locatedIn,PL028,conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura,PDF 31,Хидроелектрана је везана за простор Овчар Бање.,high
 R320,I029,locatedIn,PL029,conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura,PDF 31,Хидроелектрана је везана за простор Међувршја.,high
 R321,I030,locatedIn,PL002,article-2010-industrijalizacija-cacka-1944-1956,PDF 17,Технички ремонтни завод је наведен као чачанско предузеће.,high
-R322,book-2008-kulturna-riznica-cacka,concernsPlace,PL002,book-2008-kulturna-riznica-cacka,PDF 14–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R323,book-2008-kulturna-riznica-cacka,concernsPlace,PL016,book-2008-kulturna-riznica-cacka,PDF 14–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R324,book-2008-kulturna-riznica-cacka,concernsInstitution,I001,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R325,book-2008-kulturna-riznica-cacka,concernsInstitution,I009,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R326,book-2008-kulturna-riznica-cacka,concernsInstitution,I031,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R327,book-2008-kulturna-riznica-cacka,concernsInstitution,I033,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R328,book-2008-kulturna-riznica-cacka,concernsInstitution,I034,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R329,book-2008-kulturna-riznica-cacka,concernsInstitution,I035,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R330,book-2008-kulturna-riznica-cacka,concernsInstitution,I036,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R331,book-2008-kulturna-riznica-cacka,concernsInstitution,I037,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R332,book-2008-kulturna-riznica-cacka,concernsInstitution,I038,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R333,book-2008-kulturna-riznica-cacka,concernsInstitution,I039,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R334,book-2008-kulturna-riznica-cacka,concernsInstitution,I040,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R335,book-2008-kulturna-riznica-cacka,concernsInstitution,I041,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R336,book-2008-kulturna-riznica-cacka,concernsInstitution,I042,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R337,book-2008-kulturna-riznica-cacka,concernsInstitution,I043,book-2008-kulturna-riznica-cacka,PDF 45–132,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R338,book-2008-kulturna-riznica-cacka,concernsPerson,P001,book-2008-kulturna-riznica-cacka,PDF 45–140,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R339,book-2008-kulturna-riznica-cacka,concernsPerson,P002,book-2008-kulturna-riznica-cacka,PDF 45–140,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R340,book-2008-kulturna-riznica-cacka,concernsPerson,P005,book-2008-kulturna-riznica-cacka,PDF 45–140,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R341,book-2008-kulturna-riznica-cacka,concernsPerson,P006,book-2008-kulturna-riznica-cacka,PDF 45–140,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R342,book-2008-kulturna-riznica-cacka,concernsPerson,P027,book-2008-kulturna-riznica-cacka,PDF 45–140,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R343,book-2008-kulturna-riznica-cacka,concernsPerson,P051,book-2008-kulturna-riznica-cacka,PDF 45–140,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R344,book-2008-kulturna-riznica-cacka,concernsPerson,P052,book-2008-kulturna-riznica-cacka,PDF 45–140,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R345,book-2008-kulturna-riznica-cacka,publishedBy,I001,book-2008-kulturna-riznica-cacka,PDF 2,Импресум наводи Народни музеј Чачак као издавача.,high
-R346,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsInstitution,I001,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–94,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R347,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsInstitution,I002,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–94,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R348,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsInstitution,I031,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–94,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R349,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsInstitution,I032,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–94,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R350,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsPlace,PL002,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–33,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R351,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsPlace,PL016,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–33,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R352,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsPerson,P050,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 24–94,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R353,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsPerson,P027,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 24–94,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R354,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,usesSource,S017,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–60,Историја установе реконструисана је на основу музејске архивске грађе.,high
-R355,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,usesSource,S019,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 28,Публикација користи музејску фототеку као документарну грађу.,high
-R356,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,publishedBy,I001,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 2,Импресум наводи Народни музеј Чачак као издавача.,high
-R357,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsInstitution,I001,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8–19,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R358,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsInstitution,I031,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8–19,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R359,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsInstitution,I032,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8–19,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R360,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsPlace,PL002,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8–19,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R361,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsPerson,P050,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 11–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R362,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,usesSource,S017,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8–19,Рад анализира документацију и историју Историјског одељења.,high
-R363,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,publishedBy,I001,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 1–6,Рад је објављен у Зборнику радова Народног музеја Чачак.,high
-R364,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsInstitution,I009,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 5–124,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R365,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsInstitution,I001,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 5–124,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R366,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPlace,PL002,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 5–122,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R367,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPlace,PL032,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 5–122,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R368,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P002,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 20–47,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R369,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P051,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 20–47,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R370,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P052,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 20–47,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R371,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,publishedBy,I001,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 7,Импресум наводи Народни музеј Чачак као издавача.,high
-R372,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsInstitution,I001,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R373,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsInstitution,I031,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R374,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsInstitution,I032,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R375,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsInstitution,I044,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R376,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsInstitution,I045,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R377,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsInstitution,I046,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R378,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPlace,PL002,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R379,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPlace,PL003,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R380,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPlace,PL033,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R381,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPlace,PL034,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R382,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P001,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R383,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P005,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R384,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P006,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R385,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P053,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R386,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P054,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R387,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,usesSource,S017,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–13,Рад користи архиву Народног музеја за реконструкцију развоја поставке.,high
-R388,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,usesSource,S020,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 3–4,Документи из Збирке Мите Петровића репродуковани су у поставци.,high
-R389,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,publishedBy,I001,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1,Рад је објављен у Зборнику радова Народног музеја Чачак.,high
-R390,catalogue-2010-album-of-old-cacak-1870-1941,concernsInstitution,I001,catalogue-2010-album-of-old-cacak-1870-1941,PDF 2–34,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R391,catalogue-2010-album-of-old-cacak-1870-1941,concernsInstitution,I031,catalogue-2010-album-of-old-cacak-1870-1941,PDF 2–34,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R392,catalogue-2010-album-of-old-cacak-1870-1941,concernsPlace,PL002,catalogue-2010-album-of-old-cacak-1870-1941,PDF 4–331,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R393,catalogue-2010-album-of-old-cacak-1870-1941,concernsPlace,PL016,catalogue-2010-album-of-old-cacak-1870-1941,PDF 4–331,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R394,catalogue-2010-album-of-old-cacak-1870-1941,usesSource,S019,catalogue-2010-album-of-old-cacak-1870-1941,PDF 2–6,Каталог је заснован на историјским фотографијама као основном изворном корпусу.,high
-R395,catalogue-2010-album-of-old-cacak-1870-1941,publishedBy,I001,catalogue-2010-album-of-old-cacak-1870-1941,PDF 2,Импресум наводи Народни музеј Чачак као издавача.,high
-R396,book-2012-ok-manastiri,concernsInstitution,I001,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R397,book-2012-ok-manastiri,concernsInstitution,I025,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R398,book-2012-ok-manastiri,concernsInstitution,I033,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R399,book-2012-ok-manastiri,concernsInstitution,I034,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R400,book-2012-ok-manastiri,concernsInstitution,I035,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R401,book-2012-ok-manastiri,concernsInstitution,I036,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R402,book-2012-ok-manastiri,concernsInstitution,I037,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R403,book-2012-ok-manastiri,concernsInstitution,I038,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R404,book-2012-ok-manastiri,concernsInstitution,I039,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R405,book-2012-ok-manastiri,concernsInstitution,I040,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R406,book-2012-ok-manastiri,concernsInstitution,I041,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R407,book-2012-ok-manastiri,concernsInstitution,I042,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R408,book-2012-ok-manastiri,concernsInstitution,I043,book-2012-ok-manastiri,PDF 11–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R409,book-2012-ok-manastiri,concernsPlace,PL016,book-2012-ok-manastiri,PDF 15–22,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R410,book-2012-ok-manastiri,concernsPlace,PL028,book-2012-ok-manastiri,PDF 15–22,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R411,book-2012-ok-manastiri,concernsPlace,PL030,book-2012-ok-manastiri,PDF 15–22,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R412,book-2012-ok-manastiri,concernsPlace,PL031,book-2012-ok-manastiri,PDF 15–22,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R413,book-2012-ok-manastiri,concernsPlace,PL032,book-2012-ok-manastiri,PDF 15–22,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R414,book-2012-ok-manastiri,concernsPerson,P002,book-2012-ok-manastiri,PDF 38–57,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R415,book-2012-ok-manastiri,concernsPerson,P003,book-2012-ok-manastiri,PDF 38–57,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R416,book-2012-ok-manastiri,concernsPerson,P051,book-2012-ok-manastiri,PDF 38–57,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R417,book-2012-ok-manastiri,concernsPerson,P052,book-2012-ok-manastiri,PDF 38–57,Публикација непосредно обрађује ентитет као значајан део теме.,high
-R418,book-2012-ok-manastiri,publishedBy,I001,book-2012-ok-manastiri,PDF 11,Импресум наводи Народни музеј Чачак као издавача.,high
-R419,book-2012-ok-manastiri,publishedBy,I025,book-2012-ok-manastiri,PDF 11,Импресум наводи ЈП Службени гласник као саиздавача.,high
-R420,I031,locatedIn,PL002,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1,Конак Јована Обреновића налази се у Чачку.,high
-R421,I032,locatedIn,PL002,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8,Историјско одељење припада Народном музеју у Чачку.,high
-R422,I033,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R423,I034,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R424,I035,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R425,I036,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R426,I037,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R427,I038,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R428,I039,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R429,I040,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R430,I041,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R431,I042,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R432,I043,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
-R433,I044,locatedIn,PL009,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 3,Народни музеј Ужице је музејска установа у Ужицу.,high
-R434,I045,locatedIn,PL004,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 3,Народна библиотека Србије налази се у Београду.,high
-R435,I046,locatedIn,PL004,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 3–4,Државни архив Србије налази се у Београду.,high
-R436,I001,preservesSource,S019,catalogue-2010-album-of-old-cacak-1870-1941,PDF 2–6,Народни музеј Чачак чува фототеку коришћену за каталог.,high
-R437,I046,preservesSource,S020,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 3–4,Државни архив Србије чува Збирку Мите Петровића.,high
+R322,book-2008-kulturna-riznica-cacka,concernsPlace,PL002,book-2008-kulturna-riznica-cacka,PDF 14–21,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R323,book-2008-kulturna-riznica-cacka,concernsPlace,PL016,book-2008-kulturna-riznica-cacka,PDF 66–76,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R324,book-2008-kulturna-riznica-cacka,concernsPlace,PL033,book-2008-kulturna-riznica-cacka,PDF 54,Јежевица је обрађена као насеље и сакрални локалитет чачанског краја.,high
+R325,book-2008-kulturna-riznica-cacka,concernsInstitution,I001,book-2008-kulturna-riznica-cacka,PDF 14–21,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R326,book-2008-kulturna-riznica-cacka,concernsInstitution,I009,book-2008-kulturna-riznica-cacka,PDF 45–47,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R327,book-2008-kulturna-riznica-cacka,concernsInstitution,I031,book-2008-kulturna-riznica-cacka,PDF 87–93,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R328,book-2008-kulturna-riznica-cacka,concernsInstitution,I033,book-2008-kulturna-riznica-cacka,PDF 66–75,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R329,book-2008-kulturna-riznica-cacka,concernsInstitution,I034,book-2008-kulturna-riznica-cacka,PDF 74–81,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R330,book-2008-kulturna-riznica-cacka,concernsInstitution,I035,book-2008-kulturna-riznica-cacka,PDF 85–94,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R331,book-2008-kulturna-riznica-cacka,concernsInstitution,I036,book-2008-kulturna-riznica-cacka,PDF 69–79,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R332,book-2008-kulturna-riznica-cacka,concernsInstitution,I037,book-2008-kulturna-riznica-cacka,PDF 118,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R333,book-2008-kulturna-riznica-cacka,concernsInstitution,I038,book-2008-kulturna-riznica-cacka,PDF 75–81,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R334,book-2008-kulturna-riznica-cacka,concernsInstitution,I039,book-2008-kulturna-riznica-cacka,PDF 118,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R335,book-2008-kulturna-riznica-cacka,concernsInstitution,I040,book-2008-kulturna-riznica-cacka,PDF 118,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R336,book-2008-kulturna-riznica-cacka,concernsInstitution,I041,book-2008-kulturna-riznica-cacka,PDF 69–75,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R337,book-2008-kulturna-riznica-cacka,concernsInstitution,I042,book-2008-kulturna-riznica-cacka,PDF 118,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R338,book-2008-kulturna-riznica-cacka,concernsInstitution,I043,book-2008-kulturna-riznica-cacka,PDF 118,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R339,book-2008-kulturna-riznica-cacka,concernsPerson,P001,book-2008-kulturna-riznica-cacka,PDF 85–91,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R340,book-2008-kulturna-riznica-cacka,concernsPerson,P002,book-2008-kulturna-riznica-cacka,PDF 66–75,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R341,book-2008-kulturna-riznica-cacka,concernsPerson,P005,book-2008-kulturna-riznica-cacka,PDF 68–75,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R342,book-2008-kulturna-riznica-cacka,concernsPerson,P006,book-2008-kulturna-riznica-cacka,PDF 85–93,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R343,book-2008-kulturna-riznica-cacka,concernsPerson,P027,book-2008-kulturna-riznica-cacka,PDF 79–82,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R344,book-2008-kulturna-riznica-cacka,concernsPerson,P051,book-2008-kulturna-riznica-cacka,PDF 45–49,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R345,book-2008-kulturna-riznica-cacka,concernsPerson,P052,book-2008-kulturna-riznica-cacka,PDF 85–94,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R346,book-2008-kulturna-riznica-cacka,publishedBy,I001,book-2008-kulturna-riznica-cacka,PDF 2,Импресум наводи Народни музеј Чачак као издавача.,high
+R347,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsInstitution,I001,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–13,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R348,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsInstitution,I002,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 16–24,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R349,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsInstitution,I031,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 11–21,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R350,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsInstitution,I032,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–13,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R351,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsPlace,PL002,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 6–13,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R352,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsPlace,PL016,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 21–31,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R353,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsPerson,P050,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 44–53,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R354,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,concernsPerson,P027,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 16–24,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R355,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,usesSource,S017,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 5–13,Историја установе реконструисана је на основу музејске архивске грађе.,high
+R356,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,usesSource,S019,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 28,Публикација користи музејску фототеку као документарну грађу.,high
+R357,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,publishedBy,I001,book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012,PDF 2,Импресум наводи Народни музеј Чачак као издавача.,high
+R358,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsInstitution,I001,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8–15,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R359,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsInstitution,I031,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 10–14,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R360,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsInstitution,I032,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8–16,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R361,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsPlace,PL002,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 9–17,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R362,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,concernsPerson,P050,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 11–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R363,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,usesSource,S017,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8–16,Рад анализира документацију и историју Историјског одељења.,high
+R364,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,publishedBy,I001,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 1–6,Рад је објављен у Зборнику радова Народног музеја Чачак.,high
+R365,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsInstitution,I009,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 18–26,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R366,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPlace,PL002,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 19–26,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R367,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P002,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 45–47,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R368,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P051,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 35–43,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R369,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P052,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 40–47,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R370,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,publishedBy,I001,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 7,Импресум наводи Народни музеј Чачак као издавача.,high
+R371,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsInstitution,I001,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R372,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsInstitution,I031,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R373,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsInstitution,I032,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R374,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPlace,PL002,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R375,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPlace,PL003,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R376,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P001,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R377,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P005,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R378,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P006,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R379,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P053,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R380,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,concernsPerson,P054,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 2–5,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R381,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,usesSource,S017,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1–4,Рад користи архиву Народног музеја за реконструкцију развоја поставке.,high
+R382,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,usesSource,S020,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 3–4,Документи из Збирке Мите Петровића репродуковани су у поставци.,high
+R383,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,publishedBy,I001,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1,Рад је објављен у Зборнику радова Народног музеја Чачак.,high
+R384,catalogue-2010-album-of-old-cacak-1870-1941,concernsInstitution,I031,catalogue-2010-album-of-old-cacak-1870-1941,PDF 33–36,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R385,catalogue-2010-album-of-old-cacak-1870-1941,concernsPlace,PL002,catalogue-2010-album-of-old-cacak-1870-1941,PDF 4–11,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R386,catalogue-2010-album-of-old-cacak-1870-1941,usesSource,S019,catalogue-2010-album-of-old-cacak-1870-1941,PDF 16,Каталог је заснован на збирци историјских фотографија Народног музеја у Чачку.,high
+R387,catalogue-2010-album-of-old-cacak-1870-1941,publishedBy,I001,catalogue-2010-album-of-old-cacak-1870-1941,PDF 2,Импресум наводи Народни музеј Чачак као издавача.,high
+R388,book-2012-ok-manastiri,concernsInstitution,I033,book-2012-ok-manastiri,PDF 15–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R389,book-2012-ok-manastiri,concernsInstitution,I034,book-2012-ok-manastiri,PDF 15–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R390,book-2012-ok-manastiri,concernsInstitution,I035,book-2012-ok-manastiri,PDF 15–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R391,book-2012-ok-manastiri,concernsInstitution,I036,book-2012-ok-manastiri,PDF 15–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R392,book-2012-ok-manastiri,concernsInstitution,I037,book-2012-ok-manastiri,PDF 17–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R393,book-2012-ok-manastiri,concernsInstitution,I038,book-2012-ok-manastiri,PDF 17–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R394,book-2012-ok-manastiri,concernsInstitution,I039,book-2012-ok-manastiri,PDF 17–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R395,book-2012-ok-manastiri,concernsInstitution,I040,book-2012-ok-manastiri,PDF 17–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R396,book-2012-ok-manastiri,concernsInstitution,I041,book-2012-ok-manastiri,PDF 17–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R397,book-2012-ok-manastiri,concernsInstitution,I042,book-2012-ok-manastiri,PDF 17–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R398,book-2012-ok-manastiri,concernsInstitution,I043,book-2012-ok-manastiri,PDF 17–18,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R399,book-2012-ok-manastiri,concernsPlace,PL016,book-2012-ok-manastiri,PDF 15–22,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R400,book-2012-ok-manastiri,concernsPlace,PL028,book-2012-ok-manastiri,PDF 15–22,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R401,book-2012-ok-manastiri,concernsPlace,PL030,book-2012-ok-manastiri,PDF 15–22,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R402,book-2012-ok-manastiri,concernsPlace,PL031,book-2012-ok-manastiri,PDF 15–22,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R403,book-2012-ok-manastiri,concernsPlace,PL032,book-2012-ok-manastiri,PDF 17,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R404,book-2012-ok-manastiri,concernsPerson,P002,book-2012-ok-manastiri,PDF 39–45,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R405,book-2012-ok-manastiri,concernsPerson,P003,book-2012-ok-manastiri,PDF 44,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R406,book-2012-ok-manastiri,concernsPerson,P051,book-2012-ok-manastiri,PDF 38–45,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R407,book-2012-ok-manastiri,concernsPerson,P052,book-2012-ok-manastiri,PDF 44–47,Публикација непосредно обрађује ентитет као значајан део теме.,high
+R408,book-2012-ok-manastiri,publishedBy,I001,book-2012-ok-manastiri,PDF 15,Импресум наводи Народни музеј Чачак као издавача.,high
+R409,book-2012-ok-manastiri,publishedBy,I025,book-2012-ok-manastiri,PDF 15,Импресум наводи ЈП Службени гласник као саиздавача.,high
+R410,I031,locatedIn,PL002,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 1,Конак Јована Обреновића налази се у Чачку.,high
+R411,I032,locatedIn,PL002,article-2016-history-department-of-the-national-museum-in-cacak-development-and-str,PDF 8,Историјско одељење припада Народном музеју у Чачку.,high
+R412,I033,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R413,I034,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R414,I035,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R415,I036,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R416,I037,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R417,I038,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R418,I039,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R419,I040,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R420,I041,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R421,I042,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R422,I043,locatedIn,PL016,book-2012-ok-manastiri,PDF 15–18,Сакрални комплекс је смештен у Овчарско-кабларској клисури.,high
+R423,I001,preservesSource,S019,catalogue-2010-album-of-old-cacak-1870-1941,PDF 16,Народни музеј у Чачку чува збирку фотографија коришћену за каталог.,high
+R424,I044,preservesSource,S020,article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside,PDF 3–4,Државни архив Србије чува Збирку Мите Петровића.,high
