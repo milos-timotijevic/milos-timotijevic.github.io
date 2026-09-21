@@ -72,7 +72,7 @@
   "url": "https://milos-timotijevic.github.io/knowledge-graph/entities/",
   "inLanguage": ["sr", "en"],
   "dateModified": "2026-09-21",
-  "description": "Пилотски ентитетски граф који повезује двадесет публикација са личностима, установама, местима и историјским изворима посредством проверљивих односа.",
+  "description": "Пилотски ентитетски граф који повезује двадесет седам публикација са личностима, установама, местима и историјским изворима посредством проверљивих односа.",
   "isPartOf": {
     "@type": "CollectionPage",
     "@id": "https://milos-timotijevic.github.io/knowledge-graph/#page",
@@ -95,10 +95,10 @@
     "name": "Entity and Relation Data of the Research Corpus — Pilot",
     "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
     "url": "https://milos-timotijevic.github.io/data/entities/",
-    "version": "0.3",
+    "version": "0.4",
     "datePublished": "2026-09-20",
     "dateModified": "2026-09-21",
-    "description": "Pilot dataset comprising twenty publications, 49 people, 30 institutions, 29 places, 18 historical sources, 22 controlled relation types and 321 source-based relations.",
+    "description": "Pilot dataset comprising twenty-seven publications, 54 people, 46 institutions, 35 places, 20 historical sources, 22 controlled relation types and 437 source-based relations.",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "creator": {
       "@type": "Person",
@@ -123,7 +123,8 @@
       {"@type":"DataDownload","name":"sources.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/sources.csv"},
       {"@type":"DataDownload","name":"relations.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relations.csv"},
       {"@type":"DataDownload","name":"relation-types.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relation-types.csv"},
-      {"@type":"DataDownload","name":"entity-graph.jsonld","encodingFormat":"application/ld+json","contentUrl":"https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld"}
+      {"@type":"DataDownload","name":"entity-graph.jsonld","encodingFormat":"application/ld+json","contentUrl":"https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld"},
+      {"@type":"DataDownload","name":"entity-manifest.json","encodingFormat":"application/json","contentUrl":"https://milos-timotijevic.github.io/data/entities/entity-manifest.json"}
     ]
   },
   "about": [
@@ -210,8 +211,8 @@
   <section id="pilot-corpus" aria-labelledby="pilot-corpus-heading">
     <h2 id="pilot-corpus-heading">Пилот-корпус / <span lang="en">Pilot Corpus</span></h2>
 
-    <p>Пилот обухвата двадесет публикација које заједно образују тематски повезану, али жанровски и хронолошки разноврсну целину. Првих десет радова повезује политичке ритуале, владарске посете, династичку репрезентацију, места сећања и корпус о Надежди Петровић. Наредних десет проширује граф темама локалне модернизације, урбаних трансформација, политичких елита, индустријализације, инфраструктуре и наслеђа социјализма у Чачку и западној Србији.</p>
-    <p lang="en">The pilot comprises twenty publications forming a thematically connected, yet generically and chronologically diverse corpus. The first ten works link political rituals, royal visits, dynastic representation, sites of memory and the Nadežda Petrović corpus. The next ten expand the graph through local modernization, urban transformation, political elites, industrialization, infrastructure and the heritage of socialism in Čačak and western Serbia.</p>
+    <p>Пилот обухвата двадесет седам публикација које заједно образују тематски повезану, али жанровски и хронолошки разноврсну целину. Првих двадесет радова повезује политичке ритуале, династичку репрезентацију, места сећања, Надежду Петровић, локалну модернизацију, урбане трансформације, политичке елите, индустријализацију и наслеђе социјализма. Нових седам публикација проширује граф на културну баштину Чачка, развој Народног музеја, музејске поставке, визуелну историју града, цркву Вазнесења и манастире Овчарско-кабларске клисуре.</p>
+    <p lang="en">The pilot comprises twenty-seven publications forming a thematically connected, yet generically and chronologically diverse corpus. The first twenty works connect political rituals, dynastic representation, sites of memory, Nadežda Petrović, local modernization, urban transformation, political elites, industrialization and socialist heritage. Seven additional publications extend the graph to Čačak's cultural heritage, the development of the National Museum, permanent museum exhibitions, the visual history of the town, the Church of the Ascension and the monasteries of the Ovčar–Kablar Gorge.</p>
 
     <div class="publication-grid">
       <article class="publication-card">
@@ -353,38 +354,87 @@
         <p lang="en">A chronology of local government, political biographies and institutional change after 1944.</p>
         <p class="small-note">2009 · научни рад / scholarly article</p>
       </article>
+
+      <article class="publication-card">
+        <h3><a href="../../books/kulturna-riznica-cacka.html">Културна ризница Чачка: од праисторије до савременог доба</a></h3>
+        <p>Синтетички преглед археолошког, историјског, уметничког и етнолошког наслеђа Чачка.</p>
+        <p lang="en">A synthetic overview of the archaeological, historical, artistic and ethnological heritage of Čačak.</p>
+        <p class="small-note">2008 · монографија / monograph</p>
+      </article>
+
+      <article class="publication-card">
+        <h3><a href="../../book-chapters/sest-decenija-rada-narodnog-muzeja-cacak-1952-2012.html">Шест деценија рада Народног музеја у Чачку (1952–2012)</a></h3>
+        <p>Институционални развој музеја, збирки, стручних одељења, изложби и истраживачког рада.</p>
+        <p lang="en">The institutional development of the museum, its collections, departments, exhibitions and research.</p>
+        <p class="small-note">2013 · поглавље у књизи / book chapter</p>
+      </article>
+
+      <article class="publication-card">
+        <h3><a href="../../articles/istorijsko-odeljenje-narodnog-muzeja-cacak-stalna-postavka-1953-2006.html">Историјско одељење Народног музеја у Чачку</a></h3>
+        <p>Повест баштињења и структура сталне музејске поставке између 1953. и 2006. године.</p>
+        <p lang="en">The history of collecting and the structure of the permanent museum exhibition between 1953 and 2006.</p>
+        <p class="small-note">2016 · научни рад / scholarly article</p>
+      </article>
+
+      <article class="publication-card">
+        <h3><a href="../../books/hram-vaznesenja-gospodnjeg-u-cacku.html">Храм Светог Вазнесења Господњег у Чачку</a></h3>
+        <p>Историја храма, црквене установе, свештенство, обнова и сакрално наслеђе Чачка.</p>
+        <p lang="en">The history of the church, its clergy, restoration and the sacred heritage of Čačak.</p>
+        <p class="small-note">2021 · монографија / monograph</p>
+      </article>
+
+      <article class="publication-card">
+        <h3><a href="../../articles/stalna-muzejska-postavka-ustanci-ratovi-1804-1941-konak-jovana-obrenovica-cacak.html">Стална музејска поставка „Устанци и ратови 1804–1941”</a></h3>
+        <p>Музеолошко обликовање националне и локалне ратне прошлости у Конаку Јована Обреновића.</p>
+        <p lang="en">The museological presentation of national and local wartime history in Jovan Obrenović's Residence.</p>
+        <p class="small-note">2024 · научни рад / scholarly article</p>
+      </article>
+
+      <article class="publication-card">
+        <h3><a href="../../catalogues/album-starog-cacka-1870-1941.html">Албум старог Чачка: 1870–1941</a></h3>
+        <p>Фотографска документација урбаног простора, установа и свакодневног живота Чачка.</p>
+        <p lang="en">Photographic documentation of Čačak's urban space, institutions and everyday life.</p>
+        <p class="small-note">2010 · изложбени каталог / exhibition catalogue</p>
+      </article>
+
+      <article class="publication-card">
+        <h3><a href="../../books/manastiri-ovcarsko-kablarske-klisure.html">Манастири Овчарско-кабларске клисуре</a></h3>
+        <p>Историја, простор и сакрална баштина манастира Овчарско-кабларске клисуре.</p>
+        <p lang="en">The history, landscape and sacred heritage of the monasteries of the Ovčar–Kablar Gorge.</p>
+        <p class="small-note">2012 · монографија / monograph</p>
+      </article>
     </div>
   </section>
 
   <section id="entities" aria-labelledby="entities-heading">
     <h2 id="entities-heading">Основни ентитети / <span lang="en">Core Entities</span></h2>
 
-    <p>Подаци су организовани у четири ентитетске табеле — личности, установе, места и историјски извори — док се двадесет публикација преузима из главног публикационог скупа. Посебни слојеви садрже контролисани речник типова односа и саме релације. Четири ентитетске табеле тренутно садрже 126 самосталних ентитета. Бројеви описују садашњи пилот, а не целокупан истраживачки опус.</p>
-    <p lang="en">The data are organized into four entity tables — people, institutions, places and historical sources — while twenty publications are referenced from the main publication dataset. Separate layers contain the controlled relation vocabulary and the relations themselves. The four entity tables currently contain 126 distinct entities. The figures describe the current pilot, not the complete research corpus.</p>
+    <p>Подаци су организовани у четири ентитетске табеле — личности, установе, места и историјски извори — док се двадесет седам публикација преузима из главног публикационог скупа. Посебни слојеви садрже контролисани речник типова односа и саме релације. Четири ентитетске табеле тренутно садрже 155 самосталних ентитета. Бројеви описују садашњи пилот, а не целокупан истраживачки опус.</p>
+    <p lang="en">The data are organized into four entity tables — people, institutions, places and historical sources — while twenty-seven publications are referenced from the main publication dataset. Separate layers contain the controlled relation vocabulary and the relations themselves. The four entity tables currently contain 155 distinct entities. The figures describe the current pilot, not the complete research corpus.</p>
 
     <div class="entity-grid">
       <article class="entity-card">
-        <span class="entity-number">49</span>
+        <span class="entity-number">54</span>
         <h3>Личности / <span lang="en">People</span></h3>
         <p>Владари, чланови династија, устаници, уметници, књижевници, хуманитарни радници, црквене личности и политичари.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">30</span>
+        <span class="entity-number">46</span>
         <h3>Установе / <span lang="en">Institutions</span></h3>
         <p>Музеји, архиви, цркве, манастири, школе, државна тела, издавачи и уметничка или хуманитарна удружења.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">29</span>
+        <span class="entity-number">35</span>
         <h3>Места / <span lang="en">Places</span></h3>
         <p>Државе, градови, вароши, села, локалитети и меморијални простори у Србији и европском контексту.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">18</span>
+        <span class="entity-number">20</span>
         <h3>Историјски извори / <span lang="en">Historical Sources</span></h3>
         <p>Матичне и парохијске књиге, рукописи, архивски фондови, новине и друга документарна грађа.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">20</span>
+        <span class="entity-number">27</span>
         <h3>Публикације / <span lang="en">Publications</span></h3>
         <p>Канонске публикационе јединице повезане са главним <code>publications.csv</code>.</p>
       </article>
@@ -394,7 +444,7 @@
         <p>Контролисани предикати који одређују дозвољене типове субјеката и објеката.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">321</span>
+        <span class="entity-number">437</span>
         <h3>Односа / <span lang="en">Relations</span></h3>
         <p>Проверљиве везе са доказним контекстом, страницом, напоменом и степеном поузданости.</p>
       </article>
@@ -483,8 +533,8 @@
     </ul>
 
     <div class="identifier-box">
-      <p><strong>Два значења „извора”:</strong> поље <code>source_id</code> у <code>relations.csv</code> садржи ID публикације која служи као доказни контекст за тврдњу. Насупрот томе, <code>S001–S018</code> у <code>sources.csv</code> представљају историјске изворе као самосталне ентитете.</p>
-      <p lang="en"><strong>Two meanings of “source”:</strong> the <code>source_id</code> field in <code>relations.csv</code> contains the ID of the publication that provides the evidential context for a statement. By contrast, <code>S001–S018</code> in <code>sources.csv</code> are historical sources modelled as entities in their own right.</p>
+      <p><strong>Два значења „извора”:</strong> поље <code>source_id</code> у <code>relations.csv</code> садржи ID публикације која служи као доказни контекст за тврдњу. Насупрот томе, <code>S001–S020</code> у <code>sources.csv</code> представљају историјске изворе као самосталне ентитете.</p>
+      <p lang="en"><strong>Two meanings of “source”:</strong> the <code>source_id</code> field in <code>relations.csv</code> contains the ID of the publication that provides the evidential context for a statement. By contrast, <code>S001–S020</code> in <code>sources.csv</code> are historical sources modelled as entities in their own right.</p>
     </div>
 
     <p>Однос <code>usesSource</code> повезује публикацију са историјским извором који користи, док <code>preservesSource</code> повезује установу која извор чува са тим извором. На тај начин историјски извор није сведен на библиографску напомену него постаје чвор у графу.</p>
@@ -501,13 +551,14 @@
     <p lang="en">Entity-layer data are published on the dedicated <a href="../../data/entities/">Entities and Relations</a> page. This page provides the scholarly explanation of the graph, while the Data layer serves as a catalogue for download, verification and machine processing.</p>
 
     <div class="download-grid">
-      <article class="download-card"><h3><a href="../../data/entities/people.csv"><code>people.csv</code></a></h3><p>49 личности / 49 people</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/institutions.csv"><code>institutions.csv</code></a></h3><p>30 установа / 30 institutions</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/places.csv"><code>places.csv</code></a></h3><p>29 места / 29 places</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/sources.csv"><code>sources.csv</code></a></h3><p>18 историјских извора / 18 historical sources</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/relations.csv"><code>relations.csv</code></a></h3><p>321 однос / 321 relations</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/people.csv"><code>people.csv</code></a></h3><p>54 личности / 54 people</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/institutions.csv"><code>institutions.csv</code></a></h3><p>46 установа / 46 institutions</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/places.csv"><code>places.csv</code></a></h3><p>35 места / 35 places</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/sources.csv"><code>sources.csv</code></a></h3><p>20 историјских извора / 20 historical sources</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/relations.csv"><code>relations.csv</code></a></h3><p>437 односа / 437 relations</p></article>
       <article class="download-card"><h3><a href="../../data/entities/relation-types.csv"><code>relation-types.csv</code></a></h3><p>22 типа односа / 22 relation types</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>490 чворова / 490 machine-readable nodes</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>642 чвора / 642 machine-readable nodes</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/entity-manifest.json"><code>entity-manifest.json</code></a></h3><p>Контролни отисци / Integrity checksums</p></article>
     </div>
   </section>
 
@@ -515,8 +566,8 @@
     <h2 id="pilot-status-heading">Статус пилота / <span lang="en">Pilot Status</span></h2>
 
     <blockquote class="status-box">
-      <p><strong>Пилот-верзија 0.3 обухвата двадесет публикација и служи провери модела. Не представља потпун именски, институционални, географски или изворни регистар целокупног опуса.</strong></p>
-      <p lang="en"><strong>Pilot version 0.3 covers twenty publications and is intended to test the model. It is not a complete index of the people, institutions, places or historical sources represented in the entire corpus.</strong></p>
+      <p><strong>Пилот-верзија 0.4 обухвата двадесет седам публикација и служи провери модела. Не представља потпун именски, институционални, географски или изворни регистар целокупног опуса.</strong></p>
+      <p lang="en"><strong>Pilot version 0.4 covers twenty-seven publications and is intended to test the model. It is not a complete index of the people, institutions, places or historical sources represented in the entire corpus.</strong></p>
     </blockquote>
 
     <p>Пилот служи за проверу модела података, речника односа, provenance правила и начина повезивања са постојећим публикационим корпусом. Нови записи додаваће се постепено, после провере интерних ID ознака, спољних идентификатора и изворне заснованости сваке везе.</p>
