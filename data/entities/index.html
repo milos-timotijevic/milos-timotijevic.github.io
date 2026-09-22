@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ентитети и односи / Entities and Relations — пилотски скуп података</title>
+  <title>Подаци ентитетског графа / Entity Graph Data — пилотски скуп</title>
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Пилотски Data слој истраживачког корпуса Милоша Тимотијевића: публикације, личности, установе, места, контролисани типови односа и подаци о пореклу сваке везе.">
+  <meta name="description" content="Пилотски скуп ентитета и односа истраживачког корпуса Милоша Тимотијевића: публикације, личности, установе, места, контролисани типови односа и подаци о пореклу сваке везе.">
   <link rel="canonical" href="https://milos-timotijevic.github.io/data/entities/">
   <link rel="describedby" type="application/json" href="https://milos-timotijevic.github.io/data/entities/entity-manifest.json" title="Entity data integrity manifest">
   <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld" title="Machine-readable entity graph">
 
-  <meta property="og:title" content="Ентитети и односи — пилотски скуп података">
+  <meta property="og:title" content="Подаци ентитетског графа — пилотски скуп">
   <meta property="og:description" content="Отворени подаци о личностима, установама, местима, публикацијама и проверљивим односима у пилотском истраживачком корпусу.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://milos-timotijevic.github.io/data/entities/">
@@ -18,8 +18,8 @@
   <meta property="og:locale" content="sr_RS">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Entities and Relations — Pilot Dataset">
-  <meta name="twitter:description" content="Open entity and relation data derived from forty publications in the digital scholarly corpus of Miloš Timotijević.">
+  <meta name="twitter:title" content="Entity Graph Data — Pilot Dataset">
+  <meta name="twitter:description" content="Open entity and relation data derived from 40 publications in the digital scholarly corpus of Miloš Timotijević.">
 
   <style>
     :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f1f1f1; }
@@ -36,7 +36,7 @@
     table { width: 100%; border-collapse: collapse; margin: 1em 0 1.5em; font-size: 0.94em; }
     th, td { border: 1px solid var(--line); padding: 0.65em 0.7em; text-align: left; vertical-align: top; }
     th { background: var(--soft); }
-    caption { text-align: left; font-weight: bold; margin-bottom: 0.68em; }
+    caption { text-align: left; font-weight: bold; margin-bottom: 0.75em; }
     .table-wrap { overflow-x: auto; }
     .subtitle { font-size: 1.08em; margin-bottom: 1.5em; color: #444; }
     .intro-bilingual { margin: 1.25rem 0; padding: 1.1rem 1.2rem; border: 1px solid var(--line); background: #fff; }
@@ -54,7 +54,7 @@
     .small-note { color: var(--muted); font-size: .96em; }
     .date-note { color: var(--muted); font-size: .96em; margin-top: 2em; }
     .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
-    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .68rem .75rem; border: 2px solid var(--link); color: #fff; background: var(--link); }
+    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .75rem .75rem; border: 2px solid var(--link); color: #fff; background: var(--link); }
     .skip-link:focus { top: 1rem; color: #fff; }
     @media (max-width: 680px) {
       body { margin: 0 auto; padding: 24px 18px; font-size: 16px; }
@@ -69,12 +69,12 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": "https://milos-timotijevic.github.io/data/entities/#page",
-    "name": "Ентитети и односи — пилотски скуп података",
-    "alternateName": "Entities and Relations — Pilot Dataset",
+    "name": "Подаци ентитетског графа — пилотски скуп",
+    "alternateName": "Entity Graph Data — Pilot Dataset",
     "url": "https://milos-timotijevic.github.io/data/entities/",
     "inLanguage": ["sr", "en"],
     "dateModified": "2026-09-22",
-    "description": "Пилотски Data слој који повезује четрдесет публикација са личностима, установама, местима и историјским изворима посредством изворно проверљивих односа.",
+    "description": "Пилотски Data слој који повезује 40 публикација са личностима, установама, местима и историјским изворима посредством изворно проверљивих односа.",
     "isPartOf": {
       "@type": "Dataset",
       "@id": "https://milos-timotijevic.github.io/data/#dataset",
@@ -99,7 +99,7 @@
       "version": "0.7",
       "datePublished": "2026-09-20",
       "dateModified": "2026-09-22",
-      "description": "Pilot dataset comprising forty publications, 101 people, 68 institutions, 54 places, 32 historical sources, 22 relation types and 731 source-based relations.",
+      "description": "Pilot dataset comprising 40 publications, 108 people, 75 institutions, 58 places, 32 historical sources, 22 relation types and 769 source-based relations.",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -173,11 +173,11 @@
   <p><a href="../../knowledge-graph/entities/">Ентитетски граф / Entity Graph</a></p>
   <p><a href="../">← Назад на Подаци / Back to Data</a></p>
 
-  <h1>Ентитети и односи</h1>
-  <p><strong lang="en">Entities and Relations</strong></p>
+  <h1>Подаци ентитетског графа</h1>
+  <p><strong lang="en">Entity Graph Data</strong></p>
   <p class="subtitle">
-    Пилотски Data слој истраживачког корпуса<br>
-    <em lang="en">Pilot Data Layer of the Research Corpus</em>
+    Пилотски скуп ентитета и односа истраживачког корпуса<br>
+    <em lang="en">Pilot Entity and Relation Dataset of the Research Corpus</em>
   </p>
 
   <nav class="data-toolbar" aria-label="Навигација странице / Page navigation">
@@ -199,11 +199,11 @@
     <h2 id="scope-heading">Обухват пилота / <span lang="en">Pilot Scope</span></h2>
     <div class="stat-grid">
       <article class="stat-card"><span class="stat-number">40</span><h3>Публикација / Publications</h3></article>
-      <article class="stat-card"><span class="stat-number">101</span><h3>Личности / People</h3></article>
-      <article class="stat-card"><span class="stat-number">68</span><h3>Установе / Institutions</h3></article>
-      <article class="stat-card"><span class="stat-number">54</span><h3>Места / Places</h3></article>
+      <article class="stat-card"><span class="stat-number">108</span><h3>Личности / People</h3></article>
+      <article class="stat-card"><span class="stat-number">75</span><h3>Установе / Institutions</h3></article>
+      <article class="stat-card"><span class="stat-number">58</span><h3>Места / Places</h3></article>
       <article class="stat-card"><span class="stat-number">32</span><h3>Историјских извора / Historical Sources</h3></article>
-      <article class="stat-card"><span class="stat-number">731</span><h3>Односа / Relations</h3></article>
+      <article class="stat-card"><span class="stat-number">769</span><h3>Односа / Relations</h3></article>
       <article class="stat-card"><span class="stat-number">22</span><h3>Типа односа / Relation Types</h3></article>
     </div>
 
@@ -220,13 +220,13 @@
     <p lang="en">The files below form a single connected dataset. Entity tables receive stable internal IDs, while <code>relations.csv</code> connects the entities and records the source of every statement.</p>
 
     <div class="data-grid">
-      <article class="data-card"><h3><a href="people.csv"><code>people.csv</code></a></h3><p>101 личност, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">101 people, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
-      <article class="data-card"><h3><a href="institutions.csv"><code>institutions.csv</code></a></h3><p>68 музеја, архива, цркава, манастира, научних, школских, привредних и државних установа.</p><p lang="en">68 museums, archives, churches, monasteries, scholarly, educational, industrial and state institutions.</p></article>
-      <article class="data-card"><h3><a href="places.csv"><code>places.csv</code></a></h3><p>54 града, вароши, села, природне целине, сакрална комплекса и меморијална простора.</p><p lang="en">54 cities, towns, villages, natural areas, sacred complexes and memorial sites.</p></article>
+      <article class="data-card"><h3><a href="people.csv"><code>people.csv</code></a></h3><p>108 личност, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">108 people, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
+      <article class="data-card"><h3><a href="institutions.csv"><code>institutions.csv</code></a></h3><p>75 музеја, архива, цркава, манастира, научних, школских, привредних и државних установа.</p><p lang="en">75 museums, archives, churches, monasteries, scholarly, educational, industrial and state institutions.</p></article>
+      <article class="data-card"><h3><a href="places.csv"><code>places.csv</code></a></h3><p>58 града, вароши, села, природне целине, сакрална комплекса и меморијална простора.</p><p lang="en">58 cities, towns, villages, natural areas, sacred complexes and memorial sites.</p></article>
       <article class="data-card"><h3><a href="sources.csv"><code>sources.csv</code></a></h3><p>32 историјска извора моделованих као засебни ентитети.</p><p lang="en">32 historical sources modelled as entities in their own right.</p></article>
-      <article class="data-card"><h3><a href="relations.csv"><code>relations.csv</code></a></h3><p>731 односа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">731 relations: subject, relation type, object, source, source locator, note and confidence level.</p></article>
+      <article class="data-card"><h3><a href="relations.csv"><code>relations.csv</code></a></h3><p>769 односа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">769 relations: subject, relation type, object, source, source locator, note and confidence level.</p></article>
       <article class="data-card"><h3><a href="relation-types.csv"><code>relation-types.csv</code></a></h3><p>Контролисани речник од 22 дозвољена односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of 22 allowed relations and subject/object types.</p></article>
-      <article class="data-card"><h3><a href="entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви JSON-LD извоз са 1049 чворова и свих 731 директно уписаних веза.</p><p lang="en">Machine-readable JSON-LD export containing 1049 nodes and all 731 directly asserted relations.</p></article>
+      <article class="data-card"><h3><a href="entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви JSON-LD извоз са 1105 чворова и свих 769 директно уписаних веза.</p><p lang="en">Machine-readable JSON-LD export containing 1105 nodes and all 769 directly asserted relations.</p></article>
       <article class="data-card"><h3><a href="entity-manifest.json"><code>entity-manifest.json</code></a></h3><p>Број записа, величина и SHA-256 контролни отисак сваког извоза.</p><p lang="en">Record count, file size and SHA-256 checksum for every export.</p></article>
     </div>
 
@@ -338,7 +338,7 @@
     <h2 id="citation-heading">Како цитирати / <span lang="en">How to Cite</span></h2>
     <div class="identifier-box">
       <p>Милош Тимотијевић, „Ентитети и односи: пилотски Data слој истраживачког корпуса”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, верзија 0.7, приступљено [датум приступа].</p>
-      <p lang="en">Miloš Timotijević, “Entities and Relations: Pilot Data Layer of the Research Corpus,” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, version 0.7, accessed [access date].</p>
+      <p lang="en">Miloš Timotijević, “Entity Graph Data: Pilot Dataset of the Research Corpus” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, version 0.7, accessed [access date].</p>
     </div>
   </section>
 

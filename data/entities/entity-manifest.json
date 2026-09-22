@@ -9,32 +9,32 @@
   "datasetUrl": "https://milos-timotijevic.github.io/data/entities/",
   "scope": {
     "publications": 40,
-    "people": 101,
-    "institutions": 68,
-    "places": 54,
+    "people": 108,
+    "institutions": 75,
+    "places": 58,
     "historicalSources": 32,
-    "relations": 731,
+    "relations": 769,
     "relationTypes": 22,
-    "jsonLdNodes": 1049
+    "jsonLdNodes": 1105
   },
   "files": [
     {
       "path": "people.csv",
-      "recordCount": 101,
-      "bytes": 52529,
-      "sha256": "be9fbb1121e3080174477968da5a7083d3b0b8b34fdea884634dd524831891c8"
+      "recordCount": 108,
+      "bytes": 56567,
+      "sha256": "27e663bdbb41d2e3e20306d01d570f1e60d6013798e898f07193b75eb5f4ed34"
     },
     {
       "path": "institutions.csv",
-      "recordCount": 68,
-      "bytes": 37097,
-      "sha256": "be93e2e85b2c29144c19e662a219d2b6811b44a3333b55ecda4856f9b9647919"
+      "recordCount": 75,
+      "bytes": 42045,
+      "sha256": "daf587ceab55a73d638bc49202516de13d9a643663482a70326f3b4afc11179b"
     },
     {
       "path": "places.csv",
-      "recordCount": 54,
-      "bytes": 23179,
-      "sha256": "c137a8e2cf9e382285de5b208390c0d019d14389c3a40fc6496890b0b8abec52"
+      "recordCount": 58,
+      "bytes": 25549,
+      "sha256": "e829d2f2431857ad551d179d1b359078be673b13b58b76a4eed20f56141c7657"
     },
     {
       "path": "sources.csv",
@@ -44,9 +44,9 @@
     },
     {
       "path": "relations.csv",
-      "recordCount": 731,
-      "bytes": 217808,
-      "sha256": "0d3d2a662bdd85e58ede91620ece1ceeee2da119871a5e23fb7eec232a72aa40"
+      "recordCount": 769,
+      "bytes": 230989,
+      "sha256": "ded21df36d5c750c437cd7f31d00aa491c8c383c7619ec32f229b9943cba3854"
     },
     {
       "path": "relation-types.csv",
@@ -56,9 +56,9 @@
     },
     {
       "path": "entity-graph.jsonld",
-      "recordCount": 1049,
-      "bytes": 1236863,
-      "sha256": "c3b68a866f27c8d4f1f9d53f57ad0e8baee9086127f696c8df493856a78a49d9"
+      "recordCount": 1105,
+      "bytes": 1328015,
+      "sha256": "46fe98f1a8a73485319cc53cfc36fce4a6e934df46bde4de3049a72fbfe791f9"
     }
   ]
 }

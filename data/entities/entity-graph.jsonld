@@ -86,32 +86,32 @@
         {
           "@type": "PropertyValue",
           "name": "publications",
-          "value": 33
+          "value": 40
         },
         {
           "@type": "PropertyValue",
           "name": "people",
-          "value": 71
+          "value": 108
         },
         {
           "@type": "PropertyValue",
           "name": "institutions",
-          "value": 55
+          "value": 75
         },
         {
           "@type": "PropertyValue",
           "name": "places",
-          "value": 44
+          "value": 58
         },
         {
           "@type": "PropertyValue",
           "name": "historicalSources",
-          "value": 23
+          "value": 32
         },
         {
           "@type": "PropertyValue",
           "name": "relations",
-          "value": 568
+          "value": 769
         },
         {
           "@type": "PropertyValue",
@@ -121,7 +121,7 @@
         {
           "@type": "PropertyValue",
           "name": "jsonLdNodes",
-          "value": 817
+          "value": 1105
         }
       ],
       "hasPart": [
@@ -562,9 +562,6 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL020"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL022"
@@ -2572,6 +2569,873 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#R568"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P073"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P074"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P075"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P076"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P077"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P079"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I056"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I057"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I058"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I059"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I060"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I062"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL046"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL047"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL048"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL049"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S026"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R569"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R570"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R571"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R572"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R573"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R574"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R575"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R576"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R577"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R578"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R579"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R580"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R581"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R582"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R583"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R584"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R585"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R586"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R587"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R588"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R589"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R590"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R591"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R592"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R593"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R594"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R595"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R596"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R597"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R598"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R599"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R600"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R601"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R602"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R603"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R604"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R605"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R606"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R607"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R608"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R609"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R610"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R611"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R612"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R613"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R614"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R615"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R616"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R617"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R618"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R619"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R620"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R621"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R622"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R623"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R624"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R625"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R626"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R627"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R628"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R629"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R630"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R631"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R632"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R633"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R634"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R635"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R636"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R637"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R638"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R639"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R640"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R641"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R642"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R643"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R644"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P080"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P083"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P084"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P085"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P086"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P087"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P088"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P089"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P090"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P091"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P092"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P093"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P094"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P095"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P096"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P097"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P098"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P099"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P100"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P101"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P102"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P103"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P104"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P105"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P106"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P107"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P108"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I063"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I067"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I068"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I069"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I070"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I071"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I073"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I074"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I075"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I076"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL051"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL052"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL053"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL054"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL055"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL056"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL057"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL058"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL059"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S032"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R645"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R646"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R647"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R648"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R649"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R650"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R651"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R652"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R653"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R654"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R655"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R656"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R657"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R658"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R659"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R660"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R661"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R662"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R663"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R664"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R665"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R666"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R667"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R668"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R669"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R670"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R671"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R672"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R673"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R674"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R675"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R676"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R677"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R678"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R679"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R680"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R681"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R682"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R683"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R684"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R685"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R686"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R687"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R688"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R689"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R690"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R691"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R692"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R693"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R694"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R695"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R696"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R697"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R698"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R699"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R700"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R701"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R702"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R703"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R704"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R705"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R706"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R707"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R708"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R709"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R710"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R711"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R712"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R713"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R714"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R715"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R716"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R717"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R718"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R719"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R720"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R721"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R722"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R723"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R724"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R725"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R726"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R727"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R728"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R729"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R730"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R731"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R732"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R733"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R734"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R735"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R736"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R737"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R738"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R739"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R740"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R741"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R742"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R743"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R744"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R745"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R746"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R747"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R748"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R749"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R750"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R751"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R752"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R753"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R754"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R755"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R756"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R757"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R758"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R759"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R760"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R761"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R762"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R763"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R764"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R765"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R766"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R767"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R768"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R769"
         }
       ]
     },
@@ -6236,7 +7100,11 @@
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
         }
-      ]
+      ],
+      "alternateName": {
+        "@value": "Општина чачанска",
+        "@language": "sr"
+      }
     },
     {
       "@id": "https://milos-timotijevic.github.io/data/entities/#I014",
@@ -12853,6 +13721,54 @@
       "concernsPlace": [
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL032"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL058"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL059"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P093"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P100"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P102"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I055"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I076"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S029"
         }
       ]
     },
@@ -13012,6 +13928,75 @@
       "concernsPlace": [
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL056"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL057"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P071"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P074"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P103"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P104"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P105"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P106"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P107"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P108"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I069"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I070"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I071"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I073"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I074"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I075"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
         }
       ]
     },
@@ -27492,6 +28477,251 @@
       "verificationStatus": "source_verified_no_external_id"
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P102",
+      "@type": "Person",
+      "identifier": "P102",
+      "internalId": "P102",
+      "name": [
+        {
+          "@value": "Павле Аполонович Ровински",
+          "@language": "sr"
+        },
+        {
+          "@value": "Pavel Apollonovich Rovinsky",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "историчар, етнограф и путописац",
+          "@language": "sr"
+        },
+        {
+          "@value": "historian, ethnographer and travel writer",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "sourceEvidencePage": "PDF 15",
+      "sourceEvidenceNote": {
+        "@value": "Његов опис Чачка крајем XIX века служи као уводни доказ за раздвојеност породичног живота од улице и кафане.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1831",
+      "deathYear": "1916"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P103",
+      "@type": "Person",
+      "identifier": "P103",
+      "internalId": "P103",
+      "name": [
+        {
+          "@value": "Момо Капор",
+          "@language": "sr"
+        },
+        {
+          "@value": "Momo Kapor",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "књижевник и сликар",
+          "@language": "sr"
+        },
+        {
+          "@value": "writer and painter",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 6 и 48",
+      "sourceEvidenceNote": {
+        "@value": "Његов суд о изгледу Чачка уводи анализу односа архитектонског наслеђа, градске душе и локалног менталитета.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1937",
+      "deathYear": "2010"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P104",
+      "@type": "Person",
+      "identifier": "P104",
+      "internalId": "P104",
+      "name": [
+        {
+          "@value": "Радомир Станић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Radomir Stanić",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "историчар уметности и конзерватор",
+          "@language": "sr"
+        },
+        {
+          "@value": "art historian and conservator",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 12 и 49",
+      "sourceEvidenceNote": {
+        "@value": "Његова критика послератног рушења градитељског наслеђа користи се у анализи социјалистичке урбанизације.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1932",
+      "deathYear": "1996"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P105",
+      "@type": "Person",
+      "identifier": "P105",
+      "internalId": "P105",
+      "name": [
+        {
+          "@value": "Богдан Богдановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Bogdan Bogdanović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "архитекта и урбаниста",
+          "@language": "sr"
+        },
+        {
+          "@value": "architect and urban planner",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 40",
+      "sourceEvidenceNote": {
+        "@value": "Аутор је Спомен-парка борбе и победе, чија се надетничка и космополитска симболика анализира у раду.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1922",
+      "deathYear": "2010"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P106",
+      "@type": "Person",
+      "identifier": "P106",
+      "internalId": "P106",
+      "name": [
+        {
+          "@value": "Михаило Митровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Mihajlo Mitrović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "архитекта и урбаниста",
+          "@language": "sr"
+        },
+        {
+          "@value": "architect and urban planner",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 40, 42 и 44",
+      "sourceEvidenceNote": {
+        "@value": "Аутор је конкурсног решења Трга устанка и стамбено-пословног комплекса „Пролеће”.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1922",
+      "deathYear": "2018"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P107",
+      "@type": "Person",
+      "identifier": "P107",
+      "internalId": "P107",
+      "name": [
+        {
+          "@value": "Драгиша Брашован",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragiša Brašovan",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "архитекта",
+          "@language": "sr"
+        },
+        {
+          "@value": "architect",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 40",
+      "sourceEvidenceNote": {
+        "@value": "Пројектовао је Робну кућу „Партизан”, један од главних модернистичких објеката на тргу.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1887",
+      "deathYear": "1965"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P108",
+      "@type": "Person",
+      "identifier": "P108",
+      "internalId": "P108",
+      "name": [
+        {
+          "@value": "Ратко Митровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ratko Mitrović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "народни херој и политички комесар",
+          "@language": "sr"
+        },
+        {
+          "@value": "national hero and political commissar",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 42",
+      "sourceEvidenceNote": {
+        "@value": "Предлог из 1982. предвиђао је подизање његовог споменика на централном тргу у Чачку.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1913",
+      "deathYear": "1941"
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/entities/#I063",
       "@type": "Organization",
       "identifier": "I063",
@@ -27601,39 +28831,6 @@
       "verificationStatus": "source_verified_no_external_id"
     },
     {
-      "@id": "https://milos-timotijevic.github.io/data/entities/#I066",
-      "@type": "Organization",
-      "identifier": "I066",
-      "internalId": "I066",
-      "name": [
-        {
-          "@value": "Општина чачанска",
-          "@language": "sr"
-        },
-        {
-          "@value": "Municipality of Čačak",
-          "@language": "en"
-        }
-      ],
-      "additionalTypeLabel": [
-        {
-          "@value": "локална управа",
-          "@language": "sr"
-        },
-        {
-          "@value": "local government body",
-          "@language": "en"
-        }
-      ],
-      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "sourceEvidencePage": "PDF 4–13",
-      "sourceEvidenceNote": {
-        "@value": "Општински органи доносили су одлуке о називима улица и тиме непосредно обликовали јавну политику памћења.",
-        "@language": "sr"
-      },
-      "verificationStatus": "source_verified_no_external_id"
-    },
-    {
       "@id": "https://milos-timotijevic.github.io/data/entities/#I067",
       "@type": "Organization",
       "identifier": "I067",
@@ -27695,6 +28892,290 @@
       "sourceEvidencePage": "PDF 211",
       "sourceEvidenceNote": {
         "@value": "Рад анализира неуспех странке да задржи монопол над политичком употребом традиција представљаних у Гучи.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I069",
+      "@type": "Organization",
+      "identifier": "I069",
+      "internalId": "I069",
+      "name": [
+        {
+          "@value": "Дом културе Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak Cultural Centre",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "установа културе",
+          "@language": "sr"
+        },
+        {
+          "@value": "cultural institution",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 42–43",
+      "sourceEvidenceNote": {
+        "@value": "Модернистичко здање из 1970. године представља најизраженији архитектонски и функционални елемент северне стране трга.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I070",
+      "@type": "Organization",
+      "identifier": "I070",
+      "internalId": "I070",
+      "name": [
+        {
+          "@value": "Робна кућа „Партизан”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Partizan Department Store",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "трговачка установа",
+          "@language": "sr"
+        },
+        {
+          "@value": "department store",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 40 и 43",
+      "sourceEvidenceNote": {
+        "@value": "Робна кућа подигнута је 1963. као модернистички „храм потрошње” и главни објекат јужне стране трга.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I071",
+      "@type": "Organization",
+      "identifier": "I071",
+      "internalId": "I071",
+      "name": [
+        {
+          "@value": "Робна кућа „Стјеник”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Stjenik Department Store",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "трговачка установа",
+          "@language": "sr"
+        },
+        {
+          "@value": "department store",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 38 и 42",
+      "sourceEvidenceNote": {
+        "@value": "Једна од две масивне робне куће подигнуте око централног трга почетком осамдесетих година.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I072",
+      "@type": "Organization",
+      "identifier": "I072",
+      "internalId": "I072",
+      "name": [
+        {
+          "@value": "Робна кућа „Партизанка”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Partizanka Department Store",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "трговачка установа",
+          "@language": "sr"
+        },
+        {
+          "@value": "department store",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 38 и 42",
+      "sourceEvidenceNote": {
+        "@value": "Једна од две масивне робне куће подигнуте око централног трга почетком осамдесетих година.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I073",
+      "@type": "Organization",
+      "identifier": "I073",
+      "internalId": "I073",
+      "name": [
+        {
+          "@value": "Републички завод за заштиту споменика културе",
+          "@language": "sr"
+        },
+        {
+          "@value": "Institute for the Protection of Cultural Monuments of Serbia",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "установа заштите културног наслеђа",
+          "@language": "sr"
+        },
+        {
+          "@value": "cultural heritage protection institution",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 12",
+      "sourceEvidenceNote": {
+        "@value": "Установа је институционални оквир конзерваторског рада и критике уништавања градитељског наслеђа.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I074",
+      "@type": "Organization",
+      "identifier": "I074",
+      "internalId": "I074",
+      "name": [
+        {
+          "@value": "Савез комуниста Југославије",
+          "@language": "sr"
+        },
+        {
+          "@value": "League of Communists of Yugoslavia",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "политичка организација",
+          "@language": "sr"
+        },
+        {
+          "@value": "political organization",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 28",
+      "sourceEvidenceNote": {
+        "@value": "Конгресне резолуције организације анализирају се у контексту закаснелог просторног планирања.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I075",
+      "@type": "Organization",
+      "identifier": "I075",
+      "internalId": "I075",
+      "name": [
+        {
+          "@value": "Савез удружења бораца народноослободилачког рата",
+          "@language": "sr"
+        },
+        {
+          "@value": "Federation of Associations of Veterans of the National Liberation War",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "борачка организација",
+          "@language": "sr"
+        },
+        {
+          "@value": "veterans' organization",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 40 и 42",
+      "sourceEvidenceNote": {
+        "@value": "Организација је била актер политике сећања и расправе о споменику Ратку Митровићу.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I076",
+      "@type": "Organization",
+      "identifier": "I076",
+      "internalId": "I076",
+      "name": [
+        {
+          "@value": "Предузеће „Чачак-филм”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak-film Company",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "предузеће за приказивање филмова",
+          "@language": "sr"
+        },
+        {
+          "@value": "film exhibition company",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "sourceEvidencePage": "PDF 46",
+      "sourceEvidenceNote": {
+        "@value": "Подаци предузећа о гледаности филмова користе се за анализу јавног прихватања еротских садржаја.",
         "@language": "sr"
       },
       "verificationStatus": "source_verified_no_external_id"
@@ -27898,6 +29379,138 @@
       "verificationStatus": "source_verified_no_external_id"
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL056",
+      "@type": "Place",
+      "identifier": "PL056",
+      "internalId": "PL056",
+      "name": [
+        {
+          "@value": "Централни градски трг у Чачку (Трг устанка)",
+          "@language": "sr"
+        },
+        {
+          "@value": "Central Square in Čačak (Uprising Square)",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "градски трг и место сећања",
+          "@language": "sr"
+        },
+        {
+          "@value": "city square and site of memory",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 36–47",
+      "sourceEvidenceNote": {
+        "@value": "Главни простор анализе социјалистичке урбанизације, политичких ритуала, рушења старе чаршије и неуспелог обликовања градског средишта.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL057",
+      "@type": "Place",
+      "identifier": "PL057",
+      "internalId": "PL057",
+      "name": [
+        {
+          "@value": "Спомен-парк борбе и победе у Чачку",
+          "@language": "sr"
+        },
+        {
+          "@value": "Memorial Park of Struggle and Victory in Čačak",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "спомен-парк",
+          "@language": "sr"
+        },
+        {
+          "@value": "memorial park",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "sourceEvidencePage": "PDF 39–40",
+      "sourceEvidenceNote": {
+        "@value": "Споменички комплекс из 1980. преузео је репрезентативну меморијалну функцију измештену из градског центра.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL058",
+      "@type": "Place",
+      "identifier": "PL058",
+      "internalId": "PL058",
+      "name": [
+        {
+          "@value": "Атеница",
+          "@language": "sr"
+        },
+        {
+          "@value": "Atenica",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "приградско насеље",
+          "@language": "sr"
+        },
+        {
+          "@value": "suburban settlement",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "sourceEvidencePage": "PDF 46",
+      "sourceEvidenceNote": {
+        "@value": "Помиње се у анализи сексуалног насиља и благог кажњавања починилаца током педесетих година.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL059",
+      "@type": "Place",
+      "identifier": "PL059",
+      "internalId": "PL059",
+      "name": [
+        {
+          "@value": "Заблаће",
+          "@language": "sr"
+        },
+        {
+          "@value": "Zablaće",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "село",
+          "@language": "sr"
+        },
+        {
+          "@value": "village",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "sourceEvidencePage": "PDF 33",
+      "sourceEvidenceNote": {
+        "@value": "Фотографија излета Чачана у Заблаће 1926. користи се као сведочанство приватног времена, мобилности и грађанског начина живота.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/entities/#S029",
       "@type": "CreativeWork",
       "identifier": "S029",
@@ -28059,7 +29672,7 @@
           "@id": "https://milos-timotijevic.github.io/data/entities/#I065"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I066"
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#I067"
@@ -28180,9 +29793,6 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#I065"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#I066"
         }
       ],
       "concernsPlace": [
@@ -28495,7 +30105,7 @@
       "identifier": "R652",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
-      "object": "https://milos-timotijevic.github.io/data/entities/#I066",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
       "evidencePage": "PDF 4–12",
       "evidenceNote": {
@@ -29052,12 +30662,12 @@
       ],
       "identifier": "R683",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
-      "object": "https://milos-timotijevic.github.io/data/entities/#I066",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "evidencePage": "PDF 2–13",
+      "evidencePage": "PDF 2–14",
       "evidenceNote": {
-        "@value": "Установа је носилац одлука, идеолошки оквир или изворни контекст политике именовања улица.",
+        "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -29071,9 +30681,9 @@
       "identifier": "R684",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "evidencePage": "PDF 2–14",
+      "evidencePage": "PDF 2 и 9",
       "evidenceNote": {
         "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
         "@language": "sr"
@@ -29089,9 +30699,9 @@
       "identifier": "R685",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "evidencePage": "PDF 2 и 9",
+      "evidencePage": "PDF 2–4",
       "evidenceNote": {
         "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
         "@language": "sr"
@@ -29107,9 +30717,9 @@
       "identifier": "R686",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL005",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "evidencePage": "PDF 2–4",
+      "evidencePage": "PDF 2–3",
       "evidenceNote": {
         "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
         "@language": "sr"
@@ -29125,7 +30735,7 @@
       "identifier": "R687",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL005",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "evidencePage": "PDF 2–3",
       "evidenceNote": {
@@ -29143,7 +30753,7 @@
       "identifier": "R688",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "evidencePage": "PDF 2–3",
       "evidenceNote": {
@@ -29161,9 +30771,9 @@
       "identifier": "R689",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL033",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "evidencePage": "PDF 2–3",
+      "evidencePage": "PDF 9",
       "evidenceNote": {
         "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
         "@language": "sr"
@@ -29178,12 +30788,12 @@
       ],
       "identifier": "R690",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL033",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "evidencePage": "PDF 9",
+      "evidencePage": "PDF 4–13",
       "evidenceNote": {
-        "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
+        "@value": "Периодика или архивски фонд коришћени су за реконструкцију одлука и јавних значења назива улица.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -29197,7 +30807,7 @@
       "identifier": "R691",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
-      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S030",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
       "evidencePage": "PDF 4–13",
       "evidenceNote": {
@@ -29213,13 +30823,13 @@
         "kg:RelationStatement"
       ],
       "identifier": "R692",
-      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
-      "object": "https://milos-timotijevic.github.io/data/entities/#S030",
-      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
-      "evidencePage": "PDF 4–13",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 159 и 366",
       "evidenceNote": {
-        "@value": "Периодика или архивски фонд коришћени су за реконструкцију одлука и јавних значења назива улица.",
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -29233,9 +30843,9 @@
       "identifier": "R693",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P002",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P013",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 159 и 366",
+      "evidencePage": "PDF 164 и 367",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29251,9 +30861,9 @@
       "identifier": "R694",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P013",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 164 и 367",
+      "evidencePage": "PDF 164–177 и 367",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29269,9 +30879,9 @@
       "identifier": "R695",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 164–177 и 367",
+      "evidencePage": "PDF 19 и 368",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29287,9 +30897,9 @@
       "identifier": "R696",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P080",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 19 и 368",
+      "evidencePage": "PDF 16 и 367",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29305,9 +30915,9 @@
       "identifier": "R697",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P080",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P081",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 16 и 367",
+      "evidencePage": "PDF 20–21 и 367",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29323,9 +30933,9 @@
       "identifier": "R698",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P081",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P082",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 20–21 и 367",
+      "evidencePage": "PDF 159 и 366",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29341,9 +30951,9 @@
       "identifier": "R699",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P082",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P083",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 159 и 366",
+      "evidencePage": "PDF 43–48 и 369",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29359,9 +30969,9 @@
       "identifier": "R700",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P083",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P084",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 43–48 и 369",
+      "evidencePage": "PDF 77–87, 317 и 369",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29377,9 +30987,9 @@
       "identifier": "R701",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P084",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P085",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 77–87, 317 и 369",
+      "evidencePage": "PDF 76–87, 317 и 369–370",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29395,9 +31005,9 @@
       "identifier": "R702",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P085",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P086",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 76–87, 317 и 369–370",
+      "evidencePage": "PDF 14, 326 и 369–370",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29413,9 +31023,9 @@
       "identifier": "R703",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P086",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P087",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 14, 326 и 369–370",
+      "evidencePage": "PDF 56–77, 232–238 и 369",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29431,9 +31041,9 @@
       "identifier": "R704",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P087",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P088",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 56–77, 232–238 и 369",
+      "evidencePage": "PDF 122, 242–243, 317 и 369",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29449,9 +31059,9 @@
       "identifier": "R705",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P088",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P089",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 122, 242–243, 317 и 369",
+      "evidencePage": "PDF 317–327 и 369–370",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29467,9 +31077,9 @@
       "identifier": "R706",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P089",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P090",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 317–327 и 369–370",
+      "evidencePage": "PDF 317, 326–327 и 369",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29485,9 +31095,9 @@
       "identifier": "R707",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P090",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P091",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 317, 326–327 и 369",
+      "evidencePage": "PDF 177, 211, 216 и 368",
       "evidenceNote": {
         "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
         "@language": "sr"
@@ -29502,12 +31112,12 @@
       ],
       "identifier": "R708",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
-      "object": "https://milos-timotijevic.github.io/data/entities/#P091",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I004",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 177, 211, 216 и 368",
+      "evidencePage": "PDF 177 и 368",
       "evidenceNote": {
-        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -29521,9 +31131,9 @@
       "identifier": "R709",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
-      "object": "https://milos-timotijevic.github.io/data/entities/#I004",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 177 и 368",
+      "evidencePage": "PDF 164–177",
       "evidenceNote": {
         "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
         "@language": "sr"
@@ -29539,9 +31149,9 @@
       "identifier": "R710",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
-      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I063",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 164–177",
+      "evidencePage": "PDF 3 и 112",
       "evidenceNote": {
         "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
         "@language": "sr"
@@ -29557,9 +31167,9 @@
       "identifier": "R711",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
-      "object": "https://milos-timotijevic.github.io/data/entities/#I063",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I064",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 3 и 112",
+      "evidencePage": "PDF 16",
       "evidenceNote": {
         "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
         "@language": "sr"
@@ -29575,9 +31185,9 @@
       "identifier": "R712",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
-      "object": "https://milos-timotijevic.github.io/data/entities/#I064",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I068",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 16",
+      "evidencePage": "PDF 211",
       "evidenceNote": {
         "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
         "@language": "sr"
@@ -29592,12 +31202,12 @@
       ],
       "identifier": "R713",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
-      "object": "https://milos-timotijevic.github.io/data/entities/#I068",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 211",
+      "evidencePage": "PDF 14–15 и 365–372",
       "evidenceNote": {
-        "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -29611,9 +31221,9 @@
       "identifier": "R714",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 14–15 и 365–372",
+      "evidencePage": "PDF 3, 16–18",
       "evidenceNote": {
         "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
@@ -29629,9 +31239,9 @@
       "identifier": "R715",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL037",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 3, 16–18",
+      "evidencePage": "PDF 16–20 и 365–372",
       "evidenceNote": {
         "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
@@ -29647,9 +31257,9 @@
       "identifier": "R716",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL037",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL040",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 16–20 и 365–372",
+      "evidencePage": "PDF 5–15 и 365–372",
       "evidenceNote": {
         "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
@@ -29665,9 +31275,9 @@
       "identifier": "R717",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL040",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL030",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 5–15 и 365–372",
+      "evidencePage": "PDF 21, 164 и 367",
       "evidenceNote": {
         "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
@@ -29683,7 +31293,7 @@
       "identifier": "R718",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL030",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL031",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "evidencePage": "PDF 21, 164 и 367",
       "evidenceNote": {
@@ -29701,9 +31311,9 @@
       "identifier": "R719",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL031",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL050",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 21, 164 и 367",
+      "evidencePage": "PDF 14 и 370",
       "evidenceNote": {
         "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
@@ -29719,9 +31329,9 @@
       "identifier": "R720",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL050",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL051",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 14 и 370",
+      "evidencePage": "PDF 159",
       "evidenceNote": {
         "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
@@ -29737,9 +31347,9 @@
       "identifier": "R721",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL051",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL053",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 159",
+      "evidencePage": "PDF 17",
       "evidenceNote": {
         "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
@@ -29755,9 +31365,9 @@
       "identifier": "R722",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL053",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL054",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 17",
+      "evidencePage": "PDF 19",
       "evidenceNote": {
         "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
@@ -29773,9 +31383,9 @@
       "identifier": "R723",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL054",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL055",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 19",
+      "evidencePage": "PDF 18",
       "evidenceNote": {
         "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
         "@language": "sr"
@@ -29790,12 +31400,12 @@
       ],
       "identifier": "R724",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL055",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 18",
+      "evidencePage": "PDF 9–152 и 373–378",
       "evidenceNote": {
-        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@value": "Извор је коришћен за хронику Сабора, податке о учесницима и анализу јавне представе манифестације.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -29809,9 +31419,9 @@
       "identifier": "R725",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
-      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S019",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 9–152 и 373–378",
+      "evidencePage": "PDF 3",
       "evidenceNote": {
         "@value": "Извор је коришћен за хронику Сабора, податке о учесницима и анализу јавне представе манифестације.",
         "@language": "sr"
@@ -29827,9 +31437,9 @@
       "identifier": "R726",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
-      "object": "https://milos-timotijevic.github.io/data/entities/#S019",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S032",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 3",
+      "evidencePage": "PDF 10, 23–152 и 373–378",
       "evidenceNote": {
         "@value": "Извор је коришћен за хронику Сабора, податке о учесницима и анализу јавне представе манифестације.",
         "@language": "sr"
@@ -29844,12 +31454,12 @@
       ],
       "identifier": "R727",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
-      "object": "https://milos-timotijevic.github.io/data/entities/#S032",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I051",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 10, 23–152 и 373–378",
+      "evidencePage": "PDF 2–3",
       "evidenceNote": {
-        "@value": "Извор је коришћен за хронику Сабора, податке о учесницима и анализу јавне представе манифестације.",
+        "@value": "Импресум наводи Легенду К.Д. као издавача.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -29863,11 +31473,11 @@
       "identifier": "R728",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
-      "object": "https://milos-timotijevic.github.io/data/entities/#I051",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
       "evidencePage": "PDF 2–3",
       "evidenceNote": {
-        "@value": "Импресум наводи Легенду К.Д. као издавача.",
+        "@value": "Импресум наводи Народни музеј Чачак као суиздавача.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -29879,24 +31489,6 @@
         "kg:RelationStatement"
       ],
       "identifier": "R729",
-      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
-      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
-      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
-      "evidencePage": "PDF 2–3",
-      "evidenceNote": {
-        "@value": "Импресум наводи Народни музеј Чачак као суиздавача.",
-        "@language": "sr"
-      },
-      "confidence": "high"
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/data/entities/#R730",
-      "@type": [
-        "rdf:Statement",
-        "kg:RelationStatement"
-      ],
-      "identifier": "R730",
       "subject": "https://milos-timotijevic.github.io/data/entities/#I063",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL040",
@@ -29909,12 +31501,12 @@
       "confidence": "high"
     },
     {
-      "@id": "https://milos-timotijevic.github.io/data/entities/#R731",
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R730",
       "@type": [
         "rdf:Statement",
         "kg:RelationStatement"
       ],
-      "identifier": "R731",
+      "identifier": "R730",
       "subject": "https://milos-timotijevic.github.io/data/entities/#I064",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL038",
@@ -29922,6 +31514,708 @@
       "evidencePage": "PDF 16",
       "evidenceNote": {
         "@value": "Народни одбор општине био је орган локалне управе у Лучанима.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R731",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R731",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P093",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 16–45",
+      "evidenceNote": {
+        "@value": "Мирослав Миле Мојсиловић је један од главних хроничара и извора за реконструкцију свакодневног живота старог Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R732",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R732",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P100",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 44",
+      "evidenceNote": {
+        "@value": "Филмови Пурише Ђорђевића анализирају се као трајна уметничка обрада сећања на предратну проституцију и интимну историју града.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R733",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R733",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P102",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 15",
+      "evidenceNote": {
+        "@value": "Ровинскијев опис Чачка крајем XIX века уводи анализу границе између породичног живота, улице и кафане.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R734",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R734",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 16, 37 и 41",
+      "evidenceNote": {
+        "@value": "Општинска управа је институционални оквир демографије, становања, јавног морала и регулисања градског живота.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R735",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R735",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I035",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 43",
+      "evidenceNote": {
+        "@value": "Манастир Сретење је издавао зграду у којој је почетком XX века радила кафана повезана са проституцијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R736",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R736",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I055",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 44",
+      "evidenceNote": {
+        "@value": "Гимназија се појављује као важан део урбаног ширења и полне структуре младог становништва пред Други светски рат.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R737",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R737",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I076",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 46",
+      "evidenceNote": {
+        "@value": "Подаци предузећа о биоскопској гледаности користе се у анализи јавног прихватања еротских филмова.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R738",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R738",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 45",
+      "evidenceNote": {
+        "@value": "Љубић је наведен као простор приватних кафана у којима се крајем шездесетих и почетком седамдесетих одвијала проституција.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R739",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R739",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL032",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 39",
+      "evidenceNote": {
+        "@value": "Градска плажа на Западној Морави представљена је као простор јавне доколице и телесне културе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R740",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R740",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL058",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 46",
+      "evidenceNote": {
+        "@value": "Атеница је део анализе сексуалног насиља и казнене праксе педесетих година.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R741",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R741",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL059",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 33",
+      "evidenceNote": {
+        "@value": "Заблаће се јавља као одредиште грађанског излета и пример нових облика приватног времена и мобилности.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R742",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R742",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 16–47",
+      "evidenceNote": {
+        "@value": "Чачански глас се систематски користи за податке о становању, потрошњи, доколици, јавном моралу, контрацепцији, проституцији и криминалу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R743",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R743",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 18, 21, 26, 31, 33, 36 и 39",
+      "evidenceNote": {
+        "@value": "Фотографије Народног музеја у Чачку користе се као визуелни извори за материјалну културу, кафански живот, спорт, излете и јавне просторе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R744",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R744",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-chapter-2007-grad-u-unutrasnjosti",
+      "evidencePage": "PDF 38–40",
+      "evidenceNote": {
+        "@value": "Фонд Градског поглаварства Чачак користи се за податке о породичним односима, јавном моралу и сексуалним преступима у међуратном периоду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R745",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R745",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 36",
+      "evidenceNote": {
+        "@value": "Титов портрет и симболички култ били су део политичких спектакала на централном тргу после 1944.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R746",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R746",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P071",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 36",
+      "evidenceNote": {
+        "@value": "Марксов портрет ношен је у псеудорелигијским политичким ритуалима на тргу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R747",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R747",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P074",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 36",
+      "evidenceNote": {
+        "@value": "Лењинов портрет припадао је комунистичком пантеону приказиваном у политичким манифестацијама.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R748",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R748",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P103",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 6 и 48",
+      "evidenceNote": {
+        "@value": "Капоров суд о Чачку служи као полазиште за анализу архитектонског изгледа и градског менталитета.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R749",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R749",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P104",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 12 и 49",
+      "evidenceNote": {
+        "@value": "Станићева критика рушења старог градитељског наслеђа користи се као савремено сведочанство.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R750",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R750",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P105",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 40",
+      "evidenceNote": {
+        "@value": "Богдан Богдановић је аутор Спомен-парка борбе и победе и његове космополитске симболике.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R751",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R751",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P106",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 40, 42 и 44",
+      "evidenceNote": {
+        "@value": "Михаило Митровић је аутор конкурсног решења трга и комплекса „Пролеће”.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R752",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R752",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P107",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 40",
+      "evidenceNote": {
+        "@value": "Драгиша Брашован је пројектовао Робну кућу „Партизан”.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R753",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R753",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P108",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 42",
+      "evidenceNote": {
+        "@value": "Предлог споменика Ратку Митровићу покренуо је расправу о обликовању трга и политици сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R754",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R754",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 27–46",
+      "evidenceNote": {
+        "@value": "Локална управа је главни институционални актер планирања, рушења, изградње и вишедеценијског неуспелог обликовања градског центра.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R755",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R755",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I069",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 42–43",
+      "evidenceNote": {
+        "@value": "Дом културе је најизраженији модернистички објекат и културно средиште северне стране трга.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R756",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R756",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I070",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 40 и 43",
+      "evidenceNote": {
+        "@value": "Робна кућа „Партизан” заменила је споменички акценат трга архитектуром потрошње.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R757",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R757",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I071",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 38 и 42",
+      "evidenceNote": {
+        "@value": "Робна кућа „Стјеник” припада каснијем слоју масивне трговачке архитектуре трга.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R758",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R758",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I072",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 38 и 42",
+      "evidenceNote": {
+        "@value": "Робна кућа „Партизанка” припада каснијем слоју масивне трговачке архитектуре трга.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R759",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R759",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I073",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 12",
+      "evidenceNote": {
+        "@value": "Републички завод представља институционални оквир заштите наслеђа и стручне критике послератног рушења.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R760",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R760",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I074",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 28",
+      "evidenceNote": {
+        "@value": "Резолуције Савеза комуниста анализирају се као оквир политике урбанизма и просторног планирања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R761",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R761",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I075",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 40 и 42",
+      "evidenceNote": {
+        "@value": "Борачка организација је актер неговања партизанских традиција и расправе о споменику на тргу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R762",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R762",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 31 и 44",
+      "evidenceNote": {
+        "@value": "Ужице служи као упоредни пример плански обликованог социјалистичког трга и меморијалног центра.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R763",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R763",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL056",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 36–47",
+      "evidenceNote": {
+        "@value": "Централни трг је главни простор студије случаја, политичких ритуала, архитектонских интервенција и спорне меморије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R764",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R764",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL057",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 39–40",
+      "evidenceNote": {
+        "@value": "Спомен-парк је преузео меморијалну и репрезентативну функцију измештену из центра града.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R765",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R765",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 48 и 54–57",
+      "evidenceNote": {
+        "@value": "Чачански глас се користи за савремене оцене града, урбанистичке конкурсе, јавне расправе и рецепцију архитектонских интервенција.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R766",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R766",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I069",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 38–43",
+      "evidenceNote": {
+        "@value": "Објекат се налази на централном градском тргу у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R767",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R767",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I070",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 38–43",
+      "evidenceNote": {
+        "@value": "Објекат се налази на централном градском тргу у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R768",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R768",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I071",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 38–43",
+      "evidenceNote": {
+        "@value": "Објекат се налази на централном градском тргу у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R769",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R769",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I072",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+      "evidencePage": "PDF 38–43",
+      "evidenceNote": {
+        "@value": "Објекат се налази на централном градском тргу у Чачку.",
         "@language": "sr"
       },
       "confidence": "high"
