@@ -19,7 +19,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Entities and Relations — Pilot Dataset">
-  <meta name="twitter:description" content="Open entity and relation data derived from thirty-seven publications in the digital scholarly corpus of Miloš Timotijević.">
+  <meta name="twitter:description" content="Open entity and relation data derived from forty publications in the digital scholarly corpus of Miloš Timotijević.">
 
   <style>
     :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f1f1f1; }
@@ -36,7 +36,7 @@
     table { width: 100%; border-collapse: collapse; margin: 1em 0 1.5em; font-size: 0.94em; }
     th, td { border: 1px solid var(--line); padding: 0.65em 0.7em; text-align: left; vertical-align: top; }
     th { background: var(--soft); }
-    caption { text-align: left; font-weight: bold; margin-bottom: 0.62em; }
+    caption { text-align: left; font-weight: bold; margin-bottom: 0.68em; }
     .table-wrap { overflow-x: auto; }
     .subtitle { font-size: 1.08em; margin-bottom: 1.5em; color: #444; }
     .intro-bilingual { margin: 1.25rem 0; padding: 1.1rem 1.2rem; border: 1px solid var(--line); background: #fff; }
@@ -54,7 +54,7 @@
     .small-note { color: var(--muted); font-size: .96em; }
     .date-note { color: var(--muted); font-size: .96em; margin-top: 2em; }
     .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
-    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .62rem .75rem; border: 2px solid var(--link); color: #fff; background: var(--link); }
+    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .68rem .75rem; border: 2px solid var(--link); color: #fff; background: var(--link); }
     .skip-link:focus { top: 1rem; color: #fff; }
     @media (max-width: 680px) {
       body { margin: 0 auto; padding: 24px 18px; font-size: 16px; }
@@ -74,7 +74,7 @@
     "url": "https://milos-timotijevic.github.io/data/entities/",
     "inLanguage": ["sr", "en"],
     "dateModified": "2026-09-22",
-    "description": "Пилотски Data слој који повезује тридесет седам публикација са личностима, установама, местима и историјским изворима посредством изворно проверљивих односа.",
+    "description": "Пилотски Data слој који повезује четрдесет публикација са личностима, установама, местима и историјским изворима посредством изворно проверљивих односа.",
     "isPartOf": {
       "@type": "Dataset",
       "@id": "https://milos-timotijevic.github.io/data/#dataset",
@@ -96,10 +96,10 @@
       "@id": "https://milos-timotijevic.github.io/data/entities/#dataset",
       "name": "Entity and Relation Data of the Research Corpus — Pilot",
       "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
-      "version": "0.6.1",
+      "version": "0.7",
       "datePublished": "2026-09-20",
       "dateModified": "2026-09-22",
-      "description": "Pilot dataset comprising thirty-seven publications, 79 people, 62 institutions, 48 places, 28 historical sources, 22 relation types and 644 source-based relations.",
+      "description": "Pilot dataset comprising forty publications, 101 people, 68 institutions, 54 places, 32 historical sources, 22 relation types and 731 source-based relations.",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -144,7 +144,10 @@
         "conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
         "book-2006-the-sokol-movement-in-cacak-1910-1941",
         "book-2019-dragisa-vasic-serbian-national-idea",
-        "book-2022-myths-of-recent-serbian-history"
+        "book-2022-myths-of-recent-serbian-history",
+        "article-2007-prostitucija-u-cacku-tokom-xx-veka",
+        "article-2000-nazivi-ulica-cacka-1893-1992",
+        "book-2005-carnival-in-guca-trumpet-festival-1961-2004"
       ],
       "distribution": [
         {"@type":"DataDownload","name":"people.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/people.csv"},
@@ -195,17 +198,17 @@
   <section id="scope" aria-labelledby="scope-heading">
     <h2 id="scope-heading">Обухват пилота / <span lang="en">Pilot Scope</span></h2>
     <div class="stat-grid">
-      <article class="stat-card"><span class="stat-number">37</span><h3>Публикација / Publications</h3></article>
-      <article class="stat-card"><span class="stat-number">79</span><h3>Личности / People</h3></article>
-      <article class="stat-card"><span class="stat-number">62</span><h3>Установе / Institutions</h3></article>
-      <article class="stat-card"><span class="stat-number">48</span><h3>Места / Places</h3></article>
-      <article class="stat-card"><span class="stat-number">28</span><h3>Историјских извора / Historical Sources</h3></article>
-      <article class="stat-card"><span class="stat-number">644</span><h3>Односа / Relations</h3></article>
+      <article class="stat-card"><span class="stat-number">40</span><h3>Публикација / Publications</h3></article>
+      <article class="stat-card"><span class="stat-number">101</span><h3>Личности / People</h3></article>
+      <article class="stat-card"><span class="stat-number">68</span><h3>Установе / Institutions</h3></article>
+      <article class="stat-card"><span class="stat-number">54</span><h3>Места / Places</h3></article>
+      <article class="stat-card"><span class="stat-number">32</span><h3>Историјских извора / Historical Sources</h3></article>
+      <article class="stat-card"><span class="stat-number">731</span><h3>Односа / Relations</h3></article>
       <article class="stat-card"><span class="stat-number">22</span><h3>Типа односа / Relation Types</h3></article>
     </div>
 
     <div class="note">
-      <p><strong>Статус:</strong> <span class="status">пилот 0.6.1</span></p>
+      <p><strong>Статус:</strong> <span class="status">пилот 0.7</span></p>
       <p>Скуп је селективан и служи провери модела. Не представља потпун именски, институционални или географски регистар целокупног опуса.</p>
       <p lang="en">The dataset is selective and intended to test the model. It is not a complete index of the people, institutions or places represented in the entire corpus.</p>
     </div>
@@ -217,17 +220,17 @@
     <p lang="en">The files below form a single connected dataset. Entity tables receive stable internal IDs, while <code>relations.csv</code> connects the entities and records the source of every statement.</p>
 
     <div class="data-grid">
-      <article class="data-card"><h3><a href="people.csv"><code>people.csv</code></a></h3><p>79 личност, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">79 people, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
-      <article class="data-card"><h3><a href="institutions.csv"><code>institutions.csv</code></a></h3><p>62 музеја, архива, цркава, манастира, научних, школских, привредних и државних установа.</p><p lang="en">62 museums, archives, churches, monasteries, scholarly, educational, industrial and state institutions.</p></article>
-      <article class="data-card"><h3><a href="places.csv"><code>places.csv</code></a></h3><p>48 града, вароши, села, природне целине, сакрална комплекса и меморијална простора.</p><p lang="en">48 cities, towns, villages, natural areas, sacred complexes and memorial sites.</p></article>
-      <article class="data-card"><h3><a href="sources.csv"><code>sources.csv</code></a></h3><p>28 историјска извора моделованих као засебни ентитети.</p><p lang="en">28 historical sources modelled as entities in their own right.</p></article>
-      <article class="data-card"><h3><a href="relations.csv"><code>relations.csv</code></a></h3><p>644 односа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">644 relations: subject, relation type, object, source, source locator, note and confidence level.</p></article>
+      <article class="data-card"><h3><a href="people.csv"><code>people.csv</code></a></h3><p>101 личност, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">101 people, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
+      <article class="data-card"><h3><a href="institutions.csv"><code>institutions.csv</code></a></h3><p>68 музеја, архива, цркава, манастира, научних, школских, привредних и државних установа.</p><p lang="en">68 museums, archives, churches, monasteries, scholarly, educational, industrial and state institutions.</p></article>
+      <article class="data-card"><h3><a href="places.csv"><code>places.csv</code></a></h3><p>54 града, вароши, села, природне целине, сакрална комплекса и меморијална простора.</p><p lang="en">54 cities, towns, villages, natural areas, sacred complexes and memorial sites.</p></article>
+      <article class="data-card"><h3><a href="sources.csv"><code>sources.csv</code></a></h3><p>32 историјска извора моделованих као засебни ентитети.</p><p lang="en">32 historical sources modelled as entities in their own right.</p></article>
+      <article class="data-card"><h3><a href="relations.csv"><code>relations.csv</code></a></h3><p>731 односа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">731 relations: subject, relation type, object, source, source locator, note and confidence level.</p></article>
       <article class="data-card"><h3><a href="relation-types.csv"><code>relation-types.csv</code></a></h3><p>Контролисани речник од 22 дозвољена односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of 22 allowed relations and subject/object types.</p></article>
-      <article class="data-card"><h3><a href="entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви JSON-LD извоз са 921 чворова и свих 644 директно уписаних веза.</p><p lang="en">Machine-readable JSON-LD export containing 921 nodes and all 644 directly asserted relations.</p></article>
+      <article class="data-card"><h3><a href="entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви JSON-LD извоз са 1049 чворова и свих 731 директно уписаних веза.</p><p lang="en">Machine-readable JSON-LD export containing 1049 nodes and all 731 directly asserted relations.</p></article>
       <article class="data-card"><h3><a href="entity-manifest.json"><code>entity-manifest.json</code></a></h3><p>Број записа, величина и SHA-256 контролни отисак сваког извоза.</p><p lang="en">Record count, file size and SHA-256 checksum for every export.</p></article>
     </div>
 
-    <p class="small-note">Седам јавних скупова и контролни манифест чине јединствену верзију 0.6.1 и непосредно су доступни за преузимање. / The seven public datasets and integrity manifest form a single version 0.6.1 release and are directly available for download.</p>
+    <p class="small-note">Седам јавних скупова и контролни манифест чине јединствену верзију 0.7 и непосредно су доступни за преузимање. / The seven public datasets and integrity manifest form a single version 0.7 release and are directly available for download.</p>
   </section>
 
   <section id="publications" aria-labelledby="publications-heading">
@@ -277,6 +280,9 @@
           <tr><td><code>book-2006-the-sokol-movement-in-cacak-1910-1941</code></td><td>2006</td><td><a href="../../books/sokoli-cacka.html">Соколи Чачка 1910–1941</a></td><td><span class="status">checked</span></td></tr>
           <tr><td><code>book-2019-dragisa-vasic-serbian-national-idea</code></td><td>2019</td><td><a href="../../books/dragisa-vasic-serbian-national-idea.html">Драгиша Васић и српска национална идеја</a></td><td><span class="status">checked</span></td></tr>
           <tr><td><code>book-2022-myths-of-recent-serbian-history</code></td><td>2022</td><td><a href="../../books/mitovi-novije-srpske-istorije.html">Митови новије српске историје</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2007-prostitucija-u-cacku-tokom-xx-veka</code></td><td>2007</td><td><a href="../../articles/prostitucija-u-cacku-tokom-xx-veka.html">Проституција у Чачку током XX века</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2000-nazivi-ulica-cacka-1893-1992</code></td><td>2000</td><td><a href="../../articles/nazivi-ulica-cacka-1893-1992.html">Називи улица Чачка 1893–1992: један век изграђивања колективног идентитета</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2005-carnival-in-guca-trumpet-festival-1961-2004</code></td><td>2005</td><td><a href="../../books/karneval-u-guci.html">Карневал у Гучи: Сабор трубача 1961–2004</a></td><td><span class="status">checked</span></td></tr>
         </tbody>
       </table>
     </div>
@@ -331,12 +337,12 @@
   <section id="citation" aria-labelledby="citation-heading">
     <h2 id="citation-heading">Како цитирати / <span lang="en">How to Cite</span></h2>
     <div class="identifier-box">
-      <p>Милош Тимотијевић, „Ентитети и односи: пилотски Data слој истраживачког корпуса”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, верзија 0.6.1, приступљено [датум приступа].</p>
-      <p lang="en">Miloš Timotijević, “Entities and Relations: Pilot Data Layer of the Research Corpus,” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, version 0.6.1, accessed [access date].</p>
+      <p>Милош Тимотијевић, „Ентитети и односи: пилотски Data слој истраживачког корпуса”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, верзија 0.7, приступљено [датум приступа].</p>
+      <p lang="en">Miloš Timotijević, “Entities and Relations: Pilot Data Layer of the Research Corpus,” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, version 0.7, accessed [access date].</p>
     </div>
   </section>
 
-  <p class="date-note">Верзија 0.6.1 · последње ажурирање: 22. септембар 2026. / Version 0.6.1 · last updated: 22 September 2026.</p>
+  <p class="date-note">Верзија 0.7 · последње ажурирање: 22. септембар 2026. / Version 0.7 · last updated: 22 September 2026.</p>
 
   <p class="back-link">
     <a href="#top">↑ На врх / Back to top</a><br>
