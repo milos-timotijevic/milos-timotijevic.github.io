@@ -32,7 +32,7 @@
       "url": "https://milos-timotijevic.github.io/data/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "dateModified": "2026-09-22",
-      "version": "0.8",
+      "version": "0.9",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -86,32 +86,32 @@
         {
           "@type": "PropertyValue",
           "name": "publications",
-          "value": 44
+          "value": 51
         },
         {
           "@type": "PropertyValue",
           "name": "people",
-          "value": 114
+          "value": 118
         },
         {
           "@type": "PropertyValue",
           "name": "institutions",
-          "value": 84
+          "value": 91
         },
         {
           "@type": "PropertyValue",
           "name": "places",
-          "value": 66
+          "value": 72
         },
         {
           "@type": "PropertyValue",
           "name": "historicalSources",
-          "value": 38
+          "value": 43
         },
         {
           "@type": "PropertyValue",
           "name": "relations",
-          "value": 879
+          "value": 1012
         },
         {
           "@type": "PropertyValue",
@@ -121,7 +121,7 @@
         {
           "@type": "PropertyValue",
           "name": "jsonLdNodes",
-          "value": 1248
+          "value": 1410
         }
       ],
       "hasPart": [
@@ -3865,6 +3865,492 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#R879"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P115"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P116"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P117"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P118"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I086"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I087"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I088"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I089"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I090"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I091"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I092"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL068"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL069"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL070"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL071"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL073"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R880"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R881"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R882"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R883"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R884"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R885"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R886"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R887"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R888"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R889"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R890"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R891"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R892"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R893"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R894"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R895"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R896"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R897"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R898"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R899"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R900"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R901"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R902"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R903"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R904"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R905"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R906"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R907"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R908"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R909"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R910"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R911"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R912"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R913"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R914"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R915"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R916"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R917"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R918"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R919"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R920"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R921"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R922"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R923"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R924"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R925"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R926"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R927"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R928"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R929"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R930"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R931"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R932"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R933"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R934"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R935"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R936"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R937"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R938"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R939"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R940"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R941"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R942"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R943"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R944"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R945"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R946"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R947"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R948"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R949"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R950"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R951"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R952"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R953"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R954"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R955"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R956"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R957"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R958"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R959"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R960"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R961"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R962"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R963"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R964"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R965"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R966"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R967"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R968"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R969"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R970"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R971"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R972"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R973"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R974"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R975"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R976"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R977"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R978"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R979"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R980"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R981"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R982"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R983"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R984"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R985"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R986"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R987"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R988"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R989"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R990"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R991"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R992"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R993"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R994"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R995"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R996"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R997"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R998"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R999"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1000"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1012"
         }
       ]
     },
@@ -35538,6 +36024,3355 @@
       "evidencePage": "PDF 4",
       "evidenceNote": {
         "@value": "Импресум првог издања из 2018. наводи ЈП Службени гласник као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P115",
+      "@type": "Person",
+      "identifier": "P115",
+      "name": [
+        {
+          "@value": "Јован Михаиловић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Jovan Mihailović",
+          "@language": "en"
+        }
+      ],
+      "birthDate": null,
+      "deathDate": null
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P116",
+      "@type": "Person",
+      "identifier": "P116",
+      "name": [
+        {
+          "@value": "Миодраг Васић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Miodrag Vasić",
+          "@language": "en"
+        }
+      ],
+      "birthDate": null,
+      "deathDate": null
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P117",
+      "@type": "Person",
+      "identifier": "P117",
+      "name": [
+        {
+          "@value": "Драгиша Мишовић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragiša Mišović",
+          "@language": "en"
+        }
+      ],
+      "birthDate": "1898",
+      "deathDate": "1939"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P118",
+      "@type": "Person",
+      "identifier": "P118",
+      "name": [
+        {
+          "@value": "Војко Чвркић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vojko Čvrkić",
+          "@language": "en"
+        }
+      ],
+      "birthDate": null,
+      "deathDate": null
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I086",
+      "@type": "Organization",
+      "identifier": "I086",
+      "name": [
+        {
+          "@value": "Југословенска радикална заједница",
+          "@language": "sr"
+        },
+        {
+          "@value": "Yugoslav Radical Union",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I087",
+      "@type": "Organization",
+      "identifier": "I087",
+      "name": [
+        {
+          "@value": "Удружена опозиција",
+          "@language": "sr"
+        },
+        {
+          "@value": "United Opposition",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I088",
+      "@type": "Organization",
+      "identifier": "I088",
+      "name": [
+        {
+          "@value": "Чачански партизански одред „Др Драгиша Мишовић”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak Partisan Detachment Dr Dragiša Mišović",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I089",
+      "@type": "Organization",
+      "identifier": "I089",
+      "name": [
+        {
+          "@value": "Општина града Београда",
+          "@language": "sr"
+        },
+        {
+          "@value": "Municipality of the City of Belgrade",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I090",
+      "@type": "Organization",
+      "identifier": "I090",
+      "name": [
+        {
+          "@value": "Дирекција трамваја и осветљења Београд",
+          "@language": "sr"
+        },
+        {
+          "@value": "Belgrade Directorate of Trams and Lighting",
+          "@language": "en"
+        }
+      ],
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I091",
+      "@type": "Organization",
+      "identifier": "I091",
+      "name": [
+        {
+          "@value": "Градска стража Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak City Guard",
+          "@language": "en"
+        }
+      ],
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I092",
+      "@type": "Organization",
+      "identifier": "I092",
+      "name": [
+        {
+          "@value": "Војно-технички завод у Чачку",
+          "@language": "sr"
+        },
+        {
+          "@value": "Military Technical Institute in Čačak",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL068",
+      "@type": "Place",
+      "identifier": "PL068",
+      "name": [
+        {
+          "@value": "Срем",
+          "@language": "sr"
+        },
+        {
+          "@value": "Srem",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL069",
+      "@type": "Place",
+      "identifier": "PL069",
+      "name": [
+        {
+          "@value": "Земун",
+          "@language": "sr"
+        },
+        {
+          "@value": "Zemun",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL070",
+      "@type": "Place",
+      "identifier": "PL070",
+      "name": [
+        {
+          "@value": "Сарајево",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sarajevo",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "BA"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL071",
+      "@type": "Place",
+      "identifier": "PL071",
+      "name": [
+        {
+          "@value": "Ивањица",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ivanjica",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL072",
+      "@type": "Place",
+      "identifier": "PL072",
+      "name": [
+        {
+          "@value": "Трнавски срез",
+          "@language": "sr"
+        },
+        {
+          "@value": "Trnava District",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL073",
+      "@type": "Place",
+      "identifier": "PL073",
+      "name": [
+        {
+          "@value": "Љубићки срез",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ljubić District",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S039",
+      "@type": "CreativeWork",
+      "identifier": "S039",
+      "name": [
+        {
+          "@value": "Општинске новине",
+          "@language": "sr"
+        },
+        {
+          "@value": "Municipal Newspaper",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S040",
+      "@type": "CreativeWork",
+      "identifier": "S040",
+      "name": [
+        {
+          "@value": "Службене новине 1941",
+          "@language": "sr"
+        },
+        {
+          "@value": "Official Gazette 1941",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S041",
+      "@type": "CreativeWork",
+      "identifier": "S041",
+      "name": [
+        {
+          "@value": "Лист уредаба Војног заповедника у Србији",
+          "@language": "sr"
+        },
+        {
+          "@value": "Gazette of Decrees of the Military Commander in Serbia",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S042",
+      "@type": "CreativeWork",
+      "identifier": "S042",
+      "name": [
+        {
+          "@value": "Слобода",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sloboda",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S043",
+      "@type": "CreativeWork",
+      "identifier": "S043",
+      "name": [
+        {
+          "@value": "Породични фонд Крен–Станковић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Kren–Stanković Family Fonds",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "internalId": "article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "name": [
+        {
+          "@value": "Чачак у предвечерје Другог светског рата 1938–1941: социјална, економска и политичка структура",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak on the Eve of the Second World War, 1938–1941: Social, Economic, and Political Structure",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "1999",
+      "url": "https://milos-timotijevic.github.io/articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20616690",
+        "https://zenodo.org/records/20616690"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P055"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P059"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P116"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P117"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P118"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I049"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I086"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I087"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I088"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I092"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL070"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL071"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL073"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S043"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-2008-u-lavirintu-unutrasnjih-granica",
+      "internalId": "article-2008-u-lavirintu-unutrasnjih-granica",
+      "name": [
+        {
+          "@value": "У лавиринту унутрашњих граница: положај Чачка у територијалној подели Србије 1804–2009. године",
+          "@language": "sr"
+        },
+        {
+          "@value": "In the Labyrinth within Internal Boundaries: Location of Čačak in the Territorial Division of Serbia, 1804–2009",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2008",
+      "url": "https://milos-timotijevic.github.io/articles/u-lavirintu-unutrasnjih-granica.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20595403",
+        "https://zenodo.org/records/20595403"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "internalId": "article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "name": [
+        {
+          "@value": "Општинска власт у Чачку између два светска рата",
+          "@language": "sr"
+        },
+        {
+          "@value": "Municipal Government in Čačak between the Two World Wars",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "1997",
+      "url": "https://milos-timotijevic.github.io/articles/opstinska-vlast-cacak-izmedju-dva-rata.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20594587",
+        "https://zenodo.org/records/20594587"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P094"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P115"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P116"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P062"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I086"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL069"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL070"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S042"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "internalId": "article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "name": [
+        {
+          "@value": "Жена и рат: „друга страна” окупације 1941–1945. године на простору чачанског краја",
+          "@language": "sr"
+        },
+        {
+          "@value": "Woman and War: The “Other Side” of the Occupation (1941–1945) in the Čačak Region",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2003",
+      "url": "https://milos-timotijevic.github.io/articles/zena-i-rat-druga-strana-okupacije-1941-1945-cacanski-kraj.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20678225",
+        "https://zenodo.org/records/20678225"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P100"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I088"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S036"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "internalId": "article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "name": [
+        {
+          "@value": "Чачак под окупацијом 1941–1944: привреда и друштво",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak under Occupation, 1941–1944: Economy and Society",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2000",
+      "url": "https://milos-timotijevic.github.io/articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20621072",
+        "https://zenodo.org/records/20621072"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P063"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P109"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P116"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I091"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL073"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S036"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "internalId": "article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "name": [
+        {
+          "@value": "Трамвај, фијакер и бицикл: саобраћајна свакодневица у окупираном Београду 1941. године",
+          "@language": "sr"
+        },
+        {
+          "@value": "Tram, carriage and bicycle: Everyday traffic in occupied Belgrade in 1941",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2021",
+      "url": "https://milos-timotijevic.github.io/articles/tramvaj-fijaker-bicikl-okupirani-beograd-1941.html",
+      "sameAs": [
+        "https://doi.org/10.31212/tokovi.2021.2.mil.39-64",
+        "https://zenodo.org/records/20568893"
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I089"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I090"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I084"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL068"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL069"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL011"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S037"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "@type": "ScholarlyArticle",
+      "identifier": "conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "internalId": "conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "name": [
+        {
+          "@value": "Град и окупација – свакодневни живот Чачка 1941. године",
+          "@language": "sr"
+        },
+        {
+          "@value": "The City and Occupation: Everyday Life in Čačak in 1941",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2021",
+      "url": "https://milos-timotijevic.github.io/conference-papers/grad-i-okupacija-svakodnevni-zivot-cacka-1941.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20677934",
+        "https://zenodo.org/records/20677934"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P116"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P117"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I091"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I018"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S033"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R880",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R880",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P055",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 64",
+      "evidenceNote": {
+        "@value": "Личност је важна за социјалну, економску или политичку структуру чачанског краја пред рат.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R881",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R881",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P059",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 48, 64 и 69",
+      "evidenceNote": {
+        "@value": "Личност је важна за социјалну, економску или политичку структуру чачанског краја пред рат.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R882",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R882",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 52 и 61",
+      "evidenceNote": {
+        "@value": "Личност је важна за социјалну, економску или политичку структуру чачанског краја пред рат.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R883",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R883",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P116",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 46–81",
+      "evidenceNote": {
+        "@value": "Личност је важна за социјалну, економску или политичку структуру чачанског краја пред рат.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R884",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R884",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P117",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 39–71",
+      "evidenceNote": {
+        "@value": "Личност је важна за социјалну, економску или политичку структуру чачанског краја пред рат.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R885",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R885",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P118",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 33–81",
+      "evidenceNote": {
+        "@value": "Личност је важна за социјалну, економску или политичку структуру чачанског краја пред рат.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R886",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R886",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 11–81",
+      "evidenceNote": {
+        "@value": "Установа или организација припада привредној и политичкој структури Чачка 1938–1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R887",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R887",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 22–31",
+      "evidenceNote": {
+        "@value": "Установа или организација припада привредној и политичкој структури Чачка 1938–1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R888",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R888",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I049",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 48–69",
+      "evidenceNote": {
+        "@value": "Установа или организација припада привредној и политичкој структури Чачка 1938–1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R889",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R889",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 39–88",
+      "evidenceNote": {
+        "@value": "Установа или организација припада привредној и политичкој структури Чачка 1938–1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R890",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R890",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I086",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 33–60",
+      "evidenceNote": {
+        "@value": "Установа или организација припада привредној и политичкој структури Чачка 1938–1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R891",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R891",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I087",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 2 и 48–81",
+      "evidenceNote": {
+        "@value": "Установа или организација припада привредној и политичкој структури Чачка 1938–1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R892",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R892",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I088",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 88",
+      "evidenceNote": {
+        "@value": "Установа или организација припада привредној и политичкој структури Чачка 1938–1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R893",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R893",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I092",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 22–31",
+      "evidenceNote": {
+        "@value": "Установа или организација припада привредној и политичкој структури Чачка 1938–1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R894",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R894",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 1–90",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R895",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R895",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 2–89",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R896",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R896",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 3 и 7",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R897",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R897",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 3, 21 и 23",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R898",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R898",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL008",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 39, 51 и 67",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R899",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R899",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 3 и 36",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R900",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R900",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL070",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 8–59",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R901",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R901",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL071",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 36 и 56",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R902",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R902",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL072",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 2–89",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R903",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R903",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL073",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 2–89",
+      "evidenceNote": {
+        "@value": "Место је део демографске, привредне, административне или политичке географије рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R904",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R904",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 23 и 29",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд непосредно су коришћени у реконструкцији предратног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R905",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R905",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 10 и 31",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд непосредно су коришћени у реконструкцији предратног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R906",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R906",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 1–89",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд непосредно су коришћени у реконструкцији предратног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R907",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R907",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S043",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+      "evidencePage": "PDF 81",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд непосредно су коришћени у реконструкцији предратног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R908",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R908",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 14, 16 и 19",
+      "evidenceNote": {
+        "@value": "Кнез Милош је актер раног административног обликовања Србије и положаја Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R909",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R909",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 41 и 43",
+      "evidenceNote": {
+        "@value": "Општина Чачак је главни предмет анализе локалне самоуправе и територијалних промена.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R910",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R910",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 10–49",
+      "evidenceNote": {
+        "@value": "Место је део анализе територијалних подела, регионалних средишта и градске мреже Србије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R911",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R911",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 10–49",
+      "evidenceNote": {
+        "@value": "Место је део анализе територијалних подела, регионалних средишта и градске мреже Србије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R912",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R912",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 11–49",
+      "evidenceNote": {
+        "@value": "Место је део анализе територијалних подела, регионалних средишта и градске мреже Србије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R913",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R913",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL005",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 12–49",
+      "evidenceNote": {
+        "@value": "Место је део анализе територијалних подела, регионалних средишта и градске мреже Србије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R914",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R914",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 10–49",
+      "evidenceNote": {
+        "@value": "Место је део анализе територијалних подела, регионалних средишта и градске мреже Србије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R915",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R915",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL008",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 10–49",
+      "evidenceNote": {
+        "@value": "Место је део анализе територијалних подела, регионалних средишта и градске мреже Србије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R916",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R916",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 16, 33 и 47–48",
+      "evidenceNote": {
+        "@value": "Место је део анализе територијалних подела, регионалних средишта и градске мреже Србије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R917",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R917",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL010",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 47–49",
+      "evidenceNote": {
+        "@value": "Место је део анализе територијалних подела, регионалних средишта и градске мреже Србије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R918",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R918",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2008-u-lavirintu-unutrasnjih-granica",
+      "evidencePage": "PDF 2–3",
+      "evidenceNote": {
+        "@value": "Импресум Зборника радова Народног музеја XXXVIII наводи Народни музеј Чачак као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R919",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R919",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P094",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Личност је актер успостављања, рада или политичке контроле општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R920",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R920",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P115",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 2, 6 и 13",
+      "evidenceNote": {
+        "@value": "Личност је актер успостављања, рада или политичке контроле општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R921",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R921",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P116",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 25–28",
+      "evidenceNote": {
+        "@value": "Личност је актер успостављања, рада или политичке контроле општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R922",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R922",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 25–28",
+      "evidenceNote": {
+        "@value": "Личност је актер успостављања, рада или политичке контроле општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R923",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R923",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P062",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 25–28",
+      "evidenceNote": {
+        "@value": "Личност је актер успостављања, рада или политичке контроле општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R924",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R924",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 1–30",
+      "evidenceNote": {
+        "@value": "Установа је носилац локалне управе, политички оквир или место чувања извора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R925",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R925",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I018",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 2–29",
+      "evidenceNote": {
+        "@value": "Установа је носилац локалне управе, политички оквир или место чувања извора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R926",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R926",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 17",
+      "evidenceNote": {
+        "@value": "Установа је носилац локалне управе, политички оквир или место чувања извора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R927",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R927",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I086",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 25–28",
+      "evidenceNote": {
+        "@value": "Установа је носилац локалне управе, политички оквир или место чувања извора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R928",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R928",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 1–30",
+      "evidenceNote": {
+        "@value": "Место припада административној и политичкој мрежи општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R929",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R929",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 16–27",
+      "evidenceNote": {
+        "@value": "Место припада административној и политичкој мрежи општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R930",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R930",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 2–29",
+      "evidenceNote": {
+        "@value": "Место припада административној и политичкој мрежи општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R931",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R931",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL069",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 6",
+      "evidenceNote": {
+        "@value": "Место припада административној и политичкој мрежи општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R932",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R932",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL070",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 12",
+      "evidenceNote": {
+        "@value": "Место припада административној и политичкој мрежи општинске власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R933",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R933",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 4–27",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд коришћени су за реконструкцију локалне власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R934",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R934",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 3–29",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд коришћени су за реконструкцију локалне власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R935",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R935",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 2–29",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд коришћени су за реконструкцију локалне власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R936",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R936",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 14",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд коришћени су за реконструкцију локалне власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R937",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R937",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S042",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+      "evidencePage": "PDF 1–6",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд коришћени су за реконструкцију локалне власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R938",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R938",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Личност припада политичком, војном или меморијском оквиру искуства жена у рату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R939",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R939",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Личност припада политичком, војном или меморијском оквиру искуства жена у рату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R940",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R940",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P100",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 30–40",
+      "evidenceNote": {
+        "@value": "Личност припада политичком, војном или меморијском оквиру искуства жена у рату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R941",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R941",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I018",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер ратне власти, насиља, мобилизације или изворни оквир рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R942",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R942",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер ратне власти, насиља, мобилизације или изворни оквир рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R943",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R943",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер ратне власти, насиља, мобилизације или изворни оквир рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R944",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R944",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер ратне власти, насиља, мобилизације или изворни оквир рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R945",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R945",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер ратне власти, насиља, мобилизације или изворни оквир рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R946",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R946",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I088",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер ратне власти, насиља, мобилизације или изворни оквир рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R947",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R947",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Место припада простору анализе положаја жена и односа полова током окупације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R948",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R948",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Место припада простору анализе положаја жена и односа полова током окупације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R949",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R949",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Место припада простору анализе положаја жена и односа полова током окупације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R950",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R950",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL008",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Место припада простору анализе положаја жена и односа полова током окупације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R951",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R951",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Место припада простору анализе положаја жена и односа полова током окупације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R952",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R952",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S017",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Архивска збирка или фонд коришћени су за документовање ратне свакодневице, репресије и родних односа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R953",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R953",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Архивска збирка или фонд коришћени су за документовање ратне свакодневице, репресије и родних односа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R954",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R954",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+      "evidencePage": "PDF 1–46",
+      "evidenceNote": {
+        "@value": "Архивска збирка или фонд коришћени су за документовање ратне свакодневице, репресије и родних односа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R955",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R955",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P063",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 1–20",
+      "evidenceNote": {
+        "@value": "Личност је актер окупационог, колаборационистичког или устаничког поретка и локалне управе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R956",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R956",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 39–94",
+      "evidenceNote": {
+        "@value": "Личност је актер окупационог, колаборационистичког или устаничког поретка и локалне управе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R957",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R957",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 39–94",
+      "evidenceNote": {
+        "@value": "Личност је актер окупационог, колаборационистичког или устаничког поретка и локалне управе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R958",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R958",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P109",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 28 и 59",
+      "evidenceNote": {
+        "@value": "Личност је актер окупационог, колаборационистичког или устаничког поретка и локалне управе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R959",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R959",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P116",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 36–44",
+      "evidenceNote": {
+        "@value": "Личност је актер окупационог, колаборационистичког или устаничког поретка и локалне управе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R960",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R960",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 13–83",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему окупационе власти, привреде, колаборације или отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R961",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R961",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 20–83",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему окупационе власти, привреде, колаборације или отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R962",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R962",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 39–94",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему окупационе власти, привреде, колаборације или отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R963",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R963",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 39–94",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему окупационе власти, привреде, колаборације или отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R964",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R964",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 39–94",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему окупационе власти, привреде, колаборације или отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R965",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R965",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 1–94",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему окупационе власти, привреде, колаборације или отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R966",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R966",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 28–83",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему окупационе власти, привреде, колаборације или отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R967",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R967",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 21–83",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему окупационе власти, привреде, колаборације или отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R968",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R968",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I091",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 68–69",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему окупационе власти, привреде, колаборације или отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R969",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R969",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 1–94",
+      "evidenceNote": {
+        "@value": "Место је део привредне, административне и ратне географије окупираног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R970",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R970",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 13–83",
+      "evidenceNote": {
+        "@value": "Место је део привредне, административне и ратне географије окупираног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R971",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R971",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 9 и 30–56",
+      "evidenceNote": {
+        "@value": "Место је део привредне, административне и ратне географије окупираног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R972",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R972",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 19, 32 и 39–84",
+      "evidenceNote": {
+        "@value": "Место је део привредне, административне и ратне географије окупираног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R973",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R973",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 23",
+      "evidenceNote": {
+        "@value": "Место је део привредне, административне и ратне географије окупираног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R974",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R974",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL072",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 13–83",
+      "evidenceNote": {
+        "@value": "Место је део привредне, административне и ратне географије окупираног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R975",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R975",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL073",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 13–83",
+      "evidenceNote": {
+        "@value": "Место је део привредне, административне и ратне географије окупираног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R976",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R976",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 57",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд коришћени су за реконструкцију привреде, друштва и власти под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R977",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R977",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 4–94",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд коришћени су за реконструкцију привреде, друштва и власти под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R978",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R978",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 6–85",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд коришћени су за реконструкцију привреде, друштва и власти под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R979",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R979",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 19–94",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд коришћени су за реконструкцију привреде, друштва и власти под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R980",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R980",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 21–85",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд коришћени су за реконструкцију привреде, друштва и власти под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R981",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R981",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+      "evidencePage": "PDF 9–85",
+      "evidenceNote": {
+        "@value": "Штампа или архивски фонд коришћени су за реконструкцију привреде, друштва и власти под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R982",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R982",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 3–22",
+      "evidenceNote": {
+        "@value": "Установа је организовала, надзирала или документовала саобраћај у окупираном Београду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R983",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R983",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I089",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 3–20",
+      "evidenceNote": {
+        "@value": "Установа је организовала, надзирала или документовала саобраћај у окупираном Београду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R984",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R984",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I090",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 11–18",
+      "evidenceNote": {
+        "@value": "Установа је организовала, надзирала или документовала саобраћај у окупираном Београду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R985",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R985",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I084",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 2–22",
+      "evidenceNote": {
+        "@value": "Установа је организовала, надзирала или документовала саобраћај у окупираном Београду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R986",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R986",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 1–26",
+      "evidenceNote": {
+        "@value": "Место је део пограничне, железничке, друмске или градске саобраћајне мреже 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R987",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R987",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL068",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 4–10",
+      "evidenceNote": {
+        "@value": "Место је део пограничне, железничке, друмске или градске саобраћајне мреже 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R988",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R988",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL069",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 4–22",
+      "evidenceNote": {
+        "@value": "Место је део пограничне, железничке, друмске или градске саобраћајне мреже 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R989",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R989",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL011",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 6–9",
+      "evidenceNote": {
+        "@value": "Место је део пограничне, железничке, друмске или градске саобраћајне мреже 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R990",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R990",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 2–22",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд непосредно документују саобраћајне прописе и свакодневицу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R991",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R991",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 5–21",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд непосредно документују саобраћајне прописе и свакодневицу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R992",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R992",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S039",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 4–20",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд непосредно документују саобраћајне прописе и свакодневицу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R993",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R993",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 5 и 22–24",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд непосредно документују саобраћајне прописе и свакодневицу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R994",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R994",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S041",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 22–24",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд непосредно документују саобраћајне прописе и свакодневицу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R995",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R995",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 2–22",
+      "evidenceNote": {
+        "@value": "Штампа, службено гласило или архивски фонд непосредно документују саобраћајне прописе и свакодневицу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R996",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R996",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I090",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+      "evidencePage": "PDF 11–18",
+      "evidenceNote": {
+        "@value": "Дирекција трамваја и осветљења деловала је у Београду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R997",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R997",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P116",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 8 и 22",
+      "evidenceNote": {
+        "@value": "Личност је актер локалне власти или политичког и меморијског оквира окупираног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R998",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R998",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P117",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 5 и 25",
+      "evidenceNote": {
+        "@value": "Личност је актер локалне власти или политичког и меморијског оквира окупираног Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R999",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R999",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 5–25",
+      "evidenceNote": {
+        "@value": "Установа је спроводила, наметала или документовала дисциплиновање градске свакодневице.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1000",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1000",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 4–25",
+      "evidenceNote": {
+        "@value": "Установа је спроводила, наметала или документовала дисциплиновање градске свакодневице.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1001",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1001",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 4–25",
+      "evidenceNote": {
+        "@value": "Установа је спроводила, наметала или документовала дисциплиновање градске свакодневице.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1002",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1002",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I091",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 3–22",
+      "evidenceNote": {
+        "@value": "Установа је спроводила, наметала или документовала дисциплиновање градске свакодневице.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1003",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1003",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I018",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 4, 5 и 25",
+      "evidenceNote": {
+        "@value": "Установа је спроводила, наметала или документовала дисциплиновање градске свакодневице.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1004",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1004",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 1–27",
+      "evidenceNote": {
+        "@value": "Место припада непосредном или упоредном оквиру градске свакодневице под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1005",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1005",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 2–26",
+      "evidenceNote": {
+        "@value": "Место припада непосредном или упоредном оквиру градске свакодневице под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1006",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1006",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 5",
+      "evidenceNote": {
+        "@value": "Место припада непосредном или упоредном оквиру градске свакодневице под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1007",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1007",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 5",
+      "evidenceNote": {
+        "@value": "Место припада непосредном или упоредном оквиру градске свакодневице под окупацијом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1008",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1008",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 4–25",
+      "evidenceNote": {
+        "@value": "Архивски фонд и штампа непосредно документују наредбе, забране и казне у јавном простору.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1009",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1009",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 3 и 10",
+      "evidenceNote": {
+        "@value": "Архивски фонд и штампа непосредно документују наредбе, забране и казне у јавном простору.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1010",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1010",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 2–25",
+      "evidenceNote": {
+        "@value": "Архивски фонд и штампа непосредно документују наредбе, забране и казне у јавном простору.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1011",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1011",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 15",
+      "evidenceNote": {
+        "@value": "Архивски фонд и штампа непосредно документују наредбе, забране и казне у јавном простору.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1012",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1012",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I091",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+      "evidencePage": "PDF 3–22",
+      "evidenceNote": {
+        "@value": "Градска стража деловала је на територији Чачка.",
         "@language": "sr"
       },
       "confidence": "high"
