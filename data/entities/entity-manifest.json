@@ -1,79 +1,64 @@
 {
-  "schemaVersion": 1,
-  "name": "Integrity manifest for the entity and relation data layer",
-  "alternateName": "Контролни манифест ентитетско-релационог слоја",
-  "version": "0.5",
+  "schemaVersion": "1.0",
+  "name": "Entity and Relation Data of the Research Corpus — Pilot",
+  "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
+  "version": "0.6",
   "dateModified": "2026-09-22",
   "algorithm": "SHA-256",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datasetUrl": "https://milos-timotijevic.github.io/data/entities/",
   "scope": {
-    "publications": 33,
-    "people": 71,
-    "institutions": 55,
-    "places": 44,
-    "historicalSources": 23,
-    "relations": 568,
+    "publications": 37,
+    "people": 79,
+    "institutions": 62,
+    "places": 49,
+    "historicalSources": 28,
+    "relations": 644,
     "relationTypes": 22,
-    "jsonLdNodes": 817
+    "jsonLdNodes": 922
   },
   "files": [
     {
-      "path": "data/entities/people.csv",
-      "contentUrl": "https://milos-timotijevic.github.io/data/entities/people.csv",
-      "encodingFormat": "text/csv",
-      "byteSize": 35146,
-      "sha256": "fa22db133da0670166e9b73229ae929794a2e76cfb0e1957b6fa7699f58af3d6",
-      "recordCount": 71
+      "path": "people.csv",
+      "recordCount": 79,
+      "bytes": 39981,
+      "sha256": "0c79d337debab0ba398e5231b08067259589d360d0693b295c29a03ca94d74ae"
     },
     {
-      "path": "data/entities/institutions.csv",
-      "contentUrl": "https://milos-timotijevic.github.io/data/entities/institutions.csv",
-      "encodingFormat": "text/csv",
-      "byteSize": 29237,
-      "sha256": "f3135df0097c8b61a3bd594bea2b462c5b335e8c0d0a4a2c2ad0497cf8c38240",
-      "recordCount": 55
+      "path": "institutions.csv",
+      "recordCount": 62,
+      "bytes": 33261,
+      "sha256": "35d2b2a5ff5a6439b277402230d75fdbfdf01582dc77f69cc10193322cf00f0a"
     },
     {
-      "path": "data/entities/places.csv",
-      "contentUrl": "https://milos-timotijevic.github.io/data/entities/places.csv",
-      "encodingFormat": "text/csv",
-      "byteSize": 18141,
-      "sha256": "2b85d0849e98f9fb2a8257a0e37dc52d61c9b13d8d5d35e12b741f6550c974ae",
-      "recordCount": 44
+      "path": "places.csv",
+      "recordCount": 49,
+      "bytes": 20650,
+      "sha256": "b827dc491e7a6b9b2be63693040b9dbf58cc655845518b1939481f286c8fd17d"
     },
     {
-      "path": "data/entities/sources.csv",
-      "contentUrl": "https://milos-timotijevic.github.io/data/entities/sources.csv",
-      "encodingFormat": "text/csv",
-      "byteSize": 9370,
-      "sha256": "3547009d0e83f40433de4ab397ab0c10c96deb9078c4a97fc02cc5f307abab32",
-      "recordCount": 23
+      "path": "sources.csv",
+      "recordCount": 28,
+      "bytes": 11409,
+      "sha256": "81d2560f896f17b151c5c5b5e83618ff83ef699307f4819a0487153f9254a10b"
     },
     {
-      "path": "data/entities/relations.csv",
-      "contentUrl": "https://milos-timotijevic.github.io/data/entities/relations.csv",
-      "encodingFormat": "text/csv",
-      "byteSize": 165018,
-      "sha256": "44ec43c4204b6953f7dfe7795c210107d9753837d7dcd7e60b24b992b466e07e",
-      "recordCount": 568
+      "path": "relations.csv",
+      "recordCount": 644,
+      "bytes": 188544,
+      "sha256": "f7b15189dc0dc869c7b9872c35461d06223e82027b1bcab0387e79fc0e26be8c"
     },
     {
-      "path": "data/entities/relation-types.csv",
-      "contentUrl": "https://milos-timotijevic.github.io/data/entities/relation-types.csv",
-      "encodingFormat": "text/csv",
-      "byteSize": 11404,
-      "sha256": "eb33d0e9029686c73bef474b209800f503c40eb673cd8879885fe46b66f89330",
-      "recordCount": 22
+      "path": "relation-types.csv",
+      "recordCount": 22,
+      "bytes": 11404,
+      "sha256": "eb33d0e9029686c73bef474b209800f503c40eb673cd8879885fe46b66f89330"
     },
     {
-      "path": "data/entities/entity-graph.jsonld",
-      "contentUrl": "https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld",
-      "encodingFormat": "application/ld+json",
-      "byteSize": 988705,
-      "sha256": "1871a9c8bff36a3e898c6f781e3f799aadde408963e99a320963bc0fa48540ce",
-      "recordCount": 817,
-      "recordCountDefinition": "Number of nodes in @graph"
+      "path": "entity-graph.jsonld",
+      "recordCount": 922,
+      "bytes": 1099264,
+      "sha256": "f04cf6724cca79915a29e858e7c0b9e495d91589af5c39740e6ad93af3082b39"
     }
   ]
 }

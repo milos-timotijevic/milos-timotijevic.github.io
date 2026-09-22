@@ -32,7 +32,7 @@
       "url": "https://milos-timotijevic.github.io/data/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "dateModified": "2026-09-22",
-      "version": "0.5",
+      "version": "0.6",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -5326,7 +5326,12 @@
       "description": {
         "@value": "Спољни ауторитетски идентификатор није унет без засебне нормативне провере.",
         "@language": "sr"
-      }
+      },
+      "commanded": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        }
+      ]
     },
     {
       "@id": "https://milos-timotijevic.github.io/data/entities/#P066",
@@ -5618,6 +5623,9 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#S019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S027"
         }
       ]
     },
@@ -24235,6 +24243,2553 @@
       "evidencePage": "PDF 51–57",
       "evidenceNote": {
         "@value": "Гимназија је локална образовна установа у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P072",
+      "@type": "Person",
+      "identifier": "P072",
+      "internalId": "P072",
+      "name": [
+        {
+          "@value": "Драгиша Васић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragiša Vasić",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "књижевник, адвокат и политички мислилац",
+          "@language": "sr"
+        },
+        {
+          "@value": "writer, lawyer and political thinker",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "sourceEvidencePage": "PDF 7–15",
+      "sourceEvidenceNote": {
+        "@value": "Предговор одређује Драгишу Васића као средишњу личност монографије и разматра његов интелектуални и политички положај.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1885",
+      "deathYear": "1945",
+      "visited": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL046"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I060"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P073",
+      "@type": "Person",
+      "identifier": "P073",
+      "internalId": "P073",
+      "name": [
+        {
+          "@value": "Мирослав Крлежа",
+          "@language": "sr"
+        },
+        {
+          "@value": "Miroslav Krleža",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "књижевник и есејиста",
+          "@language": "sr"
+        },
+        {
+          "@value": "writer and essayist",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "sourceEvidencePage": "PDF 7–16",
+      "sourceEvidenceNote": {
+        "@value": "Једна од две личности чији се путописи о Совјетској Русији непосредно пореде у раду.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1893",
+      "deathYear": "1981",
+      "visited": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL045"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P074",
+      "@type": "Person",
+      "identifier": "P074",
+      "internalId": "P074",
+      "name": [
+        {
+          "@value": "Владимир Иљич Лењин",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vladimir Ilyich Lenin",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "револуционар и совјетски политички вођа",
+          "@language": "sr"
+        },
+        {
+          "@value": "revolutionary and Soviet political leader",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "sourceEvidencePage": "PDF 15–16",
+      "sourceEvidenceNote": {
+        "@value": "Рад анализира сакрализацију Лењина и улогу његовог култа у комунистичкој политичкој религији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1870",
+      "deathYear": "1924"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P075",
+      "@type": "Person",
+      "identifier": "P075",
+      "internalId": "P075",
+      "name": [
+        {
+          "@value": "Мирослав Тирш",
+          "@language": "sr"
+        },
+        {
+          "@value": "Miroslav Tyrš",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "оснивач соколског покрета и теоретичар гимнастике",
+          "@language": "sr"
+        },
+        {
+          "@value": "founder of the Sokol movement and gymnastics theorist",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "sourceEvidencePage": "PDF 8–11",
+      "sourceEvidenceNote": {
+        "@value": "Обрађен као родоначелник соколског покрета и творац његовог идејног и гимнастичког система.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1832",
+      "deathYear": "1884"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P076",
+      "@type": "Person",
+      "identifier": "P076",
+      "internalId": "P076",
+      "name": [
+        {
+          "@value": "Стеван Тодоровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Stevan Todorović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "сликар и пионир организованог телесног вежбања у Србији",
+          "@language": "sr"
+        },
+        {
+          "@value": "painter and pioneer of organized physical exercise in Serbia",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "sourceEvidencePage": "PDF 10–12",
+      "sourceEvidenceNote": {
+        "@value": "Обрађен у поглављу о почецима телесног васпитања и соколства у Србији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1832",
+      "deathYear": "1925"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P077",
+      "@type": "Person",
+      "identifier": "P077",
+      "internalId": "P077",
+      "name": [
+        {
+          "@value": "Слободан Јовановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Slobodan Jovanović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "правник, историчар и политичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "jurist, historian and politician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "sourceEvidencePage": "PDF 319–328",
+      "sourceEvidenceNote": {
+        "@value": "Важна личност Васићевог интелектуалног и политичког круга и деловања Српског културног клуба.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1869",
+      "deathYear": "1958"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P078",
+      "@type": "Person",
+      "identifier": "P078",
+      "internalId": "P078",
+      "name": [
+        {
+          "@value": "Светозар Прибићевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Svetozar Pribićević",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "политичар и публициста",
+          "@language": "sr"
+        },
+        {
+          "@value": "politician and publicist",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "sourceEvidencePage": "PDF 328–333",
+      "sourceEvidenceNote": {
+        "@value": "Обрађен у контексту међуратних политичких односа, југословенства и Васићевих идеолошких преиспитивања.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1875",
+      "deathYear": "1936"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P079",
+      "@type": "Person",
+      "identifier": "P079",
+      "internalId": "P079",
+      "name": [
+        {
+          "@value": "Петар II Карађорђевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Peter II of Yugoslavia",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "краљ Југославије",
+          "@language": "sr"
+        },
+        {
+          "@value": "King of Yugoslavia",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "sourceEvidencePage": "PDF 5; PDF 24–25",
+      "sourceEvidenceNote": {
+        "@value": "Краљевско покровитељство и посвећивање соколских програма Петру II део су анализе државне идеологије покрета.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1923",
+      "deathYear": "1970"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I056",
+      "@type": "Organization",
+      "identifier": "I056",
+      "internalId": "I056",
+      "name": [
+        {
+          "@value": "Институт за књижевност и уметност",
+          "@language": "sr"
+        },
+        {
+          "@value": "Institute for Literature and Art",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "научни институт",
+          "@language": "sr"
+        },
+        {
+          "@value": "research institute",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "sourceEvidencePage": "PDF 3–4; PDF 27",
+      "sourceEvidenceNote": {
+        "@value": "Саиздавач зборника у коме је објављен рад.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I057",
+      "@type": "Organization",
+      "identifier": "I057",
+      "internalId": "I057",
+      "name": [
+        {
+          "@value": "Музеј рудничко-таковског краја",
+          "@language": "sr"
+        },
+        {
+          "@value": "Museum of the Rudnik-Takovo Region",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "музеј",
+          "@language": "sr"
+        },
+        {
+          "@value": "museum",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "sourceEvidencePage": "PDF 3–4; PDF 27",
+      "sourceEvidenceNote": {
+        "@value": "Саиздавач зборника у коме је објављен рад.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I058",
+      "@type": "Organization",
+      "identifier": "I058",
+      "internalId": "I058",
+      "name": [
+        {
+          "@value": "Соколско друштво у Чачку",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sokol Society in Čačak",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "гимнастичко, културно и национално удружење",
+          "@language": "sr"
+        },
+        {
+          "@value": "gymnastic, cultural and national association",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "sourceEvidencePage": "PDF 27–31",
+      "sourceEvidenceNote": {
+        "@value": "Главна локална организација и непосредни предмет монографије.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I059",
+      "@type": "Organization",
+      "identifier": "I059",
+      "internalId": "I059",
+      "name": [
+        {
+          "@value": "Савез сокола Краљевине Југославије",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sokol Union of the Kingdom of Yugoslavia",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "национални соколски савез",
+          "@language": "sr"
+        },
+        {
+          "@value": "national Sokol federation",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "sourceEvidencePage": "PDF 22–26",
+      "sourceEvidenceNote": {
+        "@value": "Централна организација соколства у Краљевини Југославији у анализираном периоду.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I060",
+      "@type": "Organization",
+      "identifier": "I060",
+      "internalId": "I060",
+      "name": [
+        {
+          "@value": "Српски културни клуб",
+          "@language": "sr"
+        },
+        {
+          "@value": "Serbian Cultural Club",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "културно-политичко удружење",
+          "@language": "sr"
+        },
+        {
+          "@value": "cultural-political association",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "sourceEvidencePage": "PDF 319–328",
+      "sourceEvidenceNote": {
+        "@value": "Важан институционални оквир Васићевог националног и политичког рада пред Други светски рат.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "@type": "Organization",
+      "identifier": "I061",
+      "internalId": "I061",
+      "name": [
+        {
+          "@value": "Југословенска војска у отаџбини",
+          "@language": "sr"
+        },
+        {
+          "@value": "Yugoslav Army in the Homeland",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "војна организација",
+          "@language": "sr"
+        },
+        {
+          "@value": "military organization",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "sourceEvidencePage": "PDF 401–410; PDF 442–445",
+      "sourceEvidenceNote": {
+        "@value": "Војни и политички оквир Васићевог деловања у Другом светском рату.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I062",
+      "@type": "Organization",
+      "identifier": "I062",
+      "internalId": "I062",
+      "name": [
+        {
+          "@value": "Catena mundi",
+          "@language": "sr"
+        },
+        {
+          "@value": "Catena mundi",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "издавач",
+          "@language": "sr"
+        },
+        {
+          "@value": "publisher",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "sourceEvidencePage": "PDF 2–3",
+      "sourceEvidenceNote": {
+        "@value": "Издавач монографије „Митови новије српске историје”.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL045",
+      "@type": "Place",
+      "identifier": "PL045",
+      "internalId": "PL045",
+      "name": [
+        {
+          "@value": "Москва",
+          "@language": "sr"
+        },
+        {
+          "@value": "Moscow",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "sourceEvidencePage": "PDF 12–15",
+      "sourceEvidenceNote": {
+        "@value": "Средишњи простор Крлежиног и Васићевог путовања и поређења њихових утисака.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL046",
+      "@type": "Place",
+      "identifier": "PL046",
+      "internalId": "PL046",
+      "name": [
+        {
+          "@value": "Петроград",
+          "@language": "sr"
+        },
+        {
+          "@value": "Petrograd / Saint Petersburg",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "sourceEvidencePage": "PDF 14–15; PDF 21",
+      "sourceEvidenceNote": {
+        "@value": "Град је обрађен у одељку о путовањима изван Москве; назив је усклађен са историјским периодом.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL047",
+      "@type": "Place",
+      "identifier": "PL047",
+      "internalId": "PL047",
+      "name": [
+        {
+          "@value": "Праг",
+          "@language": "sr"
+        },
+        {
+          "@value": "Prague",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "sourceEvidencePage": "PDF 8–17",
+      "sourceEvidenceNote": {
+        "@value": "Место настанка и једно од главних средишта ширења соколског покрета.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL048",
+      "@type": "Place",
+      "identifier": "PL048",
+      "internalId": "PL048",
+      "name": [
+        {
+          "@value": "Равна гора",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ravna Gora",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "планинска висораван и место сећања",
+          "@language": "sr"
+        },
+        {
+          "@value": "mountain plateau and site of memory",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "sourceEvidencePage": "PDF 442–445",
+      "sourceEvidenceNote": {
+        "@value": "Кључни простор ратног деловања и политичке митологије Равногорског покрета.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL049",
+      "@type": "Place",
+      "identifier": "PL049",
+      "internalId": "PL049",
+      "name": [
+        {
+          "@value": "Совјетски Савез",
+          "@language": "sr"
+        },
+        {
+          "@value": "Soviet Union",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "историјска држава",
+          "@language": "sr"
+        },
+        {
+          "@value": "historical state",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "sourceEvidencePage": "PDF 7–15; PDF 22–23",
+      "sourceEvidenceNote": {
+        "@value": "Главни државни и идеолошки простор компаративне анализе путописа.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S024",
+      "@type": "CreativeWork",
+      "identifier": "S024",
+      "internalId": "S024",
+      "name": [
+        {
+          "@value": "Излет у Русију",
+          "@language": "sr"
+        },
+        {
+          "@value": "Excursion to Russia",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "путопис",
+          "@language": "sr"
+        },
+        {
+          "@value": "travelogue",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "sourceEvidencePage": "PDF 9–17",
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S025",
+      "@type": "CreativeWork",
+      "identifier": "S025",
+      "internalId": "S025",
+      "name": [
+        {
+          "@value": "Утисци из Русије",
+          "@language": "sr"
+        },
+        {
+          "@value": "Impressions from Russia",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "путопис",
+          "@language": "sr"
+        },
+        {
+          "@value": "travelogue",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "sourceEvidencePage": "PDF 9–13; PDF 22–23",
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S026",
+      "@type": "CreativeWork",
+      "identifier": "S026",
+      "internalId": "S026",
+      "name": [
+        {
+          "@value": "Српски глас",
+          "@language": "sr"
+        },
+        {
+          "@value": "Srpski glas",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "политички лист",
+          "@language": "sr"
+        },
+        {
+          "@value": "political newspaper",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "sourceEvidencePage": "PDF 318–327",
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S027",
+      "@type": "CreativeWork",
+      "identifier": "S027",
+      "internalId": "S027",
+      "name": [
+        {
+          "@value": "Збирка Соколског друштва у Чачку",
+          "@language": "sr"
+        },
+        {
+          "@value": "Collection of the Sokol Society in Čačak",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "музејска документарна збирка",
+          "@language": "sr"
+        },
+        {
+          "@value": "museum documentary collection",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "sourceEvidencePage": "PDF 100–101",
+      "verificationStatus": "source_verified_repository"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S028",
+      "@type": "CreativeWork",
+      "identifier": "S028",
+      "internalId": "S028",
+      "name": [
+        {
+          "@value": "Соколски гласник",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sokolski glasnik",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "соколски часопис",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sokol periodical",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "sourceEvidencePage": "PDF 101",
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "@type": "ScholarlyArticle",
+      "identifier": "conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "internalId": "conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "name": [
+        {
+          "@value": "„Црвена” или „света” Русија: компарација путописа Мирослава Крлеже и Драгише Васића о првој земљи социјализма",
+          "@language": "sr"
+        },
+        {
+          "@value": "‘Red’ or ‘Holy’ Russia: A Comparison of Miroslav Krleža’s and Dragiša Vasić’s Travelogues on the First Country of Socialism",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2023",
+      "url": "https://milos-timotijevic.github.io/conference-papers/crvena-ili-sveta-rusija-krleza-vasic.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20551100",
+        "https://zenodo.org/records/20551100"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P073"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P074"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL046"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL049"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I056"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I057"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S025"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "@type": "Book",
+      "identifier": "book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "internalId": "book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "name": [
+        {
+          "@value": "Соколи Чачка 1910–1941",
+          "@language": "sr"
+        },
+        {
+          "@value": "The Sokol Movement in Čačak, 1910–1941",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2006",
+      "url": "https://milos-timotijevic.github.io/books/sokoli-cacka.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20465407",
+        "https://zenodo.org/records/20465407"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P075"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P076"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P079"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I058"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I059"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I055"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL047"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S027"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "@type": "Book",
+      "identifier": "book-2019-dragisa-vasic-serbian-national-idea",
+      "internalId": "book-2019-dragisa-vasic-serbian-national-idea",
+      "name": [
+        {
+          "@value": "Драгиша Васић и српска национална идеја",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragiša Vasić and the Serbian National Idea",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2019",
+      "url": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20483785",
+        "https://zenodo.org/records/20483702; https://zenodo.org/records/20483785"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P077"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P073"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I060"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL048"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I025"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S026"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "@type": "Book",
+      "identifier": "book-2022-myths-of-recent-serbian-history",
+      "internalId": "book-2022-myths-of-recent-serbian-history",
+      "name": [
+        {
+          "@value": "Митови новије српске историје",
+          "@language": "sr"
+        },
+        {
+          "@value": "Myths of Recent Serbian History",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2022",
+      "url": "https://milos-timotijevic.github.io/books/mitovi-novije-srpske-istorije.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20476296",
+        "https://zenodo.org/records/20476296"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P056"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P068"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P079"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I058"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL048"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I062"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S017"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R569",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R569",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P072",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 7–15; PDF 22–23",
+      "evidenceNote": {
+        "@value": "Личност има средишњу аналитичку улогу у поређењу путописа и тумачењу совјетске политичке религије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R570",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R570",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P073",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 7–16; PDF 22–23",
+      "evidenceNote": {
+        "@value": "Личност има средишњу аналитичку улогу у поређењу путописа и тумачењу совјетске политичке религије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R571",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R571",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P074",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 15–16",
+      "evidenceNote": {
+        "@value": "Личност има средишњу аналитичку улогу у поређењу путописа и тумачењу совјетске политичке религије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R572",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R572",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL042",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 7–15; PDF 22–23",
+      "evidenceNote": {
+        "@value": "Место или историјски простор непосредно је обухваћен компаративном анализом путовања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R573",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R573",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL045",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 12–15",
+      "evidenceNote": {
+        "@value": "Место или историјски простор непосредно је обухваћен компаративном анализом путовања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R574",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R574",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL046",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 14–15; PDF 21",
+      "evidenceNote": {
+        "@value": "Место или историјски простор непосредно је обухваћен компаративном анализом путовања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R575",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R575",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL049",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 7–15; PDF 22–23",
+      "evidenceNote": {
+        "@value": "Место или историјски простор непосредно је обухваћен компаративном анализом путовања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R576",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R576",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I056",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 3–4; PDF 27",
+      "evidenceNote": {
+        "@value": "Установа је наведена као саиздавач зборника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R577",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R577",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I057",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 3–4; PDF 27",
+      "evidenceNote": {
+        "@value": "Установа је наведена као саиздавач зборника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R578",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R578",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 10",
+      "evidenceNote": {
+        "@value": "Публикација непосредно анализира или користи наведени путописни или периодички извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R579",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R579",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S024",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 9–17",
+      "evidenceNote": {
+        "@value": "Публикација непосредно анализира или користи наведени путописни или периодички извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R580",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R580",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 9–13; PDF 22–23",
+      "evidenceNote": {
+        "@value": "Публикација непосредно анализира или користи наведени путописни или периодички извор.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R581",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R581",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P072",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL045",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 12–15",
+      "evidenceNote": {
+        "@value": "Драгиша Васић је током путовања 1927. боравио у Москви.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R582",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R582",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P073",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL045",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 9–16",
+      "evidenceNote": {
+        "@value": "Мирослав Крлежа је током путовања у Совјетску Русију боравио у Москви.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R583",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R583",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P072",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL046",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+      "evidencePage": "PDF 14–15; PDF 21",
+      "evidenceNote": {
+        "@value": "Васићев путопис обухвата посету Петрограду/Лењинграду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R584",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R584",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P075",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 8–17",
+      "evidenceNote": {
+        "@value": "Личност је значајна за настанак, развој или државно-династички оквир соколства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R585",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R585",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P076",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 10–12",
+      "evidenceNote": {
+        "@value": "Личност је значајна за настанак, развој или државно-династички оквир соколства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R586",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R586",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 19–25",
+      "evidenceNote": {
+        "@value": "Личност је значајна за настанак, развој или државно-династички оквир соколства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R587",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R587",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P079",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 5; PDF 24–25",
+      "evidenceNote": {
+        "@value": "Личност је значајна за настанак, развој или државно-династички оквир соколства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R588",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R588",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I058",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 27–31; PDF 39–40",
+      "evidenceNote": {
+        "@value": "Установа је важан организациони, идеолошки или образовни оквир соколског покрета.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R589",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R589",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I059",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 22–26",
+      "evidenceNote": {
+        "@value": "Установа је важан организациони, идеолошки или образовни оквир соколског покрета.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R590",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R590",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I020",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 10; PDF 14",
+      "evidenceNote": {
+        "@value": "Установа је важан организациони, идеолошки или образовни оквир соколског покрета.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R591",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R591",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I055",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 28–30",
+      "evidenceNote": {
+        "@value": "Установа је важан организациони, идеолошки или образовни оквир соколског покрета.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R592",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R592",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 27–31; PDF 98–100",
+      "evidenceNote": {
+        "@value": "Место је значајно за локални или шири развој соколства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R593",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R593",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 10–18; PDF 22–25",
+      "evidenceNote": {
+        "@value": "Место је значајно за локални или шири развој соколства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R594",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R594",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL043",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 19–27",
+      "evidenceNote": {
+        "@value": "Место је значајно за локални или шири развој соколства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R595",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R595",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL047",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 8–17",
+      "evidenceNote": {
+        "@value": "Место је значајно за локални или шири развој соколства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R596",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R596",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Импресум наводи Народни музеј Чачак као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R597",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R597",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 100–101",
+      "evidenceNote": {
+        "@value": "Извор је наведен у попису архивске грађе или периодике коришћене у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R598",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R598",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 101",
+      "evidenceNote": {
+        "@value": "Извор је наведен у попису архивске грађе или периодике коришћене у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R599",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R599",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 101",
+      "evidenceNote": {
+        "@value": "Извор је наведен у попису архивске грађе или периодике коришћене у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R600",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R600",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I058",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 27–31",
+      "evidenceNote": {
+        "@value": "Соколско друштво основано је и деловало у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R601",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R601",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#preservesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2006-the-sokol-movement-in-cacak-1910-1941",
+      "evidencePage": "PDF 100–101",
+      "evidenceNote": {
+        "@value": "Збирка Соколског друштва у Чачку наведена је међу архивским изворима Народног музеја Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R602",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R602",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P072",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 7–15",
+      "evidenceNote": {
+        "@value": "Личност има важну улогу у реконструкцији Васићевог интелектуалног, политичког или ратног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R603",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R603",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P077",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 319–328",
+      "evidenceNote": {
+        "@value": "Личност има важну улогу у реконструкцији Васићевог интелектуалног, политичког или ратног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R604",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R604",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 328–333",
+      "evidenceNote": {
+        "@value": "Личност има важну улогу у реконструкцији Васићевог интелектуалног, политичког или ратног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R605",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R605",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P073",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 280–287; PDF 294–297",
+      "evidenceNote": {
+        "@value": "Личност има важну улогу у реконструкцији Васићевог интелектуалног, политичког или ратног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R606",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R606",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 401–410; PDF 442–445",
+      "evidenceNote": {
+        "@value": "Личност има важну улогу у реконструкцији Васићевог интелектуалног, политичког или ратног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R607",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R607",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I060",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 318–327",
+      "evidenceNote": {
+        "@value": "Организација је важан институционални оквир Васићевог политичког или ратног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R608",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R608",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 401–410; PDF 442–445",
+      "evidenceNote": {
+        "@value": "Организација је важан институционални оквир Васићевог политичког или ратног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R609",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R609",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 19–28; PDF 33–40",
+      "evidenceNote": {
+        "@value": "Простор је важан за биографску, национално-идеолошку или ратну анализу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R610",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R610",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 78–87; PDF 88–97",
+      "evidenceNote": {
+        "@value": "Простор је важан за биографску, национално-идеолошку или ратну анализу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R611",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R611",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL042",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 280–287; PDF 294–300",
+      "evidenceNote": {
+        "@value": "Простор је важан за биографску, национално-идеолошку или ратну анализу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R612",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R612",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL043",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 200–209; PDF 305–314",
+      "evidenceNote": {
+        "@value": "Простор је важан за биографску, национално-идеолошку или ратну анализу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R613",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R613",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL048",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 442–445",
+      "evidenceNote": {
+        "@value": "Простор је важан за биографску, национално-идеолошку или ратну анализу.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R614",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R614",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 3–4",
+      "evidenceNote": {
+        "@value": "Импресум другог, допуњеног издања наводи Службени гласник као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R615",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R615",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 280–287; PDF 294–300",
+      "evidenceNote": {
+        "@value": "Публикација користи извор за реконструкцију Васићевих ставова и јавног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R616",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R616",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S026",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 318–327",
+      "evidenceNote": {
+        "@value": "Публикација користи извор за реконструкцију Васићевих ставова и јавног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R617",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R617",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 280–287; PDF 294–300",
+      "evidenceNote": {
+        "@value": "Публикација користи извор за реконструкцију Васићевих ставова и јавног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R618",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R618",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 305–314",
+      "evidenceNote": {
+        "@value": "Публикација користи извор за реконструкцију Васићевих ставова и јавног деловања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R619",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R619",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P072",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#memberOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I060",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 318–327",
+      "evidenceNote": {
+        "@value": "Драгиша Васић био је један од водећих људи и потпредседник Српског културног клуба.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R620",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R620",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#commanded",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 401–410; PDF 442–445",
+      "evidenceNote": {
+        "@value": "Драгољуб Михаиловић командовао је Југословенском војском у отаџбини.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R621",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R621",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I060",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-dragisa-vasic-serbian-national-idea",
+      "evidencePage": "PDF 318–327",
+      "evidenceNote": {
+        "@value": "Српски културни клуб и његов лист деловали су из Београда.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R622",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R622",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P056",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 7–16; PDF 17–25",
+      "evidenceNote": {
+        "@value": "Личност је носилац једног од анализираних историјских митова, идеолошких образаца или култура сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R623",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R623",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P068",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 16–25",
+      "evidenceNote": {
+        "@value": "Личност је носилац једног од анализираних историјских митова, идеолошких образаца или култура сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R624",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R624",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P005",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 33–42",
+      "evidenceNote": {
+        "@value": "Личност је носилац једног од анализираних историјских митова, идеолошких образаца или култура сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R625",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R625",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 97–106; PDF 113–122",
+      "evidenceNote": {
+        "@value": "Личност је носилац једног од анализираних историјских митова, идеолошких образаца или култура сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R626",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R626",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P079",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 97–106; PDF 113–122",
+      "evidenceNote": {
+        "@value": "Личност је носилац једног од анализираних историјских митова, идеолошких образаца или култура сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R627",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R627",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 151–160; PDF 213–222",
+      "evidenceNote": {
+        "@value": "Личност је носилац једног од анализираних историјских митова, идеолошких образаца или култура сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R628",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R628",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 239–248; PDF 250–259",
+      "evidenceNote": {
+        "@value": "Личност је носилац једног од анализираних историјских митова, идеолошких образаца или култура сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R629",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R629",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 7–16; PDF 17–25",
+      "evidenceNote": {
+        "@value": "Установа или организација непосредно је обухваћена једном од студија у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R630",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R630",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I058",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 97–106; PDF 113–122",
+      "evidenceNote": {
+        "@value": "Установа или организација непосредно је обухваћена једном од студија у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R631",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R631",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 151–160; PDF 213–222",
+      "evidenceNote": {
+        "@value": "Установа или организација непосредно је обухваћена једном од студија у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R632",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R632",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 239–248; PDF 250–259",
+      "evidenceNote": {
+        "@value": "Установа или организација непосредно је обухваћена једном од студија у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R633",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R633",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 263",
+      "evidenceNote": {
+        "@value": "Место или историјски простор чини важан оквир анализе мита, сећања или ратног наслеђа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R634",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R634",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 33–42; PDF 173–182",
+      "evidenceNote": {
+        "@value": "Место или историјски простор чини важан оквир анализе мита, сећања или ратног наслеђа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R635",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R635",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 33–42",
+      "evidenceNote": {
+        "@value": "Место или историјски простор чини важан оквир анализе мита, сећања или ратног наслеђа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R636",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R636",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 213–222",
+      "evidenceNote": {
+        "@value": "Место или историјски простор чини важан оквир анализе мита, сећања или ратног наслеђа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R637",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R637",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 7–16; PDF 17–25",
+      "evidenceNote": {
+        "@value": "Место или историјски простор чини важан оквир анализе мита, сећања или ратног наслеђа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R638",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R638",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL043",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 97–106; PDF 151–160",
+      "evidenceNote": {
+        "@value": "Место или историјски простор чини важан оквир анализе мита, сећања или ратног наслеђа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R639",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R639",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL048",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 239–248; PDF 250–259",
+      "evidenceNote": {
+        "@value": "Место или историјски простор чини важан оквир анализе мита, сећања или ратног наслеђа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R640",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R640",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I062",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 2–3",
+      "evidenceNote": {
+        "@value": "Импресум наводи Catena mundi као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R641",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R641",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 33–42; PDF 63–72",
+      "evidenceNote": {
+        "@value": "Историјски извор коришћен је у једној или више студија сабраних у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R642",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R642",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 123–132; PDF 151–160",
+      "evidenceNote": {
+        "@value": "Историјски извор коришћен је у једној или више студија сабраних у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R643",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R643",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 151–160; PDF 213–222",
+      "evidenceNote": {
+        "@value": "Историјски извор коришћен је у једној или више студија сабраних у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R644",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R644",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S017",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2022-myths-of-recent-serbian-history",
+      "evidencePage": "PDF 33–42; PDF 173–182",
+      "evidenceNote": {
+        "@value": "Историјски извор коришћен је у једној или више студија сабраних у монографији.",
         "@language": "sr"
       },
       "confidence": "high"
