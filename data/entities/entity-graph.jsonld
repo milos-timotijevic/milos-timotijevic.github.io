@@ -32,7 +32,7 @@
       "url": "https://milos-timotijevic.github.io/data/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "dateModified": "2026-09-22",
-      "version": "0.6",
+      "version": "0.6.1",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -564,7 +564,7 @@
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL020"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL021"
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL022"
@@ -3765,7 +3765,7 @@
       ],
       "diedAt": [
         {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL021"
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
         }
       ],
       "descendantOf": [
@@ -9250,49 +9250,6 @@
       }
     },
     {
-      "@id": "https://milos-timotijevic.github.io/data/entities/#PL021",
-      "@type": "Place",
-      "identifier": "PL021",
-      "internalId": "PL021",
-      "name": [
-        {
-          "@value": "Ваљево",
-          "@language": "sr"
-        },
-        {
-          "@value": "Valjevo",
-          "@language": "en"
-        }
-      ],
-      "placeType": [
-        {
-          "@value": "град",
-          "@language": "sr"
-        },
-        {
-          "@value": "city",
-          "@language": "en"
-        }
-      ],
-      "addressCountry": "RS",
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 44.266667,
-        "longitude": 19.883333
-      },
-      "sameAs": [
-        "https://www.wikidata.org/entity/Q193452",
-        "https://www.geonames.org/3188402"
-      ],
-      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
-      "sourceEvidencePage": "13",
-      "sourceEvidenceNote": {
-        "@value": "Место смрти и првобитног сахрањивања Надежде Петровић; полазиште преноса посмртних остатака 1935.",
-        "@language": "sr"
-      },
-      "verificationStatus": "verified_authority"
-    },
-    {
       "@id": "https://milos-timotijevic.github.io/data/entities/#PL022",
       "@type": "Place",
       "identifier": "PL022",
@@ -11962,7 +11919,7 @@
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL021"
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL022"
@@ -12684,7 +12641,7 @@
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/data/entities/#PL021"
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#PL022"
@@ -17362,7 +17319,7 @@
       "identifier": "R186",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL021",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL010",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-nadezda-petrovic-life-art-service-nation",
       "evidencePage": "PDF 233",
       "evidenceNote": {
@@ -17614,7 +17571,7 @@
       "identifier": "R200",
       "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL021",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL010",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
       "evidencePage": "PDF 13",
       "evidenceNote": {
@@ -18082,7 +18039,7 @@
       "identifier": "R226",
       "subject": "https://milos-timotijevic.github.io/data/entities/#P027",
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#diedAt",
-      "object": "https://milos-timotijevic.github.io/data/entities/#PL021",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL010",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
       "evidencePage": "PDF 13",
       "evidenceNote": {

@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "name": "Entity and Relation Data of the Research Corpus — Pilot",
   "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
-  "version": "0.6",
+  "version": "0.6.1",
   "dateModified": "2026-09-22",
   "algorithm": "SHA-256",
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -11,11 +11,11 @@
     "publications": 37,
     "people": 79,
     "institutions": 62,
-    "places": 49,
+    "places": 48,
     "historicalSources": 28,
     "relations": 644,
     "relationTypes": 22,
-    "jsonLdNodes": 922
+    "jsonLdNodes": 921
   },
   "files": [
     {
@@ -32,9 +32,9 @@
     },
     {
       "path": "places.csv",
-      "recordCount": 49,
-      "bytes": 20650,
-      "sha256": "b827dc491e7a6b9b2be63693040b9dbf58cc655845518b1939481f286c8fd17d"
+      "recordCount": 48,
+      "bytes": 20268,
+      "sha256": "35112720b836dc13e7b8d0b002cb42ed82783647dae720f975a51eba727e14ac"
     },
     {
       "path": "sources.csv",
@@ -46,7 +46,7 @@
       "path": "relations.csv",
       "recordCount": 644,
       "bytes": 188544,
-      "sha256": "f7b15189dc0dc869c7b9872c35461d06223e82027b1bcab0387e79fc0e26be8c"
+      "sha256": "e64bcb769e4b1d706b9096d7f2a4d22ef2620b53edd3e1052d3f2f81d8812222"
     },
     {
       "path": "relation-types.csv",
@@ -56,9 +56,9 @@
     },
     {
       "path": "entity-graph.jsonld",
-      "recordCount": 922,
-      "bytes": 1099264,
-      "sha256": "f04cf6724cca79915a29e858e7c0b9e495d91589af5c39740e6ad93af3082b39"
+      "recordCount": 921,
+      "bytes": 1097945,
+      "sha256": "d997247d2b0e276ddc17646c783ddb052ece613b51e58aafc970912b393370b0"
     }
   ]
 }
