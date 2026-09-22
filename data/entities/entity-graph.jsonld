@@ -32,7 +32,7 @@
       "url": "https://milos-timotijevic.github.io/data/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "dateModified": "2026-09-22",
-      "version": "0.6.1",
+      "version": "0.7",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -26747,6 +26747,3181 @@
       "evidencePage": "PDF 33–42; PDF 173–182",
       "evidenceNote": {
         "@value": "Историјски извор коришћен је у једној или више студија сабраних у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P080",
+      "@type": "Person",
+      "identifier": "P080",
+      "internalId": "P080",
+      "name": [
+        {
+          "@value": "Блажо Радивојевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Blažo Radivojević",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "новинар и уредник",
+          "@language": "sr"
+        },
+        {
+          "@value": "journalist and editor",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 16; PDF 367",
+      "sourceEvidenceNote": {
+        "@value": "Као уредник „Чачанског гласа” предложио је 1961. да се трубачи укључе у драгачевску фолклорну манифестацију.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P081",
+      "@type": "Person",
+      "identifier": "P081",
+      "internalId": "P081",
+      "name": [
+        {
+          "@value": "Бранко В. Радичевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Branko V. Radičević",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "књижевник и новинар",
+          "@language": "sr"
+        },
+        {
+          "@value": "writer and journalist",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 20–21; PDF 367",
+      "sourceEvidenceNote": {
+        "@value": "Пружио је пресудну медијску и програмску подршку настанку Сабора и уобличио његову симболичку представу народне традиције.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1925",
+      "deathYear": "2001"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P082",
+      "@type": "Person",
+      "identifier": "P082",
+      "internalId": "P082",
+      "name": [
+        {
+          "@value": "Јосиф Шлезингер",
+          "@language": "sr"
+        },
+        {
+          "@value": "Josif Šlezinger",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "композитор, диригент и капелник",
+          "@language": "sr"
+        },
+        {
+          "@value": "composer, conductor and bandmaster",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 159; PDF 366",
+      "sourceEvidenceNote": {
+        "@value": "Предводио је први европски дувачки оркестар који је кнез Милош довео у Србију 1831. године.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P083",
+      "@type": "Person",
+      "identifier": "P083",
+      "internalId": "P083",
+      "name": [
+        {
+          "@value": "Бакија Бакић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Bakija Bakić",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "трубач",
+          "@language": "sr"
+        },
+        {
+          "@value": "trumpeter",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 43–48; PDF 369",
+      "sourceEvidenceNote": {
+        "@value": "Издвојен је међу трубачима из јужне Србије који су преко Сабора постали познати на европској world-music сцени.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P084",
+      "@type": "Person",
+      "identifier": "P084",
+      "internalId": "P084",
+      "name": [
+        {
+          "@value": "Фејат Сејдић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Fejat Sejdić",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "трубач и вођа оркестра",
+          "@language": "sr"
+        },
+        {
+          "@value": "trumpeter and bandleader",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 77–87; PDF 317; PDF 369",
+      "sourceEvidenceNote": {
+        "@value": "Један од најзначајнијих саборских трубача; његов оркестар учествовао је и у укрштању трубачке и популарне музике.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P085",
+      "@type": "Person",
+      "identifier": "P085",
+      "internalId": "P085",
+      "name": [
+        {
+          "@value": "Слободан Салијевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Slobodan Salijević",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "трубач и вођа оркестра",
+          "@language": "sr"
+        },
+        {
+          "@value": "trumpeter and bandleader",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 76–87; PDF 317; PDF 369–370",
+      "sourceEvidenceNote": {
+        "@value": "Истакнути трубач чији је оркестар учествовао у филмовима и интернационализацији трубачке музике.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P086",
+      "@type": "Person",
+      "identifier": "P086",
+      "internalId": "P086",
+      "name": [
+        {
+          "@value": "Бобан Марковић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Boban Marković",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "трубач и вођа оркестра",
+          "@language": "sr"
+        },
+        {
+          "@value": "trumpeter and bandleader",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 14; PDF 326; PDF 369–370",
+      "sourceEvidenceNote": {
+        "@value": "Најуспешнији пример међународне афирмације трубачког оркестра из Србије у анализи Сабора.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P087",
+      "@type": "Person",
+      "identifier": "P087",
+      "internalId": "P087",
+      "name": [
+        {
+          "@value": "Милован Бабић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milovan Babić",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "трубач и вођа оркестра",
+          "@language": "sr"
+        },
+        {
+          "@value": "trumpeter and bandleader",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 56–77; PDF 232–238; PDF 369",
+      "sourceEvidenceNote": {
+        "@value": "Издвојен је међу трубачима западне Србије који су стекли ширу афирмацију преко Сабора.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P088",
+      "@type": "Person",
+      "identifier": "P088",
+      "internalId": "P088",
+      "name": [
+        {
+          "@value": "Мићо Петровић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Mićo Petrović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "трубач и вођа оркестра",
+          "@language": "sr"
+        },
+        {
+          "@value": "trumpeter and bandleader",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 122; PDF 242–243; PDF 317; PDF 369",
+      "sourceEvidenceNote": {
+        "@value": "Вођа оркестра из западне Србије, присутан у саборској хроници и популарној култури.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P089",
+      "@type": "Person",
+      "identifier": "P089",
+      "internalId": "P089",
+      "name": [
+        {
+          "@value": "Емир Кустурица",
+          "@language": "sr"
+        },
+        {
+          "@value": "Emir Kusturica",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "филмски редитељ",
+          "@language": "sr"
+        },
+        {
+          "@value": "film director",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 317–327; PDF 369–370",
+      "sourceEvidenceNote": {
+        "@value": "Његови филмови пресудно су допринели светској популарности трубачке музике и егзотизованој представи Србије и Гуче.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P090",
+      "@type": "Person",
+      "identifier": "P090",
+      "internalId": "P090",
+      "name": [
+        {
+          "@value": "Горан Бреговић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Goran Bregović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "композитор и музичар",
+          "@language": "sr"
+        },
+        {
+          "@value": "composer and musician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 317; PDF 326–327; PDF 369",
+      "sourceEvidenceNote": {
+        "@value": "Музиком за Кустуричине филмове и сарадњом са трубачима допринео је ширењу трубачког звука у популарној култури.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P091",
+      "@type": "Person",
+      "identifier": "P091",
+      "internalId": "P091",
+      "name": [
+        {
+          "@value": "Слободан Милошевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Slobodan Milošević",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "политичар и председник Србије и СР Југославије",
+          "@language": "sr"
+        },
+        {
+          "@value": "politician and president of Serbia and the FR Yugoslavia",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 177; PDF 211; PDF 216; PDF 368",
+      "sourceEvidenceNote": {
+        "@value": "Обрађен је у анализи националне идеологије, политичке инструментализације и односа државне власти према Сабору.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P092",
+      "@type": "Person",
+      "identifier": "P092",
+      "internalId": "P092",
+      "name": [
+        {
+          "@value": "Славка Ђуровљевић „Царица”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Slavka Đurovljević ‘Carica’",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кафеџијка и организаторка проституције",
+          "@language": "sr"
+        },
+        {
+          "@value": "café keeper and organizer of prostitution",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 2 (штампана стр. 171)",
+      "sourceEvidenceNote": {
+        "@value": "Власница и закупац локала коју рад идентификује као прву организаторку проституције у чачанским кафанама.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "deathYear": "1920"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P093",
+      "@type": "Person",
+      "identifier": "P093",
+      "internalId": "P093",
+      "name": [
+        {
+          "@value": "Мирослав Миле Мојсиловић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Miroslav Mile Mojsilović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "новинар, хроничар и публициста",
+          "@language": "sr"
+        },
+        {
+          "@value": "journalist, chronicler and publicist",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 2, 7, 10 и 14",
+      "sourceEvidenceNote": {
+        "@value": "Његови записи о старом Чачку коришћени су као сведочанство о кафанама, проституцији и приватном животу града.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P094",
+      "@type": "Person",
+      "identifier": "P094",
+      "internalId": "P094",
+      "name": [
+        {
+          "@value": "Степа Степановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Stepa Stepanović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "војвода и војсковођа",
+          "@language": "sr"
+        },
+        {
+          "@value": "field marshal and military commander",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "sourceEvidencePage": "PDF 5",
+      "sourceEvidenceNote": {
+        "@value": "Улица војводе Степе припада међуратном слоју назива који негује сећање на балканске и Први светски рат.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1856",
+      "deathYear": "1929"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P095",
+      "@type": "Person",
+      "identifier": "P095",
+      "internalId": "P095",
+      "name": [
+        {
+          "@value": "Никола Пашић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nikola Pašić",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "политичар и државник",
+          "@language": "sr"
+        },
+        {
+          "@value": "politician and statesman",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "sourceEvidencePage": "PDF 5; PDF 11",
+      "sourceEvidenceNote": {
+        "@value": "Назив улице и комеморативна пракса представљени су као део политике сећања у међуратном и постсоцијалистичком Чачку.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1845",
+      "deathYear": "1926"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P096",
+      "@type": "Person",
+      "identifier": "P096",
+      "internalId": "P096",
+      "name": [
+        {
+          "@value": "Марија Карађорђевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Maria of Yugoslavia",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "краљица Југославије",
+          "@language": "sr"
+        },
+        {
+          "@value": "Queen of Yugoslavia",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "sourceEvidencePage": "PDF 4–5",
+      "sourceEvidenceNote": {
+        "@value": "Улица краљице Марије припада династичком слоју назива у Чачку између два светска рата.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1900",
+      "deathYear": "1961"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P097",
+      "@type": "Person",
+      "identifier": "P097",
+      "internalId": "P097",
+      "name": [
+        {
+          "@value": "Николај II Романов",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nicholas II of Russia",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "руски цар",
+          "@language": "sr"
+        },
+        {
+          "@value": "Emperor of Russia",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "sourceEvidencePage": "PDF 5",
+      "sourceEvidenceNote": {
+        "@value": "Улица цара Николе II представља словенофилски и савезнички слој међуратне политике именовања улица.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1868",
+      "deathYear": "1918"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P098",
+      "@type": "Person",
+      "identifier": "P098",
+      "internalId": "P098",
+      "name": [
+        {
+          "@value": "Никола Тесла",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nikola Tesla",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "проналазач и инжењер",
+          "@language": "sr"
+        },
+        {
+          "@value": "inventor and engineer",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "sourceEvidencePage": "PDF 5",
+      "sourceEvidenceNote": {
+        "@value": "Теслина улица сврстана је у називе који афирмишу науку и индустријализацију.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "birthYear": "1856",
+      "deathYear": "1943"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P099",
+      "@type": "Person",
+      "identifier": "P099",
+      "internalId": "P099",
+      "name": [
+        {
+          "@value": "Фердинанд Крен",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ferdinand Kren",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "индустријалац и привредник",
+          "@language": "sr"
+        },
+        {
+          "@value": "industrialist and entrepreneur",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 6 (штампана стр. 175)",
+      "sourceEvidenceNote": {
+        "@value": "Обрађен је у контексту градске елите, кафанског живота и издржавања милоснице у Чачку крајем XIX века.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "deathYear": "1894"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P100",
+      "@type": "Person",
+      "identifier": "P100",
+      "internalId": "P100",
+      "name": [
+        {
+          "@value": "Младомир Пуриша Ђорђевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Mladomir Puriša Đorđević",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "филмски редитељ и сценариста",
+          "@language": "sr"
+        },
+        {
+          "@value": "film director and screenwriter",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 10 (штампана стр. 179)",
+      "sourceEvidenceNote": {
+        "@value": "Његови филмови наведени су као уметничка обрада сећања на проституцију и интимну историју предратног Чачка.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P101",
+      "@type": "Person",
+      "identifier": "P101",
+      "internalId": "P101",
+      "name": [
+        {
+          "@value": "Јарослав Кужељ",
+          "@language": "sr"
+        },
+        {
+          "@value": "Jaroslav Kuželj",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "лекар",
+          "@language": "sr"
+        },
+        {
+          "@value": "physician",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 6 (штампана стр. 175)",
+      "sourceEvidenceNote": {
+        "@value": "Окружни лекар који је 1905. забележио везу војног гарнизона, тајне проституције и ширења сифилиса у Чачку.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I063",
+      "@type": "Organization",
+      "identifier": "I063",
+      "internalId": "I063",
+      "name": [
+        {
+          "@value": "Дом културе Гуча",
+          "@language": "sr"
+        },
+        {
+          "@value": "Cultural Centre Guča",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "установа културе",
+          "@language": "sr"
+        },
+        {
+          "@value": "cultural institution",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 3; PDF 112",
+      "sourceEvidenceNote": {
+        "@value": "Установа је чувала документацију и фотографије и учествовала у организационој инфраструктури Сабора.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL040"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I064",
+      "@type": "Organization",
+      "identifier": "I064",
+      "internalId": "I064",
+      "name": [
+        {
+          "@value": "Народни одбор општине Лучани",
+          "@language": "sr"
+        },
+        {
+          "@value": "People’s Committee of the Municipality of Lučani",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "локална управа",
+          "@language": "sr"
+        },
+        {
+          "@value": "local government body",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 16",
+      "sourceEvidenceNote": {
+        "@value": "Орган локалне управе коме је 1961. предложено укључивање трубача у манифестацију „Драгачево кроз песму и игру”.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL038"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I065",
+      "@type": "Organization",
+      "identifier": "I065",
+      "internalId": "I065",
+      "name": [
+        {
+          "@value": "Градско поглаварство Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak City Administration",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "градска управа",
+          "@language": "sr"
+        },
+        {
+          "@value": "municipal administration",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 3–15",
+      "sourceEvidenceNote": {
+        "@value": "Фонд градске управе један је од главних архивских извора за надзор кафана, полицијске извештаје и проституцију.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I066",
+      "@type": "Organization",
+      "identifier": "I066",
+      "internalId": "I066",
+      "name": [
+        {
+          "@value": "Општина чачанска",
+          "@language": "sr"
+        },
+        {
+          "@value": "Municipality of Čačak",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "локална управа",
+          "@language": "sr"
+        },
+        {
+          "@value": "local government body",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "sourceEvidencePage": "PDF 4–13",
+      "sourceEvidenceNote": {
+        "@value": "Општински органи доносили су одлуке о називима улица и тиме непосредно обликовали јавну политику памћења.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I067",
+      "@type": "Organization",
+      "identifier": "I067",
+      "internalId": "I067",
+      "name": [
+        {
+          "@value": "Срески суд Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak District Court",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "суд",
+          "@language": "sr"
+        },
+        {
+          "@value": "court",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 15",
+      "sourceEvidenceNote": {
+        "@value": "Судски фонд коришћен је за реконструкцију проституције и јавног морала у првим послератним годинама.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I068",
+      "@type": "Organization",
+      "identifier": "I068",
+      "internalId": "I068",
+      "name": [
+        {
+          "@value": "Социјалистичка партија Србије",
+          "@language": "sr"
+        },
+        {
+          "@value": "Socialist Party of Serbia",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "политичка странка",
+          "@language": "sr"
+        },
+        {
+          "@value": "political party",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 211",
+      "sourceEvidenceNote": {
+        "@value": "Рад анализира неуспех странке да задржи монопол над политичком употребом традиција представљаних у Гучи.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL050",
+      "@type": "Place",
+      "identifier": "PL050",
+      "internalId": "PL050",
+      "name": [
+        {
+          "@value": "Владичин Хан",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vladičin Han",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "town",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 14; PDF 370",
+      "sourceEvidenceNote": {
+        "@value": "Место порекла оркестра Бобана Марковића, значајног за међународну афирмацију трубачке музике.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL051",
+      "@type": "Place",
+      "identifier": "PL051",
+      "internalId": "PL051",
+      "name": [
+        {
+          "@value": "Сомбор",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sombor",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "град",
+          "@language": "sr"
+        },
+        {
+          "@value": "city",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 159",
+      "sourceEvidenceNote": {
+        "@value": "Јосиф Шлезингер, предводник првог европског дувачког оркестра у Србији, означен је као Сомборац.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL052",
+      "@type": "Place",
+      "identifier": "PL052",
+      "internalId": "PL052",
+      "name": [
+        {
+          "@value": "Војводина",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vojvodina",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "аутономна покрајина и историјска област",
+          "@language": "sr"
+        },
+        {
+          "@value": "autonomous province and historical region",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 2",
+      "sourceEvidenceNote": {
+        "@value": "Наведена је као област из које су у Чачак довођене жене за рад у кафани и организованој проституцији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL053",
+      "@type": "Place",
+      "identifier": "PL053",
+      "internalId": "PL053",
+      "name": [
+        {
+          "@value": "Трнава код Чачка",
+          "@language": "sr"
+        },
+        {
+          "@value": "Trnava near Čačak",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "село",
+          "@language": "sr"
+        },
+        {
+          "@value": "village",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 17",
+      "sourceEvidenceNote": {
+        "@value": "Место деловања војног трубача Момира Суботића пре његовог преласка у Драгачево.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL054",
+      "@type": "Place",
+      "identifier": "PL054",
+      "internalId": "PL054",
+      "name": [
+        {
+          "@value": "Дљин",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dljin",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "село",
+          "@language": "sr"
+        },
+        {
+          "@value": "village",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 19",
+      "sourceEvidenceNote": {
+        "@value": "Село чији је трубачки оркестар свирао у јединицама равногорског покрета током Другог светског рата.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL055",
+      "@type": "Place",
+      "identifier": "PL055",
+      "internalId": "PL055",
+      "name": [
+        {
+          "@value": "Горачићи",
+          "@language": "sr"
+        },
+        {
+          "@value": "Goračići",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "село",
+          "@language": "sr"
+        },
+        {
+          "@value": "village",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 18",
+      "sourceEvidenceNote": {
+        "@value": "Место везано за сведочанства о раној трубачкој традицији Драгачева.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S029",
+      "@type": "CreativeWork",
+      "identifier": "S029",
+      "internalId": "S029",
+      "name": [
+        {
+          "@value": "Градско поглаварство Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak City Administration archival fonds",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "архивски фонд",
+          "@language": "sr"
+        },
+        {
+          "@value": "archival fonds",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 3–15",
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S030",
+      "@type": "CreativeWork",
+      "identifier": "S030",
+      "internalId": "S030",
+      "name": [
+        {
+          "@value": "Општина чачанска",
+          "@language": "sr"
+        },
+        {
+          "@value": "Municipality of Čačak archival fonds",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "архивски фонд",
+          "@language": "sr"
+        },
+        {
+          "@value": "archival fonds",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "sourceEvidencePage": "PDF 4–13",
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S031",
+      "@type": "CreativeWork",
+      "identifier": "S031",
+      "internalId": "S031",
+      "name": [
+        {
+          "@value": "Срески суд Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak District Court archival fonds",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "архивски фонд",
+          "@language": "sr"
+        },
+        {
+          "@value": "archival fonds",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "sourceEvidencePage": "PDF 15",
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S032",
+      "@type": "CreativeWork",
+      "identifier": "S032",
+      "internalId": "S032",
+      "name": [
+        {
+          "@value": "Драгачевски трубач",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragačevski trubač",
+          "@language": "en"
+        }
+      ],
+      "additionalTypeLabel": [
+        {
+          "@value": "лист манифестације",
+          "@language": "sr"
+        },
+        {
+          "@value": "festival periodical",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "sourceEvidencePage": "PDF 10; PDF 23–152; PDF 373–378",
+      "verificationStatus": "source_verified_no_external_id"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "internalId": "article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "name": [
+        {
+          "@value": "Проституција у Чачку током XX века",
+          "@language": "sr"
+        },
+        {
+          "@value": "Prostitution in Čačak during the 20th Century",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2007",
+      "url": "https://milos-timotijevic.github.io/articles/prostitucija-u-cacku-tokom-xx-veka.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20623542",
+        "https://zenodo.org/records/20623542"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P092"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P093"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P099"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P100"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P101"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I066"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I067"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL052"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL053"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S029"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S031"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-2000-nazivi-ulica-cacka-1893-1992",
+      "internalId": "article-2000-nazivi-ulica-cacka-1893-1992",
+      "name": [
+        {
+          "@value": "Називи улица Чачка 1893–1992: један век изграђивања колективног идентитета",
+          "@language": "sr"
+        },
+        {
+          "@value": "The Street Names of Čačak, 1893–1992: A Century of Constructing Collective Identity",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2000",
+      "url": "https://milos-timotijevic.github.io/articles/nazivi-ulica-cacka-1893-1992.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20562154",
+        "https://zenodo.org/records/20562154"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P024"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P094"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P095"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P096"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P097"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P098"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P101"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I066"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL033"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S030"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "@type": "Book",
+      "identifier": "book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "internalId": "book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "name": [
+        {
+          "@value": "Карневал у Гучи: Сабор трубача 1961–2004",
+          "@language": "sr"
+        },
+        {
+          "@value": "Carnival in Guča: Trumpet Festival 1961–2004",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2005",
+      "url": "https://milos-timotijevic.github.io/books/karneval-u-guci.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20462195",
+        "https://zenodo.org/records/20462195"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P080"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P083"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P084"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P085"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P086"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P087"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P088"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P089"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P090"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P091"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I063"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I068"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL030"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL031"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL051"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL053"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL054"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL055"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S032"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I051"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R645",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R645",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P092",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Личност је важна за реконструкцију градског, кафанског, здравственог или меморијског аспекта проституције у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R646",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R646",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P093",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 2, 7, 10 и 14",
+      "evidenceNote": {
+        "@value": "Личност је важна за реконструкцију градског, кафанског, здравственог или меморијског аспекта проституције у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R647",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R647",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P099",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 6",
+      "evidenceNote": {
+        "@value": "Личност је важна за реконструкцију градског, кафанског, здравственог или меморијског аспекта проституције у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R648",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R648",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P100",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 10",
+      "evidenceNote": {
+        "@value": "Личност је важна за реконструкцију градског, кафанског, здравственог или меморијског аспекта проституције у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R649",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R649",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P101",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 6",
+      "evidenceNote": {
+        "@value": "Личност је важна за реконструкцију градског, кафанског, здравственог или меморијског аспекта проституције у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R650",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R650",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I035",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Установа је актер, простор или изворни оквир анализе проституције, јавног морала и градског надзора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R651",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R651",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 3–15",
+      "evidenceNote": {
+        "@value": "Установа је актер, простор или изворни оквир анализе проституције, јавног морала и градског надзора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R652",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R652",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I066",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 4–12",
+      "evidenceNote": {
+        "@value": "Установа је актер, простор или изворни оквир анализе проституције, јавног морала и градског надзора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R653",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R653",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I067",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 15",
+      "evidenceNote": {
+        "@value": "Установа је актер, простор или изворни оквир анализе проституције, јавног морала и градског надзора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R654",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R654",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 1–21",
+      "evidenceNote": {
+        "@value": "Место је непосредно повезано са кретањем људи, кафанском мрежом или просторним ширењем анализиране појаве.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R655",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R655",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 16–18",
+      "evidenceNote": {
+        "@value": "Место је непосредно повезано са кретањем људи, кафанском мрежом или просторним ширењем анализиране појаве.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R656",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R656",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 4, 8 и 10",
+      "evidenceNote": {
+        "@value": "Место је непосредно повезано са кретањем људи, кафанском мрежом или просторним ширењем анализиране појаве.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R657",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R657",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Место је непосредно повезано са кретањем људи, кафанском мрежом или просторним ширењем анализиране појаве.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R658",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R658",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL052",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Место је непосредно повезано са кретањем људи, кафанском мрежом или просторним ширењем анализиране појаве.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R659",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R659",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL053",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 10",
+      "evidenceNote": {
+        "@value": "Место је непосредно повезано са кретањем људи, кафанском мрежом или просторним ширењем анализиране појаве.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R660",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R660",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 3–20",
+      "evidenceNote": {
+        "@value": "Извор је непосредно коришћен за документовање проституције, рада локалних власти и јавног дискурса.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R661",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R661",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S029",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 3–15",
+      "evidenceNote": {
+        "@value": "Извор је непосредно коришћен за документовање проституције, рада локалних власти и јавног дискурса.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R662",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R662",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 4–12",
+      "evidenceNote": {
+        "@value": "Извор је непосредно коришћен за документовање проституције, рада локалних власти и јавног дискурса.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R663",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R663",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2007-prostitucija-u-cacku-tokom-xx-veka",
+      "evidencePage": "PDF 15",
+      "evidenceNote": {
+        "@value": "Извор је непосредно коришћен за документовање проституције, рада локалних власти и јавног дискурса.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R664",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R664",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R665",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R665",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R666",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R666",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 3 и 13",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R667",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R667",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P008",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R668",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R668",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R669",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R669",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P024",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 5 и 11",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R670",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R670",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 3–4",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R671",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R671",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 9 и 13",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R672",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R672",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R673",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R673",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P094",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 5, 9 и 11",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R674",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R674",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P095",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 4–5 и 11",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R675",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R675",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P096",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 4–5",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R676",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R676",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P097",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 5",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R677",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R677",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P098",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 5",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R678",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R678",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P101",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 4",
+      "evidenceNote": {
+        "@value": "Личност је присутна у политици именовања улица као носилац династичког, ратног, политичког, верског или модернизацијског сећања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R679",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R679",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 2–13",
+      "evidenceNote": {
+        "@value": "Установа је носилац одлука, идеолошки оквир или изворни контекст политике именовања улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R680",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R680",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 5",
+      "evidenceNote": {
+        "@value": "Установа је носилац одлука, идеолошки оквир или изворни контекст политике именовања улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R681",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R681",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 8–11",
+      "evidenceNote": {
+        "@value": "Установа је носилац одлука, идеолошки оквир или изворни контекст политике именовања улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R682",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R682",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 6–8",
+      "evidenceNote": {
+        "@value": "Установа је носилац одлука, идеолошки оквир или изворни контекст политике именовања улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R683",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R683",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I066",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 2–13",
+      "evidenceNote": {
+        "@value": "Установа је носилац одлука, идеолошки оквир или изворни контекст политике именовања улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R684",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R684",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 2–14",
+      "evidenceNote": {
+        "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R685",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R685",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL003",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 2 и 9",
+      "evidenceNote": {
+        "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R686",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R686",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 2–4",
+      "evidenceNote": {
+        "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R687",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R687",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL005",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 2–3",
+      "evidenceNote": {
+        "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R688",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R688",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 2–3",
+      "evidenceNote": {
+        "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R689",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R689",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 2–3",
+      "evidenceNote": {
+        "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R690",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R690",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 9",
+      "evidenceNote": {
+        "@value": "Место је део урбаног, регионалног или меморијског простора обухваћеног анализом назива улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R691",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R691",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 4–13",
+      "evidenceNote": {
+        "@value": "Периодика или архивски фонд коришћени су за реконструкцију одлука и јавних значења назива улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R692",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R692",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2000-nazivi-ulica-cacka-1893-1992",
+      "evidencePage": "PDF 4–13",
+      "evidenceNote": {
+        "@value": "Периодика или архивски фонд коришћени су за реконструкцију одлука и јавних значења назива улица.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R693",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R693",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 159 и 366",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R694",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R694",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 164 и 367",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R695",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R695",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 164–177 и 367",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R696",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R696",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 19 и 368",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R697",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R697",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P080",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 16 и 367",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R698",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R698",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 20–21 и 367",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R699",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R699",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 159 и 366",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R700",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R700",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P083",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 43–48 и 369",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R701",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R701",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P084",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 77–87, 317 и 369",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R702",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R702",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P085",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 76–87, 317 и 369–370",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R703",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R703",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P086",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 14, 326 и 369–370",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R704",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R704",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P087",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 56–77, 232–238 и 369",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R705",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R705",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P088",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 122, 242–243, 317 и 369",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R706",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R706",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P089",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 317–327 и 369–370",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R707",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R707",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P090",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 317, 326–327 и 369",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R708",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R708",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P091",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 177, 211, 216 и 368",
+      "evidenceNote": {
+        "@value": "Личност је важна за настанак, музички развој, медијску интернационализацију или политичку симболику Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R709",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R709",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 177 и 368",
+      "evidenceNote": {
+        "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R710",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R710",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 164–177",
+      "evidenceNote": {
+        "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R711",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R711",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I063",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 3 и 112",
+      "evidenceNote": {
+        "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R712",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R712",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 16",
+      "evidenceNote": {
+        "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R713",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R713",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I068",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 211",
+      "evidenceNote": {
+        "@value": "Установа или организација припада издавачком, организационом или политичком оквиру Сабора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R714",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R714",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 14–15 и 365–372",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R715",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R715",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 3, 16–18",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R716",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R716",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 16–20 и 365–372",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R717",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R717",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 5–15 и 365–372",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R718",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R718",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 21, 164 и 367",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R719",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R719",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL031",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 21, 164 и 367",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R720",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R720",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 14 и 370",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R721",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R721",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL051",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 159",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R722",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R722",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL053",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 17",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R723",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R723",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL054",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 19",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R724",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R724",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL055",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 18",
+      "evidenceNote": {
+        "@value": "Место је значајно за настанак манифестације, трубачку традицију или њену просторну и симболичку географију.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R725",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R725",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 9–152 и 373–378",
+      "evidenceNote": {
+        "@value": "Извор је коришћен за хронику Сабора, податке о учесницима и анализу јавне представе манифестације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R726",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R726",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S019",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Извор је коришћен за хронику Сабора, податке о учесницима и анализу јавне представе манифестације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R727",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R727",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S032",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 10, 23–152 и 373–378",
+      "evidenceNote": {
+        "@value": "Извор је коришћен за хронику Сабора, податке о учесницима и анализу јавне представе манифестације.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R728",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R728",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I051",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 2–3",
+      "evidenceNote": {
+        "@value": "Импресум наводи Легенду К.Д. као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R729",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R729",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 2–3",
+      "evidenceNote": {
+        "@value": "Импресум наводи Народни музеј Чачак као суиздавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R730",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R730",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I063",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 3 и 112",
+      "evidenceNote": {
+        "@value": "Дом културе налази се у Гучи.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R731",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R731",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I064",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL038",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+      "evidencePage": "PDF 16",
+      "evidenceNote": {
+        "@value": "Народни одбор општине био је орган локалне управе у Лучанима.",
         "@language": "sr"
       },
       "confidence": "high"
