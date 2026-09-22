@@ -32,7 +32,7 @@
       "url": "https://milos-timotijevic.github.io/data/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "dateModified": "2026-09-22",
-      "version": "0.7",
+      "version": "0.8",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -86,32 +86,32 @@
         {
           "@type": "PropertyValue",
           "name": "publications",
-          "value": 40
+          "value": 44
         },
         {
           "@type": "PropertyValue",
           "name": "people",
-          "value": 108
+          "value": 114
         },
         {
           "@type": "PropertyValue",
           "name": "institutions",
-          "value": 75
+          "value": 84
         },
         {
           "@type": "PropertyValue",
           "name": "places",
-          "value": 58
+          "value": 66
         },
         {
           "@type": "PropertyValue",
           "name": "historicalSources",
-          "value": 32
+          "value": 38
         },
         {
           "@type": "PropertyValue",
           "name": "relations",
-          "value": 769
+          "value": 879
         },
         {
           "@type": "PropertyValue",
@@ -121,7 +121,7 @@
         {
           "@type": "PropertyValue",
           "name": "jsonLdNodes",
-          "value": 1105
+          "value": 1248
         }
       ],
       "hasPart": [
@@ -3436,6 +3436,435 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#R769"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P109"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P110"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P112"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P113"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P114"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I077"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I079"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I080"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I083"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I084"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I085"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL060"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL062"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL063"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL066"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL067"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S035"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R770"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R771"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R772"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R773"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R774"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R775"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R776"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R777"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R778"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R779"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R780"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R781"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R782"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R783"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R784"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R785"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R786"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R787"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R788"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R789"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R790"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R791"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R792"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R793"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R794"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R795"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R796"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R797"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R798"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R799"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R800"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R801"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R802"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R803"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R804"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R805"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R806"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R807"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R808"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R809"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R810"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R811"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R812"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R813"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R814"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R815"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R816"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R817"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R818"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R819"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R820"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R821"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R822"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R823"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R824"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R825"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R826"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R827"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R828"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R829"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R830"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R831"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R832"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R833"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R834"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R835"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R836"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R837"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R838"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R839"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R840"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R841"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R842"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R843"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R844"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R845"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R846"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R847"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R848"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R849"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R850"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R851"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R852"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R853"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R854"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R855"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R856"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R857"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R858"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R859"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R860"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R861"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R862"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R863"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R864"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R865"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R866"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R867"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R868"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R869"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R870"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R871"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R872"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R873"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R874"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R875"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R876"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R877"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R878"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R879"
         }
       ]
     },
@@ -32216,6 +32645,2899 @@
       "evidencePage": "PDF 38–43",
       "evidenceNote": {
         "@value": "Објекат се налази на централном градском тргу у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P109",
+      "@type": "Person",
+      "identifier": "P109",
+      "name": [
+        {
+          "@value": "Милан Недић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milan Nedić",
+          "@language": "en"
+        }
+      ],
+      "birthDate": "1877",
+      "deathDate": "1946"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P110",
+      "@type": "Person",
+      "identifier": "P110",
+      "name": [
+        {
+          "@value": "Милован Ђилас",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milovan Đilas",
+          "@language": "en"
+        }
+      ],
+      "birthDate": "1911",
+      "deathDate": "1995"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P111",
+      "@type": "Person",
+      "identifier": "P111",
+      "name": [
+        {
+          "@value": "Сретен Жујовић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sreten Žujović",
+          "@language": "en"
+        }
+      ],
+      "birthDate": "1899",
+      "deathDate": "1976"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P112",
+      "@type": "Person",
+      "identifier": "P112",
+      "name": [
+        {
+          "@value": "Александар Ранковић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Aleksandar Ranković",
+          "@language": "en"
+        }
+      ],
+      "birthDate": "1909",
+      "deathDate": "1983"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P113",
+      "@type": "Person",
+      "identifier": "P113",
+      "name": [
+        {
+          "@value": "Винстон Черчил",
+          "@language": "sr"
+        },
+        {
+          "@value": "Winston Churchill",
+          "@language": "en"
+        }
+      ],
+      "birthDate": "1874",
+      "deathDate": "1965"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P114",
+      "@type": "Person",
+      "identifier": "P114",
+      "name": [
+        {
+          "@value": "Владимир Дедијер",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vladimir Dedijer",
+          "@language": "en"
+        }
+      ],
+      "birthDate": "1914",
+      "deathDate": "1990"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I077",
+      "@type": "Organization",
+      "identifier": "I077",
+      "name": [
+        {
+          "@value": "Народна банка Краљевине Југославије",
+          "@language": "sr"
+        },
+        {
+          "@value": "National Bank of the Kingdom of Yugoslavia",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "@type": "Organization",
+      "identifier": "I078",
+      "name": [
+        {
+          "@value": "Народноослободилачки покрет Југославије",
+          "@language": "sr"
+        },
+        {
+          "@value": "People's Liberation Movement of Yugoslavia",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I079",
+      "@type": "Organization",
+      "identifier": "I079",
+      "name": [
+        {
+          "@value": "Југословенска влада у избеглиштву",
+          "@language": "sr"
+        },
+        {
+          "@value": "Yugoslav government-in-exile",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I080",
+      "@type": "Organization",
+      "identifier": "I080",
+      "name": [
+        {
+          "@value": "Управа за специјалне операције",
+          "@language": "sr"
+        },
+        {
+          "@value": "Special Operations Executive",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "@type": "Organization",
+      "identifier": "I081",
+      "name": [
+        {
+          "@value": "Немачка окупациона управа у Србији",
+          "@language": "sr"
+        },
+        {
+          "@value": "German occupation administration in Serbia",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I082",
+      "@type": "Organization",
+      "identifier": "I082",
+      "name": [
+        {
+          "@value": "Влада народног спаса",
+          "@language": "sr"
+        },
+        {
+          "@value": "Government of National Salvation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I083",
+      "@type": "Organization",
+      "identifier": "I083",
+      "name": [
+        {
+          "@value": "Војни архив",
+          "@language": "sr"
+        },
+        {
+          "@value": "Military Archives",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I084",
+      "@type": "Organization",
+      "identifier": "I084",
+      "name": [
+        {
+          "@value": "Историјски архив Београда",
+          "@language": "sr"
+        },
+        {
+          "@value": "Historical Archives of Belgrade",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I085",
+      "@type": "Organization",
+      "identifier": "I085",
+      "name": [
+        {
+          "@value": "Архив Југославије",
+          "@language": "sr"
+        },
+        {
+          "@value": "Archives of Yugoslavia",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL060",
+      "@type": "Place",
+      "identifier": "PL060",
+      "name": [
+        {
+          "@value": "Златибор",
+          "@language": "sr"
+        },
+        {
+          "@value": "Zlatibor",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL061",
+      "@type": "Place",
+      "identifier": "PL061",
+      "name": [
+        {
+          "@value": "Санџак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sandžak",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL062",
+      "@type": "Place",
+      "identifier": "PL062",
+      "name": [
+        {
+          "@value": "Фоча",
+          "@language": "sr"
+        },
+        {
+          "@value": "Foča",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "BA"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL063",
+      "@type": "Place",
+      "identifier": "PL063",
+      "name": [
+        {
+          "@value": "Истанбул",
+          "@language": "sr"
+        },
+        {
+          "@value": "Istanbul",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "TR"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL064",
+      "@type": "Place",
+      "identifier": "PL064",
+      "name": [
+        {
+          "@value": "Лондон",
+          "@language": "sr"
+        },
+        {
+          "@value": "London",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "GB"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL065",
+      "@type": "Place",
+      "identifier": "PL065",
+      "name": [
+        {
+          "@value": "Каиро",
+          "@language": "sr"
+        },
+        {
+          "@value": "Cairo",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "EG"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL066",
+      "@type": "Place",
+      "identifier": "PL066",
+      "name": [
+        {
+          "@value": "Црна Гора",
+          "@language": "sr"
+        },
+        {
+          "@value": "Montenegro",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "ME"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL067",
+      "@type": "Place",
+      "identifier": "PL067",
+      "name": [
+        {
+          "@value": "Босна и Херцеговина",
+          "@language": "sr"
+        },
+        {
+          "@value": "Bosnia and Herzegovina",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "BA"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S033",
+      "@type": "CreativeWork",
+      "identifier": "S033",
+      "name": [
+        {
+          "@value": "Ново време",
+          "@language": "sr"
+        },
+        {
+          "@value": "Novo vreme",
+          "@language": "en"
+        }
+      ],
+      "temporalCoverage": "1941–1944"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S034",
+      "@type": "CreativeWork",
+      "identifier": "S034",
+      "name": [
+        {
+          "@value": "Обнова",
+          "@language": "sr"
+        },
+        {
+          "@value": "Obnova",
+          "@language": "en"
+        }
+      ],
+      "temporalCoverage": "1941–1944"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S035",
+      "@type": "CreativeWork",
+      "identifier": "S035",
+      "name": [
+        {
+          "@value": "Наша борба",
+          "@language": "sr"
+        },
+        {
+          "@value": "Naša borba",
+          "@language": "en"
+        }
+      ],
+      "temporalCoverage": "1941–1941"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S036",
+      "@type": "CreativeWork",
+      "identifier": "S036",
+      "name": [
+        {
+          "@value": "Недићева архива",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nedić Archive",
+          "@language": "en"
+        }
+      ],
+      "temporalCoverage": "1941–1944"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S037",
+      "@type": "CreativeWork",
+      "identifier": "S037",
+      "name": [
+        {
+          "@value": "Управа града Београда — Специјална полиција",
+          "@language": "sr"
+        },
+        {
+          "@value": "Belgrade City Administration — Special Police",
+          "@language": "en"
+        }
+      ],
+      "temporalCoverage": "1941–1944"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#S038",
+      "@type": "CreativeWork",
+      "identifier": "S038",
+      "name": [
+        {
+          "@value": "Архивска збирка Претстојништва градске полиције Чачак 1941–1944",
+          "@language": "sr"
+        },
+        {
+          "@value": "Archival Collection of the Čačak City Police Authority, 1941–1944",
+          "@language": "en"
+        }
+      ],
+      "temporalCoverage": "1941–1944"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "internalId": "article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "name": [
+        {
+          "@value": "Небески знаци и земаљске прилике: астрономске појаве, метеоролошке промене и геолошка активност у Србији 1941. године",
+          "@language": "sr"
+        },
+        {
+          "@value": "Celestial Signs and Earth Conditions: Astronomical Phenomena, Meteorological Changes and Geological Activity in Serbia in 1941",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2020",
+      "url": "https://milos-timotijevic.github.io/articles/nebeski-znaci-zemaljske-prilike-srbija-1941.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20682186",
+        "https://zenodo.org/records/20682186"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P055"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P063"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P109"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I082"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL010"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL012"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S035"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-2018-sudbina-srebra-uzicke-republike",
+      "internalId": "article-2018-sudbina-srebra-uzicke-republike",
+      "name": [
+        {
+          "@value": "Судбина сребра Ужичке републике",
+          "@language": "sr"
+        },
+        {
+          "@value": "Destiny of Silver from the Republic of Užice",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2018",
+      "url": "https://milos-timotijevic.github.io/articles/sudbina-srebra-uzicke-republike.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20569174",
+        "https://zenodo.org/records/20569174"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P109"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P110"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P112"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P114"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I077"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I083"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I084"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL060"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL062"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S034"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "@type": "ScholarlyArticle",
+      "identifier": "article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "internalId": "article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "name": [
+        {
+          "@value": "Finansije JVuO u Srbiji 1941–1944.",
+          "@language": "sr"
+        },
+        {
+          "@value": "Financing of the Yugoslav Army in the Fatherland of General Mihailović in Serbia, 1941–1944",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2019",
+      "url": "https://milos-timotijevic.github.io/articles/finansije-jvuo-u-srbiji-1941-1944.html",
+      "sameAs": [
+        "https://doi.org/10.29362/IST20VEKA.2019.2.TIM.137-156",
+        "https://zenodo.org/records/20569110"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P109"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P079"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P113"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I079"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I080"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I077"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL048"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL063"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S036"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "@type": "Book",
+      "identifier": "book-2018-zlato-cetnika-i-partizana-2018",
+      "internalId": "book-2018-zlato-cetnika-i-partizana-2018",
+      "name": [
+        {
+          "@value": "Злато четника и партизана: деконструкција једног мита — финансије и отпор окупатору у Србији и Југославији 1941–1945",
+          "@language": "sr"
+        },
+        {
+          "@value": "Gold of the Chetniks and Partisans: Deconstruction of a Myth — Finances and Resistance to the Occupier in Serbia and Yugoslavia 1941–1945",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2018",
+      "url": "https://milos-timotijevic.github.io/books/zlato-cetnika-i-partizana.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20476473",
+        "https://zenodo.org/records/20476473"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P109"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P110"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P112"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P113"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I077"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I079"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I080"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I083"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I085"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL060"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL062"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL063"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL066"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL067"
+        }
+      ],
+      "usesSource": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#S037"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I025"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R770",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R770",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P055",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 2",
+      "evidenceNote": {
+        "@value": "Личност је део анализе политичких, идеолошких или религијских тумачења рата и природних појава 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R771",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R771",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P063",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 2–3",
+      "evidenceNote": {
+        "@value": "Личност је део анализе политичких, идеолошких или религијских тумачења рата и природних појава 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R772",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R772",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 16",
+      "evidenceNote": {
+        "@value": "Личност је део анализе политичких, идеолошких или религијских тумачења рата и природних појава 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R773",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R773",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 4",
+      "evidenceNote": {
+        "@value": "Личност је део анализе политичких, идеолошких или религијских тумачења рата и природних појава 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R774",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R774",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P072",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Личност је део анализе политичких, идеолошких или религијских тумачења рата и природних појава 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R775",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R775",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P109",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Личност је део анализе политичких, идеолошких или религијских тумачења рата и природних појава 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R776",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R776",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 2–3",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада непосредном политичком и ратном оквиру анализираних појава.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R777",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R777",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 2–3 и 16",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада непосредном политичком и ратном оквиру анализираних појава.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R778",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R778",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 4 и 16",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада непосредном политичком и ратном оквиру анализираних појава.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R779",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R779",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 7–20",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада непосредном политичком и ратном оквиру анализираних појава.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R780",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R780",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 7–20",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада непосредном политичком и ратном оквиру анализираних појава.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R781",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R781",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 11",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада непосредном политичком и ратном оквиру анализираних појава.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R782",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R782",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 1–24",
+      "evidenceNote": {
+        "@value": "Место је документовано у приказу временских прилика, земљотреса, окупације или ратних догађаја 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R783",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R783",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 3–20",
+      "evidenceNote": {
+        "@value": "Место је документовано у приказу временских прилика, земљотреса, окупације или ратних догађаја 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R784",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R784",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 10–20",
+      "evidenceNote": {
+        "@value": "Место је документовано у приказу временских прилика, земљотреса, окупације или ратних догађаја 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R785",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R785",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 12–17",
+      "evidenceNote": {
+        "@value": "Место је документовано у приказу временских прилика, земљотреса, окупације или ратних догађаја 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R786",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R786",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 10 и 16",
+      "evidenceNote": {
+        "@value": "Место је документовано у приказу временских прилика, земљотреса, окупације или ратних догађаја 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R787",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R787",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL010",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 10–17",
+      "evidenceNote": {
+        "@value": "Место је документовано у приказу временских прилика, земљотреса, окупације или ратних догађаја 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R788",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R788",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL011",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 10–17",
+      "evidenceNote": {
+        "@value": "Место је документовано у приказу временских прилика, земљотреса, окупације или ратних догађаја 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R789",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R789",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 10–17",
+      "evidenceNote": {
+        "@value": "Место је документовано у приказу временских прилика, земљотреса, окупације или ратних догађаја 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R790",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R790",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 1–20",
+      "evidenceNote": {
+        "@value": "Периодика је наведена у списку извора и коришћена за реконструкцију јавног дискурса и свакодневице 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R791",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R791",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S014",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 2–20",
+      "evidenceNote": {
+        "@value": "Периодика је наведена у списку извора и коришћена за реконструкцију јавног дискурса и свакодневице 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R792",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R792",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S015",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 21",
+      "evidenceNote": {
+        "@value": "Периодика је наведена у списку извора и коришћена за реконструкцију јавног дискурса и свакодневице 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R793",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R793",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 6, 11–12",
+      "evidenceNote": {
+        "@value": "Периодика је наведена у списку извора и коришћена за реконструкцију јавног дискурса и свакодневице 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R794",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R794",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 21",
+      "evidenceNote": {
+        "@value": "Периодика је наведена у списку извора и коришћена за реконструкцију јавног дискурса и свакодневице 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R795",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R795",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 21",
+      "evidenceNote": {
+        "@value": "Периодика је наведена у списку извора и коришћена за реконструкцију јавног дискурса и свакодневице 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R796",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R796",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S035",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+      "evidencePage": "PDF 21",
+      "evidenceNote": {
+        "@value": "Периодика је наведена у списку извора и коришћена за реконструкцију јавног дискурса и свакодневице 1941.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R797",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R797",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 5 и 9–23",
+      "evidenceNote": {
+        "@value": "Личност је актер или сведок преузимања, транспорта, скривања и употребе ужичког новца и сребра.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R798",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R798",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 4–9 и 14",
+      "evidenceNote": {
+        "@value": "Личност је актер или сведок преузимања, транспорта, скривања и употребе ужичког новца и сребра.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R799",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R799",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P109",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 4–9 и 20",
+      "evidenceNote": {
+        "@value": "Личност је актер или сведок преузимања, транспорта, скривања и употребе ужичког новца и сребра.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R800",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R800",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P110",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 5 и 14–17",
+      "evidenceNote": {
+        "@value": "Личност је актер или сведок преузимања, транспорта, скривања и употребе ужичког новца и сребра.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R801",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R801",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 11 и 18",
+      "evidenceNote": {
+        "@value": "Личност је актер или сведок преузимања, транспорта, скривања и употребе ужичког новца и сребра.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R802",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R802",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P114",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 10–17",
+      "evidenceNote": {
+        "@value": "Личност је актер или сведок преузимања, транспорта, скривања и употребе ужичког новца и сребра.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R803",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R803",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 3–17",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер финансијских догађаја или место чувања примарне грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R804",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R804",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 8–14",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер финансијских догађаја или место чувања примарне грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R805",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R805",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I077",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 1, 3–6 и 21",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер финансијских догађаја или место чувања примарне грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R806",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R806",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 1–24",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер финансијских догађаја или место чувања примарне грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R807",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R807",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 4–20",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер финансијских догађаја или место чувања примарне грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R808",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R808",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 4–9 и 20",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер финансијских догађаја или место чувања примарне грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R809",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R809",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I083",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер финансијских догађаја или место чувања примарне грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R810",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R810",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I084",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер финансијских догађаја или место чувања примарне грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R811",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R811",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Установа или покрет је актер финансијских догађаја или место чувања примарне грађе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R812",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R812",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 1, 4–14 и 21–23",
+      "evidenceNote": {
+        "@value": "Место припада путањи преузимања, транспорта, скривања или употребе новца.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R813",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R813",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL060",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 10–14 и 21",
+      "evidenceNote": {
+        "@value": "Место припада путањи преузимања, транспорта, скривања или употребе новца.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R814",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R814",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 16",
+      "evidenceNote": {
+        "@value": "Место припада путањи преузимања, транспорта, скривања или употребе новца.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R815",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R815",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL062",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 15",
+      "evidenceNote": {
+        "@value": "Место припада путањи преузимања, транспорта, скривања или употребе новца.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R816",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R816",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 1–24",
+      "evidenceNote": {
+        "@value": "Место припада путањи преузимања, транспорта, скривања или употребе новца.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R817",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R817",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 3–20",
+      "evidenceNote": {
+        "@value": "Место припада путањи преузимања, транспорта, скривања или употребе новца.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R818",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R818",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Архивски фонд или периодика наведени су у изворној основи рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R819",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R819",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Архивски фонд или периодика наведени су у изворној основи рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R820",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R820",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S038",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 20",
+      "evidenceNote": {
+        "@value": "Архивски фонд или периодика наведени су у изворној основи рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R821",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R821",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 20–24",
+      "evidenceNote": {
+        "@value": "Архивски фонд или периодика наведени су у изворној основи рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R822",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R822",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2018-sudbina-srebra-uzicke-republike",
+      "evidencePage": "PDF 20–24",
+      "evidenceNote": {
+        "@value": "Архивски фонд или периодика наведени су у изворној основи рада.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R823",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R823",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 2–15",
+      "evidenceNote": {
+        "@value": "Личност је кључна за организацију, финансирање или савезнички положај ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R824",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R824",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P109",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 2, 4 и 11–15",
+      "evidenceNote": {
+        "@value": "Личност је кључна за организацију, финансирање или савезнички положај ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R825",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R825",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 3 и 14",
+      "evidenceNote": {
+        "@value": "Личност је кључна за организацију, финансирање или савезнички положај ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R826",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R826",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P079",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 5–10",
+      "evidenceNote": {
+        "@value": "Личност је кључна за организацију, финансирање или савезнички положај ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R827",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R827",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P113",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 8–12",
+      "evidenceNote": {
+        "@value": "Личност је кључна за организацију, финансирање или савезнички положај ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R828",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R828",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 1–15",
+      "evidenceNote": {
+        "@value": "Установа или покрет непосредно учествује у финансирању, контроли или сукобу покрета отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R829",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R829",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I079",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 2, 5–10 и 15",
+      "evidenceNote": {
+        "@value": "Установа или покрет непосредно учествује у финансирању, контроли или сукобу покрета отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R830",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R830",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I080",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 4–10",
+      "evidenceNote": {
+        "@value": "Установа или покрет непосредно учествује у финансирању, контроли или сукобу покрета отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R831",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R831",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 1–15",
+      "evidenceNote": {
+        "@value": "Установа или покрет непосредно учествује у финансирању, контроли или сукобу покрета отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R832",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R832",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 2, 4 и 11–15",
+      "evidenceNote": {
+        "@value": "Установа или покрет непосредно учествује у финансирању, контроли или сукобу покрета отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R833",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R833",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I077",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 3 и 14",
+      "evidenceNote": {
+        "@value": "Установа или покрет непосредно учествује у финансирању, контроли или сукобу покрета отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R834",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R834",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 2–3 и 15",
+      "evidenceNote": {
+        "@value": "Установа или покрет непосредно учествује у финансирању, контроли или сукобу покрета отпора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R835",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R835",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 1–20",
+      "evidenceNote": {
+        "@value": "Место припада географији обавештајних канала, испорука, финансијских акција и деловања ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R836",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R836",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL048",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 2–10",
+      "evidenceNote": {
+        "@value": "Место припада географији обавештајних канала, испорука, финансијских акција и деловања ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R837",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R837",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL063",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 2 и 5–9",
+      "evidenceNote": {
+        "@value": "Место припада географији обавештајних канала, испорука, финансијских акција и деловања ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R838",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R838",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 2, 5–10 и 15",
+      "evidenceNote": {
+        "@value": "Место припада географији обавештајних канала, испорука, финансијских акција и деловања ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R839",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R839",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 6–10",
+      "evidenceNote": {
+        "@value": "Место припада географији обавештајних канала, испорука, финансијских акција и деловања ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R840",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R840",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 3 и 14",
+      "evidenceNote": {
+        "@value": "Место припада географији обавештајних канала, испорука, финансијских акција и деловања ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R841",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R841",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 14",
+      "evidenceNote": {
+        "@value": "Место припада географији обавештајних канала, испорука, финансијских акција и деловања ЈВуО.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R842",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R842",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 12",
+      "evidenceNote": {
+        "@value": "Извор је коришћен за реконструкцију јавног дискурса и финансијских односа у окупираној Србији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R843",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R843",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#article-2019-finansije-jvuo-u-srbiji-1941-1944",
+      "evidencePage": "PDF 11–14",
+      "evidenceNote": {
+        "@value": "Извор је коришћен за реконструкцију јавног дискурса и финансијских односа у окупираној Србији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R844",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R844",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 38–58, 98–121 и 229–256",
+      "evidenceNote": {
+        "@value": "Личност је важан актер или сведок ратних финансија, савезничке политике, пљачке и послератног мита о злату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R845",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R845",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 53–90 и 129–225",
+      "evidenceNote": {
+        "@value": "Личност је важан актер или сведок ратних финансија, савезничке политике, пљачке и послератног мита о злату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R846",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R846",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P109",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 41–45, 69–88 и 129–156",
+      "evidenceNote": {
+        "@value": "Личност је важан актер или сведок ратних финансија, савезничке политике, пљачке и послератног мита о злату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R847",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R847",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P072",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 68 и 141",
+      "evidenceNote": {
+        "@value": "Личност је важан актер или сведок ратних финансија, савезничке политике, пљачке и послератног мита о злату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R848",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R848",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P110",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 43, 48, 116 и 170",
+      "evidenceNote": {
+        "@value": "Личност је важан актер или сведок ратних финансија, савезничке политике, пљачке и послератног мита о злату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R849",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R849",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 105 и 112",
+      "evidenceNote": {
+        "@value": "Личност је важан актер или сведок ратних финансија, савезничке политике, пљачке и послератног мита о злату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R850",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R850",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 46, 191 и 232",
+      "evidenceNote": {
+        "@value": "Личност је важан актер или сведок ратних финансија, савезничке политике, пљачке и послератног мита о злату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R851",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R851",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P113",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 221–233",
+      "evidenceNote": {
+        "@value": "Личност је важан актер или сведок ратних финансија, савезничке политике, пљачке и послератног мита о злату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R852",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R852",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 37–121",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R853",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R853",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 53–90 и 129–225",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R854",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R854",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I077",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 31–53 и 229–256",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R855",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R855",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 37–53 и 99–128",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R856",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R856",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I079",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 67–90 и 205–225",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R857",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R857",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I080",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 67–90 и 205–225",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R858",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R858",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 37–65 и 91–98",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R859",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R859",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 129–156",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R860",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R860",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I083",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 265–298",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R861",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R861",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I085",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 265–298",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада систему ратних финансија, окупационе пљачке, савезничке помоћи или изворној основи књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R862",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R862",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 31–298",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R863",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R863",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 31–256",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R864",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R864",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 41–50 и 109–118",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R865",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R865",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL060",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 46–49 и 115–118",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R866",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R866",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 96, 118 и 177",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R867",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R867",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL062",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 49, 97 и 119",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R868",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R868",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL063",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 67–88",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R869",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R869",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 39–90 и 205–225",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R870",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R870",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL066",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 177 и 231",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R871",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R871",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL067",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 49, 97, 119 и 191",
+      "evidenceNote": {
+        "@value": "Место је део просторне мреже ратних финансија, транспорта драгоцености, окупационе пљачке и политике савезника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R872",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R872",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S012",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 92, 95, 103–104 и 221",
+      "evidenceNote": {
+        "@value": "Периодика или архивски фонд чине проверљив део изворне основе монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R873",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R873",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 31–256",
+      "evidenceNote": {
+        "@value": "Периодика или архивски фонд чине проверљив део изворне основе монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R874",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R874",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 37–227",
+      "evidenceNote": {
+        "@value": "Периодика или архивски фонд чине проверљив део изворне основе монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R875",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R875",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 37–156",
+      "evidenceNote": {
+        "@value": "Периодика или архивски фонд чине проверљив део изворне основе монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R876",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R876",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 37–156",
+      "evidenceNote": {
+        "@value": "Периодика или архивски фонд чине проверљив део изворне основе монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R877",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R877",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 265–298",
+      "evidenceNote": {
+        "@value": "Периодика или архивски фонд чине проверљив део изворне основе монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R878",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R878",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#usesSource",
+      "object": "https://milos-timotijevic.github.io/data/entities/#S037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 265–298",
+      "evidenceNote": {
+        "@value": "Периодика или архивски фонд чине проверљив део изворне основе монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R879",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R879",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2018-zlato-cetnika-i-partizana-2018",
+      "evidencePage": "PDF 4",
+      "evidenceNote": {
+        "@value": "Импресум првог издања из 2018. наводи ЈП Службени гласник као издавача.",
         "@language": "sr"
       },
       "confidence": "high"
