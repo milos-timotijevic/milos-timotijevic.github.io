@@ -1,3 +1,4 @@
+<!doctype html>
 <!DOCTYPE html>
 
 <html lang="sr-Cyrl">
@@ -458,10 +459,12 @@ break-inside: avoid;
     .cluster-details[open] > summary::after { transform: rotate(90deg); }
     .cluster-details > .details-body { padding: 0 0 1rem 0; }
 
-  </style>
+  
+/* Conceptual network */
+.concept-root{margin:1.5rem 0}.concept-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.1rem 0 1.5rem}.concept-card{border:1px solid var(--border);background:var(--soft);padding:1rem 1.1rem}.concept-card h4{margin-top:0;margin-bottom:.65rem}.concept-card p{margin:.45rem 0}.concept-children{font-size:.94rem;line-height:1.5}.concept-bridge,.concept-branch,.concept-paths{margin:1rem 0;padding:.9rem 1.1rem;border-left:3px solid var(--border);background:var(--soft)}.concept-bridge h3,.concept-branch h3,.concept-paths h3{margin-top:0}.concept-paths ul{margin-bottom:.25rem}@media(max-width:760px){.concept-grid{grid-template-columns:1fr}}
+</style>
 <!-- Schema.org JSON-LD -->
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -1905,14 +1908,146 @@ break-inside: avoid;
           "value": "local sports club; city and region; local identity; community belonging; globalization"
         }
       ]
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network",
+      "name": "Čačak Local Modernity Conceptual Network",
+      "alternateName": "Концептуална мрежа локалне модерности Чачка",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-modernity",
+      "name": "Local Modernity",
+      "alternateName": "Локална модерност",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-socialist-modernization",
+      "name": "Socialist Modernization",
+      "alternateName": "Социјалистичка модернизација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-agency",
+      "name": "Local Agency",
+      "alternateName": "Локално деловање",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-symbolic-production",
+      "name": "Symbolic Production",
+      "alternateName": "Симболичка производња",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-urban-transformation",
+      "name": "Urban Transformation",
+      "alternateName": "Урбана трансформација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-industrialization",
+      "name": "Industrialization",
+      "alternateName": "Индустријализација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-everyday-life",
+      "name": "Everyday Life",
+      "alternateName": "Свакодневни живот",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-political-power",
+      "name": "Local Political Power",
+      "alternateName": "Локална политичка моћ",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-public-space",
+      "name": "Public Space",
+      "alternateName": "Јавни простор",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-symbolic-power",
+      "name": "Symbolic Power",
+      "alternateName": "Симболичка моћ",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-political-representation",
+      "name": "Political Representation",
+      "alternateName": "Политичка репрезентација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-collective-memory",
+      "name": "Collective Memory",
+      "alternateName": "Колективно памћење",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-identity",
+      "name": "Local Identity",
+      "alternateName": "Локални идентитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-sport-urban-identity",
+      "name": "Sport and Urban Identity",
+      "alternateName": "Спорт и урбани идентитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      }
     }
   ]
-}
-</script>
+}</script>
 </head>
 <body id="top">
 <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
-<header class="page-header"><p class="back-link"><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p><h1>Чачак као студија случаја локалне модерности</h1><p class="name-latin" lang="en-GB">Čačak as a Case Study of Local Modernity</p><p class="subtitle">Чачак као пример урбаних, друштвених и симболичких промена у модерној Србији<br/><span lang="en-GB">Čačak as a case of urban, social and symbolic change in modern Serbia</span></p></header><nav aria-label="Главна навигација / Main navigation" class="site-nav"><ul><li><a href="/">Главна страна / Main Page</a></li><li><a href="/knowledge-graph/">Граф знања / Knowledge Graph</a></li><li><a href="/knowledge-graph/research/local-modernity-symbolic-power.html">Кровни оквир / Main Framework</a></li><li><a href="/bibliography/">Библиографија / Bibliography</a></li><li><a href="/data/">Подаци / Data</a></li><li><a href="/knowledge-graph/method.html">Метод / Method</a></li></ul></nav><main id="main-content"><nav aria-label="Садржај странице / Page contents" class="contents"><h2>Садржај / Contents</h2><ol><li><a href="#why-cacak">Зашто Чачак? / Why Čačak?</a></li><li><a href="#summary">Сажетак / Summary</a></li><li><a href="#premises">Полазишта / Premises</a></li><li><a href="#research-question">Истраживачко питање / Research Question</a></li><li><a href="#research-claim">Теза / Research Claim</a></li><li><a href="#method">Методолошки приступ / Methodological Approach</a></li><li><a href="#scope">Временски и просторни оквир / Analytical Scope</a></li><li><a href="#core-publications">Носеће публикације / Core Publications</a></li><li><a href="#related-works">Сродни радови / Related Works</a></li><li><a href="#identifiers">Идентификатори / Identifiers</a></li><li><a href="#suggested-citation">Предлог цитирања / Suggested Citation</a></li></ol></nav>
+<header class="page-header"><p class="back-link"><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p><h1>Чачак као студија случаја локалне модерности</h1><p class="name-latin" lang="en-GB">Čačak as a Case Study of Local Modernity</p><p class="subtitle">Чачак као пример урбаних, друштвених и симболичких промена у модерној Србији<br/><span lang="en-GB">Čačak as a case of urban, social and symbolic change in modern Serbia</span></p></header><nav aria-label="Главна навигација / Main navigation" class="site-nav"><ul><li><a href="/">Главна страна / Main Page</a></li><li><a href="/knowledge-graph/">Граф знања / Knowledge Graph</a></li><li><a href="/knowledge-graph/research/local-modernity-symbolic-power.html">Кровни оквир / Main Framework</a></li><li><a href="/bibliography/">Библиографија / Bibliography</a></li><li><a href="/data/">Подаци / Data</a></li><li><a href="/knowledge-graph/method.html">Метод / Method</a></li></ul></nav><main id="main-content"><nav aria-label="Садржај странице / Page contents" class="contents"><h2>Садржај / Contents</h2><ol><li><a href="#why-cacak">Зашто Чачак? / Why Čačak?</a></li><li><a href="#summary">Сажетак / Summary</a></li><li><a href="#premises">Полазишта / Premises</a></li><li><a href="#research-question">Истраживачко питање / Research Question</a></li><li><a href="#research-claim">Теза / Research Claim</a></li><li><a href="#method">Методолошки приступ / Methodological Approach</a></li><li><a href="#scope">Временски и просторни оквир / Analytical Scope</a></li><li><a href="#core-publications">Носеће публикације / Core Publications</a></li><li><a href="#conceptual-network">Концептуална мрежа / Conceptual Network</a></li><li><a href="#related-works">Сродни радови / Related Works</a></li><li><a href="#identifiers">Идентификатори / Identifiers</a></li><li><a href="#suggested-citation">Предлог цитирања / Suggested Citation</a></li></ol></nav>
 <section aria-labelledby="why-cacak-title" class="reader-entry content-section" id="why-cacak">
 <h2 id="why-cacak-title">Зашто Чачак? / <span lang="en-GB">Why Čačak?</span></h2>
 <p>Историја Чачка омогућава да се модернизација прати у конкретној средини: у изгледу града, развоју индустрије, деловању локалне власти, расту јавних установа, спорту, фотографији, споменичкој култури и променама свакодневног живота.</p>
@@ -2016,7 +2151,21 @@ grouped according to their primary research role, making clear which
 aspects of local modernity they address.
 </p>
 </section>
-<section aria-labelledby="comparative-context-title" class="content-section" id="comparative-context">
+<section class="content-section" id="conceptual-network">
+<h2>Концептуална мрежа / <span lang="en-GB">Conceptual Network</span></h2>
+<p>Истраживање Чачка организовано је око појма <strong>локалне модерности</strong>, који повезује материјалне, институционалне и симболичке процесе. Овај слој не представља класификацију публикација по темама, већ показује истраживачке проблеме преко којих се појединачни радови међусобно повезују.</p>
+<p lang="en-GB">Research on Čačak is organized around the concept of <strong>local modernity</strong>, connecting material, institutional and symbolic processes. This layer does not classify publications by topic; it identifies research problems through which individual studies can be linked.</p>
+<div class="concept-root" id="concept-local-modernity"><h3>Локална модерност / <span lang="en-GB">Local Modernity</span></h3><p>Кровни концепт означава начин на који шири процеси модернизације добијају конкретан облик у локалној средини кроз установе, актере, простор, свакодневни живот и производњу идентитета.</p>
+<div class="concept-grid">
+<article class="concept-card" id="concept-socialist-modernization"><h4>Социјалистичка модернизација / <span lang="en-GB">Socialist Modernization</span></h4><p>Структурни преображај града и друштва после 1945. године кроз индустријализацију, урбанизацију, инфраструктуру, становање и промене свакодневног живота.</p><p class="concept-children"><span id="concept-urban-transformation">Урбана трансформација / Urban Transformation</span> · <span id="concept-industrialization">Индустријализација / Industrialization</span> · <span id="concept-everyday-life">Свакодневни живот / Everyday Life</span></p></article>
+<article class="concept-card" id="concept-local-agency"><h4>Локално деловање / <span lang="en-GB">Local Agency</span></h4><p>Улога локалних актера, елита и установа у прихватању, посредовању и преобликовању ширих државних, друштвених и модернизацијских процеса.</p><p class="concept-children"><span id="concept-local-political-power">Локална политичка моћ / Local Political Power</span></p></article>
+<article class="concept-card" id="concept-symbolic-production"><h4>Симболичка производња / <span lang="en-GB">Symbolic Production</span></h4><p>Производња значења, легитимитета, памћења и припадности кроз јавне симболе, слике, називе, споменике, ритуале и друге облике представљања града.</p><p class="concept-children"><span id="concept-symbolic-power">Симболичка моћ / Symbolic Power</span> · <span id="concept-political-representation">Политичка репрезентација / Political Representation</span> · <span id="concept-collective-memory">Колективно памћење / Collective Memory</span> · <span id="concept-local-identity">Локални идентитет / Local Identity</span></p></article>
+</div></div>
+<div class="concept-bridge" id="concept-public-space"><h3>Јавни простор као спој / <span lang="en-GB">Public Space as a Bridge</span></h3><p><strong>Јавни простор</strong> повезује материјалну и симболичку страну локалне модерности. Улица, трг и архитектура истовремено су резултат урбане трансформације и места на којима се производе политичка значења, колективно памћење и локални идентитет.</p></div>
+<div class="concept-branch" id="concept-sport-urban-identity"><h3>Спорт и урбани идентитет / <span lang="en-GB">Sport and Urban Identity</span></h3><p>Спорт представља посебну грану локалног идентитета у којој се клубови, публика, локални хероји, симболички капитал, колективно памћење и градски простор повезују у производњи представе о граду.</p></div>
+<div class="concept-paths"><h3>Главне аналитичке путање / <span lang="en-GB">Main Analytical Paths</span></h3><ul><li><strong>Индустријализација → урбана трансформација → свакодневни живот</strong></li><li><strong>Локално деловање → локална политичка моћ → модернизација</strong></li><li><strong>Јавни простор → симболичка моћ → колективно памћење</strong></li><li><strong>Политичка репрезентација → симболичка моћ → легитимитет</strong></li><li><strong>Спорт → локални идентитет → колективно памћење → град</strong></li></ul></div>
+<div class="note"><p><strong>Методолошка напомена:</strong> <code>studiesConcept</code> означава да публикација непосредно проучава одређени аналитички проблем. <code>broaderConcept</code> означава хијерархијски однос, а <code>relatedConcept</code> нехиерархијску концептуалну везу. Ови односи не означавају библиографско цитирање.</p></div>
+</section><section aria-labelledby="comparative-context-title" class="content-section" id="comparative-context">
 <details class="cluster-details">
 <summary>Компаративни и историографски контекст / <span lang="en-GB">Comparative and Historiographical Context</span></summary>
 <div class="details-body">
@@ -2114,9 +2263,9 @@ aspects of local modernity they address.
 <p class="external-id"><a href="https://doi.org/10.1002/9780470712733" rel="external">Persistent identifier / record</a></p>
 </article>
 </div>
-<h3>Локална власт, симболички простор и памћење / Local Power, Symbolic Space and Memory</h3><div class="comparative-grid"><article class="comparative-card"><h3>Igor Duda; Ana Kladnik — Socialist Democracy in Yugoslav Municipalities and Local Communities, 1970s and 1980s (2026)</h3><p><span class="relation-badge">broaderContext</span> <span class="relation-badge">Yugoslav municipality</span> <span class="relation-badge">decentralization</span> <span class="relation-badge">self-management</span> <span class="relation-badge">local political participation</span> <span class="relation-badge">municipal power</span></p><p class="external-id"><a href="https://doi.org/10.1007/978-3-032-07773-8_9" rel="external">https://doi.org/10.1007/978-3-032-07773-8_9</a></p></article><article class="comparative-card"><h3>Marco Abram — Building the Capital City of the Peoples of Yugoslavia: Representations of Socialist Yugoslavism in Belgrade’s Public Space 1944–1961 (2014)</h3><p><span class="relation-badge">conceptuallyRelatedTo</span> <span class="relation-badge">public space</span> <span class="relation-badge">identity politics</span> <span class="relation-badge">monuments</span> <span class="relation-badge">street names</span> <span class="relation-badge">public celebrations</span> <span class="relation-badge">socialist Yugoslavism</span></p><p class="external-id"><a href="https://hrcak.srce.hr/138556" rel="external">https://hrcak.srce.hr/138556</a></p></article><article class="comparative-card"><h3>Bojana B. Bogdanović — Symbolic (Re)construction of Titovo Užice between 1991 and 1994 (2020)</h3><p><span class="relation-badge">comparativeCaseWith</span> <span class="relation-badge">urban public space</span> <span class="relation-badge">symbolic reconstruction</span> <span class="relation-badge">street names</span> <span class="relation-badge">monuments</span> <span class="relation-badge">memory politics</span> <span class="relation-badge">Užice</span></p><p class="external-id"><a href="https://doi.org/10.2298/GEI2001075B" rel="external">https://doi.org/10.2298/GEI2001075B</a></p></article><article class="comparative-card"><h3>Srđan Radović — (Od)onomastics of Ljubljana and Belgrade – Indicator of Serbian-Slovenian Ties in Recent Past (2016)</h3><p><span class="relation-badge">conceptuallyRelatedTo</span> <span class="relation-badge">street names</span> <span class="relation-badge">urban symbols</span> <span class="relation-badge">identity politics</span> <span class="relation-badge">memory politics</span> <span class="relation-badge">odonomastic landscape</span></p><p class="external-id"><a href="https://doi.org/10.2298/GEI1601033R" rel="external">https://doi.org/10.2298/GEI1601033R</a></p></article><article class="comparative-card"><h3>Christine Lavrence — “The Serbian Bastille”: Memory, Agency, and Monumental Public Space in Belgrade (2005)</h3><p><span class="relation-badge">conceptuallyRelatedTo</span> <span class="relation-badge">monumental public space</span> <span class="relation-badge">memory</span> <span class="relation-badge">political agency</span> <span class="relation-badge">central square</span> <span class="relation-badge">symbolic appropriation</span></p><p class="external-id"><a href="https://doi.org/10.1177/1206331204272256" rel="external">https://doi.org/10.1177/1206331204272256</a></p></article></div><h3>Спорт, град и локални идентитет / Sport, City and Local Identity</h3><div class="comparative-grid"><article class="comparative-card"><h3>Anamarija Marošević; Marko Perić — The Potential of Sports Heritage for Tourism – A Case Study of the City of Zadar (2025)</h3><p><span class="relation-badge">comparativeCaseWith</span> <span class="relation-badge">basketball city</span> <span class="relation-badge">sports heritage</span> <span class="relation-badge">local identity</span> <span class="relation-badge">urban representation</span> <span class="relation-badge">Zadar</span></p><p class="external-id"><a href="https://doi.org/10.20867/tosee.08.8" rel="external">https://doi.org/10.20867/tosee.08.8</a></p></article><article class="comparative-card"><h3>Ozren Biti — Nogometaš kao simbolički kapital grada (2007)</h3><p><span class="relation-badge">conceptuallyRelatedTo</span> <span class="relation-badge">symbolic capital</span> <span class="relation-badge">sport</span> <span class="relation-badge">urban identity</span> <span class="relation-badge">popular culture</span> <span class="relation-badge">city representation</span></p><p class="external-id"><a href="https://www.croris.hr/crosbi/publikacija/prilog-knjiga/34659" rel="external">https://www.croris.hr/crosbi/publikacija/prilog-knjiga/34659</a></p></article><article class="comparative-card"><h3>Radosław Kossakowski — Proud to Be Tukker. A Football Club and the Building of Local Identity: The Case of FC Twente Enschede (2013)</h3><p><span class="relation-badge">comparativeCaseWith</span> <span class="relation-badge">local sports club</span> <span class="relation-badge">city and region</span> <span class="relation-badge">local identity</span> <span class="relation-badge">community belonging</span> <span class="relation-badge">globalization</span></p><p class="external-id"><a href="https://www.ceeol.com/search/article-detail?id=18022" rel="external">https://www.ceeol.com/search/article-detail?id=18022</a></p></article></div><h3>Везе на нивоу појединачних публикација / <span lang="en-GB">Publication-level Crosswalk</span></h3>
+<article class="external-work" id="external-vucetic-2017"><h3>Radina Vučetić — Tito’s Africa: Representation of Power during Tito’s African Journeys (2017)</h3><p class="relation-tags"><code>comparativeCaseWith</code> official photography · representation of political power · visual protocol · public image · socialist Yugoslavia</p><p>Посебно важна компаративна студија за анализу службене фотографије као средства производње јавне слике политичке власти у социјалистичкој Југославији.</p><p lang="en-GB">A particularly relevant comparative study for examining official photography as a medium for producing the public image of political power in socialist Yugoslavia.</p><p><a href="https://www.muzej-jugoslavije.org/wp-content/uploads/2020/09/Tito-in-Africa.pdf" rel="noopener noreferrer">Publication PDF / Museum of Yugoslavia</a></p></article><h3>Локална власт, симболички простор и памћење / Local Power, Symbolic Space and Memory</h3><div class="comparative-grid"><article class="comparative-card"><h3>Igor Duda; Ana Kladnik — Socialist Democracy in Yugoslav Municipalities and Local Communities, 1970s and 1980s (2026)</h3><p><span class="relation-badge">broaderContext</span> <span class="relation-badge">Yugoslav municipality</span> <span class="relation-badge">decentralization</span> <span class="relation-badge">self-management</span> <span class="relation-badge">local political participation</span> <span class="relation-badge">municipal power</span></p><p class="external-id"><a href="https://doi.org/10.1007/978-3-032-07773-8_9" rel="external">https://doi.org/10.1007/978-3-032-07773-8_9</a></p></article><article class="comparative-card"><h3>Marco Abram — Building the Capital City of the Peoples of Yugoslavia: Representations of Socialist Yugoslavism in Belgrade’s Public Space 1944–1961 (2014)</h3><p><span class="relation-badge">conceptuallyRelatedTo</span> <span class="relation-badge">public space</span> <span class="relation-badge">identity politics</span> <span class="relation-badge">monuments</span> <span class="relation-badge">street names</span> <span class="relation-badge">public celebrations</span> <span class="relation-badge">socialist Yugoslavism</span></p><p class="external-id"><a href="https://hrcak.srce.hr/138556" rel="external">https://hrcak.srce.hr/138556</a></p></article><article class="comparative-card"><h3>Bojana B. Bogdanović — Symbolic (Re)construction of Titovo Užice between 1991 and 1994 (2020)</h3><p><span class="relation-badge">comparativeCaseWith</span> <span class="relation-badge">urban public space</span> <span class="relation-badge">symbolic reconstruction</span> <span class="relation-badge">street names</span> <span class="relation-badge">monuments</span> <span class="relation-badge">memory politics</span> <span class="relation-badge">Užice</span></p><p class="external-id"><a href="https://doi.org/10.2298/GEI2001075B" rel="external">https://doi.org/10.2298/GEI2001075B</a></p></article><article class="comparative-card"><h3>Srđan Radović — (Od)onomastics of Ljubljana and Belgrade – Indicator of Serbian-Slovenian Ties in Recent Past (2016)</h3><p><span class="relation-badge">conceptuallyRelatedTo</span> <span class="relation-badge">street names</span> <span class="relation-badge">urban symbols</span> <span class="relation-badge">identity politics</span> <span class="relation-badge">memory politics</span> <span class="relation-badge">odonomastic landscape</span></p><p class="external-id"><a href="https://doi.org/10.2298/GEI1601033R" rel="external">https://doi.org/10.2298/GEI1601033R</a></p></article><article class="comparative-card"><h3>Christine Lavrence — “The Serbian Bastille”: Memory, Agency, and Monumental Public Space in Belgrade (2005)</h3><p><span class="relation-badge">conceptuallyRelatedTo</span> <span class="relation-badge">monumental public space</span> <span class="relation-badge">memory</span> <span class="relation-badge">political agency</span> <span class="relation-badge">central square</span> <span class="relation-badge">symbolic appropriation</span></p><p class="external-id"><a href="https://doi.org/10.1177/1206331204272256" rel="external">https://doi.org/10.1177/1206331204272256</a></p></article></div><h3>Спорт, град и локални идентитет / Sport, City and Local Identity</h3><div class="comparative-grid"><article class="comparative-card"><h3>Anamarija Marošević; Marko Perić — The Potential of Sports Heritage for Tourism – A Case Study of the City of Zadar (2025)</h3><p><span class="relation-badge">comparativeCaseWith</span> <span class="relation-badge">basketball city</span> <span class="relation-badge">sports heritage</span> <span class="relation-badge">local identity</span> <span class="relation-badge">urban representation</span> <span class="relation-badge">Zadar</span></p><p class="external-id"><a href="https://doi.org/10.20867/tosee.08.8" rel="external">https://doi.org/10.20867/tosee.08.8</a></p></article><article class="comparative-card"><h3>Ozren Biti — Nogometaš kao simbolički kapital grada (2007)</h3><p><span class="relation-badge">conceptuallyRelatedTo</span> <span class="relation-badge">symbolic capital</span> <span class="relation-badge">sport</span> <span class="relation-badge">urban identity</span> <span class="relation-badge">popular culture</span> <span class="relation-badge">city representation</span></p><p class="external-id"><a href="https://www.croris.hr/crosbi/publikacija/prilog-knjiga/34659" rel="external">https://www.croris.hr/crosbi/publikacija/prilog-knjiga/34659</a></p></article><article class="comparative-card"><h3>Radosław Kossakowski — Proud to Be Tukker. A Football Club and the Building of Local Identity: The Case of FC Twente Enschede (2013)</h3><p><span class="relation-badge">comparativeCaseWith</span> <span class="relation-badge">local sports club</span> <span class="relation-badge">city and region</span> <span class="relation-badge">local identity</span> <span class="relation-badge">community belonging</span> <span class="relation-badge">globalization</span></p><p class="external-id"><a href="https://www.ceeol.com/search/article-detail?id=18022" rel="external">https://www.ceeol.com/search/article-detail?id=18022</a></p></article></div><h3>Везе на нивоу појединачних публикација / <span lang="en-GB">Publication-level Crosswalk</span></h3>
 <p>Ова табела повезује конкретне радове из чачанског кластера са спољним студијама према заједничком истраживачком проблему. Веза не означава цитирање осим ако је тип релације <code>cites</code> или <code>citedBy</code>.</p>
-<div class="table-wrap"><table><thead><tr><th>Рад из чачанског кластера / Cluster work</th><th>Спољни рад / External work</th><th>Однос / Relation</th><th>Основа / Basis</th></tr></thead><tbody><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.1177/0096144219857681" rel="external">Pieter Troch — Of Private and Social in Socialist Cities</a></td><td><code>comparativeCaseWith</code></td><td>medium-sized socialist city; local decision-making; housing; urban modernity</td></tr><tr><td><a href="/articles/prvi-gradjanin-male-varosi.html">„Први грађанин мале вароши”: значај председника општине у локалној елити власти током социјализма – пример Чачка</a></td><td><a href="https://doi.org/10.1177/0096144219857681" rel="external">Pieter Troch — Of Private and Social in Socialist Cities</a></td><td><code>conceptuallyRelatedTo</code></td><td>local agency; municipal decision-making; socialist governance</td></tr><tr><td><a href="/book-chapters/grad-u-unutrasnjosti.html">Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</a></td><td><a href="https://doi.org/10.1177/0096144219857681" rel="external">Pieter Troch — Of Private and Social in Socialist Cities</a></td><td><code>conceptuallyRelatedTo</code></td><td>private/public boundaries; housing; everyday urban life</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://hdl.handle.net/1854/LU-8674645" rel="external">Pieter Troch — Socialist Urban Development in Kosovska Mitrovica</a></td><td><code>comparativeCaseWith</code></td><td>medium-sized industrial city; Yugoslav periphery; municipality; urban transformation</td></tr><tr><td><a href="/articles/industrijalizacija-cacka-1944-1956.html">Индустријализација Чачка 1944–1956</a></td><td><a href="https://hdl.handle.net/1854/LU-8674645" rel="external">Pieter Troch — Socialist Urban Development in Kosovska Mitrovica</a></td><td><code>comparativeCaseWith</code></td><td>industrialization; industrial employment; urban growth</td></tr><tr><td><a href="/conference-papers/osnivanje-rad-preduzeca-sloboda-cacak-1948-1958.html">Оснивање и рад предузећа „Слобода – Чачак” 1948–1958.</a></td><td><a href="https://hdl.handle.net/1854/LU-8674645" rel="external">Pieter Troch — Socialist Urban Development in Kosovska Mitrovica</a></td><td><code>conceptuallyRelatedTo</code></td><td>large enterprise; industrialization; local urban development</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.2307/j.ctv2ckjq2g" rel="external">Veronica E. Aplenc — Imagining Slovene Socialist Modernity</a></td><td><code>comparativeCaseWith</code></td><td>Yugoslav socialist modernity; local scale; urban transformation</td></tr><tr><td><a href="/book-chapters/grad-u-unutrasnjosti.html">Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</a></td><td><a href="https://doi.org/10.2307/j.ctv2ckjq2g" rel="external">Veronica E. Aplenc — Imagining Slovene Socialist Modernity</a></td><td><code>conceptuallyRelatedTo</code></td><td>everyday built environment; housing; private/public space</td></tr><tr><td><a href="/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</a></td><td><a href="https://doi.org/10.2307/j.ctv2ckjq2g" rel="external">Veronica E. Aplenc — Imagining Slovene Socialist Modernity</a></td><td><code>conceptuallyRelatedTo</code></td><td>inherited urban fabric; modernist intervention; local identity</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://www.upjs.sk/app/uploads/sites/7/2022/09/MaD_2_2018_Jerliu_Navakazi.pdf" rel="external">Florina Jerliu; Vlora Navakazi — The Socialist Modernization of Prishtina</a></td><td><code>comparativeCaseWith</code></td><td>socialist modernization; Yugoslav city; local specificity</td></tr><tr><td><a href="/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</a></td><td><a href="https://www.upjs.sk/app/uploads/sites/7/2022/09/MaD_2_2018_Jerliu_Navakazi.pdf" rel="external">Florina Jerliu; Vlora Navakazi — The Socialist Modernization of Prishtina</a></td><td><code>comparativeCaseWith</code></td><td>modernist urbanism; architectural transformation; urban identity</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.2752/175174210X12663437526214" rel="external">Dobrinka Parusheva; Iliyana Marcheva — Housing in Socialist Bulgaria: Appropriating Tradition</a></td><td><code>broaderContext</code></td><td>Bulgaria; socialist modernization; housing; state/private relations</td></tr><tr><td><a href="/book-chapters/grad-u-unutrasnjosti.html">Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</a></td><td><a href="https://doi.org/10.2752/175174210X12663437526214" rel="external">Dobrinka Parusheva; Iliyana Marcheva — Housing in Socialist Bulgaria: Appropriating Tradition</a></td><td><code>conceptuallyRelatedTo</code></td><td>housing; private aspirations; regulated consumption</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.2307/j.ctt7zwb9j" rel="external">Brigitte Le Normand — Designing Tito’s Capital</a></td><td><code>broaderContext</code></td><td>Yugoslav urban planning; modernism; socialism</td></tr><tr><td><a href="/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</a></td><td><a href="https://doi.org/10.2307/j.ctt7zwb9j" rel="external">Brigitte Le Normand — Designing Tito’s Capital</a></td><td><code>broaderContext</code></td><td>city center; planning; modernist architecture</td></tr><tr><td><a href="/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</a></td><td><a href="https://doi.org/10.2298/SPAT1534001A" rel="external">Đorđe Alfirević; Sanja Simonović Alfirević — Urban Housing Experiments in Yugoslavia 1948–1970</a></td><td><code>conceptuallyRelatedTo</code></td><td>mass housing; urbanization; architectural experimentation</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.2298/SPAT1534001A" rel="external">Đorđe Alfirević; Sanja Simonović Alfirević — Urban Housing Experiments in Yugoslavia 1948–1970</a></td><td><code>broaderContext</code></td><td>post-war migration; mass housing; Yugoslav urbanization</td></tr><tr><td><a href="/book-chapters/grad-u-unutrasnjosti.html">Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</a></td><td><a href="https://doi.org/10.2298/SPAT1840008A" rel="external">Đorđe Alfirević; Sanja Simonović Alfirević — The ‘Socialist Apartment’ in Yugoslavia: Paradigm or Tendency?</a></td><td><code>conceptuallyRelatedTo</code></td><td>socialist apartment; everyday life; housing policy</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.1002/9780470712733.ch4" rel="external">György Enyedi — Urbanization Under Socialism</a></td><td><code>theoreticalContext</code></td><td>socialist urbanization; late development; urban development strategies</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.1002/9780470712733.ch3" rel="external">David M. Smith — The Socialist City</a></td><td><code>theoreticalContext</code></td><td>socialist city; spatial organization; socio-economic differentiation</td></tr><tr><td><a href="/articles/industrijalizacija-cacka-1944-1956.html">Индустријализација Чачка 1944–1956</a></td><td><a href="https://doi.org/10.12838/fam/issn2039-0491/n62-63-2022/939" rel="external">Federica Pompejano — The Urbanization of the Countryside in Socialist Albania</a></td><td><code>conceptuallyRelatedTo</code></td><td>industrialization; urban-rural transformation; Balkan socialism</td></tr><tr><td><a href="/conference-papers/elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura.html">Електрификација Србије после 1945. и подизање хидроелектрана у Овчарско-кабларској клисури</a></td><td><a href="https://doi.org/10.12838/fam/issn2039-0491/n62-63-2022/939" rel="external">Federica Pompejano — The Urbanization of the Countryside in Socialist Albania</a></td><td><code>comparativeCaseWith</code></td><td>electrification as modernization; socialist transformation of territory; urban-rural relations</td></tr><tr><td><a href="/articles/prvi-gradjanin-male-varosi.html">„Први грађанин мале вароши”: значај председника општине у локалној елити власти током социјализма – пример Чачка</a></td><td><a href="https://doi.org/10.1007/978-3-032-07773-8_9" rel="external">Igor Duda; Ana Kladnik — Socialist Democracy in Yugoslav Municipalities and Local Communities, 1970s and 1980s</a></td><td><code>broaderContext</code></td><td>Yugoslav municipality; decentralization; self-management; local political participation; municipal power</td></tr><tr><td><a href="/articles/nazivi-ulica-cacka-1893-1992.html">Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета</a></td><td><a href="https://hrcak.srce.hr/138556" rel="external">Marco Abram — Building the Capital City of the Peoples of Yugoslavia: Representations of Socialist Yugoslavism in Belgrade’s Public Space 1944–1961</a></td><td><code>conceptuallyRelatedTo</code></td><td>street names; identity politics; symbolic appropriation of urban space</td></tr><tr><td><a href="/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html">„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955</a></td><td><a href="https://hrcak.srce.hr/138556" rel="external">Marco Abram — Building the Capital City of the Peoples of Yugoslavia: Representations of Socialist Yugoslavism in Belgrade’s Public Space 1944–1961</a></td><td><code>conceptuallyRelatedTo</code></td><td>monuments; commemorative space; political representation; socialist public space</td></tr><tr><td><a href="/catalogues/cacak-u-doba-socijalizma.html">Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи</a></td><td><a href="https://hrcak.srce.hr/138556" rel="external">Marco Abram — Building the Capital City of the Peoples of Yugoslavia: Representations of Socialist Yugoslavism in Belgrade’s Public Space 1944–1961</a></td><td><code>conceptuallyRelatedTo</code></td><td>political representation; public celebrations; socialist Yugoslavism; urban public space</td></tr><tr><td><a href="/articles/nazivi-ulica-cacka-1893-1992.html">Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета</a></td><td><a href="https://doi.org/10.2298/GEI2001075B" rel="external">Bojana B. Bogdanović — Symbolic (Re)construction of Titovo Užice between 1991 and 1994</a></td><td><code>comparativeCaseWith</code></td><td>Western Serbian city; street and square renaming; symbolic urban landscape; memory politics</td></tr><tr><td><a href="/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html">„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955</a></td><td><a href="https://doi.org/10.2298/GEI2001075B" rel="external">Bojana B. Bogdanović — Symbolic (Re)construction of Titovo Užice between 1991 and 1994</a></td><td><code>conceptuallyRelatedTo</code></td><td>monument; central public space; symbolic reconstruction; political memory</td></tr><tr><td><a href="/articles/nazivi-ulica-cacka-1893-1992.html">Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета</a></td><td><a href="https://doi.org/10.2298/GEI1601033R" rel="external">Srđan Radović — (Od)onomastics of Ljubljana and Belgrade – Indicator of Serbian-Slovenian Ties in Recent Past</a></td><td><code>conceptuallyRelatedTo</code></td><td>street names; urban symbols; identity politics; memory politics</td></tr><tr><td><a href="/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html">„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955</a></td><td><a href="https://doi.org/10.1177/1206331204272256" rel="external">Christine Lavrence — “The Serbian Bastille”: Memory, Agency, and Monumental Public Space in Belgrade</a></td><td><code>conceptuallyRelatedTo</code></td><td>monumental public space; memory; political agency; central square; symbolic appropriation</td></tr><tr><td><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Како је Чачак постао град кошарке (1945–1969): спорт и идентитет</a></td><td><a href="https://doi.org/10.20867/tosee.08.8" rel="external">Anamarija Marošević; Marko Perić — The Potential of Sports Heritage for Tourism – A Case Study of the City of Zadar</a></td><td><code>comparativeCaseWith</code></td><td>basketball city; sports heritage; local identity; urban representation</td></tr><tr><td><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Како је Чачак постао град кошарке (1945–1969): спорт и идентитет</a></td><td><a href="https://www.croris.hr/crosbi/publikacija/prilog-knjiga/34659" rel="external">Ozren Biti — Nogometaš kao simbolički kapital grada</a></td><td><code>conceptuallyRelatedTo</code></td><td>symbolic capital; sport; urban identity; popular culture; city representation</td></tr><tr><td><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Како је Чачак постао град кошарке (1945–1969): спорт и идентитет</a></td><td><a href="https://www.ceeol.com/search/article-detail?id=18022" rel="external">Radosław Kossakowski — Proud to Be Tukker. A Football Club and the Building of Local Identity: The Case of FC Twente Enschede</a></td><td><code>comparativeCaseWith</code></td><td>local sports club; city and region; local identity; community belonging</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Рад из чачанског кластера / Cluster work</th><th>Спољни рад / External work</th><th>Однос / Relation</th><th>Основа / Basis</th></tr></thead><tbody><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.1177/0096144219857681" rel="external">Pieter Troch — Of Private and Social in Socialist Cities</a></td><td><code>comparativeCaseWith</code></td><td>medium-sized socialist city; local decision-making; housing; urban modernity</td></tr><tr><td><a href="/articles/prvi-gradjanin-male-varosi.html">„Први грађанин мале вароши”: значај председника општине у локалној елити власти током социјализма – пример Чачка</a></td><td><a href="https://doi.org/10.1177/0096144219857681" rel="external">Pieter Troch — Of Private and Social in Socialist Cities</a></td><td><code>conceptuallyRelatedTo</code></td><td>local agency; municipal decision-making; socialist governance</td></tr><tr><td><a href="/book-chapters/grad-u-unutrasnjosti.html">Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</a></td><td><a href="https://doi.org/10.1177/0096144219857681" rel="external">Pieter Troch — Of Private and Social in Socialist Cities</a></td><td><code>conceptuallyRelatedTo</code></td><td>private/public boundaries; housing; everyday urban life</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://hdl.handle.net/1854/LU-8674645" rel="external">Pieter Troch — Socialist Urban Development in Kosovska Mitrovica</a></td><td><code>comparativeCaseWith</code></td><td>medium-sized industrial city; Yugoslav periphery; municipality; urban transformation</td></tr><tr><td><a href="/articles/industrijalizacija-cacka-1944-1956.html">Индустријализација Чачка 1944–1956</a></td><td><a href="https://hdl.handle.net/1854/LU-8674645" rel="external">Pieter Troch — Socialist Urban Development in Kosovska Mitrovica</a></td><td><code>comparativeCaseWith</code></td><td>industrialization; industrial employment; urban growth</td></tr><tr><td><a href="/conference-papers/osnivanje-rad-preduzeca-sloboda-cacak-1948-1958.html">Оснивање и рад предузећа „Слобода – Чачак” 1948–1958.</a></td><td><a href="https://hdl.handle.net/1854/LU-8674645" rel="external">Pieter Troch — Socialist Urban Development in Kosovska Mitrovica</a></td><td><code>conceptuallyRelatedTo</code></td><td>large enterprise; industrialization; local urban development</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.2307/j.ctv2ckjq2g" rel="external">Veronica E. Aplenc — Imagining Slovene Socialist Modernity</a></td><td><code>comparativeCaseWith</code></td><td>Yugoslav socialist modernity; local scale; urban transformation</td></tr><tr><td><a href="/book-chapters/grad-u-unutrasnjosti.html">Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</a></td><td><a href="https://doi.org/10.2307/j.ctv2ckjq2g" rel="external">Veronica E. Aplenc — Imagining Slovene Socialist Modernity</a></td><td><code>conceptuallyRelatedTo</code></td><td>everyday built environment; housing; private/public space</td></tr><tr><td><a href="/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</a></td><td><a href="https://doi.org/10.2307/j.ctv2ckjq2g" rel="external">Veronica E. Aplenc — Imagining Slovene Socialist Modernity</a></td><td><code>conceptuallyRelatedTo</code></td><td>inherited urban fabric; modernist intervention; local identity</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://www.upjs.sk/app/uploads/sites/7/2022/09/MaD_2_2018_Jerliu_Navakazi.pdf" rel="external">Florina Jerliu; Vlora Navakazi — The Socialist Modernization of Prishtina</a></td><td><code>comparativeCaseWith</code></td><td>socialist modernization; Yugoslav city; local specificity</td></tr><tr><td><a href="/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</a></td><td><a href="https://www.upjs.sk/app/uploads/sites/7/2022/09/MaD_2_2018_Jerliu_Navakazi.pdf" rel="external">Florina Jerliu; Vlora Navakazi — The Socialist Modernization of Prishtina</a></td><td><code>comparativeCaseWith</code></td><td>modernist urbanism; architectural transformation; urban identity</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.2752/175174210X12663437526214" rel="external">Dobrinka Parusheva; Iliyana Marcheva — Housing in Socialist Bulgaria: Appropriating Tradition</a></td><td><code>broaderContext</code></td><td>Bulgaria; socialist modernization; housing; state/private relations</td></tr><tr><td><a href="/book-chapters/grad-u-unutrasnjosti.html">Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</a></td><td><a href="https://doi.org/10.2752/175174210X12663437526214" rel="external">Dobrinka Parusheva; Iliyana Marcheva — Housing in Socialist Bulgaria: Appropriating Tradition</a></td><td><code>conceptuallyRelatedTo</code></td><td>housing; private aspirations; regulated consumption</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.2307/j.ctt7zwb9j" rel="external">Brigitte Le Normand — Designing Tito’s Capital</a></td><td><code>broaderContext</code></td><td>Yugoslav urban planning; modernism; socialism</td></tr><tr><td><a href="/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</a></td><td><a href="https://doi.org/10.2307/j.ctt7zwb9j" rel="external">Brigitte Le Normand — Designing Tito’s Capital</a></td><td><code>broaderContext</code></td><td>city center; planning; modernist architecture</td></tr><tr><td><a href="/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Градски центар и архитектонско наслеђе социјализма: случај Чачка (1944–1990)</a></td><td><a href="https://doi.org/10.2298/SPAT1534001A" rel="external">Đorđe Alfirević; Sanja Simonović Alfirević — Urban Housing Experiments in Yugoslavia 1948–1970</a></td><td><code>conceptuallyRelatedTo</code></td><td>mass housing; urbanization; architectural experimentation</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.2298/SPAT1534001A" rel="external">Đorđe Alfirević; Sanja Simonović Alfirević — Urban Housing Experiments in Yugoslavia 1948–1970</a></td><td><code>broaderContext</code></td><td>post-war migration; mass housing; Yugoslav urbanization</td></tr><tr><td><a href="/book-chapters/grad-u-unutrasnjosti.html">Град у унутрашњости: облици, простори и границе приватног и јавног у 20. веку</a></td><td><a href="https://doi.org/10.2298/SPAT1840008A" rel="external">Đorđe Alfirević; Sanja Simonović Alfirević — The ‘Socialist Apartment’ in Yugoslavia: Paradigm or Tendency?</a></td><td><code>conceptuallyRelatedTo</code></td><td>socialist apartment; everyday life; housing policy</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.1002/9780470712733.ch4" rel="external">György Enyedi — Urbanization Under Socialism</a></td><td><code>theoreticalContext</code></td><td>socialist urbanization; late development; urban development strategies</td></tr><tr><td><a href="/books/modernizacija-balkanskog-grada.html">Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма</a></td><td><a href="https://doi.org/10.1002/9780470712733.ch3" rel="external">David M. Smith — The Socialist City</a></td><td><code>theoreticalContext</code></td><td>socialist city; spatial organization; socio-economic differentiation</td></tr><tr><td><a href="/articles/industrijalizacija-cacka-1944-1956.html">Индустријализација Чачка 1944–1956</a></td><td><a href="https://doi.org/10.12838/fam/issn2039-0491/n62-63-2022/939" rel="external">Federica Pompejano — The Urbanization of the Countryside in Socialist Albania</a></td><td><code>conceptuallyRelatedTo</code></td><td>industrialization; urban-rural transformation; Balkan socialism</td></tr><tr><td><a href="/conference-papers/elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura.html">Електрификација Србије после 1945. и подизање хидроелектрана у Овчарско-кабларској клисури</a></td><td><a href="https://doi.org/10.12838/fam/issn2039-0491/n62-63-2022/939" rel="external">Federica Pompejano — The Urbanization of the Countryside in Socialist Albania</a></td><td><code>comparativeCaseWith</code></td><td>electrification as modernization; socialist transformation of territory; urban-rural relations</td></tr><tr><td><a href="/articles/prvi-gradjanin-male-varosi.html">„Први грађанин мале вароши”: значај председника општине у локалној елити власти током социјализма – пример Чачка</a></td><td><a href="https://doi.org/10.1007/978-3-032-07773-8_9" rel="external">Igor Duda; Ana Kladnik — Socialist Democracy in Yugoslav Municipalities and Local Communities, 1970s and 1980s</a></td><td><code>broaderContext</code></td><td>Yugoslav municipality; decentralization; self-management; local political participation; municipal power</td></tr><tr><td><a href="/articles/nazivi-ulica-cacka-1893-1992.html">Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета</a></td><td><a href="https://hrcak.srce.hr/138556" rel="external">Marco Abram — Building the Capital City of the Peoples of Yugoslavia: Representations of Socialist Yugoslavism in Belgrade’s Public Space 1944–1961</a></td><td><code>conceptuallyRelatedTo</code></td><td>street names; identity politics; symbolic appropriation of urban space</td></tr><tr><td><a href="/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html">„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955</a></td><td><a href="https://hrcak.srce.hr/138556" rel="external">Marco Abram — Building the Capital City of the Peoples of Yugoslavia: Representations of Socialist Yugoslavism in Belgrade’s Public Space 1944–1961</a></td><td><code>conceptuallyRelatedTo</code></td><td>monuments; commemorative space; political representation; socialist public space</td></tr><tr><td><a href="/catalogues/cacak-u-doba-socijalizma.html">Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи</a></td><td><a href="https://hrcak.srce.hr/138556" rel="external">Marco Abram — Building the Capital City of the Peoples of Yugoslavia: Representations of Socialist Yugoslavism in Belgrade’s Public Space 1944–1961</a></td><td><code>conceptuallyRelatedTo</code></td><td>political representation; public celebrations; socialist Yugoslavism; urban public space</td></tr><tr><td><a href="/articles/nazivi-ulica-cacka-1893-1992.html">Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета</a></td><td><a href="https://doi.org/10.2298/GEI2001075B" rel="external">Bojana B. Bogdanović — Symbolic (Re)construction of Titovo Užice between 1991 and 1994</a></td><td><code>comparativeCaseWith</code></td><td>Western Serbian city; street and square renaming; symbolic urban landscape; memory politics</td></tr><tr><td><a href="/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html">„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955</a></td><td><a href="https://doi.org/10.2298/GEI2001075B" rel="external">Bojana B. Bogdanović — Symbolic (Re)construction of Titovo Užice between 1991 and 1994</a></td><td><code>conceptuallyRelatedTo</code></td><td>monument; central public space; symbolic reconstruction; political memory</td></tr><tr><td><a href="/articles/nazivi-ulica-cacka-1893-1992.html">Називи улица у Чачку, 1893–1992: један век изграђивања колективног идентитета</a></td><td><a href="https://doi.org/10.2298/GEI1601033R" rel="external">Srđan Radović — (Od)onomastics of Ljubljana and Belgrade – Indicator of Serbian-Slovenian Ties in Recent Past</a></td><td><code>conceptuallyRelatedTo</code></td><td>street names; urban symbols; identity politics; memory politics</td></tr><tr><td><a href="/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html">„Иако телесно ви нисте живи, ви зрачите на нас као жива бића”: подизање спомен-костурнице и обликовање централног трга у Чачку, 1945–1955</a></td><td><a href="https://doi.org/10.1177/1206331204272256" rel="external">Christine Lavrence — “The Serbian Bastille”: Memory, Agency, and Monumental Public Space in Belgrade</a></td><td><code>conceptuallyRelatedTo</code></td><td>monumental public space; memory; political agency; central square; symbolic appropriation</td></tr><tr><td><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Како је Чачак постао град кошарке (1945–1969): спорт и идентитет</a></td><td><a href="https://doi.org/10.20867/tosee.08.8" rel="external">Anamarija Marošević; Marko Perić — The Potential of Sports Heritage for Tourism – A Case Study of the City of Zadar</a></td><td><code>comparativeCaseWith</code></td><td>basketball city; sports heritage; local identity; urban representation</td></tr><tr><td><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Како је Чачак постао град кошарке (1945–1969): спорт и идентитет</a></td><td><a href="https://www.croris.hr/crosbi/publikacija/prilog-knjiga/34659" rel="external">Ozren Biti — Nogometaš kao simbolički kapital grada</a></td><td><code>conceptuallyRelatedTo</code></td><td>symbolic capital; sport; urban identity; popular culture; city representation</td></tr><tr><td><a href="/books/kako-je-cacak-postao-grad-kosarke.html">Како је Чачак постао град кошарке (1945–1969): спорт и идентитет</a></td><td><a href="https://www.ceeol.com/search/article-detail?id=18022" rel="external">Radosław Kossakowski — Proud to Be Tukker. A Football Club and the Building of Local Identity: The Case of FC Twente Enschede</a></td><td><code>comparativeCaseWith</code></td><td>local sports club; city and region; local identity; community belonging</td></tr><tr><td><a href="/catalogues/cacak-u-doba-socijalizma.html">Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи</a></td><td><a href="https://www.muzej-jugoslavije.org/wp-content/uploads/2020/09/Tito-in-Africa.pdf">Radina Vučetić — Tito’s Africa: Representation of Power during Tito’s African Journeys</a></td><td><code>comparativeCaseWith</code></td><td>official photography; representation of political power; visual protocol; public image; socialist Yugoslavia</td></tr></tbody></table></div>
 <div class="note"><p><strong>Методолошка напомена:</strong> <code>comparativeCaseWith</code>, <code>conceptuallyRelatedTo</code>, <code>broaderContext</code> и <code>theoreticalContext</code> су аналитичке везе овог графа. Само <code>cites</code> и <code>citedBy</code> смеју се користити за проверене библиографске цитате.</p></div>
 </div>
 </details>
@@ -2414,14 +2563,14 @@ local forms.
 локална модерност; Чачак; западна Србија; студија случаја; урбана трансформација;
 социјалистичка модернизација; локална власт; јавни простор; свакодневица;
 индустријализација; социјална структура; спорт; култура сећања;
-меморијални простор; називи улица; локални идентитет; симболичка моћелектрификација;
+меморијални простор; називи улица; локални идентитет; симболичка моћ; електрификација;
 хидроелектране; енергетска инфраструктура; војна индустрија; планска привреда;
 </p>
 <p class="keywords" lang="en-GB">
 local modernity; Čačak; western Serbia; case study; urban transformation;
 socialist modernization; local government; public space; everyday life;
 industrialization; social structure; sport; memory culture; memorial space;
-street names; local identity; symbolic powerelectrification; hydroelectric power plants;
+street names; local identity; symbolic power; electrification; hydroelectric power plants;
 energy infrastructure; military industry; planned economy;
 </p>
 </section>
@@ -2441,8 +2590,7 @@ https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-moderni
 <section class="content-section" id="method-note"><h2>Метод повезивања / <span lang="en-GB">Linking Method</span></h2><p>Метод повезивања публикација, тема, истраживачких целина и дигиталних идентификатора описан је на страници <a href="/knowledge-graph/method.html">Метод / Method</a>.</p></section>
 <nav aria-label="Сродне странице / Related pages" class="site-links"><p><a href="/">Главна страна / Main Page</a> · <a href="/knowledge-graph/">Граф знања / Knowledge Graph</a> · <a href="/knowledge-graph/research/local-modernity-symbolic-power.html">Кровни оквир / Main Framework</a> · <a href="/bibliography/">Библиографија / Bibliography</a> · <a href="/data/">Подаци / Data</a> · <a href="#top">На врх / Back to top</a></p></nav>
 </main><footer><p>Последње ажурирање / Last updated: 24. септембар 2026 / 24 September 2026.</p></footer>
-<script id="external-scholarly-relations" type="application/json">
-{
+<script id="external-scholarly-relations" type="application/json">{
   "cluster": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster",
   "relation_policy": "Analytical/comparative relations are distinct from documented citation relations.",
   "controlled_relation_types": [
@@ -2451,7 +2599,8 @@ https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-moderni
     "comparativeCaseWith",
     "conceptuallyRelatedTo",
     "broaderContext",
-    "theoreticalContext"
+    "theoreticalContext",
+    "studiesConcept"
   ],
   "external_relations": [
     {
@@ -2723,6 +2872,21 @@ https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-moderni
       "title": "Proud to Be Tukker. A Football Club and the Building of Local Identity: The Case of FC Twente Enschede",
       "author": "Radosław Kossakowski",
       "year": "2013"
+    },
+    {
+      "id": "external-vucetic-2017",
+      "author": "Radina Vučetić",
+      "title": "Tito’s Africa: Representation of Power during Tito’s African Journeys",
+      "year": 2017,
+      "url": "https://www.muzej-jugoslavije.org/wp-content/uploads/2020/09/Tito-in-Africa.pdf",
+      "relation": "comparativeCaseWith",
+      "basis": [
+        "official photography",
+        "representation of political power",
+        "visual protocol",
+        "public image",
+        "socialist Yugoslavia"
+      ]
     }
   ],
   "publication_level_relations": [
@@ -3392,9 +3556,828 @@ https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-moderni
         "community belonging"
       ],
       "evidence_status": "analytical_mapping"
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/catalogues/cacak-u-doba-socijalizma.html",
+      "external": "external-vucetic-2017",
+      "relation": "comparativeCaseWith",
+      "basis": [
+        "official photography",
+        "representation of political power",
+        "visual protocol",
+        "public image",
+        "socialist Yugoslavia"
+      ]
+    }
+  ],
+  "conceptual_relations": [
+    {
+      "source": "#concept-socialist-modernization",
+      "relation": "broaderConcept",
+      "target": "#concept-local-modernity"
+    },
+    {
+      "source": "#concept-local-agency",
+      "relation": "broaderConcept",
+      "target": "#concept-local-modernity"
+    },
+    {
+      "source": "#concept-symbolic-production",
+      "relation": "broaderConcept",
+      "target": "#concept-local-modernity"
+    },
+    {
+      "source": "#concept-urban-transformation",
+      "relation": "broaderConcept",
+      "target": "#concept-socialist-modernization"
+    },
+    {
+      "source": "#concept-industrialization",
+      "relation": "broaderConcept",
+      "target": "#concept-socialist-modernization"
+    },
+    {
+      "source": "#concept-everyday-life",
+      "relation": "broaderConcept",
+      "target": "#concept-socialist-modernization"
+    },
+    {
+      "source": "#concept-local-political-power",
+      "relation": "broaderConcept",
+      "target": "#concept-local-agency"
+    },
+    {
+      "source": "#concept-symbolic-power",
+      "relation": "broaderConcept",
+      "target": "#concept-symbolic-production"
+    },
+    {
+      "source": "#concept-political-representation",
+      "relation": "broaderConcept",
+      "target": "#concept-symbolic-production"
+    },
+    {
+      "source": "#concept-collective-memory",
+      "relation": "broaderConcept",
+      "target": "#concept-symbolic-production"
+    },
+    {
+      "source": "#concept-local-identity",
+      "relation": "broaderConcept",
+      "target": "#concept-symbolic-production"
+    },
+    {
+      "source": "#concept-sport-urban-identity",
+      "relation": "broaderConcept",
+      "target": "#concept-local-identity"
+    },
+    {
+      "source": "#concept-public-space",
+      "relation": "relatedConcept",
+      "target": "#concept-urban-transformation"
+    },
+    {
+      "source": "#concept-public-space",
+      "relation": "relatedConcept",
+      "target": "#concept-symbolic-production"
+    },
+    {
+      "source": "#concept-public-space",
+      "relation": "relatedConcept",
+      "target": "#concept-collective-memory"
+    },
+    {
+      "source": "#concept-public-space",
+      "relation": "relatedConcept",
+      "target": "#concept-local-identity"
+    },
+    {
+      "source": "#concept-symbolic-power",
+      "relation": "relatedConcept",
+      "target": "#concept-political-representation"
+    },
+    {
+      "source": "#concept-symbolic-power",
+      "relation": "relatedConcept",
+      "target": "#concept-collective-memory"
+    },
+    {
+      "source": "#concept-local-identity",
+      "relation": "relatedConcept",
+      "target": "#concept-collective-memory"
+    },
+    {
+      "source": "#concept-sport-urban-identity",
+      "relation": "relatedConcept",
+      "target": "#concept-public-space"
+    },
+    {
+      "source": "#concept-sport-urban-identity",
+      "relation": "relatedConcept",
+      "target": "#concept-collective-memory"
+    }
+  ],
+  "publication_concept_relations": [
+    {
+      "publication": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html",
+      "concepts": [
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-local-agency",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html",
+      "concepts": [
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-public-space",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-symbolic-production",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/book-chapters/grad-u-unutrasnjosti.html",
+      "concepts": [
+        {
+          "target": "#concept-everyday-life",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-public-space",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/catalogues/cacak-u-doba-socijalizma.html",
+      "concepts": [
+        {
+          "target": "#concept-political-representation",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-symbolic-power",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/prvi-gradjanin-male-varosi.html",
+      "concepts": [
+        {
+          "target": "#concept-local-political-power",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-local-agency",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/opstinska-vlast-cacak-izmedju-dva-rata.html",
+      "concepts": [
+        {
+          "target": "#concept-local-political-power",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-local-agency",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/predsednici-opstine-cacak-1944-2010.html",
+      "concepts": [
+        {
+          "target": "#concept-local-political-power",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-local-agency",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-political-representation",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/u-lavirintu-unutrasnjih-granica.html",
+      "concepts": [
+        {
+          "target": "#concept-local-agency",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-local-political-power",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html",
+      "concepts": [
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-everyday-life",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-local-agency",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html",
+      "concepts": [
+        {
+          "target": "#concept-everyday-life",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/industrijalizacija-cacka-1944-1956.html",
+      "concepts": [
+        {
+          "target": "#concept-industrialization",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/conference-papers/elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura.html",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/conference-papers/osnivanje-rad-preduzeca-sloboda-cacak-1948-1958.html",
+      "concepts": [
+        {
+          "target": "#concept-industrialization",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-local-agency",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/prostitucija-u-cacku-tokom-xx-veka.html",
+      "concepts": [
+        {
+          "target": "#concept-everyday-life",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-public-space",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/nazivi-ulica-cacka-1893-1992.html",
+      "concepts": [
+        {
+          "target": "#concept-symbolic-power",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-public-space",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-collective-memory",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-local-identity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html",
+      "concepts": [
+        {
+          "target": "#concept-collective-memory",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-public-space",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-symbolic-power",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-political-representation",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/books/kako-je-cacak-postao-grad-kosarke.html",
+      "concepts": [
+        {
+          "target": "#concept-sport-urban-identity",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-local-identity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-collective-memory",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    },
+    {
+      "publication": "https://milos-timotijevic.github.io/articles/kosarka-konstrukcija-lokalnog-identiteta-cacka.html",
+      "concepts": [
+        {
+          "target": "#concept-local-identity",
+          "relation": "studiesConcept",
+          "role": "primary"
+        },
+        {
+          "target": "#concept-sport-urban-identity",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        },
+        {
+          "target": "#concept-collective-memory",
+          "relation": "studiesConcept",
+          "role": "secondary"
+        }
+      ]
+    }
+  ],
+  "external_concept_relations": [
+    {
+      "external": "external-troch-2021",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-local-agency",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-everyday-life",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-troch-2018",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-industrialization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-aplenc-2023",
+      "concepts": [
+        {
+          "target": "#concept-local-modernity",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-everyday-life",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-local-identity",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-jerliu-navakazi-2018",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-local-identity",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-parusheva-marcheva-2010",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-everyday-life",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-pompejano-2023",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-industrialization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-lenormand-2014",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-public-space",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-alfirevic-2015",
+      "concepts": [
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-alfirevic-2018",
+      "concepts": [
+        {
+          "target": "#concept-everyday-life",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-enyedi-1996",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-smith-1996",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-andrusz-harloe-szelenyi-1996",
+      "concepts": [
+        {
+          "target": "#concept-socialist-modernization",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-urban-transformation",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-duda-kladnik-2026",
+      "concepts": [
+        {
+          "target": "#concept-local-political-power",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-local-agency",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-abram-2014",
+      "concepts": [
+        {
+          "target": "#concept-political-representation",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-public-space",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-symbolic-power",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-bogdanovic-2020",
+      "concepts": [
+        {
+          "target": "#concept-symbolic-power",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-collective-memory",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-public-space",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-radovic-2016",
+      "concepts": [
+        {
+          "target": "#concept-symbolic-power",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-local-identity",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-collective-memory",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-lavrence-2005",
+      "concepts": [
+        {
+          "target": "#concept-collective-memory",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-public-space",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-symbolic-power",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-marosevic-peric-2025",
+      "concepts": [
+        {
+          "target": "#concept-sport-urban-identity",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-local-identity",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-biti-2007",
+      "concepts": [
+        {
+          "target": "#concept-sport-urban-identity",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-symbolic-power",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-local-identity",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-kossakowski-2013",
+      "concepts": [
+        {
+          "target": "#concept-sport-urban-identity",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-local-identity",
+          "relation": "studiesConcept"
+        }
+      ]
+    },
+    {
+      "external": "external-vucetic-2017",
+      "concepts": [
+        {
+          "target": "#concept-political-representation",
+          "relation": "studiesConcept"
+        },
+        {
+          "target": "#concept-symbolic-power",
+          "relation": "studiesConcept"
+        }
+      ]
     }
   ]
-}
-</script>
+}</script>
 </body>
 </html>
