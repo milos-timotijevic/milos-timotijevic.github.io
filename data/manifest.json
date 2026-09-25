@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Integrity manifest for the machine-readable data exports",
-  "dateModified": "2026-09-21",
+  "dateModified": "2026-09-25",
   "algorithm": "SHA-256",
   "files": [
     {
@@ -48,9 +48,9 @@
       "path": "data/knowledge-graph.jsonld",
       "contentUrl": "https://milos-timotijevic.github.io/data/knowledge-graph.jsonld",
       "encodingFormat": "application/ld+json",
-      "byteSize": 10845,
-      "sha256": "75f15fdaa2c953811ce4339a1866d3814845efc67db347dd9c678db9af22086f",
-      "recordCount": 12
+      "byteSize": 161942,
+      "sha256": "9dd532dc3e5381f7f862576206edccd1d034d91273f8f4df96ed3e18a20e3e0b",
+      "recordCount": 143
     }
   ]
 }
