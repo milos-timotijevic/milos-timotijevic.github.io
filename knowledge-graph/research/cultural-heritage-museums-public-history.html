@@ -64,14 +64,7 @@
   ],
   "description": "Истраживачки кластер о културном наслеђу, музејској пракси и јавној историји као процесима институционалне обраде, тумачења и јавног представљања прошлости.",
   "author": {
-    "@type": "Person",
-    "name": "Miloš Timotijević",
-    "alternateName": "Милош Тимотијевић",
-    "sameAs": [
-      "https://orcid.org/0000-0002-0457-6125",
-      "https://www.wikidata.org/wiki/Q112514230",
-      "https://openalex.org/authors/a5072525869"
-    ]
+    "@id": "https://milos-timotijevic.github.io/#person"
   },
   "isPartOf": {
     "@type": "CollectionPage",
@@ -80,11 +73,6 @@
     "sameAs": "https://www.wikidata.org/wiki/Q139501155"
   },
   "about": [
-    {
-      "@type": "Thing",
-      "name": "Cultural Heritage, Museums and Public History",
-      "sameAs": "https://www.wikidata.org/wiki/Q139570560"
-    },
     "cultural heritage",
     "museum practice",
     "public history",
@@ -207,9 +195,14 @@
         "https://www.wikidata.org/wiki/Q138652424"
       ]
     }
-  ]
+  ],
+  "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#webpage",
+  "mainEntity": {
+    "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster"
+  },
+  "dateModified": "2026-09-25"
 }
-  </script>
+</script>
 <style>
 .cluster-contents{
   margin:1.5rem 0 2.25rem;
@@ -437,7 +430,7 @@ html{scroll-behavior:smooth;}
 <p><a href="/">← Назад на главну страницу / Back to the main page</a></p>
 <script id="conceptual-relations" type="application/json">
 {
-  "cluster": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
+  "cluster": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster",
   "concepts": [
     {
       "id": "heritage-interpretation",
@@ -966,7 +959,7 @@ html{scroll-behavior:smooth;}
   "production_status": {
     "version": "v5.2",
     "status": "final-production",
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "note": "Restored a top-of-page bilingual cluster contents navigation for the long-form page; v5.1 semantic corrections retained."
   },
   "external_scholarly_works": [
@@ -1319,6 +1312,39 @@ html{scroll-behavior:smooth;}
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@id": "https://milos-timotijevic.github.io/#person",
+      "@type": "Person",
+      "name": "Miloš Timotijević",
+      "alternateName": "Милош Тимотијевић",
+      "sameAs": [
+        "https://orcid.org/0000-0002-0457-6125",
+        "https://www.wikidata.org/wiki/Q112514230",
+        "https://openalex.org/authors/a5072525869"
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster",
+      "@type": "CreativeWork",
+      "name": "Културно наслеђе, музеји и јавна историја",
+      "alternateName": "Cultural Heritage, Museums and Public History",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139570560",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "dateModified": "2026-09-25",
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "name": "Local Modernity and Symbolic Power in Southeast Europe",
+        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
+        "sameAs": "https://www.wikidata.org/wiki/Q139501155"
+      },
+      "description": "Истраживачки кластер о културном наслеђу, музејској пракси и јавној историји као процесима институционалне обраде, тумачења и јавног представљања прошлости."
+    },
+    {
       "@type": "DefinedTermSet",
       "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network",
       "name": "Cultural Heritage, Museums and Public History — Conceptual Network"
@@ -1330,7 +1356,8 @@ html{scroll-behavior:smooth;}
       "alternateName": "Тумачење наслеђа",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
-      }
+      },
+      "termCode": "heritage-interpretation"
     },
     {
       "@type": "DefinedTerm",
@@ -1342,7 +1369,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
-      }
+      },
+      "termCode": "heritage-formation"
     },
     {
       "@type": "DefinedTerm",
@@ -1354,7 +1382,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
-      }
+      },
+      "termCode": "cultural-heritage"
     },
     {
       "@type": "DefinedTerm",
@@ -1366,7 +1395,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
-      }
+      },
+      "termCode": "sacred-heritage"
     },
     {
       "@type": "DefinedTerm",
@@ -1378,7 +1408,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
-      }
+      },
+      "termCode": "visual-heritage"
     },
     {
       "@type": "DefinedTerm",
@@ -1390,7 +1421,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
-      }
+      },
+      "termCode": "sporting-heritage"
     },
     {
       "@type": "DefinedTerm",
@@ -1402,7 +1434,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
-      }
+      },
+      "termCode": "museum-practice"
     },
     {
       "@type": "DefinedTerm",
@@ -1414,7 +1447,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
-      }
+      },
+      "termCode": "collecting-documentation"
     },
     {
       "@type": "DefinedTerm",
@@ -1426,7 +1460,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
-      }
+      },
+      "termCode": "museum-institution"
     },
     {
       "@type": "DefinedTerm",
@@ -1438,7 +1473,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
-      }
+      },
+      "termCode": "exhibition-display"
     },
     {
       "@type": "DefinedTerm",
@@ -1450,7 +1486,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
-      }
+      },
+      "termCode": "public-history"
     },
     {
       "@type": "DefinedTerm",
@@ -1462,7 +1499,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
-      }
+      },
+      "termCode": "public-interpretation"
     },
     {
       "@type": "DefinedTerm",
@@ -1474,7 +1512,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
-      }
+      },
+      "termCode": "collective-memory"
     },
     {
       "@type": "DefinedTerm",
@@ -1486,7 +1525,8 @@ html{scroll-behavior:smooth;}
       },
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
-      }
+      },
+      "termCode": "memorialization"
     },
     {
       "@type": "DefinedTerm",
@@ -1495,7 +1535,8 @@ html{scroll-behavior:smooth;}
       "alternateName": "Локални идентитет",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
-      }
+      },
+      "termCode": "local-identity"
     },
     {
       "@type": "DefinedTerm",
@@ -1504,7 +1545,8 @@ html{scroll-behavior:smooth;}
       "alternateName": "Културни ауторитет",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
-      }
+      },
+      "termCode": "cultural-authority"
     },
     {
       "@type": "DefinedTerm",
@@ -1513,7 +1555,8 @@ html{scroll-behavior:smooth;}
       "alternateName": "Јавни простор",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
-      }
+      },
+      "termCode": "public-space"
     },
     {
       "@type": "CreativeWork",
@@ -1784,6 +1827,10 @@ html{scroll-behavior:smooth;}
       "alternateName": "Документовање жртава",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-collecting-documentation"
+      },
+      "termCode": "victim-documentation",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
       }
     },
     {
@@ -1883,7 +1930,12 @@ html{scroll-behavior:smooth;}
       "alternateName": "Династичко наслеђе",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-cultural-heritage"
-      }
+      },
+      "termCode": "dynastic-heritage",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "relatedLink": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production"
     },
     {
       "@type": "CreativeWorkSeries",
@@ -1945,20 +1997,10 @@ html{scroll-behavior:smooth;}
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "DefinedTerm",
-      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-dynastic-heritage",
-      "name": "Dynastic Heritage",
-      "alternateName": "Династичко наслеђе",
-      "isPartOf": {
-        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-cultural-heritage"
-      },
-      "relatedLink": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production"
-    },
-    {
       "@type": "WebPage",
       "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
       "name": "Cultural Heritage, Museums and Public History",
-      "dateModified": "2026-09-24"
+      "dateModified": "2026-09-25"
     }
   ]
 }
