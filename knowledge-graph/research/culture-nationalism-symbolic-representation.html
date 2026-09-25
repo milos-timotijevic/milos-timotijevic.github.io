@@ -336,6 +336,39 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@id": "https://milos-timotijevic.github.io/#person",
+      "@type": "Person",
+      "name": "Miloš Timotijević",
+      "alternateName": "Милош Тимотијевић",
+      "sameAs": [
+        "https://orcid.org/0000-0002-0457-6125",
+        "https://www.wikidata.org/wiki/Q112514230",
+        "https://openalex.org/authors/a5072525869"
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster",
+      "@type": "CreativeWork",
+      "name": "Култура, национализам и симболичка репрезентација",
+      "alternateName": "Culture, Nationalism and Symbolic Representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569852",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "dateModified": "2026-09-25",
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "name": "Local Modernity and Symbolic Power in Southeast Europe",
+        "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
+        "sameAs": "https://www.wikidata.org/wiki/Q139501155"
+      },
+      "description": "Истраживачка целина о уметности, модернизму, јавним споменицима, фотографији, фестивалима, медијским представама, сакралним традицијама и обликовању националних, политичких и локалних идентитета."
+    },
+    {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       "name": "Култура, национализам и симболичка репрезентација",
@@ -347,14 +380,7 @@
       ],
       "description": "Истраживачка целина о уметности, модернизму, јавним споменицима, фотографији, фестивалима, медијским представама, сакралним традицијама и обликовању националних, политичких и локалних идентитета.",
       "author": {
-        "@type": "Person",
-        "name": "Miloš Timotijević",
-        "alternateName": "Милош Тимотијевић",
-        "sameAs": [
-          "https://orcid.org/0000-0002-0457-6125",
-          "https://www.wikidata.org/wiki/Q112514230",
-          "https://openalex.org/authors/a5072525869"
-        ]
+        "@id": "https://milos-timotijevic.github.io/#person"
       },
       "isPartOf": {
         "@type": "CollectionPage",
@@ -363,11 +389,6 @@
         "sameAs": "https://www.wikidata.org/wiki/Q139501155"
       },
       "about": [
-        {
-          "@type": "Thing",
-          "name": "Culture, Nationalism and Symbolic Representation",
-          "sameAs": "https://www.wikidata.org/wiki/Q139569852"
-        },
         "visual culture",
         "national symbols",
         "art and nation",
@@ -504,7 +525,11 @@
           "sameAs": "https://www.wikidata.org/wiki/Q139413207"
         }
       ],
-      "dateModified": "2026-09-24"
+      "dateModified": "2026-09-25",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#webpage",
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster"
+      }
     },
     {
       "@type": "DefinedTermSet",
@@ -519,7 +544,8 @@
       "alternateName": "Симболичка производња",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "symbolic-production"
     },
     {
       "@type": "DefinedTerm",
@@ -528,7 +554,8 @@
       "alternateName": "Културна репрезентација",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "cultural-representation"
     },
     {
       "@type": "DefinedTerm",
@@ -537,7 +564,8 @@
       "alternateName": "Визуелна репрезентација",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "visual-representation"
     },
     {
       "@type": "DefinedTerm",
@@ -546,7 +574,8 @@
       "alternateName": "Јавни ритуал и спектакл",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "public-ritual-spectacle"
     },
     {
       "@type": "DefinedTerm",
@@ -555,7 +584,8 @@
       "alternateName": "Медијска репрезентација",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "media-representation"
     },
     {
       "@type": "DefinedTerm",
@@ -564,7 +594,8 @@
       "alternateName": "Производња идентитета",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "identity-production"
     },
     {
       "@type": "DefinedTerm",
@@ -573,7 +604,8 @@
       "alternateName": "Национални идентитет",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "national-identity"
     },
     {
       "@type": "DefinedTerm",
@@ -582,7 +614,8 @@
       "alternateName": "Југословенски идентитет",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "yugoslav-identity"
     },
     {
       "@type": "DefinedTerm",
@@ -591,7 +624,8 @@
       "alternateName": "Локални идентитет",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "local-identity"
     },
     {
       "@type": "DefinedTerm",
@@ -600,7 +634,8 @@
       "alternateName": "Измишљена традиција",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "invented-tradition"
     },
     {
       "@type": "DefinedTerm",
@@ -609,7 +644,8 @@
       "alternateName": "Памћење и ауторитет",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "memory-authority"
     },
     {
       "@type": "DefinedTerm",
@@ -618,7 +654,8 @@
       "alternateName": "Колективно памћење",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "collective-memory"
     },
     {
       "@type": "DefinedTerm",
@@ -627,7 +664,8 @@
       "alternateName": "Културни ауторитет",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "cultural-authority"
     },
     {
       "@type": "DefinedTerm",
@@ -636,7 +674,8 @@
       "alternateName": "Јавни простор",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "public-space"
     },
     {
       "@type": "DefinedTerm",
@@ -645,7 +684,8 @@
       "alternateName": "Политичка репрезентација",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
-      }
+      },
+      "termCode": "political-representation"
     },
     {
       "@type": "ScholarlyArticle",
@@ -1266,7 +1306,7 @@
 <p>Милош Тимотијевић, „Култура, национализам и симболичка репрезентација”, лични научни сајт, приступљено [датум], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html">https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html</a>.</p>
 <p lang="en">Miloš Timotijević, “Culture, Nationalism and Symbolic Representation,” personal scholarly website, accessed [date], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html">https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html</a>.</p>
 </div>
-</section><p class="updated">Последње ажурирање / Last updated: 24. септембар 2026 / 24 September 2026</p><p class="back-link"><a href="#top">↑ На врх / Back to top</a><br/>
+</section><p class="updated">Последње ажурирање / Last updated: 24. септембар 2026 / 25 September 2026</p><p class="back-link"><a href="#top">↑ На врх / Back to top</a><br/>
 <a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a><br/>
 <a href="/">← Назад на главну страну / Back to the main page</a></p>
 </main>
@@ -2135,7 +2175,7 @@
   "production_status": {
     "version": "v10",
     "status": "ready-for-deployment",
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "presentation": "collapsible comparative layers retained; publication labels in visible publication-to-publication crosswalks normalized to the exact titles used on this page",
     "scholarly_data": "unchanged from v9"
   }
