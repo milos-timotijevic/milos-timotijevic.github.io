@@ -322,7 +322,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "local-modernity"
+      "termCode": "local-modernity",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-modernity"
     },
     {
       "@type": "DefinedTerm",
@@ -332,7 +333,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "socialist-modernization"
+      "termCode": "socialist-modernization",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-socialist-modernization"
     },
     {
       "@type": "DefinedTerm",
@@ -342,7 +344,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "local-agency"
+      "termCode": "local-agency",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-agency"
     },
     {
       "@type": "DefinedTerm",
@@ -352,7 +355,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "symbolic-production"
+      "termCode": "symbolic-production",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-symbolic-production"
     },
     {
       "@type": "DefinedTerm",
@@ -362,7 +366,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "urban-transformation"
+      "termCode": "urban-transformation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-urban-transformation"
     },
     {
       "@type": "DefinedTerm",
@@ -372,7 +377,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "industrialization"
+      "termCode": "industrialization",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-industrialization"
     },
     {
       "@type": "DefinedTerm",
@@ -382,7 +388,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "everyday-life"
+      "termCode": "everyday-life",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-everyday-life"
     },
     {
       "@type": "DefinedTerm",
@@ -392,7 +399,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "local-political-power"
+      "termCode": "local-political-power",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-political-power"
     },
     {
       "@type": "DefinedTerm",
@@ -402,7 +410,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "public-space"
+      "termCode": "public-space",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-public-space"
     },
     {
       "@type": "DefinedTerm",
@@ -412,7 +421,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "symbolic-power"
+      "termCode": "symbolic-power",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-symbolic-power"
     },
     {
       "@type": "DefinedTerm",
@@ -422,7 +432,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "political-representation"
+      "termCode": "political-representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-political-representation"
     },
     {
       "@type": "DefinedTerm",
@@ -432,7 +443,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "collective-memory"
+      "termCode": "collective-memory",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-collective-memory"
     },
     {
       "@type": "DefinedTerm",
@@ -442,7 +454,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "local-identity"
+      "termCode": "local-identity",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-identity"
     },
     {
       "@type": "DefinedTerm",
@@ -452,7 +465,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
       },
-      "termCode": "sport-urban-identity"
+      "termCode": "sport-urban-identity",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-sport-urban-identity"
     },
     {
       "@context": "https://schema.org",
@@ -571,7 +585,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
       },
-      "termCode": "heritage-interpretation"
+      "termCode": "heritage-interpretation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
     },
     {
       "@type": "DefinedTerm",
@@ -584,7 +599,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
       },
-      "termCode": "heritage-formation"
+      "termCode": "heritage-formation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
     },
     {
       "@type": "DefinedTerm",
@@ -597,7 +613,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
       },
-      "termCode": "cultural-heritage"
+      "termCode": "cultural-heritage",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-cultural-heritage"
     },
     {
       "@type": "DefinedTerm",
@@ -610,7 +627,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
       },
-      "termCode": "sacred-heritage"
+      "termCode": "sacred-heritage",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-sacred-heritage"
     },
     {
       "@type": "DefinedTerm",
@@ -623,7 +641,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
       },
-      "termCode": "visual-heritage"
+      "termCode": "visual-heritage",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-visual-heritage"
     },
     {
       "@type": "DefinedTerm",
@@ -636,7 +655,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
       },
-      "termCode": "sporting-heritage"
+      "termCode": "sporting-heritage",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-sporting-heritage"
     },
     {
       "@type": "DefinedTerm",
@@ -649,7 +669,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
       },
-      "termCode": "museum-practice"
+      "termCode": "museum-practice",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
     },
     {
       "@type": "DefinedTerm",
@@ -662,7 +683,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
       },
-      "termCode": "collecting-documentation"
+      "termCode": "collecting-documentation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-collecting-documentation"
     },
     {
       "@type": "DefinedTerm",
@@ -675,7 +697,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
       },
-      "termCode": "museum-institution"
+      "termCode": "museum-institution",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-institution"
     },
     {
       "@type": "DefinedTerm",
@@ -688,7 +711,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
       },
-      "termCode": "exhibition-display"
+      "termCode": "exhibition-display",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-exhibition-display"
     },
     {
       "@type": "DefinedTerm",
@@ -701,7 +725,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
       },
-      "termCode": "public-history"
+      "termCode": "public-history",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
     },
     {
       "@type": "DefinedTerm",
@@ -714,7 +739,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
       },
-      "termCode": "public-interpretation"
+      "termCode": "public-interpretation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-interpretation"
     },
     {
       "@type": "DefinedTerm",
@@ -727,7 +753,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
       },
-      "termCode": "collective-memory"
+      "termCode": "collective-memory",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-collective-memory"
     },
     {
       "@type": "DefinedTerm",
@@ -740,7 +767,8 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
       },
-      "termCode": "memorialization"
+      "termCode": "memorialization",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-memorialization"
     },
     {
       "@type": "DefinedTerm",
@@ -750,7 +778,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
       },
-      "termCode": "local-identity"
+      "termCode": "local-identity",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-local-identity"
     },
     {
       "@type": "DefinedTerm",
@@ -760,7 +789,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
       },
-      "termCode": "cultural-authority"
+      "termCode": "cultural-authority",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-cultural-authority"
     },
     {
       "@type": "DefinedTerm",
@@ -770,7 +800,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
       },
-      "termCode": "public-space"
+      "termCode": "public-space",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-space"
     },
     {
       "@type": "DefinedTerm",
@@ -783,7 +814,8 @@
       "termCode": "victim-documentation",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-victim-documentation"
     },
     {
       "@type": "DefinedTerm",
@@ -797,7 +829,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
       },
-      "relatedLink": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production"
+      "relatedLink": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-dynastic-heritage"
     },
     {
       "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster",
@@ -907,7 +940,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "symbolic-production"
+      "termCode": "symbolic-production",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production"
     },
     {
       "@type": "DefinedTerm",
@@ -917,7 +951,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "cultural-representation"
+      "termCode": "cultural-representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-cultural-representation"
     },
     {
       "@type": "DefinedTerm",
@@ -927,7 +962,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "visual-representation"
+      "termCode": "visual-representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-visual-representation"
     },
     {
       "@type": "DefinedTerm",
@@ -937,7 +973,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "public-ritual-spectacle"
+      "termCode": "public-ritual-spectacle",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-public-ritual-spectacle"
     },
     {
       "@type": "DefinedTerm",
@@ -947,7 +984,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "media-representation"
+      "termCode": "media-representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-media-representation"
     },
     {
       "@type": "DefinedTerm",
@@ -957,7 +995,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "identity-production"
+      "termCode": "identity-production",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-identity-production"
     },
     {
       "@type": "DefinedTerm",
@@ -967,7 +1006,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "national-identity"
+      "termCode": "national-identity",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-national-identity"
     },
     {
       "@type": "DefinedTerm",
@@ -977,7 +1017,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "yugoslav-identity"
+      "termCode": "yugoslav-identity",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-yugoslav-identity"
     },
     {
       "@type": "DefinedTerm",
@@ -987,7 +1028,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "local-identity"
+      "termCode": "local-identity",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-local-identity"
     },
     {
       "@type": "DefinedTerm",
@@ -997,7 +1039,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "invented-tradition"
+      "termCode": "invented-tradition",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-invented-tradition"
     },
     {
       "@type": "DefinedTerm",
@@ -1007,7 +1050,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "memory-authority"
+      "termCode": "memory-authority",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-memory-authority"
     },
     {
       "@type": "DefinedTerm",
@@ -1017,7 +1061,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "collective-memory"
+      "termCode": "collective-memory",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-collective-memory"
     },
     {
       "@type": "DefinedTerm",
@@ -1027,7 +1072,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "cultural-authority"
+      "termCode": "cultural-authority",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-cultural-authority"
     },
     {
       "@type": "DefinedTerm",
@@ -1037,7 +1083,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "public-space"
+      "termCode": "public-space",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-public-space"
     },
     {
       "@type": "DefinedTerm",
@@ -1047,7 +1094,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "termCode": "political-representation"
+      "termCode": "political-representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-political-representation"
     },
     {
       "@type": "CollectionPage",
@@ -1109,20 +1157,6 @@
       "author": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
-      "mentions": [
-        {
-          "@id": "https://milos-timotijevic.github.io/books/zvonko-vuckovic-ratna-biografija.html#work"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/books/brave-partisans-evil-chetniks.html#work"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/books/zlato-cetnika-i-partizana.html#work"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html#work"
-        }
-      ],
       "about": [
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
@@ -2182,7 +2216,8 @@
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
       },
-      "additionalType": "rootConcept"
+      "additionalType": "rootConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
     },
     {
       "@type": "DefinedTerm",
@@ -2196,7 +2231,8 @@
       "additionalType": "organizationalConcept",
       "broader": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
     },
     {
       "@type": "DefinedTerm",
@@ -2213,7 +2249,8 @@
       },
       "relatedLink": [
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-secularization"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religiosity"
     },
     {
       "@type": "DefinedTerm",
@@ -2230,7 +2267,8 @@
       },
       "relatedLink": [
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-revival"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-secularization"
     },
     {
       "@type": "DefinedTerm",
@@ -2247,7 +2285,8 @@
       },
       "relatedLink": [
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-revival"
     },
     {
       "@type": "DefinedTerm",
@@ -2261,7 +2300,8 @@
       "additionalType": "cross-cluster bridge",
       "broader": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety"
     },
     {
       "@type": "DefinedTerm",
@@ -2275,7 +2315,8 @@
       "additionalType": "organizationalConcept",
       "broader": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
     },
     {
       "@type": "DefinedTerm",
@@ -2293,7 +2334,8 @@
       "relatedLink": [
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain",
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-landscape"
     },
     {
       "@type": "DefinedTerm",
@@ -2310,7 +2352,8 @@
       },
       "relatedLink": [
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-monastic-network"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain"
     },
     {
       "@type": "DefinedTerm",
@@ -2324,7 +2367,8 @@
       "additionalType": "analyticalConcept",
       "broader": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-monastic-network"
     },
     {
       "@type": "DefinedTerm",
@@ -2341,7 +2385,8 @@
       },
       "relatedLink": [
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-urban-sacred-space"
     },
     {
       "@type": "DefinedTerm",
@@ -2360,7 +2405,8 @@
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety",
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints",
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacralization-of-place"
     },
     {
       "@type": "DefinedTerm",
@@ -2378,7 +2424,8 @@
       "relatedLink": [
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-material-religion",
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety"
     },
     {
       "@type": "DefinedTerm",
@@ -2396,7 +2443,8 @@
       "relatedLink": [
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory",
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-death-memorial-practice"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-material-religion"
     },
     {
       "@type": "DefinedTerm",
@@ -2410,7 +2458,8 @@
       "additionalType": "cross-cluster bridge",
       "broader": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
     },
     {
       "@type": "DefinedTerm",
@@ -2424,7 +2473,8 @@
       "additionalType": "analyticalConcept",
       "broader": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-death-memorial-practice"
     },
     {
       "@type": "DefinedTerm",
@@ -2441,7 +2491,8 @@
       },
       "relatedLink": [
         "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition"
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints"
     },
     {
       "@type": "DefinedTerm",
@@ -2455,7 +2506,8 @@
       "additionalType": "cross-cluster bridge",
       "broader": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition"
     },
     {
       "@type": "CollectionPage",
@@ -2501,149 +2553,7 @@
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-memory-contested-pasts"
         }
       ],
-      "mentions": [
-        {
-          "@id": "https://milos-timotijevic.github.io/books/mitovi-novije-srpske-istorije.html"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/catalogues/sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theoretical-registry"
-        }
-      ],
-      "keywords": "Second World War, Serbia, Yugoslavia, occupation, resistance, civil conflict, wartime economy, propaganda, collaborationist press, Allied air war, Operation Halyard, Holocaust, political myths, contested pasts, memory culture, public history",
-      "citation": [
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e01"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e02"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e03"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e04"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e05"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e06"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e07"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e08"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e09"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e10"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e12"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e13"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e14"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e15"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e16"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e17"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e18"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e19"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e20"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e21"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e22"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e23"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e24"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e25"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e26"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e27"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e28"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e29"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e30"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e31"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e32"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e33"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e34"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e35"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e36"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e37"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e38"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e40"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e41"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e42"
-        },
-        {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e43"
-        }
-      ]
+      "keywords": "Second World War, Serbia, Yugoslavia, occupation, resistance, civil conflict, wartime economy, propaganda, collaborationist press, Allied air war, Operation Halyard, Holocaust, political myths, contested pasts, memory culture, public history"
     },
     {
       "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster",
@@ -2734,7 +2644,8 @@
       "description": "Истраживачки оквир који повезује ратно искуство, окупацију, пропаганду и каснија тумачења Другог светског рата.",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
     },
     {
       "@type": [
@@ -2751,7 +2662,8 @@
       },
       "broaderConcept": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-armed-conflict-resistance"
     },
     {
       "@type": [
@@ -2776,7 +2688,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-contested-wartime-legacies-historiography"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-resistance-movements-civil-conflict"
     },
     {
       "@type": [
@@ -2801,7 +2714,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-allied-air-war-rescue"
     },
     {
       "@type": [
@@ -2823,7 +2737,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-resistance-movements-civil-conflict"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-revolutionary-transfer-postwar-retribution"
     },
     {
       "@type": [
@@ -2845,7 +2760,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-holocaust-persecution-rescue"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society"
     },
     {
       "@type": [
@@ -2862,7 +2778,8 @@
       },
       "broaderConcept": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-governance-social-control"
     },
     {
       "@type": [
@@ -2884,7 +2801,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-economy-material-resources"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-everyday-life-mobility"
     },
     {
       "@type": [
@@ -2906,7 +2824,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-enemy-images-crime-moral-order"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-gender-war"
     },
     {
       "@type": [
@@ -2931,7 +2850,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-economy-material-resources"
     },
     {
       "@type": [
@@ -2948,7 +2868,8 @@
       },
       "broaderConcept": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-propaganda-discourse"
     },
     {
       "@type": [
@@ -2970,7 +2891,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-allied-air-war-rescue"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-collaborationist-press-propaganda"
     },
     {
       "@type": [
@@ -2992,7 +2914,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-gender-war"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-enemy-images-crime-moral-order"
     },
     {
       "@type": [
@@ -3014,7 +2937,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-holocaust-persecution-rescue"
     },
     {
       "@type": [
@@ -3031,7 +2955,8 @@
       },
       "broaderConcept": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-memory-contested-pasts"
     },
     {
       "@type": [
@@ -3059,7 +2984,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-contested-wartime-legacies-historiography"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history"
     },
     {
       "@type": [
@@ -3084,7 +3010,8 @@
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history"
         }
-      ]
+      ],
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-contested-wartime-legacies-historiography"
     }
   ]
 }

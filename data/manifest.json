@@ -48,8 +48,8 @@
       "path": "data/knowledge-graph.jsonld",
       "contentUrl": "https://milos-timotijevic.github.io/data/knowledge-graph.jsonld",
       "encodingFormat": "application/ld+json",
-      "byteSize": 161942,
-      "sha256": "9dd532dc3e5381f7f862576206edccd1d034d91273f8f4df96ed3e18a20e3e0b",
+      "byteSize": 166865,
+      "sha256": "82fe5e5a210756615d258b58f103cb08a008233fe6af34d7939f29fe26551af4",
       "recordCount": 143
     }
   ]
