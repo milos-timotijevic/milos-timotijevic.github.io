@@ -149,10 +149,17 @@ def main() -> int:
         if (url := path_to_url(path)) is not None
     }
 
-    # When sitemap.xml itself is refreshed, bootstrap the human-facing URLs whose
-    # lastmod is the newest date in the sitemap. This covers the first deployment
-    # of IndexNow after a batch harmonization.
-    if SITEMAP_FILE in paths:
+    # Bootstrap the human-facing URLs whose <lastmod> is the newest date in the
+    # sitemap when the sitemap or the IndexNow implementation itself changes.
+    # This makes the first deployment useful even if sitemap.xml was committed
+    # immediately before the workflow became active.
+    bootstrap_triggers = {
+        SITEMAP_FILE,
+        KEY_FILE,
+        "scripts/submit_indexnow.py",
+        ".github/workflows/indexnow.yml",
+    }
+    if bootstrap_triggers.intersection(paths):
         urls.update(sitemap_bootstrap_urls())
 
     urls = sorted(urls)
