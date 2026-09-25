@@ -2,6 +2,7 @@
 """Validate the site's core JSON-LD knowledge graph."""
 
 import json
+import re
 from pathlib import Path
 import sys
 from urllib.parse import urlparse
@@ -19,6 +20,7 @@ REQUIRED_PERSON_IDENTIFIERS = (
     "https://www.wikidata.org/wiki/",
     "https://openalex.org/",
 )
+WIKIDATA_ITEM_RE = re.compile(r"^https://www\.wikidata\.org/wiki/Q\d+$")
 
 
 def collect_referenced_ids(value):
@@ -32,6 +34,19 @@ def collect_referenced_ids(value):
         for child in value:
             references.extend(collect_referenced_ids(child))
     return references
+
+
+def as_list(value):
+    if value is None:
+        return []
+    return value if isinstance(value, list) else [value]
+
+
+def is_absolute_http_url(value):
+    if not isinstance(value, str) or not value:
+        return False
+    parsed = urlparse(value)
+    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
 
 
 def main() -> int:
@@ -89,9 +104,7 @@ def main() -> int:
             errors.append(f"{node_id}: expected @type {required_type}.")
 
     person = nodes.get(f"{SITE}#person", {})
-    same_as = person.get("sameAs", [])
-    if isinstance(same_as, str):
-        same_as = [same_as]
+    same_as = as_list(person.get("sameAs"))
     for prefix in REQUIRED_PERSON_IDENTIFIERS:
         if not any(
             isinstance(identifier, str) and identifier.startswith(prefix)
@@ -106,15 +119,23 @@ def main() -> int:
     for node_id, node in nodes.items():
         node_type = node.get("@type")
         types = [node_type] if isinstance(node_type, str) else node_type or []
-        if "DefinedTerm" in types:
-            same_as_value = node.get("sameAs")
-            if not (
-                isinstance(same_as_value, str)
-                and same_as_value.startswith("https://www.wikidata.org/wiki/Q")
-            ):
-                errors.append(f"{node_id}: DefinedTerm lacks a Wikidata sameAs URL.")
-            if not isinstance(node.get("url"), str):
-                errors.append(f"{node_id}: DefinedTerm lacks a public url.")
+        if "DefinedTerm" not in types:
+            continue
+
+        public_url = node.get("url")
+        if not is_absolute_http_url(public_url):
+            errors.append(f"{node_id}: DefinedTerm lacks a valid public url.")
+
+        # Local analytical concepts are valid first-class nodes even when no
+        # external authority item exists. sameAs is optional; when supplied,
+        # its values must be valid absolute URLs, with strict Wikidata syntax.
+        for identifier in as_list(node.get("sameAs")):
+            if not is_absolute_http_url(identifier):
+                errors.append(
+                    f"{node_id}: DefinedTerm sameAs is not an absolute URL: {identifier!r}"
+                )
+            elif "wikidata.org" in identifier and not WIKIDATA_ITEM_RE.match(identifier):
+                errors.append(f"{node_id}: invalid Wikidata sameAs URL: {identifier}")
 
     if errors:
         print("Knowledge graph validation failed:")
@@ -122,9 +143,18 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
+    defined_terms = sum(
+        "DefinedTerm" in (
+            [node.get("@type")]
+            if isinstance(node.get("@type"), str)
+            else node.get("@type", [])
+        )
+        for node in nodes.values()
+    )
     print(
         f"Knowledge graph validation passed: {len(nodes)} unique nodes, "
-        "core entities and identity links are present, and internal references resolve."
+        f"{defined_terms} DefinedTerm nodes with public URLs, core entities and "
+        "identity links are present, and internal references resolve."
     )
     return 0
 
