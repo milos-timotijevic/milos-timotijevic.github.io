@@ -298,18 +298,489 @@
         }
       ],
       "dateModified": "2026-09-25",
-      "additionalProperty": [
+      "subjectOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#relation-policy"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work",
+      "name": "Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма",
+      "alternateName": [
+        "Modernization of the Balkan City (1944–1989): A Comparative Analysis of the Development of Čačak and Blagoevgrad in the Socialist Era",
+        "Modernizacija balkanskog grada (1944–1989)"
+      ],
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html",
+      "mainEntityOfPage": {
+        "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#webpage"
+      },
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "description": "Comparative scholarly monograph on socialist modernization in Čačak and Blagoevgrad, examining industrialization, urbanization and social change, with particular attention to local power structures, institutions, urban planning, everyday life and the problem of limited modernity.",
+      "abstract": "A comparative case study of two medium-sized Balkan cities under different variants of state socialism. The monograph investigates how inherited structures, state intervention, local actors and institutions shaped industrialization, urbanization and social transformation between 1944 and 1989, and uses the comparison to examine the uneven and limited production of modernity under socialism.",
+      "inLanguage": "sr",
+      "temporalCoverage": "1944/1989",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Чачак",
+          "alternateName": "Čačak",
+          "sameAs": "https://www.wikidata.org/wiki/Q188512"
+        },
+        {
+          "@type": "Place",
+          "name": "Благоевград",
+          "alternateName": "Blagoevgrad"
+        },
+        {
+          "@type": "Place",
+          "name": "Yugoslavia"
+        },
+        {
+          "@type": "Place",
+          "name": "Serbia"
+        },
+        {
+          "@type": "Place",
+          "name": "Bulgaria"
+        },
+        {
+          "@type": "Place",
+          "name": "Balkans"
+        },
+        {
+          "@type": "Place",
+          "name": "Eastern Europe"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
+      },
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-socialist-modernization"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-industrialization"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-urban-transformation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-everyday-life"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-political-power"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-limited-modernity"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-social-change"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-urban-planning"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-military-industry"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-private-life"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-local-elites"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-partial-modernization"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-modernization-without-modernity"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-alternative-modernity"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-civil-society"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-individualism"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-rationality"
+        }
+      ],
+      "keywords": [
+        "socialist modernization",
+        "modernization",
+        "industrialization",
+        "urbanization",
+        "urban transformation",
+        "social change",
+        "limited modernity",
+        "local elites",
+        "state intervention",
+        "military industry",
+        "urban planning",
+        "everyday life",
+        "private life",
+        "Čačak",
+        "Blagoevgrad",
+        "Yugoslavia",
+        "Serbia",
+        "Bulgaria",
+        "Balkans",
+        "Eastern Europe",
+        "comparative history",
+        "urban history",
+        "social history",
+        "local modernity"
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138007034"
+      ],
+      "workExample": {
+        "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#edition-2012"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-comparative-01"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-comparative-02"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-comparative-03"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-comparative-04"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-broader-01"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-broader-02"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-broader-03"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-theoretical-01"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-theoretical-02"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#edition-2012",
+      "name": "Модернизација балканског града (1944–1989)",
+      "alternateName": "Modernization of the Balkan City (1944–1989)",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Народни музеј Чачак",
+        "alternateName": "National Museum Čačak"
+      },
+      "datePublished": "2012",
+      "inLanguage": "sr",
+      "isbn": "978-86-84067-42-7",
+      "numberOfPages": 575,
+      "exampleOfWork": {
+        "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+      },
+      "identifier": [
         {
           "@type": "PropertyValue",
-          "name": "externalRelationModel",
-          "value": "cites|citedBy|comparativeCaseWith|conceptuallyRelatedTo|broaderContext|theoreticalContext"
+          "propertyID": "DOI",
+          "value": "10.65627/nmuc_balkan_city.2012",
+          "url": "https://doi.org/10.65627/nmuc_balkan_city.2012"
         },
         {
           "@type": "PropertyValue",
-          "name": "relationPolicy",
-          "value": "Comparative and conceptual relations do not imply bibliographic citation unless explicitly marked."
+          "propertyID": "ISBN",
+          "value": "978-86-84067-42-7"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata",
+          "value": "Q138007066",
+          "url": "https://www.wikidata.org/wiki/Q138007066"
         }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138007066",
+        "https://doi.org/10.65627/nmuc_balkan_city.2012",
+        "https://zenodo.org/records/20512664",
+        "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/189046028#full",
+        "https://lccn.loc.gov/2012542397",
+        "https://search.worldcat.org/oclc/812463373",
+        "https://search.worldcat.org/oclc/821087528",
+        "https://books.google.com/books?id=NARzMwEACAAJ",
+        "https://openlibrary.org/works/OL23227475W",
+        "https://openlibrary.org/books/OL31063323M",
+        "https://gateway-bayern.de/BV040355569"
       ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#relation-policy",
+      "name": "Scholarly relation policy for the Čačak local-modernity cluster",
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
+      },
+      "description": "Controlled relation model used in the research cluster: cites, citedBy, comparativeCaseWith, conceptuallyRelatedTo, broaderContext and theoreticalContext. Comparative, conceptual, broader-context and theoretical-context relations do not imply bibliographic citation unless explicitly marked as a citation.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-limited-modernity",
+      "name": "Limited Modernity",
+      "alternateName": "Ограничена модерност",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-limited-modernity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-social-change",
+      "name": "Social Change",
+      "alternateName": "Друштвене промене",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-social-change"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-urban-planning",
+      "name": "Urban Planning",
+      "alternateName": "Урбанистичко планирање",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-urban-planning"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-military-industry",
+      "name": "Military Industry",
+      "alternateName": "Војна индустрија",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-military-industry"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-private-life",
+      "name": "Private Life",
+      "alternateName": "Приватни живот",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-private-life"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-local-elites",
+      "name": "Local Elites",
+      "alternateName": "Локалне елите",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-local-elites"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-partial-modernization",
+      "name": "Partial Modernization",
+      "alternateName": "Парцијална модернизација",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-partial-modernization"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-modernization-without-modernity",
+      "name": "Modernization without Modernity",
+      "alternateName": "Модернизација без модерности",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-modernization-without-modernity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-alternative-modernity",
+      "name": "Alternative Modernity",
+      "alternateName": "Алтернативна модерност",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-alternative-modernity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-civil-society",
+      "name": "Civil Society",
+      "alternateName": "Цивилно друштво",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-civil-society"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-individualism",
+      "name": "Individualism",
+      "alternateName": "Индивидуализам",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-individualism"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-rationality",
+      "name": "Rationality",
+      "alternateName": "Рационалност",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#concept-rationality"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-comparative-01",
+      "name": "ComparativeCaseRelation",
+      "additionalType": "ComparativeCaseRelation",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://doi.org/10.1177/0096144219857681"
+        }
+      ],
+      "description": "Medium-sized socialist city; local decision-making; housing; urban modernity.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-comparative-02",
+      "name": "ComparativeCaseRelation",
+      "additionalType": "ComparativeCaseRelation",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://hdl.handle.net/1854/LU-8674645"
+        }
+      ],
+      "description": "Medium-sized industrial city; Yugoslav periphery; municipality; urban transformation.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-comparative-03",
+      "name": "ComparativeCaseRelation",
+      "additionalType": "ComparativeCaseRelation",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://doi.org/10.2307/j.ctv2ckjq2g"
+        }
+      ],
+      "description": "Yugoslav socialist modernity; local scale; urban transformation.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-comparative-04",
+      "name": "ComparativeCaseRelation",
+      "additionalType": "ComparativeCaseRelation",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://www.upjs.sk/app/uploads/sites/7/2022/09/MaD_2_2018_Jerliu_Navakazi.pdf"
+        }
+      ],
+      "description": "Socialist modernization; Yugoslav city; local specificity.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-broader-01",
+      "name": "BroaderContextRelation",
+      "additionalType": "BroaderContextRelation",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://doi.org/10.2752/175174210X12663437526214"
+        }
+      ],
+      "description": "Bulgaria; socialist modernization; housing; state/private relations.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-broader-02",
+      "name": "BroaderContextRelation",
+      "additionalType": "BroaderContextRelation",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://doi.org/10.2307/j.ctt7zwb9j"
+        }
+      ],
+      "description": "Yugoslav urban planning; modernism; socialism.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-broader-03",
+      "name": "BroaderContextRelation",
+      "additionalType": "BroaderContextRelation",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://doi.org/10.2298/SPAT1534001A"
+        }
+      ],
+      "description": "Post-war migration; mass housing; Yugoslav urbanization.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-theoretical-01",
+      "name": "TheoreticalContextRelation",
+      "additionalType": "TheoreticalContextRelation",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://doi.org/10.1002/9780470712733.ch4"
+        }
+      ],
+      "description": "Socialist urbanization; late development; urban development strategies.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#relation-theoretical-02",
+      "name": "TheoreticalContextRelation",
+      "additionalType": "TheoreticalContextRelation",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://doi.org/10.1002/9780470712733.ch3"
+        }
+      ],
+      "description": "Socialist city; spatial organization; socio-economic differentiation.",
+      "inLanguage": "en"
     },
     {
       "@type": "DefinedTermSet",
@@ -473,7 +944,6 @@
       "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-sport-urban-identity"
     },
     {
-      "@context": "https://schema.org",
       "@type": "CollectionPage",
       "name": "Културно наслеђе, музеји и јавна историја",
       "alternateName": "Cultural Heritage, Museums and Public History",
@@ -864,7 +1334,6 @@
       ]
     },
     {
-      "@context": "https://schema.org",
       "@type": "CollectionPage",
       "name": "Култура, национализам и симболичка репрезентација",
       "alternateName": "Culture, Nationalism and Symbolic Representation",
@@ -2050,7 +2519,6 @@
       ]
     },
     {
-      "@context": "https://schema.org",
       "@type": "CollectionPage",
       "name": "Религијски живот и друштвене праксе",
       "alternateName": "Religious Life and Social Practices",
