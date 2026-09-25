@@ -1,7 +1,8 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "schema": "https://schema.org/"
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
   },
   "@graph": [
     {
@@ -48,7 +49,8 @@
       },
       "about": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
-      }
+      },
+      "dateModified": "2026-09-25"
     },
     {
       "@id": "https://milos-timotijevic.github.io/data/#dataset",
@@ -57,7 +59,7 @@
       "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
       "url": "https://milos-timotijevic.github.io/data/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2026-08-31",
+      "dateModified": "2026-09-25",
       "creator": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
@@ -102,10 +104,7 @@
     },
     {
       "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework",
-      "@type": [
-        "ResearchProject",
-        "DefinedTermSet"
-      ],
+      "@type": "ResearchProject",
       "name": "Локална модерност и симболичка моћ у југоисточној Европи",
       "alternateName": "Local Modernity and Symbolic Power in Southeast Europe",
       "url": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html",
@@ -113,113 +112,2979 @@
       "creator": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
-      "hasDefinedTerm": [
+      "dateModified": "2026-09-25",
+      "hasPart": [
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#research-cluster"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#research-cluster"
         },
         {
-          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#cluster"
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster"
         }
       ]
     },
     {
-      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#cluster",
-      "@type": "DefinedTerm",
-      "termCode": "cacak-local-modernity",
-      "name": "Чачак као студија случаја локалне модерности у југоисточној Европи",
+      "@type": "CollectionPage",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#webpage",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
+      "name": "Чачак као студија случаја локалне модерности / Čačak as a Case Study of Local Modernity",
+      "description": "Истраживачка страница о Чачку као студији случаја локалне модерности: урбана трансформација, локална власт, индустријализација, јавни простор, свакодневица, спорт, култура сећања и локални идентитет.",
+      "keywords": [
+        "Чачак",
+        "Čačak",
+        "local modernity",
+        "case study",
+        "urban transformation",
+        "local government",
+        "public space",
+        "industrialization",
+        "everyday life",
+        "memory culture",
+        "local identity",
+        "symbolic power"
+      ],
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
+      },
+      "dateModified": "2026-09-25"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster",
+      "name": "Чачак као студија случаја локалне модерности",
       "alternateName": "Čačak as a Case Study of Local Modernity in Southeast Europe",
       "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html",
       "sameAs": "https://www.wikidata.org/wiki/Q139413866",
-      "inDefinedTermSet": {
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "description": "Истраживачка целина о Чачку као студији случаја за проучавање урбаних, друштвених, привредних и политичких промена, јавног простора, културе сећања и локалног идентитета.",
+      "keywords": [
+        "Чачак",
+        "Čačak",
+        "локална модерност",
+        "local modernity",
+        "студија случаја",
+        "case study",
+        "урбана историја",
+        "urban history",
+        "социјална историја",
+        "social history",
+        "локална власт",
+        "local government",
+        "индустријализација",
+        "industrialization",
+        "јавни простор",
+        "public space",
+        "свакодневица",
+        "everyday life",
+        "култура сећања",
+        "memory culture",
+        "локални идентитет",
+        "local identity",
+        "симболичка моћ",
+        "symbolic power"
+      ],
+      "temporalCoverage": "19th century/20th century",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Чачак",
+          "alternateName": "Čačak",
+          "sameAs": "https://www.wikidata.org/wiki/Q188512"
+        },
+        {
+          "@type": "Place",
+          "name": "Western Serbia"
+        },
+        {
+          "@type": "Place",
+          "name": "Southeast Europe"
+        }
+      ],
+      "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "about": [
+        {
+          "@type": "Place",
+          "name": "Чачак",
+          "alternateName": "Čačak",
+          "sameAs": "https://www.wikidata.org/wiki/Q188512"
+        },
+        {
+          "@type": "Thing",
+          "name": "local modernity"
+        },
+        {
+          "@type": "Thing",
+          "name": "urban history"
+        },
+        {
+          "@type": "Thing",
+          "name": "social history"
+        },
+        {
+          "@type": "Thing",
+          "name": "local government"
+        },
+        {
+          "@type": "Thing",
+          "name": "political elites"
+        },
+        {
+          "@type": "Thing",
+          "name": "public space"
+        },
+        {
+          "@type": "Thing",
+          "name": "socialist modernization"
+        },
+        {
+          "@type": "Thing",
+          "name": "cultural memory"
+        },
+        {
+          "@type": "Thing",
+          "name": "everyday life"
+        },
+        {
+          "@type": "Thing",
+          "name": "memorial landscape"
+        },
+        {
+          "@type": "Thing",
+          "name": "local identity"
+        },
+        {
+          "@type": "Thing",
+          "name": "sport and identity"
+        },
+        {
+          "@type": "Thing",
+          "name": "symbolic power"
+        }
+      ],
+      "dateModified": "2026-09-25",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "externalRelationModel",
+          "value": "cites|citedBy|comparativeCaseWith|conceptuallyRelatedTo|broaderContext|theoreticalContext"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "relationPolicy",
+          "value": "Comparative and conceptual relations do not imply bibliographic citation unless explicitly marked."
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network",
+      "name": "Čačak Local Modernity Conceptual Network",
+      "alternateName": "Концептуална мрежа локалне модерности Чачка",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-modernity",
+      "name": "Local Modernity",
+      "alternateName": "Локална модерност",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "local-modernity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-socialist-modernization",
+      "name": "Socialist Modernization",
+      "alternateName": "Социјалистичка модернизација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "socialist-modernization"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-agency",
+      "name": "Local Agency",
+      "alternateName": "Локално деловање",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "local-agency"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-symbolic-production",
+      "name": "Symbolic Production",
+      "alternateName": "Симболичка производња",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "symbolic-production"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-urban-transformation",
+      "name": "Urban Transformation",
+      "alternateName": "Урбана трансформација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "urban-transformation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-industrialization",
+      "name": "Industrialization",
+      "alternateName": "Индустријализација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "industrialization"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-everyday-life",
+      "name": "Everyday Life",
+      "alternateName": "Свакодневни живот",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "everyday-life"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-political-power",
+      "name": "Local Political Power",
+      "alternateName": "Локална политичка моћ",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "local-political-power"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-public-space",
+      "name": "Public Space",
+      "alternateName": "Јавни простор",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "public-space"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-symbolic-power",
+      "name": "Symbolic Power",
+      "alternateName": "Симболичка моћ",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "symbolic-power"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-political-representation",
+      "name": "Political Representation",
+      "alternateName": "Политичка репрезентација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "political-representation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-collective-memory",
+      "name": "Collective Memory",
+      "alternateName": "Колективно памћење",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "collective-memory"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-identity",
+      "name": "Local Identity",
+      "alternateName": "Локални идентитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "local-identity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-sport-urban-identity",
+      "name": "Sport and Urban Identity",
+      "alternateName": "Спорт и урбани идентитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#conceptual-network"
+      },
+      "termCode": "sport-urban-identity"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Културно наслеђе, музеји и јавна историја",
+      "alternateName": "Cultural Heritage, Museums and Public History",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "description": "Истраживачки кластер о културном наслеђу, музејској пракси и јавној историји као процесима институционалне обраде, тумачења и јавног представљања прошлости.",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "about": [
+        "cultural heritage",
+        "museum practice",
+        "public history",
+        "heritage interpretation",
+        "permanent exhibitions",
+        "museum collections",
+        "sacred heritage",
+        "memorial documentation",
+        "National Museum Čačak",
+        "Čačak"
+      ],
+      "keywords": "cultural heritage, museum practice, public history, permanent exhibitions, exhibitions, catalogues, guides, heritage interpretation, National Museum Čačak, Ovčar–Kablar monasteries, sacred heritage, urban sacred heritage, museum collections, visual documentation, historical photography, sporting heritage, Sokol heritage, memorial documentation, memory culture, public use of the past, Čačak, Kraljevo",
+      "mentions": [
+        {
+          "@type": "CreativeWork",
+          "name": "Соколско друштво у Чачку: 1910–1941",
+          "alternateName": "The Sokol Society in Čačak, 1910–1941",
+          "sameAs": "https://www.wikidata.org/wiki/Q139255454"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Чачак у доба социјализма: (1944–1990): фотографија као репрезент политичке моћи",
+          "alternateName": "Čačak in the Era of Socialism (1944–1990): Photography as a Representation of Political Power",
+          "url": "https://milos-timotijevic.github.io/catalogues/cacak-u-doba-socijalizma.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139332468"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Концепт сталне поставке „Музеја кошарке” у Чачку",
+          "alternateName": "The Concept of the Permanent Exhibition of the “Museum of Basketball” in Čačak",
+          "sameAs": "https://www.wikidata.org/wiki/Q139471005"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Седамдесет година од победе над фашизмом (1945–2015)",
+          "alternateName": "Seventy Years Since the Victory over Fascism (1945–2015)",
+          "url": "https://milos-timotijevic.github.io/catalogues/sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139378720"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Споменица погинулих у ратовима 1991–2000. године са подручја Краљева",
+          "alternateName": "Memorial Book of Those Killed in the Wars of 1991–2000 from the Kraljevo Area",
+          "url": "https://milos-timotijevic.github.io/books/spomenica-poginulih-kraljevo.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139393885"
+        },
+        {
+          "@type": "CreativeWorkSeries",
+          "name": "Династија Обреновић у музејским и другим збиркама Србије / Србије и Европе, књ. 1–7",
+          "alternateName": "The Obrenović Dynasty in Museum and Other Collections of Serbia / Serbia and Europe, Vols. 1–7",
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q138618382",
+            "https://www.wikidata.org/wiki/Q138637338",
+            "https://www.wikidata.org/wiki/Q138638440",
+            "https://www.wikidata.org/wiki/Q138642077",
+            "https://www.wikidata.org/wiki/Q138646011",
+            "https://www.wikidata.org/wiki/Q138649812",
+            "https://www.wikidata.org/wiki/Q138652424"
+          ]
+        }
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#webpage",
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster"
+      },
+      "dateModified": "2026-09-25"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster",
+      "@type": "CreativeWork",
+      "name": "Културно наслеђе, музеји и јавна историја",
+      "alternateName": "Cultural Heritage, Museums and Public History",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139570560",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "dateModified": "2026-09-25",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "description": "Истраживачки кластер о културном наслеђу, музејској пракси и јавној историји као процесима институционалне обраде, тумачења и јавног представљања прошлости."
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network",
+      "name": "Cultural Heritage, Museums and Public History — Conceptual Network"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation",
+      "name": "Heritage Interpretation",
+      "alternateName": "Тумачење наслеђа",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "termCode": "heritage-interpretation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation",
+      "name": "Heritage Formation",
+      "alternateName": "Обликовање наслеђа",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
+      },
+      "termCode": "heritage-formation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-cultural-heritage",
+      "name": "Cultural Heritage",
+      "alternateName": "Културно наслеђе",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
+      },
+      "termCode": "cultural-heritage"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-sacred-heritage",
+      "name": "Sacred Heritage",
+      "alternateName": "Сакрално наслеђе",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
+      },
+      "termCode": "sacred-heritage"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-visual-heritage",
+      "name": "Visual Heritage",
+      "alternateName": "Визуелно наслеђе",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
+      },
+      "termCode": "visual-heritage"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-sporting-heritage",
+      "name": "Sporting Heritage",
+      "alternateName": "Спортско наслеђе",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
+      },
+      "termCode": "sporting-heritage"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice",
+      "name": "Museum Practice",
+      "alternateName": "Музејска пракса",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
+      },
+      "termCode": "museum-practice"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-collecting-documentation",
+      "name": "Collecting and Documentation",
+      "alternateName": "Прикупљање и документација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
+      },
+      "termCode": "collecting-documentation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-institution",
+      "name": "Museum Institution",
+      "alternateName": "Музејска установа",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
+      },
+      "termCode": "museum-institution"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-exhibition-display",
+      "name": "Exhibition and Display",
+      "alternateName": "Изложба и поставка",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
+      },
+      "termCode": "exhibition-display"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history",
+      "name": "Public History",
+      "alternateName": "Јавна историја",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
+      },
+      "termCode": "public-history"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-interpretation",
+      "name": "Public Interpretation",
+      "alternateName": "Јавно тумачење",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
+      },
+      "termCode": "public-interpretation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-collective-memory",
+      "name": "Collective Memory",
+      "alternateName": "Колективно памћење",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
+      },
+      "termCode": "collective-memory"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-memorialization",
+      "name": "Memorialization",
+      "alternateName": "Меморијализација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
+      },
+      "termCode": "memorialization"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-local-identity",
+      "name": "Local Identity",
+      "alternateName": "Локални идентитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "termCode": "local-identity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-cultural-authority",
+      "name": "Cultural Authority",
+      "alternateName": "Културни ауторитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "termCode": "cultural-authority"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-space",
+      "name": "Public Space",
+      "alternateName": "Јавни простор",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "termCode": "public-space"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-victim-documentation",
+      "name": "Victim Documentation",
+      "alternateName": "Документовање жртава",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-collecting-documentation"
+      },
+      "termCode": "victim-documentation",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
       }
     },
     {
-      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#cluster",
       "@type": "DefinedTerm",
-      "termCode": "political-rituals-symbolic-politics",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-dynastic-heritage",
+      "name": "Dynastic Heritage",
+      "alternateName": "Династичко наслеђе",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-cultural-heritage"
+      },
+      "termCode": "dynastic-heritage",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
+      },
+      "relatedLink": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster",
+      "@type": "CreativeWork",
+      "name": "Култура, национализам и симболичка репрезентација",
+      "alternateName": "Culture, Nationalism and Symbolic Representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569852",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "dateModified": "2026-09-25",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "description": "Истраживачка целина о уметности, модернизму, јавним споменицима, фотографији, фестивалима, медијским представама, сакралним традицијама и обликовању националних, политичких и локалних идентитета."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Култура, национализам и симболичка репрезентација",
+      "alternateName": "Culture, Nationalism and Symbolic Representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "description": "Истраживачка целина о уметности, модернизму, јавним споменицима, фотографији, фестивалима, медијским представама, сакралним традицијама и обликовању националних, политичких и локалних идентитета.",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "about": [
+        "visual culture",
+        "national symbols",
+        "art and nation",
+        "public monuments",
+        "photography",
+        "festivals",
+        "physical culture",
+        "media images",
+        "invented traditions",
+        "symbolic power",
+        "cultural authority",
+        "Yugoslavism",
+        "modern art",
+        "cultural nationalism",
+        "identity construction",
+        "Ivan Meštrović",
+        "ethno-symbolic engineering"
+      ],
+      "keywords": "culture, nationalism, symbolic representation, visual culture, national symbols, art and nation, public monuments, photography, festivals, physical culture, sport, media images, invented traditions, sacred space, cultural authority, Čačak, Serbia, Yugoslavism, modernism, modern art, cultural nationalism, identity construction, Ivan Meštrović, ethno-symbolic engineering",
+      "mentions": [
+        {
+          "@type": "CreativeWork",
+          "name": "Чачак у доба социјализма: (1944–1990): фотографија као репрезент политичке моћи",
+          "url": "https://milos-timotijevic.github.io/catalogues/cacak-u-doba-socijalizma.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139332468"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Усклици искреног одушевљења",
+          "url": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q138005790"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Соколи Чачка 1910–1941.",
+          "url": "https://milos-timotijevic.github.io/books/sokoli-cacka.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139255236"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Како је Чачак постао град кошарке 1945–1969: спорт и идентитет",
+          "url": "https://milos-timotijevic.github.io/books/kako-je-cacak-postao-grad-kosarke.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139439617"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "„Икона Халијард”: један пример савременог конструисања српско-америчког савезништва у Другом светском рату",
+          "url": "https://milos-timotijevic.github.io/articles/ikona-halyard.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139413207"
+        }
+      ],
+      "dateModified": "2026-09-25",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#webpage",
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster"
+      }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network",
+      "name": "Culture, Nationalism and Symbolic Representation Conceptual Network",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production",
+      "name": "Symbolic Production",
+      "alternateName": "Симболичка производња",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "symbolic-production"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-cultural-representation",
+      "name": "Cultural Representation",
+      "alternateName": "Културна репрезентација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "cultural-representation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-visual-representation",
+      "name": "Visual Representation",
+      "alternateName": "Визуелна репрезентација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "visual-representation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-public-ritual-spectacle",
+      "name": "Public Ritual and Spectacle",
+      "alternateName": "Јавни ритуал и спектакл",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "public-ritual-spectacle"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-media-representation",
+      "name": "Media Representation",
+      "alternateName": "Медијска репрезентација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "media-representation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-identity-production",
+      "name": "Identity Production",
+      "alternateName": "Производња идентитета",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "identity-production"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-national-identity",
+      "name": "National Identity",
+      "alternateName": "Национални идентитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "national-identity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-yugoslav-identity",
+      "name": "Yugoslav Identity",
+      "alternateName": "Југословенски идентитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "yugoslav-identity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-local-identity",
+      "name": "Local Identity",
+      "alternateName": "Локални идентитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "local-identity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-invented-tradition",
+      "name": "Invented Tradition",
+      "alternateName": "Измишљена традиција",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "invented-tradition"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-memory-authority",
+      "name": "Memory and Authority",
+      "alternateName": "Памћење и ауторитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "memory-authority"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-collective-memory",
+      "name": "Collective Memory",
+      "alternateName": "Колективно памћење",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "collective-memory"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-cultural-authority",
+      "name": "Cultural Authority",
+      "alternateName": "Културни ауторитет",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "cultural-authority"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-public-space",
+      "name": "Public Space",
+      "alternateName": "Јавни простор",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "public-space"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-political-representation",
+      "name": "Political Representation",
+      "alternateName": "Политичка репрезентација",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
+      },
+      "termCode": "political-representation"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#webpage",
+      "name": "Национална идеологија и интелектуалне расправе",
+      "alternateName": "National Ideology and Intellectual Debates",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "description": "Истраживачки кластер о националној идеологији као променљивом пољу политичке мисли, интелектуалног ангажмана, културног национализма, идеолошких сукоба и јавних употреба прошлости у Србији и Југославији.",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#research-cluster"
+      },
+      "dateModified": "2026-09-25"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#research-cluster",
+      "name": "Национална идеологија и интелектуалне расправе",
+      "alternateName": "National Ideology and Intellectual Debates",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569355",
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "description": "Кластер прати националну идеологију као историјски променљив репертоар идеја, симбола и пракси који се обликује кроз интелектуални ангажман, јавну расправу, грађанско удруживање, црквену јавност и спорна тумачења прошлости.",
+      "temporalCoverage": "20th century",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Serbia",
+          "alternateName": "Србија",
+          "sameAs": "https://www.wikidata.org/wiki/Q403"
+        },
+        {
+          "@type": "Place",
+          "name": "Yugoslavia",
+          "alternateName": "Југославија"
+        },
+        {
+          "@type": "Place",
+          "name": "Čačak",
+          "alternateName": "Чачак",
+          "sameAs": "https://www.wikidata.org/wiki/Q188512"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "mentions": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/zvonko-vuckovic-ratna-biografija.html#work"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/brave-partisans-evil-chetniks.html#work"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/zlato-cetnika-i-partizana.html#work"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html#work"
+        }
+      ],
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+        }
+      ],
+      "dateModified": "2026-09-25"
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set",
+      "name": "National Ideology and Intellectual Debates — Concept Set",
+      "alternateName": "Национална идеологија и интелектуалне расправе — скуп концепата",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#conceptual-network",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-ideology"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-production"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-political-thought"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-idea"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-engagement"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-ideological-conflict"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-public-debate"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-orthodox-antimodernism"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-anti-communism"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-cultural-nationalism"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-mobilisation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-civic-association"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-covenantal-community"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-contested-past"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-political-myth"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-historical-legitimation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-public-uses-of-history"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-ideology",
+      "name": "National Ideology",
+      "alternateName": "Национална идеологија",
+      "termCode": "national-ideology",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-ideology"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-production",
+      "name": "Intellectual Production",
+      "alternateName": "Интелектуална производња",
+      "termCode": "intellectual-production",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-production",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-ideology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-political-thought",
+      "name": "Political Thought",
+      "alternateName": "Политичка мисао",
+      "termCode": "political-thought",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-political-thought",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-production"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-idea",
+      "name": "National Idea",
+      "alternateName": "Национална идеја",
+      "termCode": "national-idea",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-idea",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-production"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-engagement",
+      "name": "Intellectual Engagement",
+      "alternateName": "Интелектуални ангажман",
+      "termCode": "intellectual-engagement",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-engagement",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-production"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-ideological-conflict",
+      "name": "Ideological Conflict",
+      "alternateName": "Идеолошки сукоб",
+      "termCode": "ideological-conflict",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-ideological-conflict",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-ideology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-public-debate",
+      "name": "Public Debate",
+      "alternateName": "Јавна расправа",
+      "termCode": "public-debate",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-public-debate",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-ideological-conflict"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-orthodox-antimodernism",
+      "name": "Orthodox Anti-modernism",
+      "alternateName": "Православни антимодернизам",
+      "termCode": "orthodox-antimodernism",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-orthodox-antimodernism",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-ideological-conflict"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-anti-communism",
+      "name": "Anti-communism",
+      "alternateName": "Антикомунизам",
+      "termCode": "anti-communism",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-anti-communism",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-ideological-conflict"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-cultural-nationalism",
+      "name": "Cultural Nationalism",
+      "alternateName": "Културни национализам",
+      "termCode": "cultural-nationalism",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-cultural-nationalism",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-ideology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-mobilisation",
+      "name": "National Mobilisation",
+      "alternateName": "Национална мобилизација",
+      "termCode": "national-mobilisation",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-mobilisation",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-cultural-nationalism"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-civic-association",
+      "name": "Civic Association",
+      "alternateName": "Грађанско удруживање",
+      "termCode": "civic-association",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-civic-association",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-cultural-nationalism"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-covenantal-community",
+      "name": "Covenantal Community",
+      "alternateName": "Заветна заједница",
+      "termCode": "covenantal-community",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-covenantal-community",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-cultural-nationalism"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-contested-past",
+      "name": "Contested Past",
+      "alternateName": "Спорна прошлост",
+      "termCode": "contested-past",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-contested-past",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-ideology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-political-myth",
+      "name": "Political Myth",
+      "alternateName": "Политички мит",
+      "termCode": "political-myth",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-political-myth",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-contested-past"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-historical-legitimation",
+      "name": "Historical Legitimation",
+      "alternateName": "Историјска легитимација",
+      "termCode": "historical-legitimation",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-historical-legitimation",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-contested-past"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-public-uses-of-history",
+      "name": "Public Uses of History",
+      "alternateName": "Јавне употребе историје",
+      "termCode": "public-uses-of-history",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
+      },
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-public-uses-of-history",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-contested-past"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#webpage",
+      "name": "Политички ритуали и симболичка политика",
+      "alternateName": "Political Rituals and Symbolic Politics",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html",
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "description": "Истраживачки кластер о јавним церемонијама, владарским посетама, династичкој репрезентацији, додели одликовања, спектаклу, политичкој лојалности, култовима, местима памћења и симболичкој легитимацији власти у модерној Србији.",
+      "keywords": [
+        "политички ритуали",
+        "симболичка политика",
+        "модерна Србија",
+        "јавне церемоније",
+        "владарске посете",
+        "династичка репрезентација",
+        "додела одликовања",
+        "ордени и медаље",
+        "ефемерни спектакл",
+        "политичка лојалност",
+        "политичка легитимација",
+        "места памћења",
+        "јавни простор",
+        "меморијални ритуали",
+        "political rituals",
+        "symbolic politics",
+        "modern Serbia",
+        "royal visits",
+        "dynastic representation",
+        "awarding of decorations",
+        "orders and medals",
+        "places of memory"
+      ],
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster"
+      },
+      "dateModified": "2026-09-25"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster",
       "name": "Политички ритуали и симболичка политика у модерној Србији",
       "alternateName": "Political Rituals and Symbolic Politics in Modern Serbia",
       "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html",
       "sameAs": "https://www.wikidata.org/wiki/Q139413904",
-      "inDefinedTermSet": {
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "description": "Истраживачки кластер о политичким ритуалима, јавним церемонијама, владарским посетама, династичкој репрезентацији, додели одликовања, политичкој лојалности, култовима, митским местима, јавном простору и симболичкој легитимацији власти у модерној Србији.",
+      "temporalCoverage": "19th century/20th century",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Serbia",
+          "alternateName": "Србија",
+          "sameAs": "https://www.wikidata.org/wiki/Q403"
+        },
+        {
+          "@type": "Place",
+          "name": "Southeast Europe"
+        }
+      ],
+      "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "political rituals"
+        },
+        {
+          "@type": "Thing",
+          "name": "symbolic politics"
+        },
+        {
+          "@type": "Thing",
+          "name": "modern Serbia"
+        },
+        {
+          "@type": "Thing",
+          "name": "public ceremonies"
+        },
+        {
+          "@type": "Thing",
+          "name": "royal visits"
+        },
+        {
+          "@type": "Thing",
+          "name": "dynastic representation"
+        },
+        {
+          "@type": "Thing",
+          "name": "ephemeral spectacle"
+        },
+        {
+          "@type": "Thing",
+          "name": "political loyalty"
+        },
+        {
+          "@type": "Thing",
+          "name": "political legitimacy"
+        },
+        {
+          "@type": "Thing",
+          "name": "awarding of decorations"
+        },
+        {
+          "@type": "Thing",
+          "name": "orders and medals"
+        },
+        {
+          "@type": "Thing",
+          "name": "places of memory"
+        },
+        {
+          "@type": "Thing",
+          "name": "public space"
+        },
+        {
+          "@type": "Thing",
+          "name": "memorial rituals"
+        }
+      ],
+      "keywords": [
+        "политички ритуали",
+        "симболичка политика",
+        "модерна Србија",
+        "монархија",
+        "јавне церемоније",
+        "династичка репрезентација",
+        "владарске посете",
+        "ефемерни спектакл",
+        "политичка лојалност",
+        "политичка легитимација",
+        "додела одликовања",
+        "култови",
+        "политички митови",
+        "места памћења",
+        "меморијални ритуали",
+        "political rituals",
+        "symbolic politics",
+        "modern Serbia",
+        "monarchy",
+        "public ceremonies",
+        "dynastic representation",
+        "royal visits",
+        "ephemeral spectacle",
+        "political loyalty",
+        "political legitimacy",
+        "awarding of decorations",
+        "orders and medals",
+        "cults",
+        "political myths",
+        "places of memory",
+        "memorial rituals"
+      ],
+      "mentions": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Сјај завичајне свечаности: посета краља Александра и краљице Драге Чачку 1901. године",
+          "alternateName": "Splendor of Homeland Festivity: Visit of King Alexander and Queen Draga to Čačak in 1901",
+          "sameAs": "https://www.wikidata.org/wiki/Q138479386"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Увек верни поданици: списак лица одликованих поводом рођендана краљице Драге 11. септембра 1901. године",
+          "alternateName": "Always Faithful Subjects: A List of Persons Who Were Awarded an Order on the Occasion of Queen Draga’s Birthday on 11 September 1901",
+          "sameAs": "https://www.wikidata.org/wiki/Q138479916"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Таково и Равна гора: стара и нова митска места",
+          "alternateName": "Takovo and Ravna Gora: The Old and New Mythical Places",
+          "sameAs": "https://www.wikidata.org/wiki/Q139586524"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "„Патриотски” и „стварни” простор: област планине Рудник у Краљевини Југославији (1918–1941)",
+          "alternateName": "‘Patriotic’ and ‘Real’ Area: Region of Mountain Rudnik in the Kingdom of Yugoslavia (1918–1941)",
+          "sameAs": "https://www.wikidata.org/wiki/Q139587924"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Хероизација сликарке Надежде Петровић (1915–1941)",
+          "alternateName": "Heroization of the Painter Nadežda Petrović (1915–1941)",
+          "sameAs": "https://www.wikidata.org/wiki/Q139593533"
+        }
+      ],
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "dateModified": "2026-09-25"
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set",
+      "name": "Political Rituals and Symbolic Politics — Concept Set",
+      "alternateName": "Политички ритуали и симболичка политика — скуп концепата",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#conceptual-network",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-ritual"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-performance"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-public-ceremony"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-royal-visit"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ephemeral-spectacle"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-communication"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ritualized-loyalty"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-dynastic-representation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-symbolic-legitimation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-authority"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-public-space"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-politics-of-naming"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-memorialization"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-site-of-memory"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-myth"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-sacralization"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-ritual",
+      "name": "Political Ritual",
+      "alternateName": "Политички ритуал",
+      "termCode": "political-ritual",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "rootConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-ritual"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-performance",
+      "name": "Political Performance",
+      "alternateName": "Политички перформанс",
+      "termCode": "political-performance",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "organizationalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-performance",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-ritual"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-public-space"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-public-ceremony",
+      "name": "Public Ceremony",
+      "alternateName": "Јавна церемонија",
+      "termCode": "public-ceremony",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-public-ceremony",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-performance"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-royal-visit",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ephemeral-spectacle"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-royal-visit",
+      "name": "Royal Visit",
+      "alternateName": "Владарска посета",
+      "termCode": "royal-visit",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-royal-visit",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-public-ceremony"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-public-ceremony",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-communication",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ephemeral-spectacle",
+      "name": "Ephemeral Spectacle",
+      "alternateName": "Ефемерни спектакл",
+      "termCode": "ephemeral-spectacle",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ephemeral-spectacle",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-performance"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-public-ceremony",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-dynastic-representation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-communication",
+      "name": "Political Communication",
+      "alternateName": "Политичка комуникација",
+      "termCode": "political-communication",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-communication",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-performance"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-royal-visit",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty",
+      "name": "Political Loyalty",
+      "alternateName": "Политичка лојалност",
+      "termCode": "political-loyalty",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "organizationalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-ritual"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-royal-visit",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-communication",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-symbolic-legitimation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ritualized-loyalty",
+      "name": "Ritualized Loyalty",
+      "alternateName": "Ритуализована лојалност",
+      "termCode": "ritualized-loyalty",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ritualized-loyalty",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-dynastic-representation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-dynastic-representation",
+      "name": "Dynastic Representation",
+      "alternateName": "Династичка репрезентација",
+      "termCode": "dynastic-representation",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-dynastic-representation",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ephemeral-spectacle",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ritualized-loyalty",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-symbolic-legitimation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-symbolic-legitimation",
+      "name": "Symbolic Legitimation",
+      "alternateName": "Симболичка легитимација",
+      "termCode": "symbolic-legitimation",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "crossClusterBridge",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-symbolic-legitimation",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-dynastic-representation",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-authority",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-sacralization"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-authority",
+      "name": "Political Authority",
+      "alternateName": "Политички ауторитет",
+      "termCode": "political-authority",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-authority",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-ritual"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-symbolic-legitimation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-public-space",
+      "name": "Political Public Space",
+      "alternateName": "Политички јавни простор",
+      "termCode": "political-public-space",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "organizationalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-public-space",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-ritual"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-performance"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-politics-of-naming",
+      "name": "Politics of Naming",
+      "alternateName": "Политика именовања",
+      "termCode": "politics-of-naming",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-politics-of-naming",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-public-space"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-memorialization"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-memorialization",
+      "name": "Memorialization",
+      "alternateName": "Меморијализација",
+      "termCode": "memorialization",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "crossClusterBridge",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-memorialization",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-public-space"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-politics-of-naming",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-site-of-memory"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-site-of-memory",
+      "name": "Site of Memory",
+      "alternateName": "Место памћења",
+      "termCode": "site-of-memory",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "crossClusterBridge",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-site-of-memory",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-memorialization"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-memorialization",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-myth"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-myth",
+      "name": "Political Myth",
+      "alternateName": "Политички мит",
+      "termCode": "political-myth",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-myth",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-ritual"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-sacralization",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-site-of-memory"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-sacralization",
+      "name": "Political Sacralization",
+      "alternateName": "Политичка сакрализација",
+      "termCode": "political-sacralization",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-set"
+      },
+      "additionalType": "crossClusterBridge",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-sacralization",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-myth"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-myth",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-symbolic-legitimation"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Религијски живот и друштвене праксе",
+      "alternateName": "Religious Life and Social Practices",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "description": "Истраживачка целина о религиозности, секуларизацији, сакралним просторима, породичном памћењу, црквеној јавности и друштвеним праксама у чачанском крају и западној Србији.",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "about": [
+        "religious life",
+        "religiosity",
+        "secularization",
+        "sacred spaces",
+        "social practices",
+        "private memory",
+        "popular piety",
+        "church public discourse",
+        "Orthodox anti-modernism",
+        "Čačak region",
+        "western Serbia"
+      ],
+      "keywords": "religious life, religiosity, secularization, sacred spaces, church heritage, Čačak region, western Serbia, Ovčar–Kablar monasteries, Church of the Holy Ascension, Monastery of Stjenik, Vujan Monastery, private memory, family memory, popular piety, tombstones, roadside memorials, epitaphs, cult of saints, church periodicals, Žiča Eparchy, Nikolaj Velimirović, Orthodox anti-modernism, tradition and modernity, sacrifice for the homeland, war, patriotism, Vidovdan ethics, Kosovo memory, repentance, Christian state",
+      "mentions": [
+        {
+          "@type": "CreativeWork",
+          "name": "„Дунули су вихорни ветрови”: ставови епископа Николаја Велимировића о Јеврејима, либерализму, комунизму и нацизму у штампи Жичке епархије пред Други светски рат",
+          "alternateName": "“Storm Winds Blew”: Bishop Nikolaj Velimirović’s Attitudes toward Jews, Liberalism, Communism, and Nazism in the Žiča Eparchy Press before World War II",
+          "sameAs": "https://www.wikidata.org/wiki/Q139514358",
+          "url": "https://milos-timotijevic.github.io/articles/dunuli-su-vihorni-vetrovi-nikolaj-velimirovic.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Ставови епископа Николаја Велимировића о потреби жртвовања за отаџбину (1936–1941)",
+          "alternateName": "Bishop Nikolaj Velimirović’s Attitudes on the Need for Sacrifice for the Homeland (1936–1941)",
+          "sameAs": "https://www.wikidata.org/wiki/Q141252379",
+          "url": "https://milos-timotijevic.github.io/articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Interwar Attitudes of Bishop Nikolaj Velimirović toward the Communists",
+          "alternateName": "Међуратни ставови епископа Николаја Велимировића према комунистима",
+          "sameAs": "https://www.wikidata.org/wiki/Q138841640",
+          "url": "https://milos-timotijevic.github.io/conference-papers/interwar-attitudes-bishop-nikolaj-velimirovic-communists.html"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "Cultural Heritage, Museums and Public History",
+          "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139570560"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "Culture, Nationalism and Symbolic Representation",
+          "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139569852"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "Political Rituals and Symbolic Politics",
+          "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139413904"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "National Ideology and Intellectual Debates",
+          "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139569355"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "War, Propaganda and Memory",
+          "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html",
+          "sameAs": "https://www.wikidata.org/wiki/Q139569742"
+        }
+      ],
+      "dateModified": "2026-09-25",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#webpage",
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#research-cluster"
       }
     },
     {
-      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#cluster",
-      "@type": "DefinedTerm",
-      "termCode": "national-ideology-intellectual-debates",
-      "name": "Национална идеологија и интелектуалне расправе у модерној Србији",
-      "alternateName": "National Ideology and Intellectual Debates in Modern Serbia",
-      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
-      "sameAs": "https://www.wikidata.org/wiki/Q139569355",
-      "inDefinedTermSet": {
-        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
-      }
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#cluster",
-      "@type": "DefinedTerm",
-      "termCode": "war-propaganda-memory",
-      "name": "Рат, пропаганда и култура сећања у Србији 20. века",
-      "alternateName": "War, Propaganda and Memory in 20th-Century Serbia",
-      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html",
-      "sameAs": "https://www.wikidata.org/wiki/Q139569742",
-      "inDefinedTermSet": {
-        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
-      }
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#cluster",
-      "@type": "DefinedTerm",
-      "termCode": "culture-nationalism-symbolic-representation",
-      "name": "Култура, национализам и симболичка репрезентација у модерној Србији",
-      "alternateName": "Culture, Nationalism and Symbolic Representation in Modern Serbia",
-      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
-      "sameAs": "https://www.wikidata.org/wiki/Q139569852",
-      "inDefinedTermSet": {
-        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
-      }
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#cluster",
-      "@type": "DefinedTerm",
-      "termCode": "cultural-heritage-museums-public-history",
-      "name": "Културно наслеђе, музеји и јавна историја у модерној Србији",
-      "alternateName": "Cultural Heritage, Museums and Public History in Modern Serbia",
-      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
-      "sameAs": "https://www.wikidata.org/wiki/Q139570560",
-      "inDefinedTermSet": {
-        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
-      }
-    },
-    {
-      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#cluster",
-      "@type": "DefinedTerm",
-      "termCode": "religious-life-social-practices",
-      "name": "Религијски живот и друштвене праксе у модерној Србији",
-      "alternateName": "Religious Life and Social Practices in Modern Serbia",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#research-cluster",
+      "@type": "CreativeWork",
+      "name": "Религијски живот и друштвене праксе",
+      "alternateName": "Religious Life and Social Practices",
       "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html",
       "sameAs": "https://www.wikidata.org/wiki/Q139570614",
-      "inDefinedTermSet": {
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "dateModified": "2026-09-25",
+      "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "description": "Истраживачка целина о религиозности, секуларизацији, сакралним просторима, породичном памћењу, црквеној јавности и друштвеним праксама у чачанском крају и западној Србији."
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set",
+      "name": "Religious Life and Social Practices — Concept Set",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religiosity"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-secularization"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-revival"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-landscape"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-monastic-network"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-urban-sacred-space"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacralization-of-place"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-material-religion"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-death-memorial-practice"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion",
+      "name": "Lived Religion",
+      "alternateName": "Живљена религија",
+      "termCode": "lived-religion",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "rootConcept"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change",
+      "name": "Religious Change",
+      "alternateName": "Религијска промена",
+      "termCode": "religious-change",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "organizationalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religiosity",
+      "name": "Religiosity",
+      "alternateName": "Религиозност",
+      "termCode": "religiosity",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-secularization"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-secularization",
+      "name": "Secularization",
+      "alternateName": "Секуларизација",
+      "termCode": "secularization",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-revival"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-revival",
+      "name": "Religious Revival",
+      "alternateName": "Религијска обнова",
+      "termCode": "religious-revival",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety",
+      "name": "Public Piety",
+      "alternateName": "Јавна побожност",
+      "termCode": "public-piety",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "cross-cluster bridge",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space",
+      "name": "Sacred Space",
+      "alternateName": "Сакрални простор",
+      "termCode": "sacred-space",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "organizationalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-landscape",
+      "name": "Sacred Landscape",
+      "alternateName": "Сакрални пејзаж",
+      "termCode": "sacred-landscape",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain",
+      "name": "Holy Mountain",
+      "alternateName": "Света гора",
+      "termCode": "holy-mountain",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-landscape"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-monastic-network"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-monastic-network",
+      "name": "Monastic Network",
+      "alternateName": "Монашка мрежа",
+      "termCode": "monastic-network",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-urban-sacred-space",
+      "name": "Urban Sacred Space",
+      "alternateName": "Урбани сакрални простор",
+      "termCode": "urban-sacred-space",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacralization-of-place",
+      "name": "Sacralization of Place",
+      "alternateName": "Сакрализација места",
+      "termCode": "sacralization-of-place",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety",
+      "name": "Popular Piety",
+      "alternateName": "Народна побожност",
+      "termCode": "popular-piety",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-material-religion",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-material-religion",
+      "name": "Material Religion",
+      "alternateName": "Материјална религија",
+      "termCode": "material-religion",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-death-memorial-practice"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory",
+      "name": "Religious Memory",
+      "alternateName": "Религијско памћење",
+      "termCode": "religious-memory",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "cross-cluster bridge",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-death-memorial-practice",
+      "name": "Death and Memorial Practice",
+      "alternateName": "Смрт и меморијална пракса",
+      "termCode": "death-memorial-practice",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints",
+      "name": "Cult of Saints",
+      "alternateName": "Култ светитеља",
+      "termCode": "cult-of-saints",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "cross-cluster bridge",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition",
+      "name": "Invented Tradition",
+      "alternateName": "Измишљена традиција",
+      "termCode": "invented-tradition",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "cross-cluster bridge",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#webpage",
+      "name": "Рат, пропаганда и култура сећања",
+      "alternateName": "War, Propaganda and Memory",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "description": "Истраживачка целина о Другом светском рату у Србији и Југославији: оружаном сукобу, окупацији, ратној економији, пропаганди, Холокаусту, послератном наслеђу и култури сећања.",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster"
+      },
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-armed-conflict-resistance"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-revolutionary-transfer-postwar-retribution"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-economy-material-resources"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-propaganda-discourse"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-holocaust-persecution-rescue"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-memory-contested-pasts"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/mitovi-novije-srpske-istorije.html"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/catalogues/sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theoretical-registry"
+        }
+      ],
+      "keywords": "Second World War, Serbia, Yugoslavia, occupation, resistance, civil conflict, wartime economy, propaganda, collaborationist press, Allied air war, Operation Halyard, Holocaust, political myths, contested pasts, memory culture, public history",
+      "citation": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e01"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e02"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e03"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e04"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e05"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e06"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e07"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e08"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e09"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e10"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e12"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e13"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e14"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e15"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e16"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e17"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e18"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e19"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e20"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e21"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e22"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e23"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e24"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e25"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e26"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e27"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e28"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e29"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e30"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e31"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e32"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e33"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e34"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e35"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e36"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e37"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e38"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e40"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e41"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e42"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e43"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster",
+      "@type": "CreativeWork",
+      "name": "Рат, пропаганда и култура сећања",
+      "alternateName": "War, Propaganda and Memory",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569742",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "dateModified": "2026-09-25",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+      },
+      "description": "Истраживачка целина о Другом светском рату у Србији и Југославији: оружаном сукобу, окупацији, ратној економији, пропаганди, Холокаусту, послератном наслеђу и култури сећања."
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set",
+      "name": "War, Propaganda and Memory — Concept Registry",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-armed-conflict-resistance"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-resistance-movements-civil-conflict"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-allied-air-war-rescue"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-revolutionary-transfer-postwar-retribution"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-governance-social-control"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-everyday-life-mobility"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-gender-war"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-economy-material-resources"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-propaganda-discourse"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-collaborationist-press-propaganda"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-enemy-images-crime-moral-order"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-holocaust-persecution-rescue"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-memory-contested-pasts"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-contested-wartime-legacies-historiography"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory",
+      "termCode": "war-propaganda-memory",
+      "name": "Рат, пропаганда и култура сећања",
+      "alternateName": "War, Propaganda and Memory",
+      "description": "Истраживачки оквир који повезује ратно искуство, окупацију, пропаганду и каснија тумачења Другог светског рата.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-armed-conflict-resistance",
+      "termCode": "armed-conflict-resistance",
+      "name": "Оружани сукоб и отпор",
+      "alternateName": "Armed Conflict and Resistance",
+      "description": "Истраживање оружаних формација, отпора, војних операција и међусобних сукоба у условима окупације.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-resistance-movements-civil-conflict",
+      "termCode": "resistance-movements-civil-conflict",
+      "name": "Покрети отпора и грађански сукоб",
+      "alternateName": "Resistance Movements and Civil Conflict",
+      "description": "Односи између покрета отпора, њихов војни и политички сукоб и динамика грађанског рата.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-armed-conflict-resistance"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-revolutionary-transfer-postwar-retribution"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-contested-wartime-legacies-historiography"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-allied-air-war-rescue",
+      "termCode": "allied-air-war-rescue",
+      "name": "Савезнички ваздушни рат и спасавање авијатичара",
+      "alternateName": "Allied Air War and Aircrew Rescue",
+      "description": "Савезничко бомбардовање, оборене ваздухопловне посаде, њихово спасавање и евакуација и везе са локалним покретима отпора.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-armed-conflict-resistance"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-collaborationist-press-propaganda"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-revolutionary-transfer-postwar-retribution",
+      "termCode": "revolutionary-transfer-postwar-retribution",
+      "name": "Револуционарни пренос власти и послератна одмазда",
+      "alternateName": "Revolutionary Transfer of Power and Postwar Retribution",
+      "description": "Слом ратних структура 1944–1945, успостављање нове власти и облици послератне репресије и одмазде.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-resistance-movements-civil-conflict"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society",
+      "termCode": "occupation-regime-society",
+      "name": "Окупациони режим и друштво",
+      "alternateName": "Occupation Regime and Society",
+      "description": "Институционални, друштвени и свакодневни поредак створен под окупацијом и његово деловање на локалне заједнице.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-holocaust-persecution-rescue"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-governance-social-control",
+      "termCode": "occupation-governance-social-control",
+      "name": "Окупациона управа и социјална контрола",
+      "alternateName": "Occupation Governance and Social Control",
+      "description": "Механизми локалне управе, надзора, регулисања простора, становништва и јавног понашања у окупационим условима.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-everyday-life-mobility",
+      "termCode": "wartime-everyday-life-mobility",
+      "name": "Ратна свакодневица и мобилност",
+      "alternateName": "Wartime Everyday Life and Mobility",
+      "description": "Свакодневне праксе преживљавања, кретања, снабдевања, саобраћаја и тумачења кризе у ратном друштву.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-economy-material-resources"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-gender-war",
+      "termCode": "gender-war",
+      "name": "Род и рат",
+      "alternateName": "Gender and War",
+      "description": "Родно специфична искуства рата, окупације, насиља, интимних односа, мобилизације и јавног кажњавања.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-enemy-images-crime-moral-order"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-economy-material-resources",
+      "termCode": "wartime-economy-material-resources",
+      "name": "Ратна економија и материјални ресурси",
+      "alternateName": "Wartime Economy and Material Resources",
+      "description": "Материјална основа ратног деловања: финансирање, новац, племенити метали, снабдевање и економски ресурси.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-everyday-life-mobility"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-propaganda-discourse",
+      "termCode": "propaganda-discourse",
+      "name": "Пропаганда и дискурс",
+      "alternateName": "Propaganda and Discourse",
+      "description": "Производња политичких и моралних значења кроз ратну пропаганду, језик и медијске репрезентације.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-collaborationist-press-propaganda",
+      "termCode": "collaborationist-press-propaganda",
+      "name": "Колаборационистичка штампа и пропаганда",
+      "alternateName": "Collaborationist Press and Propaganda",
+      "description": "Институционални и медијски систем колаборационистичке штампе и њена улога у пропагандном обликовању јавности.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-propaganda-discourse"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-allied-air-war-rescue"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-enemy-images-crime-moral-order",
+      "termCode": "enemy-images-crime-moral-order",
+      "name": "Слика непријатеља, криминал и морални поредак",
+      "alternateName": "Enemy Images, Crime and Moral Order",
+      "description": "Дискурзивна конструкција непријатеља, криминала, девијантности, насиља и пожељног јавног морала.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-propaganda-discourse"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-gender-war"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-holocaust-persecution-rescue",
+      "termCode": "holocaust-persecution-rescue",
+      "name": "Холокауст, прогон и спасавање",
+      "alternateName": "Holocaust, Persecution and Rescue",
+      "description": "Прогон и страдање Јевреја, бекство, скривање, помоћ и спасавање у локалним и ширим окупационим контекстима.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-occupation-regime-society"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-memory-contested-pasts",
+      "termCode": "memory-contested-pasts",
+      "name": "Сећање и спорне прошлости",
+      "alternateName": "Memory and Contested Pasts",
+      "description": "Начини на које се рат накнадно памти, интерпретира и оспорава у историографији, јавности и институцијама сећања.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-war-propaganda-memory"
+      }
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history",
+      "termCode": "political-myth-public-uses-history",
+      "name": "Политички мит и јавна употреба историје",
+      "alternateName": "Political Myth and Public Uses of History",
+      "description": "Конструисање политичких митова и употреба ратне прошлости у јавном, меморијалном и политичком простору.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-memory-contested-pasts"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-allied-air-war-rescue"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-wartime-economy-material-resources"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-contested-wartime-legacies-historiography"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "DefinedTerm",
+        "skos:Concept"
+      ],
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-contested-wartime-legacies-historiography",
+      "termCode": "contested-wartime-legacies-historiography",
+      "name": "Спорно ратно наслеђе и историографске интерпретације",
+      "alternateName": "Contested Wartime Legacies and Historiography",
+      "description": "Сукобљене историографске и јавне интерпретације ратних актера, догађаја и политичко-моралног наслеђа.",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
+      },
+      "broaderConcept": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-memory-contested-pasts"
+      },
+      "relatedConcept": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-resistance-movements-civil-conflict"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,2022 @@
+{
+  "schemaVersion": 1,
+  "dateModified": "2026-09-25",
+  "cluster": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster",
+  "description": "Machine-readable relation registries externalized from the War, Propaganda and Memory HTML page to keep the delivery page within the site maintainability budget.",
+  "registries": {
+    "publication-concept-crosswalk": {
+      "version": "1.0",
+      "dateModified": "2026-09-25",
+      "conceptSet": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set",
+      "records": [
+        {
+          "wikidata": "Q139412435",
+          "work": "https://milos-timotijevic.github.io/books/misija-halyard.html",
+          "primaryConcept": "allied-air-war-rescue",
+          "secondaryConcepts": [
+            "armed-conflict-resistance",
+            "propaganda-discourse"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139378954",
+          "work": "https://milos-timotijevic.github.io/books/zvonko-vuckovic-ratna-biografija.html",
+          "primaryConcept": "resistance-movements-civil-conflict",
+          "secondaryConcepts": [
+            "armed-conflict-resistance",
+            "contested-wartime-legacies-historiography"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139119475",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139119475",
+          "primaryConcept": "resistance-movements-civil-conflict",
+          "secondaryConcepts": [
+            "armed-conflict-resistance",
+            "occupation-regime-society"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139119914",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139119914",
+          "primaryConcept": "resistance-movements-civil-conflict",
+          "secondaryConcepts": [
+            "armed-conflict-resistance",
+            "occupation-regime-society"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139146251",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139146251",
+          "primaryConcept": "resistance-movements-civil-conflict",
+          "secondaryConcepts": [
+            "revolutionary-transfer-postwar-retribution",
+            "contested-wartime-legacies-historiography"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139496274",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139496274",
+          "primaryConcept": "resistance-movements-civil-conflict",
+          "secondaryConcepts": [
+            "armed-conflict-resistance",
+            "occupation-regime-society"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139496415",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139496415",
+          "primaryConcept": "revolutionary-transfer-postwar-retribution",
+          "secondaryConcepts": [
+            "resistance-movements-civil-conflict",
+            "contested-wartime-legacies-historiography"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139550827",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139550827",
+          "primaryConcept": "contested-wartime-legacies-historiography",
+          "secondaryConcepts": [
+            "memory-contested-pasts",
+            "resistance-movements-civil-conflict"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q138658663",
+          "work": "https://milos-timotijevic.github.io/books/zlato-cetnika-i-partizana.html",
+          "primaryConcept": "wartime-economy-material-resources",
+          "secondaryConcepts": [
+            "political-myth-public-uses-history",
+            "memory-contested-pasts"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q138654699",
+          "work": "https://milos-timotijevic.github.io/articles/finansije-jvuo-u-srbiji-1941-1944.html",
+          "primaryConcept": "wartime-economy-material-resources",
+          "secondaryConcepts": [
+            "resistance-movements-civil-conflict",
+            "armed-conflict-resistance"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139540111",
+          "work": "https://milos-timotijevic.github.io/articles/sudbina-srebra-uzicke-republike.html",
+          "primaryConcept": "wartime-economy-material-resources",
+          "secondaryConcepts": [
+            "political-myth-public-uses-history",
+            "memory-contested-pasts"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139549522",
+          "work": "https://milos-timotijevic.github.io/articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html",
+          "primaryConcept": "occupation-regime-society",
+          "secondaryConcepts": [
+            "wartime-economy-material-resources",
+            "wartime-everyday-life-mobility"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q138837172",
+          "work": "https://milos-timotijevic.github.io/conference-papers/grad-i-okupacija-svakodnevni-zivot-cacka-1941.html",
+          "primaryConcept": "occupation-governance-social-control",
+          "secondaryConcepts": [
+            "occupation-regime-society",
+            "wartime-everyday-life-mobility"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q138654626",
+          "work": "https://milos-timotijevic.github.io/articles/tramvaj-fijaker-bicikl-okupirani-beograd-1941.html",
+          "primaryConcept": "wartime-everyday-life-mobility",
+          "secondaryConcepts": [
+            "occupation-governance-social-control",
+            "occupation-regime-society"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139497183",
+          "work": "https://milos-timotijevic.github.io/articles/zena-i-rat-druga-strana-okupacije-1941-1945-cacanski-kraj.html",
+          "primaryConcept": "gender-war",
+          "secondaryConcepts": [
+            "occupation-regime-society",
+            "wartime-everyday-life-mobility"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139545635",
+          "work": "https://milos-timotijevic.github.io/articles/nebeski-znaci-zemaljske-prilike-srbija-1941.html",
+          "primaryConcept": "wartime-everyday-life-mobility",
+          "secondaryConcepts": [
+            "occupation-regime-society"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q138849395",
+          "work": "https://milos-timotijevic.github.io/conference-papers/dodjite-da-locete-srpsku-krv-saveznicko-bombardovanje-srbije-1943-1944-propaganda.html",
+          "primaryConcept": "collaborationist-press-propaganda",
+          "secondaryConcepts": [
+            "propaganda-discourse",
+            "allied-air-war-rescue"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139549107",
+          "work": "https://milos-timotijevic.github.io/articles/borba-protiv-razbojnika-silovatelja-zver-zena-komunisti-okupirana-srbija-1941.html",
+          "primaryConcept": "enemy-images-crime-moral-order",
+          "secondaryConcepts": [
+            "collaborationist-press-propaganda",
+            "gender-war"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139549166",
+          "work": "https://milos-timotijevic.github.io/articles/grad-i-zlocin-kriminal-gradovi-okupirana-srbija-1941.html",
+          "primaryConcept": "enemy-images-crime-moral-order",
+          "secondaryConcepts": [
+            "collaborationist-press-propaganda",
+            "wartime-everyday-life-mobility"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139549372",
+          "work": "https://milos-timotijevic.github.io/articles/krv-medju-bracom-kriminal-sela-okupirana-srbija-1941.html",
+          "primaryConcept": "enemy-images-crime-moral-order",
+          "secondaryConcepts": [
+            "collaborationist-press-propaganda",
+            "wartime-everyday-life-mobility"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139549448",
+          "work": "https://milos-timotijevic.github.io/articles/varalice-dzeparosi-prostitutke-kriminal-okupirana-srbija-1941.html",
+          "primaryConcept": "enemy-images-crime-moral-order",
+          "secondaryConcepts": [
+            "collaborationist-press-propaganda",
+            "wartime-everyday-life-mobility"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139550037",
+          "work": "https://milos-timotijevic.github.io/articles/stradanje-spasavanje-jevreja-cacak-1941-1944.html",
+          "primaryConcept": "holocaust-persecution-rescue",
+          "secondaryConcepts": [
+            "occupation-regime-society"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139550124",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139550124",
+          "primaryConcept": "holocaust-persecution-rescue",
+          "secondaryConcepts": [],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139413108",
+          "work": "https://milos-timotijevic.github.io/articles/jugoslovenska-vojska-u-otadzbini-americki-avijaticari-b24-liberator-rakova-cacak.html",
+          "primaryConcept": "allied-air-war-rescue",
+          "secondaryConcepts": [
+            "armed-conflict-resistance",
+            "resistance-movements-civil-conflict"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139413207",
+          "work": "https://milos-timotijevic.github.io/articles/ikona-halyard.html",
+          "primaryConcept": "political-myth-public-uses-history",
+          "secondaryConcepts": [
+            "memory-contested-pasts",
+            "allied-air-war-rescue"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139385880",
+          "work": "https://milos-timotijevic.github.io/books/brave-partisans-evil-chetniks.html",
+          "primaryConcept": "contested-wartime-legacies-historiography",
+          "secondaryConcepts": [
+            "memory-contested-pasts",
+            "resistance-movements-civil-conflict"
+          ],
+          "role": "core"
+        },
+        {
+          "wikidata": "Q139439391",
+          "work": "https://milos-timotijevic.github.io/books/mitovi-novije-srpske-istorije.html",
+          "primaryConcept": "political-myth-public-uses-history",
+          "secondaryConcepts": [
+            "memory-contested-pasts",
+            "contested-wartime-legacies-historiography"
+          ],
+          "role": "strong-cross-link"
+        },
+        {
+          "wikidata": "Q139378720",
+          "work": "https://milos-timotijevic.github.io/catalogues/sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html",
+          "primaryConcept": "political-myth-public-uses-history",
+          "secondaryConcepts": [
+            "memory-contested-pasts",
+            "contested-wartime-legacies-historiography"
+          ],
+          "role": "strong-cross-link"
+        }
+      ]
+    },
+    "external-registry": {
+      "version": "1.0",
+      "dateModified": "2026-09-25",
+      "scope": "War, Propaganda and Memory — external comparative registry",
+      "recordCount": 43,
+      "visibleComparativeContextCount": 24,
+      "records": [
+        {
+          "id": "E01",
+          "cat": "A",
+          "author": "Daniel Gashler",
+          "title": "Axis or Allies? Coordinating the Rescuers of Downed Allied Airmen in World War II Yugoslavia",
+          "type": "ScholarlyArticle",
+          "year": 2017,
+          "container": "The Journal of Slavic Military Studies 30/1",
+          "pages": "82–98",
+          "doi": "10.1080/13518046.2017.1271687",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e01",
+          "roleDescriptionSr": "Директни компаратор за организацију спасавања савезничких посада.",
+          "roleDescriptionEn": "Direct comparator for the organization of Allied aircrew rescue."
+        },
+        {
+          "id": "E02",
+          "cat": "A",
+          "author": "Blaž Torkar",
+          "title": "Mission Yugoslavia: The OSS and the Chetnik and Partisan Resistance Movements, 1943–1945",
+          "type": "Book",
+          "year": 2020,
+          "publisher": "McFarland",
+          "isbn": "978-1-4766-8239-6",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e02",
+          "roleDescriptionSr": "Институционални оквир OSS мисија код четничког и партизанског покрета.",
+          "roleDescriptionEn": "Institutional context for OSS missions with both resistance movements."
+        },
+        {
+          "id": "E03",
+          "cat": "A",
+          "author": "Robert J. Donia",
+          "title": "The Forgotten Thousands: The Historiography of World War II Rescues of Allied Airmen in Yugoslavia",
+          "type": "ScholarlyArticle",
+          "year": 2020,
+          "doi": "10.5644/PI2020.186.11",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e03",
+          "roleDescriptionSr": "Историографија спасавања авијатичара и политика сећања.",
+          "roleDescriptionEn": "Historiography of aircrew rescue and politics of memory."
+        },
+        {
+          "id": "E04",
+          "cat": "A",
+          "author": "Kirk Ford",
+          "title": "OSS and the Yugoslav Resistance, 1943–1945",
+          "type": "Book",
+          "year": 1992,
+          "publisher": "Texas A&M University Press",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e04",
+          "roleDescriptionSr": "Основни OSS контекст и савезничко-обавештајни оквир.",
+          "roleDescriptionEn": "Foundational OSS and Allied intelligence context."
+        },
+        {
+          "id": "E05",
+          "cat": "A",
+          "author": "Heather Williams",
+          "title": "Parachutes, Patriots and Partisans: The Special Operations Executive and Yugoslavia, 1941–1945",
+          "type": "Book",
+          "year": 2003,
+          "publisher": "Hurst",
+          "isbn": "1-85065-592-8",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e05",
+          "roleDescriptionSr": "Основни британски/SOE контекст.",
+          "roleDescriptionEn": "Foundational British/SOE context."
+        },
+        {
+          "id": "E06",
+          "cat": "A",
+          "author": "Thomas T. Matteson",
+          "title": "An Analysis of the Circumstances Surrounding the Rescue and Evacuation of Allied Aircrewmen from Yugoslavia, 1941–1945",
+          "type": "Report",
+          "year": 1977,
+          "publisher": "Air War College, Air University, Maxwell Air Force Base",
+          "series": "Research Report No. 128",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e06",
+          "roleDescriptionSr": "Рана документарно-оперативна анализа спасавања и евакуације посада.",
+          "roleDescriptionEn": "Early documentary-operational analysis of aircrew rescue and evacuation."
+        },
+        {
+          "id": "E07",
+          "cat": "A",
+          "author": "William M. Leary",
+          "title": "Fueling the Fires of Resistance: Army Air Forces Special Operations in the Balkans during World War II",
+          "type": "Book",
+          "year": 1995,
+          "publisher": "Air Force History and Museums Program",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e07",
+          "roleDescriptionSr": "Фундаментални контекст специјалних операција USAAF на Балкану.",
+          "roleDescriptionEn": "Foundational context for USAAF special operations in the Balkans."
+        },
+        {
+          "id": "E08",
+          "cat": "A",
+          "author": "Milan Terzić",
+          "title": "Jugoslovenska kraljevska vlada, general Dragoljub Mihailović i savezničko bombardovanje ciljeva u Jugoslaviji 1942–1944",
+          "type": "ScholarlyArticle",
+          "year": 2005,
+          "container": "Tokovi istorije 1–2/2005",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e08",
+          "roleDescriptionSr": "Мост ка савезничком бомбардовању и његовим политичким тумачењима.",
+          "roleDescriptionEn": "Bridge to Allied bombing and its political interpretations."
+        },
+        {
+          "id": "E09",
+          "cat": "B",
+          "author": "Milan Ristović",
+          "title": "Nemački „novi poredak” i Jugoistočna Evropa 1940/41–1944/45",
+          "type": "Book",
+          "year": 2005,
+          "edition": "2. izd.",
+          "isbn": "86-7549-397-5",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e09",
+          "roleDescriptionSr": "Главни макроконтекст немачког „Новог поретка” у Југоисточној Европи.",
+          "roleDescriptionEn": "Major macro-context for the German “New Order” in Southeast Europe."
+        },
+        {
+          "id": "E10",
+          "cat": "B",
+          "author": "Milan Ristović",
+          "title": "Rat i razaranje društva u Srbiji 1941–1945. godine. Skica za jednu društvenu istoriju",
+          "type": "Chapter",
+          "year": 2001,
+          "container": "Dijalog povjesničara–istoričara 3",
+          "pages": "203–219",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e10",
+          "roleDescriptionSr": "Друштвеноисторијски оквир разарања окупираног друштва.",
+          "roleDescriptionEn": "Social-historical framework for the disintegration of occupied society."
+        },
+        {
+          "id": "E11",
+          "cat": "B",
+          "author": "Alexander Prusin",
+          "title": "Serbia under the Swastika: A World War II Occupation",
+          "type": "Book",
+          "year": 2017,
+          "publisher": "University of Illinois Press",
+          "doi": "10.5406/illinois/9780252041068.001.0001",
+          "isbn": "978-0-252-04106-8",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+          "roleDescriptionSr": "Политичка и социјална историја окупације, колаборације, отпора и цивилног становништва.",
+          "roleDescriptionEn": "Political and social history of occupation, collaboration, resistance, and civilians."
+        },
+        {
+          "id": "E12",
+          "cat": "B",
+          "author": "Karl-Heinz Schlarp",
+          "title": "Wirtschaft und Besatzung in Serbien 1941–1944",
+          "type": "Book",
+          "year": 1986,
+          "publisher": "Steiner, Stuttgart",
+          "isbn": "3-515-04401-9",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e12",
+          "roleDescriptionSr": "Фундаментални рад о окупационој економији у Србији.",
+          "roleDescriptionEn": "Foundational study of the occupation economy in Serbia."
+        },
+        {
+          "id": "E13",
+          "cat": "B",
+          "author": "Dragan Aleksić",
+          "title": "Privreda Srbije u Drugom svetskom ratu",
+          "type": "Book",
+          "year": 2002,
+          "publisher": "INIS",
+          "isbn": "86-7005-037-4",
+          "pages": "375",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e13",
+          "roleDescriptionSr": "Кључна синтеза за привреду Србије под окупацијом.",
+          "roleDescriptionEn": "Key synthesis on Serbia’s wartime economy."
+        },
+        {
+          "id": "E14",
+          "cat": "B",
+          "author": "Tatjana Tönsmeyer",
+          "title": "Occupied Societies. Conceptual Reflections on the History of Experiences of Everyday Life under German Occupation in the Second World War",
+          "type": "ScholarlyArticle",
+          "year": 2023,
+          "doi": "10.57886/1",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e14",
+          "roleDescriptionSr": "Концептуални оквир за историју свакодневног искуства окупираних друштава.",
+          "roleDescriptionEn": "Conceptual framework for everyday experience in occupied societies."
+        },
+        {
+          "id": "E15",
+          "cat": "B",
+          "author": "Nataša Milićević",
+          "title": "O ishrani u okupiranom Beogradu 1941–1944",
+          "type": "ScholarlyArticle",
+          "year": 2012,
+          "container": "Tokovi istorije 2/2012",
+          "pages": "77–91",
+          "doi": "10.31212/tokovi.2012.2.mil.77-91",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e15",
+          "roleDescriptionSr": "Исхрана, несташица, снабдевање и црна берза.",
+          "roleDescriptionEn": "Food, shortages, provisioning, and the black market."
+        },
+        {
+          "id": "E16",
+          "cat": "B",
+          "author": "Nataša Milićević",
+          "title": "„Osveta sela”: seljaci i građani u okupiranoj Srbiji 1941–1944",
+          "type": "ScholarlyArticle",
+          "year": 2019,
+          "container": "Istorija 20. veka 2/2019",
+          "pages": "121–136",
+          "doi": "10.29362/ist20veka.2019.2.mil.121-136",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e16",
+          "roleDescriptionSr": "Компаративни рад за однос град–село и преживљавање под окупацијом.",
+          "roleDescriptionEn": "Comparator for urban–rural relations and survival under occupation."
+        },
+        {
+          "id": "E17",
+          "cat": "B",
+          "author": "Zoran Janjetović",
+          "title": "„U skladu sa nastalom potrebom...” Prinudni rad u okupiranoj Srbiji 1941–1944",
+          "type": "Book",
+          "year": 2012,
+          "publisher": "INIS",
+          "isbn": "978-86-7005-105-8",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e17",
+          "roleDescriptionSr": "Институционални и друштвени контекст принудног рада.",
+          "roleDescriptionEn": "Institutional and social context of forced labour."
+        },
+        {
+          "id": "E18",
+          "cat": "B",
+          "author": "Nico Wouters",
+          "title": "Municipal Government during the Occupation (1940–5): A Comparative Model of Belgium, the Netherlands and France",
+          "type": "ScholarlyArticle",
+          "year": 2006,
+          "container": "European History Quarterly 36/2",
+          "pages": "221–246",
+          "doi": "10.1177/0265691406062612",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e18",
+          "roleDescriptionSr": "Главни европски компаратор за локалну управу под окупацијом.",
+          "roleDescriptionEn": "Main European comparator for municipal government under occupation."
+        },
+        {
+          "id": "E19",
+          "cat": "B",
+          "author": "Jan Vondráček",
+          "title": "War Economy, Local Administration and Everyday Life under German Occupation in Bohemia and Moravia",
+          "type": "ScholarlyArticle",
+          "year": 2021,
+          "container": "Zeitschrift für Ostmitteleuropa-Forschung 70/3",
+          "pages": "439–465",
+          "doi": "10.25627/202170311019",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e19",
+          "roleDescriptionSr": "Европски компаратор који спаја привреду, локалну управу и свакодневицу.",
+          "roleDescriptionEn": "European comparator linking economy, local administration, and everyday life."
+        },
+        {
+          "id": "E20",
+          "cat": "B",
+          "author": "Radosav Tucović",
+          "title": "Pravna obaveza ili kolaboracija? Uspostavljanje i funkcionisanje Uprave grada Beograda pod okupacijom 1941–1944",
+          "type": "ScholarlyArticle",
+          "year": 2022,
+          "container": "Istorija 20. veka 2/2022",
+          "pages": "345–360",
+          "doi": "10.29362/ist20veka.2022.2.tuc.345-360",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e20",
+          "roleDescriptionSr": "Српски компаративни случај локалне управе и колаборације.",
+          "roleDescriptionEn": "Serbian comparative case of municipal government and collaboration."
+        },
+        {
+          "id": "E21",
+          "cat": "C",
+          "author": "Obren Blagojević",
+          "title": "Naše finansije u periodu narodnooslobodilačke borbe 1941–1945",
+          "type": "Book",
+          "year": 1976,
+          "publisher": "Narodna knjiga, Beograd",
+          "note": "Првобитно објављено у Istorija XX veka 13 (1975), 5–169.",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e21",
+          "roleDescriptionSr": "Главни компаративни пар за финансирање ЈВуО.",
+          "roleDescriptionEn": "Main comparative pair for the financing of the Yugoslav Army in the Fatherland."
+        },
+        {
+          "id": "E22",
+          "cat": "C",
+          "author": "Mitar Vujović",
+          "title": "Ekonomska služba Vrhovnog štaba NOV i POJ 1941–1945",
+          "type": "Book",
+          "year": 1990,
+          "publisher": "Vojnoizdavački i novinski centar, Intendantska uprava SSNO, Beograd",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e22",
+          "roleDescriptionSr": "Институционални систем финансирања и снабдевања НОП-а.",
+          "roleDescriptionEn": "Institutional system of financing and supply in the Partisan movement."
+        },
+        {
+          "id": "E23",
+          "cat": "C",
+          "author": "Nicole Albrecht",
+          "title": "The Search for Legitimacy over Yugoslavia: Rudolf Bićanić and the Power of Gold",
+          "type": "ScholarlyArticle",
+          "year": 2025,
+          "container": "Nationalities Papers 53/3",
+          "pages": "619–640",
+          "doi": "10.1017/nps.2024.29",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e23",
+          "roleDescriptionSr": "Злато као финансијски ресурс и средство политичке легитимности.",
+          "roleDescriptionEn": "Gold as both a financial resource and an instrument of political legitimacy."
+        },
+        {
+          "id": "E24",
+          "cat": "C",
+          "author": "Tomasz Korban",
+          "title": "Yugoslavia and the Restitution of Monetary Gold After the Second World War",
+          "type": "ScholarlyArticle",
+          "year": 2024,
+          "container": "Journal of Contemporary History 59/1",
+          "doi": "10.1177/00220094231209186",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e24",
+          "roleDescriptionSr": "Послератни институционални живот југословенског монетарног злата.",
+          "roleDescriptionEn": "Postwar institutional afterlife of Yugoslav monetary gold."
+        },
+        {
+          "id": "E25",
+          "cat": "C",
+          "author": "Ivica Todorović",
+          "title": "Značenje zlata: Specifični semantički prostori mitologije zlata u srpskoj narodnoj tradiciji – nekad i danas",
+          "type": "Chapter",
+          "year": 2010,
+          "container": "Tradicija – folklor – identitet",
+          "pages": "265–316",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e25",
+          "roleDescriptionSr": "Антрополошки контекст дугог трајања митологије злата.",
+          "roleDescriptionEn": "Anthropological longue-durée context for the mythology of gold."
+        },
+        {
+          "id": "E26",
+          "cat": "C",
+          "author": "Dobrila Bratić",
+          "title": "Tajna zakopanog blaga ili san o bogaćenju preko noći",
+          "type": "ScholarlyArticle",
+          "year": 1991,
+          "container": "Glasnik Etnografskog instituta 40",
+          "pages": "91–101",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e26",
+          "roleDescriptionSr": "Антрополошки контекст представа о скривеном благу.",
+          "roleDescriptionEn": "Anthropological context for beliefs about hidden treasure."
+        },
+        {
+          "id": "E27",
+          "cat": "D",
+          "author": "Marijana Mraović",
+          "title": "Od surove stvarnosti do alternativne realnosti: Propaganda vlade Milana Nedića 1941–1944",
+          "type": "Book",
+          "year": 2019,
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e27",
+          "roleDescriptionSr": "Институционални оквир пропаганде владе Милана Недића.",
+          "roleDescriptionEn": "Institutional framework of Milan Nedić government propaganda."
+        },
+        {
+          "id": "E28",
+          "cat": "D",
+          "author": "Marijana Mraović",
+          "title": "Creation of an Alternate Reality: The Organization and Propaganda Activities of the Government of National Salvation from 1941 until 1944",
+          "type": "ScholarlyArticle",
+          "year": 2022,
+          "container": "Balcanica 53",
+          "pages": "185–226",
+          "doi": "10.2298/BALC2253185M",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e28",
+          "roleDescriptionSr": "Институционални контекст пропаганде; није директни методолошки еквивалент discourse-analysis радовима.",
+          "roleDescriptionEn": "Institutional propaganda context rather than a direct methodological equivalent."
+        },
+        {
+          "id": "E29",
+          "cat": "D",
+          "author": "Aleksandar Stojanović (ur.)",
+          "title": "Kolaboracionistička štampa u Srbiji 1941–1944",
+          "type": "CreativeWorkSeries",
+          "year": "2015–2023",
+          "visible": false,
+          "parts": [
+            {
+              "title": "Knj. I",
+              "year": 2015,
+              "isbn": "978-86-6309-098-9"
+            },
+            {
+              "title": "Knj. II",
+              "year": 2017
+            },
+            {
+              "title": "Knj. III",
+              "year": 2023,
+              "isbn": "978-86-6309-291-4"
+            }
+          ],
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e29",
+          "roleDescriptionSr": "Вишетомни истраживачки корпус о медијском систему колаборационистичке Србије.",
+          "roleDescriptionEn": "Multi-volume research corpus on the collaborationist media system."
+        },
+        {
+          "id": "E30",
+          "cat": "D",
+          "author": "Rade Ristanović",
+          "title": "Studies of resistance movements in the collaborationist press",
+          "alternateName": "„Komunistička neman” / „Šumski banditi”",
+          "type": "CreativeWork",
+          "year": "2015–2017",
+          "visible": false,
+          "parts": [
+            {
+              "title": "„Komunistička neman”: izveštavanje kolaboracionističke štampe o Narodnooslobodilačkom pokretu",
+              "year": 2015,
+              "container": "Kolaboracionistička štampa u Srbiji 1941–1944, knj. I",
+              "pages": "159–191"
+            },
+            {
+              "title": "„Šumski banditi”: Kolaboracionistička štampa o Jugoslovenskoj vojsci u otadžbini",
+              "year": 2017,
+              "container": "Kolaboracionistička štampa u Srbiji 1941–1944, knj. II",
+              "pages": "95–125"
+            }
+          ],
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e30",
+          "roleDescriptionSr": "Медијски и дискурзивни контекст за представљање НОП-а и ЈВуО у колаборационистичкој штампи.",
+          "roleDescriptionEn": "Media/discourse context for representations of the Partisan and Ravna Gora movements."
+        },
+        {
+          "id": "E31",
+          "cat": "E",
+          "author": "Ljubinka Škodrić",
+          "title": "Žena u okupiranoj Srbiji 1941–1944",
+          "type": "Book",
+          "year": 2020,
+          "publisher": "Institut za savremenu istoriju / Arhipelag, Beograd",
+          "doi": "10.29362/2442.2020.sko",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e31",
+          "roleDescriptionSr": "Главна накнадна синтеза за историју жена у окупираној Србији.",
+          "roleDescriptionEn": "Main subsequent synthesis on women in occupied Serbia."
+        },
+        {
+          "id": "E32",
+          "cat": "E",
+          "author": "Ljubinka Škodrić",
+          "title": "„Horizontalna kolaboracija” – intimne veze žena sa nemačkim okupatorom u Srbiji 1941–1944",
+          "type": "ScholarlyArticle",
+          "year": 2013,
+          "container": "Istorija 20. veka 1/2013",
+          "pages": "105–122",
+          "doi": "10.29362/ist20veka.2013.1.sko.105-122",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e32",
+          "roleDescriptionSr": "Директна накнадна разрада интимних веза, колаборације и родног кажњавања.",
+          "roleDescriptionEn": "Direct subsequent development on intimacy, collaboration, and gendered punishment."
+        },
+        {
+          "id": "E33",
+          "cat": "E",
+          "author": "Jelena Batinić",
+          "title": "Women and Yugoslav Partisans: A History of World War II Resistance",
+          "type": "Book",
+          "year": 2015,
+          "publisher": "Cambridge University Press",
+          "doi": "10.1017/CBO9781316118627",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e33",
+          "roleDescriptionSr": "Шири југословенски контекст женске мобилизације, еманципације и контроле интимног живота.",
+          "roleDescriptionEn": "Broader Yugoslav context of women’s mobilization, emancipation, and regulation of intimate life."
+        },
+        {
+          "id": "E34",
+          "cat": "E",
+          "author": "Regina Mühlhäuser",
+          "title": "Sex and the Nazi Soldier: Violent, Commercial and Consensual Encounters during the War in the Soviet Union, 1941–45",
+          "type": "Book",
+          "year": 2021,
+          "publisher": "Edinburgh University Press",
+          "doi": "10.3366/edinburgh/9781474459075.001.0001",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e34",
+          "roleDescriptionSr": "Европски контекст за разликовање сексуалног насиља, трансакционалних и консензуалних односа.",
+          "roleDescriptionEn": "European context distinguishing sexual violence, transactional, and consensual relations."
+        },
+        {
+          "id": "E35",
+          "cat": "E",
+          "author": "Fabrice Virgili",
+          "title": "Shorn Women: Gender and Punishment in Liberation France",
+          "type": "Book",
+          "year": 2002,
+          "publisher": "Berg",
+          "isbn": "978-1-85973-579-4",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e35",
+          "roleDescriptionSr": "Главни европски компаратор за јавно шишање и сексуализовано кажњавање жена.",
+          "roleDescriptionEn": "Main European comparator for public head-shaving and sexualized punishment."
+        },
+        {
+          "id": "E36",
+          "cat": "E",
+          "author": "Sanja Petrović Todosijević",
+          "title": "Bekstva Jevreja sa teritorije nemačke okupacione zone u Srbiji 1941–1944",
+          "type": "ScholarlyArticle",
+          "year": 2019,
+          "container": "Tokovi istorije 2/2019",
+          "pages": "59–82",
+          "doi": "10.31212/tokovi.2019.2.pet.59-82",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e36",
+          "roleDescriptionSr": "Компаративни контекст бекства, скривања и преживљавања Јевреја.",
+          "roleDescriptionEn": "Comparative context for Jewish escape, hiding, and survival."
+        },
+        {
+          "id": "E37",
+          "cat": "E",
+          "author": "Rade Ristanović",
+          "title": "“To Save One Life Is to Save the World Entire”: The Rescue of Jews in Belgrade during the World War II",
+          "type": "ScholarlyArticle",
+          "year": 2026,
+          "container": "Istorija 20. veka 1/2026",
+          "pages": "101–124",
+          "doi": "10.29362/ist20veka.2026.1.ris.101-124",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e37",
+          "roleDescriptionSr": "Директни компаративни случај спасавања Јевреја: Београд ↔ Чачак.",
+          "roleDescriptionEn": "Direct comparative case of Jewish rescue: Belgrade ↔ Čačak."
+        },
+        {
+          "id": "E38",
+          "cat": "F",
+          "author": "Tea Sindbæk",
+          "title": "Usable History? Representations of Yugoslavia’s Difficult Past from 1945–2002",
+          "type": "Book",
+          "year": 2012,
+          "publisher": "Aarhus University Press",
+          "isbn": "978-87-7934-568-3",
+          "doi": "10.2307/j.ctv62hhpn",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e38",
+          "roleDescriptionSr": "Југословенски longue durée оквир политичке употребе Другог светског рата.",
+          "roleDescriptionEn": "Yugoslav longue-durée framework for political uses of the Second World War."
+        },
+        {
+          "id": "E39",
+          "cat": "F",
+          "author": "Jelena Đureinović",
+          "title": "The Politics of Memory of the Second World War in Contemporary Serbia: Collaboration, Resistance and Retribution",
+          "type": "Book",
+          "year": 2020,
+          "publisher": "Routledge",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+          "roleDescriptionSr": "Савремени оквир за четнике, партизане, рехабилитацију и државну политику сећања.",
+          "roleDescriptionEn": "Contemporary framework for Chetniks, Partisans, rehabilitation, and state memory politics."
+        },
+        {
+          "id": "E40",
+          "cat": "F",
+          "author": "Jelena Subotić",
+          "title": "Yellow Star, Red Star: Holocaust Remembrance after Communism",
+          "type": "Book",
+          "year": 2019,
+          "publisher": "Cornell University Press",
+          "doi": "10.7591/cornell/9781501742408.001.0001",
+          "visible": true,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e40",
+          "roleDescriptionSr": "Компаративни оквир посткомунистичког сећања на Холокауст.",
+          "roleDescriptionEn": "Comparative framework for Holocaust remembrance after communism."
+        },
+        {
+          "id": "E41",
+          "cat": "F",
+          "author": "Jovan Byford",
+          "title": "Picturing Genocide in the Independent State of Croatia: Atrocity Images and the Contested Memory of the Second World War in the Balkans",
+          "type": "Book",
+          "year": 2020,
+          "publisher": "Bloomsbury",
+          "visible": false,
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e41",
+          "roleDescriptionSr": "Визуелно и музејско посредовање ратног сећања и спорних слика злочина.",
+          "roleDescriptionEn": "Visual and museum mediation of wartime memory and contested atrocity images."
+        },
+        {
+          "id": "E42",
+          "cat": "F",
+          "author": "Fiona Williamson",
+          "title": "The “Cultural Turn” of Climate History: An Emerging Field for Studies of China and East Asia",
+          "type": "ScholarlyArticle",
+          "year": 2020,
+          "container": "WIREs Climate Change 11/3, e635",
+          "doi": "10.1002/wcc.635",
+          "visible": true,
+          "companion": {
+            "author": "Mike Hulme",
+            "title": "Weathered: Cultures of Climate",
+            "year": 2016,
+            "publisher": "SAGE",
+            "isbn": "978-1-4739-2499-4"
+          },
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e42",
+          "roleDescriptionSr": "Културноисторијски приступ климатским и временским појавама; видљив као блок са Mike Hulme, Weathered.",
+          "roleDescriptionEn": "Cultural-historical approach to climate and weather; displayed together with Mike Hulme’s Weathered."
+        },
+        {
+          "id": "E43",
+          "cat": "F",
+          "author": "Vladimir Janković",
+          "title": "Reading the Skies: A Cultural History of English Weather, 1650–1820",
+          "type": "Book",
+          "year": 2000,
+          "publisher": "Manchester University Press",
+          "isbn": "978-0-7190-5989-6",
+          "visible": false,
+          "companion": {
+            "author": "Christian Pfister",
+            "title": "The Vulnerability of Past Societies to Climatic Variation: A New Focus for Historical Climatology in the Twenty-First Century",
+            "year": 2010,
+            "container": "Climatic Change 100/1",
+            "pages": "25–31",
+            "doi": "10.1007/s10584-010-9829-2"
+          },
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e43",
+          "roleDescriptionSr": "Компаративна културна историја времена; Christian Pfister додаје контекст историјске климатологије.",
+          "roleDescriptionEn": "Comparative cultural history of weather; Christian Pfister adds a historical-climatology context."
+        }
+      ],
+      "supplementaryReferences": [
+        {
+          "id": "S01",
+          "author": "Jovan Byford",
+          "title": "The Collaborationist Administration and the Treatment of the Jews in Nazi-Occupied Serbia",
+          "type": "Chapter",
+          "year": 2011,
+          "container": "Serbia and the Serbs in World War Two: Collaboration and Resistance",
+          "pages": "109–127",
+          "publisher": "Palgrave Macmillan",
+          "doi": "10.1057/9780230347816_6",
+          "visibility": "machine-only",
+          "countedInExternalRecordCount": false,
+          "roleDescription": "Collaborationist institutional context for the persecution of Jews in occupied Serbia."
+        }
+      ]
+    },
+    "theoretical-registry": {
+      "version": "1.0",
+      "dateModified": "2026-09-25",
+      "scope": "War, Propaganda and Memory — theoretical registry",
+      "recordCount": 10,
+      "principleSr": "Ови радови нису историјски компаратори и не представљају доказе о догађајима у Србији 1941–1945; они обезбеђују аналитички речник за ограничене проблемске везе.",
+      "principleEn": "These works are not historical comparators and do not provide evidence for events in Serbia in 1941–1945; they supply an analytical vocabulary for limited problem-specific relations.",
+      "records": [
+        {
+          "id": "T01",
+          "author": "Michel Foucault",
+          "title": "Discipline and Punish: The Birth of the Prison",
+          "type": "Book",
+          "year": 1995,
+          "publisher": "Vintage",
+          "isbn": "9780679752554",
+          "translator": "Alan Sheridan",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t01",
+          "roleDescriptionSr": "Дисциплина, надзор, нормализација и просторне технике власти; примарно за анализу окупационог града.",
+          "roleDescriptionEn": "Discipline, surveillance, normalization and spatial techniques of power; primarily for analysis of the occupied city."
+        },
+        {
+          "id": "T02",
+          "author": "Michel Foucault",
+          "title": "Security, Territory, Population: Lectures at the Collège de France, 1977–78",
+          "type": "Book",
+          "year": 2007,
+          "publisher": "Palgrave Macmillan",
+          "isbn": "9781403986528",
+          "doi": "10.1057/9780230245075",
+          "translator": "Graham Burchell",
+          "editor": "Michel Senellart",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t02",
+          "roleDescriptionSr": "Управљање територијом, становништвом и циркулацијом; оквир за окупациону управу и контролу кретања.",
+          "roleDescriptionEn": "Government of territory, population and circulation; a framework for occupation governance and the control of movement."
+        },
+        {
+          "id": "T03",
+          "author": "Michel de Certeau",
+          "title": "The Practice of Everyday Life",
+          "type": "Book",
+          "year": 1984,
+          "publisher": "University of California Press",
+          "isbn": "9780520047501",
+          "translator": "Steven Rendall",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t03",
+          "roleDescriptionSr": "Свакодневне праксе и тактике којима актери делују унутар наметнутих структура.",
+          "roleDescriptionEn": "Everyday practices and tactics through which actors operate within imposed structures."
+        },
+        {
+          "id": "T04",
+          "author": "James C. Scott",
+          "title": "Domination and the Arts of Resistance: Hidden Transcripts",
+          "type": "Book",
+          "year": 1990,
+          "publisher": "Yale University Press",
+          "isbn": "9780300047059",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t04",
+          "roleDescriptionSr": "Скривени транскрипти, ситне форме непослушности и свакодневни отпор односима доминације.",
+          "roleDescriptionEn": "Hidden transcripts, minor forms of disobedience and everyday resistance to relations of domination."
+        },
+        {
+          "id": "T05",
+          "author": "Tim Cresswell",
+          "title": "On the Move: Mobility in the Modern Western World",
+          "type": "Book",
+          "year": 2006,
+          "publisher": "Routledge",
+          "isbn": "9780415952552",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t05",
+          "roleDescriptionSr": "Мобилност као обележје модерности и истовремено предмет регулисања, ограничења и контроле.",
+          "roleDescriptionEn": "Mobility as a feature of modernity and simultaneously an object of regulation, restriction and control."
+        },
+        {
+          "id": "T06",
+          "author": "Tim Cresswell",
+          "title": "Towards a Politics of Mobility",
+          "type": "ScholarlyArticle",
+          "year": 2010,
+          "container": "Environment and Planning D: Society and Space 28/1",
+          "pages": "17–31",
+          "doi": "10.1068/d11407",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t06",
+          "roleDescriptionSr": "Кретање, брзина, ритам, путања, искуство и friction као елементи политике мобилности.",
+          "roleDescriptionEn": "Movement, speed, rhythm, route, experience and friction as elements of a politics of mobility."
+        },
+        {
+          "id": "T07",
+          "author": "Kenneth Thompson",
+          "title": "Moral Panics",
+          "type": "Book",
+          "year": 1998,
+          "publisher": "Routledge",
+          "isbn": "9780415119764",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t07",
+          "roleDescriptionSr": "Морална паника, медијска конструкција девијантности и јавна производња друштвене опасности.",
+          "roleDescriptionEn": "Moral panic, media construction of deviance and public production of social threat."
+        },
+        {
+          "id": "T08",
+          "author": "Ivana Spasić",
+          "title": "Sociologije svakodnevnog života",
+          "type": "Book",
+          "year": 2004,
+          "publisher": "Zavod za udžbenike i nastavna sredstva",
+          "isbn": "9788617117199",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t08",
+          "roleDescriptionSr": "Социолошки оквир за анализу свакодневних пракси, рутина и начина друштвеног деловања.",
+          "roleDescriptionEn": "A sociological framework for analysing everyday practices, routines and modes of social action."
+        },
+        {
+          "id": "T09",
+          "author": "Ernst Cassirer",
+          "title": "The Myth of the State",
+          "type": "Book",
+          "year": 1946,
+          "publisher": "Yale University Press",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t09",
+          "roleDescriptionSr": "Митско мишљење и политички мит као симболички облици; користи се само на нивоу тумачења, не као историјски доказ.",
+          "roleDescriptionEn": "Mythical thought and political myth as symbolic forms; used only at the interpretive level, not as historical evidence."
+        },
+        {
+          "id": "T10",
+          "author": "C. G. Jung",
+          "title": "Flying Saucers: A Modern Myth of Things Seen in the Sky",
+          "type": "Book",
+          "year": 1978,
+          "publisher": "Princeton University Press",
+          "doi": "10.2307/j.ctvzxx9sf",
+          "translator": "R. F. C. Hull",
+          "uri": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t10",
+          "roleDescriptionSr": "Ограничен оквир за колективну пројекцију кризе и симболичко тумачење необичних појава; није историјски доказ нити модел за реконструкцију догађаја.",
+          "roleDescriptionEn": "A limited framework for collective projection in crisis and symbolic interpretation of unusual phenomena; not historical evidence or a model for reconstructing events."
+        }
+      ]
+    },
+    "publication-theoretical-crosswalk": {
+      "version": "1.0",
+      "dateModified": "2026-09-25",
+      "relationVocabulary": [
+        "theoreticalContext"
+      ],
+      "roleQualifiers": [
+        "disciplinary-power",
+        "governmentality-circulation",
+        "everyday-tactics",
+        "hidden-transcripts-everyday-resistance",
+        "mobility-modernity",
+        "politics-of-mobility",
+        "moral-panic",
+        "sociology-everyday-life",
+        "mythical-thought-symbolic-form",
+        "crisis-projection-limited-use"
+      ],
+      "records": [
+        {
+          "wikidata": "Q138837172",
+          "work": "https://milos-timotijevic.github.io/conference-papers/grad-i-okupacija-svakodnevni-zivot-cacka-1941.html",
+          "relations": [
+            {
+              "theoryId": "T01",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t01",
+              "relation": "theoreticalContext",
+              "roleQualifier": "disciplinary-power"
+            },
+            {
+              "theoryId": "T02",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t02",
+              "relation": "theoreticalContext",
+              "roleQualifier": "governmentality-circulation"
+            },
+            {
+              "theoryId": "T03",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t03",
+              "relation": "theoreticalContext",
+              "roleQualifier": "everyday-tactics"
+            },
+            {
+              "theoryId": "T04",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t04",
+              "relation": "theoreticalContext",
+              "roleQualifier": "hidden-transcripts-everyday-resistance"
+            },
+            {
+              "theoryId": "T08",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t08",
+              "relation": "theoreticalContext",
+              "roleQualifier": "sociology-everyday-life"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q138654626",
+          "work": "https://milos-timotijevic.github.io/articles/tramvaj-fijaker-bicikl-okupirani-beograd-1941.html",
+          "relations": [
+            {
+              "theoryId": "T02",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t02",
+              "relation": "theoreticalContext",
+              "roleQualifier": "governmentality-circulation"
+            },
+            {
+              "theoryId": "T03",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t03",
+              "relation": "theoreticalContext",
+              "roleQualifier": "everyday-tactics"
+            },
+            {
+              "theoryId": "T05",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t05",
+              "relation": "theoreticalContext",
+              "roleQualifier": "mobility-modernity"
+            },
+            {
+              "theoryId": "T06",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t06",
+              "relation": "theoreticalContext",
+              "roleQualifier": "politics-of-mobility"
+            },
+            {
+              "theoryId": "T08",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t08",
+              "relation": "theoreticalContext",
+              "roleQualifier": "sociology-everyday-life"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139549522",
+          "work": "https://milos-timotijevic.github.io/articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html",
+          "relations": [
+            {
+              "theoryId": "T03",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t03",
+              "relation": "theoreticalContext",
+              "roleQualifier": "everyday-tactics"
+            },
+            {
+              "theoryId": "T04",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t04",
+              "relation": "theoreticalContext",
+              "roleQualifier": "hidden-transcripts-everyday-resistance"
+            },
+            {
+              "theoryId": "T08",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t08",
+              "relation": "theoreticalContext",
+              "roleQualifier": "sociology-everyday-life"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139549107",
+          "work": "https://milos-timotijevic.github.io/articles/borba-protiv-razbojnika-silovatelja-zver-zena-komunisti-okupirana-srbija-1941.html",
+          "relations": [
+            {
+              "theoryId": "T07",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t07",
+              "relation": "theoreticalContext",
+              "roleQualifier": "moral-panic"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139549166",
+          "work": "https://milos-timotijevic.github.io/articles/grad-i-zlocin-kriminal-gradovi-okupirana-srbija-1941.html",
+          "relations": [
+            {
+              "theoryId": "T07",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t07",
+              "relation": "theoreticalContext",
+              "roleQualifier": "moral-panic"
+            },
+            {
+              "theoryId": "T08",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t08",
+              "relation": "theoreticalContext",
+              "roleQualifier": "sociology-everyday-life"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139549448",
+          "work": "https://milos-timotijevic.github.io/articles/varalice-dzeparosi-prostitutke-kriminal-okupirana-srbija-1941.html",
+          "relations": [
+            {
+              "theoryId": "T07",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t07",
+              "relation": "theoreticalContext",
+              "roleQualifier": "moral-panic"
+            },
+            {
+              "theoryId": "T08",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t08",
+              "relation": "theoreticalContext",
+              "roleQualifier": "sociology-everyday-life"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139545635",
+          "work": "https://milos-timotijevic.github.io/articles/nebeski-znaci-zemaljske-prilike-srbija-1941.html",
+          "relations": [
+            {
+              "theoryId": "T09",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t09",
+              "relation": "theoreticalContext",
+              "roleQualifier": "mythical-thought-symbolic-form"
+            },
+            {
+              "theoryId": "T10",
+              "theory": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#theory-t10",
+              "relation": "theoreticalContext",
+              "roleQualifier": "crisis-projection-limited-use"
+            }
+          ]
+        }
+      ]
+    },
+    "publication-external-crosswalk": {
+      "version": "1.0",
+      "dateModified": "2026-09-25",
+      "relationVocabulary": [
+        "broaderContext",
+        "comparativeCaseWith",
+        "conceptuallyRelatedTo"
+      ],
+      "roleQualifiers": [
+        "institutional-context",
+        "subsequent-research-development",
+        "foundational-context",
+        "historiography-memory",
+        "allied-intelligence-context",
+        "contested-memory",
+        "subsequent-memory-context",
+        "anthropological-context",
+        "subsequent-postwar-context",
+        "allied-aid-context",
+        "occupied-society-framework",
+        "food-survival",
+        "urban-rural-survival",
+        "forced-labour",
+        "occupied-everyday-life-framework",
+        "cultural-climate-history",
+        "cultural-history-of-weather",
+        "media-context",
+        "media-discourse-context",
+        "allied-bombing-context",
+        "collaborationist-institutional-context",
+        "museum-visual-memory"
+      ],
+      "records": [
+        {
+          "wikidata": "Q139412435",
+          "work": "https://milos-timotijevic.github.io/books/misija-halyard.html",
+          "relations": [
+            {
+              "externalId": "E01",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e01",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E02",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e02",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E04",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e04",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E05",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e05",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E06",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e06",
+              "relation": "broaderContext",
+              "roleQualifier": "foundational-context"
+            },
+            {
+              "externalId": "E08",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e08",
+              "relation": "conceptuallyRelatedTo"
+            },
+            {
+              "externalId": "E03",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e03",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "historiography-memory"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139413108",
+          "work": "https://milos-timotijevic.github.io/articles/jugoslovenska-vojska-u-otadzbini-americki-avijaticari-b24-liberator-rakova-cacak.html",
+          "relations": [
+            {
+              "externalId": "E01",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e01",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E06",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e06",
+              "relation": "broaderContext",
+              "roleQualifier": "foundational-context"
+            },
+            {
+              "externalId": "E04",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e04",
+              "relation": "broaderContext"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139413207",
+          "work": "https://milos-timotijevic.github.io/articles/ikona-halyard.html",
+          "relations": [
+            {
+              "externalId": "E03",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e03",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E38",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e38",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "broaderContext"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139378954",
+          "work": "https://milos-timotijevic.github.io/books/zvonko-vuckovic-ratna-biografija.html",
+          "relations": [
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E04",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e04",
+              "relation": "broaderContext",
+              "roleQualifier": "allied-intelligence-context"
+            },
+            {
+              "externalId": "E05",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e05",
+              "relation": "broaderContext",
+              "roleQualifier": "allied-intelligence-context"
+            },
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "contested-memory"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139119475",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139119475",
+          "relations": [
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E09",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e09",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "broaderContext",
+              "roleQualifier": "subsequent-memory-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139119914",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139119914",
+          "relations": [
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E09",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e09",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "broaderContext",
+              "roleQualifier": "subsequent-memory-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139146251",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139146251",
+          "relations": [
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E09",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e09",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "broaderContext",
+              "roleQualifier": "subsequent-memory-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139496274",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139496274",
+          "relations": [
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139496415",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139496415",
+          "relations": [
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E38",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e38",
+              "relation": "broaderContext"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139550827",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139550827",
+          "relations": [
+            {
+              "externalId": "E38",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e38",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "broaderContext"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q138658663",
+          "work": "https://milos-timotijevic.github.io/books/zlato-cetnika-i-partizana.html",
+          "relations": [
+            {
+              "externalId": "E23",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e23",
+              "relation": "conceptuallyRelatedTo"
+            },
+            {
+              "externalId": "E21",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e21",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E12",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e12",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E13",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e13",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E25",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e25",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "anthropological-context"
+            },
+            {
+              "externalId": "E26",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e26",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "anthropological-context"
+            },
+            {
+              "externalId": "E24",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e24",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "subsequent-postwar-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q138654699",
+          "work": "https://milos-timotijevic.github.io/articles/finansije-jvuo-u-srbiji-1941-1944.html",
+          "relations": [
+            {
+              "externalId": "E21",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e21",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E22",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e22",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E04",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e04",
+              "relation": "broaderContext",
+              "roleQualifier": "allied-aid-context"
+            },
+            {
+              "externalId": "E05",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e05",
+              "relation": "broaderContext",
+              "roleQualifier": "allied-aid-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139540111",
+          "work": "https://milos-timotijevic.github.io/articles/sudbina-srebra-uzicke-republike.html",
+          "relations": [
+            {
+              "externalId": "E21",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e21",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E22",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e22",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E25",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e25",
+              "relation": "conceptuallyRelatedTo"
+            },
+            {
+              "externalId": "E26",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e26",
+              "relation": "conceptuallyRelatedTo"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139549522",
+          "work": "https://milos-timotijevic.github.io/articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html",
+          "relations": [
+            {
+              "externalId": "E09",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e09",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E10",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e10",
+              "relation": "conceptuallyRelatedTo"
+            },
+            {
+              "externalId": "E12",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e12",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E13",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e13",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E14",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e14",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "occupied-society-framework"
+            },
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E15",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e15",
+              "relation": "broaderContext",
+              "roleQualifier": "food-survival"
+            },
+            {
+              "externalId": "E16",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e16",
+              "relation": "comparativeCaseWith",
+              "roleQualifier": "urban-rural-survival"
+            },
+            {
+              "externalId": "E17",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e17",
+              "relation": "broaderContext",
+              "roleQualifier": "forced-labour"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q138837172",
+          "work": "https://milos-timotijevic.github.io/conference-papers/grad-i-okupacija-svakodnevni-zivot-cacka-1941.html",
+          "relations": [
+            {
+              "externalId": "E18",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e18",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E19",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e19",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E20",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e20",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q138654626",
+          "work": "https://milos-timotijevic.github.io/articles/tramvaj-fijaker-bicikl-okupirani-beograd-1941.html",
+          "relations": [
+            {
+              "externalId": "E14",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e14",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "occupied-everyday-life-framework"
+            },
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139497183",
+          "work": "https://milos-timotijevic.github.io/articles/zena-i-rat-druga-strana-okupacije-1941-1945-cacanski-kraj.html",
+          "relations": [
+            {
+              "externalId": "E31",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e31",
+              "relation": "broaderContext",
+              "roleQualifier": "subsequent-research-development"
+            },
+            {
+              "externalId": "E32",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e32",
+              "relation": "comparativeCaseWith",
+              "roleQualifier": "subsequent-research-development"
+            },
+            {
+              "externalId": "E33",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e33",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E34",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e34",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E35",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e35",
+              "relation": "comparativeCaseWith"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139545635",
+          "work": "https://milos-timotijevic.github.io/articles/nebeski-znaci-zemaljske-prilike-srbija-1941.html",
+          "relations": [
+            {
+              "externalId": "E42",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e42",
+              "relation": "broaderContext",
+              "roleQualifier": "cultural-climate-history"
+            },
+            {
+              "externalId": "E43",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e43",
+              "relation": "broaderContext",
+              "roleQualifier": "cultural-history-of-weather"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q138849395",
+          "work": "https://milos-timotijevic.github.io/conference-papers/dodjite-da-locete-srpsku-krv-saveznicko-bombardovanje-srbije-1943-1944-propaganda.html",
+          "relations": [
+            {
+              "externalId": "E28",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e28",
+              "relation": "broaderContext",
+              "roleQualifier": "institutional-context"
+            },
+            {
+              "externalId": "E27",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e27",
+              "relation": "broaderContext",
+              "roleQualifier": "institutional-context"
+            },
+            {
+              "externalId": "E29",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e29",
+              "relation": "broaderContext",
+              "roleQualifier": "media-context"
+            },
+            {
+              "externalId": "E08",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e08",
+              "relation": "comparativeCaseWith",
+              "roleQualifier": "allied-bombing-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139549107",
+          "work": "https://milos-timotijevic.github.io/articles/borba-protiv-razbojnika-silovatelja-zver-zena-komunisti-okupirana-srbija-1941.html",
+          "relations": [
+            {
+              "externalId": "E28",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e28",
+              "relation": "broaderContext",
+              "roleQualifier": "institutional-context"
+            },
+            {
+              "externalId": "E27",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e27",
+              "relation": "broaderContext",
+              "roleQualifier": "institutional-context"
+            },
+            {
+              "externalId": "E29",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e29",
+              "relation": "broaderContext",
+              "roleQualifier": "media-context"
+            },
+            {
+              "externalId": "E30",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e30",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "media-discourse-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139549166",
+          "work": "https://milos-timotijevic.github.io/articles/grad-i-zlocin-kriminal-gradovi-okupirana-srbija-1941.html",
+          "relations": [
+            {
+              "externalId": "E29",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e29",
+              "relation": "broaderContext",
+              "roleQualifier": "media-context"
+            },
+            {
+              "externalId": "E30",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e30",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "media-discourse-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139549372",
+          "work": "https://milos-timotijevic.github.io/articles/krv-medju-bracom-kriminal-sela-okupirana-srbija-1941.html",
+          "relations": [
+            {
+              "externalId": "E29",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e29",
+              "relation": "broaderContext",
+              "roleQualifier": "media-context"
+            },
+            {
+              "externalId": "E30",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e30",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "media-discourse-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139549448",
+          "work": "https://milos-timotijevic.github.io/articles/varalice-dzeparosi-prostitutke-kriminal-okupirana-srbija-1941.html",
+          "relations": [
+            {
+              "externalId": "E29",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e29",
+              "relation": "broaderContext",
+              "roleQualifier": "media-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139550037",
+          "work": "https://milos-timotijevic.github.io/articles/stradanje-spasavanje-jevreja-cacak-1941-1944.html",
+          "relations": [
+            {
+              "externalId": "E36",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e36",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E37",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e37",
+              "relation": "comparativeCaseWith"
+            },
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E20",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e20",
+              "relation": "broaderContext",
+              "roleQualifier": "collaborationist-institutional-context"
+            }
+          ],
+          "supplementaryRelations": [
+            {
+              "supplementaryId": "S01",
+              "doi": "10.1057/9780230347816_6",
+              "relation": "broaderContext",
+              "roleQualifier": "collaborationist-institutional-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139550124",
+          "work": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#work-q139550124",
+          "relations": [
+            {
+              "externalId": "E36",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e36",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E37",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e37",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E11",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e11",
+              "relation": "broaderContext"
+            }
+          ],
+          "note": "Documentary source corpus; external links contextualize the analytical field.",
+          "supplementaryRelations": [
+            {
+              "supplementaryId": "S01",
+              "doi": "10.1057/9780230347816_6",
+              "relation": "broaderContext",
+              "roleQualifier": "collaborationist-institutional-context"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139385880",
+          "work": "https://milos-timotijevic.github.io/books/brave-partisans-evil-chetniks.html",
+          "relations": [
+            {
+              "externalId": "E38",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e38",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "broaderContext"
+            }
+          ]
+        },
+        {
+          "wikidata": "Q139439391",
+          "work": "https://milos-timotijevic.github.io/books/mitovi-novije-srpske-istorije.html",
+          "relations": [
+            {
+              "externalId": "E38",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e38",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "broaderContext"
+            }
+          ],
+          "note": "Strong cross-link from National Ideology."
+        },
+        {
+          "wikidata": "Q139378720",
+          "work": "https://milos-timotijevic.github.io/catalogues/sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html",
+          "relations": [
+            {
+              "externalId": "E38",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e38",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E39",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e39",
+              "relation": "broaderContext"
+            },
+            {
+              "externalId": "E40",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e40",
+              "relation": "conceptuallyRelatedTo"
+            },
+            {
+              "externalId": "E41",
+              "external": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#external-e41",
+              "relation": "conceptuallyRelatedTo",
+              "roleQualifier": "museum-visual-memory"
+            }
+          ],
+          "note": "Strong cross-link from Cultural Heritage / Public History."
+        }
+      ]
+    }
+  }
+}
