@@ -310,6 +310,26 @@
       ]
     },
     {
+      "@type": "WebPage",
+      "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#webpage",
+      "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html",
+      "name": "Модернизација балканског града (1944–1989)",
+      "alternateName": "Modernization of the Balkan City (1944–1989)",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/#website"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work"
+      }
+    },
+    {
       "@type": "Book",
       "@id": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html#work",
       "name": "Модернизација балканског града (1944–1989): компаративна анализа развоја Чачка и Благоевграда у епохи социјализма",
