@@ -50,7 +50,11 @@
       "about": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
-      "dateModified": "2026-09-25"
+      "dateModified": "2026-09-25",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ]
     },
     {
       "@id": "https://milos-timotijevic.github.io/data/#dataset",
@@ -570,7 +574,11 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
-      "description": "Истраживачки кластер о културном наслеђу, музејској пракси и јавној историји као процесима институционалне обраде, тумачења и јавног представљања прошлости."
+      "description": "Истраживачки кластер о културном наслеђу, музејској пракси и јавној историји као процесима институционалне обраде, тумачења и јавног представљања прошлости.",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ]
     },
     {
       "@type": "DefinedTermSet",
@@ -849,7 +857,11 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
-      "description": "Истраживачка целина о уметности, модернизму, јавним споменицима, фотографији, фестивалима, медијским представама, сакралним традицијама и обликовању националних, политичких и локалних идентитета."
+      "description": "Истраживачка целина о уметности, модернизму, јавним споменицима, фотографији, фестивалима, медијским представама, сакралним традицијама и обликовању националних, политичких и локалних идентитета.",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ]
     },
     {
       "@context": "https://schema.org",
@@ -1127,8 +1139,8 @@
       "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
       "sameAs": "https://www.wikidata.org/wiki/Q139569355",
       "inLanguage": [
-        "sr",
-        "en"
+        "sr-Cyrl",
+        "en-GB"
       ],
       "description": "Кластер прати националну идеологију као историјски променљив репертоар идеја, симбола и пракси који се обликује кроз интелектуални ангажман, јавну расправу, грађанско удруживање, црквену јавност и спорна тумачења прошлости.",
       "temporalCoverage": "20th century",
@@ -1513,8 +1525,8 @@
       "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html",
       "sameAs": "https://www.wikidata.org/wiki/Q139413904",
       "inLanguage": [
-        "sr",
-        "en"
+        "sr-Cyrl",
+        "en-GB"
       ],
       "description": "Истраживачки кластер о политичким ритуалима, јавним церемонијама, владарским посетама, династичкој репрезентацији, додели одликовања, политичкој лојалности, култовима, митским местима, јавном простору и симболичкој легитимацији власти у модерној Србији.",
       "temporalCoverage": "19th century/20th century",
@@ -2144,7 +2156,11 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
-      "description": "Истраживачка целина о религиозности, секуларизацији, сакралним просторима, породичном памћењу, црквеној јавности и друштвеним праксама у чачанском крају и западној Србији."
+      "description": "Истраживачка целина о религиозности, секуларизацији, сакралним просторима, породичном памћењу, црквеној јавности и друштвеним праксама у чачанском крају и западној Србији.",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ]
     },
     {
       "@type": "DefinedTermSet",
@@ -2572,7 +2588,11 @@
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
-      "description": "Истраживачка целина о Другом светском рату у Србији и Југославији: оружаном сукобу, окупацији, ратној економији, пропаганди, Холокаусту, послератном наслеђу и култури сећања."
+      "description": "Истраживачка целина о Другом светском рату у Србији и Југославији: оружаном сукобу, окупацији, ратној економији, пропаганди, Холокаусту, послератном наслеђу и култури сећања.",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ]
     },
     {
       "@type": "DefinedTermSet",
