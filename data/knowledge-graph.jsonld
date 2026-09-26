@@ -50,7 +50,7 @@
       "about": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
-      "dateModified": "2026-09-25",
+      "dateModified": "2026-09-26",
       "inLanguage": [
         "sr-Cyrl",
         "en-GB"
@@ -63,7 +63,7 @@
       "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
       "url": "https://milos-timotijevic.github.io/data/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2026-09-25",
+      "dateModified": "2026-09-26",
       "creator": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
@@ -1343,7 +1343,7 @@
       "about": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#conceptual-network"
       },
-      "dateModified": "2026-09-25",
+      "dateModified": "2026-09-26",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
@@ -1351,6 +1351,11 @@
       "inLanguage": [
         "sr-Cyrl",
         "en-GB"
+      ],
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#work"
+        }
       ]
     },
     {
@@ -1425,7 +1430,459 @@
       "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#webpage",
       "mainEntity": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster"
+      },
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#work"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#webpage",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html",
+      "name": "Надежда Петровић: живот и уметност у служби нације",
+      "alternateName": "Nadežda Petrović: Life and Art in the Service of the Nation",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/#website"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#work"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#work"
       }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#work",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html",
+      "name": "Надежда Петровић: живот и уметност у служби нације",
+      "alternateName": [
+        "Nadežda Petrović: Life and Art in the Service of the Nation",
+        "Nadezda Petrovic: Life and Art in the Service of the Nation"
+      ],
+      "description": "Историјско-биографска научна монографија о Надежди Петровић (1873–1915), која анализира међусобну условљеност модерне уметности, српског национализма, југословенске идеје, културних елита, јавног ангажмана, националне мобилизације, ратног искуства и посмртног симболичког значења.",
+      "abstract": "Historical-biographical study of Nadežda Petrović (1873–1915) examining how family background, European artistic education, Serbian nationalism and an evolving Yugoslav orientation shaped the mutual conditioning of her modernist art, public activism and political engagement. Drawing on lesser-known sources, archival material, press, private correspondence and a critical reinterpretation of published documents, the book also examines her wartime service and the posthumous transformation of her death into a symbol of artistic and national sacrifice.",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "inLanguage": "sr",
+      "genre": [
+        "Scholarly monograph",
+        "Biography",
+        "Cultural history",
+        "Political history",
+        "Art history"
+      ],
+      "temporalCoverage": "1873/1915",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Serbia"
+        },
+        {
+          "@type": "Place",
+          "name": "Belgrade, Serbia"
+        },
+        {
+          "@type": "Place",
+          "name": "Čačak, Serbia"
+        },
+        {
+          "@type": "Place",
+          "name": "Kraljevo, Serbia",
+          "alternateName": "Karanovac"
+        },
+        {
+          "@type": "Place",
+          "name": "Munich, Germany"
+        },
+        {
+          "@type": "Place",
+          "name": "Paris, France"
+        },
+        {
+          "@type": "Place",
+          "name": "Rome, Italy"
+        },
+        {
+          "@type": "Place",
+          "name": "Valjevo, Serbia"
+        },
+        {
+          "@type": "Place",
+          "name": "Balkans"
+        },
+        {
+          "@type": "Place",
+          "name": "Southeast Europe"
+        }
+      ],
+      "about": [
+        {
+          "@type": "Person",
+          "name": "Надежда Петровић",
+          "alternateName": "Nadežda Petrović",
+          "sameAs": "https://www.wikidata.org/wiki/Q230182"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-cultural-authority"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-national-identity"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-yugoslav-identity"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-collective-memory"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-cultural-representation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-serbian-nationalism"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-modern-art"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-cultural-nationalism"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-art-politics"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-cultural-elites"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-national-mobilization"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-national-sacrifice"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-liberal-nationalism"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-yugoslavism"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-humanitarian-work"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-womens-public-engagement"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-womens-emancipation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-volunteer-nursing"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-europeanization"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-balkan-wars"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-first-world-war"
+        },
+        {
+          "@type": "Organization",
+          "name": "Коло српских сестара",
+          "alternateName": "Circle of Serbian Sisters"
+        },
+        {
+          "@type": "Organization",
+          "name": "Народна одбрана",
+          "alternateName": "National Defence"
+        },
+        {
+          "@type": "Person",
+          "name": "Ivan Meštrović"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Vidovdan Temple",
+          "alternateName": "Видовдански храм"
+        }
+      ],
+      "keywords": [
+        "Nadežda Petrović",
+        "Serbian nationalism",
+        "modern art",
+        "modernism",
+        "cultural nationalism",
+        "art and politics",
+        "cultural elites",
+        "national identity",
+        "Yugoslav identity",
+        "Yugoslavism",
+        "identity production",
+        "cultural authority",
+        "cultural representation",
+        "collective memory",
+        "national mobilization",
+        "national sacrifice",
+        "humanitarian work",
+        "women’s public engagement",
+        "Balkan Wars",
+        "First World War",
+        "Ivan Meštrović",
+        "Vidovdan Temple",
+        "symbolic representation",
+        "Southeast Europe"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#webpage"
+      },
+      "workExample": {
+        "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#edition-2025"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata work item",
+          "value": "Q138001364",
+          "url": "https://www.wikidata.org/wiki/Q138001364"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138001364"
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#relation-conceptual-01"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#relation-theoretical-01"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#edition-2025",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html",
+      "name": "Надежда Петровић: живот и уметност у служби нације",
+      "alternateName": "Nadežda Petrović: Life and Art in the Service of the Nation",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "ЈП Службени гласник",
+        "alternateName": "Public Company Službeni glasnik",
+        "url": "https://www.slglasnik.com/"
+      },
+      "datePublished": "2025",
+      "copyrightYear": 2025,
+      "inLanguage": "sr",
+      "bookEdition": "First edition",
+      "bookFormat": "https://schema.org/PrintBook",
+      "isbn": "978-86-519-3185-0",
+      "numberOfPages": 276,
+      "exampleOfWork": {
+        "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#work"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.5281/zenodo.20483989",
+          "url": "https://doi.org/10.5281/zenodo.20483989"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISBN-13",
+          "value": "978-86-519-3185-0"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata edition item",
+          "value": "Q138006258",
+          "url": "https://www.wikidata.org/wiki/Q138006258"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "COBISS.SR-ID",
+          "value": "173602825",
+          "url": "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/173602825#full"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "(OCoLC)1614951424",
+          "url": "https://search.worldcat.org/oclc/1614951424"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138006258",
+        "https://doi.org/10.5281/zenodo.20483989",
+        "https://zenodo.org/records/20483989",
+        "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/173602825#full",
+        "https://search.worldcat.org/isbn/9788651931850",
+        "https://search.worldcat.org/oclc/1614951424",
+        "https://www.slglasnik.com/e-prodavnica/proizvod/nadezda-petrovic-zivot-i-umetnost-u-sluzbi-nacije/224543"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-serbian-nationalism",
+      "name": "Serbian Nationalism",
+      "alternateName": "Српски национализам",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-serbian-nationalism"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-modern-art",
+      "name": "Modern Art",
+      "alternateName": "Модерна уметност",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-modern-art"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-cultural-nationalism",
+      "name": "Cultural Nationalism",
+      "alternateName": "Културни национализам",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-cultural-nationalism"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-art-politics",
+      "name": "Art and Politics",
+      "alternateName": "Уметност и политика",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-art-politics"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-cultural-elites",
+      "name": "Cultural Elites",
+      "alternateName": "Културне елите",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-cultural-elites"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-national-mobilization",
+      "name": "National Mobilization",
+      "alternateName": "Национална мобилизација",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-national-mobilization"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-national-sacrifice",
+      "name": "National Sacrifice",
+      "alternateName": "Национална жртва",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-national-sacrifice"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-liberal-nationalism",
+      "name": "Liberal Nationalism",
+      "alternateName": "Либерални национализам",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-liberal-nationalism"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-yugoslavism",
+      "name": "Yugoslavism",
+      "alternateName": "Југословенство",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-yugoslavism"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-humanitarian-work",
+      "name": "Humanitarian Work",
+      "alternateName": "Хуманитарни рад",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-humanitarian-work"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-womens-public-engagement",
+      "name": "Women’s Public Engagement",
+      "alternateName": "Женски јавни ангажман",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-womens-public-engagement"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-womens-emancipation",
+      "name": "Women’s Emancipation",
+      "alternateName": "Еманципација жена",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-womens-emancipation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-volunteer-nursing",
+      "name": "Volunteer Nursing",
+      "alternateName": "Добровољно болничарство",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-volunteer-nursing"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-europeanization",
+      "name": "Europeanization",
+      "alternateName": "Европеизација",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-europeanization"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-balkan-wars",
+      "name": "Balkan Wars",
+      "alternateName": "Балкански ратови",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-balkan-wars"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-first-world-war",
+      "name": "First World War",
+      "alternateName": "Први светски рат",
+      "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#concept-first-world-war"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#relation-conceptual-01",
+      "name": "conceptuallyRelatedTo",
+      "additionalType": "conceptuallyRelatedTo",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#work"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Aleksandar Ignjatović, Images of the Nation Foreseen: Ivan Meštrović’s Vidovdan Temple and Primordial Yugoslavism (2014)",
+          "url": "https://doi.org/10.5612/slavicreview.73.4.828"
+        }
+      ],
+      "description": "Modern art and the cultural production of Yugoslav identity.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#relation-theoretical-01",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Joep Leerssen, The Nationalization of Culture (2018)",
+          "url": "https://doi.org/10.1017/9789048542109.017"
+        }
+      ],
+      "description": "Nationalization of culture, cultural authority and national symbolism.",
+      "inLanguage": "en"
     },
     {
       "@type": "DefinedTermSet",
