@@ -2461,7 +2461,12 @@
       "mainEntity": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster"
       },
-      "dateModified": "2026-09-25"
+      "dateModified": "2026-09-26",
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+        }
+      ]
     },
     {
       "@type": "CreativeWork",
@@ -2617,7 +2622,583 @@
       "author": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
-      "dateModified": "2026-09-25"
+      "dateModified": "2026-09-26",
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#webpage",
+      "url": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html",
+      "name": "Усклици искреног одушевљења",
+      "alternateName": "Exclamations of Sincere Enthusiasm",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/#website"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+      }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work",
+      "url": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html",
+      "name": "Усклици искреног одушевљења: ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године",
+      "alternateName": [
+        "Exclamations of Sincere Enthusiasm: The Ephemeral Spectacle and the Journey of King Alexander and Queen Draga Obrenović through Serbia in 1901",
+        "Usklici iskrenog oduševljenja: efemerni spektakl i putovanje kralja Aleksandra i kraljice Drage Obrenović po Srbiji 1901. godine"
+      ],
+      "description": "Научна монографија Милоша Тимотијевића и Александра Марушића о путовању краља Александра и краљице Драге Обреновић по Србији 1901. године, анализираном као ефемерни спектакл, политички ритуал, јавни перформанс и средство симболичке легитимације у условима кризе династичког ауторитета.",
+      "abstract": "A microhistorical and cultural-political study of the 1901 journey of King Alexander and Queen Draga Obrenović through Serbia, interpreted as an ephemeral spectacle, political ritual and instrument of symbolic legitimation during a crisis of dynastic authority. The book reconstructs how direct contact with the population, ceremonial receptions, speeches, ephemeral decoration, flags and music, church and military participation, local elites, the awarding of honours, selected sites of memory and press mediation produced and negotiated political loyalty. It also shows that public enthusiasm was heterogeneous: loyalty could be genuine, ceremonial, locally conditioned, interest-driven or politically opportunistic.",
+      "genre": [
+        "Scholarly monograph",
+        "Political history",
+        "Cultural history",
+        "Microhistory",
+        "Symbolic politics",
+        "History of political ritual"
+      ],
+      "author": [
+        {
+          "@id": "https://milos-timotijevic.github.io/#person"
+        },
+        {
+          "@type": "Person",
+          "name": "Aleksandar Marušić",
+          "alternateName": "Александар Марушић"
+        }
+      ],
+      "inLanguage": "sr",
+      "temporalCoverage": "1901",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Kingdom of Serbia",
+          "alternateName": "Краљевина Србија"
+        },
+        {
+          "@type": "Place",
+          "name": "Belgrade",
+          "alternateName": "Београд"
+        },
+        {
+          "@type": "Place",
+          "name": "Smederevo",
+          "alternateName": "Смедерево"
+        },
+        {
+          "@type": "Place",
+          "name": "Kragujevac",
+          "alternateName": "Крагујевац"
+        },
+        {
+          "@type": "Place",
+          "name": "Kraljevo",
+          "alternateName": "Краљево"
+        },
+        {
+          "@type": "Place",
+          "name": "Studenica Monastery",
+          "alternateName": "Манастир Студеница"
+        },
+        {
+          "@type": "Place",
+          "name": "Žiča Monastery",
+          "alternateName": "Манастир Жича"
+        },
+        {
+          "@type": "Place",
+          "name": "Čačak",
+          "alternateName": "Чачак"
+        },
+        {
+          "@type": "Place",
+          "name": "Užice",
+          "alternateName": "Ужице"
+        },
+        {
+          "@type": "Place",
+          "name": "Takovo",
+          "alternateName": "Таково"
+        },
+        {
+          "@type": "Place",
+          "name": "Gornji Milanovac",
+          "alternateName": "Горњи Милановац"
+        },
+        {
+          "@type": "Place",
+          "name": "Vujan Monastery",
+          "alternateName": "Манастир Вујан"
+        },
+        {
+          "@type": "Place",
+          "name": "Niš",
+          "alternateName": "Ниш"
+        }
+      ],
+      "about": [
+        {
+          "@type": "Person",
+          "name": "King Alexander Obrenović",
+          "alternateName": "Краљ Александар Обреновић"
+        },
+        {
+          "@type": "Person",
+          "name": "Queen Draga Obrenović",
+          "alternateName": "Краљица Драга Обреновић"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-royal-visit"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-performance"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-public-ceremony"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ephemeral-spectacle"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-loyalty"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-dynastic-representation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-symbolic-legitimation"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Person",
+          "name": "King Alexander Obrenović",
+          "alternateName": "Краљ Александар Обреновић"
+        },
+        {
+          "@type": "Person",
+          "name": "Queen Draga Obrenović",
+          "alternateName": "Краљица Драга Обреновић"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Obrenović dynasty",
+          "alternateName": "Династија Обреновић"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Dynastic Propaganda",
+          "alternateName": "Династичка пропаганда"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Representative Culture",
+          "alternateName": "Репрезентативна култура"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Political Communication",
+          "alternateName": "Политичка комуникација"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Local Elites",
+          "alternateName": "Локалне елите"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "National Identity",
+          "alternateName": "Национални идентитет"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Political Public Space",
+          "alternateName": "Политички јавни простор"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Sites of Memory",
+          "alternateName": "Места памћења"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Awarding of Honours",
+          "alternateName": "Додела одликовања"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Press Mediation",
+          "alternateName": "Посредовање штампе"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Microhistory",
+          "alternateName": "Микроисторија"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Social Anthropology",
+          "alternateName": "Социјална антропологија"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Symbolic Interactionism",
+          "alternateName": "Симболички интеракционизам"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Discourse Analysis",
+          "alternateName": "Анализа дискурса"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "May Coup",
+          "alternateName": "Мајски преврат"
+        }
+      ],
+      "keywords": [
+        "King Alexander Obrenović",
+        "Queen Draga Obrenović",
+        "Obrenović dynasty",
+        "Kingdom of Serbia",
+        "Serbia 1901",
+        "royal visit",
+        "ephemeral spectacle",
+        "political ritual",
+        "political performance",
+        "public ceremony",
+        "symbolic politics",
+        "political loyalty",
+        "symbolic legitimation",
+        "dynastic representation",
+        "dynastic propaganda",
+        "representative culture",
+        "political communication",
+        "local elites",
+        "national identity",
+        "ceremonial speeches",
+        "awarding of honours",
+        "press",
+        "sites of memory",
+        "microhistory",
+        "social anthropology",
+        "symbolic interactionism",
+        "discourse analysis",
+        "May Coup"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#webpage"
+      },
+      "workExample": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#edition-2025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#edition-2026"
+        }
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata work item",
+          "value": "Q138005790",
+          "url": "https://www.wikidata.org/wiki/Q138005790"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138005790"
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-comparative-01"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-comparative-02"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-comparative-03"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-broader-01"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-theoretical-01"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#edition-2025",
+      "url": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html",
+      "name": "Усклици искреног одушевљења: ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године",
+      "alternateName": "Exclamations of Sincere Enthusiasm: The Ephemeral Spectacle and the Journey of King Alexander and Queen Draga Obrenović through Serbia in 1901",
+      "bookEdition": "Прво издање / First edition",
+      "exampleOfWork": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+      },
+      "author": [
+        {
+          "@id": "https://milos-timotijevic.github.io/#person"
+        },
+        {
+          "@type": "Person",
+          "name": "Aleksandar Marušić",
+          "alternateName": "Александар Марушић"
+        }
+      ],
+      "publisher": [
+        {
+          "@type": "Organization",
+          "name": "Народни музеј Чачак",
+          "alternateName": "National Museum Čačak",
+          "url": "https://www.cacakmuzej.org.rs/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Музеј рудничко-таковског краја",
+          "alternateName": "Museum of the Rudnik-Takovo Region"
+        }
+      ],
+      "datePublished": "2025",
+      "inLanguage": "sr",
+      "numberOfPages": 298,
+      "isbn": "978-86-82700-11-1",
+      "isAccessibleForFree": true,
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.65627/nmuc_uio.2025",
+          "url": "https://doi.org/10.65627/nmuc_uio.2025"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISBN-13",
+          "value": "978-86-82700-11-1"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata edition item",
+          "value": "Q138006078",
+          "url": "https://www.wikidata.org/wiki/Q138006078"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "COBISS.SR-ID",
+          "value": "162860041",
+          "url": "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/162860041#full"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "B3Kat-ID",
+          "value": "BV050513376",
+          "url": "https://bvbat01.bib-bvb.de/TP61/start.do?Language=De&Query=1035%3D%22BV050513376%22+IN+%5B1%5D"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Google Books",
+          "value": "bOS40QEACAAJ",
+          "url": "https://books.google.com/books?id=bOS40QEACAAJ"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "(OCoLC)1551499096",
+          "url": "https://search.worldcat.org/oclc/1551499096"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "1576166420",
+          "url": "https://search.worldcat.org/oclc/1576166420"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138006078",
+        "https://doi.org/10.65627/nmuc_uio.2025",
+        "https://zenodo.org/records/20523960",
+        "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/162860041#full",
+        "https://bvbat01.bib-bvb.de/TP61/start.do?Language=De&Query=1035%3D%22BV050513376%22+IN+%5B1%5D",
+        "https://books.google.com/books?id=bOS40QEACAAJ",
+        "https://search.worldcat.org/oclc/1551499096",
+        "https://search.worldcat.org/oclc/1576166420",
+        "https://www.cacakmuzej.org.rs/nmuc_uio.2025.html",
+        "https://www.cacakmuzej.org.rs/en/nmuc_uio.2025.html",
+        "https://publikacije.doi.rs/monographs/6/",
+        "https://www.academia.edu/128576007"
+      ],
+      "encoding": {
+        "@type": "MediaObject",
+        "encodingFormat": "application/pdf",
+        "contentUrl": "https://www.cacakmuzej.org.rs/files/nmc_usklici_iskrenog_odusevljenja_1901.pdf",
+        "name": "Пуна PDF верзија монографије"
+      }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#edition-2026",
+      "url": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html",
+      "name": "Усклици искреног одушевљења: ефемерни спектакл и путовање краља Александра и краљице Драге Обреновић по Србији 1901. године",
+      "alternateName": "Exclamations of Sincere Enthusiasm: The Ephemeral Spectacle and the Journey of King Alexander and Queen Draga Obrenović through Serbia in 1901",
+      "bookEdition": "Друго издање / Second edition",
+      "exampleOfWork": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+      },
+      "author": [
+        {
+          "@id": "https://milos-timotijevic.github.io/#person"
+        },
+        {
+          "@type": "Person",
+          "name": "Aleksandar Marušić",
+          "alternateName": "Александар Марушић"
+        }
+      ],
+      "publisher": [
+        {
+          "@type": "Organization",
+          "name": "Народни музеј Чачак",
+          "alternateName": "National Museum Čačak",
+          "url": "https://www.cacakmuzej.org.rs/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Музеј рудничко-таковског краја",
+          "alternateName": "Museum of the Rudnik-Takovo Region"
+        }
+      ],
+      "datePublished": "2026",
+      "inLanguage": "sr",
+      "numberOfPages": 300,
+      "isbn": "978-86-82700-22-7",
+      "isAccessibleForFree": false,
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISBN-13",
+          "value": "978-86-82700-22-7"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata edition item",
+          "value": "Q141239391",
+          "url": "https://www.wikidata.org/wiki/Q141239391"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "COBISS.SR-ID",
+          "value": "199514377",
+          "url": "https://plus.cobiss.net/cobiss/sr/sr/data/cobib/199514377?format=detail"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q141239391",
+        "https://plus.cobiss.net/cobiss/sr/sr/data/cobib/199514377?format=detail"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-comparative-01",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Daniel L. Unowsky, “Our Gratitude Has No Limit”: Polish Nationalism, Dynastic Patriotism, and the 1880 Imperial Inspection Tour of Galicia (2003)",
+          "url": "https://doi.org/10.1017/S0067237800020476"
+        }
+      ],
+      "description": "Comparative case of an imperial inspection tour, dynastic patriotism, public reception and political loyalty.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-comparative-02",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Matthew P. Fitzpatrick, Performing monarchy: The Kaiser and Kaiserin’s voyage to the Levant, 1898 (2018)",
+          "url": "https://doi.org/10.7765/9781526109392.00012"
+        }
+      ],
+      "description": "Comparative case of royal travel, pageantry and the public performance of monarchy.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-comparative-03",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Filip Šimetin Šegvić, Monarhijske stvari: na tragovima srednjoeuropske materijalne kulture s kraja 19. stoljeća – slučaj posjeta Zagreba Franje Josipa I. 1895. godine (2017)",
+          "url": "https://www.croris.hr/crosbi/publikacija/prilog-casopis/256396"
+        }
+      ],
+      "description": "Machine-layer comparative case of a Habsburg royal visit, material culture and ceremonial representation.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-broader-01",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Daniel L. Unowsky, The Pomp and Politics of Patriotism: Imperial Celebrations in Habsburg Austria, 1848–1916 (2005)",
+          "url": "https://doi.org/10.2307/j.ctt6wq4g3"
+        }
+      ],
+      "description": "Broader context for imperial celebrations, dynastic symbolism, patriotic mobilization and public ritual.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#relation-theoretical-01",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Miroslav Timotijević, Ефемерни спектакл за време владавине кнеза Милоша и Михајла Обреновића (1988)",
+          "url": "https://hrcak.srce.hr/clanak/225929"
+        }
+      ],
+      "description": "Theoretical and historiographical context for ephemeral spectacle and Obrenović dynastic representation.",
+      "inLanguage": "en"
     },
     {
       "@type": "DefinedTermSet",
