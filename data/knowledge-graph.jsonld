@@ -1045,7 +1045,12 @@
       "mainEntity": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster"
       },
-      "dateModified": "2026-09-25"
+      "dateModified": "2026-09-27",
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        }
+      ]
     },
     {
       "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster",
@@ -1060,7 +1065,7 @@
       "about": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#conceptual-network"
       },
-      "dateModified": "2026-09-25",
+      "dateModified": "2026-09-27",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
@@ -1068,7 +1073,720 @@
       "inLanguage": [
         "sr-Cyrl",
         "en-GB"
+      ],
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        }
       ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#webpage",
+      "url": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html",
+      "name": "Културна ризница Чачка: од праисторије до савременог доба",
+      "alternateName": "Cultural Treasury of Čačak: From Prehistory to the Present Time",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/#website"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+      }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work",
+      "url": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html",
+      "name": "Културна ризница Чачка: од праисторије до савременог доба",
+      "alternateName": [
+        "Cultural Treasury of Čačak: From Prehistory to the Present Time",
+        "Cultural Treasury of Cacak from Prehistory to the Present Time",
+        "Kulturna riznica Čačka: od praistorije do savremenog doba"
+      ],
+      "description": "Двојезична синтетичка научна монографија о културном, уметничком и материјалном наслеђу Чачка од праисторије до савременог доба. Историјски преглед служи као контекст за избор и тумачење културних добара, просторних целина, предмета, архитектуре, сакралног наслеђа и урбаних симбола, при чему публикација повезује научно истраживање, музејску документацију, визуелну репрезентацију и јавну историју.",
+      "abstract": "A bilingual synthetic scholarly monograph on the cultural, artistic and material heritage of Čačak from prehistory to the early twenty-first century. The book uses a concise long-term history of the city and its surroundings as contextual framing for the interpretation of cultural values, objects, buildings, spatial ensembles and artistic heritage. Selection is not restricted to legally designated cultural monuments: it also includes material remains that marked particular epochs or became recognizable symbols of the city. Combining archaeology, history, art history, museum documentation and extensive visual material, the publication functions simultaneously as a scholarly synthesis, a reference work and a public presentation of local heritage and identity.",
+      "genre": [
+        "Scholarly monograph",
+        "Heritage synthesis",
+        "Local history",
+        "Museum publication",
+        "Art history",
+        "Archaeology",
+        "Public history"
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Делфина Рајић",
+          "alternateName": "Delfina Rajić",
+          "sameAs": [
+            "https://orcid.org/0009-0004-6476-3450"
+          ]
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/#person"
+        }
+      ],
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "temporalCoverage": "Prehistory/2008",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Čačak",
+          "alternateName": "Чачак"
+        },
+        {
+          "@type": "Place",
+          "name": "Čačak region",
+          "alternateName": "Чачански крај"
+        },
+        {
+          "@type": "Place",
+          "name": "Ovčar–Kablar Gorge",
+          "alternateName": "Овчарско-кабларска клисура"
+        },
+        {
+          "@type": "Place",
+          "name": "West Morava",
+          "alternateName": "Западна Морава"
+        },
+        {
+          "@type": "Place",
+          "name": "Western Serbia",
+          "alternateName": "Западна Србија"
+        },
+        {
+          "@type": "Place",
+          "name": "Serbia",
+          "alternateName": "Србија"
+        }
+      ],
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-cultural-heritage"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-interpretation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-local-identity"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-heritage-formation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-museum-practice"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-history"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-public-interpretation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-sacred-heritage"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Material Culture",
+          "alternateName": "Материјална култура"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Cultural Landscape",
+          "alternateName": "Културни пејзаж"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Archaeological Heritage",
+          "alternateName": "Археолошко наслеђе"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Artistic Heritage",
+          "alternateName": "Уметничко наслеђе"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Monastic Heritage",
+          "alternateName": "Манастирско наслеђе"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Urban Modernization",
+          "alternateName": "Урбана модернизација"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "City Symbols",
+          "alternateName": "Симболи града"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Visual Culture",
+          "alternateName": "Визуелна култура"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Local Historical Synthesis",
+          "alternateName": "Локална историјска синтеза"
+        },
+        {
+          "@type": "Place",
+          "name": "Ovčar–Kablar Gorge",
+          "alternateName": "Овчарско-кабларска клисура"
+        },
+        {
+          "@type": "Place",
+          "name": "West Morava",
+          "alternateName": "Западна Морава"
+        }
+      ],
+      "keywords": [
+        "Културна ризница Чачка",
+        "Cultural Treasury of Čačak",
+        "Čačak",
+        "cultural heritage",
+        "heritage interpretation",
+        "local identity",
+        "heritage formation",
+        "museum practice",
+        "public history",
+        "public interpretation",
+        "material culture",
+        "cultural landscape",
+        "archaeological heritage",
+        "artistic heritage",
+        "sacred heritage",
+        "monastic heritage",
+        "visual culture",
+        "city symbols",
+        "local history",
+        "urban modernization",
+        "Ovčar–Kablar Gorge",
+        "West Morava",
+        "western Serbia",
+        "museum documentation"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#webpage"
+      },
+      "workExample": {
+        "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#edition-2008"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata work item",
+          "value": "Q139055651",
+          "url": "https://www.wikidata.org/wiki/Q139055651"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Open Library work",
+          "value": "OL15304319W",
+          "url": "https://openlibrary.org/works/OL15304319W"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139055651",
+        "https://openlibrary.org/works/OL15304319W"
+      ],
+      "award": "2008 Award of the Serbian National Committee of ICOM",
+      "subjectOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-policy"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-01-smith-2006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-02-harrison-2012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-03-lowenthal-1998"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-04-hooper-greenhill-2000"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-05-dicks-2003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-06-crooke-2006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-comparative-01-uzzell-1996"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-07-muller-2020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-comparative-02-knudsen-2022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-comparative-03-ira-2022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-comparative-04-jagodzinska-2023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-broader-01-macdonald-2013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-conceptual-01-mclean-1998"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-broader-02-cauvin-2016"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#edition-2008",
+      "url": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html",
+      "name": "Културна ризница Чачка: од праисторије до савременог доба",
+      "alternateName": "Cultural Treasury of Čačak: From Prehistory to the Present Time",
+      "bookEdition": "2008 bilingual Serbian-English edition",
+      "exampleOfWork": {
+        "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Делфина Рајић",
+          "alternateName": "Delfina Rajić",
+          "sameAs": [
+            "https://orcid.org/0009-0004-6476-3450"
+          ]
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/#person"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Народни музеј Чачак",
+        "alternateName": "National Museum Čačak",
+        "url": "https://www.cacakmuzej.org.rs/",
+        "location": {
+          "@type": "Place",
+          "name": "Čačak, Serbia"
+        }
+      },
+      "datePublished": "2008",
+      "copyrightYear": 2008,
+      "locationCreated": {
+        "@type": "Place",
+        "name": "Čačak, Serbia"
+      },
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "numberOfPages": 280,
+      "isbn": "978-86-84067-20-5",
+      "isAccessibleForFree": true,
+      "translator": {
+        "@type": "Person",
+        "name": "Весна Ковачевић",
+        "alternateName": "Vesna Kovačević"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "name": "Гордана Јеремић",
+          "alternateName": "Gordana Jeremić",
+          "description": "Reviewer"
+        },
+        {
+          "@type": "Person",
+          "name": "Мирослав Тимотијевић",
+          "alternateName": "Miroslav Timotijević",
+          "description": "Reviewer"
+        },
+        {
+          "@type": "Person",
+          "name": "Мирослав Јовановић",
+          "alternateName": "Miroslav Jovanović",
+          "description": "Reviewer"
+        },
+        {
+          "@type": "Person",
+          "name": "Саша Савовић",
+          "alternateName": "Saša Savović",
+          "description": "Photography"
+        },
+        {
+          "@type": "Person",
+          "name": "Светлана Џида",
+          "alternateName": "Svetlana Džida",
+          "description": "Design and prepress"
+        },
+        {
+          "@type": "Person",
+          "name": "Маријана Матовић",
+          "alternateName": "Marijana Matović",
+          "description": "Proofreading"
+        }
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.65627/nmuc_krcacak.2008",
+          "url": "https://doi.org/10.65627/nmuc_krcacak.2008"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata edition item",
+          "value": "Q139055896",
+          "url": "https://www.wikidata.org/wiki/Q139055896"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISBN-13",
+          "value": "978-86-84067-20-5"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "COBISS.SR-ID",
+          "value": "148226060",
+          "url": "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/148226060#full"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "436221884",
+          "url": "https://search.worldcat.org/oclc/436221884"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "751431485",
+          "url": "https://search.worldcat.org/oclc/751431485"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "LCCN",
+          "value": "2009449542",
+          "url": "https://www.loc.gov/item/2009449542/"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "B3Kat-ID",
+          "value": "BV035171517"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Open Library edition",
+          "value": "OL23717321M",
+          "url": "https://openlibrary.org/books/OL23717321M"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139055896",
+        "https://doi.org/10.65627/nmuc_krcacak.2008",
+        "https://zenodo.org/records/20524638",
+        "https://www.cacakmuzej.org.rs/nmuc_krcacak.2008.html",
+        "https://www.cacakmuzej.org.rs/en/nmuc_krcacak.2008.html",
+        "https://publikacije.doi.rs/monographs/7/",
+        "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/148226060#full",
+        "https://search.worldcat.org/oclc/436221884",
+        "https://search.worldcat.org/oclc/751431485",
+        "https://www.loc.gov/item/2009449542/",
+        "https://openlibrary.org/books/OL23717321M"
+      ],
+      "associatedMedia": {
+        "@type": "MediaObject",
+        "name": "Zenodo repository version",
+        "url": "https://zenodo.org/records/20524638"
+      },
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "name": "Избор из књиге / Selected excerpt",
+          "url": "https://www.academia.edu/29321135",
+          "description": "Selected excerpt containing the table of contents, introduction, conclusion, and list of sources and bibliography."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-policy",
+      "name": "Scholarly relation policy for Cultural Treasury of Čačak",
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+      },
+      "description": "The comparativeCaseWith, broaderContext, theoreticalContext and conceptuallyRelatedTo relations on this landing page form a retrospective research-discovery layer. They do not imply that the related works were cited in the 2008 edition unless such citation is independently documented in the monograph.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-01-smith-2006",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Laurajane Smith, Uses of Heritage (2006)",
+          "url": "https://www.routledge.com/Uses-ofHeritage/Smith/p/book/9780415318310"
+        }
+      ],
+      "description": "Critical heritage framework treating heritage value as culturally produced and institutionally authorized rather than inherent in objects and places.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-02-harrison-2012",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Rodney Harrison, Heritage: Critical Approaches (2012)",
+          "url": "https://doi.org/10.4324/9780203108857"
+        }
+      ],
+      "description": "Critical framework for heritage as a contemporary social, political and material process linking objects, places, institutions and communities.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-03-lowenthal-1998",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "David Lowenthal, The Heritage Crusade and the Spoils of History (1998)",
+          "url": "https://doi.org/10.1017/CBO9780511523809"
+        }
+      ],
+      "description": "Theoretical context for distinguishing historical inquiry from heritage-making and for understanding the public uses and selection of the past.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-04-hooper-greenhill-2000",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Eilean Hooper-Greenhill, Museums and the Interpretation of Visual Culture (2000)",
+          "url": "https://www.routledge.com/Museums-and-the-Interpretation-of-Visual-Culture/Hooper-Greenhill/p/book/9780415086332"
+        }
+      ],
+      "description": "Museum-theoretical context for visual interpretation, display, knowledge production and the relationship between images, objects and public meaning.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-05-dicks-2003",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Bella Dicks, Culture on Display: The Production of Contemporary Visitability (2003)",
+          "url": "https://books.google.com/books?id=VKE2TWpDXL4C"
+        }
+      ],
+      "description": "Theoretical context for the transformation of culture into publicly visitable and visually organized forms, including cities, museums and heritage displays.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-06-crooke-2006",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Elizabeth Crooke, Museums and Community (2006)",
+          "url": "https://doi.org/10.1002/9780470996836.ch11"
+        }
+      ],
+      "description": "Theoretical context for museums, community identity, civic engagement and the role of collections in local historical self-understanding.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-comparative-01-uzzell-1996",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "David L. Uzzell, Creating place identity through heritage interpretation (1996)",
+          "url": "https://doi.org/10.1080/13527259608722151"
+        }
+      ],
+      "description": "Comparative case of a town museum using heritage interpretation to strengthen sense of place and local identity.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-theoretical-07-muller-2020",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Insa Müller, The Local Museum in the Global Village: Rethinking Ideas, Functions, and Practices of Local History Museums in Rapidly Changing Diverse Communities (2020)",
+          "url": "https://www.jstor.org/stable/j.ctv371cfvg"
+        }
+      ],
+      "description": "Theoretical context for local history museums as institutions that select, narrate and publicly communicate local pasts in changing communities.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-comparative-02-knudsen-2022",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Line Vestergaard Knudsen, Museums Configuring the Local (2022)",
+          "url": "https://doi.org/10.1080/2159032X.2022.2126214"
+        }
+      ],
+      "description": "Comparative study of how cultural historical museums configure local heritage through stories, material environments, communication and place identity.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-comparative-03-ira-2022",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Jaroslav Ira, Displaying city and nation in the Prague City Museum (1883–1938) (2022)",
+          "url": "https://doi.org/10.1080/19369816.2022.2042074"
+        }
+      ],
+      "description": "Comparative case of a city museum producing a synoptic urban past, local identity and heritage awareness through collections and exhibitions.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-comparative-04-jagodzinska-2023",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Katarzyna Jagodzińska, Museums lobbied by local communities: potential and actual place of the people in participatory museums of local history (2023)",
+          "url": "https://doi.org/10.1080/13527258.2023.2194669"
+        }
+      ],
+      "description": "Comparative case of local history museums, community involvement and the negotiation of institutional authority over local heritage narratives.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-broader-01-macdonald-2013",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Sharon Macdonald, Memorylands: Heritage and Identity in Europe Today (2013)",
+          "url": "https://www.routledge.com/Memorylands-Heritage-and-Identity-in-Europe-Today/Macdonald/p/book/9780415453349"
+        }
+      ],
+      "description": "Broader European context for heritage, material reminders of the past, musealization, memory and changing collective identities.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-conceptual-01-mclean-1998",
+      "name": "conceptuallyRelatedTo",
+      "additionalType": "conceptuallyRelatedTo",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Fiona McLean, Museums and the construction of national identity: A review (1998)",
+          "url": "https://doi.org/10.1080/13527259808722211"
+        }
+      ],
+      "description": "Conceptually related discussion of how museum collections, selection, presentation and interpretation participate in identity construction.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#relation-broader-02-cauvin-2016",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Thomas Cauvin, Public History: A Textbook of Practice (2016)",
+          "url": "https://publications.uni.lu/handle/10993/49649"
+        }
+      ],
+      "description": "Broader public-history context for scholarly work that communicates the past through museums, preservation, interpretation and other public-facing practices.",
+      "inLanguage": "en"
     },
     {
       "@type": "DefinedTermSet",
