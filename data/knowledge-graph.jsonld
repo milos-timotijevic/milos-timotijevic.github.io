@@ -50,7 +50,7 @@
       "about": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
-      "dateModified": "2026-09-26",
+      "dateModified": "2026-09-27",
       "inLanguage": [
         "sr-Cyrl",
         "en-GB"
@@ -63,7 +63,7 @@
       "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
       "url": "https://milos-timotijevic.github.io/data/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2026-09-26",
+      "dateModified": "2026-09-27",
       "creator": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
@@ -2075,7 +2075,12 @@
       "mainEntity": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#research-cluster"
       },
-      "dateModified": "2026-09-25"
+      "dateModified": "2026-09-27",
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        }
+      ]
     },
     {
       "@type": "CreativeWork",
@@ -2120,7 +2125,911 @@
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-set"
         }
       ],
-      "dateModified": "2026-09-25"
+      "dateModified": "2026-09-27",
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#webpage",
+      "url": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html",
+      "name": "Драгиша Васић и српска национална идеја",
+      "alternateName": "Dragiša Vasić and the Serbian National Idea",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/#website"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+      }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work",
+      "url": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html",
+      "name": "Драгиша Васић и српска национална идеја",
+      "alternateName": [
+        "Драгиша Васић (1885–1945) и српска национална идеја",
+        "Dragiša Vasić and the Serbian National Idea",
+        "Dragiša Vasić (1885–1945) and the Serbian National Idea",
+        "Dragiša Vasić i srpska nacionalna ideja"
+      ],
+      "description": "Интелектуална и политичка биографија Драгише Васића која прати стварање и преобликовање његове српске националне идеје од грађанског и либералног окружења пред Балканске ратове, преко ратног искуства 1912–1920. и међуратног књижевног и политичког ангажмана, до Равногорског покрета, Другог светског рата и послератног памћења.",
+      "abstract": "An intellectual and political biography of Dragiša Vasić (1885–1945) that traces the formation and transformation of his Serbian national idea across civic family background, liberal-democratic convictions, the Balkan Wars and First World War, postwar literary and public activity, interwar political engagement, the Serbian Cultural Club, the Ravna Gora movement, and postwar memory. The study treats national identity and sacrifice for the homeland as central problems in Vasić's literary and public work, while examining tensions among liberalism, nationalism, Yugoslavism, modernity, political violence and historical memory.",
+      "genre": [
+        "Scholarly monograph",
+        "Intellectual history",
+        "Political history",
+        "Cultural history",
+        "Biography",
+        "History of political thought"
+      ],
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "inLanguage": "sr",
+      "temporalCoverage": "1885/1945",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Serbia",
+          "alternateName": "Србија"
+        },
+        {
+          "@type": "Place",
+          "name": "Yugoslavia",
+          "alternateName": "Југославија"
+        },
+        {
+          "@type": "Place",
+          "name": "Belgrade",
+          "alternateName": "Београд"
+        },
+        {
+          "@type": "Place",
+          "name": "Gornji Milanovac and the Rudnik region",
+          "alternateName": "Горњи Милановац и руднички крај"
+        },
+        {
+          "@type": "Place",
+          "name": "Balkans",
+          "alternateName": "Балкан"
+        },
+        {
+          "@type": "Place",
+          "name": "Russia",
+          "alternateName": "Русија"
+        }
+      ],
+      "about": [
+        {
+          "@type": "Person",
+          "name": "Драгиша Васић",
+          "alternateName": "Dragiša Vasić",
+          "sameAs": "https://www.wikidata.org/wiki/Q1265025"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-political-thought"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-national-idea"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-intellectual-engagement"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-public-debate"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-ideological-conflict"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-historical-legitimation"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Liberal Nationalism",
+          "alternateName": "Либерални национализам"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Liberal Democracy",
+          "alternateName": "Либерална демократија"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Republicanism",
+          "alternateName": "Републиканизам"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Serbian National Identity",
+          "alternateName": "Српски национални идентитет"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Serbian Civic Society",
+          "alternateName": "Српско грађанство"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Cultural Nationalism",
+          "alternateName": "Културни национализам"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "National Mobilisation",
+          "alternateName": "Национална мобилизација"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Yugoslavism",
+          "alternateName": "Југословенство"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Anti-fascism",
+          "alternateName": "Антифашизам"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "War Experience",
+          "alternateName": "Ратно искуство"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Literature and Politics",
+          "alternateName": "Књижевност и политика"
+        },
+        {
+          "@type": "Organization",
+          "name": "Serbian Cultural Club",
+          "alternateName": "Српски културни клуб"
+        },
+        {
+          "@type": "Organization",
+          "name": "Ravna Gora Movement",
+          "alternateName": "Равногорски покрет"
+        },
+        {
+          "@type": "Organization",
+          "name": "Yugoslav Army in the Homeland",
+          "alternateName": "Југословенска војска у отаџбини"
+        },
+        {
+          "@type": "Person",
+          "name": "Dragoljub Mihailović",
+          "alternateName": "Драгољуб Михаиловић"
+        },
+        {
+          "@type": "Person",
+          "name": "Stevan Moljević",
+          "alternateName": "Стеван Мољевић"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Greater Serbia",
+          "alternateName": "Велика Србија"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Historical Memory",
+          "alternateName": "Историјско памћење"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Postwar Memory",
+          "alternateName": "Послератно памћење"
+        }
+      ],
+      "keywords": [
+        "Dragiša Vasić",
+        "Драгиша Васић",
+        "Serbian national idea",
+        "српска национална идеја",
+        "political thought",
+        "nationalism",
+        "liberal nationalism",
+        "liberal democracy",
+        "republicanism",
+        "intellectual engagement",
+        "political culture",
+        "Serbian civic society",
+        "national identity",
+        "Yugoslavism",
+        "literature and politics",
+        "Balkan Wars",
+        "First World War",
+        "Serbian Cultural Club",
+        "Ravna Gora movement",
+        "Yugoslav Army in the Homeland",
+        "Second World War",
+        "historical memory",
+        "political violence",
+        "modern Serbia",
+        "Yugoslavia",
+        "Southeast Europe"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#research-cluster"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#webpage"
+      },
+      "workExample": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#edition-2016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#edition-2019"
+        }
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata work item",
+          "value": "Q138006665",
+          "url": "https://www.wikidata.org/wiki/Q138006665"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138006665"
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-policy"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-01-denes-2006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-01-pudlocki-ruszala-2018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-conceptual-01-lompar-2022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-conceptual-02-vasic-proceedings-2023"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-01-dragovic-soso-2002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-02-trencsenyi-2016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-02-gorny-2019"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-03-newman-2015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-03-trencsenyi-2018"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-02-nielsen-2014"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-04-wachtel-1998"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-conceptual-03-guzina-2021"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-03-kovic-2017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-04-krzywiec-2016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-04-pavlowitch-2020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-05-bergholz-2016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-05-hoare-2006"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-05-vujacic-2015"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#edition-2016",
+      "url": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html",
+      "name": "Драгиша Васић (1885–1945) и српска национална идеја",
+      "alternateName": "Dragiša Vasić (1885–1945) and the Serbian National Idea",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Службени гласник",
+        "alternateName": "Službeni glasnik",
+        "url": "https://www.slglasnik.com/"
+      },
+      "locationCreated": {
+        "@type": "Place",
+        "name": "Belgrade, Serbia"
+      },
+      "datePublished": "2016",
+      "inLanguage": "sr",
+      "bookEdition": "First edition",
+      "isbn": "978-86-519-0823-4",
+      "numberOfPages": 566,
+      "exampleOfWork": {
+        "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.5281/zenodo.20483702",
+          "url": "https://doi.org/10.5281/zenodo.20483702"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata edition item",
+          "value": "Q138427116",
+          "url": "https://www.wikidata.org/wiki/Q138427116"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISBN-13",
+          "value": "978-86-519-0823-4",
+          "url": "https://search.worldcat.org/isbn/9788651908234"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "COBISS.SR-ID",
+          "value": "228185356",
+          "url": "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/228185356#full"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "LCCN",
+          "value": "2017384961",
+          "url": "https://www.loc.gov/item/2017384961/"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "1012492917",
+          "url": "https://search.worldcat.org/oclc/1012492917"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "1015543145",
+          "url": "https://search.worldcat.org/oclc/1015543145"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138427116",
+        "https://doi.org/10.5281/zenodo.20483702",
+        "https://zenodo.org/records/20483702",
+        "https://search.worldcat.org/isbn/9788651908234",
+        "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/228185356#full",
+        "https://www.loc.gov/item/2017384961/",
+        "https://search.worldcat.org/oclc/1012492917",
+        "https://search.worldcat.org/oclc/1015543145"
+      ],
+      "subjectOf": [
+        {
+          "@type": "Review",
+          "name": "Александар Лукић, приказ књиге Драгиша Васић (1885–1945) и српска национална идеја",
+          "alternateName": "Aleksandar Lukić, review of Dragiša Vasić (1885–1945) and the Serbian National Idea",
+          "author": {
+            "@type": "Person",
+            "name": "Александар Лукић",
+            "alternateName": "Aleksandar Lukić"
+          },
+          "itemReviewed": {
+            "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#edition-2016"
+          },
+          "isPartOf": {
+            "@type": "Periodical",
+            "name": "Токови историје",
+            "alternateName": "Tokovi istorije"
+          },
+          "datePublished": "2017",
+          "issueNumber": "2",
+          "pagination": "239–242",
+          "url": "https://tokovi.istorije.rs/cir/uploaded/2%202017/A_Lukic.pdf"
+        },
+        {
+          "@type": "Review",
+          "name": "Наташа Милићевић, приказ књиге Драгиша Васић (1885–1945) и српска национална идеја",
+          "alternateName": "Nataša Milićević, review of Dragiša Vasić (1885–1945) and the Serbian National Idea",
+          "author": {
+            "@type": "Person",
+            "name": "Наташа Милићевић",
+            "alternateName": "Nataša Milićević"
+          },
+          "itemReviewed": {
+            "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#edition-2016"
+          },
+          "isPartOf": {
+            "@type": "Periodical",
+            "name": "Војноисторијски гласник",
+            "alternateName": "Vojnoistorijski glasnik"
+          },
+          "datePublished": "2018",
+          "issueNumber": "1",
+          "pagination": "244–248",
+          "url": "https://www.isi.mod.gov.rs/multimedia/dodaci/vig_1_2018_1554882032.pdf"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#edition-2019",
+      "url": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html",
+      "name": "Драгиша Васић и српска национална идеја",
+      "alternateName": [
+        "Dragiša Vasić and the Serbian National Idea",
+        "Драгиша Васић (1885–1945) и српска национална идеја"
+      ],
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Службени гласник",
+        "alternateName": "Službeni glasnik",
+        "url": "https://www.slglasnik.com/"
+      },
+      "locationCreated": {
+        "@type": "Place",
+        "name": "Belgrade, Serbia"
+      },
+      "editor": [
+        {
+          "@type": "Person",
+          "name": "Борисав Челиковић",
+          "alternateName": "Borisav Čeliković"
+        },
+        {
+          "@type": "Person",
+          "name": "Милојко Кнежевић",
+          "alternateName": "Milojko Knežević"
+        }
+      ],
+      "contributor": [
+        {
+          "@type": "Person",
+          "name": "Јелена Триван",
+          "alternateName": "Jelena Trivan",
+          "description": "Editor-in-chief"
+        },
+        {
+          "@type": "Person",
+          "name": "Наташа Милићевић",
+          "alternateName": "Nataša Milićević",
+          "description": "Reviewer"
+        },
+        {
+          "@type": "Person",
+          "name": "Владимир Димитријевић",
+          "alternateName": "Vladimir Dimitrijević",
+          "description": "Reviewer"
+        },
+        {
+          "@type": "Person",
+          "name": "Коста Николић",
+          "alternateName": "Kosta Nikolić",
+          "description": "Reviewer"
+        }
+      ],
+      "datePublished": "2019",
+      "inLanguage": "sr",
+      "bookEdition": "Second, supplemented edition",
+      "isbn": "978-86-519-2334-3",
+      "numberOfPages": 588,
+      "exampleOfWork": {
+        "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.5281/zenodo.20483785",
+          "url": "https://doi.org/10.5281/zenodo.20483785"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata edition item",
+          "value": "Q138006715",
+          "url": "https://www.wikidata.org/wiki/Q138006715"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISBN-13",
+          "value": "978-86-519-2334-3",
+          "url": "https://search.worldcat.org/isbn/9788651923343"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "COBISS.SR-ID",
+          "value": "274061068",
+          "url": "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/274061068#full"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "LCCN",
+          "value": "2021394111",
+          "url": "https://www.loc.gov/item/2021394111/"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "1335710509",
+          "url": "https://search.worldcat.org/oclc/1335710509"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "1253432183",
+          "url": "https://search.worldcat.org/oclc/1253432183"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138006715",
+        "https://doi.org/10.5281/zenodo.20483785",
+        "https://zenodo.org/records/20483785",
+        "https://search.worldcat.org/isbn/9788651923343",
+        "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/274061068#full",
+        "https://www.loc.gov/item/2021394111/",
+        "https://search.worldcat.org/oclc/1335710509",
+        "https://search.worldcat.org/oclc/1253432183"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-policy",
+      "name": "Scholarly relation policy for Dragiša Vasić and the Serbian National Idea",
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+      },
+      "description": "The comparativeCaseWith, broaderContext, theoreticalContext and conceptuallyRelatedTo relations on this landing page are a retrospective research-discovery layer. They do not imply that the related works were bibliographically cited in either the 2016 or 2019 edition unless such citation is independently documented in the monograph.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-01-denes-2006",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Iván Zoltán Dénes (ed.), Liberty and the Search for Identity: Liberal Nationalisms and the Legacy of Empires (2006)",
+          "url": "https://doi.org/10.1515/9789633863633"
+        }
+      ],
+      "description": "Broader comparative framework for liberal nationalism, political liberty and national identity in post-imperial and East-Central European settings.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-01-pudlocki-ruszala-2018",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Tomasz Pudłocki and Kamil Ruszała (eds.), Intellectuals and World War I: A Central European Perspective (2018)",
+          "url": "https://wuj.pl/en/book/intellectuals-and-world-war-i"
+        }
+      ],
+      "description": "Comparative framework for intellectual engagement, public intervention, wartime experience and political responsibility during the First World War.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-conceptual-01-lompar-2022",
+      "name": "conceptuallyRelatedTo",
+      "additionalType": "conceptuallyRelatedTo",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Milo Lompar, Nervozni čas pripovesti: moderna vremena u prozi Dragiše Vasića, drugo, prošireno izdanje (2022)",
+          "url": "https://www.fil.bg.ac.rs/en/faculty/staff/prof-dr-milo-lompar-1727"
+        }
+      ],
+      "description": "Later literary-historical interpretation of Vasić's prose, modernity and wartime experience.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-conceptual-02-vasic-proceedings-2023",
+      "name": "conceptuallyRelatedTo",
+      "additionalType": "conceptuallyRelatedTo",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Nedeljka Bjelanović and Dragan Hamović (eds.), Драгиша Васић: век црвених магли: зборник радова (2023)",
+          "url": "https://www.muzejgm.org/wp-content/uploads/2024/07/Zbornik-radova-Dragisa-Vasic-vek-crvenih-magli-za-sajt.pdf"
+        }
+      ],
+      "description": "Later multidisciplinary scholarship on Dragiša Vasić's literary, intellectual, political and historical significance.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-01-dragovic-soso-2002",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Jasna Dragović-Soso, Saviours of the Nation: Serbia’s Intellectual Opposition and the Revival of Nationalism (2002)",
+          "url": "https://doi.org/10.1515/9780773570924"
+        }
+      ],
+      "description": "Theoretical context for Serbian intellectual engagement, nationalism and the public role of intellectual elites.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-02-trencsenyi-2016",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Balázs Trencsényi et al., A History of Modern Political Thought in East Central Europe, Vol. I: Negotiating Modernity in the Long Nineteenth Century (2016)",
+          "url": "https://doi.org/10.1093/acprof:oso/9780198737148.001.0001"
+        }
+      ],
+      "description": "Transnational theoretical context for liberalism, nationalism, political modernity and intellectual traditions that shaped East-Central European political thought before 1918.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-02-gorny-2019",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Maciej Górny, Science Embattled: Eastern European Intellectuals and the Great War (2019)",
+          "url": "https://books.google.com/books?id=2OXNswEACAAJ"
+        }
+      ],
+      "description": "Comparative study of intellectual political engagement in Eastern and Southeastern Europe from the Balkan Wars through the aftermath of the First World War.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-03-newman-2015",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "John Paul Newman, Yugoslavia in the Shadow of War: Veterans and the Limits of State Building, 1903–1945 (2015)",
+          "url": "https://doi.org/10.1017/CBO9781107707597"
+        }
+      ],
+      "description": "Comparative context for wartime generation, veteran politics, political violence and the remobilization of First World War experience in interwar Yugoslavia.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-03-trencsenyi-2018",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Balázs Trencsényi et al., A History of Modern Political Thought in East Central Europe, Vol. II, Part I: 1918–1968 (2018)",
+          "url": "https://doi.org/10.1093/oso/9780198737155.001.0001"
+        }
+      ],
+      "description": "Comparative history of interwar liberalism, nationalism, anti-liberal currents, communism, anti-totalitarian thought and political modernity in East-Central Europe.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-02-nielsen-2014",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Christian Axboe Nielsen, Making Yugoslavs: Identity in King Aleksandar’s Yugoslavia (2014)",
+          "url": "https://doi.org/10.3138/9781442669246"
+        }
+      ],
+      "description": "Broader context for Yugoslav national ideology, interwar state-building and competing national identities in the Kingdom of Yugoslavia.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-04-wachtel-1998",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Andrew Baruch Wachtel, Making a Nation, Breaking a Nation: Literature and Cultural Politics in Yugoslavia (1998)",
+          "url": "https://books.google.com/books?id=0nfUtAEACAAJ"
+        }
+      ],
+      "description": "Theoretical context for literature, cultural politics and the construction and dissolution of Yugoslav national identity.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-conceptual-03-guzina-2021",
+      "name": "conceptuallyRelatedTo",
+      "additionalType": "conceptuallyRelatedTo",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Dejan Guzina, Through the 21st century looking glass: Liberalism, democracy, and populism in a pre-Yugoslav Serbia (2021)",
+          "url": "https://doi.org/10.1111/nana.12715"
+        }
+      ],
+      "description": "Later historiographical discussion of liberal-national interpretations of Serbia before 1914, directly relevant to the analytical tension between liberalism and nationalism.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-03-kovic-2017",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Miloš Ković, Austria-Hungary’s “Civilizing Mission” in the Balkans: A View from Belgrade (1903–1914) (2017)",
+          "url": "https://doi.org/10.2298/BALC1748107K"
+        }
+      ],
+      "description": "Broader context for Serbian intellectual elites, public discourse, nationalism and resistance to Habsburg political-cultural pressure before the First World War.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-04-krzywiec-2016",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Grzegorz Krzywiec, Chauvinism, Polish Style: The Case of Roman Dmowski (Beginnings: 1886–1905) (2016)",
+          "url": "https://doi.org/10.3726/978-3-653-02676-4"
+        }
+      ],
+      "description": "Comparative intellectual-biographical case for the formation of nationalist political thought in East-Central Europe; the relation indicates comparison of ideological formation, not ideological equivalence.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-04-pavlowitch-2020",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Stevan K. Pavlowitch, Hitler’s New Disorder: The Second World War in Yugoslavia (2020)",
+          "url": "https://doi.org/10.1093/oso/9780197537039.001.0001"
+        }
+      ],
+      "description": "Broader wartime context for occupation, civil war, resistance, collaboration and political fragmentation in Yugoslavia after 1941.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-comparative-05-bergholz-2016",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Max Bergholz, Violence as a Generative Force: Identity, Nationalism, and Memory in a Balkan Community (2016)",
+          "url": "https://www.jstor.org/stable/10.7591/j.ctt2050wtn"
+        }
+      ],
+      "description": "Comparative microhistorical context for the interaction of wartime violence, local identities, nationalism, revenge and later memory in the western Balkans.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-broader-05-hoare-2006",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Marko Attila Hoare, Genocide and Resistance in Hitler’s Bosnia: The Partisans and the Chetniks, 1941–1943 (2006)",
+          "url": "https://doi.org/10.5871/bacad/9780197263808.001.0001"
+        }
+      ],
+      "description": "Broader context for genocide, insurgency, Chetnik and Partisan mobilization, and competing national-political projects in wartime Bosnia.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#relation-theoretical-05-vujacic-2015",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Veljko Vujačić, Nationalism, Myth, and the State in Russia and Serbia (2015)",
+          "url": "https://doi.org/10.1017/CBO9781139696517"
+        }
+      ],
+      "description": "Theoretical context for nationalism, historical legacies, political myths, collective memories and literary narratives in Serbia and Russia.",
+      "inLanguage": "en"
     },
     {
       "@type": "DefinedTermSet",
