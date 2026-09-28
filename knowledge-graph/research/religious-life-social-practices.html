@@ -1,37 +1,275 @@
 <!DOCTYPE html>
 
-<html lang="sr">
+<html lang="sr-Cyrl">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Религијски живот и друштвене праксе / Religious Life and Social Practices</title>
 <meta content="index, follow" name="robots"/>
-<meta content="Истраживачки кластер о религијском животу, религиозности, сакралним просторима, црквеном наслеђу, локалним праксама и односу традиције и модерности у чачанском крају." name="description"/>
+<meta content="Истраживачка целина о религиозности, секуларизацији, сакралним просторима, породичном памћењу, црквеној јавности и друштвеним праксама у чачанском крају и западној Србији." name="description"/>
 <link href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html" rel="canonical"/>
+<link href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" rel="alternate" title="Machine-readable knowledge graph" type="application/ld+json"/>
+<meta content="Религијски живот и друштвене праксе" property="og:title"/>
+<meta content="Религиозност, секуларизација, сакрални простори, породично памћење и црквена јавност у чачанском крају и западној Србији." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html" property="og:url"/>
+<meta content="Miloš Timotijević — Knowledge Graph" property="og:site_name"/>
+<meta content="sr_RS" property="og:locale"/>
+<meta content="en_GB" property="og:locale:alternate"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Religious Life and Social Practices" name="twitter:title"/>
+<meta content="Religious life, secularization, sacred spaces, private memory and church public discourse in the Čačak region and western Serbia." name="twitter:description"/>
 <style>
-    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #222; background: #fff; }
-    h1, h2, h3 { line-height: 1.25; color: #111; }
-    h1 { font-size: 2.05em; margin-bottom: 0.2em; }
-    h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.25em; }
-    h3 { margin-top: 1.5em; font-size: 1.15em; }
-    a { color: #0645ad; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    p { margin: 0.75em 0; }
-    ul li { margin-bottom: 0.75em; }
-    .subtitle { font-size: 1.08em; margin-bottom: 1.5em; color: #444; }
-    .intro, .note, .identifier-box, .framework-box { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin: 1.5em 0 2em 0; }
-    .intro p, .note p, .identifier-box p, .framework-box p { margin: 0.35em 0; }
-    .work-list { padding-left: 1.25em; }
-    .work-list li { margin-bottom: 1.15em; }
-    .work-note { display: block; color: #444; margin-top: 0.15em; font-size: 0.97em; }
-    .links { display: block; margin-top: 0.2em; font-size: 0.96em; }
-    .role { display: inline-block; margin-top: 0.25em; font-size: 0.9em; color: #555; }
-    .related-box { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 0.9em 1em; margin: 1em 0; }
-    .keywords { color: #333; }
-    .citation { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin-top: 1em; }
-    .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
-    .small-note { color: #555; font-size: 0.96em; }
-  </style>
+:root {
+color-scheme: light;
+}
+* {
+box-sizing: border-box;
+}
+html {
+scroll-behavior: smooth;
+}
+body {
+font-family: Georgia, "Times New Roman", serif;
+line-height: 1.65;
+max-width: 980px;
+margin: 40px auto;
+padding: 0 24px;
+color: #222;
+background: #fff;
+}
+h1, h2, h3, h4 {
+line-height: 1.25;
+color: #111;
+}
+h1 {
+margin: 0 0 0.2em;
+font-size: 2.05em;
+}
+h2 {
+margin-top: 2em;
+padding-bottom: 0.25em;
+border-bottom: 1px solid #ddd;
+}
+h3 {
+margin-top: 1.65em;
+font-size: 1.16em;
+}
+h4 {
+margin-top: 1.2em;
+font-size: 1.04em;
+}
+p {
+margin: 0.75em 0;
+}
+a {
+color: #0645ad;
+text-decoration: none;
+}
+a:hover,
+a:focus {
+text-decoration: underline;
+}
+a:focus-visible {
+outline: 2px solid #0645ad;
+outline-offset: 3px;
+}
+.skip-link {
+position: absolute;
+left: 1rem;
+top: -5rem;
+z-index: 1000;
+padding: 0.55rem 0.75rem;
+border: 2px solid #0645ad;
+color: #fff;
+background: #0645ad;
+}
+.skip-link:focus {
+top: 1rem;
+color: #fff;
+}
+.site-nav,
+.contents {
+margin: 1.25em 0 1.75em;
+padding: 0.9em 1em;
+border: 1px solid #e2e2e2;
+background: #f8f8f8;
+}
+.site-nav ul {
+display: flex;
+flex-wrap: wrap;
+gap: 0.55em 1em;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.site-nav li {
+margin: 0;
+}
+.contents h2 {
+margin-top: 0;
+border-bottom: 0;
+font-size: 1.2em;
+}
+.contents ol {
+columns: 2;
+column-gap: 2.5em;
+margin-bottom: 0;
+padding-left: 1.35em;
+}
+.contents li {
+break-inside: avoid;
+margin-bottom: 0.35em;
+}
+.subtitle {
+margin-bottom: 1.5em;
+color: #444;
+font-size: 1.08em;
+}
+.intro,
+.summary,
+.research-box,
+.scope-box,
+.identifier-box,
+.framework-box,
+.note,
+.citation {
+margin: 1.5em 0 2em;
+padding: 1em;
+border-left: 4px solid #bbb;
+background: #f8f8f8;
+}
+.intro p,
+.summary p,
+.research-box p,
+.scope-box p,
+.identifier-box p,
+.framework-box p,
+.note p,
+.citation p {
+margin: 0.4em 0;
+}
+.scope-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1em;
+}
+.scope-card {
+padding: 1em;
+border: 1px solid #e2e2e2;
+background: #fbfbfb;
+}
+.scope-card h3 {
+margin-top: 0;
+}
+.scope-list {
+display: grid;
+grid-template-columns: max-content 1fr;
+gap: 0.4em 1em;
+margin: 0;
+}
+.scope-list dt {
+font-weight: bold;
+}
+.scope-list dd {
+margin: 0;
+}
+.work-group {
+margin-top: 2em;
+}
+.work-list {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.work-card {
+margin: 1em 0;
+padding: 1em;
+border: 1px solid #e2e2e2;
+background: #fbfbfb;
+}
+.work-card p {
+margin: 0.45em 0;
+}
+.work-title {
+font-size: 1.04em;
+}
+.work-note {
+display: block;
+margin-top: 0.3em;
+color: #333;
+}
+.role {
+display: block;
+margin-top: 0.35em;
+color: #555;
+font-size: 0.93em;
+}
+.links {
+display: block;
+margin-top: 0.45em;
+color: #444;
+font-size: 0.95em;
+}
+.related-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1em;
+}
+.related-box {
+margin: 0;
+padding: 1em;
+border: 1px solid #e2e2e2;
+background: #fbfbfb;
+}
+.related-box h3 {
+margin-top: 0;
+}
+.keywords {
+color: #333;
+}
+.back-link {
+margin-top: 2.5em;
+padding-top: 1em;
+border-top: 1px solid #ddd;
+}
+.updated {
+color: #555;
+font-size: 0.95em;
+}
+@media (max-width: 720px) {
+body {
+margin: 24px auto;
+padding: 0 18px;
+}
+.contents ol {
+columns: 1;
+}
+.scope-list {
+grid-template-columns: 1fr;
+gap: 0.1em;
+}
+.scope-list dd {
+margin-bottom: 0.6em;
+}
+}
+@media print {
+.site-nav,
+.contents,
+.back-link,
+.skip-link {
+display: none;
+}
+body {
+max-width: none;
+margin: 0;
+padding: 0;
+}
+a {
+color: #000;
+}
+}
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,10 +278,10 @@
   "alternateName": "Religious Life and Social Practices",
   "url": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html",
   "inLanguage": [
-    "sr",
-    "en"
+    "sr-Cyrl",
+    "en-GB"
   ],
-  "description": "Истраживачки кластер о религиозности, сакралним просторима, црквеном наслеђу, локалним праксама, приватним сећањима и односу традиције и модерности у чачанском крају.",
+  "description": "Истраживачка целина о религиозности, секуларизацији, сакралним просторима, породичном памћењу, црквеној јавности и друштвеним праксама у чачанском крају и западној Србији.",
   "author": {
     "@type": "Person",
     "name": "Miloš Timotijević",
@@ -63,194 +301,1416 @@
   "about": [
     {
       "@type": "Thing",
-      "name": "Religious life and social practices",
+      "name": "Religious Life and Social Practices",
       "sameAs": "https://www.wikidata.org/wiki/Q139570614"
     },
-    "religiosity",
     "religious life",
+    "religiosity",
+    "secularization",
     "sacred spaces",
     "social practices",
-    "local practices",
-    "Čačak region",
-    "Ovčar–Kablar monasteries",
-    "tradition and modernity",
-    "church heritage",
     "private memory",
-    "tombstone markings"
+    "popular piety",
+    "church public discourse",
+    "Orthodox anti-modernism",
+    "Čačak region",
+    "western Serbia"
   ],
-  "keywords": "religious life, religiosity, sacred spaces, church heritage, Čačak region, Ovčar-Kablar monasteries, social practices, local practices, tradition and modernity, secularization, public piety, private memory, Great War, invented traditions",
+  "keywords": "religious life, religiosity, secularization, sacred spaces, church heritage, Čačak region, western Serbia, Ovčar–Kablar monasteries, Church of the Holy Ascension, Monastery of Stjenik, Vujan Monastery, private memory, family memory, popular piety, tombstones, roadside memorials, epitaphs, cult of saints, church periodicals, Žiča Eparchy, Nikolaj Velimirović, Orthodox anti-modernism, tradition and modernity, sacrifice for the homeland, war, patriotism, Vidovdan ethics, Kosovo memory, repentance, Christian state",
   "hasPart": [
     {
       "@type": "CreativeWork",
       "name": "Век сумње: религиозност у чачанском крају 1886–2008",
       "alternateName": "A Century of Doubt: Religious Life in the Čačak District, 1886–2008",
-      "url": "https://milos-timotijevic.github.io/books/vek-sumnje-religioznost.html",
-      "sameAs": "https://www.wikidata.org/wiki/Q139303677"
+      "sameAs": "https://www.wikidata.org/wiki/Q139303677",
+      "url": "https://milos-timotijevic.github.io/books/vek-sumnje-religioznost.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Религиозност ученика завршних разреда основних школа у чачанском крају: анкета из 1985. године",
+      "alternateName": "Religiosity of Final-Year Primary School Students in the Čačak Region: A Survey from 1985",
+      "sameAs": "https://www.wikidata.org/wiki/Q139501095"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "„Запуштени виноград Господњи”: религиозност у чачанском крају током XX века, први део",
+      "alternateName": "The Neglected Vineyard of the Lord: Religiosity in the Čačak Region during the Twentieth Century, Part I",
+      "sameAs": "https://www.wikidata.org/wiki/Q139505986"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Између „старе” и „нове” религије: религиозност у чачанском крају током XX века, други део",
+      "alternateName": "Between “Old” and “New” Religion: Religiosity in the Čačak Region during the Twentieth Century, Part II",
+      "sameAs": "https://www.wikidata.org/wiki/Q139507189"
     },
     {
       "@type": "CreativeWork",
       "name": "Манастири Овчарско-кабларске клисуре",
       "alternateName": "Monasteries of the Ovčar–Kablar Gorge",
-      "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html",
       "sameAs": "https://www.wikidata.org/wiki/Q138425264",
+      "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html",
       "@id": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html#work"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Ризница прошлости: Овчарско-кабларска клисура и њени манастири",
+      "alternateName": "Treasury of the Past: The Ovčar–Kablar Gorge and Its Monasteries",
+      "sameAs": "https://www.wikidata.org/wiki/Q139069298"
     },
     {
       "@type": "CreativeWork",
       "name": "Храм Светог Вазнесења Господњег у Чачку",
       "alternateName": "The Church of the Holy Ascension of Christ in Čačak",
-      "url": "https://milos-timotijevic.github.io/books/hram-vaznesenja-gospodnjeg-u-cacku.html",
-      "sameAs": "https://www.wikidata.org/wiki/Q139064421"
+      "sameAs": "https://www.wikidata.org/wiki/Q139064421",
+      "url": "https://milos-timotijevic.github.io/books/hram-vaznesenja-gospodnjeg-u-cacku.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Манастир Стјеник под Јелицом: стварна и измишљена традиција",
+      "alternateName": "Monastery of Stjenik at the Foot of Jelica Mountain: Real and Invented Traditions",
+      "sameAs": "https://www.wikidata.org/wiki/Q139512370",
+      "url": "https://milos-timotijevic.github.io/articles/manastir-stjenik-pod-jelicom.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Култ светитеља, места сећања и политички митови: пример манастира Вујан, гробне цркве породице Луњевица",
+      "alternateName": "The Cult of Saints, Sites of Memory, and Political Myths: The Example of Vujan Monastery, the Burial Church of the Lunjevica Family",
+      "sameAs": "https://www.wikidata.org/wiki/Q138480439",
+      "url": "https://milos-timotijevic.github.io/articles/kult-svetitelja-mesta-secanja-politicki-mitovi-vujan.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Војници, смрт и надгробна обележја: приватна сећања на Велики рат у западној Србији",
+      "alternateName": "Soldiers, Death and Tombstone Markings: Private Memories of the Great War in Western Serbia",
+      "sameAs": "https://www.wikidata.org/wiki/Q138839085"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Плави хоризонти Радојка Николића: од микроисторије до социјалне антропологије",
+      "alternateName": "Blue Horizons of Radojko Nikolić: From Microhistory to Social Anthropology",
+      "sameAs": "https://www.wikidata.org/wiki/Q138872779",
+      "url": "https://milos-timotijevic.github.io/book-chapters/plavi-horizonti-radojko-nikolic.html"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "CreativeWork",
+      "name": "„Дунули су вихорни ветрови”: ставови епископа Николаја Велимировића о Јеврејима, либерализму, комунизму и нацизму у штампи Жичке епархије пред Други светски рат",
+      "alternateName": "“Storm Winds Blew”: Bishop Nikolaj Velimirović’s Attitudes toward Jews, Liberalism, Communism, and Nazism in the Žiča Eparchy Press before World War II",
+      "sameAs": "https://www.wikidata.org/wiki/Q139514358",
+      "url": "https://milos-timotijevic.github.io/articles/dunuli-su-vihorni-vetrovi-nikolaj-velimirovic.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Ставови епископа Николаја Велимировића о потреби жртвовања за отаџбину (1936–1941)",
+      "alternateName": "Bishop Nikolaj Velimirović’s Attitudes on the Need for Sacrifice for the Homeland (1936–1941)",
+      "sameAs": "https://www.wikidata.org/wiki/Q141252379",
+      "url": "https://milos-timotijevic.github.io/articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Interwar Attitudes of Bishop Nikolaj Velimirović toward the Communists",
+      "alternateName": "Међуратни ставови епископа Николаја Велимировића према комунистима",
+      "sameAs": "https://www.wikidata.org/wiki/Q138841640",
+      "url": "https://milos-timotijevic.github.io/conference-papers/interwar-attitudes-bishop-nikolaj-velimirovic-communists.html"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Cultural Heritage, Museums and Public History",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139570560"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Culture, Nationalism and Symbolic Representation",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569852"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Political Rituals and Symbolic Politics",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139413904"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "National Ideology and Intellectual Debates",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569355"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "War, Propaganda and Memory",
+      "url": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q139569742"
+    }
+  ],
+  "dateModified": "2026-09-24",
+  "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#webpage"
+}
+</script>
+<link href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html" hreflang="sr-Cyrl" rel="alternate"/><link href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html" hreflang="en-GB" rel="alternate"/><link href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html" hreflang="x-default" rel="alternate"/>
+<script id="concept-jsonld" type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set",
+      "name": "Religious Life and Social Practices — Concept Set",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religiosity"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-secularization"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-revival"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-landscape"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-monastic-network"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-urban-sacred-space"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacralization-of-place"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-material-religion"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-death-memorial-practice"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion",
+      "name": "Lived Religion",
+      "alternateName": "Живљена религија",
+      "termCode": "lived-religion",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "rootConcept"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change",
+      "name": "Religious Change",
+      "alternateName": "Религијска промена",
+      "termCode": "religious-change",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "organizationalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religiosity",
+      "name": "Religiosity",
+      "alternateName": "Религиозност",
+      "termCode": "religiosity",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-secularization"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-secularization",
+      "name": "Secularization",
+      "alternateName": "Секуларизација",
+      "termCode": "secularization",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-revival"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-revival",
+      "name": "Religious Revival",
+      "alternateName": "Религијска обнова",
+      "termCode": "religious-revival",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety",
+      "name": "Public Piety",
+      "alternateName": "Јавна побожност",
+      "termCode": "public-piety",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "cross-cluster bridge",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-change"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space",
+      "name": "Sacred Space",
+      "alternateName": "Сакрални простор",
+      "termCode": "sacred-space",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "organizationalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-landscape",
+      "name": "Sacred Landscape",
+      "alternateName": "Сакрални пејзаж",
+      "termCode": "sacred-landscape",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain",
+      "name": "Holy Mountain",
+      "alternateName": "Света гора",
+      "termCode": "holy-mountain",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-landscape"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-monastic-network"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-monastic-network",
+      "name": "Monastic Network",
+      "alternateName": "Монашка мрежа",
+      "termCode": "monastic-network",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-holy-mountain"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-urban-sacred-space",
+      "name": "Urban Sacred Space",
+      "alternateName": "Урбани сакрални простор",
+      "termCode": "urban-sacred-space",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-public-piety"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacralization-of-place",
+      "name": "Sacralization of Place",
+      "alternateName": "Сакрализација места",
+      "termCode": "sacralization-of-place",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-popular-piety",
+      "name": "Popular Piety",
+      "alternateName": "Народна побожност",
+      "termCode": "popular-piety",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-material-religion",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-material-religion",
+      "name": "Material Religion",
+      "alternateName": "Материјална религија",
+      "termCode": "material-religion",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-death-memorial-practice"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory",
+      "name": "Religious Memory",
+      "alternateName": "Религијско памћење",
+      "termCode": "religious-memory",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "cross-cluster bridge",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-lived-religion"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-death-memorial-practice",
+      "name": "Death and Memorial Practice",
+      "alternateName": "Смрт и меморијална пракса",
+      "termCode": "death-memorial-practice",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "analyticalConcept",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-cult-of-saints",
+      "name": "Cult of Saints",
+      "alternateName": "Култ светитеља",
+      "termCode": "cult-of-saints",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "cross-cluster bridge",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
+      },
+      "relatedLink": [
+        "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-invented-tradition",
+      "name": "Invented Tradition",
+      "alternateName": "Измишљена традиција",
+      "termCode": "invented-tradition",
+      "inDefinedTermSet": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-set"
+      },
+      "additionalType": "cross-cluster bridge",
+      "broader": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
+      }
     }
   ]
 }
 </script>
-</head>
-<body>
-<p id="top"><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
-<h1>Религијски живот и друштвене праксе</h1>
-<p class="subtitle">
-    Religious Life and Social Practices<br/>
-    Религиозност, сакрални простори, друштвене навике и локалне праксе<br/>
-    Religiosity, Sacred Spaces, Social Habits and Local Practices
-  </p>
-<section class="intro">
-<p>Овај истраживачки кластер окупља радове о религиозности, сакралним просторима, црквеном наслеђу, локалним праксама и односу традиције и модерности у чачанском крају. У средишту пажње нису само институционална историја Цркве или опис сакралних објеката, већ начини на које се религијски живот испољава у свакодневици, јавном простору, породичном памћењу, локалним обичајима и друштвеним навикама.</p>
-<p lang="en">This research cluster brings together works on religiosity, sacred spaces, church heritage, local practices and the relationship between tradition and modernity in the Čačak region. Its focus is not limited to the institutional history of the Church or the description of sacred buildings, but extends to the ways in which religious life appears in everyday life, public space, family memory, local customs and social habits.</p>
-</section>
-<section class="framework-box">
-<h2>Шири истраживачки оквир / Broader Research Framework</h2>
-<p>Овај кластер припада ширем оквиру „Локална модерност и симболичка моћ у југоисточној Европи”, али је усмерен на религијски живот, сакрални простор и друштвене праксе. Када се преклапа са баштинским радовима, овде се задржава оно што је важно за религиозност, праксу, локално памћење и однос традиције и модерности.</p>
-<p lang="en">This cluster belongs to the broader framework “Local Modernity and Symbolic Power in Southeast Europe”, but focuses on religious life, sacred space and social practices. When it overlaps with heritage works, this page retains what is relevant to religiosity, practice, local memory and the relationship between tradition and modernity.</p>
-<p><a href="/knowledge-graph/research/local-modernity-symbolic-power.html">Локална модерност и симболичка моћ у југоисточној Европи / Local Modernity and Symbolic Power in Southeast Europe</a></p>
-</section>
-<section class="identifier-box">
-<h2>Идентификатори / Identifiers</h2>
+<script id="kg-crosswalk" type="application/json">
+{
+  "version": "4.0",
+  "dateModified": "2026-09-24",
+  "concepts": [
+    {
+      "id": "lived-religion",
+      "label_sr": "Живљена религија",
+      "label_en": "Lived Religion",
+      "role": "rootConcept",
+      "broaderConcept": null,
+      "relatedConcepts": []
+    },
+    {
+      "id": "religious-change",
+      "label_sr": "Религијска промена",
+      "label_en": "Religious Change",
+      "role": "organizationalConcept",
+      "broaderConcept": "lived-religion",
+      "relatedConcepts": []
+    },
+    {
+      "id": "religiosity",
+      "label_sr": "Религиозност",
+      "label_en": "Religiosity",
+      "role": "analyticalConcept",
+      "broaderConcept": "religious-change",
+      "relatedConcepts": [
+        "secularization"
+      ]
+    },
+    {
+      "id": "secularization",
+      "label_sr": "Секуларизација",
+      "label_en": "Secularization",
+      "role": "analyticalConcept",
+      "broaderConcept": "religious-change",
+      "relatedConcepts": [
+        "religious-revival"
+      ]
+    },
+    {
+      "id": "religious-revival",
+      "label_sr": "Религијска обнова",
+      "label_en": "Religious Revival",
+      "role": "analyticalConcept",
+      "broaderConcept": "religious-change",
+      "relatedConcepts": [
+        "public-piety"
+      ]
+    },
+    {
+      "id": "public-piety",
+      "label_sr": "Јавна побожност",
+      "label_en": "Public Piety",
+      "role": "cross-cluster bridge",
+      "broaderConcept": "religious-change",
+      "relatedConcepts": []
+    },
+    {
+      "id": "sacred-space",
+      "label_sr": "Сакрални простор",
+      "label_en": "Sacred Space",
+      "role": "organizationalConcept",
+      "broaderConcept": "lived-religion",
+      "relatedConcepts": []
+    },
+    {
+      "id": "sacred-landscape",
+      "label_sr": "Сакрални пејзаж",
+      "label_en": "Sacred Landscape",
+      "role": "analyticalConcept",
+      "broaderConcept": "sacred-space",
+      "relatedConcepts": [
+        "holy-mountain",
+        "popular-piety"
+      ]
+    },
+    {
+      "id": "holy-mountain",
+      "label_sr": "Света гора",
+      "label_en": "Holy Mountain",
+      "role": "analyticalConcept",
+      "broaderConcept": "sacred-landscape",
+      "relatedConcepts": [
+        "monastic-network"
+      ]
+    },
+    {
+      "id": "monastic-network",
+      "label_sr": "Монашка мрежа",
+      "label_en": "Monastic Network",
+      "role": "analyticalConcept",
+      "broaderConcept": "holy-mountain",
+      "relatedConcepts": []
+    },
+    {
+      "id": "urban-sacred-space",
+      "label_sr": "Урбани сакрални простор",
+      "label_en": "Urban Sacred Space",
+      "role": "analyticalConcept",
+      "broaderConcept": "sacred-space",
+      "relatedConcepts": [
+        "public-piety"
+      ]
+    },
+    {
+      "id": "sacralization-of-place",
+      "label_sr": "Сакрализација места",
+      "label_en": "Sacralization of Place",
+      "role": "analyticalConcept",
+      "broaderConcept": "sacred-space",
+      "relatedConcepts": [
+        "popular-piety",
+        "cult-of-saints",
+        "invented-tradition"
+      ]
+    },
+    {
+      "id": "popular-piety",
+      "label_sr": "Народна побожност",
+      "label_en": "Popular Piety",
+      "role": "analyticalConcept",
+      "broaderConcept": "lived-religion",
+      "relatedConcepts": [
+        "material-religion",
+        "cult-of-saints"
+      ]
+    },
+    {
+      "id": "material-religion",
+      "label_sr": "Материјална религија",
+      "label_en": "Material Religion",
+      "role": "analyticalConcept",
+      "broaderConcept": "lived-religion",
+      "relatedConcepts": [
+        "religious-memory",
+        "death-memorial-practice"
+      ]
+    },
+    {
+      "id": "religious-memory",
+      "label_sr": "Религијско памћење",
+      "label_en": "Religious Memory",
+      "role": "cross-cluster bridge",
+      "broaderConcept": "lived-religion",
+      "relatedConcepts": []
+    },
+    {
+      "id": "death-memorial-practice",
+      "label_sr": "Смрт и меморијална пракса",
+      "label_en": "Death and Memorial Practice",
+      "role": "analyticalConcept",
+      "broaderConcept": "religious-memory",
+      "relatedConcepts": []
+    },
+    {
+      "id": "cult-of-saints",
+      "label_sr": "Култ светитеља",
+      "label_en": "Cult of Saints",
+      "role": "cross-cluster bridge",
+      "broaderConcept": "religious-memory",
+      "relatedConcepts": [
+        "invented-tradition"
+      ]
+    },
+    {
+      "id": "invented-tradition",
+      "label_sr": "Измишљена традиција",
+      "label_en": "Invented Tradition",
+      "role": "cross-cluster bridge",
+      "broaderConcept": "religious-memory",
+      "relatedConcepts": []
+    }
+  ],
+  "publication_concept_relations": [
+    {
+      "publication_id": "vek-sumnje",
+      "qid": "Q139303677",
+      "primary": "lived-religion",
+      "secondary": [
+        "religious-change",
+        "religiosity",
+        "secularization",
+        "religious-revival",
+        "public-piety"
+      ]
+    },
+    {
+      "publication_id": "religioznost-ucenika-1985",
+      "qid": "Q139501095",
+      "primary": "religiosity",
+      "secondary": [
+        "lived-religion",
+        "secularization"
+      ]
+    },
+    {
+      "publication_id": "zapusteni-vinograd-gospodnji",
+      "qid": "Q139505986",
+      "primary": "religious-change",
+      "secondary": [
+        "lived-religion",
+        "religiosity",
+        "public-piety"
+      ]
+    },
+    {
+      "publication_id": "stara-nova-religija",
+      "qid": "Q139507189",
+      "primary": "secularization",
+      "secondary": [
+        "religious-change",
+        "religious-revival",
+        "public-piety"
+      ]
+    },
+    {
+      "publication_id": "manastiri-ovcarsko-kablarske-klisure",
+      "qid": "Q138425264",
+      "primary": "holy-mountain",
+      "secondary": [
+        "sacred-landscape",
+        "sacred-space",
+        "monastic-network",
+        "popular-piety"
+      ]
+    },
+    {
+      "publication_id": "riznica-proslosti",
+      "qid": "Q139069298",
+      "primary": "sacred-landscape",
+      "secondary": [
+        "holy-mountain",
+        "sacred-space",
+        "public-piety",
+        "religious-memory"
+      ]
+    },
+    {
+      "publication_id": "hram-vaznesenja-cacak",
+      "qid": "Q139064421",
+      "primary": "urban-sacred-space",
+      "secondary": [
+        "sacred-space",
+        "public-piety",
+        "religious-memory"
+      ]
+    },
+    {
+      "publication_id": "stjenik",
+      "qid": "Q139512370",
+      "primary": "invented-tradition",
+      "secondary": [
+        "sacralization-of-place",
+        "cult-of-saints",
+        "religious-memory",
+        "popular-piety"
+      ]
+    },
+    {
+      "publication_id": "vujan-kult-secanje-politicki-mit",
+      "qid": "Q138480439",
+      "primary": "cult-of-saints",
+      "secondary": [
+        "sacralization-of-place",
+        "religious-memory",
+        "popular-piety"
+      ]
+    },
+    {
+      "publication_id": "vojnici-smrt-nadgrobna-obelezja",
+      "qid": "Q138839085",
+      "primary": "death-memorial-practice",
+      "secondary": [
+        "material-religion",
+        "religious-memory",
+        "popular-piety"
+      ]
+    },
+    {
+      "publication_id": "plavi-horizonti-radojka-nikolica",
+      "qid": "Q138872779",
+      "primary": "material-religion",
+      "secondary": [
+        "death-memorial-practice",
+        "religious-memory",
+        "popular-piety"
+      ]
+    }
+  ],
+  "related_publications": [
+    {
+      "id": "dunuli-su-vihorni-vetrovi",
+      "qid": "Q139514358",
+      "relatedConcepts": [
+        "religious-change",
+        "public-piety"
+      ],
+      "primaryCluster": "national-ideology-intellectual-debates"
+    },
+    {
+      "id": "nikolaj-zrtvovanje-otadzbina",
+      "qid": "Q141252379",
+      "relatedConcepts": [
+        "public-piety",
+        "religious-memory"
+      ],
+      "primaryCluster": "national-ideology-intellectual-debates",
+      "doi": "10.18485/ms_zmsi.2026.113.6"
+    },
+    {
+      "id": "nikolaj-communists",
+      "qid": "Q138841640",
+      "relatedConcepts": [
+        "religious-change",
+        "secularization"
+      ],
+      "primaryCluster": "national-ideology-intellectual-debates"
+    }
+  ],
+  "external_works": [
+    {
+      "id": "aleksov-lackenby-2022",
+      "authors": "Bojan Aleksov; Nicholas Lackenby",
+      "year": 2022,
+      "title": "Orthodoxy in Serbia: between its public image and the everyday religiosity of its believers",
+      "doi": "10.1080/1474225X.2022.2101829"
+    },
+    {
+      "id": "radulovic-stojanovic-2025",
+      "authors": "Lidija Radulović; Đorđe Stojanović",
+      "year": 2025,
+      "title": "Народно православље у Србији: од концепта Душана Бандића до живљене религије",
+      "doi": "10.2298/GEI2503059R"
+    },
+    {
+      "id": "blagojevic-2009",
+      "authors": "Mirko Blagojević",
+      "year": 2009,
+      "title": "Revitalization of Religion and Religiousness in Serbia: Reality or a Myth?",
+      "doi": "10.2298/FID0902097B"
+    },
+    {
+      "id": "danica-popovic-2007",
+      "authors": "Danica Popović",
+      "year": 2007,
+      "title": "Deserts and Holy Mountains of Medieval Serbia",
+      "doi": "10.2298/ZRVI0744253P"
+    },
+    {
+      "id": "svetlana-popovic-2011",
+      "authors": "Svetlana Popović",
+      "year": 2011,
+      "title": "The Last Hesychast Safe Havens in Late Fourteenth- and Fifteenth-Century Monasteries in the Northern Balkans",
+      "doi": "10.2298/ZRVI1148217P"
+    },
+    {
+      "id": "tomic-djuric-2012",
+      "authors": "Marka Tomić Đurić",
+      "year": 2012,
+      "title": "The Isles of Great Silence: Monastic Life on Lake Scutari under the Patronage of the Balšićs",
+      "doi": "10.2298/BALC1243081T"
+    },
+    {
+      "id": "agoritsas-2022",
+      "authors": "Demetrios Agoritsas",
+      "year": 2022,
+      "title": "People and Places in the Vita of Hosioi Nektarios and Theophanes Apsaras",
+      "doi": "10.12681/asem.38860"
+    },
+    {
+      "id": "bayraktar-tellan-2022",
+      "authors": "Elif Bayraktar-Tellan",
+      "year": 2022,
+      "title": "The Monasteries of Meteora during the Ottoman Period and the Practice of Monastic Confinement",
+      "doi": "10.12681/asem.38861"
+    },
+    {
+      "id": "vapheiades-2022",
+      "authors": "Konstantinos Vapheiades",
+      "year": 2022,
+      "title": "The Artistic Activity of Theophanes the Cretan in Western Thessaly and the Emergence of the ‘Cretan School’ of Painting in Ottoman Greece",
+      "doi": "10.12681/asem.38863"
+    },
+    {
+      "id": "pavicevic-2005",
+      "authors": "Aleksandra Pavićević",
+      "year": 2005,
+      "title": "The White Angel: Where He Sits and What He Does? An Example of Construction and Reconstruction of a Tradition",
+      "doi": "10.2298/GEI0553185P"
+    },
+    {
+      "id": "vasiljevic-2023",
+      "authors": "Marija Vasiljević",
+      "year": 2023,
+      "title": "The Transformation of the Cult of Saint Luke in Late Medieval Serbian Lands",
+      "doi": "10.2298/ZRVI2360397V"
+    },
+    {
+      "id": "jovanovic-vucetic-2020",
+      "authors": "Vladimir Jovanović; Biljana Vučetić",
+      "year": 2020,
+      "title": "Roadside Memorials and National Identity in 19th Century Serbia",
+      "url": "https://www.iib.ac.rs/ZR/assets/files/WAR-PEACEANDNATIONBUILDING18531918.pdf"
+    },
+    {
+      "id": "meyer-houtman-material-religion",
+      "authors": "Dick Houtman; Birgit Meyer (eds.)",
+      "title": "Things: Religion and the Question of Materiality",
+      "year": 2012,
+      "doi": "10.5422/fordham/9780823239450.001.0001"
+    },
+    {
+      "id": "markovic-2019",
+      "authors": "Ivica Marković",
+      "year": 2019,
+      "title": "The Anthropology of the Temple: Contribution to the Study of Spatial Behavior within the Serbian Orthodox Church",
+      "doi": "10.21301/eap.v14i1.7"
+    },
+    {
+      "id": "lackenby-2022-material",
+      "authors": "Nicholas Lackenby",
+      "year": 2022,
+      "title": "Paper Icons and Fasting Bodies: The Esthetic Formations of Serbian Orthodoxy",
+      "doi": "10.1080/17432200.2022.2102855"
+    }
+  ],
+  "publication_external_relations": [
+    {
+      "publication_id": "vek-sumnje",
+      "external_work_id": "aleksov-lackenby-2022",
+      "relation": "comparativeCaseWith"
+    },
+    {
+      "publication_id": "vek-sumnje",
+      "external_work_id": "radulovic-stojanovic-2025",
+      "relation": "theoreticalContext"
+    },
+    {
+      "publication_id": "vek-sumnje",
+      "external_work_id": "blagojevic-2009",
+      "relation": "comparativeCaseWith"
+    },
+    {
+      "publication_id": "religioznost-ucenika-1985",
+      "external_work_id": "blagojevic-2009",
+      "relation": "comparativeCaseWith"
+    },
+    {
+      "publication_id": "stara-nova-religija",
+      "external_work_id": "blagojevic-2009",
+      "relation": "comparativeCaseWith"
+    },
+    {
+      "publication_id": "manastiri-ovcarsko-kablarske-klisure",
+      "external_work_id": "danica-popovic-2007",
+      "relation": "theoreticalContext"
+    },
+    {
+      "publication_id": "manastiri-ovcarsko-kablarske-klisure",
+      "external_work_id": "svetlana-popovic-2011",
+      "relation": "broaderContext"
+    },
+    {
+      "publication_id": "manastiri-ovcarsko-kablarske-klisure",
+      "external_work_id": "tomic-djuric-2012",
+      "relation": "comparativeCaseWith"
+    },
+    {
+      "publication_id": "manastiri-ovcarsko-kablarske-klisure",
+      "external_work_id": "agoritsas-2022",
+      "relation": "conceptuallyRelatedTo"
+    },
+    {
+      "publication_id": "manastiri-ovcarsko-kablarske-klisure",
+      "external_work_id": "bayraktar-tellan-2022",
+      "relation": "broaderContext"
+    },
+    {
+      "publication_id": "manastiri-ovcarsko-kablarske-klisure",
+      "external_work_id": "vapheiades-2022",
+      "relation": "conceptuallyRelatedTo"
+    },
+    {
+      "publication_id": "stjenik",
+      "external_work_id": "pavicevic-2005",
+      "relation": "comparativeCaseWith"
+    },
+    {
+      "publication_id": "vujan-kult-secanje-politicki-mit",
+      "external_work_id": "vasiljevic-2023",
+      "relation": "theoreticalContext"
+    },
+    {
+      "publication_id": "vojnici-smrt-nadgrobna-obelezja",
+      "external_work_id": "jovanovic-vucetic-2020",
+      "relation": "comparativeCaseWith"
+    },
+    {
+      "publication_id": "plavi-horizonti-radojka-nikolica",
+      "external_work_id": "meyer-houtman-material-religion",
+      "relation": "theoreticalContext"
+    },
+    {
+      "publication_id": "hram-vaznesenja-cacak",
+      "external_work_id": "markovic-2019",
+      "relation": "conceptuallyRelatedTo"
+    },
+    {
+      "publication_id": "vek-sumnje",
+      "external_work_id": "lackenby-2022-material",
+      "relation": "conceptuallyRelatedTo"
+    },
+    {
+      "publication_id": "plavi-horizonti-radojka-nikolica",
+      "external_work_id": "lackenby-2022-material",
+      "relation": "conceptuallyRelatedTo"
+    }
+  ],
+  "cross_cluster_concept_relations": [
+    {
+      "concept_id": "lived-religion",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-modernity",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "religious-change",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-modernity",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "secularization",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-socialist-modernization",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "public-piety",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-public-space",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "sacred-landscape",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-sacred-heritage",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "holy-mountain",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-sacred-heritage",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "urban-sacred-space",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-public-space",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "urban-sacred-space",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-identity",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "religious-memory",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-collective-memory",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "death-memorial-practice",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-collective-memory",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "cult-of-saints",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "cult-of-saints",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-collective-memory",
+      "relation": "relatedConcept"
+    },
+    {
+      "concept_id": "invented-tradition",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-invented-tradition",
+      "relation": "sameConceptAcrossCluster"
+    },
+    {
+      "concept_id": "invented-tradition",
+      "target": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production",
+      "relation": "relatedConcept"
+    }
+  ],
+  "provenance_policy": {
+    "core_publications": "11 publications in the page's hasPart corpus receive one primary concept each.",
+    "related_publications": "Three Nikolaj Velimirović works remain related/cross-cluster publications and receive no primary concept in this cluster.",
+    "external_literature": "Only bibliographically verified core comparators are encoded. The previously considered Muntán 2021 dissertation is excluded from the machine core after verification showed that its primary subject is Catholic reform in northern Ottoman Rumeli rather than a dedicated Fruška Gora comparison."
+  },
+  "production_status": "final-production",
+  "review_note": "Final page-level review completed: redundant standalone semantic note merged into the conceptual-network introduction; visible comparative bibliography reduced to the most useful works while specialist Meteora studies remain machine-readable; visible cross-cluster table synchronized with all machine relations.",
+  "visible_comparative_policy": "The machine layer retains all 15 verified external works and 18 typed publication-external relations. The visible comparative bibliography is intentionally shorter; specialist Meteora studies remain machine-only."
+}
+</script>
+<style id="concept-comparative-styles">
+.cluster-details { margin:0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.cluster-details > summary { cursor:pointer; list-style:none; position:relative; padding:1rem 2.2rem 1rem 0; font-family:Georgia,"Times New Roman",serif; font-size:1.45rem; font-weight:700; line-height:1.25; }
+.cluster-details > summary::-webkit-details-marker { display:none; }
+.cluster-details > summary::after { content:"▸"; position:absolute; right:.25rem; top:1rem; font-family:sans-serif; font-size:1rem; transition:transform .15s ease; }
+.cluster-details[open] > summary::after { transform:rotate(90deg); }
+.cluster-details > .details-body { padding:0 0 1rem 0; }
+.concept-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.8rem 1rem; }
+.concept-card { border:1px solid var(--border); padding:.8rem 1rem; background:var(--card); }
+.concept-card h3 { margin:.1rem 0 .35rem; font-size:1.08rem; }
+.concept-meta { color:var(--muted); font-size:.92rem; }
+.comp-list li { margin-bottom:.65rem; }
+@media (max-width:760px){ .concept-grid { grid-template-columns:1fr; } }
+</style>
+<meta content="v4 final-production; final page-level review completed; 2026-09-24" name="kg-production-status"/>
+
+&lt;!-- KG production status: v4 final-production, 2026-09-24 --&gt;</head>
+<body id="top">
+<a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+<main id="main-content">
+<p><a href="../">← Назад на граф знања / Back to Knowledge Graph</a></p><nav aria-label="Главна навигација" class="site-nav">
 <ul>
-<li><strong>Wikidata cluster:</strong> <a href="https://www.wikidata.org/wiki/Q139570614">Q139570614 — Religious life and social practices</a></li>
-<li><strong>Broader Wikidata framework:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155 — Local modernity and symbolic power in Southeast Europe</a></li>
-<li><strong>Author:</strong> <a href="https://orcid.org/0000-0002-0457-6125">Miloš Timotijević — ORCID 0000-0002-0457-6125</a>; <a href="https://www.wikidata.org/wiki/Q112514230">Wikidata Q112514230</a></li>
+<li><a href="/">Главна страна / Main Page</a></li>
+<li><a href="/knowledge-graph/">Граф знања / Knowledge Graph</a></li>
+<li><a href="local-modernity-symbolic-power.html">Шири истраживачки оквир / Broader Framework</a></li>
+<li><a href="/knowledge-graph/method.html">Метод / Method</a></li>
+<li><a href="/data/">Подаци / Data</a></li>
+</ul>
+</nav>
+<h1>Религијски живот и друштвене праксе</h1>
+<p lang="en-GB">Religious Life and Social Practices</p>
+<p class="subtitle">Религиозност, секуларизација, сакрални простори и друштвене праксе између традиције и модерности<br/><em lang="en-GB">Religiosity, Secularization, Sacred Spaces and Social Practices between Tradition and Modernity</em></p>
+<section aria-labelledby="religion-everyday-life-title" class="intro" id="religion-everyday-life"><h2 id="religion-everyday-life-title">Религија у свакодневном животу / Religion in Everyday Life</h2><p>Религијски живот не своди се на црквене установе и учење. Он обухвата породичне обичаје, празнике и обреде, однос према смрти, присуство вере у школи и јавном простору, локална светилишта, манастирске пределе и породично памћење.</p><p>Таква перспектива омогућава да се прате промене религиозности под утицајем модернизације, секуларизације, политичких прилика и обнове јавне побожности.</p><p lang="en-GB">Religious life cannot be reduced to church institutions and doctrine. It includes family customs, feasts and rituals, attitudes toward death, the presence of religion in schools and public space, local shrines, monastic landscapes and family memory.</p><p lang="en-GB">This perspective makes it possible to trace changes in religiosity under the influence of modernization, secularization, political conditions and the renewal of public piety.</p></section><nav aria-label="Садржај странице" class="contents">
+<h2>Садржај / Contents</h2>
+<ol>
+<li><a href="#summary">Сажетак / Summary</a></li>
+<li><a href="#research-question">Истраживачко питање / Research Question</a></li>
+<li><a href="#research-claim">Истраживачка теза / Research Claim</a></li>
+<li><a href="#method">Методолошки приступ / Method</a></li>
+<li><a href="#scope">Временски и просторни оквир / Scope</a></li>
+<li><a href="#knowledge-graph-place">Место у графу знања / Knowledge Graph</a></li>
+<li><a href="#identifiers">Идентификатори / Identifiers</a></li>
+<li><a href="#core-publications">Носеће публикације / Core Publications</a></li>
+<li><a href="#conceptual-network">Концептуална мрежа / Conceptual Network</a></li>
+<li><a href="#comparative-context">Компаративни контекст / Comparative Context</a></li>
+<li><a href="#publication-concept-crosswalk">Publication–Concept Crosswalk</a></li><li><a href="#cross-cluster-semantic-network">Међукластерска мрежа / Cross-cluster Network</a></li>
+<li><a href="#related-publications">Повезане публикације / Related Publications</a></li>
+<li><a href="#cross-links">Попречне везе / Cross-Links</a></li>
+<li><a href="#keywords">Кључне речи / Keywords</a></li>
+<li><a href="#citation">Предлог цитирања / Suggested Citation</a></li>
+</ol>
+</nav>
+<section class="summary" id="summary"><h2>Сажетак / Summary</h2><p>Ова истраживачка целина окупља радове о религиозности, секуларизацији, сакралним просторима, породичном памћењу и црквеној јавности. Тежиште је на чачанском крају и западној Србији, од касног XIX века до почетка XXI века, уз осврт на старије слојеве сакралног наслеђа.</p><p>Религија се посматра као део свакодневног и јавног живота: у породици, школи, обредима, односу према смрти, локалним предањима, манастирским срединама и црквеној штампи.</p><p lang="en-GB">This research section brings together works on religiosity, secularization, sacred spaces, family memory and church public discourse. Its main geographical focus is the Čačak region and western Serbia, from the late nineteenth to the early twenty-first century, with attention to older layers of sacred heritage.</p></section>
+<section class="research-box" id="research-question"><h2>Истраживачко питање / Research Question</h2><p>Како су се религиозност и верске праксе у чачанском крају и западној Србији мењале под утицајем модернизације, секуларизације, социјалистичког поретка и обнове јавног црквеног живота?</p><p lang="en-GB">How did religiosity and religious practices in the Čačak region and western Serbia change under the influence of modernization, secularization, the socialist order and the renewal of public church life?</p></section>
+<section class="research-box" id="research-claim"><h2>Истраживачка теза / Research Claim</h2><p>Религијски живот у локалној заједници не одређују само црквене установе и учење. Њега обликују породични обичаји, школа, празници, обреди, сакрални простори, однос према смрти, локална предања и јавни говор Цркве.</p><p>Секуларизација није једносмеран нестанак вере. Она мења место религије у друштву: поједине праксе слабе или се повлаче у приватност, док се друге обнављају и поново добијају јавно значење.</p><p lang="en-GB">Religious life in a local community is shaped not only by church institutions and doctrine, but also by family customs, schools, feasts, rituals, sacred spaces, attitudes toward death, local narratives and church public discourse.</p></section>
+<section class="research-box" id="method"><h2>Методолошки приступ / Methodological Approach</h2><p>Истраживања повезују социјалну и локалну историју религије, историју свакодневице, проучавање сакралног простора, историју секуларизације, студије сећања и анализу црквене штампе.</p><p>Извори обухватају архивску грађу, периодику, анкетне податке, црквену документацију, натписе на надгробним споменицима, локална предања и материјалне трагове побожности.</p><p lang="en-GB">The research combines social and local history of religion, the history of everyday life, the study of sacred space, the history of secularization, memory studies and the analysis of church periodicals.</p></section>
+<section class="scope-box" id="scope"><h2>Временски и просторни оквир / Temporal and Spatial Scope</h2><div class="scope-grid">
+<article class="scope-card">
+<h3>Српски</h3>
+<dl class="scope-list">
+<dt>Период:</dt>
+<dd>Од старијих слојева сакралног наслеђа до почетка XXI века; главно тежиште је на раздобљу од 1886. до 2008. године.</dd>
+<dt>Простор:</dt>
+<dd>Чачак, чачански крај, западна Србија, Овчарско-кабларска клисура, Јелица и подручје Жичке епархије.</dd>
+<dt>Теме:</dt>
+<dd>религиозност, секуларизација, јавна побожност, сакрални простори, манастирски живот, породично памћење, надгробна обележја, локална предања и црквена јавност.</dd>
+<dt>Главни проблем:</dt>
+<dd>промене верских пракси и места религије у локалном друштву између традиције, модернизације и секуларизације.</dd>
+</dl>
+</article>
+<article class="scope-card" lang="en-GB">
+<h3>English</h3>
+<dl class="scope-list">
+<dt>Period:</dt>
+<dd>From older layers of sacred heritage to the early twenty-first century, with the main focus on the period from 1886 to 2008.</dd>
+<dt>Geographical focus:</dt>
+<dd>Čačak, the Čačak region, western Serbia, the Ovčar–Kablar Gorge, Mount Jelica and the Diocese of Žiča.</dd>
+<dt>Themes:</dt>
+<dd>religiosity, secularization, public piety, sacred spaces, monastic life, family memory, grave markers, local narratives and church public discourse.</dd>
+<dt>Main problem:</dt>
+<dd>changes in religious practices and the place of religion in local society between tradition, modernization and secularization.</dd>
+</dl>
+</article>
+</div></section>
+<section class="framework-box" id="knowledge-graph-place"><h2>Место у графу знања / Place in the Knowledge Graph</h2><p>Ова страница је део ширег оквира <a href="local-modernity-symbolic-power.html">„Локална модерност и симболичка моћ у југоисточној Европи”</a>. Религијски живот је у њему посебна истраживачка област која повезује друштвену историју, сакрални простор, памћење, културно наслеђе и идеолошке расправе.</p><p>Публикације су груписане према главној теми. Радови о сакралном наслеђу, политичким култовима и црквеној јавности истовремено су повезани са сродним страницама графа знања.</p><p lang="en-GB">This page forms part of the broader framework <a href="local-modernity-symbolic-power.html">“Local Modernity and Symbolic Power in Southeast Europe”</a>. Religious life is treated as a distinct field connecting social history, sacred space, memory, cultural heritage and ideological debates.</p></section>
+<section class="identifier-box" id="identifiers">
+<h2>Идентификатори и повезивање / Identifiers and Linking</h2>
+<p>Wikidata, ORCID и шири истраживачки оквир повезују ову страницу са спољним системима научних и отворених података.</p><ul>
+<li><strong>Wikidata cluster:</strong> <a href="https://www.wikidata.org/wiki/Q139570614">Q139570614 — Religious Life and Social Practices</a></li>
+<li><strong>Broader Wikidata framework:</strong> <a href="https://www.wikidata.org/wiki/Q139501155">Q139501155 — Local Modernity and Symbolic Power in Southeast Europe</a></li>
+<li><strong>Author:</strong> Miloš Timotijević — <a href="https://orcid.org/0000-0002-0457-6125">ORCID 0000-0002-0457-6125</a>; <a href="https://www.wikidata.org/wiki/Q112514230">Wikidata Q112514230</a></li>
 </ul>
 </section>
-<section class="note">
-<p>Публикације су распоређене по примарној истраживачкој улози. У овом кластеру носећи су радови о религиозности, сакралним просторима, црквеном наслеђу, локалним праксама, секуларизацији, приватном памћењу и односу традиције и модерности. Радови који су пре свега баштински или музејски упућују се и на кластер „Културно наслеђе, музеји и јавна историја”.</p>
-<p lang="en">Publications are grouped according to their primary research role. In this cluster, the core works are those on religiosity, sacred spaces, church heritage, local practices, secularization, private memory and the relationship between tradition and modernity. Works that are primarily heritage- or museum-oriented are also linked to the “Cultural Heritage, Museums and Public History” cluster.</p>
-</section>
-<section>
+<section id="core-publications">
 <h2>Носеће публикације / Core Publications</h2>
 <h3>Религиозност, секуларизација и друштвене промене / Religiosity, Secularization and Social Change</h3>
+<p>Радови у овој групи прате промене религиозности у чачанском крају од краја XIX до почетка XXI века, са посебном пажњом на секуларизацију, школску средину, црквени живот и обнову јавне побожности.</p>
+<p lang="en-GB">This section brings together works that analyze religiosity in the Čačak region over the longue durée: from the late nineteenth century to the early twenty-first century, with particular emphasis on the twentieth century, secularization, public piety, church life, the school environment and changes in social habits.</p>
 <ul class="work-list">
-<li>
-<strong><a href="/books/vek-sumnje-religioznost.html">Век сумње: религиозност у чачанском крају 1886–2008</a></strong><br/>
-<span lang="en">A Century of Doubt: Religious Life in the Čačak District, 1886–2008</span>
-<span class="role">Примарна улога: носећа монографија овог кластера / Primary role: core monograph of this cluster.</span>
-<span class="work-note">Анализира дуго трајање религиозности, секуларизације, јавне побожности, црквеног живота и друштвених промена у чачанском крају.</span>
-<span class="links"><a href="/books/vek-sumnje-religioznost.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139303677">Wikidata Q139303677</a></span>
+<li class="work-card"><strong>Век сумње: религиозност у чачанском крају 1886–2008</strong><br/>
+<em lang="en-GB">A Century of Doubt: Religious Life in the Čačak District, 1886–2008</em><br/>
+<span class="role">Носећа монографија / Core monograph.</span>
+<span class="work-note">Монографија прати промене веровања, црквеног живота и јавне побожности у чачанском крају од 1886. до 2008. године.</span>
+<span class="work-note" lang="en-GB">The monograph analyzes the longue durée of religiosity, secularization, public piety, church life and social change in the Čačak region.</span>
+<span class="links"><a href="../../books/vek-sumnje-religioznost.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139303677">Wikidata Q139303677</a></span>
 </li>
-<li>
-<strong>Религиозност ученика завршних разреда основних школа у чачанском крају: анкета из 1985. године</strong><br/>
-<span lang="en">Religiosity of Final-Year Primary School Students in the Čačak Region: A Survey from 1985</span>
-<span class="role">Примарна улога: емпиријско истраживање религиозности / Primary role: empirical study of religiosity.</span>
-<span class="work-note">Рад је важан као емпиријски увид у религиозност младих у касносоцијалистичком периоду.</span>
+<li class="work-card"><strong>Религиозност ученика завршних разреда основних школа у чачанском крају: анкета из 1985. године</strong><br/>
+<em lang="en-GB">Religiosity of Final-Year Primary School Students in the Čačak Region: A Survey from 1985</em><br/>
+<span class="role">Анкетно истраживање / Survey study.</span>
+<span class="work-note">На основу анкете из 1985. године, рад испитује веровања и религијске навике ученика завршних разреда основне школе.</span>
+<span class="work-note" lang="en-GB">The article is important as an empirical insight into youth religiosity in the late socialist period.</span>
 <span class="links"><a href="https://www.wikidata.org/wiki/Q139501095">Wikidata Q139501095</a></span>
 </li>
-<li>
-<strong>„Запуштени виноград Господњи”: религиозност у чачанском крају током XX века, први део</strong><br/>
-<span lang="en">“Neglected Lord’s Orchard”: Religiosity in the Čačak Region during the 20th Century (Part I)</span>
-<span class="work-note">Рад прати религијски живот, црквену праксу и друштвене промене у првом делу XX века.</span>
+<li class="work-card"><strong>„Запуштени виноград Господњи”: религиозност у чачанском крају током XX века, први део</strong><br/>
+<em lang="en-GB">The Neglected Vineyard of the Lord: Religiosity in the Čačak Region during the Twentieth Century, Part I</em><br/>
+<span class="work-note">Рад прати црквени и свакодневни религијски живот у чачанском крају током прве половине XX века.</span>
+<span class="work-note" lang="en-GB">The article follows religious life, church practice and social change in the first part of the twentieth century.</span>
 <span class="links"><a href="https://www.wikidata.org/wiki/Q139505986">Wikidata Q139505986</a></span>
 </li>
-<li>
-<strong>Између „старе” и „нове” религије: религиозност у чачанском крају током XX века, други део</strong><br/>
-<span lang="en">Between “Old” and “New” Religion: Religiosity in the Čačak Region during the 20th Century (Part II)</span>
-<span class="work-note">Рад анализира промене религиозности, секуларизацију, идеолошке утицаје и обнову религијских пракси.</span>
+<li class="work-card"><strong>Између „старе” и „нове” религије: религиозност у чачанском крају током XX века, други део</strong><br/>
+<em lang="en-GB">Between “Old” and “New” Religion: Religiosity in the Čačak Region during the Twentieth Century, Part II</em><br/>
+<span class="work-note">Рад анализира секуларизацију у социјалистичком раздобљу и постепену обнову верских пракси у другој половини XX века.</span>
+<span class="work-note" lang="en-GB">The article analyzes changes in religiosity, secularization, ideological influences and the renewal of religious practices in the second half of the twentieth century.</span>
 <span class="links"><a href="https://www.wikidata.org/wiki/Q139507189">Wikidata Q139507189</a></span>
 </li>
 </ul>
-<h3>Овчарско-кабларски манастири и сакрални пејзаж / Ovčar–Kablar Monasteries and Sacred Landscape</h3>
+<h3>Овчарско-кабларски манастири и сакрални предео / Ovčar–Kablar Monasteries and Sacred Landscape</h3>
+<p>Ове публикације разматрају Овчарско-кабларску клисуру као манастирску средину, сакрални предео и место дуготрајне локалне побожности.</p>
+<p lang="en-GB">This section brings together publications that examine the Ovčar–Kablar Gorge as a sacred landscape, monastic space, religious heritage and a landscape of long-term local piety. In this cluster, these publications are not presented primarily as heritage syntheses, but as works on religious space, monastic heritage and forms of public and local memory.</p>
 <ul class="work-list">
-<li>
-<strong><a href="/books/manastiri-ovcarsko-kablarske-klisure.html">Манастири Овчарско-кабларске клисуре</a></strong><br/>
-<span lang="en">Monasteries of the Ovčar–Kablar Gorge</span>
-<span class="role">Значајна међукластерска публикација / Significant inter-cluster publication.</span>
-<span class="work-note">Овде је важна као студија Свете горе, сакралног пејзажа, сакралног простора и монашке мреже; у кластеру културног наслеђа функционише као баштинска синтеза сакралног пејзажа.</span>
-<span class="links"><a href="/books/manastiri-ovcarsko-kablarske-klisure.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138425264">Wikidata Q138425264</a></span>
+<li class="work-card"><strong>Манастири Овчарско-кабларске клисуре</strong><br/>
+<em lang="en-GB">Monasteries of the Ovčar–Kablar Gorge</em><br/>
+<span class="role">Повезано са културним наслеђем / Linked with cultural heritage.</span>
+<span class="work-note">Књига истражује историју манастира, њихов положај у сакралном пределу клисуре и место у верском животу околног становништва.</span>
+<span class="work-note" lang="en-GB">Here the publication is important as a work on sacred landscape, monastic heritage and religious space; in the cultural heritage cluster, it functions as a heritage synthesis.</span>
+<span class="links"><a href="../../books/manastiri-ovcarsko-kablarske-klisure.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138425264">Wikidata Q138425264</a></span>
 </li>
-<li>
-<strong>Ризница прошлости: Овчарско-кабларска клисура и њени манастири</strong><br/>
-<span lang="en">Treasury of the Past: The Ovčar–Kablar Gorge and Its Monasteries</span>
-<span class="role">Секундарна веза са баштинским кластером / Secondary link with the cultural heritage cluster.</span>
-<span class="work-note">Публикација повезује сакрално наслеђе, религијски простор и јавну презентацију манастирске прошлости.</span>
+<li class="work-card"><strong>Ризница прошлости: Овчарско-кабларска клисура и њени манастири</strong><br/>
+<em lang="en-GB">Treasury of the Past: The Ovčar–Kablar Gorge and Its Monasteries</em><br/>
+<span class="role">Повезано са културним наслеђем / Linked with cultural heritage.</span>
+<span class="work-note">Публикација доноси преглед манастира и културног предела клисуре намењен широј јавности.</span>
+<span class="work-note" lang="en-GB">The publication connects sacred heritage, religious space, monastic landscape and the public presentation of monastic history.</span>
 <span class="links"><a href="https://www.wikidata.org/wiki/Q139069298">Wikidata Q139069298</a></span>
 </li>
 </ul>
-<h3>Храмови, манастири и традиције / Churches, Monasteries and Traditions</h3>
+<h3>Храмови, култови и локалне традиције / Churches, Cults and Local Traditions</h3>
+<p>Радови у овој групи истражују храмове и манастире као места богослужења, локалног памћења, предања, култова и породичне или династичке меморије.</p>
+<p lang="en-GB">This section brings together works in which sacred space is not treated only as a place of worship or architectural heritage, but as a space of local memory, narratives, cults, family and dynastic memory and the later shaping of tradition.</p>
 <ul class="work-list">
-<li>
-<strong><a href="/books/hram-vaznesenja-gospodnjeg-u-cacku.html">Храм Светог Вазнесења Господњег у Чачку</a></strong><br/>
-<span lang="en">The Church of the Holy Ascension of Christ in Čačak</span>
-<span class="role">Секундарна веза са баштинским кластером / Secondary link with the cultural heritage cluster.</span>
-<span class="work-note">Овде је значајан као рад о урбано-сакралном простору, литургијској пракси, локалном памћењу и дугом трајању црквеног живота.</span>
-<span class="links"><a href="/books/hram-vaznesenja-gospodnjeg-u-cacku.html">Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139064421">Wikidata Q139064421</a></span>
+<li class="work-card"><strong>Храм Светог Вазнесења Господњег у Чачку</strong><br/>
+<em lang="en-GB">The Church of the Holy Ascension of Christ in Čačak</em><br/>
+<span class="role">Повезано са културним наслеђем / Linked with cultural heritage.</span>
+<span class="work-note">Књига прати историју храма, његове архитектонске и уметничке промене и место у верском и јавном животу Чачка.</span>
+<span class="work-note" lang="en-GB">Here the publication is significant as a work on urban sacred space, liturgical practice, local memory and the longue durée of church life.</span>
+<span class="links"><a href="../../books/hram-vaznesenja-gospodnjeg-u-cacku.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139064421">Wikidata Q139064421</a></span>
 </li>
-<li>
-<strong>Манастир Стјеник под Јелицом: стварне и измишљене традиције</strong><br/>
-<span lang="en">Monastery of Stjenik at the Foot of Jelica Mountain: Real and Invented Traditions</span>
-<span class="role">Примарна улога овде: традиција, предање и сакрални простор / Primary role here: tradition, legend and sacred space.</span>
-<span class="work-note">Рад анализира однос сакралног простора, предања, локалног памћења и измишљених традиција.</span>
-<span class="links"><a href="https://www.wikidata.org/wiki/Q139512370">Wikidata Q139512370</a></span>
+<li class="work-card"><strong>Манастир Стјеник под Јелицом: стварна и измишљена традиција</strong><br/>
+<em lang="en-GB">Monastery of Stjenik at the Foot of Jelica Mountain: Real and Invented Traditions</em><br/>
+<span class="role">Традиција, предање и сакрални простор / Tradition, narrative and sacred space.</span>
+<span class="work-note">Рад раздваја историјска сведочанства о Манастиру Стјеник од новијих предања и тумачи њихово место у локалној побожности.</span>
+<span class="work-note" lang="en-GB">The article analyzes the relationship between sacred space, local narrative, piety, memory and invented traditions.</span>
+<span class="links"><a href="../../articles/manastir-stjenik-pod-jelicom.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139512370">Wikidata Q139512370</a></span>
+</li>
+<li class="work-card"><strong>Култ светитеља, места сећања и политички митови: пример манастира Вујан, гробне цркве породице Луњевица</strong><br/>
+<em lang="en-GB">The Cult of Saints, Sites of Memory, and Political Myths: The Example of Vujan Monastery, the Burial Church of the Lunjevica Family</em><br/>
+<span class="role">Култ светитеља и династичка меморија / Cult of saints and dynastic memory.</span>
+<span class="work-note">Рад разматра преплитање култа светитеља, породичне и династичке меморије и политичких тумачења Манастира Вујан.</span>
+<span class="work-note" lang="en-GB">The article connects sacred space, the cult of saints, family and dynastic memory, sites of memory and political myths. In the cluster on political rituals and symbolic politics, it has an additional role as a work on symbolic legitimation, cults and political myth.</span>
+<span class="links"><a href="../../articles/kult-svetitelja-mesta-secanja-politicki-mitovi-vujan.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138480439">Wikidata Q138480439</a></span>
 </li>
 </ul>
-<h3>Приватна сећања, смрт и ратне праксе памћења / Private Memory, Death and Wartime Practices of Remembrance</h3>
+<h3>Смрт, надгробна обележја и породично памћење / Death, Grave Markers and Family Memory</h3>
+<p>Надгробни споменици, епитафи и крајпуташи користе се као извори за историју побожности, породичног памћења и друштвеног живота села.</p>
+<p lang="en-GB">This section is important because it moves religious life from the institutional sphere toward private, family and material remembrance of death. Grave markers, epitaphs and roadside memorial stones are treated as sources for the history of piety, family identity, local memory and the social structure of rural communities.</p>
 <ul class="work-list">
-<li>
-<strong>Војници, смрт и надгробна обележја: приватна сећања на Велики рат у западној Србији</strong><br/>
-<span lang="en">Soldiers, Death and Tombstone Markings: Private Memories of the Great War in Western Serbia</span>
-<span class="role">Примарна улога овде: религијске форме приватног памћења / Primary role here: religious forms of private memory.</span>
-<span class="work-note">Рад повезује смрт, надгробна обележја, породично памћење, религијске форме и приватне праксе сећања.</span>
+<li class="work-card"><strong>Војници, смрт и надгробна обележја: приватна сећања на Велики рат у западној Србији</strong><br/>
+<em lang="en-GB">Soldiers, Death and Tombstone Markings: Private Memories of the Great War in Western Serbia</em><br/>
+<span class="role">Приватно памћење и Велики рат / Private memory and the Great War.</span>
+<span class="work-note">Рад анализира надгробне споменике и крајпуташе као изразе породичног памћења, верских представа и сећања на погинуле у Великом рату.</span>
+<span class="work-note" lang="en-GB">The article connects death, grave markers, family memory, religious forms and private practices of remembering the Great War.</span>
 <span class="links"><a href="https://www.wikidata.org/wiki/Q138839085">Wikidata Q138839085</a></span>
 </li>
+<li class="work-card"><strong>Плави хоризонти Радојка Николића: од микроисторије до социјалне антропологије</strong><br/>
+<em lang="en-GB">Blue Horizons of Radojko Nikolić: From Microhistory to Social Anthropology</em><br/>
+<span class="role">Надгробни споменици и народна побожност / Tombstones and popular piety.</span>
+<span class="work-note">Предговор оцењује допринос Радојка Николића проучавању натписа на надгробним споменицима западне Србије и њихов значај за историју села, породице и народне побожности.</span>
+<span class="work-note" lang="en-GB">The preface analyzes the scholarly significance of Radojko Nikolić’s work on collecting and interpreting inscriptions from tombstones in western Serbia. In this cluster, it is important because it connects death, epitaphs, roadside memorials, family memory, popular piety, local identity and the social history of rural communities.</span>
+<span class="links"><a href="../../book-chapters/plavi-horizonti-radojko-nikolic.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138872779">Wikidata Q138872779</a></span>
+</li>
 </ul>
 </section>
-<section>
+
+<section class="content-section" id="conceptual-network">
+<h2>Концептуална мрежа / <span lang="en-GB">Conceptual Network</span></h2>
+<p>Коренски појам је Живљена религија / Lived Religion. Мрежа прати три повезана механизма: религијску промену, производњу сакралног простора и материјализацију вере и памћења. Мрежа намерно није симетрична: број веза није мера значаја концепта; ужи појмови као што су Света гора, Монашка мрежа и Измишљена традиција задржани су због јасне аналитичке функције.</p>
+<p lang="en-GB">The root concept is Lived Religion. The network follows three connected mechanisms: religious change, the production of sacred space, and the materialization of religion and memory. The network is intentionally asymmetric: link count is not a measure of conceptual importance.</p>
+<div class="concept-grid">
+<article class="concept-card" id="concept-lived-religion"><h3>Живљена религија / <span lang="en-GB">Lived Religion</span></h3><div class="concept-meta">Улога / Role: rootConcept</div><div class="concept-meta">Коренски концепт / Root concept</div></article><article class="concept-card" id="concept-religious-change"><h3>Религијска промена / <span lang="en-GB">Religious Change</span></h3><div class="concept-meta">Улога / Role: organizationalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-lived-religion">Живљена религија / <span lang="en-GB">Lived Religion</span></a></div></article><article class="concept-card" id="concept-religiosity"><h3>Религиозност / <span lang="en-GB">Religiosity</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-religious-change">Религијска промена / <span lang="en-GB">Religious Change</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-secularization">Секуларизација / <span lang="en-GB">Secularization</span></a></div></article><article class="concept-card" id="concept-secularization"><h3>Секуларизација / <span lang="en-GB">Secularization</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-religious-change">Религијска промена / <span lang="en-GB">Religious Change</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-religious-revival">Религијска обнова / <span lang="en-GB">Religious Revival</span></a></div></article><article class="concept-card" id="concept-religious-revival"><h3>Религијска обнова / <span lang="en-GB">Religious Revival</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-religious-change">Религијска промена / <span lang="en-GB">Religious Change</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-public-piety">Јавна побожност / <span lang="en-GB">Public Piety</span></a></div></article><article class="concept-card" id="concept-public-piety"><h3>Јавна побожност / <span lang="en-GB">Public Piety</span></h3><div class="concept-meta">Улога / Role: cross-cluster bridge</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-religious-change">Религијска промена / <span lang="en-GB">Religious Change</span></a></div></article><article class="concept-card" id="concept-sacred-space"><h3>Сакрални простор / <span lang="en-GB">Sacred Space</span></h3><div class="concept-meta">Улога / Role: organizationalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-lived-religion">Живљена религија / <span lang="en-GB">Lived Religion</span></a></div></article><article class="concept-card" id="concept-sacred-landscape"><h3>Сакрални пејзаж / <span lang="en-GB">Sacred Landscape</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-sacred-space">Сакрални простор / <span lang="en-GB">Sacred Space</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-holy-mountain">Света гора / <span lang="en-GB">Holy Mountain</span></a>; <a href="#concept-popular-piety">Народна побожност / <span lang="en-GB">Popular Piety</span></a></div></article><article class="concept-card" id="concept-holy-mountain"><h3>Света гора / <span lang="en-GB">Holy Mountain</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-sacred-landscape">Сакрални пејзаж / <span lang="en-GB">Sacred Landscape</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-monastic-network">Монашка мрежа / <span lang="en-GB">Monastic Network</span></a></div></article><article class="concept-card" id="concept-monastic-network"><h3>Монашка мрежа / <span lang="en-GB">Monastic Network</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-holy-mountain">Света гора / <span lang="en-GB">Holy Mountain</span></a></div></article><article class="concept-card" id="concept-urban-sacred-space"><h3>Урбани сакрални простор / <span lang="en-GB">Urban Sacred Space</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-sacred-space">Сакрални простор / <span lang="en-GB">Sacred Space</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-public-piety">Јавна побожност / <span lang="en-GB">Public Piety</span></a></div></article><article class="concept-card" id="concept-sacralization-of-place"><h3>Сакрализација места / <span lang="en-GB">Sacralization of Place</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-sacred-space">Сакрални простор / <span lang="en-GB">Sacred Space</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-popular-piety">Народна побожност / <span lang="en-GB">Popular Piety</span></a>; <a href="#concept-cult-of-saints">Култ светитеља / <span lang="en-GB">Cult of Saints</span></a>; <a href="#concept-invented-tradition">Измишљена традиција / <span lang="en-GB">Invented Tradition</span></a></div></article><article class="concept-card" id="concept-popular-piety"><h3>Народна побожност / <span lang="en-GB">Popular Piety</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-lived-religion">Живљена религија / <span lang="en-GB">Lived Religion</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-material-religion">Материјална религија / <span lang="en-GB">Material Religion</span></a>; <a href="#concept-cult-of-saints">Култ светитеља / <span lang="en-GB">Cult of Saints</span></a></div></article><article class="concept-card" id="concept-material-religion"><h3>Материјална религија / <span lang="en-GB">Material Religion</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-lived-religion">Живљена религија / <span lang="en-GB">Lived Religion</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a>; <a href="#concept-death-memorial-practice">Смрт и меморијална пракса / <span lang="en-GB">Death and Memorial Practice</span></a></div></article><article class="concept-card" id="concept-religious-memory"><h3>Религијско памћење / <span lang="en-GB">Religious Memory</span></h3><div class="concept-meta">Улога / Role: cross-cluster bridge</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-lived-religion">Живљена религија / <span lang="en-GB">Lived Religion</span></a></div></article><article class="concept-card" id="concept-death-memorial-practice"><h3>Смрт и меморијална пракса / <span lang="en-GB">Death and Memorial Practice</span></h3><div class="concept-meta">Улога / Role: analyticalConcept</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a></div></article><article class="concept-card" id="concept-cult-of-saints"><h3>Култ светитеља / <span lang="en-GB">Cult of Saints</span></h3><div class="concept-meta">Улога / Role: cross-cluster bridge</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a></div><div class="concept-meta">Повезано / Related: <a href="#concept-invented-tradition">Измишљена традиција / <span lang="en-GB">Invented Tradition</span></a></div></article><article class="concept-card" id="concept-invented-tradition"><h3>Измишљена традиција / <span lang="en-GB">Invented Tradition</span></h3><div class="concept-meta">Улога / Role: cross-cluster bridge</div><div class="concept-meta">Шири концепт / Broader concept: <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a></div></article>
+</div>
+</section>
+<details class="cluster-details" id="comparative-context">
+<summary>Компаративни контекст / <span lang="en-GB">Comparative Context</span></summary>
+<div class="details-body">
+<p>Компаративни слој је селективан: задржани су радови који имају јасну теоријску, директно компаративну или контекстуалну функцију. Нису све публикације механички повезане са спољним радом.</p>
+<p lang="en-GB">The comparative layer is selective: works are retained only where they provide a clear theoretical, direct comparative, or contextual function. Not every publication is mechanically assigned an external comparator.</p>
+<h3>Живљена религија и религијска промена / Lived Religion and Religious Change</h3><ul class="comp-list"><li><strong>Bojan Aleksov; Nicholas Lackenby (2022)</strong>, <em>Orthodoxy in Serbia: between its public image and the everyday religiosity of its believers</em>. <a href="https://doi.org/10.1080/1474225X.2022.2101829">Запис / Record</a></li><li><strong>Lidija Radulović; Đorđe Stojanović (2025)</strong>, <em>Народно православље у Србији: од концепта Душана Бандића до живљене религије</em>. <a href="https://doi.org/10.2298/GEI2503059R">Запис / Record</a></li><li><strong>Mirko Blagojević (2009)</strong>, <em>Revitalization of Religion and Religiousness in Serbia: Reality or a Myth?</em>. <a href="https://doi.org/10.2298/FID0902097B">Запис / Record</a></li></ul><h3>Свете горе и монашке мреже / Holy Mountains and Monastic Networks</h3><ul class="comp-list"><li><strong>Danica Popović (2007)</strong>, <em>Deserts and Holy Mountains of Medieval Serbia</em>. <a href="https://doi.org/10.2298/ZRVI0744253P">Запис / Record</a></li><li><strong>Svetlana Popović (2011)</strong>, <em>The Last Hesychast Safe Havens in Late Fourteenth- and Fifteenth-Century Monasteries in the Northern Balkans</em>. <a href="https://doi.org/10.2298/ZRVI1148217P">Запис / Record</a></li><li><strong>Marka Tomić Đurić (2012)</strong>, <em>The Isles of Great Silence: Monastic Life on Lake Scutari under the Patronage of the Balšićs</em>. <a href="https://doi.org/10.2298/BALC1243081T">Запис / Record</a></li></ul><h3>Материјалност, памћење и култ / Materiality, Memory and Cult</h3><ul class="comp-list"><li><strong>Aleksandra Pavićević (2005)</strong>, <em>The White Angel: Where He Sits and What He Does? An Example of Construction and Reconstruction of a Tradition</em>. <a href="https://doi.org/10.2298/GEI0553185P">Запис / Record</a></li><li><strong>Marija Vasiljević (2023)</strong>, <em>The Transformation of the Cult of Saint Luke in Late Medieval Serbian Lands</em>. <a href="https://doi.org/10.2298/ZRVI2360397V">Запис / Record</a></li><li><strong>Vladimir Jovanović; Biljana Vučetić (2020)</strong>, <em>Roadside Memorials and National Identity in 19th Century Serbia</em>. <a href="https://www.iib.ac.rs/ZR/assets/files/WAR-PEACEANDNATIONBUILDING18531918.pdf">Запис / Record</a></li><li><strong>Dick Houtman; Birgit Meyer (eds.) (2012)</strong>, <em>Things: Religion and the Question of Materiality</em>. <a href="https://doi.org/10.5422/fordham/9780823239450.001.0001">Запис / Record</a></li></ul>
+<h3>Простор и материјалност савременог православља / Space and Materiality in Contemporary Orthodoxy</h3><ul class="comp-list"><li><strong>Ivica Marković (2019)</strong>, <em>The Anthropology of the Temple: Contribution to the Study of Spatial Behavior within the Serbian Orthodox Church</em>. <a href="https://doi.org/10.21301/eap.v14i1.7">Запис / Record</a></li><li><strong>Nicholas Lackenby (2022)</strong>, <em>Paper Icons and Fasting Bodies: The Esthetic Formations of Serbian Orthodoxy</em>. <a href="https://doi.org/10.1080/17432200.2022.2102855">Запис / Record</a></li></ul><p class="concept-meta">Три уже специјалистичке студије о Метеорима (Agoritsas; Bayraktar-Tellan; Vapheiades) задржане су у машинском слоју као контекст за монашке и уметничке мреже, али нису поновљене у видљивој селективној библиографији.</p><p class="concept-meta"><strong>Напомена о провери:</strong> раније разматрана дисертација Emese Muntán (2021) није унета у машинско језгро. Библиографска провера показала је да је њена примарна тема католичка реформа и њени локални актери у северној османској Румели, па није довољно непосредан компаратор за Фрушку гору.</p>
+</div>
+</details>
+<details class="cluster-details" id="publication-concept-crosswalk">
+<summary>Публикације и концепти / <span lang="en-GB">Publication–Concept Crosswalk</span></summary>
+<div class="details-body">
+<p>Свака од 11 носећих публикација има један примарни концепт. Три рада о епископу Николају Велимировићу остају повезане међукластерске публикације и у овом кластеру немају примарни концепт.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Publication ID</th><th>Primary concept</th><th>Secondary concepts</th></tr></thead>
+<tbody><tr><td><code>vek-sumnje</code><br/><span class="concept-meta">Q139303677</span></td><td><a href="#concept-lived-religion">Живљена религија / <span lang="en-GB">Lived Religion</span></a></td><td><a href="#concept-religious-change">Религијска промена / <span lang="en-GB">Religious Change</span></a>; <a href="#concept-religiosity">Религиозност / <span lang="en-GB">Religiosity</span></a>; <a href="#concept-secularization">Секуларизација / <span lang="en-GB">Secularization</span></a>; <a href="#concept-religious-revival">Религијска обнова / <span lang="en-GB">Religious Revival</span></a>; <a href="#concept-public-piety">Јавна побожност / <span lang="en-GB">Public Piety</span></a></td></tr><tr><td><code>religioznost-ucenika-1985</code><br/><span class="concept-meta">Q139501095</span></td><td><a href="#concept-religiosity">Религиозност / <span lang="en-GB">Religiosity</span></a></td><td><a href="#concept-lived-religion">Живљена религија / <span lang="en-GB">Lived Religion</span></a>; <a href="#concept-secularization">Секуларизација / <span lang="en-GB">Secularization</span></a></td></tr><tr><td><code>zapusteni-vinograd-gospodnji</code><br/><span class="concept-meta">Q139505986</span></td><td><a href="#concept-religious-change">Религијска промена / <span lang="en-GB">Religious Change</span></a></td><td><a href="#concept-lived-religion">Живљена религија / <span lang="en-GB">Lived Religion</span></a>; <a href="#concept-religiosity">Религиозност / <span lang="en-GB">Religiosity</span></a>; <a href="#concept-public-piety">Јавна побожност / <span lang="en-GB">Public Piety</span></a></td></tr><tr><td><code>stara-nova-religija</code><br/><span class="concept-meta">Q139507189</span></td><td><a href="#concept-secularization">Секуларизација / <span lang="en-GB">Secularization</span></a></td><td><a href="#concept-religious-change">Религијска промена / <span lang="en-GB">Religious Change</span></a>; <a href="#concept-religious-revival">Религијска обнова / <span lang="en-GB">Religious Revival</span></a>; <a href="#concept-public-piety">Јавна побожност / <span lang="en-GB">Public Piety</span></a></td></tr><tr><td><code>manastiri-ovcarsko-kablarske-klisure</code><br/><span class="concept-meta">Q138425264</span></td><td><a href="#concept-holy-mountain">Света гора / <span lang="en-GB">Holy Mountain</span></a></td><td><a href="#concept-sacred-landscape">Сакрални пејзаж / <span lang="en-GB">Sacred Landscape</span></a>; <a href="#concept-sacred-space">Сакрални простор / <span lang="en-GB">Sacred Space</span></a>; <a href="#concept-monastic-network">Монашка мрежа / <span lang="en-GB">Monastic Network</span></a>; <a href="#concept-popular-piety">Народна побожност / <span lang="en-GB">Popular Piety</span></a></td></tr><tr><td><code>riznica-proslosti</code><br/><span class="concept-meta">Q139069298</span></td><td><a href="#concept-sacred-landscape">Сакрални пејзаж / <span lang="en-GB">Sacred Landscape</span></a></td><td><a href="#concept-holy-mountain">Света гора / <span lang="en-GB">Holy Mountain</span></a>; <a href="#concept-sacred-space">Сакрални простор / <span lang="en-GB">Sacred Space</span></a>; <a href="#concept-public-piety">Јавна побожност / <span lang="en-GB">Public Piety</span></a>; <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a></td></tr><tr><td><code>hram-vaznesenja-cacak</code><br/><span class="concept-meta">Q139064421</span></td><td><a href="#concept-urban-sacred-space">Урбани сакрални простор / <span lang="en-GB">Urban Sacred Space</span></a></td><td><a href="#concept-sacred-space">Сакрални простор / <span lang="en-GB">Sacred Space</span></a>; <a href="#concept-public-piety">Јавна побожност / <span lang="en-GB">Public Piety</span></a>; <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a></td></tr><tr><td><code>stjenik</code><br/><span class="concept-meta">Q139512370</span></td><td><a href="#concept-invented-tradition">Измишљена традиција / <span lang="en-GB">Invented Tradition</span></a></td><td><a href="#concept-sacralization-of-place">Сакрализација места / <span lang="en-GB">Sacralization of Place</span></a>; <a href="#concept-cult-of-saints">Култ светитеља / <span lang="en-GB">Cult of Saints</span></a>; <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a>; <a href="#concept-popular-piety">Народна побожност / <span lang="en-GB">Popular Piety</span></a></td></tr><tr><td><code>vujan-kult-secanje-politicki-mit</code><br/><span class="concept-meta">Q138480439</span></td><td><a href="#concept-cult-of-saints">Култ светитеља / <span lang="en-GB">Cult of Saints</span></a></td><td><a href="#concept-sacralization-of-place">Сакрализација места / <span lang="en-GB">Sacralization of Place</span></a>; <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a>; <a href="#concept-popular-piety">Народна побожност / <span lang="en-GB">Popular Piety</span></a></td></tr><tr><td><code>vojnici-smrt-nadgrobna-obelezja</code><br/><span class="concept-meta">Q138839085</span></td><td><a href="#concept-death-memorial-practice">Смрт и меморијална пракса / <span lang="en-GB">Death and Memorial Practice</span></a></td><td><a href="#concept-material-religion">Материјална религија / <span lang="en-GB">Material Religion</span></a>; <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a>; <a href="#concept-popular-piety">Народна побожност / <span lang="en-GB">Popular Piety</span></a></td></tr><tr><td><code>plavi-horizonti-radojka-nikolica</code><br/><span class="concept-meta">Q138872779</span></td><td><a href="#concept-material-religion">Материјална религија / <span lang="en-GB">Material Religion</span></a></td><td><a href="#concept-death-memorial-practice">Смрт и меморијална пракса / <span lang="en-GB">Death and Memorial Practice</span></a>; <a href="#concept-religious-memory">Религијско памћење / <span lang="en-GB">Religious Memory</span></a>; <a href="#concept-popular-piety">Народна побожност / <span lang="en-GB">Popular Piety</span></a></td></tr></tbody>
+</table></div>
+</div>
+</details>
+<details class="cluster-details" id="cross-cluster-semantic-network">
+<summary>Међукластерска семантичка мрежа / <span lang="en-GB">Cross-cluster Semantic Network</span></summary>
+<div class="details-body">
+<p>Ове везе означавају аналитичке прелазе између религијских пракси и већ изграђених кластера. Исти историјски материјал може имати различиту функцију у различитим кластерима: сакрални пејзаж овде означава живљени религијски простор, док се у кластеру о наслеђу исти корпус посматра кроз документовање, тумачење и јавно представљање.</p>
+<p lang="en-GB">These links mark analytical transitions between religious practices and the existing research clusters. The same historical material may perform different analytical functions across clusters.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Current concept</th><th>Related concept in another cluster</th></tr></thead>
+<tbody><tr><td><a href="#concept-lived-religion">Живљена религија / Lived Religion</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-modernity">Локална модерност / Local Modernity</a></td></tr><tr><td><a href="#concept-religious-change">Религијска промена / Religious Change</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-modernity">Локална модерност / Local Modernity</a></td></tr><tr><td><a href="#concept-secularization">Секуларизација / Secularization</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-socialist-modernization">Социјалистичка модернизација / Socialist Modernization</a></td></tr><tr><td><a href="#concept-public-piety">Јавна побожност / Public Piety</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-public-space">Јавни простор / Public Space</a></td></tr><tr><td><a href="#concept-sacred-landscape">Сакрални пејзаж / Sacred Landscape</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-sacred-heritage">Сакрално наслеђе / Sacred Heritage</a></td></tr><tr><td><a href="#concept-holy-mountain">Света гора / Holy Mountain</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#concept-sacred-heritage">Сакрално наслеђе / Sacred Heritage</a></td></tr><tr><td><a href="#concept-urban-sacred-space">Урбани сакрални простор / Urban Sacred Space</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-public-space">Јавни простор / Public Space</a></td></tr><tr><td><a href="#concept-urban-sacred-space">Урбани сакрални простор / Urban Sacred Space</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#concept-local-identity">Локални идентитет / Local Identity</a></td></tr><tr><td><a href="#concept-religious-memory">Религијско памћење / Religious Memory</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-collective-memory">Колективно памћење / Collective Memory</a></td></tr><tr><td><a href="#concept-death-memorial-practice">Смрт и меморијална пракса / Death and Memorial Practice</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-collective-memory">Колективно памћење / Collective Memory</a></td></tr><tr><td><a href="#concept-cult-of-saints">Култ светитеља / Cult of Saints</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production">Симболичка производња / Symbolic Production</a></td></tr><tr><td><a href="#concept-cult-of-saints">Култ светитеља / Cult of Saints</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-collective-memory">Колективно памћење / Collective Memory</a></td></tr><tr><td><a href="#concept-invented-tradition">Измишљена традиција / Invented Tradition</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-invented-tradition">Измишљена традиција / Invented Tradition</a></td></tr><tr><td><a href="#concept-invented-tradition">Измишљена традиција / Invented Tradition</a></td><td><a href="https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#concept-symbolic-production">Симболичка производња / Symbolic Production</a></td></tr></tbody>
+</table></div>
+</div>
+</details>
+<section id="related-publications">
+<h2>Повезане публикације / Related Publications</h2>
+<h3>Црквена јавност, православни антимодернизам и идеолошке расправе / Church Public Discourse, Orthodox Anti-Modernism and Ideological Debates</h3>
+<p>Ови радови анализирају црквену штампу и јавне ставове епископа Николаја Велимировића у контексту антикомунизма, антилиберализма, антимодернизма и политичких сукоба међуратног доба.</p>
+<p lang="en-GB">This section brings together works that examine religious life not through everyday piety, sacred space or local customs, but through church periodicals, public discourse, ideological polemics and Orthodox responses to secular modernity. In this cluster, they are important because they show how religious discourse intersected with anti-communism, anti-liberalism, anti-modernism and political ideologies in the interwar period. Their primary place remains in the cluster on national ideology and intellectual debates.</p>
+<ul class="work-list">
+<li class="work-card"><strong>„Дунули су вихорни ветрови”: ставови епископа Николаја Велимировића о Јеврејима, либерализму, комунизму и нацизму у штампи Жичке епархије пред Други светски рат</strong><br/>
+<em lang="en-GB">“Storm Winds Blew”: Bishop Nikolaj Velimirović’s Attitudes toward Jews, Liberalism, Communism, and Nazism in the Žiča Eparchy Press before World War II</em><br/>
+<span class="role">Повезано са националном идеологијом / Linked with national ideology.</span>
+<span class="work-note">Рад испитује ставове епископа Николаја Велимировића у штампи Жичке епархије о Јеврејима, либерализму, комунизму, фашизму и нацизму.</span>
+<span class="work-note" lang="en-GB">The article analyzes Žiča Eparchy church periodicals as a space in which Orthodox anti-modernism, anti-communism, anti-liberalism, antisemitic stereotypes and attitudes toward fascism and Nazism intersected.</span>
+<span class="links"><a href="../../articles/dunuli-su-vihorni-vetrovi-nikolaj-velimirovic.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q139514358">Wikidata Q139514358</a></span>
+</li>
+<li class="work-card"><strong>Ставови епископа Николаја Велимировића о потреби жртвовања за отаџбину (1936–1941)</strong><br/>
+<em lang="en-GB">Bishop Nikolaj Velimirović’s Attitudes on the Need for Sacrifice for the Homeland (1936–1941)</em><br/>
+<span class="role">Повезано са црквеном јавношћу, ратом и национално-религијским дискурсом / Linked with church public discourse, war and national-religious discourse.</span>
+<span class="work-note">Рад анализира ставове епископа Николаја Велимировића о отаџбини, рату, жртвовању, покајању, вери и „Видовданској етици” у раздобљу од 1936. до 1941. године.</span>
+<span class="work-note" lang="en-GB">The article examines Bishop Nikolaj Velimirović’s views on homeland, war, sacrifice, repentance, faith and the “Vidovdan ethics” in the years immediately preceding the Second World War.</span>
+<span class="links"><a href="../../articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q141252379">Wikidata Q141252379</a> · <a href="https://doi.org/10.18485/ms_zmsi.2026.113.6">DOI 10.18485/ms_zmsi.2026.113.6</a> · <a href="https://zenodo.org/records/22301974">Zenodo</a></span>
+</li>
+<li class="work-card"><strong>Interwar Attitudes of Bishop Nikolaj Velimirović toward the Communists</strong><br/>
+<em lang="en-GB">Међуратни ставови епископа Николаја Велимировића према комунистима</em><br/>
+<span class="role">Повезано са националном идеологијом / Linked with national ideology.</span>
+<span class="work-note">Рад тумачи Велимировићев антикомунизам у оквиру православног антимодернизма и идеолошких сукоба у Краљевини Југославији.</span>
+<span class="work-note" lang="en-GB">The paper places Velimirović’s anti-communism within the broader context of Orthodox anti-modernism, political religion, criticism of secular modernity and ideological conflicts in the Kingdom of Yugoslavia.</span>
+<span class="links"><a href="../../conference-papers/interwar-attitudes-bishop-nikolaj-velimirovic-communists.html">Приступна страна / Landing page</a> · <a href="https://www.wikidata.org/wiki/Q138841640">Wikidata Q138841640</a></span>
+</li>
+</ul>
+</section>
+<section id="cross-links">
 <h2>Сродни радови и попречне везе / Related Works and Cross-Links</h2>
-<div class="related-box">
-<p><strong>Баштинска интерпретација сакралног наслеђа / Heritage interpretation of sacred heritage.</strong></p>
-<p>Радови о манастирима и храму имају двоструку улогу. У овом кластеру су важни као радови о сакралном простору, религијској пракси и локалном памћењу; у кластеру <a href="/knowledge-graph/research/cultural-heritage-museums-public-history.html">Културно наслеђе, музеји и јавна историја</a> важни су као баштинске синтезе, водичи и јавне интерпретације прошлости.</p>
-<p lang="en">Works on monasteries and the church have a dual role. Here they are important as works on sacred space, religious practice and local memory; in the Cultural Heritage, Museums and Public History cluster they function as heritage syntheses, guides and public interpretations of the past.</p>
-</div>
-<div class="related-box">
-<p><strong>Култура, национализам и измишљене традиције / Culture, nationalism and invented traditions.</strong></p>
-<p>Рад о манастиру Стјеник попречно је повезан са кластером <a href="/knowledge-graph/research/culture-nationalism-symbolic-representation.html">Култура, национализам и симболичка репрезентација</a>, јер анализира измишљене традиције и локалне симболичке представе. У овом кластеру остаје због сакралног простора и религијске традиције.</p>
-<p lang="en">The work on Stjenik Monastery is cross-linked with the Culture, Nationalism and Symbolic Representation cluster because it examines invented traditions and local symbolic representations. It remains here because of sacred space and religious tradition.</p>
-</div>
-<div class="related-box">
-<p><strong>Рат, смрт и култура сећања / War, death and memory culture.</strong></p>
-<p>Рад о надгробним обележјима војника Великог рата може се повезати и са културом сећања, али је у овом кластеру задржан због религијских форми приватног памћења, обредности и материјалних трагова смрти.</p>
-<p lang="en">The work on tombstone markings of Great War soldiers can also be connected to memory culture, but it is retained here because of religious forms of private memory, rituality and material traces of death.</p>
-</div>
+<div class="related-grid"><div class="related-box">
+<h3>Тумачење сакралног наслеђа / Interpretation of Sacred Heritage</h3>
+<p>Публикације о Овчарско-кабларским манастирима и Храму Вазнесења повезују историју религијског живота са истраживањем и јавним представљањем сакралног наслеђа.</p>
+<p lang="en-GB">Works on the Ovčar–Kablar monasteries and the Church of the Holy Ascension connect this cluster with the cultural heritage cluster. Here they are important as works on sacred space and religious practice; in the heritage cluster, they function as syntheses, guides and public interpretations of sacred heritage.</p>
+<p><a href="cultural-heritage-museums-public-history.html">Културно наслеђе, музеји и јавна историја / Cultural Heritage, Museums and Public History</a></p>
+</div><div class="related-box">
+<h3>Култура, национализам и измишљене традиције / Culture, Nationalism and Invented Traditions</h3>
+<p>Рад о Манастиру Стјеник повезује локалну побожност и новија предања са питањима културног и националног представљања прошлости.</p>
+<p lang="en-GB">The work on the Monastery of Stjenik connects sacred space, local piety and invented traditions with broader questions of cultural and national representation.</p>
+<p><a href="culture-nationalism-symbolic-representation.html">Култура, национализам и симболичка репрезентација / Culture, Nationalism and Symbolic Representation</a></p>
+</div><div class="related-box">
+<h3>Култови, места сећања и симболичка политика / Cults, Sites of Memory and Symbolic Politics</h3>
+<p>Рад о Манастиру Вујан показује како су култ светитеља и породична меморија добијали политичка значења.</p>
+<p lang="en-GB">The work on Vujan Monastery connects the cult of saints, sacred space and family memory with political myths and symbolic legitimation.</p>
+<p><a href="political-rituals-symbolic-politics.html">Политички ритуали и симболичка политика / Political Rituals and Symbolic Politics</a></p>
+</div><div class="related-box">
+<h3>Црквена јавност и идеолошке расправе / Church Public Discourse and Ideological Debates</h3>
+<p>Радови о епископу Николају Велимировићу повезују историју црквене јавности са националном идеологијом и међуратним политичким расправама.</p>
+<p lang="en-GB">Works on Bishop Nikolaj Velimirović connect the religious cluster with the history of national ideology and intellectual debates. Here they are important as works on church periodicals, Orthodox anti-modernism and responses to secular modernity.</p>
+<p><a href="national-ideology-intellectual-debates.html">Национална идеологија и интелектуалне расправе / National Ideology and Intellectual Debates</a></p>
+</div><div class="related-box">
+<h3>Рат, смрт и култура сећања / War, Death and Memory Culture</h3>
+<p>Радови о надгробним споменицима, крајпуташима и епитафима повезују верске представе о смрти са породичним памћењем и културом сећања.</p>
+<p lang="en-GB">Works on grave markers, roadside memorials, epitaphs and family memory can be connected with memory culture, but they are retained here because of religious forms of private memory and material traces of death.</p>
+<p><a href="war-propaganda-memory.html">Рат, пропаганда и култура сећања / War, Propaganda and Memory</a></p>
+</div></div>
 </section>
-<section>
-<h2>Кључне теме / Research Themes</h2>
-<p>Кластер повезује религиозност, црквено наслеђе, сакралне просторе, Овчарско-кабларске манастире, Храм Вазнесења Господњег, локалне праксе, социјалистичку секуларизацију, јавну побожност, приватно памћење, надгробна обележја, стварне и измишљене традиције и однос традиције и модерности.</p>
-<p lang="en">The cluster connects religiosity, church heritage, sacred spaces, the Ovčar–Kablar monasteries, the Church of the Ascension, local practices, socialist secularization, public piety, private memory, tombstone markings, real and invented traditions and the relationship between tradition and modernity.</p>
+<section id="themes">
+<h2>Обухваћене теме / Research Themes</h2>
+<p>Ова страница повезује истраживања религиозности, секуларизације, сакралних простора, манастирских средина, локалних традиција, породичног памћења, надгробних обележја, народне побожности, црквене јавности и односа традиције и модерности.</p>
+<p lang="en-GB">The cluster connects research on religiosity, secularization, church heritage, sacred spaces, monastic landscapes, local traditions, private memory, grave markers, popular piety, church public discourse, Orthodox anti-modernism and the relationship between tradition and modernity.</p>
 </section>
-<section>
+<section id="keywords">
 <h2>Кључне речи / Keywords</h2>
-<p class="keywords">религијски живот; религиозност; чачански крај; сакрални простори; црквено наслеђе; Овчарско-кабларски манастири; Храм Вазнесења Господњег; друштвене праксе; локалне праксе; секуларизација; јавна побожност; приватно памћење; надгробна обележја; традиција и модерност; измишљене традиције</p>
-<p class="keywords" lang="en">religious life; religiosity; Čačak region; sacred spaces; church heritage; Ovčar–Kablar monasteries; Church of the Ascension; social practices; local practices; secularization; public piety; private memory; tombstone markings; tradition and modernity; invented traditions</p>
+<p class="keywords">религијски живот; религиозност; секуларизација; чачански крај; западна Србија; сакрални простори; црквено наслеђе; јавна побожност; приватно памћење; породично памћење; народна побожност; Овчарско-кабларски манастири; Храм Вазнесења Господњег; Манастир Стјеник; Манастир Вујан; друштвене праксе; локалне праксе; надгробна обележја; крајпуташи; епитафи; култ светитеља; места сећања; стварна традиција; измишљена традиција; црквена јавност; црквена штампа; Жичка епархија; Николај Велимировић; православни антимодернизам; антикомунизам; антилиберализам; секуларна модерност; традиција и модерност; жртвовање за отаџбину; рат; патриотизам; Видовданска етика; покајање; хришћанска држава</p>
+<p class="keywords" lang="en-GB">religious life; religiosity; secularization; Čačak region; western Serbia; sacred spaces; church heritage; public piety; private memory; family memory; popular piety; Ovčar–Kablar monasteries; Church of the Holy Ascension; Monastery of Stjenik; Vujan Monastery; social practices; local practices; grave markers; roadside memorials; epitaphs; cult of saints; sites of memory; real tradition; invented tradition; church public discourse; church periodicals; Žiča Eparchy; Nikolaj Velimirović; Orthodox anti-modernism; anti-communism; anti-liberalism; secular modernity; tradition and modernity; sacrifice for the homeland; war; patriotism; Vidovdan ethics; repentance; Christian state</p>
 </section>
-<section>
+<section id="citation">
 <h2>Предлог цитирања / Suggested Citation</h2>
 <div class="citation">
-<p>Милош Тимотијевић, „Религијски живот и друштвене праксе: истраживачки кластер”, лични научни сајт, приступљено [датум], https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html</p>
-<p lang="en">Miloš Timotijević, “Religious Life and Social Practices: Research Cluster,” personal scholarly website, accessed [date], https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html</p>
+<p>Милош Тимотијевић, „Религијски живот и друштвене праксе”, лични научни сајт, приступљено [датум], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html">https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html</a></p>
+<p lang="en-GB">Miloš Timotijević, “Religious Life and Social Practices,” personal scholarly website, accessed [date], <a href="https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html">https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html</a></p>
 </div>
 </section>
-<p><a href="#top">↑ На врх / Back to top</a></p>
-<p class="back-link">
-<a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a><br/>
-<a href="/">← Назад на главну страну / Back to the main page</a>
-</p>
+<p>О начину повезивања публикација, тема и дигиталних идентификатора видети: <a href="/knowledge-graph/method.html">Метод / Method</a>.</p><p class="updated">Последње ажурирање / Last updated: 19. септембар 2026 / 19 September 2026</p>
+<div class="back-link"><p class="back-link"><a href="#top">↑ На врх / Back to top</a></p><p><a href="../">← Назад на граф знања / Back to Knowledge Graph</a></p><p><a href="../../">← Назад на главну страницу / Back to the main page</a></p></div>
+</main>
 </body>
 </html>
