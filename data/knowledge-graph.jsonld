@@ -50,7 +50,7 @@
       "about": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
-      "dateModified": "2026-09-27",
+      "dateModified": "2026-09-28",
       "inLanguage": [
         "sr-Cyrl",
         "en-GB"
@@ -63,7 +63,7 @@
       "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
       "url": "https://milos-timotijevic.github.io/data/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2026-09-27",
+      "dateModified": "2026-09-28",
       "creator": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
@@ -6441,7 +6441,7 @@
         "en-GB"
       ],
       "description": "Истраживачка целина о Другом светском рату у Србији и Југославији: оружаном сукобу, окупацији, ратној економији, пропаганди, Холокаусту, послератном наслеђу и култури сећања.",
-      "dateModified": "2026-09-25",
+      "dateModified": "2026-09-28",
       "author": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
@@ -6474,7 +6474,12 @@
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-memory-contested-pasts"
         }
       ],
-      "keywords": "Second World War, Serbia, Yugoslavia, occupation, resistance, civil conflict, wartime economy, propaganda, collaborationist press, Allied air war, Operation Halyard, Holocaust, political myths, contested pasts, memory culture, public history"
+      "keywords": "Second World War, Serbia, Yugoslavia, occupation, resistance, civil conflict, wartime economy, propaganda, collaborationist press, Allied air war, Operation Halyard, Holocaust, political myths, contested pasts, memory culture, public history",
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        }
+      ]
     },
     {
       "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster",
@@ -6489,7 +6494,7 @@
       "about": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-set"
       },
-      "dateModified": "2026-09-25",
+      "dateModified": "2026-09-28",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
       },
@@ -6497,7 +6502,1084 @@
       "inLanguage": [
         "sr-Cyrl",
         "en-GB"
+      ],
+      "hasPart": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        }
       ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#webpage",
+      "url": "https://milos-timotijevic.github.io/books/misija-halyard.html",
+      "name": "Мисија „Халијард”: ратна пропаганда, бомбардовање српских градова и евакуација савезничких авијатичара 1943–1944. године",
+      "alternateName": "Operation “Halyard”: War Propaganda, the Bombing of Serbian Cities, and the Evacuation of Allied Airmen, 1943–1944",
+      "inLanguage": [
+        "sr-Cyrl",
+        "en-GB"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/#website"
+      },
+      "mainEntity": {
+        "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+      },
+      "relatedLink": [
+        "https://doi.org/10.5281/zenodo.20476861",
+        "https://zenodo.org/records/20476861",
+        "https://www.wikidata.org/wiki/Q139412435",
+        "https://www.wikidata.org/wiki/Q139412501",
+        "https://openlibrary.org/works/OL32289519W",
+        "https://openlibrary.org/books/OL44037601M",
+        "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/18599689#full",
+        "https://lccn.loc.gov/2023467093",
+        "https://search.worldcat.org/oclc/1227934650",
+        "https://search.worldcat.org/isbn/9788651926061",
+        "https://www.slglasnik.com/e-prodavnica/proizvod/misija-halijard-1943-1944/126787",
+        "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html",
+        "https://milos-timotijevic.github.io/data/knowledge-graph.jsonld"
+      ],
+      "dateModified": "2026-09-28"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work",
+      "url": "https://milos-timotijevic.github.io/books/misija-halyard.html",
+      "name": "Мисија „Халијард”: ратна пропаганда, бомбардовање српских градова и евакуација савезничких авијатичара 1943–1944. године",
+      "alternateName": [
+        "Operation “Halyard”: War Propaganda, the Bombing of Serbian Cities, and the Evacuation of Allied Airmen, 1943–1944",
+        "Misija „Halijard”: ratna propaganda, bombardovanje srpskih gradova i evakuacija savezničkih avijatičara 1943–1944. godine"
+      ],
+      "description": "Научна монографија о операцији „Халијард” у ширем контексту савезничког стратешког бомбардовања Србије, спасавања и евакуације савезничких авијатичара, ратне и окупационе пропаганде, политике западних Савезника према Југословенској војсци у Отаџбини и партизанском покрету и касније културе сећања на Други светски рат.",
+      "abstract": "A scholarly monograph that places Operation Halyard within the interconnected history of Allied strategic bombing of Serbia, the rescue and evacuation of Allied airmen, wartime and occupation propaganda, the shifting British and American relationship with Dragoljub Mihailović and the Yugoslav Army in the Homeland, the growing Allied support for the Partisan movement, and the later public memory of the operation. Based on archival sources, contemporary press, propaganda materials and postwar interpretations, the study connects military history, propaganda history, political culture and memory studies.",
+      "genre": [
+        "Scholarly monograph",
+        "Military history",
+        "Political history",
+        "History of propaganda",
+        "Air war history",
+        "Intelligence history",
+        "Memory studies",
+        "Public history"
+      ],
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "inLanguage": "sr",
+      "temporalCoverage": "1943/1944",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Serbia",
+          "alternateName": "Србија"
+        },
+        {
+          "@type": "Place",
+          "name": "Yugoslavia",
+          "alternateName": "Југославија"
+        },
+        {
+          "@type": "Place",
+          "name": "Pranjani",
+          "alternateName": "Прањани"
+        },
+        {
+          "@type": "Place",
+          "name": "Koceljeva",
+          "alternateName": "Коцељева"
+        },
+        {
+          "@type": "Place",
+          "name": "Boljanići",
+          "alternateName": "Бољанићи"
+        },
+        {
+          "@type": "Place",
+          "name": "Belgrade",
+          "alternateName": "Београд"
+        },
+        {
+          "@type": "Place",
+          "name": "Southeast Europe",
+          "alternateName": "Југоисточна Европа"
+        }
+      ],
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-allied-air-war-rescue"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-armed-conflict-resistance"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-propaganda-discourse"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-memory-contested-pasts"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-political-myth-public-uses-history"
+        },
+        {
+          "@type": "Thing",
+          "name": "Operation Halyard",
+          "alternateName": "Мисија „Халијард“"
+        },
+        {
+          "@type": "Thing",
+          "name": "Allied strategic bombing",
+          "alternateName": "Савезничко стратешко бомбардовање"
+        },
+        {
+          "@type": "Thing",
+          "name": "Allied bombing of Serbia",
+          "alternateName": "Савезничко бомбардовање Србије"
+        },
+        {
+          "@type": "Organization",
+          "name": "Yugoslav Army in the Homeland",
+          "alternateName": "Југословенска војска у Отаџбини"
+        },
+        {
+          "@type": "Organization",
+          "name": "Partisan movement",
+          "alternateName": "Партизански покрет"
+        },
+        {
+          "@type": "Organization",
+          "name": "Office of Strategic Services",
+          "alternateName": "OSS"
+        },
+        {
+          "@type": "Organization",
+          "name": "Special Operations Executive",
+          "alternateName": "SOE"
+        },
+        {
+          "@type": "Person",
+          "name": "Драгољуб Михаиловић",
+          "alternateName": "Dragoljub Mihailović"
+        },
+        {
+          "@type": "Person",
+          "name": "Јосип Броз Тито",
+          "alternateName": "Josip Broz Tito"
+        },
+        {
+          "@type": "Person",
+          "name": "Милан Недић",
+          "alternateName": "Milan Nedić"
+        },
+        {
+          "@type": "Person",
+          "name": "Станислав Краков",
+          "alternateName": "Stanislav Krakov"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Occupation Propaganda",
+          "alternateName": "Окупациона пропаганда"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Anti-Western Propaganda",
+          "alternateName": "Антизападна пропаганда"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Political Culture",
+          "alternateName": "Политичка култура"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Civilian Bombing Experience",
+          "alternateName": "Цивилно искуство бомбардовања"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Allied Special Operations",
+          "alternateName": "Савезничке специјалне операције"
+        }
+      ],
+      "keywords": [
+        "Operation Halyard",
+        "Mission Halyard",
+        "Мисија Халијард",
+        "World War II",
+        "Second World War",
+        "Serbia",
+        "Yugoslavia",
+        "Allied air war",
+        "Allied bombing of Serbia",
+        "strategic bombing",
+        "Allied airmen",
+        "aircrew rescue",
+        "evacuation",
+        "Pranjani",
+        "Koceljeva",
+        "Boljanići",
+        "Yugoslav Army in the Homeland",
+        "Chetnik movement",
+        "Partisan movement",
+        "Dragoljub Mihailović",
+        "Josip Broz Tito",
+        "Milan Nedić",
+        "wartime propaganda",
+        "occupation propaganda",
+        "anti-Western propaganda",
+        "OSS",
+        "SOE",
+        "memory culture",
+        "memory politics",
+        "Missing Air Crew Reports",
+        "MACR",
+        "aircraft serial numbers",
+        "Southeast Europe"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#webpage"
+      },
+      "workExample": {
+        "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#edition-2020"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata work item",
+          "value": "Q139412435",
+          "url": "https://www.wikidata.org/wiki/Q139412435"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Open Library work ID",
+          "value": "OL32289519W",
+          "url": "https://openlibrary.org/works/OL32289519W"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139412435",
+        "https://openlibrary.org/works/OL32289519W"
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-policy"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-01-gashler-2017"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-01-torkar-2020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-conceptual-01-donia-2020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-02-ford-1992"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-03-williams-2003"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-02-matteson-1977"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-04-leary-1995"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-05-terzic-2005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-theoretical-01-biddle-2002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-06-overy-2013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-03-baldoli-knapp-2012"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-04-dodd-2016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-07-ehlers-2015"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-05-vrana-2022"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-08-stenton-2000"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-09-trew-1998"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-theoretical-02-kallis-2005"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-06-fry-2020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-conceptual-02-arnold-2011"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-10-dureinovic-2020"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-theoretical-03-mcglynn-dureinovic-2023"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#edition-2020",
+      "url": "https://milos-timotijevic.github.io/books/misija-halyard.html",
+      "name": "Мисија „Халијард”: ратна пропаганда, бомбардовање српских градова и евакуација савезничких авијатичара 1943–1944. године",
+      "alternateName": "Operation “Halyard”: War Propaganda, the Bombing of Serbian Cities, and the Evacuation of Allied Airmen, 1943–1944",
+      "inLanguage": "sr",
+      "bookEdition": "First edition",
+      "datePublished": "2020",
+      "copyrightYear": 2020,
+      "isbn": "978-86-519-2606-1",
+      "numberOfPages": 478,
+      "publisher": {
+        "@type": "Organization",
+        "name": "Службени гласник",
+        "alternateName": "Službeni glasnik",
+        "url": "https://www.slglasnik.com/"
+      },
+      "locationCreated": {
+        "@type": "Place",
+        "name": "Belgrade, Serbia"
+      },
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "editor": [
+        {
+          "@type": "Person",
+          "name": "Борисав Челиковић",
+          "alternateName": "Borisav Čeliković",
+          "description": "Series editor"
+        },
+        {
+          "@type": "Person",
+          "name": "Јелена Триван",
+          "alternateName": "Jelena Trivan",
+          "description": "Editor-in-Chief"
+        }
+      ],
+      "reviewedBy": [
+        {
+          "@type": "Person",
+          "name": "Коста Николић",
+          "alternateName": "Kosta Nikolić"
+        },
+        {
+          "@type": "Person",
+          "name": "Бојан Димитријевић",
+          "alternateName": "Bojan Dimitrijević"
+        },
+        {
+          "@type": "Person",
+          "name": "Наташа Милићевић",
+          "alternateName": "Nataša Milićević"
+        },
+        {
+          "@type": "Person",
+          "name": "Владимир Димитријевић",
+          "alternateName": "Vladimir Dimitrijević"
+        }
+      ],
+      "isPartOf": {
+        "@type": "BookSeries",
+        "name": "Саборник",
+        "alternateName": "Sabornik"
+      },
+      "exampleOfWork": {
+        "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.5281/zenodo.20476861",
+          "url": "https://doi.org/10.5281/zenodo.20476861"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata edition item",
+          "value": "Q139412501",
+          "url": "https://www.wikidata.org/wiki/Q139412501"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "COBISS.SR-ID",
+          "value": "18599689",
+          "url": "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/18599689#full"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "LCCN",
+          "value": "2023467093",
+          "url": "https://lccn.loc.gov/2023467093"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC",
+          "value": "1227934650",
+          "url": "https://search.worldcat.org/oclc/1227934650"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Open Library edition ID",
+          "value": "OL44037601M",
+          "url": "https://openlibrary.org/books/OL44037601M"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISBN-13",
+          "value": "978-86-519-2606-1",
+          "url": "https://search.worldcat.org/isbn/9788651926061"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139412501",
+        "https://doi.org/10.5281/zenodo.20476861",
+        "https://zenodo.org/records/20476861",
+        "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/18599689#full",
+        "https://lccn.loc.gov/2023467093",
+        "https://search.worldcat.org/oclc/1227934650",
+        "https://openlibrary.org/books/OL44037601M",
+        "https://search.worldcat.org/isbn/9788651926061",
+        "https://www.slglasnik.com/e-prodavnica/proizvod/misija-halijard-1943-1944/126787"
+      ],
+      "associatedMedia": {
+        "@type": "MediaObject",
+        "name": "Zenodo repository version",
+        "url": "https://zenodo.org/records/20476861"
+      },
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "name": "Избор из књиге: садржај, увод, закључак и списак извора и литературе",
+          "alternateName": "Selected excerpt: table of contents, introduction, conclusion, and list of sources and bibliography",
+          "url": "https://www.academia.edu/44082390/%D0%9C%D0%B8%D1%81%D0%B8%D1%98%D0%B0_%D0%A5%D0%B0%D0%BB%D0%B8%D1%98%D0%B0%D1%80%D0%B4_%D1%80%D0%B0%D1%82%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D0%BF%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%B0_%D0%B1%D0%BE%D0%BC%D0%B1%D0%B0%D1%80%D0%B4%D0%BE%D0%B2%D0%B0%D1%9A%D0%B5_%D1%81%D1%80%D0%BF%D1%81%D0%BA%D0%B8%D1%85_%D0%B3%D1%80%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0_%D0%B8_%D0%B5%D0%B2%D0%B0%D0%BA%D1%83%D0%B0%D1%86%D0%B8%D1%98%D0%B0_%D1%81%D0%B0%D0%B2%D0%B5%D0%B7%D0%BD%D0%B8%D1%87%D0%BA%D0%B8%D1%85_%D0%B0%D0%B2%D0%B8%D1%98%D0%B0%D1%82%D0%B8%D1%87%D0%B0%D1%80%D0%B0_1943_1944_%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B5"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#dataset-evacuated-airmen"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#dataset-aircraft-evacuated-crews"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@type": "Review",
+          "name": "Немања Девић, приказ књиге Мисија „Халијард”",
+          "alternateName": "Nemanja Dević, review of Mission “Halyard”",
+          "author": {
+            "@type": "Person",
+            "name": "Немања Девић",
+            "alternateName": "Nemanja Dević"
+          },
+          "itemReviewed": {
+            "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+          },
+          "isPartOf": {
+            "@type": "Periodical",
+            "name": "Историја 20. века",
+            "alternateName": "Istorija 20. veka"
+          },
+          "datePublished": "2021",
+          "issueNumber": "1",
+          "pagination": "253–256",
+          "url": "https://istorija20veka.rs/wp-content/uploads/2021/01/2021_1_23_dev_253-256.pdf"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#dataset-evacuated-airmen",
+      "name": "Евакуисани амерички и британски авијатичари из Прањана, Коцељеве и Бољанића, 1944",
+      "alternateName": "Evacuated American and British Airmen from Pranjani, Koceljeva and Boljanići, 1944",
+      "description": "Структурисани прилог монографије са списком авијатичара евакуисаних 1944. године из Прањана, Коцељеве и Бољанића. У издању из 2020. именом је идентификовано 373 америчких и шест британских авијатичара; имена још једног америчког и два британска евакуисана авијатичара тада нису била утврђена.",
+      "identifier": "Appendix 1",
+      "creator": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "datePublished": "2020",
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#edition-2020"
+      },
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-allied-air-war-rescue"
+        },
+        {
+          "@type": "Thing",
+          "name": "Operation Halyard",
+          "alternateName": "Мисија „Халијард“"
+        }
+      ],
+      "temporalCoverage": "1944",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Yugoslavia",
+          "alternateName": "Југославија"
+        },
+        {
+          "@type": "Place",
+          "name": "Pranjani",
+          "alternateName": "Прањани"
+        },
+        {
+          "@type": "Place",
+          "name": "Koceljeva",
+          "alternateName": "Коцељева"
+        },
+        {
+          "@type": "Place",
+          "name": "Boljanići",
+          "alternateName": "Бољанићи"
+        }
+      ],
+      "variableMeasured": [
+        "surname",
+        "given name",
+        "state or country",
+        "date of crash",
+        "area of crash",
+        "aircraft serial or identification number",
+        "aircraft type",
+        "bombardment or fighter group",
+        "squadron",
+        "area of evacuation",
+        "date of evacuation"
+      ],
+      "keywords": [
+        "Allied airmen",
+        "aircrew rescue",
+        "Operation Halyard",
+        "aircraft serial number",
+        "crash location",
+        "evacuation location",
+        "evacuation date",
+        "Pranjani",
+        "Koceljeva",
+        "Boljanići"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#dataset-aircraft-evacuated-crews",
+      "name": "Амерички и британски авиони чије су посаде евакуисане из Прањана, Коцељеве и Бољанића, 1944",
+      "alternateName": "American and British Aircraft Whose Crews Were Evacuated from Pranjani, Koceljeva and Boljanići, 1944",
+      "description": "Структурисани прилог монографије са регистром авиона чије су посаде евакуисане 1944. године из Прањана, Коцељеве и Бољанића. У издању из 2020. пописан је 61 амерички и два британска авиона; један додатни амерички и један британски авион чији су авијатичари евакуисани тада нису били идентификовани.",
+      "identifier": "Appendix 2",
+      "creator": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "datePublished": "2020",
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#edition-2020"
+      },
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#concept-allied-air-war-rescue"
+        },
+        {
+          "@type": "Thing",
+          "name": "Allied aircraft losses and aircrew evacuation",
+          "alternateName": "Губици савезничких авиона и евакуација посада"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "Missing Air Crew Report",
+          "alternateName": "MACR"
+        },
+        {
+          "@type": "Thing",
+          "name": "B-17 Flying Fortress"
+        },
+        {
+          "@type": "Thing",
+          "name": "B-24 Liberator"
+        },
+        {
+          "@type": "Thing",
+          "name": "P-38 Lightning"
+        },
+        {
+          "@type": "Thing",
+          "name": "P-47 Thunderbolt"
+        },
+        {
+          "@type": "Thing",
+          "name": "P-51 Mustang"
+        },
+        {
+          "@type": "Thing",
+          "name": "Vickers Wellington"
+        }
+      ],
+      "temporalCoverage": "1944",
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Yugoslavia",
+          "alternateName": "Југославија"
+        },
+        {
+          "@type": "Place",
+          "name": "Pranjani",
+          "alternateName": "Прањани"
+        },
+        {
+          "@type": "Place",
+          "name": "Koceljeva",
+          "alternateName": "Коцељева"
+        },
+        {
+          "@type": "Place",
+          "name": "Boljanići",
+          "alternateName": "Бољанићи"
+        }
+      ],
+      "variableMeasured": [
+        "date of crash",
+        "Missing Air Crew Report (MACR) number",
+        "aircraft serial number",
+        "aircraft type",
+        "group",
+        "squadron",
+        "air force",
+        "air base",
+        "mission target",
+        "area of crash",
+        "area of evacuation",
+        "date of evacuation"
+      ],
+      "keywords": [
+        "Allied aircraft",
+        "MACR",
+        "aircraft serial number",
+        "aircraft type",
+        "air base",
+        "mission target",
+        "crash location",
+        "aircrew evacuation",
+        "Pranjani",
+        "Koceljeva",
+        "Boljanići"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-policy",
+      "name": "Scholarly relation policy for Operation Halyard",
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+      },
+      "description": "The comparativeCaseWith, broaderContext, theoreticalContext and conceptuallyRelatedTo relations on this landing page form a curated research-discovery layer. Some relations derive from the optimized research cluster and others are retrospective additions. They do not imply that the related works were cited in the 2020 edition unless such citation is independently documented in the monograph.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-01-gashler-2017",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Daniel Gashler, Axis or Allies? Coordinating the Rescuers of Downed Allied Airmen in World War II Yugoslavia (2017)",
+          "url": "https://doi.org/10.1080/13518046.2017.1271687"
+        }
+      ],
+      "description": "Direct comparator for the organization and coordination of Allied aircrew rescue in wartime Yugoslavia.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-01-torkar-2020",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Blaž Torkar, Mission Yugoslavia: The OSS and the Chetnik and Partisan Resistance Movements, 1943–1945 (2020)",
+          "url": "https://books.google.com/books?id=SgnoDwAAQBAJ"
+        }
+      ],
+      "description": "Institutional and intelligence context for OSS missions to both Yugoslav resistance movements.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-conceptual-01-donia-2020",
+      "name": "conceptuallyRelatedTo",
+      "additionalType": "conceptuallyRelatedTo",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Robert J. Donia, The Forgotten Thousands: The Historiography of World War II Rescues of Allied Airmen in Yugoslavia (2020)",
+          "url": "https://doi.org/10.5644/PI2020.186.11"
+        }
+      ],
+      "description": "Historiographical and memory-oriented context for narratives of Allied aircrew rescue in Yugoslavia.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-02-ford-1992",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Kirk Ford, OSS and the Yugoslav Resistance, 1943–1945 (1992)",
+          "url": "https://www.tamupress.com/book/9781585440405/oss-and-the-yugoslav-resistance-1943-1945/"
+        }
+      ],
+      "description": "Foundational context for OSS operations, intelligence and the Allied relationship with Yugoslav resistance movements.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-03-williams-2003",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Heather Williams, Parachutes, Patriots and Partisans: The Special Operations Executive and Yugoslavia, 1941–1945 (2003)",
+          "url": "https://books.google.com/books?id=OYCjAL91iZcC"
+        }
+      ],
+      "description": "Foundational British and SOE context for missions, policy and rivalry among resistance movements in Yugoslavia.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-02-matteson-1977",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Thomas T. Matteson, An Analysis of the Circumstances Surrounding the Rescue and Evacuation of Allied Aircrewmen from Yugoslavia, 1941–1945 (1977)",
+          "url": "https://znaci.org/00002/406.pdf"
+        }
+      ],
+      "description": "Early documentary-operational analysis of Allied aircrew rescue and evacuation from Yugoslavia.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-04-leary-1995",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "William M. Leary, Fueling the Fires of Resistance: Army Air Forces Special Operations in the Balkans during World War II (1995)",
+          "url": "https://www.dafhistory.af.mil/The-DAF-Legacy-Vault/DAF-History-Publications/igphoto/2003736598/"
+        }
+      ],
+      "description": "Broader USAAF special-operations context for supply, transport, resistance support and air activity in the Balkans.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-05-terzic-2005",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Milan Terzić, Jugoslovenska kraljevska vlada, general Dragoljub Mihailović i savezničko bombardovanje ciljeva u Jugoslaviji 1942–1944. godine (2005)",
+          "url": "https://tokovi.istorije.rs/lat/uploaded/1-2-2005/2005_1-2_05_Terzic.pdf"
+        }
+      ],
+      "description": "Direct Yugoslav political and military context for Allied bombing, Mihailović and requests for attacks on targets in Yugoslavia.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-theoretical-01-biddle-2002",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Tami Davis Biddle, Rhetoric and Reality in Air Warfare: The Evolution of British and American Ideas about Strategic Bombing, 1914–1945 (2002)",
+          "url": "https://doi.org/10.2307/j.ctt7rq5m"
+        }
+      ],
+      "description": "Theoretical and comparative framework for Anglo-American strategic-bombing doctrine, assumptions about civilian morale and wartime airpower.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-06-overy-2013",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Richard Overy, The Bombing War: Europe, 1939–1945 (2013)",
+          "url": "https://books.google.com/books?id=JMXungEACAAJ"
+        }
+      ],
+      "description": "Europe-wide context for strategic bombing, civilian experience, propaganda and the military logic of the air war.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-03-baldoli-knapp-2012",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Claudia Baldoli and Andrew Knapp, Forgotten Blitzes: France and Italy under Allied Air Attack, 1940–1945 (2012)",
+          "url": "https://hdl.handle.net/2434/652617"
+        }
+      ],
+      "description": "Comparative case of Allied bombing of European societies whose populations could not simply be framed as enemy civilians.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-04-dodd-2016",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Lindsey Dodd, French Children under the Allied Bombs, 1940–45: An Oral History (2016)",
+          "url": "https://doi.org/10.7765/9781784997410"
+        }
+      ],
+      "description": "Comparative context for civilian experience, explanation of Allied bombing, propaganda, victimhood and later memory.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-07-ehlers-2015",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Robert S. Ehlers, The Mediterranean Air War: Airpower and Allied Victory in World War II (2015)",
+          "url": "https://www.jstor.org/stable/j.ctt1ch79fv"
+        }
+      ],
+      "description": "Mediterranean-theatre context for Allied air strategy and the operational environment in which bombing and rescue missions over Yugoslavia occurred.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-05-vrana-2022",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Sead Vrana, Balkan Air Force and Its Combat Engagements in Bosnia and Herzegovina (2022)",
+          "url": "https://www.ceeol.com/search/article-detail?id=1095128"
+        }
+      ],
+      "description": "Close Yugoslav comparator for Balkan Air Force operations, Allied strategy and air support to the Partisan movement in 1944.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-08-stenton-2000",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Michael Stenton, Radio London and Resistance in Occupied Europe: British Political Warfare 1939–1943 (2000)",
+          "url": "https://doi.org/10.1093/acprof:oso/9780198208433.001.0001"
+        }
+      ],
+      "description": "Broader context for British political warfare, broadcasting and propaganda toward resistance movements in occupied Europe.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-09-trew-1998",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Simon Trew, Britain, Mihailovic and the Chetniks, 1941–42 (1998)",
+          "url": "https://doi.org/10.1057/9780230389762"
+        }
+      ],
+      "description": "Background to the construction and erosion of British support for Mihailović before the decisive policy shift of 1943–1944.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-theoretical-02-kallis-2005",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Aristotle A. Kallis, Nazi Propaganda and the Second World War (2005)",
+          "url": "https://doi.org/10.1057/9780230511101"
+        }
+      ],
+      "description": "Theoretical context for the organization, mechanisms and limits of Nazi wartime propaganda.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-comparative-06-fry-2020",
+      "name": "comparativeCaseWith",
+      "additionalType": "comparativeCaseWith",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Helen Fry, MI9: A History of the Secret Service for Escape and Evasion in World War Two (2020)",
+          "url": "https://doi.org/10.2307/j.ctv15pjxb4"
+        }
+      ],
+      "description": "Comparative European context for clandestine escape-and-evasion networks supporting Allied personnel behind enemy lines.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-conceptual-02-arnold-2011",
+      "name": "conceptuallyRelatedTo",
+      "additionalType": "conceptuallyRelatedTo",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Jörg Arnold, The Allied Air War and Urban Memory: The Legacy of Strategic Bombing in Germany (2011)",
+          "url": "https://doi.org/10.1017/CBO9780511792571"
+        }
+      ],
+      "description": "Conceptually related study of how Allied bombing was transformed from lived urban experience into local cultural memory and public history.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-broader-10-dureinovic-2020",
+      "name": "broaderContext",
+      "additionalType": "broaderContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Jelena Đureinović, The Politics of Memory of the Second World War in Contemporary Serbia: Collaboration, Resistance and Retribution (2020)",
+          "url": "https://www.routledge.com/The-Politics-of-Memory-of-the-Second-World-War-in-Contemporary-Serbia-Collaboration/Dureinovic/p/book/9780367278045"
+        }
+      ],
+      "description": "Broader Serbian context for the post-socialist politics of memory surrounding collaboration, resistance, the Chetnik movement and wartime legitimacy.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#relation-theoretical-03-mcglynn-dureinovic-2023",
+      "name": "theoreticalContext",
+      "additionalType": "theoreticalContext",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Jade McGlynn and Jelena Đureinović, The alliance of victory: Russo-Serbian memory diplomacy (2023)",
+          "url": "https://doi.org/10.1177/17506980211073108"
+        }
+      ],
+      "description": "Later theoretical context for memory diplomacy and the international political use of Second World War memory; not a direct study of Operation Halyard.",
+      "inLanguage": "en"
     },
     {
       "@type": "DefinedTermSet",
