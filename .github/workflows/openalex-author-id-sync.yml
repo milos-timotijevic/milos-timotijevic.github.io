@@ -1,0 +1,116 @@
+name: Synchronize OpenAlex author identifier
+
+on:
+  push:
+    paths:
+      - '.github/workflows/openalex-author-id-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Replace legacy OpenAlex links and update manifests
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import pathlib
+          import subprocess
+
+          old = b'https://openalex.org/authors/a5072525869'
+          new = b'https://openalex.org/authors/a5137924014'
+          changed = []
+          allowed = {'.html', '.json', '.jsonld', '.csv', '.xml', '.md', '.txt'}
+          paths = subprocess.check_output(['git', 'ls-files', '-z']).split(b'\0')
+          for item in paths:
+              if not item:
+                  continue
+              path = pathlib.Path(item.decode('utf-8'))
+              if path.suffix.lower() not in allowed or not path.is_file():
+                  continue
+              before = path.read_bytes()
+              if old not in before:
+                  continue
+              after = before.replace(old, new)
+              if path.suffix.lower() in {'.json', '.jsonld'}:
+                  json.loads(after.decode('utf-8-sig'))
+              path.write_bytes(after)
+              changed.append(str(path))
+
+          for manifest_path, prefix in [(pathlib.Path('data/manifest.json'), pathlib.Path('.')),
+                                        (pathlib.Path('data/entities/entity-manifest.json'), pathlib.Path('data/entities'))]:
+              if not manifest_path.is_file():
+                  continue
+              manifest = json.loads(manifest_path.read_text(encoding='utf-8-sig'))
+              dirty = False
+              for entry in manifest.get('files', []):
+                  file_path = prefix / entry['path']
+                  if not file_path.is_file():
+                      raise SystemExit('Manifest target missing: ' + str(file_path))
+                  if str(file_path) not in changed and entry.get('sha256') == hashlib.sha256(file_path.read_bytes()).hexdigest():
+                      continue
+                  data = file_path.read_bytes()
+                  checksum = hashlib.sha256(data).hexdigest()
+                  size_key = 'byteSize' if 'byteSize' in entry else 'bytes'
+                  if entry.get('sha256') != checksum or entry.get(size_key) != len(data):
+                      entry['sha256'] = checksum
+                      entry[size_key] = len(data)
+                      dirty = True
+                  if file_path.suffix == '.jsonld' and 'recordCount' in entry:
+                      graph = json.loads(data.decode('utf-8-sig'))
+                      nodes = graph.get('@graph')
+                      if isinstance(nodes, list) and entry['recordCount'] != len(nodes):
+                          entry['recordCount'] = len(nodes)
+                          dirty = True
+              if dirty:
+                  manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+                  changed.append(str(manifest_path))
+
+          # Fail if the legacy identifier remains in any tracked text file.
+          for item in paths:
+              if not item:
+                  continue
+              path = pathlib.Path(item.decode('utf-8'))
+              if path.is_file() and path.suffix.lower() in allowed and old in path.read_bytes():
+                  raise SystemExit('Unresolved OpenAlex ID in ' + str(path))
+          if not changed:
+              print('No changes needed')
+          else:
+              print('Updated files:', *sorted(set(changed)), sep='\n - ')
+          PY
+      - name: Verify JSON-LD and manifests
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib
+          for m, base in [('data/manifest.json', '.'), ('data/entities/entity-manifest.json', 'data/entities')]:
+              manifest = json.loads(pathlib.Path(m).read_text(encoding='utf-8'))
+              for e in manifest['files']:
+                  p = pathlib.Path(base) / e['path']
+                  raw = p.read_bytes()
+                  assert hashlib.sha256(raw).hexdigest() == e['sha256'], p
+                  assert len(raw) == e.get('byteSize', e.get('bytes')), p
+                  if p.suffix == '.jsonld':
+                      graph = json.loads(raw)
+                      assert len(graph['@graph']) == e['recordCount'], p
+          print('Manifest integrity checks passed')
+          PY
+      - name: Commit synchronized metadata
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -u
+            git commit -m "Synchronize OpenAlex A5137924014 and refresh integrity manifests"
+            git push
+          else
+            echo "Nothing to commit"
+          fi
