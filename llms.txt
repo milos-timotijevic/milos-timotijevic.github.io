@@ -48,5 +48,5 @@ The site documents modern Serbian and Yugoslav history, local modernity, politic
 - [Robots policy](https://milos-timotijevic.github.io/robots.txt): Public crawler access policy and sitemap location.
 - [ORCID](https://orcid.org/0000-0002-0457-6125): Persistent researcher identifier.
 - [Wikidata](https://www.wikidata.org/wiki/Q112514230): Linked open-data identity record for Miloš Timotijević.
-- [OpenAlex](https://openalex.org/authors/a5072525869): Scholarly author record.
+- [OpenAlex](https://openalex.org/authors/a5137924014): Scholarly author record.
 
