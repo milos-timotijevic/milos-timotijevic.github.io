@@ -69,7 +69,7 @@
     "sr",
     "en"
   ],
-  "dateModified": "2026-09-20",
+  "dateModified": "2026-10-16",
   "description": "Страница са отвореним табеларним и структурисаним подацима о публикацијама, идентификаторима, истраживачким кластерима и пилотском ентитетско-релационом слоју дигиталног научног корпуса Милоша Тимотијевића.",
   "isPartOf": {
     "@type": "WebSite",
@@ -96,7 +96,7 @@
     "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
     "version": "0.6",
     "datePublished": "2026-06-20",
-    "dateModified": "2026-09-20",
+    "dateModified": "2026-09-22",
     "description": "Отворени CSV, JSON и JSON-LD скупови података о публикацијама Милоша Тимотијевића, идентификаторима и истраживачким кластерима, уз пилотски ентитетско-релациони слој који повезује публикације, личности, установе, места и историјске изворе.",
     "creator": {
       "@type": "Person",
@@ -295,8 +295,8 @@
   <p lang="en">This page provides open tabular and structured data about selected publications by Miloš Timotijević and connects bibliographic records with landing pages, DOI identifiers, Zenodo records, Wikidata items, COBISS records and research clusters.</p>
   <p>Сврха није да се замене библиографије и нормативни извори, већ да корпус буде доступан за преузимање, проверу, цитирање и машинску обраду.</p>
   <p lang="en">The purpose is not to replace bibliographies or authority sources, but to make the corpus downloadable, verifiable, citable and machine-readable.</p>
-  <p>Од септембра 2026. Data слој садржи и пилотски ентитетско-релациони скуп, верзија 0.2, који повезује десет публикација са 34 личности, 26 установа, 26 места и 18 историјских извора посредством 259 изворно проверљивих односа.</p>
-  <p lang="en">Since September 2026, the Data layer has also included a pilot entity-relation dataset, version 0.2, connecting ten publications with 34 people, 26 institutions, 26 places and 18 historical sources through 259 source-based relations.</p>
+  <p>Data слој садржи и пилотски ентитетско-релациони скуп, верзија 0.9, који обухвата 51 публикацију, 118 личности, 91 установу, 72 места и 43 историјска извора, повезана посредством 1.012 проверљивих односа и 22 контролисана типа односа.</p>
+  <p lang="en">The Data layer also includes a pilot entity-relation dataset, version 0.9, covering 51 publications, 118 people, 91 institutions, 72 places and 43 historical sources, connected through 1,012 verifiable relations and 22 controlled relation types.</p>
 </section>
 
 <section class="data-nav">
@@ -468,10 +468,10 @@
   <h2 id="entities-relations-heading">Ентитети и односи — пилот / <span lang="en">Entities and Relations — Pilot</span></h2>
 
   <p>
-    Пилотски ентитетско-релациони слој, верзија 0.2, повезује десет изабраних публикација са 34 личности, 26 установа, 26 места и 18 историјских извора посредством 259 проверљивих односа и контролисаног речника од 22 типа односа.
+    Пилотски ентитетско-релациони слој, верзија 0.9, обухвата 51 изабрану публикацију, 118 личности, 91 установу, 72 места и 43 историјска извора, са 1.012 проверљивих односа и контролисаним речником од 22 типа односа.
   </p>
   <p lang="en">
-    The pilot entity-relation layer, version 0.2, connects ten selected publications with 34 people, 26 institutions, 26 places and 18 historical sources through 259 verifiable relations and a controlled vocabulary of 22 relation types.
+    The pilot entity-relation layer, version 0.9, covers 51 selected publications, 118 people, 91 institutions, 72 places and 43 historical sources, with 1,012 verifiable relations and a controlled vocabulary of 22 relation types.
   </p>
 
   <div class="data-nav">
@@ -530,15 +530,15 @@
 
     <article class="data-card">
       <h3>entity-graph.jsonld</h3>
-      <p>Машински читљиви JSON-LD извоз ентитета, директних веза и provenance записа за R001–R259.</p>
-      <p lang="en">Machine-readable JSON-LD export of entities, direct relations and provenance statements for R001–R259.</p>
+      <p>Машински читљиви JSON-LD извоз са 1.410 чворова, 1.012 односа и подацима о пореклу тврдњи.</p>
+      <p lang="en">Machine-readable JSON-LD export with 1,410 nodes, 1,012 relations and statement provenance.</p>
       <p><a href="entities/entity-graph.jsonld" type="application/ld+json">Преузми / Download</a></p>
     </article>
 
     <article class="data-card">
       <h3>entity-manifest.json</h3>
-      <p>Контролни манифест верзије 0.2 са величином, бројем записа и SHA-256 отиском сваког ентитетског извоза.</p>
-      <p lang="en">Version 0.2 integrity manifest with file size, record count and SHA-256 checksum for every entity-layer export.</p>
+      <p>Контролни манифест верзије 0.9 са величином, бројем записа и SHA-256 отиском сваког ентитетског извоза.</p>
+      <p lang="en">Version 0.9 integrity manifest with file size, record count and SHA-256 checksum for every entity-layer export.</p>
       <p><a href="entities/entity-manifest.json" type="application/json">Преузми / Download</a></p>
     </article>
   </div>
@@ -664,7 +664,7 @@
 </p>
 
 <p class="date-note">
-  Последње ажурирање: 20. септембар 2026.
+  Последње ажурирање: 16. октобар 2026.
 </p>
 
 <p class="back-link"><a href="#top">↑ На врх / Back to top</a></p>
@@ -677,3 +677,6 @@
 
 </body>
 </html>
+
+
+
