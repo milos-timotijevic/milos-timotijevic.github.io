@@ -404,7 +404,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/modernizacija-balkanskog-grada.html",
       "datePublished": "2012",
-      "sameAs": "https://www.wikidata.org/wiki/Q138007034",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138007034",
+        "https://openalex.org/W7162452913"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -452,7 +455,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html",
       "datePublished": "2024",
-      "sameAs": "https://www.wikidata.org/wiki/Q138425264",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138425264",
+        "https://openalex.org/W7162408466"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -503,7 +509,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/kulturna-riznica-cacka.html",
       "datePublished": "2008",
-      "sameAs": "https://www.wikidata.org/wiki/Q139055651",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139055651",
+        "https://openalex.org/W7162425871"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -547,7 +556,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/kako-je-cacak-postao-grad-kosarke.html",
       "datePublished": "2023",
-      "sameAs": "https://www.wikidata.org/wiki/Q139439617",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139439617",
+        "https://openalex.org/W7163011926"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -594,7 +606,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html",
       "datePublished": "2019",
-      "sameAs": "https://www.wikidata.org/wiki/Q138006665",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138006665",
+        "https://openalex.org/W7163058158"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -642,7 +657,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/zvonko-vuckovic-ratna-biografija.html",
       "datePublished": "2015",
-      "sameAs": "https://www.wikidata.org/wiki/Q139378954",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139378954",
+        "https://openalex.org/W7162959277"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -686,7 +704,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html",
       "datePublished": "2025",
-      "sameAs": "https://www.wikidata.org/wiki/Q138001364",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138001364",
+        "https://openalex.org/W7163054231"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -734,7 +755,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html",
       "datePublished": "2025",
-      "sameAs": "https://www.wikidata.org/wiki/Q138005790",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138005790",
+        "https://openalex.org/W7162396569"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -778,7 +802,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/zlato-cetnika-i-partizana.html",
       "datePublished": "2018",
-      "sameAs": "https://www.wikidata.org/wiki/Q138658723",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138658723",
+        "https://openalex.org/W7162943491"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -826,7 +853,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/hram-vaznesenja-gospodnjeg-u-cacku.html",
       "datePublished": "2021",
-      "sameAs": "https://www.wikidata.org/wiki/Q139064421",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139064421",
+        "https://openalex.org/W7162468026"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "about": [
         {
@@ -868,7 +898,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/ravna-gora.html",
       "datePublished": "2014",
-      "sameAs": "https://www.wikidata.org/wiki/Q139175311",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139175311",
+        "https://openalex.org/W7163147420"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -912,7 +945,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/book-chapters/miroslav-jovanovic-drustvena-istorija.html",
       "datePublished": "2022",
-      "sameAs": "https://www.wikidata.org/wiki/Q138872140",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138872140",
+        "https://openalex.org/W7163568543"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -955,7 +991,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/conference-papers/interwar-attitudes-bishop-nikolaj-velimirovic-communists.html",
       "datePublished": "2022",
-      "sameAs": "https://www.wikidata.org/wiki/Q138841640",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138841640",
+        "https://openalex.org/W7163535452"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -999,7 +1038,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/conference-papers/vojnici-smrt-nadgrobna-obelezja-veliki-rat.html",
       "datePublished": "2021",
-      "sameAs": "https://www.wikidata.org/wiki/Q138839085",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138839085",
+        "https://openalex.org/W7163674533"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1047,7 +1089,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/tramvaj-fijaker-bicikl-okupirani-beograd-1941.html",
       "datePublished": "2021",
-      "sameAs": "https://www.wikidata.org/wiki/Q138654626",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138654626",
+        "https://openalex.org/W3198621285"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1091,7 +1136,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/finansije-jvuo-u-srbiji-1941-1944.html",
       "datePublished": "2019",
-      "sameAs": "https://www.wikidata.org/wiki/Q138654699",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138654699",
+        "https://openalex.org/W2964384548"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1135,7 +1183,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/sudbina-srebra-uzicke-republike.html",
       "datePublished": "2018",
-      "sameAs": "https://www.wikidata.org/wiki/Q139540111",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139540111",
+        "https://openalex.org/W7163746082"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1182,7 +1233,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/industrijalizacija-cacka-1944-1956.html",
       "datePublished": "2010",
-      "sameAs": "https://www.wikidata.org/wiki/Q139588535",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139588535",
+        "https://openalex.org/W7164121634"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1226,7 +1280,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/varalice-dzeparosi-prostitutke-kriminal-okupirana-srbija-1941.html",
       "datePublished": "2024",
-      "sameAs": "https://www.wikidata.org/wiki/Q139549448",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139549448",
+        "https://openalex.org/W7164739978"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1270,7 +1327,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/krv-medju-bracom-kriminal-sela-okupirana-srbija-1941.html",
       "datePublished": "2021",
-      "sameAs": "https://www.wikidata.org/wiki/Q139549372",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139549372",
+        "https://openalex.org/W7164751704"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1314,7 +1374,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/grad-i-zlocin-kriminal-gradovi-okupirana-srbija-1941.html",
       "datePublished": "2021",
-      "sameAs": "https://www.wikidata.org/wiki/Q139549166",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139549166",
+        "https://openalex.org/W7164755727"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1358,7 +1421,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/borba-protiv-razbojnika-silovatelja-zver-zena-komunisti-okupirana-srbija-1941.html",
       "datePublished": "2021",
-      "sameAs": "https://www.wikidata.org/wiki/Q139549107",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139549107",
+        "https://openalex.org/W7164755710"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1402,7 +1468,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta.html",
       "datePublished": "2026",
-      "sameAs": "https://www.wikidata.org/wiki/Q140353418",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q140353418",
+        "https://openalex.org/W7166473609"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1449,7 +1518,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html",
       "datePublished": "2019",
-      "sameAs": "https://www.wikidata.org/wiki/Q138757156",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138757156",
+        "https://openalex.org/W7163927563"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1493,7 +1565,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/book-chapters/grad-u-unutrasnjosti.html",
       "datePublished": "2007",
-      "sameAs": "https://www.wikidata.org/wiki/Q138862911",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138862911",
+        "https://openalex.org/W7163588429"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1537,7 +1612,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/catalogues/cacak-u-doba-socijalizma.html",
       "datePublished": "2013",
-      "sameAs": "https://www.wikidata.org/wiki/Q139332468",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139332468",
+        "https://openalex.org/W7162867545"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1623,7 +1701,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/kosarka-konstrukcija-lokalnog-identiteta-cacka.html",
       "datePublished": "2023",
-      "sameAs": "https://www.wikidata.org/wiki/Q139487858",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139487858",
+        "https://openalex.org/W7164204357"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1699,7 +1780,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/prostitucija-u-cacku-tokom-xx-veka.html",
       "datePublished": "2007",
-      "sameAs": "https://www.wikidata.org/wiki/Q139500857",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139500857",
+        "https://openalex.org/W7164182990"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1743,7 +1827,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html",
       "datePublished": "2000",
-      "sameAs": "https://www.wikidata.org/wiki/Q139549522",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139549522",
+        "https://openalex.org/W7164209364"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1790,7 +1877,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/nazivi-ulica-cacka-1893-1992.html",
       "datePublished": "2000",
-      "sameAs": "https://www.wikidata.org/wiki/Q139555830",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139555830",
+        "https://openalex.org/W7163696277"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1837,7 +1927,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/prvi-gradjanin-male-varosi.html",
       "datePublished": "2009",
-      "sameAs": "https://www.wikidata.org/wiki/Q139555900",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139555900",
+        "https://openalex.org/W7163889930"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1881,7 +1974,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/u-lavirintu-unutrasnjih-granica.html",
       "datePublished": "2008",
-      "sameAs": "https://www.wikidata.org/wiki/Q139569269",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139569269",
+        "https://openalex.org/W7163867920"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1928,7 +2024,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html",
       "datePublished": "2013",
-      "sameAs": "https://www.wikidata.org/wiki/Q139569304",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139569304",
+        "https://openalex.org/W7163711798"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -1999,7 +2098,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html",
       "datePublished": "1999",
-      "sameAs": "https://www.wikidata.org/wiki/Q139588128",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139588128",
+        "https://openalex.org/W7163991425"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2043,7 +2145,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/opstinska-vlast-cacak-izmedju-dva-rata.html",
       "datePublished": "1997",
-      "sameAs": "https://www.wikidata.org/wiki/Q139592921",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139592921",
+        "https://openalex.org/W7163896426"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2091,7 +2196,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/predsednici-opstine-cacak-1944-2010.html",
       "datePublished": "2009",
-      "sameAs": "https://www.wikidata.org/wiki/Q139593166",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139593166",
+        "https://openalex.org/W7163910095"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2176,7 +2284,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/ritual-politika-knjiga-kumstva.html",
       "datePublished": "2025",
-      "sameAs": "https://www.wikidata.org/wiki/Q138470911",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138470911",
+        "https://openalex.org/W7135401852"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2287,7 +2398,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/kult-svetitelja-mesta-secanja-politicki-mitovi-vujan.html",
       "datePublished": "2016",
-      "sameAs": "https://www.wikidata.org/wiki/Q138480439",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138480439",
+        "https://openalex.org/W7163660889"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2334,7 +2448,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/conference-papers/efemerni-spektakl-knez-mihailo.html",
       "datePublished": "2024",
-      "sameAs": "https://www.wikidata.org/wiki/Q138744868",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138744868",
+        "https://openalex.org/W7163552302"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2378,7 +2495,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/conference-papers/vladari-i-varosi.html",
       "datePublished": "2023",
-      "sameAs": "https://www.wikidata.org/wiki/Q138747994",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138747994",
+        "https://openalex.org/W7163541698"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2422,7 +2542,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/misija-halyard.html",
       "datePublished": "2020",
-      "sameAs": "https://www.wikidata.org/wiki/Q139412435",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139412435",
+        "https://openalex.org/W7162942743"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2469,7 +2592,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/jugoslovenska-vojska-u-otadzbini-americki-avijaticari-b24-liberator-rakova-cacak.html",
       "datePublished": "2019",
-      "sameAs": "https://www.wikidata.org/wiki/Q139413108",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139413108",
+        "https://openalex.org/W7164652199"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2539,7 +2665,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/deca-svetog-save-zavetna-zajednica.html",
       "datePublished": "2021",
-      "sameAs": "https://www.wikidata.org/wiki/Q139528747",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139528747",
+        "https://openalex.org/W7164677826"
+      ],
       "isBasedOn": [
         {
           "@type": "CreativeWork",
@@ -2618,7 +2747,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/nebeski-znaci-zemaljske-prilike-srbija-1941.html",
       "datePublished": "2020",
-      "sameAs": "https://www.wikidata.org/wiki/Q139545635",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139545635",
+        "https://openalex.org/W7164647652"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2739,7 +2871,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/stalna-muzejska-postavka-ustanci-ratovi-1804-1941-konak-jovana-obrenovica-cacak.html",
       "datePublished": "2024",
-      "sameAs": "https://www.wikidata.org/wiki/Q139553899",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139553899",
+        "https://openalex.org/W7164824988"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2855,7 +2990,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/heroizacija-nadezde-petrovic.html",
       "datePublished": "2026",
-      "sameAs": "https://www.wikidata.org/wiki/Q139593533",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139593533",
+        "https://openalex.org/W7160095980"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2902,7 +3040,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/conference-papers/crvena-ili-sveta-rusija-krleza-vasic.html",
       "datePublished": "2023",
-      "sameAs": "https://www.wikidata.org/wiki/Q138824430",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138824430",
+        "https://openalex.org/W7163674865"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -2978,7 +3119,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/book-chapters/plavi-horizonti-radojko-nikolic.html",
       "datePublished": "2018",
-      "sameAs": "https://www.wikidata.org/wiki/Q138872779",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138872779",
+        "https://openalex.org/W7163536789"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3054,7 +3198,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/mitovi-novije-srpske-istorije.html",
       "datePublished": "2022",
-      "sameAs": "https://www.wikidata.org/wiki/Q139439391",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139439391",
+        "https://openalex.org/W7162934445"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3101,7 +3248,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/dunuli-su-vihorni-vetrovi-nikolaj-velimirovic.html",
       "datePublished": "2007",
-      "sameAs": "https://www.wikidata.org/wiki/Q139514358",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139514358",
+        "https://openalex.org/W7163713999"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3145,7 +3295,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/conference-papers/grad-i-okupacija-svakodnevni-zivot-cacka-1941.html",
       "datePublished": "2021",
-      "sameAs": "https://www.wikidata.org/wiki/Q138837172",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138837172",
+        "https://openalex.org/W7164655070"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3189,7 +3342,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/conference-papers/dodjite-da-locete-srpsku-krv-saveznicko-bombardovanje-srbije-1943-1944-propaganda.html",
       "datePublished": "2021",
-      "sameAs": "https://www.wikidata.org/wiki/Q138849395",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138849395",
+        "https://openalex.org/W7164642464"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3233,7 +3389,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/catalogues/sedamdeset-godina-od-pobede-nad-fasizmom-1945-2015.html",
       "datePublished": "2015",
-      "sameAs": "https://www.wikidata.org/wiki/Q139378720",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139378720",
+        "https://openalex.org/W7164742037"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3280,7 +3439,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/zvonimir-zvonko-vuckovic-biografija-dokumenta-secanja.html",
       "datePublished": "2015",
-      "sameAs": "https://www.wikidata.org/wiki/Q139385765",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139385765",
+        "https://openalex.org/W7164656111"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3324,7 +3486,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/brave-partisans-evil-chetniks.html",
       "datePublished": "2019",
-      "sameAs": "https://www.wikidata.org/wiki/Q139385880",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139385880",
+        "https://openalex.org/W7162934226"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3371,7 +3536,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/spomenica-poginulih-kraljevo.html",
       "datePublished": "2019",
-      "sameAs": "https://www.wikidata.org/wiki/Q139393885",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139393885",
+        "https://openalex.org/W7163137631"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3542,7 +3710,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/zena-i-rat-druga-strana-okupacije-1941-1945-cacanski-kraj.html",
       "datePublished": "2003",
-      "sameAs": "https://www.wikidata.org/wiki/Q139497183",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139497183",
+        "https://openalex.org/W7164658815"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3586,7 +3757,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/stradanje-spasavanje-jevreja-cacak-1941-1944.html",
       "datePublished": "2014",
-      "sameAs": "https://www.wikidata.org/wiki/Q139550037",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139550037",
+        "https://openalex.org/W7163662316"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3654,7 +3828,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/conference-papers/boj-na-ljubicu-reprezentativna-kultura-cacka.html",
       "datePublished": "2016",
-      "sameAs": "https://www.wikidata.org/wiki/Q138748192",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138748192",
+        "https://openalex.org/W7163648505"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3698,7 +3875,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/politika-umetnost-stvaranje-tradicija.html",
       "datePublished": "2001",
-      "sameAs": "https://www.wikidata.org/wiki/Q138824150",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138824150",
+        "https://openalex.org/W7162876831"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3786,7 +3966,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/sokoli-cacka.html",
       "datePublished": "2006",
-      "sameAs": "https://www.wikidata.org/wiki/Q139255236",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139255236",
+        "https://openalex.org/W7162875205"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3874,7 +4057,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/manastir-stjenik-pod-jelicom.html",
       "datePublished": "2008",
-      "sameAs": "https://www.wikidata.org/wiki/Q139512370",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139512370",
+        "https://openalex.org/W7163663068"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -3953,7 +4139,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/book-chapters/sest-decenija-rada-narodnog-muzeja-cacak-1952-2012.html",
       "datePublished": "2013",
-      "sameAs": "https://www.wikidata.org/wiki/Q138869859",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138869859",
+        "https://openalex.org/W7164835132"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -4216,7 +4405,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/istorijsko-odeljenje-narodnog-muzeja-cacak-stalna-postavka-1953-2006.html",
       "datePublished": "2016",
-      "sameAs": "https://www.wikidata.org/wiki/Q139553851",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139553851",
+        "https://openalex.org/W7164848955"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -4296,7 +4488,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/vek-sumnje-religioznost.html",
       "datePublished": "2009",
-      "sameAs": "https://www.wikidata.org/wiki/Q139303677",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139303677",
+        "https://openalex.org/W7162859054"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -4506,7 +4701,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html",
       "datePublished": "2016",
-      "sameAs": "https://www.wikidata.org/wiki/Q138006665",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138006665",
+        "https://openalex.org/W7163010813"
+      ],
       "additionalType": "https://schema.org/CreativeWork",
       "isBasedOn": [
         {
@@ -5221,7 +5419,10 @@
       ],
       "url": "https://milos-timotijevic.github.io/articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html",
       "datePublished": "2026",
-      "sameAs": "https://www.wikidata.org/wiki/Q141252379",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q141252379",
+        "https://openalex.org/W7204914609"
+      ],
       "isBasedOn": [
         {
           "@type": "CreativeWork",
