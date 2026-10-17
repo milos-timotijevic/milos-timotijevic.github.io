@@ -1,0 +1,24 @@
+name: Check OpenAlex JSON-LD links (dry run)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check 67 audited OpenAlex links without writing
+        run: python scripts/build_openalex_patch.py
+      - name: Verify working tree is unchanged
+        run: |
+          git diff --exit-code
+          test -z "$(git ls-files --others --exclude-standard)"
