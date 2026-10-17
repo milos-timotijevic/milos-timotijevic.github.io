@@ -1,0 +1,67 @@
+name: Apply OpenAlex JSON-LD links (review branch)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify 67 audited links (dry run)
+        run: python scripts/build_openalex_patch.py
+
+      - name: Apply links and refresh manifest
+        run: python scripts/build_openalex_patch.py --apply
+
+      - name: Validate JSON-LD links and SHA-256 manifest
+        run: |
+          python - <<'PY'
+          import csv, hashlib, json, pathlib
+          root = pathlib.Path('.')
+          rows = list(csv.DictReader((root/'data/openalex-links.csv').open(encoding='utf-8-sig', newline='')))
+          graph = json.loads((root/'data/publications.jsonld').read_text(encoding='utf-8'))
+          nodes = {n['@id'].rsplit('#', 1)[-1]: n for n in graph['@graph'] if '#' in n.get('@id', '')}
+          for r in rows:
+              url = 'https://openalex.org/' + r['openalex_work_id']
+              assert url in nodes[r['local_id']].get('sameAs', []), (r['local_id'], url)
+          data = (root/'data/publications.jsonld').read_bytes()
+          manifest = json.loads((root/'data/manifest.json').read_text(encoding='utf-8'))
+          entry, = [e for e in manifest['files'] if e['path'] == 'data/publications.jsonld']
+          assert entry['sha256'] == hashlib.sha256(data).hexdigest()
+          assert entry['byteSize'] == len(data)
+          assert entry['recordCount'] == len(graph['@graph'])
+          print('PASS: 67 OpenAlex links and JSON-LD manifest verified')
+          PY
+          python scripts/validate_site.py .
+          git diff --check
+
+      - name: Commit changes to a separate review branch
+        run: |
+          set -eu
+          BRANCH="review/openalex-jsonld-67"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            echo "::error::Review branch already exists. Review it instead of overwriting."
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add data/publications.jsonld data/manifest.json
+          git diff --cached --quiet && { echo "::error::No changes to commit"; exit 1; }
+          git commit -m "Add 67 audited OpenAlex work links to publications JSON-LD"
+          git push origin "$BRANCH"
+          echo "Review: https://github.com/${GITHUB_REPOSITORY}/compare/main...$BRANCH"
