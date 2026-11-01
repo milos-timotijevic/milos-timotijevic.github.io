@@ -22,14 +22,14 @@
 
   <style>
     :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f4f4f4; }
-    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 51px auto; padding: 0 24px; color: var(--text); background:#fff; font-size:17px; }
+    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 57px auto; padding: 0 24px; color: var(--text); background:#fff; font-size:17px; }
     h1,h2,h3,h4 { line-height:1.25; color:var(--text); }
     h1 { font-size:2.05em; margin-bottom:.2em; }
     h2 { margin-top:2em; border-bottom:1px solid #ddd; padding-bottom:.25em; }
     h3 { margin-top:1.35em; font-size:1.13em; }
     a { color:var(--link); text-decoration:none; }
     a:hover { text-decoration:underline; }
-    p { margin:.91em 0; }
+    p { margin:.99em 0; }
     ul li,ol li { margin-bottom:.65em; }
     code { font-family:Consolas,"Liberation Mono",monospace; font-size:.92em; background:#f2f2f2; padding:.08em .25em; overflow-wrap:anywhere; }
     blockquote { margin:1.4em 0; padding:.85em 1em; background:#f8f8f8; border-left:4px solid #777; }
@@ -37,7 +37,7 @@
     .subtitle { font-size:1.08em; margin-bottom:1.5em; color:#444; }
     .intro,.note,.identifier-box,.status-box { background:#f8f8f8; border-left:4px solid #bbb; padding:1em; margin:1.5em 0 2em; }
     .intro p,.note p,.identifier-box p,.status-box p { margin:.35em 0; }
-    .route-links { display:flex; flex-wrap:wrap; gap:.35rem 1rem; margin:1em 0 1.6em; padding:.91rem 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .route-links { display:flex; flex-wrap:wrap; gap:.35rem 1rem; margin:1em 0 1.6em; padding:.99rem 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
     .entity-grid,.relation-grid,.publication-grid,.architecture,.download-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1em; margin-top:1em; }
     .entity-card,.relation-card,.publication-card,.step,.download-card { background:#fbfbfb; border:1px solid #e2e2e2; padding:1em; }
     .entity-card h3,.relation-card h3,.publication-card h3,.download-card h3 { margin-top:0; }
@@ -51,7 +51,7 @@
     .data-fields strong { display:inline-block; min-width:9em; }
     .small-note { color:var(--muted); font-size:.96em; }
     .back-link { margin-top:2.5em; border-top:1px solid #ddd; padding-top:1em; }
-    .skip-link { position:absolute; left:1rem; top:-5rem; z-index:1000; padding:.91rem .91rem; border:2px solid var(--link); color:#fff; background:var(--link); }
+    .skip-link { position:absolute; left:1rem; top:-5rem; z-index:1000; padding:.99rem .99rem; border:2px solid var(--link); color:#fff; background:var(--link); }
     .skip-link:focus { top:1rem; color:#fff; }
     @media (max-width:680px) {
       body { margin:0 auto; padding:24px 18px; font-size:16px; }
@@ -71,8 +71,8 @@
   "alternateName": "Entity Graph of the Research Corpus",
   "url": "https://milos-timotijevic.github.io/knowledge-graph/entities/",
   "inLanguage": ["sr", "en"],
-  "dateModified": "2026-10-16",
-  "description": "Пилотски ентитетски граф који обухвата 51 публикацију, 118 личности, 91 установу, 72 места и 43 историјска извора, повезана посредством 1.012 проверљивих односа.",
+  "dateModified": "2026-09-22",
+  "description": "Пилотски ентитетски граф који повезује 57 публикација са личностима, установама, местима и историјским изворима посредством проверљивих односа.",
   "isPartOf": {
     "@type": "CollectionPage",
     "@id": "https://milos-timotijevic.github.io/knowledge-graph/#page",
@@ -86,7 +86,7 @@
     "sameAs": [
       "https://orcid.org/0000-0002-0457-6125",
       "https://www.wikidata.org/wiki/Q112514230",
-      "https://openalex.org/authors/a5137924014"
+      "https://openalex.org/authors/a5072525869"
     ]
   },
   "mainEntity": {
@@ -95,10 +95,10 @@
     "name": "Entity and Relation Data of the Research Corpus — Pilot",
     "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
     "url": "https://milos-timotijevic.github.io/data/entities/",
-    "version": "0.9",
+    "version": "1.0",
     "datePublished": "2026-09-20",
     "dateModified": "2026-09-22",
-    "description": "Pilot dataset comprising 51 publications, 118 people, 91 institutions, 72 places, 43 historical sources, 22 controlled relation types and 1,012 source-based relations.",
+    "description": "Pilot dataset comprising 57 publications, 125 people, 99 institutions, 79 places, 48 historical sources, 22 controlled relation types and 1182 source-based relations.",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "creator": {
       "@type": "Person",
@@ -211,8 +211,8 @@
   <section id="pilot-corpus" aria-labelledby="pilot-corpus-heading">
     <h2 id="pilot-corpus-heading">Пилот-корпус / <span lang="en">Pilot Corpus</span></h2>
 
-    <p>Пилот обухвата 51 публикацију и повезује политичку културу, локалну модерност, религиозност, наслеђе, ратну свакодневицу, окупациону управу, родне односе, саобраћај и административно-територијални развој.</p>
-    <p lang="en">The pilot comprises 51 publications and connects political culture, local modernity, religion, heritage, wartime everyday life, occupation government, gender relations, transport and administrative-territorial development.</p>
+    <p>Пилот обухвата 57 публикација и повезује политичку културу, локалну модерност, религиозност, наслеђе, Холокауст, ратну свакодневицу, окупациону управу, медијски дискурс, криминал и механизме друштвене контроле.</p>
+    <p lang=\"en\">The pilot comprises 57 publications and connects political culture, local modernity, religion, heritage, the Holocaust, wartime everyday life, occupation government, media discourse, crime and mechanisms of social control.</p>
 
     <div class="publication-grid">
       <article class="publication-card">
@@ -536,38 +536,68 @@
         <p>Јавни простор, забране, казне и свакодневне праксе у Чачку током 1941.</p>
         <p class="small-note">2021 · рад у зборнику / conference paper</p>
       </article>
+      <article class="publication-card">
+        <h3><a href="https://www.wikidata.org/wiki/Q139550124">Документа о страдању Јевреја у Чачку 1941–1942. године</a></h3>
+        <p>Издање докумената о пописивању, дискриминацији и прогону Јевреја у Чачку 1941–1942.</p>
+        <p class="small-note">2019 · чланак / article</p>
+      </article>
+      <article class="publication-card">
+        <h3><a href="../../articles/stradanje-spasavanje-jevreja-cacak-1941-1944.html">Страдање и спасавање Јевреја у Чачку и околини 1941–1944. године</a></h3>
+        <p>Страдање, отпор и мреже спасавања Јевреја у Чачку и западној Србији током окупације.</p>
+        <p class="small-note">2014 · чланак / article</p>
+      </article>
+      <article class="publication-card">
+        <h3><a href="../../articles/varalice-dzeparosi-prostitutke-kriminal-okupirana-srbija-1941.html">Варалице, џепароши и проститутке: дискурс колаборационистичке штампе о ’лакшим’ облицима криминала у градовима окупиране Србије 1941. године</a></h3>
+        <p>Лакши облици градског криминала и њихово представљање у колаборационистичкој штампи.</p>
+        <p class="small-note">2024 · чланак / article</p>
+      </article>
+      <article class="publication-card">
+        <h3><a href="../../articles/krv-medju-bracom-kriminal-sela-okupirana-srbija-1941.html">’Крв међу браћом’: писање колаборационистичке штампе о криминалу у селима окупиране Србије 1941. године</a></h3>
+        <p>Криминал у селима окупиране Србије и границе пропагандног дискурса 1941. године.</p>
+        <p class="small-note">2021 · чланак / article</p>
+      </article>
+      <article class="publication-card">
+        <h3><a href="../../articles/grad-i-zlocin-kriminal-gradovi-okupirana-srbija-1941.html">Град и злочин: писање колаборационистичке штампе о најтежим криминалним делима у градовима окупиране Србије 1941. године</a></h3>
+        <p>Најтежа криминална дела, градска свакодневица и медијска контрола у окупираној Србији.</p>
+        <p class="small-note">2021 · чланак / article</p>
+      </article>
+      <article class="publication-card">
+        <h3><a href="../../articles/borba-protiv-razbojnika-silovatelja-zver-zena-komunisti-okupirana-srbija-1941.html">Борба против ’разбојника’, ’силоватеља’ и ’звер-жена’: анализа дискурса колаборационистичке штампе о комунистима у окупираној Србији 1941. године</a></h3>
+        <p>Дехуманизујући пропагандни дискурс о комунистима, партизанима и женама у покрету отпора.</p>
+        <p class="small-note">2021 · чланак / article</p>
+      </article>
     </div>
   </section>
 
   <section id="entities" aria-labelledby="entities-heading">
     <h2 id="entities-heading">Основни ентитети / <span lang="en">Core Entities</span></h2>
 
-    <p>Подаци су организовани у четири ентитетске табеле — личности, установе, места и историјски извори — док се 51 публикација преузима из главног публикационог скупа. Посебни слојеви садрже контролисани речник типова односа и саме релације. Четири ентитетске табеле тренутно садрже 273 ентитетска записа. Бројеви описују садашњи пилот, а не целокупан истраживачки опус.</p>
-    <p lang="en">The data are organized into four entity tables — people, institutions, places and historical sources — while 51 publications are referenced from the main publication dataset. Separate layers contain the controlled relation vocabulary and the relations themselves. The four entity tables currently contain 273 entity records. The figures describe the current pilot, not the complete research corpus.</p>
+    <p>Подаци су организовани у четири ентитетске табеле — личности, установе, места и историјски извори — док се 57 публикација преузима из главног публикационог скупа. Посебни слојеви садрже контролисани речник типова односа и саме релације. Четири ентитетске табеле тренутно садрже 273 ентитетска записа. Бројеви описују садашњи пилот, а не целокупан истраживачки опус.</p>
+    <p lang="en">The data are organized into four entity tables — people, institutions, places and historical sources — while 57 publications are referenced from the main publication dataset. Separate layers contain the controlled relation vocabulary and the relations themselves. The four entity tables currently contain 273 entity records. The figures describe the current pilot, not the complete research corpus.</p>
 
     <div class="entity-grid">
       <article class="entity-card">
-        <span class="entity-number">118</span>
+        <span class="entity-number">125</span>
         <h3>Личности / <span lang="en">People</span></h3>
         <p>Владари, чланови династија, устаници, уметници, књижевници, хуманитарни радници, црквене личности и политичари.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">91</span>
+        <span class="entity-number">99</span>
         <h3>Установе / <span lang="en">Institutions</span></h3>
         <p>Музеји, архиви, цркве, манастири, школе, државна тела, издавачи и уметничка или хуманитарна удружења.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">72</span>
+        <span class="entity-number">79</span>
         <h3>Места / <span lang="en">Places</span></h3>
         <p>Државе, градови, вароши, села, локалитети и меморијални простори у Србији и европском контексту.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">43</span>
+        <span class="entity-number">48</span>
         <h3>Историјски извори / <span lang="en">Historical Sources</span></h3>
         <p>Матичне и парохијске књиге, рукописи, архивски фондови, новине и друга документарна грађа.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">51</span>
+        <span class="entity-number">57</span>
         <h3>Публикације / <span lang="en">Publications</span></h3>
         <p>Канонске публикационе јединице повезане са главним <code>publications.csv</code>.</p>
       </article>
@@ -577,7 +607,7 @@
         <p>Контролисани предикати који одређују дозвољене типове субјеката и објеката.</p>
       </article>
       <article class="entity-card">
-        <span class="entity-number">1012</span>
+        <span class="entity-number">1182</span>
         <h3>Односа / <span lang="en">Relations</span></h3>
         <p>Проверљиве везе са доказним контекстом, страницом, напоменом и степеном поузданости.</p>
       </article>
@@ -666,8 +696,8 @@
     </ul>
 
     <div class="identifier-box">
-      <p><strong>Два значења „извора”:</strong> поље <code>source_id</code> у <code>relations.csv</code> садржи ID публикације која служи као доказни контекст за тврдњу. Насупрот томе, <code>S001–S043</code> у <code>sources.csv</code> представљају историјске изворе као самосталне ентитете.</p>
-      <p lang="en"><strong>Two meanings of “source”:</strong> the <code>source_id</code> field in <code>relations.csv</code> contains the ID of the publication that provides the evidential context for a statement. By contrast, <code>S001–S043</code> in <code>sources.csv</code> are historical sources modelled as entities in their own right.</p>
+      <p><strong>Два значења „извора”:</strong> поље <code>source_id</code> у <code>relations.csv</code> садржи ID публикације која служи као доказни контекст за тврдњу. Насупрот томе, <code>S001–S048</code> у <code>sources.csv</code> представљају историјске изворе као самосталне ентитете.</p>
+      <p lang="en"><strong>Two meanings of “source”:</strong> the <code>source_id</code> field in <code>relations.csv</code> contains the ID of the publication that provides the evidential context for a statement. By contrast, <code>S001–S048</code> in <code>sources.csv</code> are historical sources modelled as entities in their own right.</p>
     </div>
 
     <p>Однос <code>usesSource</code> повезује публикацију са историјским извором који користи, док <code>preservesSource</code> повезује установу која извор чува са тим извором. На тај начин историјски извор није сведен на библиографску напомену него постаје чвор у графу.</p>
@@ -684,13 +714,13 @@
     <p lang="en">Entity-layer data are published on the dedicated <a href="../../data/entities/">Entity Graph Data</a> page. This page provides the scholarly explanation of the graph, while the Data layer serves as a catalogue for download, verification and machine processing.</p>
 
     <div class="download-grid">
-      <article class="download-card"><h3><a href="../../data/entities/people.csv"><code>people.csv</code></a></h3><p>118 личност / 118 people</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/institutions.csv"><code>institutions.csv</code></a></h3><p>91 установа / 91 institutions</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/places.csv"><code>places.csv</code></a></h3><p>72 места / 72 places</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/sources.csv"><code>sources.csv</code></a></h3><p>43 историјска извора / 43 historical sources</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/relations.csv"><code>relations.csv</code></a></h3><p>1012 односа / 1012 relations</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/people.csv"><code>people.csv</code></a></h3><p>125 личност / 125 people</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/institutions.csv"><code>institutions.csv</code></a></h3><p>99 установа / 99 institutions</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/places.csv"><code>places.csv</code></a></h3><p>79 места / 79 places</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/sources.csv"><code>sources.csv</code></a></h3><p>48 историјска извора / 48 historical sources</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/relations.csv"><code>relations.csv</code></a></h3><p>1182 односа / 1182 relations</p></article>
       <article class="download-card"><h3><a href="../../data/entities/relation-types.csv"><code>relation-types.csv</code></a></h3><p>22 типа односа / 22 relation types</p></article>
-      <article class="download-card"><h3><a href="../../data/entities/entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>1410 чворова / 1410 machine-readable nodes</p></article>
+      <article class="download-card"><h3><a href="../../data/entities/entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>1613 чворова / 1613 machine-readable nodes</p></article>
       <article class="download-card"><h3><a href="../../data/entities/entity-manifest.json"><code>entity-manifest.json</code></a></h3><p>Контролни отисци / Integrity checksums</p></article>
     </div>
   </section>
@@ -699,8 +729,8 @@
     <h2 id="pilot-status-heading">Статус пилота / <span lang="en">Pilot Status</span></h2>
 
     <blockquote class="status-box">
-      <p><strong>Пилот-верзија 0.9 обухвата 51 публикација и служи провери модела. Не представља потпун именски, институционални, географски или изворни регистар целокупног опуса.</strong></p>
-      <p lang="en"><strong>Pilot version 0.9 covers 51 publications and is intended to test the model. It is not a complete index of the people, institutions, places or historical sources represented in the entire corpus.</strong></p>
+      <p><strong>Пилот-верзија 1.0 обухвата 57 публикација и служи провери модела. Не представља потпун именски, институционални, географски или изворни регистар целокупног опуса.</strong></p>
+      <p lang="en"><strong>Pilot version 1.0 covers 57 publications and is intended to test the model. It is not a complete index of the people, institutions, places or historical sources represented in the entire corpus.</strong></p>
     </blockquote>
 
     <p>Пилот служи за проверу модела података, речника односа, provenance правила и начина повезивања са постојећим публикационим корпусом. Нови записи додаваће се постепено, после провере интерних ID ознака, спољних идентификатора и изворне заснованости сваке везе.</p>
@@ -717,4 +747,3 @@
 
 </body>
 </html>
-
