@@ -31,8 +31,8 @@
       ],
       "url": "https://milos-timotijevic.github.io/data/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2026-09-23",
-      "version": "1.0",
+      "dateModified": "2026-11-01",
+      "version": "1.1",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -86,22 +86,22 @@
         {
           "@type": "PropertyValue",
           "name": "publications",
-          "value": 57
+          "value": 60
         },
         {
           "@type": "PropertyValue",
           "name": "people",
-          "value": 125
+          "value": 128
         },
         {
           "@type": "PropertyValue",
           "name": "institutions",
-          "value": 99
+          "value": 100
         },
         {
           "@type": "PropertyValue",
           "name": "places",
-          "value": 79
+          "value": 85
         },
         {
           "@type": "PropertyValue",
@@ -111,7 +111,7 @@
         {
           "@type": "PropertyValue",
           "name": "relations",
-          "value": 1182
+          "value": 1242
         },
         {
           "@type": "PropertyValue",
@@ -121,7 +121,7 @@
         {
           "@type": "PropertyValue",
           "name": "jsonLdNodes",
-          "value": 1613
+          "value": 1686
         }
       ],
       "hasPart": [
@@ -4960,6 +4960,225 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#R1182"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P126"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P127"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P128"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I101"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL083"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL084"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL085"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL086"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1183"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1184"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1185"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1186"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1187"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1188"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1189"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1190"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1191"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1192"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1193"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1194"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1195"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1196"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1197"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1198"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1199"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1200"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1201"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1202"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1203"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1204"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1205"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1206"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1207"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1208"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1209"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1210"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1211"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1212"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1213"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1214"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1215"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1216"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1217"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1218"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1219"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1220"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1221"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1222"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1223"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1224"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1225"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1226"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1227"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1228"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1229"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1230"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1231"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1232"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1233"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1234"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1235"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1236"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1237"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1238"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1239"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1240"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1241"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#R1242"
         }
       ]
     },
@@ -44186,6 +44405,1522 @@
         "@language": "sr"
       },
       "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P126",
+      "@type": "Person",
+      "identifier": "P126",
+      "name": [
+        {
+          "@value": "Милош Тимотијевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Miloš Timotijević",
+          "@language": "en"
+        }
+      ],
+      "authorOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P127",
+      "@type": "Person",
+      "identifier": "P127",
+      "name": [
+        {
+          "@value": "Саша Савовић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Saša Savović",
+          "@language": "en"
+        }
+      ],
+      "authorOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P128",
+      "@type": "Person",
+      "identifier": "P128",
+      "name": [
+        {
+          "@value": "Звонимир Звонко Вучковић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Zvonimir Zvonko Vučković",
+          "@language": "en"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        }
+      ],
+      "commanded": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I101"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I101",
+      "@type": "Organization",
+      "identifier": "I101",
+      "name": [
+        {
+          "@value": "Први равногорски корпус",
+          "@language": "sr"
+        },
+        {
+          "@value": "First Ravna Gora Corps",
+          "@language": "en"
+        }
+      ],
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL013"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL081",
+      "@type": "Place",
+      "identifier": "PL081",
+      "name": [
+        {
+          "@value": "Сувобор",
+          "@language": "sr"
+        },
+        {
+          "@value": "Suvobor",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL082",
+      "@type": "Place",
+      "identifier": "PL082",
+      "name": [
+        {
+          "@value": "Струганик",
+          "@language": "sr"
+        },
+        {
+          "@value": "Struganik",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL083",
+      "@type": "Place",
+      "identifier": "PL083",
+      "name": [
+        {
+          "@value": "Ба",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ba",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL084",
+      "@type": "Place",
+      "identifier": "PL084",
+      "name": [
+        {
+          "@value": "Брајићи",
+          "@language": "sr"
+        },
+        {
+          "@value": "Brajići",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL085",
+      "@type": "Place",
+      "identifier": "PL085",
+      "name": [
+        {
+          "@value": "Прањани",
+          "@language": "sr"
+        },
+        {
+          "@value": "Pranjani",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#PL086",
+      "@type": "Place",
+      "identifier": "PL086",
+      "name": [
+        {
+          "@value": "Коштунићи",
+          "@language": "sr"
+        },
+        {
+          "@value": "Koštunići",
+          "@language": "en"
+        }
+      ],
+      "addressCountry": "RS"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "@type": "Book",
+      "identifier": "book-2019-brave-partisans-evil-chetniks",
+      "internalId": "book-2019-brave-partisans-evil-chetniks",
+      "name": [
+        {
+          "@value": "„Храбри“ партизани и „зли“ четници: студије о Србији у Другом светском рату (1941–1945)",
+          "@language": "sr"
+        },
+        {
+          "@value": "“Brave” Partisans and “Evil” Chetniks: Studies on Serbia in the Second World War, 1941–1945",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2019",
+      "url": "https://milos-timotijevic.github.io/books/brave-partisans-evil-chetniks.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20476032",
+        "https://zenodo.org/records/20476032",
+        "https://www.wikidata.org/wiki/Q139385880"
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I062"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P128"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P109"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P063"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I082"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL001"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL048"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL081"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "@type": "Book",
+      "identifier": "book-2014-ravna-gora",
+      "internalId": "book-2014-ravna-gora",
+      "name": [
+        {
+          "@value": "Равна гора",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ravna gora",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2014",
+      "url": "https://milos-timotijevic.github.io/books/ravna-gora.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20506529",
+        "https://zenodo.org/records/20506529",
+        "https://www.wikidata.org/wiki/Q139175311"
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I025"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL048"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL082"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL083"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL084"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL085"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL086"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL013"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "@type": "Book",
+      "identifier": "book-2015-zvonko-vuckovic-ratna-biografija",
+      "internalId": "book-2015-zvonko-vuckovic-ratna-biografija",
+      "name": [
+        {
+          "@value": "Звонко Вучковић: ратна биографија 1941–1944: расправа о проблемима прошлости и садашњости",
+          "@language": "sr"
+        },
+        {
+          "@value": "Zvonko Vučković: A Wartime Biography 1941–1944: A Debate on the Problems of Past and Present",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2015",
+      "url": "https://milos-timotijevic.github.io/books/zvonko-vuckovic-ratna-biografija.html",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20474925",
+        "https://zenodo.org/records/20474925",
+        "https://www.wikidata.org/wiki/Q139378954"
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I025"
+        }
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P128"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P065"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P072"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P064"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P109"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P059"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I061"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I101"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I078"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I050"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I079"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I082"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL048"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL081"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL013"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL008"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL007"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL084"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL085"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1183",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1183",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P126",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#authorOf",
+      "object": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 1–4",
+      "evidenceNote": {
+        "@value": "Импресум и насловна страна наводе Милоша Тимотијевића као аутора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1184",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1184",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P126",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#authorOf",
+      "object": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 1–4",
+      "evidenceNote": {
+        "@value": "Импресум и насловна страна наводе Милоша Тимотијевића као аутора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1185",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1185",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P126",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#authorOf",
+      "object": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 1–4",
+      "evidenceNote": {
+        "@value": "Импресум и насловна страна наводе Милоша Тимотијевића као аутора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1186",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1186",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P127",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#authorOf",
+      "object": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 2–4",
+      "evidenceNote": {
+        "@value": "Насловна страна наводи Сашу Савовића као коаутора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1187",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1187",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I062",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 3",
+      "evidenceNote": {
+        "@value": "Импресум наводи Catena mundi као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1188",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1188",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 2 и 292",
+      "evidenceNote": {
+        "@value": "Импресум наводи ЈП Службени гласник као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1189",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1189",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 2–4 и 503",
+      "evidenceNote": {
+        "@value": "Импресум наводи ЈП Службени гласник као издавача.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1190",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1190",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P128",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 71–90",
+      "evidenceNote": {
+        "@value": "Личност је централни актер једне или више студија у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1191",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1191",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 27–42 и 173–201",
+      "evidenceNote": {
+        "@value": "Личност је централни актер једне или више студија у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1192",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1192",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 40 и 151–174",
+      "evidenceNote": {
+        "@value": "Личност је централни актер једне или више студија у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1193",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1193",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P109",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 92–126 и 173–201",
+      "evidenceNote": {
+        "@value": "Личност је централни актер једне или више студија у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1194",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1194",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P063",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 92–159",
+      "evidenceNote": {
+        "@value": "Личност је централни актер једне или више студија у монографији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1195",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1195",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 27–42 и 92–126 и 173–201",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада главном ратном, окупационом или меморијском оквиру књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1196",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1196",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 45–69 и 127–174",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада главном ратном, окупационом или меморијском оквиру књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1197",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1197",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 45–69 и 127–174",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада главном ратном, окупационом или меморијском оквиру књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1198",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1198",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 91–159",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада главном ратном, окупационом или меморијском оквиру књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1199",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1199",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 91–126 и 173–201",
+      "evidenceNote": {
+        "@value": "Установа или покрет припада главном ратном, окупационом или меморијском оквиру књиге.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1200",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1200",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 5–221",
+      "evidenceNote": {
+        "@value": "Место је средиште посебне студије или важан простор анализе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1201",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1201",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL048",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 9–44",
+      "evidenceNote": {
+        "@value": "Место је средиште посебне студије или важан простор анализе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1202",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1202",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 17–44",
+      "evidenceNote": {
+        "@value": "Место је средиште посебне студије или важан простор анализе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1203",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1203",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 45–69",
+      "evidenceNote": {
+        "@value": "Место је средиште посебне студије или важан простор анализе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1204",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1204",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 45–126",
+      "evidenceNote": {
+        "@value": "Место је средиште посебне студије или важан простор анализе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1205",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1205",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2019-brave-partisans-evil-chetniks",
+      "evidencePage": "PDF 9–44",
+      "evidenceNote": {
+        "@value": "Место је средиште посебне студије или важан простор анализе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1206",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1206",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL048",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 1–290",
+      "evidenceNote": {
+        "@value": "Место припада природној, насеобинској, историјској или меморијалној географији Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1207",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1207",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 35–273",
+      "evidenceNote": {
+        "@value": "Место припада природној, насеобинској, историјској или меморијалној географији Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1208",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1208",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 127–156",
+      "evidenceNote": {
+        "@value": "Место припада природној, насеобинској, историјској или меморијалној географији Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1209",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1209",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL083",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 127–156",
+      "evidenceNote": {
+        "@value": "Место припада природној, насеобинској, историјској или меморијалној географији Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1210",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1210",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL084",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 127–156 и 235–252",
+      "evidenceNote": {
+        "@value": "Место припада природној, насеобинској, историјској или меморијалној географији Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1211",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1211",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL085",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 127–156 и 235–252",
+      "evidenceNote": {
+        "@value": "Место припада природној, насеобинској, историјској или меморијалној географији Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1212",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1212",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL086",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 127–156 и 253–272",
+      "evidenceNote": {
+        "@value": "Место припада природној, насеобинској, историјској или меморијалној географији Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1213",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1213",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL008",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 127–273",
+      "evidenceNote": {
+        "@value": "Место припада природној, насеобинској, историјској или меморијалној географији Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1214",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1214",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 235–272",
+      "evidenceNote": {
+        "@value": "Место припада природној, насеобинској, историјској или меморијалној географији Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1215",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1215",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 235–252",
+      "evidenceNote": {
+        "@value": "Драгољуб Михаиловић је централни актер ратне историје Равне горе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1216",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1216",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 235–252",
+      "evidenceNote": {
+        "@value": "Војна организација или покрет припада историји Равне горе у Другом светском рату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1217",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1217",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 235–252",
+      "evidenceNote": {
+        "@value": "Војна организација или покрет припада историји Равне горе у Другом светском рату.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1218",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1218",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I025",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2014-ravna-gora",
+      "evidencePage": "PDF 292",
+      "evidenceNote": {
+        "@value": "Импресум наводи Београд као место издања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1219",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1219",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P128",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 1–501",
+      "evidenceNote": {
+        "@value": "Личност је главни биографски, војни или политички актер монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1220",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1220",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P065",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 67–444",
+      "evidenceNote": {
+        "@value": "Личност је главни биографски, војни или политички актер монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1221",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1221",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P072",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 55–60 и 262–379",
+      "evidenceNote": {
+        "@value": "Личност је главни биографски, војни или политички актер монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1222",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1222",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P064",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 114–165 и 325–435",
+      "evidenceNote": {
+        "@value": "Личност је главни биографски, војни или политички актер монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1223",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1223",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P109",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 203–394",
+      "evidenceNote": {
+        "@value": "Личност је главни биографски, војни или политички актер монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1224",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1224",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P059",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 104–149 и 197–325",
+      "evidenceNote": {
+        "@value": "Личност је главни биографски, војни или политички актер монографије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1225",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1225",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 65–444",
+      "evidenceNote": {
+        "@value": "Установа, војна формација или покрет припада ратној биографији и њеном политичком контексту.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1226",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1226",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I101",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 214–432",
+      "evidenceNote": {
+        "@value": "Установа, војна формација или покрет припада ратној биографији и њеном политичком контексту.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1227",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1227",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I078",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 104–149 и 239–432",
+      "evidenceNote": {
+        "@value": "Установа, војна формација или покрет припада ратној биографији и њеном политичком контексту.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1228",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1228",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I050",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 104–149 и 239–432",
+      "evidenceNote": {
+        "@value": "Установа, војна формација или покрет припада ратној биографији и њеном политичком контексту.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1229",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1229",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I079",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 343–444",
+      "evidenceNote": {
+        "@value": "Установа, војна формација или покрет припада ратној биографији и њеном политичком контексту.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1230",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1230",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 61–444",
+      "evidenceNote": {
+        "@value": "Установа, војна формација или покрет припада ратној биографији и њеном политичком контексту.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1231",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1231",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I082",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 197–413",
+      "evidenceNote": {
+        "@value": "Установа, војна формација или покрет припада ратној биографији и њеном политичком контексту.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1232",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1232",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL048",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 65–149 и 443–456",
+      "evidenceNote": {
+        "@value": "Место је важан простор биографије, устанка, грађанског рата или ваздушног моста.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1233",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1233",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL081",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 65–149",
+      "evidenceNote": {
+        "@value": "Место је важан простор биографије, устанка, грађанског рата или ваздушног моста.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1234",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1234",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 65–149 и 285–325",
+      "evidenceNote": {
+        "@value": "Место је важан простор биографије, устанка, грађанског рата или ваздушног моста.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1235",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1235",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 77–325",
+      "evidenceNote": {
+        "@value": "Место је важан простор биографије, устанка, грађанског рата или ваздушног моста.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1236",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1236",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL008",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 77–325",
+      "evidenceNote": {
+        "@value": "Место је важан простор биографије, устанка, грађанског рата или ваздушног моста.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1237",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1237",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 77–149 и 214–325",
+      "evidenceNote": {
+        "@value": "Место је важан простор биографије, устанка, грађанског рата или ваздушног моста.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1238",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1238",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL084",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 133–149 и 353–432",
+      "evidenceNote": {
+        "@value": "Место је важан простор биографије, устанка, грађанског рата или ваздушног моста.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1239",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1239",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL085",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 353–432",
+      "evidenceNote": {
+        "@value": "Место је важан простор биографије, устанка, грађанског рата или ваздушног моста.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1240",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1240",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P128",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#memberOf",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I061",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 65–444",
+      "evidenceNote": {
+        "@value": "Звонко Вучковић био је официр Југословенске војске у отаџбини.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1241",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1241",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P128",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#commanded",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I101",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 214–432",
+      "evidenceNote": {
+        "@value": "Вучковић је командовао Првим равногорским корпусом.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R1242",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R1242",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I101",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2015-zvonko-vuckovic-ratna-biografija",
+      "evidencePage": "PDF 214–325",
+      "evidenceNote": {
+        "@value": "Корпус је деловао у рудничко-таковском крају, са Таковом као једним од средишњих просторних упоришта.",
+        "@language": "sr"
+      },
+      "confidence": "medium"
     }
   ]
 }
