@@ -2,51 +2,51 @@
   "schemaVersion": "1.0",
   "name": "Entity Graph Data — Pilot Dataset",
   "alternateName": "Подаци ентитетског графа — пилотски скуп",
-  "version": "0.9",
-  "dateModified": "2026-09-22",
+  "version": "1.0",
+  "dateModified": "2026-09-23",
   "algorithm": "SHA-256",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datasetUrl": "https://milos-timotijevic.github.io/data/entities/",
   "scope": {
-    "publications": 51,
-    "people": 118,
-    "institutions": 91,
-    "places": 72,
-    "historicalSources": 43,
-    "relations": 1012,
+    "publications": 57,
+    "people": 125,
+    "institutions": 99,
+    "places": 79,
+    "historicalSources": 48,
+    "relations": 1182,
     "relationTypes": 22,
-    "jsonLdNodes": 1410
+    "jsonLdNodes": 1613
   },
   "files": [
     {
       "path": "people.csv",
-      "recordCount": 118,
-      "bytes": 62101,
-      "sha256": "3d460d5212a82cb45b78804fd6507ab25198cd260a70ff0e0a4aefaadd06f80a"
+      "recordCount": 125,
+      "bytes": 66275,
+      "sha256": "01f7f5b59b8a847bc117e8b7fb3526cd193a04e7d8100acc7b7eb2fd6cfa7980"
     },
     {
       "path": "institutions.csv",
-      "recordCount": 91,
-      "bytes": 52142,
-      "sha256": "531b992a22332a75cc34f0e7baec8af53ea76c79da6c96592401cd2317cb3122"
+      "recordCount": 99,
+      "bytes": 57335,
+      "sha256": "ec5b91aad1b59021fc0aef830fcec2ad7ceb3738619ef5a963ff21a9977a3c64"
     },
     {
       "path": "places.csv",
-      "recordCount": 72,
-      "bytes": 32855,
-      "sha256": "bcc1729c03c5d46089f3695b572587766ddb4e5e23b623ff79f7e76f70f78677"
+      "recordCount": 79,
+      "bytes": 36181,
+      "sha256": "465c4ab52d6eb8a90654f96187e154fb61e4ed63b9e44bb056a4300c3fd48e6a"
     },
     {
       "path": "sources.csv",
-      "recordCount": 43,
-      "bytes": 17424,
-      "sha256": "5fe8b8455bba80dab8c6bef7dbeb958cdd02ac9c6e8565c3ce4067963d3faae4"
+      "recordCount": 48,
+      "bytes": 19738,
+      "sha256": "aa73ba924d2629875c67050016012a2ce4c00857c0b2f32af69710a9b4b3f703"
     },
     {
       "path": "relations.csv",
-      "recordCount": 1012,
-      "bytes": 309230,
-      "sha256": "1df66c09d4a2440b711b6ab08634364758995baa0608430d322881c1043b581c"
+      "recordCount": 1182,
+      "bytes": 368271,
+      "sha256": "72edb1f3b0e70e1aff6f76e5816491ecd059fdc680ff18155c32b169ffe669e6"
     },
     {
       "path": "relation-types.csv",
@@ -56,9 +56,9 @@
     },
     {
       "path": "entity-graph.jsonld",
-      "recordCount": 1410,
-      "bytes": 1646213,
-      "sha256": "86fd16c138e7c752623f502832ee0cd761dd0d09d33630333d83f5d53eb7cf06"
+      "recordCount": 1613,
+      "bytes": 1868338,
+      "sha256": "8da3da7fab51705c3b0dff576650fad3838e763427e5bd4cb576fec5e6adc03a"
     }
   ]
 }
