@@ -1,0 +1,40 @@
+﻿record_id,pdf_page,printed_page,award_heading,boundary_type,needs_manual_visual_confirmation,heading_visible_on_same_or_previous_page,review_status
+UIO-A0001,227,223,Орден Милоша Великог I реда,new_heading,yes,yes,heading_text_found
+UIO-A0002,227,223,Орден Милоша Великог II реда,new_heading,yes,yes,heading_text_found
+UIO-A0006,227,223,Орден Милоша Великог III реда,new_heading,yes,yes,heading_text_found
+UIO-A0011,227,223,Орден Милоша Великог IV реда,new_heading,yes,yes,heading_text_found
+UIO-A0015,227,223,Орден двоглавог белог орла I реда,new_heading,yes,yes,heading_text_found
+UIO-A0016,228,224,Орден двоглавог белог орла I реда,page_change,yes,yes,heading_text_found
+UIO-A0017,228,224,Орден двоглавог белог орла II реда,new_heading,yes,yes,heading_text_found
+UIO-A0018,228,224,Орден двоглавог белог орла III реда,new_heading,yes,yes,heading_text_found
+UIO-A0026,228,224,Орден двоглавог белог орла IV реда,new_heading,yes,yes,heading_text_found
+UIO-A0044,229,225,Орден двоглавог белог орла IV реда,page_change,yes,yes,heading_text_found
+UIO-A0068,229,225,Орден двоглавог белог орла V реда,new_heading,yes,yes,heading_text_found
+UIO-A0080,230,226,Орден двоглавог белог орла V реда,page_change,yes,yes,heading_text_found
+UIO-A0102,230,226,Орден таковског крста I реда,new_heading,yes,yes,heading_text_found
+UIO-A0110,230,226,Орден таковског крста II реда,new_heading,yes,yes,heading_text_found
+UIO-A0112,231,227,Орден таковског крста II реда,page_change,yes,yes,heading_text_found
+UIO-A0122,231,227,Орден таковског крста III реда,new_heading,yes,yes,heading_text_found
+UIO-A0148,232,228,Орден таковског крста III реда,page_change,yes,yes,heading_text_found
+UIO-A0154,232,228,Орден таковског крста IV реда,new_heading,yes,yes,heading_text_found
+UIO-A0181,233,229,Орден таковског крста IV реда,page_change,yes,yes,heading_text_found
+UIO-A0217,234,230,Орден таковског крста IV реда,page_change,yes,no,layout_continuation_review
+UIO-A0246,234,230,Орден таковског крста V реда,new_heading,yes,yes,heading_text_found
+UIO-A0248,235,231,Орден таковског крста V реда,page_change,yes,yes,heading_text_found
+UIO-A0286,236,232,Орден таковског крста V реда,page_change,yes,no,layout_continuation_review
+UIO-A0324,237,233,Орден таковског крста V реда,page_change,yes,no,layout_continuation_review
+UIO-A0362,238,234,Орден таковског крста V реда,page_change,yes,no,layout_continuation_review
+UIO-A0399,239,235,Орден таковског крста V реда,page_change,yes,no,layout_continuation_review
+UIO-A0421,239,235,Орден Светог Саве I реда,new_heading,yes,yes,heading_text_found
+UIO-A0422,239,235,Орден Светог Саве II реда,new_heading,yes,yes,heading_text_found
+UIO-A0424,239,235,Орден Светог Саве III реда,new_heading,yes,yes,heading_text_found
+UIO-A0430,240,236,Орден Светог Саве III реда,page_change,yes,yes,heading_text_found
+UIO-A0438,240,236,Орден Светог Саве IV реда,new_heading,yes,yes,heading_text_found
+UIO-A0463,241,237,Орден Светог Саве V реда,new_heading,yes,yes,heading_text_found
+UIO-A0498,242,238,Орден Светог Саве V реда,page_change,yes,yes,heading_text_found
+UIO-A0536,243,239,Орден Светог Саве V реда,page_change,yes,no,layout_continuation_review
+UIO-A0571,243,239,Медаља за војничке врлине,new_heading,yes,yes,heading_text_found
+UIO-A0573,244,240,Медаља за војничке врлине,page_change,yes,yes,heading_text_found
+UIO-A0612,245,241,Медаља за војничке врлине,page_change,yes,no,layout_continuation_review
+UIO-A0652,246,242,Медаља за војничке врлине,page_change,yes,no,layout_continuation_review
+UIO-A0691,247,243,Медаља за војничке врлине,page_change,yes,yes,heading_text_found
