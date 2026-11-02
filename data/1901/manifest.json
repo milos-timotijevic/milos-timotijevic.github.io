@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "release_date": "2026-11-02",
+  "source_publication_id": "book-2025-usklici-iskrenog-odusevljenja",
+  "source_work_doi": "10.65627/nmuc_uio.2025",
+  "record_counts": {
+    "awards": 704,
+    "senators": 47,
+    "deputies": 129
+  },
+  "total_source_attestations": 880,
+  "interpretation": "Source statements, not 880 distinct identified persons; no canonical people.csv/relations.csv mutations",
+  "verification": "Internal row IDs, source pages, source reference, headline categories and district fields checked. Names have not undergone universal independent identity verification.",
+  "files_sha256": {
+    "data/1901/awards-source-attested.csv": "ce0c915098236b1ba6c4baf9633262657d9621225b875aec12d7f8ccc4494266",
+    "data/1901/senators-source-attested.csv": "eb7d562ec1e8ef76887148942cfa15808e2cbe28d587d37bdff97e84a39c3ce3",
+    "data/1901/deputies-source-attested.csv": "9bf7746e28620ee3fb065c6eceece859be9ea0606d4ce4c36d3804657928c1b9",
+    "data/1901/heading-boundary-audit.csv": "822a456fddaebc1a0451614bac30015260f2f1450625e9f67864615bebcafe15",
+    "data/1901/source-assertions.jsonld": "0b6f6d0887a8afee0d1e3c3e215e44ec847c8905767716db2d2ec627c726f41a"
+  }
+}
