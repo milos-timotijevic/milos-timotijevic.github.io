@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Подаци / Data — Дигитални научни корпус Милоша Тимотијевића</title>
-<meta name="description" content="Отворени библиографски подаци и ентитетски граф верзије 1.1: 60 публикација, 128 личности, 100 установа, 85 места, 48 извора, 1.242 односа и 1.686 JSON-LD чворова.">
+<meta name="description" content="Отворени библиографски подаци и ентитетски граф верзије 1.2: 61 публикација, 507 личности, 100 установа, 85 места, 48 извора, 62 летелице, 2.045 односа и 2.931 JSON-LD чворова.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://milos-timotijevic.github.io/data/">
 <link rel="describedby" href="https://milos-timotijevic.github.io/data/manifest.json" type="application/json" title="Bibliographic integrity manifest">
@@ -24,21 +24,21 @@
   "dateModified": "2026-11-02",
   "about": {
     "@type": "Dataset",
-    "name": "Entity Graph Data — Pilot Dataset",
-    "version": "1.1",
-    "dateModified": "2026-11-01",
+    "name": "Entity Graph Data — Research Corpus",
+    "version": "1.2",
+    "dateModified": "2026-11-02",
     "url": "https://milos-timotijevic.github.io/data/entities/",
     "measurementTechnique": "Evidence-based entity and relation extraction",
     "additionalProperty": [
       {
         "@type": "PropertyValue",
         "name": "Publications",
-        "value": "60"
+        "value": "61"
       },
       {
         "@type": "PropertyValue",
         "name": "People",
-        "value": "128"
+        "value": "507"
       },
       {
         "@type": "PropertyValue",
@@ -57,18 +57,23 @@
       },
       {
         "@type": "PropertyValue",
+        "name": "Aircraft",
+        "value": "62"
+      },
+      {
+        "@type": "PropertyValue",
         "name": "Relation types",
-        "value": "22"
+        "value": "24"
       },
       {
         "@type": "PropertyValue",
         "name": "Relations",
-        "value": "1.242"
+        "value": "2045"
       },
       {
         "@type": "PropertyValue",
         "name": "JSON-LD nodes",
-        "value": "1.686"
+        "value": "2931"
       }
     ],
     "distribution": [
@@ -98,6 +103,12 @@
       },
       {
         "@type": "DataDownload",
+        "name": "entities/aircraft.csv",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/aircraft.csv",
+        "encodingFormat": "text/csv"
+      },
+      {
+        "@type": "DataDownload",
         "name": "entities/relations.csv",
         "contentUrl": "https://milos-timotijevic.github.io/data/entities/relations.csv",
         "encodingFormat": "text/csv"
@@ -120,7 +131,8 @@
         "contentUrl": "https://milos-timotijevic.github.io/data/entities/entity-manifest.json",
         "encodingFormat": "application/json"
       }
-    ]
+    ],
+    "description": "The entity dataset includes source-derived airman and aircraft records for Operation Halyard. Evidence confidence distinguishes source extraction from independent archival verification."
   },
   "isPartOf": {
     "@type": "WebSite",
@@ -128,29 +140,25 @@
     "url": "https://milos-timotijevic.github.io/"
   }
 }</script>
-<style>
-:root{--ink:#182029;--muted:#52606c;--border:#d6dade;--accent:#174880;--soft:#f6f7f8}
-*{box-sizing:border-box}body{font:17px/1.6 Georgia,'Times New Roman',serif;max-width:980px;margin:0 auto;padding:28px 24px 70px;color:var(--ink);background:#fff}
-a{color:var(--accent)}a:hover{text-decoration-thickness:2px}h1,h2,h3{line-height:1.25}h1{font-size:2.15rem;margin:.35rem 0}h2{font-size:1.46rem;margin:2rem 0 .65rem;padding-bottom:.35rem;border-bottom:1px solid var(--border)}h3{font-size:1.03rem;margin:0 0 .45rem}
-p{margin:.6rem 0}.sub{color:var(--muted);margin:0 0 1.5rem}.nav{display:flex;gap:.5rem 1.2rem;flex-wrap:wrap;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:.7rem 0}.nav a{text-decoration:none}.panel{border-left:3px solid #999;background:var(--soft);padding:14px 18px;margin:1.2rem 0}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:1.3rem 0}.stat{border:1px solid var(--border);padding:14px;background:#fafafa}.stat strong{display:block;font:700 1.55rem/1.2 system-ui,sans-serif}.stat span{display:block;font-size:.94rem}small{display:block;color:var(--muted);font-size:.83rem}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}.card{border:1px solid var(--border);background:#fafafa;padding:16px;overflow-wrap:anywhere}.card p{font-size:.95rem}code{font-size:.88em}.foot{margin-top:2rem;font-size:.9rem;color:var(--muted)}.skip{position:absolute;left:-10000px}.skip:focus{left:16px;top:16px;background:#fff;padding:10px}@media(max-width:650px){body{font-size:16px;padding:20px 17px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.grid{grid-template-columns:1fr}}
-</style>
+<style>:root{--ink:#182029;--muted:#52606c;--border:#d6dade;--accent:#174880;--soft:#f6f7f8}*{box-sizing:border-box}body{font:17px/1.6 Georgia,'Times New Roman',serif;max-width:980px;margin:0 auto;padding:28px 24px 70px;color:var(--ink);background:#fff}a{color:var(--accent)}a:hover{text-decoration-thickness:2px}h1,h2,h3{line-height:1.25}h1{font-size:2.15rem;margin:.35rem 0}h2{font-size:1.46rem;margin:2rem 0 .65rem;padding-bottom:.35rem;border-bottom:1px solid var(--border)}h3{font-size:1.03rem;margin:0 0 .45rem}p{margin:.6rem 0}.sub{color:var(--muted);margin:0 0 1.5rem}.nav{display:flex;gap:.5rem 1.2rem;flex-wrap:wrap;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:.7rem 0}.nav a{text-decoration:none}.panel{border-left:3px solid #999;background:var(--soft);padding:14px 18px;margin:1.2rem 0}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:1.3rem 0}.stat{border:1px solid var(--border);padding:14px;background:#fafafa}.stat strong{display:block;font:700 1.55rem/1.2 system-ui,sans-serif}.stat span{display:block;font-size:.94rem}small{display:block;color:var(--muted);font-size:.83rem}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}.card{border:1px solid var(--border);background:#fafafa;padding:16px;overflow-wrap:anywhere}.card p{font-size:.95rem}code{font-size:.88em}.foot{margin-top:2rem;font-size:.9rem;color:var(--muted)}.skip{position:absolute;left:-10000px}.skip:focus{left:16px;top:16px;background:#fff;padding:10px}@media(max-width:650px){body{font-size:16px;padding:20px 17px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.grid{grid-template-columns:1fr}}</style>
 </head>
 <body>
 <a class="skip" href="#main">Пређи на садржај / Skip to content</a>
 <header><p><a href="../">← Главна страна / Home</a> · <a href="../knowledge-graph/">Граф знања / Knowledge Graph</a> · <a href="data-dictionary.html">Речник података / Data Dictionary</a></p><h1>Подаци / Data</h1><p class="sub">Отворени подаци дигиталног научног корпуса / Open data of the digital scholarly corpus</p></header>
 <nav class="nav" aria-label="Навигација странице"><a href="#overview">Преглед / Overview</a><a href="#downloads">Преузимање / Downloads</a><a href="#verification">Проверљивост / Verification</a><a href="#license">Лиценца / License</a></nav>
-<main id="main"><section id="overview"><h2>Ентитетско-релациони слој — верзија 1.1<br><small lang="en">Entity-relation layer — version 1.1</small></h2>
-<p>Структурисани скуп повезује публикације са личностима, установама, местима и историјским изворима. Односи се бележе са подацима о публикационом контексту, страници доказа, напомени и степену поузданости.</p>
-<p lang="en">The structured dataset links publications with people, institutions, places and historical sources. Relations include publication context, evidence page, evidence note and confidence.</p>
-<div class="stats" aria-label="Статистика верзије 1.1"><div class="stat"><strong>60</strong><span>Публикација<small lang="en">Publications</small></span></div>
-<div class="stat"><strong>128</strong><span>Личности<small lang="en">People</small></span></div>
+<main id="main"><section id="overview"><h2>Ентитетско-релациони слој — верзија 1.2 <small lang="en">Entity-relation layer — version 1.2</small></h2>
+<p>Структурисани скуп повезује публикације са личностима, установама, местима, историјским изворима и летелицама. Односи се бележе са подацима о публикационом контексту, страници доказа, напомени и степену поузданости.</p>
+<p lang="en">The structured dataset links publications with people, institutions, places, historical sources and aircraft. Relations include publication context, evidence page, evidence note and confidence.</p>
+<div class="stats" aria-label="Статистика верзије 1.2"><div class="stat"><strong>61</strong><span>Публикација<small lang="en">Publications</small></span></div>
+<div class="stat"><strong>507</strong><span>Личности<small lang="en">People</small></span></div>
 <div class="stat"><strong>100</strong><span>Установа<small lang="en">Institutions</small></span></div>
 <div class="stat"><strong>85</strong><span>Места<small lang="en">Places</small></span></div>
 <div class="stat"><strong>48</strong><span>Историјских извора<small lang="en">Historical sources</small></span></div>
-<div class="stat"><strong>22</strong><span>Типа односа<small lang="en">Relation types</small></span></div>
-<div class="stat"><strong>1.242</strong><span>Односа<small lang="en">Relations</small></span></div>
-<div class="stat"><strong>1.686</strong><span>JSON-LD чворова<small lang="en">JSON-LD nodes</small></span></div></div>
-<div class="panel"><p>Подаци се односе на <strong>ентитетски слој 1.1</strong> (манифест од 1. новембра 2026), а не на укупан број публикација на целом сајту.</p><p lang="en">These counts describe <strong>entity-layer version 1.1</strong> (manifest dated 1 November 2026), not the total number of publications on the entire website.</p><p><a href="entities/">Документација ентитета / Entity documentation</a> · <a href="../knowledge-graph/entities/">Ентитети у графу знања / Entities in the knowledge graph</a></p></div>
+<div class="stat"><strong>62</strong><span>Летелице<small lang="en">Aircraft</small></span></div>
+<div class="stat"><strong>24</strong><span>Типа односа<small lang="en">Relation types</small></span></div>
+<div class="stat"><strong>2.045</strong><span>Односа<small lang="en">Relations</small></span></div>
+<div class="stat"><strong>2.931</strong><span>JSON-LD чворова<small lang="en">JSON-LD nodes</small></span></div></div>
+<div class="panel"><p>Подаци се односе на <strong>ентитетски слој 1.2</strong> (2. новембар 2026), а не на укупан број публикација на целом сајту. У монографији „Мисија Халијард” пописане су 62 летелице, док аутор наводи збир од 63; једна од пописаних летелица нема утврђен серијски број. Ова неслагања су документована и не треба их тумачити као накнадно идентификоване авионе.</p><p lang="en">These counts describe <strong>entity-layer version 1.2</strong> (2 November 2026), not all publications on the website. The Operation Halyard appendix contains 62 listed aircraft records, while its author states a total of 63; one listed aircraft lacks a confirmed serial number. These source limitations are documented rather than resolved by conjecture.</p><p><a href="entities/">Документација ентитета / Entity documentation</a> · <a href="../knowledge-graph/entities/">Ентитети у графу знања / Entities in the knowledge graph</a></p></div>
 <h2>О подацима / About the data</h2><p>Главни библиографски регистар повезује библиографске записе са приступним странама, DOI идентификаторима, репозиторијумима, Wikidata и COBISS записима и истраживачким кластерима. Подаци не замењују изворне публикације нити нормативне каталоге.</p><p lang="en">The bibliographic registry connects records with landing pages, DOI identifiers, repositories, Wikidata and COBISS records, and research clusters. These datasets do not replace original publications or authority catalogues.</p></section>
 <section id="downloads"><h2>Доступни фајлови / Available data files</h2><p>Датотеке за преузимање и проверу. / <span lang="en">Machine-readable datasets for download and verification.</span></p><div class="grid"><article class="card"><h3><code>publications.csv</code></h3><p>Библиографски регистар / Bibliographic registry</p><a href="publications.csv" type="text/csv">Преузми / Download</a></article>
 <article class="card"><h3><code>publications.json</code></h3><p>Библиографски записи / Bibliographic records</p><a href="publications.json" type="application/json">Преузми / Download</a></article>
@@ -163,11 +171,12 @@ p{margin:.6rem 0}.sub{color:var(--muted);margin:0 0 1.5rem}.nav{display:flex;gap
 <article class="card"><h3><code>entities/institutions.csv</code></h3><p>Установе / Institutions</p><a href="entities/institutions.csv" type="text/csv">Преузми / Download</a></article>
 <article class="card"><h3><code>entities/places.csv</code></h3><p>Места / Places</p><a href="entities/places.csv" type="text/csv">Преузми / Download</a></article>
 <article class="card"><h3><code>entities/sources.csv</code></h3><p>Историјски извори / Historical sources</p><a href="entities/sources.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>entities/aircraft.csv</code></h3><p>Летелице / Aircraft</p><a href="entities/aircraft.csv" type="text/csv">Преузми / Download</a></article>
 <article class="card"><h3><code>entities/relations.csv</code></h3><p>Односи и доказни ослонац / Relations and evidence</p><a href="entities/relations.csv" type="text/csv">Преузми / Download</a></article>
 <article class="card"><h3><code>entities/relation-types.csv</code></h3><p>Контролисани типови односа / Relation types</p><a href="entities/relation-types.csv" type="text/csv">Преузми / Download</a></article>
 <article class="card"><h3><code>entities/entity-graph.jsonld</code></h3><p>Ентитетски JSON-LD граф / Entity JSON-LD graph</p><a href="entities/entity-graph.jsonld" type="application/ld+json">Преузми / Download</a></article>
 <article class="card"><h3><code>entities/entity-manifest.json</code></h3><p>Ентитетски контролни манифест / Entity manifest</p><a href="entities/entity-manifest.json" type="application/json">Преузми / Download</a></article></div><p><a href="data-dictionary.html">Речник података / Data Dictionary</a></p></section>
-<section id="verification"><h2>Порекло и провера / Provenance and verification</h2><p>Ентитетски подаци су организовани у CSV и JSON-LD датотекама. Табела односа садржи поља <code>source_id</code>, <code>evidence_page</code>, <code>evidence_note</code> и <code>confidence</code>. Проверa интегритета је документована у одговарајућим манифестима са SHA-256 отисцима.</p><p lang="en">The entity layer is available in CSV and JSON-LD. Relations include source ID, evidence page, evidence note and confidence. Integrity manifests provide SHA-256 checksums.</p><p><a href="entities/entity-manifest.json">Манифест ентитета 1.1 / Entity manifest</a> · <a href="manifest.json">Библиографски манифест / Bibliographic manifest</a></p></section>
-<section id="license"><h2>Лиценца и цитирање / License and citation</h2><p>Метаподаци су доступни под лиценцом <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> уз навођење извора. Права на пуне текстове, фотографије и илустрације нису обухваћена том лиценцом.</p><p lang="en">Metadata are licensed under CC BY 4.0 with attribution. Full texts, photographs and illustrations are excluded and retain their applicable rights.</p><p>Препоручени извор: Милош Тимотијевић, „Подаци / Data”, ентитетски граф, верзија 1.1, <a href="https://milos-timotijevic.github.io/data/">https://milos-timotijevic.github.io/data/</a>.</p></section></main>
-<footer class="foot"><p>Последње ажурирање странице: 2. новембар 2026. · Entity dataset: v1.1 (1 November 2026).</p></footer>
+<section id="verification"><h2>Порекло и провера / Provenance and verification</h2><p>Ентитетски подаци су организовани у CSV и JSON-LD датотекама. Табела односа садржи поља <code>source_id</code>, <code>evidence_page</code>, <code>evidence_note</code> и <code>confidence</code>. Провера интегритета је документована у одговарајућим манифестима са SHA-256 отисцима. Подударање између два прилога исте монографије није независна архивска потврда.</p><p lang="en">The entity layer is available in CSV and JSON-LD. Relations include source ID, evidence page, evidence note and confidence. Integrity manifests provide SHA-256 checksums. Agreement between two appendices of the same publication does not constitute independent archival verification.</p><p><a href="entities/entity-manifest.json">Манифест ентитета 1.2 / Entity manifest</a> · <a href="manifest.json">Библиографски манифест / Bibliographic manifest</a></p></section>
+<section id="license"><h2>Лиценца и цитирање / License and citation</h2><p>Метаподаци су доступни под лиценцом <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> уз навођење извора. Права на пуне текстове, фотографије и илустрације нису обухваћена том лиценцом.</p><p lang="en">Metadata are licensed under CC BY 4.0 with attribution. Full texts, photographs and illustrations are excluded and retain their applicable rights.</p><p>Препоручени извор: Милош Тимотијевић, „Подаци / Data”, ентитетски граф, верзија 1.2, <a href="https://milos-timotijevic.github.io/data/">https://milos-timotijevic.github.io/data/</a>.</p></section></main>
+<footer class="foot"><p>Последње ажурирање странице: 2. новембар 2026. · Entity dataset: v1.2 (2 November 2026).</p></footer>
 </body></html>
