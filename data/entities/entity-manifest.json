@@ -1,28 +1,29 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "name": "Entity Graph Data — Pilot Dataset",
   "alternateName": "Подаци ентитетског графа — пилотски скуп",
-  "version": "1.1",
-  "dateModified": "2026-11-01",
+  "version": "1.2",
+  "dateModified": "2026-11-02",
   "algorithm": "SHA-256",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datasetUrl": "https://milos-timotijevic.github.io/data/entities/",
   "scope": {
-    "publications": 60,
-    "people": 128,
+    "publications": 61,
+    "people": 507,
     "institutions": 100,
     "places": 85,
     "historicalSources": 48,
-    "relations": 1242,
-    "relationTypes": 22,
-    "jsonLdNodes": 1686
+    "aircraft": 62,
+    "relations": 2045,
+    "relationTypes": 24,
+    "jsonLdNodes": 2931
   },
   "files": [
     {
       "path": "people.csv",
-      "recordCount": 128,
-      "bytes": 67839,
-      "sha256": "b48f9a37d750a7d633ca91bdb51ec5f916ac4401440792fae7a13bda05b25163"
+      "recordCount": 507,
+      "bytes": 307995,
+      "sha256": "c84e2c3fdef8222d6125e464f0c3f43fbeb376dcd00a2f360e89f923c9509706"
     },
     {
       "path": "institutions.csv",
@@ -43,22 +44,28 @@
       "sha256": "aa73ba924d2629875c67050016012a2ce4c00857c0b2f32af69710a9b4b3f703"
     },
     {
+      "path": "aircraft.csv",
+      "recordCount": 62,
+      "bytes": 31382,
+      "sha256": "d891ba07bbc6c5fa7d4343d48bbabd1dd58016565a542c57b967ecbee36d8855"
+    },
+    {
       "path": "relations.csv",
-      "recordCount": 1242,
-      "bytes": 383867,
-      "sha256": "9344643640f13f42f52dd066bc09340fe6ce321cf82f3c0654d0e5da08dbc7ce"
+      "recordCount": 2045,
+      "bytes": 661638,
+      "sha256": "370d58545d48161ab6b0e383e7e3454355db3f8c08639a06e8ae61b7175e448b"
     },
     {
       "path": "relation-types.csv",
-      "recordCount": 22,
-      "bytes": 11404,
-      "sha256": "eb33d0e9029686c73bef474b209800f503c40eb673cd8879885fe46b66f89330"
+      "recordCount": 24,
+      "bytes": 12309,
+      "sha256": "1c534845807e141e7574c8fe1b4965d1985064e5ed1600540d0fa9605a421402"
     },
     {
       "path": "entity-graph.jsonld",
-      "recordCount": 1686,
-      "bytes": 1941959,
-      "sha256": "c17b4846089024f27345824425965ee1484d3e8321f2bd85fc61110c4bc95c6e"
+      "recordCount": 2931,
+      "bytes": 3078447,
+      "sha256": "bd4278ee10ae0e0cdd92c63375b180ac8153804e54e5b08f3360545c709e6d56"
     }
   ]
 }

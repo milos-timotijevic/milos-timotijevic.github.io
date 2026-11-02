@@ -19,7 +19,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Entity Graph Data — Pilot Dataset">
-  <meta name="twitter:description" content="Open entity and relation data derived from 60 publications in the digital scholarly corpus of Miloš Timotijević.">
+  <meta name="twitter:description" content="Open entity and relation data derived from 61 publications in the digital scholarly corpus of Miloš Timotijević.">
 
   <style>
     :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f1f1f1; }
@@ -73,8 +73,8 @@
     "alternateName": "Entity Graph Data — Pilot Dataset",
     "url": "https://milos-timotijevic.github.io/data/entities/",
     "inLanguage": ["sr", "en"],
-    "dateModified": "2026-09-22",
-    "description": "Пилотски Data слој који повезује 60 публикација са личностима, установама, местима и историјским изворима посредством изворно проверљивих односа.",
+    "dateModified": "2026-11-02",
+    "description": "Пилотски Data слој који повезује 61 публикација са личностима, установама, местима и историјским изворима посредством изворно проверљивих односа.",
     "isPartOf": {
       "@type": "Dataset",
       "@id": "https://milos-timotijevic.github.io/data/#dataset",
@@ -98,8 +98,8 @@
       "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
       "version": "1.1",
       "datePublished": "2026-09-20",
-      "dateModified": "2026-09-22",
-      "description": "Pilot dataset comprising 60 publications, 128 people, 100 institutions, 85 places, 48 historical sources, 22 relation types and 1242 source-based relations.",
+      "dateModified": "2026-11-02",
+      "description": "Pilot dataset comprising 61 publications, 507 people, 100 institutions, 85 places, 48 historical sources, 24 relation types and 2045 source-based relations.",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -218,13 +218,13 @@
   <section id="scope" aria-labelledby="scope-heading">
     <h2 id="scope-heading">Обухват пилота / <span lang="en">Pilot Scope</span></h2>
     <div class="stat-grid">
-      <article class="stat-card"><span class="stat-number">60</span><h3>Публикација / Publications</h3></article>
-      <article class="stat-card"><span class="stat-number">128</span><h3>Личности / People</h3></article>
+      <article class="stat-card"><span class="stat-number">61</span><h3>Публикација / Publications</h3></article>
+      <article class="stat-card"><span class="stat-number">507</span><h3>Личности / People</h3></article>
       <article class="stat-card"><span class="stat-number">100</span><h3>Установе / Institutions</h3></article>
       <article class="stat-card"><span class="stat-number">85</span><h3>Места / Places</h3></article>
       <article class="stat-card"><span class="stat-number">48</span><h3>Историјских извора / Historical Sources</h3></article>
-      <article class="stat-card"><span class="stat-number">1242</span><h3>Односа / Relations</h3></article>
-      <article class="stat-card"><span class="stat-number">22</span><h3>Типа односа / Relation Types</h3></article>
+      <article class="stat-card"><span class="stat-number">2045</span><h3>Односа / Relations</h3></article>
+      <article class="stat-card"><span class="stat-number">24</span><h3>Типа односа / Relation Types</h3></article>
     </div>
 
     <div class="note">
@@ -240,13 +240,13 @@
     <p lang="en">The files below form a single connected dataset. Entity tables receive stable internal IDs, while <code>relations.csv</code> connects the entities and records the source of every statement.</p>
 
     <div class="data-grid">
-      <article class="data-card"><h3><a href="people.csv"><code>people.csv</code></a></h3><p>128 личност, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">128 people, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
+      <article class="data-card"><h3><a href="people.csv"><code>people.csv</code></a></h3><p>507 личност, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">507 people, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
       <article class="data-card"><h3><a href="institutions.csv"><code>institutions.csv</code></a></h3><p>100 музеја, архива, цркава, манастира, научних, школских, привредних и државних установа.</p><p lang="en">100 museums, archives, churches, monasteries, scholarly, educational, industrial and state institutions.</p></article>
       <article class="data-card"><h3><a href="places.csv"><code>places.csv</code></a></h3><p>85 града, вароши, села, природне целине, сакрална комплекса и меморијална простора.</p><p lang="en">85 cities, towns, villages, natural areas, sacred complexes and memorial sites.</p></article>
       <article class="data-card"><h3><a href="sources.csv"><code>sources.csv</code></a></h3><p>48 историјска извора моделованих као засебни ентитети.</p><p lang="en">48 historical sources modelled as entities in their own right.</p></article>
-      <article class="data-card"><h3><a href="relations.csv"><code>relations.csv</code></a></h3><p>1242 односа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">1242 relations: subject, relation type, object, source, source locator, note and confidence level.</p></article>
-      <article class="data-card"><h3><a href="relation-types.csv"><code>relation-types.csv</code></a></h3><p>Контролисани речник од 22 дозвољена односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of 22 allowed relations and subject/object types.</p></article>
-      <article class="data-card"><h3><a href="entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви JSON-LD извоз са 1686 чворова и свих 1242 директно уписаних веза.</p><p lang="en">Machine-readable JSON-LD export containing 1686 nodes and all 1242 directly asserted relations.</p></article>
+      <article class="data-card"><h3><a href="relations.csv"><code>relations.csv</code></a></h3><p>2045 односа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">2045 relations: subject, relation type, object, source, source locator, note and confidence level.</p></article>
+      <article class="data-card"><h3><a href="relation-types.csv"><code>relation-types.csv</code></a></h3><p>Контролисани речник од 24 дозвољена односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of 24 allowed relations and subject/object types.</p></article>
+      <article class="data-card"><h3><a href="entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви JSON-LD извоз са 2931 чворова и свих 2045 директно уписаних веза.</p><p lang="en">Machine-readable JSON-LD export containing 2931 nodes and all 2045 directly asserted relations.</p></article>
       <article class="data-card"><h3><a href="entity-manifest.json"><code>entity-manifest.json</code></a></h3><p>Број записа, величина и SHA-256 контролни отисак сваког извоза.</p><p lang="en">Record count, file size and SHA-256 checksum for every export.</p></article>
     </div>
 
@@ -390,6 +390,9 @@
     <a href="../">← Назад на Подаци / Back to Data</a><br>
     <a href="../../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a>
   </p>
+
+
+<section id="halyard-candidate-update" aria-label="Статус података / Dataset status"><h2>Статус / Status: кандидатска верзија 1.2</h2><p>Допуњени ваздухопловни подаци (379 авијатичара, 62 летелице) засновани су на прилозима монографије „Мисија Халијард“. Идентификације и спорна места захтевају даљу независну архивску проверу. Напомена: ауторски збир од 63 летелице не подудара се са 62 издвојена табеларна реда.</p><p lang="en">Candidate v1.2: aviation records are sourced to the book’s appendices and are not all independently matched to archival aircrew files. The book's stated total of 63 aircraft differs from the 62 transcribed table rows.</p><p><a href="/data/entities/aircraft.csv">Летелице / Aircraft CSV</a> · <a href="/data/entities/entity-manifest.json">Manifest</a></p></section>
 </main>
 </body>
 </html>
