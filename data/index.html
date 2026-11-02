@@ -1,682 +1,173 @@
 <!doctype html>
 <html lang="sr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Подаци / Data — Дигитални научни корпус Милоша Тимотијевића</title>
-  <meta name="robots" content="index, follow">
-  <meta name="description" content="Страница са отвореним табеларним и структурисаним подацима о публикацијама, идентификаторима, истраживачким кластерима, личностима, установама, местима, историјским изворима и проверљивим односима у оквиру дигиталног научног корпуса Милоша Тимотијевића.">
-  <link rel="canonical" href="https://milos-timotijevic.github.io/data/">
-  <link rel="describedby" type="application/json" href="https://milos-timotijevic.github.io/data/manifest.json" title="Data integrity manifest">
-  <link rel="describedby" type="application/json" href="https://milos-timotijevic.github.io/data/entities/entity-manifest.json" title="Entity data integrity manifest">
-  <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/publications.jsonld" title="Machine-readable bibliography graph">
-  <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" title="Machine-readable knowledge graph">
-  <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld" title="Machine-readable entity and relation graph">
-
-  <style>
-    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #222; background: #fff; }
-    h1, h2, h3, h4 { line-height: 1.25; color: #111; }
-    h1 { font-size: 2.05em; margin-bottom: 0.2em; }
-    h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.25em; }
-    h3 { margin-top: 1.35em; font-size: 1.13em; }
-    a { color: #0645ad; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    p { margin: 0.75em 0; }
-    ul li, ol li { margin-bottom: 0.65em; }
-    code { font-family: Consolas, "Courier New", monospace; font-size: 0.95em; background: #f5f5f5; padding: 0.1em 0.25em; }
-    .subtitle { font-size: 1.08em; margin-bottom: 1.5em; color: #444; }
-    .intro, .note, .identifier-box, .visibility-box, .data-nav {
-      background: #f8f8f8;
-      border-left: 4px solid #bbb;
-      padding: 1em;
-      margin: 1.5em 0 2em 0;
-    }
-    .intro p, .note p, .identifier-box p, .visibility-box p, .data-nav p { margin: 0.35em 0; }
-    .data-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); gap: 1em; margin-top: 1em; }
-    .data-card { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 1em; }
-    .data-card h3 { margin-top: 0; }
-    .data-card p { margin: 0.45em 0; }
-    .download-list { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 1em 1.2em; margin: 1em 0 1.5em 0; }
-    .download-list ul { margin-top: 0.5em; }
-    .license-box {
-      background: #fbfbfb;
-      border: 1px solid #e2e2e2;
-      border-left: 4px solid #777;
-      padding: 1em;
-      margin: 1.5em 0 2em 0;
-    }
-    .license-box p { margin: 0.45em 0; }
-    .citation-box { background: #fbfbfb; border: 1px solid #e2e2e2; padding: 1em; margin: 1em 0 1.5em 0; }
-    .links { display: block; margin-top: 0.5em; font-size: 0.96em; }
-    .keywords { color: #333; }
-    .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
-    .small-note { color: #555; font-size: 0.96em; }
-    .date-note { color: #555; font-size: 0.96em; margin-top: 2em; }
-  </style>
-  <style>
-    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .55rem .75rem; border: 2px solid #0645ad; color: #fff; background: #0645ad; }
-    .skip-link:focus { top: 1rem; color: #fff; }
-  </style>
-
-  <script type="application/ld+json">
-{
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Подаци / Data — Дигитални научни корпус Милоша Тимотијевића</title>
+<meta name="description" content="Отворени библиографски подаци и ентитетски граф верзије 1.1: 60 публикација, 128 личности, 100 установа, 85 места, 48 извора, 1.242 односа и 1.686 JSON-LD чворова.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://milos-timotijevic.github.io/data/">
+<link rel="describedby" href="https://milos-timotijevic.github.io/data/manifest.json" type="application/json" title="Bibliographic integrity manifest">
+<link rel="describedby" href="https://milos-timotijevic.github.io/data/entities/entity-manifest.json" type="application/json" title="Entity-layer integrity manifest">
+<link rel="alternate" href="https://milos-timotijevic.github.io/data/publications.jsonld" type="application/ld+json" title="Publications JSON-LD">
+<link rel="alternate" href="https://milos-timotijevic.github.io/data/knowledge-graph.jsonld" type="application/ld+json" title="Knowledge graph JSON-LD">
+<link rel="alternate" href="https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld" type="application/ld+json" title="Entity graph JSON-LD">
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Подаци / Data",
-  "alternateName": "Open Data for the Digital Scholarly Corpus of Miloš Timotijević",
   "url": "https://milos-timotijevic.github.io/data/",
   "inLanguage": [
     "sr",
     "en"
   ],
-  "dateModified": "2026-10-16",
-  "description": "Страница са отвореним табеларним и структурисаним подацима о публикацијама, идентификаторима, истраживачким кластерима и пилотском ентитетско-релационом слоју дигиталног научног корпуса Милоша Тимотијевића.",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "Miloš Timotijević — Academic Profile and Knowledge Graph",
-    "url": "https://milos-timotijevic.github.io/"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Miloš Timotijević",
-    "alternateName": [
-      "Милош Тимотијевић",
-      "Miloš M. Timotijević",
-      "Милош М. Тимотијевић"
-    ],
-    "sameAs": [
-      "https://orcid.org/0000-0002-0457-6125",
-      "https://www.wikidata.org/wiki/Q112514230",
-      "https://openalex.org/authors/a5137924014"
-    ]
-  },
-  "mainEntity": {
+  "dateModified": "2026-11-02",
+  "about": {
     "@type": "Dataset",
-    "name": "Open Data of the Digital Scholarly Corpus of Miloš Timotijević",
-    "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
-    "version": "0.6",
-    "datePublished": "2026-06-20",
-    "dateModified": "2026-09-22",
-    "description": "Отворени CSV, JSON и JSON-LD скупови података о публикацијама Милоша Тимотијевића, идентификаторима и истраживачким кластерима, уз пилотски ентитетско-релациони слој који повезује публикације, личности, установе, места и историјске изворе.",
-    "creator": {
-      "@type": "Person",
-      "name": "Miloš Timotijević",
-      "sameAs": "https://orcid.org/0000-0002-0457-6125"
-    },
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "encodingFormat": [
-      "text/csv",
-      "application/json",
-      "application/ld+json"
+    "name": "Entity Graph Data — Pilot Dataset",
+    "version": "1.1",
+    "dateModified": "2026-11-01",
+    "url": "https://milos-timotijevic.github.io/data/entities/",
+    "measurementTechnique": "Evidence-based entity and relation extraction",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Publications",
+        "value": "60"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "People",
+        "value": "128"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Institutions",
+        "value": "100"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Places",
+        "value": "85"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Historical sources",
+        "value": "48"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Relation types",
+        "value": "22"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Relations",
+        "value": "1.242"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "JSON-LD nodes",
+        "value": "1.686"
+      }
     ],
     "distribution": [
       {
         "@type": "DataDownload",
-        "name": "publications.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/publications.csv"
+        "name": "entities/people.csv",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/people.csv",
+        "encodingFormat": "text/csv"
       },
       {
         "@type": "DataDownload",
-        "name": "publications.json",
-        "encodingFormat": "application/json",
-        "contentUrl": "https://milos-timotijevic.github.io/data/publications.json"
+        "name": "entities/institutions.csv",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/institutions.csv",
+        "encodingFormat": "text/csv"
       },
       {
         "@type": "DataDownload",
-        "name": "publications.jsonld",
-        "encodingFormat": "application/ld+json",
-        "contentUrl": "https://milos-timotijevic.github.io/data/publications.jsonld"
+        "name": "entities/places.csv",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/places.csv",
+        "encodingFormat": "text/csv"
       },
       {
         "@type": "DataDownload",
-        "name": "manifest.json",
-        "encodingFormat": "application/json",
-        "contentUrl": "https://milos-timotijevic.github.io/data/manifest.json"
+        "name": "entities/sources.csv",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/sources.csv",
+        "encodingFormat": "text/csv"
       },
       {
         "@type": "DataDownload",
-        "name": "wikidata-items.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/wikidata-items.csv"
+        "name": "entities/relations.csv",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/relations.csv",
+        "encodingFormat": "text/csv"
       },
       {
         "@type": "DataDownload",
-        "name": "doi-list.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/doi-list.csv"
+        "name": "entities/relation-types.csv",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/relation-types.csv",
+        "encodingFormat": "text/csv"
       },
       {
         "@type": "DataDownload",
-        "name": "knowledge-graph.jsonld",
-        "encodingFormat": "application/ld+json",
-        "contentUrl": "https://milos-timotijevic.github.io/data/knowledge-graph.jsonld"
+        "name": "entities/entity-graph.jsonld",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld",
+        "encodingFormat": "application/ld+json"
       },
       {
         "@type": "DataDownload",
-        "name": "people.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/entities/people.csv"
-      },
-      {
-        "@type": "DataDownload",
-        "name": "institutions.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/entities/institutions.csv"
-      },
-      {
-        "@type": "DataDownload",
-        "name": "places.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/entities/places.csv"
-      },
-      {
-        "@type": "DataDownload",
-        "name": "sources.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/entities/sources.csv"
-      },
-      {
-        "@type": "DataDownload",
-        "name": "relations.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/entities/relations.csv"
-      },
-      {
-        "@type": "DataDownload",
-        "name": "relation-types.csv",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://milos-timotijevic.github.io/data/entities/relation-types.csv"
-      },
-      {
-        "@type": "DataDownload",
-        "name": "entity-graph.jsonld",
-        "encodingFormat": "application/ld+json",
-        "contentUrl": "https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld"
-      },
-      {
-        "@type": "DataDownload",
-        "name": "entity-manifest.json",
-        "encodingFormat": "application/json",
-        "contentUrl": "https://milos-timotijevic.github.io/data/entities/entity-manifest.json"
+        "name": "entities/entity-manifest.json",
+        "contentUrl": "https://milos-timotijevic.github.io/data/entities/entity-manifest.json",
+        "encodingFormat": "application/json"
       }
     ]
   },
-  "hasPart": [
-    {
-      "@type": "WebPage",
-      "name": "Речник података / Data Dictionary",
-      "url": "https://milos-timotijevic.github.io/data/data-dictionary.html"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Ентитети и односи / Entities and Relations — Pilot",
-      "url": "https://milos-timotijevic.github.io/data/entities/"
-    }
-  ],
-  "about": [
-    "open data",
-    "digital humanities",
-    "scholarly metadata",
-    "bibliographic data",
-    "knowledge graph",
-    "DOI",
-    "ORCID",
-    "Wikidata",
-    "Zenodo",
-    "COBISS",
-    "research clusters",
-    "machine readability",
-    "entity graph",
-    "data provenance",
-    "people",
-    "institutions",
-    "places",
-    "historical sources",
-    "local history",
-    "public history"
-  ],
-  "keywords": "open data, digital humanities, scholarly metadata, bibliographic data, knowledge graph, entity graph, data provenance, people, institutions, places, historical sources, DOI, ORCID, Wikidata, Zenodo, COBISS, research clusters, machine readability, local history, public history, Miloš Timotijević"
-}
-  </script>
-
-  <style>
-    :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f1f1f1; }
-    body { max-width: 860px; color:var(--text); font-size:17px; }
-    .data-toolbar { display:flex; flex-wrap:wrap; gap:.35rem 1rem; margin:1rem 0 1.4rem; padding:.8rem 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
-    .intro-bilingual { margin:1.25rem 0; padding:1.1rem 1.2rem; border:1px solid var(--line); background:#fff; }
-    .intro-bilingual p { margin:.45rem 0; }
-    .route-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.85rem; margin-top:1rem; }
-    .route-card { padding:1rem 1.05rem; border:1px solid #cfcfcf; background:var(--soft); }
-    .route-card h3 { margin:0 0 .35rem; color:var(--text); font-size:1.05rem; }
-    .route-card p { margin:.3rem 0; }
-    .data-card { background:var(--soft); border-color:#cfcfcf; }
-    .data-card h3 { color:var(--text); }
-    details.technical { margin:1rem 0; border:1px solid var(--line); background:#fff; }
-    details.technical > summary { cursor:pointer; padding:.8rem 1rem; color:var(--text); font-weight:bold; }
-    details.technical > .technical-body { padding:0 1rem 1rem; }
-    @media (max-width:680px) {
-      body { margin:0 auto; padding:24px 18px; font-size:16px; }
-      .route-grid,.data-grid { grid-template-columns:1fr; }
-    }
-  </style>
-
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Miloš Timotijević — Academic Profile and Knowledge Graph",
+    "url": "https://milos-timotijevic.github.io/"
+  }
+}</script>
+<style>
+:root{--ink:#182029;--muted:#52606c;--border:#d6dade;--accent:#174880;--soft:#f6f7f8}
+*{box-sizing:border-box}body{font:17px/1.6 Georgia,'Times New Roman',serif;max-width:980px;margin:0 auto;padding:28px 24px 70px;color:var(--ink);background:#fff}
+a{color:var(--accent)}a:hover{text-decoration-thickness:2px}h1,h2,h3{line-height:1.25}h1{font-size:2.15rem;margin:.35rem 0}h2{font-size:1.46rem;margin:2rem 0 .65rem;padding-bottom:.35rem;border-bottom:1px solid var(--border)}h3{font-size:1.03rem;margin:0 0 .45rem}
+p{margin:.6rem 0}.sub{color:var(--muted);margin:0 0 1.5rem}.nav{display:flex;gap:.5rem 1.2rem;flex-wrap:wrap;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:.7rem 0}.nav a{text-decoration:none}.panel{border-left:3px solid #999;background:var(--soft);padding:14px 18px;margin:1.2rem 0}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:1.3rem 0}.stat{border:1px solid var(--border);padding:14px;background:#fafafa}.stat strong{display:block;font:700 1.55rem/1.2 system-ui,sans-serif}.stat span{display:block;font-size:.94rem}small{display:block;color:var(--muted);font-size:.83rem}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}.card{border:1px solid var(--border);background:#fafafa;padding:16px;overflow-wrap:anywhere}.card p{font-size:.95rem}code{font-size:.88em}.foot{margin-top:2rem;font-size:.9rem;color:var(--muted)}.skip{position:absolute;left:-10000px}.skip:focus{left:16px;top:16px;background:#fff;padding:10px}@media(max-width:650px){body{font-size:16px;padding:20px 17px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.grid{grid-template-columns:1fr}}
+</style>
 </head>
-
-<body id="top">
-
-<a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
-<main id="main-content">
-
-<p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
-<p><a href="../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
-<p><a href="../knowledge-graph/method.html">Метод / Method</a></p>
-<p><a href="data-dictionary.html">Речник података / Data Dictionary</a></p>
-
-<h1>Подаци / Data</h1>
-<p><strong>Отворени подаци дигиталног научног корпуса</strong></p>
-<p class="subtitle">
-  Публикације, идентификатори, истраживачки кластери, ентитети и проверљиви односи<br>
-  <em>Publications, Identifiers, Research Clusters, Entities and Verifiable Relations</em>
-</p>
-
-
-<nav class="data-toolbar" aria-label="Навигација странице / Page navigation">
-  <a href="#downloads">Преузимање / Downloads</a>
-  <a href="#entities-relations">Ентитети и односи / Entities &amp; Relations</a>
-  <a href="#principles">Принципи / Principles</a>
-  <a href="#citation">Цитирање / Citation</a>
-  <a href="data-dictionary.html">Речник података / Data Dictionary</a>
-</nav>
-
-<section class="intro-bilingual">
-  <h2>О отвореним подацима / About the Open Data</h2>
-  <p>Ова страна садржи отворене табеларне и структурисане податке о изабраним публикацијама Милоша Тимотијевића и повезује библиографске јединице са приступним странама, DOI бројевима, Zenodo записима, Wikidata ставкама, COBISS записима и истраживачким кластерима.</p>
-  <p lang="en">This page provides open tabular and structured data about selected publications by Miloš Timotijević and connects bibliographic records with landing pages, DOI identifiers, Zenodo records, Wikidata items, COBISS records and research clusters.</p>
-  <p>Сврха није да се замене библиографије и нормативни извори, већ да корпус буде доступан за преузимање, проверу, цитирање и машинску обраду.</p>
-  <p lang="en">The purpose is not to replace bibliographies or authority sources, but to make the corpus downloadable, verifiable, citable and machine-readable.</p>
-  <p>Data слој садржи и пилотски ентитетско-релациони скуп, верзија 0.9, који обухвата 51 публикацију, 118 личности, 91 установу, 72 места и 43 историјска извора, повезана посредством 1.012 проверљивих односа и 22 контролисана типа односа.</p>
-  <p lang="en">The Data layer also includes a pilot entity-relation dataset, version 0.9, covering 51 publications, 118 people, 91 institutions, 72 places and 43 historical sources, connected through 1,012 verifiable relations and 22 controlled relation types.</p>
-</section>
-
-<section class="data-nav">
-  <h2>Како користити ову страну / How to Use This Page</h2>
-  <div class="route-grid">
-    <article class="route-card">
-      <h3>Преглед за читаоце / Reader Overview</h3>
-      <p>Почните од картица испод и изаберите формат који вам је потребан.</p>
-      <p lang="en">Start with the cards below and choose the format you need.</p>
-      <p><a href="#downloads">Доступни фајлови / Available files</a></p>
-    </article>
-    <article class="route-card">
-      <h3>Провера података / Data Verification</h3>
-      <p>Манифест садржи величину, број записа и SHA-256 отисак извоза.</p>
-      <p lang="en">The manifest records file size, record count and SHA-256 checksum.</p>
-      <p><a href="manifest.json" type="application/json">manifest.json</a></p>
-    </article>
-    <article class="route-card">
-      <h3>Структура поља / Field Structure</h3>
-      <p>Речник објашњава колоне, статусе провере, DOI поља и правила цитирања.</p>
-      <p lang="en">The dictionary explains columns, verification states, DOI fields and citation rules.</p>
-      <p><a href="data-dictionary.html">Речник података / Data Dictionary</a></p>
-    </article>
-    <article class="route-card">
-      <h3>Граф знања / Knowledge Graph</h3>
-      <p>JSON-LD извози повезују публикације, истраживачке теме и главне ентитете.</p>
-      <p lang="en">The JSON-LD exports connect publications, research themes and core entities.</p>
-      <p><a href="../knowledge-graph/">Отвори граф / Open the graph</a></p>
-    </article>
-  </div>
-</section>
-
-<section class="license-box">
-  <h2>Лиценца и услови употребе / License and Reuse</h2>
-
-  <p>
-    <strong>Метаподаци:</strong>
-    отворени су за употребу под лиценцом
-    <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">
-      Creative Commons Attribution 4.0 International (CC BY 4.0)
-    </a>,
-    уз навођење извора.
-  </p>
-
-  <p>
-    <strong>Пуни текстови, фотографије и илустрације:</strong>
-    нису обухваћени овом лиценцом. За њих важе права аутора, издавача,
-    установа, репозиторијума и других носилаца права.
-  </p>
-
-  <p lang="en">
-    <strong>Metadata:</strong>
-    may be reused under the
-    <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">
-      Creative Commons Attribution 4.0 International License (CC BY 4.0)
-    </a>,
-    with attribution. Full texts, photographs and illustrations are not covered by this license;
-    they remain subject to the rights of authors, publishers, institutions, repositories and other rights holders.
-  </p>
-</section>
-
-<section>
-  <h2 id="downloads">Доступни скупови података / Available Data Files</h2>
-
-  <p>
-    Овај одељак приказује фајлове који су сада доступни за преузимање и проверу.<br><span lang="en">This section lists the files currently available for download and verification.</span>
-  </p>
-
-  <div class="data-grid">
-    <article class="data-card">
-      <h3>publications.csv</h3>
-      <p>
-        Главна табела изабраних публикација. Садржи основне библиографске податке, DOI податке, приступну страну, Zenodo запис, Wikidata ставку, COBISS запис, кластер и статус провере.
-      </p>
-      <p lang="en">Main table of selected publications with bibliographic metadata, identifiers, landing pages, clusters and verification status.</p>
-
-      <p>
-        <a href="publications.csv">Преузми / Download</a>
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>wikidata-items.csv</h3>
-      <p>
-        Контролна табела Wikidata ставки за аутора, публикације, истраживачке оквире, кластере и повезане теме.
-      </p>
-      <p lang="en">Control table of Wikidata items for the author, publications, research frameworks, clusters and related topics.</p>
-
-      <p>
-        <a href="wikidata-items.csv">Преузми / Download</a>
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>doi-list.csv</h3>
-      <p>
-        Контролни списак DOI бројева, са разликовањем главног DOI броја публикације, рада или издања и DOI броја репозиторијумске верзије.
-      </p>
-      <p lang="en">Control list distinguishing publication or edition DOI values from repository-version DOI values.</p>
-
-      <p>
-        <a href="doi-list.csv">Преузми / Download</a>
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>data-dictionary.html</h3>
-      <p>
-        Речник података са описом колона, правилима уноса, DOI пољима, статусима провере, лиценцом и препорученим обликом цитирања.
-      </p>
-      <p lang="en">Field dictionary covering columns, entry rules, DOI fields, verification status, licensing and citation.</p>
-
-      <p>
-        <a href="data-dictionary.html">Отвори / Open</a>
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>publications.json</h3>
-      <p>
-        JSON извоз проверених библиографских записа, погодан за машинску обраду, апликације, визуализације и даље повезивање са графом знања.
-      </p>
-      <p lang="en">JSON export of verified bibliographic records for applications, analysis and visualisation.</p>
-
-      <p>
-        <a href="publications.json" type="application/json">Преузми / Download</a>
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>publications.jsonld</h3>
-      <p>
-        Schema.org JSON-LD извоз свих проверених публикација као књига, поглавља и научних радова, са ауторима, DOI, Wikidata и COBISS идентификаторима.
-      </p>
-      <p lang="en">Schema.org JSON-LD graph of verified publications and their identifiers.</p>
-
-      <p>
-        <a href="publications.jsonld" type="application/ld+json">Преузми / Download</a>
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>manifest.json</h3>
-      <p>
-        Контролни манифест за шест машински читљивих извоза — <code>publications.csv</code>, <code>publications.json</code>, <code>publications.jsonld</code>, <code>wikidata-items.csv</code>, <code>doi-list.csv</code> и <code>knowledge-graph.jsonld</code> — са величином фајла, бројем записа и SHA-256 отиском за независну проверу интегритета.
-      </p>
-      <p lang="en">Integrity manifest for the six machine-readable data exports, with file sizes, record counts and SHA-256 checksums for independent integrity verification.</p>
-
-      <p>
-        <a href="manifest.json" type="application/json">Преузми / Download</a>
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>knowledge-graph.jsonld</h3>
-      <p>
-        JSON-LD извоз главних чворова и односа у графу знања: аутор, сајт, улазна страница, кровни оквир и тематски кластери.
-      </p>
-      <p lang="en">Machine-readable export of the principal entities and relationships in the knowledge graph.</p>
-
-      <p>
-        <a href="knowledge-graph.jsonld" type="application/ld+json">Преузми / Download</a>
-      </p>
-    </article>
-  </div>
-</section>
-
-<section id="entities-relations" aria-labelledby="entities-relations-heading">
-  <h2 id="entities-relations-heading">Ентитети и односи — пилот / <span lang="en">Entities and Relations — Pilot</span></h2>
-
-  <p>
-    Пилотски ентитетско-релациони слој, верзија 0.9, обухвата 51 изабрану публикацију, 118 личности, 91 установу, 72 места и 43 историјска извора, са 1.012 проверљивих односа и контролисаним речником од 22 типа односа.
-  </p>
-  <p lang="en">
-    The pilot entity-relation layer, version 0.9, covers 51 selected publications, 118 people, 91 institutions, 72 places and 43 historical sources, with 1,012 verifiable relations and a controlled vocabulary of 22 relation types.
-  </p>
-
-  <div class="data-nav">
-    <p><strong>Документација скупа / Dataset documentation:</strong></p>
-    <p>
-      <a href="entities/"><strong>Отвори страницу „Ентитети и односи” / Open “Entities and Relations”</strong></a>
-    </p>
-    <p class="small-note">
-      Главна Data страна остаје каталог и место за преузимање; опис модела, публикационих ID ознака, провере и ограничења налази се на посебној страници.
-      <span lang="en">The main Data page remains a catalogue and download point; model documentation, publication IDs, verification notes and limitations are documented on the dedicated page.</span>
-    </p>
-  </div>
-
-  <div class="data-grid">
-    <article class="data-card">
-      <h3>people.csv</h3>
-      <p>Личности са стабилним интерним ID ознакама и доступним ауторитетским идентификаторима.</p>
-      <p lang="en">People with stable internal IDs and available authority identifiers.</p>
-      <p><a href="entities/people.csv">Преузми / Download</a></p>
-    </article>
-
-    <article class="data-card">
-      <h3>institutions.csv</h3>
-      <p>Музеји, архиви, цркве, манастири и друге установе обухваћене пилотом.</p>
-      <p lang="en">Museums, archives, churches, monasteries and other institutions represented in the pilot.</p>
-      <p><a href="entities/institutions.csv">Преузми / Download</a></p>
-    </article>
-
-    <article class="data-card">
-      <h3>places.csv</h3>
-      <p>Градови, вароши, села, сакрални комплекси и меморијални простори.</p>
-      <p lang="en">Cities, towns, villages, sacred complexes and memorial sites.</p>
-      <p><a href="entities/places.csv">Преузми / Download</a></p>
-    </article>
-
-    <article class="data-card">
-      <h3>sources.csv</h3>
-      <p>Историјски извори који се у публикацијама користе као предмет анализе или доказна основа.</p>
-      <p lang="en">Historical sources used in the publications as objects of analysis or evidentiary material.</p>
-      <p><a href="entities/sources.csv">Преузми / Download</a></p>
-    </article>
-
-    <article class="data-card">
-      <h3>relations.csv</h3>
-      <p>Централна табела: субјекат, контролисани однос, објекат, публикациони контекст, место у извору, напомена и степен поузданости.</p>
-      <p lang="en">Core relation table with subject, controlled predicate, object, publication context, evidence locator, note and confidence level.</p>
-      <p><a href="entities/relations.csv">Преузми / Download</a></p>
-    </article>
-
-    <article class="data-card">
-      <h3>relation-types.csv</h3>
-      <p>Контролисани речник од 22 типа односа и дозвољених типова субјеката и објеката.</p>
-      <p lang="en">Controlled vocabulary of 22 relation types and their allowed subject and object classes.</p>
-      <p><a href="entities/relation-types.csv">Преузми / Download</a></p>
-    </article>
-
-    <article class="data-card">
-      <h3>entity-graph.jsonld</h3>
-      <p>Машински читљиви JSON-LD извоз са 1.410 чворова, 1.012 односа и подацима о пореклу тврдњи.</p>
-      <p lang="en">Machine-readable JSON-LD export with 1,410 nodes, 1,012 relations and statement provenance.</p>
-      <p><a href="entities/entity-graph.jsonld" type="application/ld+json">Преузми / Download</a></p>
-    </article>
-
-    <article class="data-card">
-      <h3>entity-manifest.json</h3>
-      <p>Контролни манифест верзије 0.9 са величином, бројем записа и SHA-256 отиском сваког ентитетског извоза.</p>
-      <p lang="en">Version 0.9 integrity manifest with file size, record count and SHA-256 checksum for every entity-layer export.</p>
-      <p><a href="entities/entity-manifest.json" type="application/json">Преузми / Download</a></p>
-    </article>
-  </div>
-
-  <p class="small-note">
-    Сви ентитетски извозни фајлови чине једну верзионисану целину. Њихов интегритет проверава се помоћу <a href="entities/entity-manifest.json"><code>entity-manifest.json</code></a>.
-    <span lang="en">All entity-layer exports form one versioned dataset. Their integrity can be checked against <a href="entities/entity-manifest.json"><code>entity-manifest.json</code></a>.</span>
-  </p>
-</section>
-
-<section>
-  <h2 id="principles">Основни принципи</h2>
-
-  <div class="data-grid">
-    <article class="data-card">
-      <h3>Стабилност</h3>
-      <p>
-        Свака јединица добија стабилну унутрашњу ознаку. Она се не мења ни када се касније додају нови DOI бројеви, Wikidata ставке или репозиторијумски записи.
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>Проверљивост</h3>
-      <p>
-        Уносе се подаци који се могу проверити преко приступне стране, DOI записа, Zenodo записа, Wikidata ставке, COBISS-а или другог поузданог извора.
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>Цитабилност</h3>
-      <p>
-        Табеле не замењују пуну библиографску јединицу, али помажу да се публикације стабилно пронађу, повежу и цитирају.
-      </p>
-    </article>
-
-    <article class="data-card">
-      <h3>Машинска читљивост</h3>
-      <p>
-        CSV, JSON и JSON-LD формати омогућавају преузимање и поновну употребу података у табеларним програмима, апликацијама и машинским системима, као и њихово повезивање и даљу изградњу графа знања.
-      </p>
-    </article>
-  </div>
-</section>
-
-<section>
-  <h2>Однос према графу знања</h2>
-
-  <p>
-   Ови скупови података представљају структурисани податковни слој графа знања. Док граф приказује тематске и интерпретативне везе између публикација, CSV, JSON и JSON-LD фајлови омогућавају њихово преузимање, проверу, машинску обраду и поновну употребу.
-  </p>
-
-  <p>
-  Подаци омогућавају преглед веза између публикација, приступних страна, DOI бројева, репозиторијумских записа, Wikidata ставки, COBISS записа и истраживачких кластера.
-  </p>
-</section>
-
-<section class="visibility-box">
-  <h2>Статус података</h2>
-
-  <p>
-  Скупови података постепено се проширују и допуњују новим провереним записима. Појединачни записи могу садржати ознаку степена провере или потребе за додатним ажурирањем.
-</p>
-
-  <p>
-    Детаљна правила за колоне и статусе налазе се у
-    <a href="data-dictionary.html">речнику података</a>.
-  </p>
-</section>
-
-<section>
-  <h2>Метаподаци и пуни текстови</h2>
-
-  <p>
-    Овај одељак објављује метаподатке, не пуне текстове свих публикација. Метаподаци служе опису, повезивању, провери и проналажењу радова. Услови употребе метаподатака наведени су у одељку „Лиценца и услови употребе”.
-  </p>
-
-  <p>
-    Права на пуне текстове, фотографије, илустрације и друга ауторска дела остају у складу са правима аутора, издавача, институција и репозиторијума. Када је пуна верзија публикације доступна преко Zenodo-а, институционалног сајта, DOI приступне стране или другог извора, тај линк се наводи у одговарајућој приступној страни и, када је потребно, у табеларном извозу.
-  </p>
-</section>
-
-<section>
-  <h2 id="citation">Како цитирати податке</h2>
-
-  <div class="citation-box">
-    <p>
-      <strong>Препоручени облик навођења:</strong>
-    </p>
-
-    <p>
-      Милош Тимотијевић, „Подаци: отворени подаци дигиталног научног корпуса”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, приступљено [датум приступа].
-    </p>
-
-    <p>
-      <strong>English citation form:</strong>
-    </p>
-
-    <p lang="en">
-      Miloš Timotijević, “Data: Open Data of the Digital Scholarly Corpus,” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, accessed [access date].
-    </p>
-  </div>
-
-  <p>
-    Када се цитира појединачна публикација, предност треба дати самом делу, његовом DOI броју, репозиторијумском запису или библиографском запису. Ову страницу треба цитирати када се користи структура података, табеларни извоз или начин повезивања публикација са идентификаторима и кластерима.
-  </p>
-</section>
-
-<section>
-  <h2>Ограничења</h2>
-
-  <p>
-    Овај скуп података не представља потпуну националну библиографију, нити замену за COBISS, ORCID, Wikidata, DOI регистре или репозиторијуме. Он је радни, отворени и проверљиви извоз из једног ауторског дигиталног научног корпуса.
-  </p>
-
-  <p>
-    Кластери су интерпретативне категорије и служе да покажу како се публикације повезују у шире истраживачке целине. Они нису једина могућа класификација, већ аналитички слој који помаже читању опуса као повезане целине.
-  </p>
-</section>
-
-<p>
-  For the wider digital humanities context of this data layer, see
-  <a href="../knowledge-graph/about-digital-humanities-project.html">About this Digital Humanities Project</a>.
-</p>
-
-<p class="date-note">
-  Последње ажурирање: 16. октобар 2026.
-</p>
-
-<p class="back-link"><a href="#top">↑ На врх / Back to top</a></p>
-<p><a href="data-dictionary.html">Речник података / Data Dictionary</a></p>
-<p><a href="../knowledge-graph/method.html">Метод / Method</a></p>
-<p><a href="../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
-<p><a href="../index.html">← Назад на главну страну / Back to main page</a></p>
-
-</main>
-
-</body>
-</html>
-
-
-
+<body>
+<a class="skip" href="#main">Пређи на садржај / Skip to content</a>
+<header><p><a href="../">← Главна страна / Home</a> · <a href="../knowledge-graph/">Граф знања / Knowledge Graph</a> · <a href="data-dictionary.html">Речник података / Data Dictionary</a></p><h1>Подаци / Data</h1><p class="sub">Отворени подаци дигиталног научног корпуса / Open data of the digital scholarly corpus</p></header>
+<nav class="nav" aria-label="Навигација странице"><a href="#overview">Преглед / Overview</a><a href="#downloads">Преузимање / Downloads</a><a href="#verification">Проверљивост / Verification</a><a href="#license">Лиценца / License</a></nav>
+<main id="main"><section id="overview"><h2>Ентитетско-релациони слој — верзија 1.1<br><small lang="en">Entity-relation layer — version 1.1</small></h2>
+<p>Структурисани скуп повезује публикације са личностима, установама, местима и историјским изворима. Односи се бележе са подацима о публикационом контексту, страници доказа, напомени и степену поузданости.</p>
+<p lang="en">The structured dataset links publications with people, institutions, places and historical sources. Relations include publication context, evidence page, evidence note and confidence.</p>
+<div class="stats" aria-label="Статистика верзије 1.1"><div class="stat"><strong>60</strong><span>Публикација<small lang="en">Publications</small></span></div>
+<div class="stat"><strong>128</strong><span>Личности<small lang="en">People</small></span></div>
+<div class="stat"><strong>100</strong><span>Установа<small lang="en">Institutions</small></span></div>
+<div class="stat"><strong>85</strong><span>Места<small lang="en">Places</small></span></div>
+<div class="stat"><strong>48</strong><span>Историјских извора<small lang="en">Historical sources</small></span></div>
+<div class="stat"><strong>22</strong><span>Типа односа<small lang="en">Relation types</small></span></div>
+<div class="stat"><strong>1.242</strong><span>Односа<small lang="en">Relations</small></span></div>
+<div class="stat"><strong>1.686</strong><span>JSON-LD чворова<small lang="en">JSON-LD nodes</small></span></div></div>
+<div class="panel"><p>Подаци се односе на <strong>ентитетски слој 1.1</strong> (манифест од 1. новембра 2026), а не на укупан број публикација на целом сајту.</p><p lang="en">These counts describe <strong>entity-layer version 1.1</strong> (manifest dated 1 November 2026), not the total number of publications on the entire website.</p><p><a href="entities/">Документација ентитета / Entity documentation</a> · <a href="../knowledge-graph/entities/">Ентитети у графу знања / Entities in the knowledge graph</a></p></div>
+<h2>О подацима / About the data</h2><p>Главни библиографски регистар повезује библиографске записе са приступним странама, DOI идентификаторима, репозиторијумима, Wikidata и COBISS записима и истраживачким кластерима. Подаци не замењују изворне публикације нити нормативне каталоге.</p><p lang="en">The bibliographic registry connects records with landing pages, DOI identifiers, repositories, Wikidata and COBISS records, and research clusters. These datasets do not replace original publications or authority catalogues.</p></section>
+<section id="downloads"><h2>Доступни фајлови / Available data files</h2><p>Датотеке за преузимање и проверу. / <span lang="en">Machine-readable datasets for download and verification.</span></p><div class="grid"><article class="card"><h3><code>publications.csv</code></h3><p>Библиографски регистар / Bibliographic registry</p><a href="publications.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>publications.json</code></h3><p>Библиографски записи / Bibliographic records</p><a href="publications.json" type="application/json">Преузми / Download</a></article>
+<article class="card"><h3><code>publications.jsonld</code></h3><p>Публикације као JSON-LD / Publications as JSON-LD</p><a href="publications.jsonld" type="application/ld+json">Преузми / Download</a></article>
+<article class="card"><h3><code>wikidata-items.csv</code></h3><p>Контролне Wikidata ставке / Wikidata items</p><a href="wikidata-items.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>doi-list.csv</code></h3><p>Главни и репозиторијумски DOI / DOI registry</p><a href="doi-list.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>knowledge-graph.jsonld</code></h3><p>Кровни граф знања / Knowledge graph</p><a href="knowledge-graph.jsonld" type="application/ld+json">Преузми / Download</a></article>
+<article class="card"><h3><code>manifest.json</code></h3><p>Библиографски контролни манифест / Bibliographic manifest</p><a href="manifest.json" type="application/json">Преузми / Download</a></article>
+<article class="card"><h3><code>entities/people.csv</code></h3><p>Личности / People</p><a href="entities/people.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>entities/institutions.csv</code></h3><p>Установе / Institutions</p><a href="entities/institutions.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>entities/places.csv</code></h3><p>Места / Places</p><a href="entities/places.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>entities/sources.csv</code></h3><p>Историјски извори / Historical sources</p><a href="entities/sources.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>entities/relations.csv</code></h3><p>Односи и доказни ослонац / Relations and evidence</p><a href="entities/relations.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>entities/relation-types.csv</code></h3><p>Контролисани типови односа / Relation types</p><a href="entities/relation-types.csv" type="text/csv">Преузми / Download</a></article>
+<article class="card"><h3><code>entities/entity-graph.jsonld</code></h3><p>Ентитетски JSON-LD граф / Entity JSON-LD graph</p><a href="entities/entity-graph.jsonld" type="application/ld+json">Преузми / Download</a></article>
+<article class="card"><h3><code>entities/entity-manifest.json</code></h3><p>Ентитетски контролни манифест / Entity manifest</p><a href="entities/entity-manifest.json" type="application/json">Преузми / Download</a></article></div><p><a href="data-dictionary.html">Речник података / Data Dictionary</a></p></section>
+<section id="verification"><h2>Порекло и провера / Provenance and verification</h2><p>Ентитетски подаци су организовани у CSV и JSON-LD датотекама. Табела односа садржи поља <code>source_id</code>, <code>evidence_page</code>, <code>evidence_note</code> и <code>confidence</code>. Проверa интегритета је документована у одговарајућим манифестима са SHA-256 отисцима.</p><p lang="en">The entity layer is available in CSV and JSON-LD. Relations include source ID, evidence page, evidence note and confidence. Integrity manifests provide SHA-256 checksums.</p><p><a href="entities/entity-manifest.json">Манифест ентитета 1.1 / Entity manifest</a> · <a href="manifest.json">Библиографски манифест / Bibliographic manifest</a></p></section>
+<section id="license"><h2>Лиценца и цитирање / License and citation</h2><p>Метаподаци су доступни под лиценцом <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> уз навођење извора. Права на пуне текстове, фотографије и илустрације нису обухваћена том лиценцом.</p><p lang="en">Metadata are licensed under CC BY 4.0 with attribution. Full texts, photographs and illustrations are excluded and retain their applicable rights.</p><p>Препоручени извор: Милош Тимотијевић, „Подаци / Data”, ентитетски граф, верзија 1.1, <a href="https://milos-timotijevic.github.io/data/">https://milos-timotijevic.github.io/data/</a>.</p></section></main>
+<footer class="foot"><p>Последње ажурирање странице: 2. новембар 2026. · Entity dataset: v1.1 (1 November 2026).</p></footer>
+</body></html>
