@@ -1,1 +1,398 @@
-<!doctype html><html lang="sr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Спискови из 1901. — изворни подаци / Lists from 1901</title><meta name="description" content="Одликовања, сенатори и народни посланици 1901: изворни пописи из монографије Усклици искреног одушевљења (2025)."><link rel="canonical" href="https://milos-timotijevic.github.io/data/1901/"><style>body{max-width:850px;margin:auto;padding:24px;font:17px/1.6 Georgia,serif;color:#1d2935}a{color:#174880}h1,h2{line-height:1.2}h1{font-size:2rem}h2{border-bottom:1px solid #d9dfe5;padding-bottom:6px;margin-top:30px}li{margin:10px 0}.note{border-left:3px solid #888;padding:12px 15px;background:#f6f7f8}code{overflow-wrap:anywhere}</style></head><body><header><p><a href="../">← Подаци / Data</a> · <a href="../entities/">Ентитетски подаци / Entity data</a></p><h1>Спискови одликованих, сенатора и посланика 1901.</h1><p lang="en">Award recipients, senators and members of parliament in Serbia, 1901 — source-attested lists</p></header><main><p>Извор: Милош Тимотијевић и Александар Марушић, <em>Усклици искреног одушевљења</em> (2025), <a href="../../books/usklici-iskrenog-odusevljenja.html">страница књиге</a>, DOI: <a href="https://doi.org/10.65627/nmuc_uio.2025">10.65627/nmuc_uio.2025</a>.</p><h2>Обим / Dataset</h2><p>704 ставке одликовања (стр. 223–244), 47 сенаторских записа и 129 посланичких записа (стр. 245–252). Укупно <strong>880 изворних ставки</strong>, а не 880 различитих личности.</p><h2>Преузимања / Downloads</h2><ul><li><a href="awards-source-attested.csv">Одликовања — CSV / Awards</a></li><li><a href="senators-source-attested.csv">Сенатори — CSV / Senators</a></li><li><a href="deputies-source-attested.csv">Народни посланици — CSV / Deputies</a></li><li><a href="source-assertions.jsonld">Изворни записи — JSON-LD / Source assertions</a></li><li><a href="heading-boundary-audit.csv">Контрола прелаза назива одликовања / Award heading audit</a></li><li><a href="manifest.json">Контролни манифест / Manifest</a></li></ul><h2>Метод и ограничења / Method and limitations</h2><div class="note"><p>Имена и функције представљају <strong>записе из књиге</strong>. Њихово појављивање није доказ да су истоимене особе идентичне, нити да су доделе одликовања независно потврђене изворним указима. Категорије одликовања реконструисане су према насловима табеларних група; поједини преломи остају предмет контроле. Подаци се не смеју аутоматски рачунати као нове канонске личности.</p><p lang="en">These are attestations in a published source, not independently verified identities or decrees. Do not conflate namesakes or count entries as unique people. The core entity graph is unchanged.</p></div><p>Канонски ID публикације: <code>book-2025-usklici-iskrenog-odusevljenja</code>.</p><p>Метаподаци се објављују уз навођење извора; ова страница не мења права на текст и илустрације монографије.</p></main></body></html>
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Подаци ентитетског графа / Entity Graph Data — пилотски скуп</title>
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Пилотски скуп ентитета и односа истраживачког корпуса Милоша Тимотијевића: публикације, личности, установе, места, контролисани типови односа и подаци о пореклу сваке везе.">
+  <link rel="canonical" href="https://milos-timotijevic.github.io/data/entities/">
+  <link rel="describedby" type="application/json" href="https://milos-timotijevic.github.io/data/entities/entity-manifest.json" title="Entity data integrity manifest">
+  <link rel="alternate" type="application/ld+json" href="https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld" title="Machine-readable entity graph">
+
+  <meta property="og:title" content="Подаци ентитетског графа — пилотски скуп">
+  <meta property="og:description" content="Отворени подаци о личностима, установама, местима, публикацијама и проверљивим односима у пилотском истраживачком корпусу.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://milos-timotijevic.github.io/data/entities/">
+  <meta property="og:site_name" content="Miloš Timotijević — Academic Profile and Knowledge Graph">
+  <meta property="og:locale" content="sr_RS">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Entity Graph Data — Pilot Dataset">
+  <meta name="twitter:description" content="Open entity and relation data derived from 61 publications in the digital scholarly corpus of Miloš Timotijević.">
+
+  <style>
+    :root { --text:#111; --muted:#555; --line:#d8d8d8; --link:#0645ad; --soft:#f1f1f1; }
+    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 860px; margin: 60px auto; padding: 0 24px; color: var(--text); background: #fff; font-size: 17px; }
+    h1, h2, h3, h4 { line-height: 1.25; color: var(--text); }
+    h1 { font-size: 2.05em; margin-bottom: 0.2em; }
+    h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.25em; }
+    h3 { margin-top: 1.35em; font-size: 1.13em; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    p { margin: 1.15em 0; }
+    ul li, ol li { margin-bottom: 0.65em; }
+    code { font-family: Consolas, "Courier New", monospace; font-size: 1.12em; background: #f5f5f5; padding: 0.1em 0.25em; overflow-wrap: anywhere; }
+    table { width: 100%; border-collapse: collapse; margin: 1em 0 1.5em; font-size: 1.14em; }
+    th, td { border: 1px solid var(--line); padding: 0.65em 1.1em; text-align: left; vertical-align: top; }
+    th { background: var(--soft); }
+    caption { text-align: left; font-weight: bold; margin-bottom: 1.15em; }
+    .table-wrap { overflow-x: auto; }
+    .subtitle { font-size: 1.18em; margin-bottom: 1.5em; color: #444; }
+    .intro-bilingual { margin: 1.25rem 0; padding: 1.1rem 1.2rem; border: 1px solid var(--line); background: #fff; }
+    .intro-bilingual p { margin: .45rem 0; }
+    .data-toolbar { display: flex; flex-wrap: wrap; gap: .35rem 1rem; margin: 1rem 0 1.4rem; padding: .8rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .data-grid, .stat-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; margin-top: 1rem; }
+    .data-card, .stat-card { background: var(--soft); border: 1px solid #cfcfcf; padding: 1rem 1.15rem; }
+    .data-card h3, .stat-card h3 { margin: 0 0 .35rem; color: var(--text); font-size: 1.15rem; }
+    .data-card p, .stat-card p { margin: .3rem 0; }
+    .stat-number { display: block; font-size: 1.85em; line-height: 1; margin-bottom: .3em; color: #333; }
+    .note, .identifier-box, .license-box { background: #f8f8f8; border-left: 4px solid #bbb; padding: 1em; margin: 1.5em 0 2em; }
+    .note p, .identifier-box p, .license-box p { margin: .35em 0; }
+    .license-box { border: 1px solid #e2e2e2; border-left: 4px solid #777; background: #fbfbfb; }
+    .status { display: inline-block; border: 1px solid #999; padding: .1em .45em; font-size: .85em; background: #fff; }
+    .small-note { color: var(--muted); font-size: .96em; }
+    .date-note { color: var(--muted); font-size: .96em; margin-top: 2em; }
+    .back-link { margin-top: 2.5em; border-top: 1px solid #ddd; padding-top: 1em; }
+    .skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 1000; padding: .100rem .100rem; border: 2px solid var(--link); color: #fff; background: var(--link); }
+    .skip-link:focus { top: 1rem; color: #fff; }
+    @media (max-width: 680px) {
+      body { margin: 0 auto; padding: 24px 18px; font-size: 16px; }
+      h1 { font-size: 1.7em; }
+      .data-grid, .stat-grid { grid-template-columns: 1fr; }
+      th, td { min-width: 10em; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://milos-timotijevic.github.io/data/entities/#page",
+    "name": "Подаци ентитетског графа — пилотски скуп",
+    "alternateName": "Entity Graph Data — Pilot Dataset",
+    "url": "https://milos-timotijevic.github.io/data/entities/",
+    "inLanguage": ["sr", "en"],
+    "dateModified": "2026-11-02",
+    "description": "Пилотски Data слој који повезује 61 публикација са личностима, установама, местима и историјским изворима посредством изворно проверљивих односа.",
+    "isPartOf": {
+      "@type": "Dataset",
+      "@id": "https://milos-timotijevic.github.io/data/#dataset",
+      "name": "Open Data of the Digital Scholarly Corpus of Miloš Timotijević",
+      "url": "https://milos-timotijevic.github.io/data/"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Miloš Timotijević",
+      "alternateName": "Милош Тимотијевић",
+      "sameAs": [
+        "https://orcid.org/0000-0002-0457-6125",
+        "https://www.wikidata.org/wiki/Q112514230",
+        "https://openalex.org/authors/a5072525869"
+      ]
+    },
+    "mainEntity": {
+      "@type": "Dataset",
+      "@id": "https://milos-timotijevic.github.io/data/entities/#dataset",
+      "name": "Entity and Relation Data of the Research Corpus — Pilot",
+      "alternateName": "Ентитети и односи истраживачког корпуса — пилот",
+      "version": "1.1",
+      "datePublished": "2026-09-20",
+      "dateModified": "2026-11-02",
+      "description": "Pilot dataset comprising 61 publications, 507 people, 100 institutions, 85 places, 48 historical sources, 24 relation types and 2045 source-based relations.",
+      "creator": {
+        "@type": "Person",
+        "name": "Miloš Timotijević",
+        "sameAs": "https://orcid.org/0000-0002-0457-6125"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "encodingFormat": ["text/csv", "application/json", "application/ld+json"],
+      "isBasedOn": [
+        "book-2025-usklici-iskrenog-odusevljenja",
+        "article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i",
+        "article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o",
+        "conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to",
+        "conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor",
+        "conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19",
+        "book-2025-nadezda-petrovic-life-art-service-nation",
+        "article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta",
+        "article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941",
+        "article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd",
+        "book-2012-balkan-city",
+        "catalogue-2013-cacak-in-the-era-of-socialism-1944-1990-photography-as-a-representatio",
+        "article-2009-prvi-gradjanin-male-varosi",
+        "article-2010-industrijalizacija-cacka-1944-1956",
+        "article-2013-spomen-kosturnica-centralni-trg-cacak-1945-1955",
+        "conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura",
+        "conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958",
+        "conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak",
+        "book-chapter-2007-grad-u-unutrasnjosti",
+        "article-2009-predsednici-opstine-cacak-1944-2010",
+        "book-2008-kulturna-riznica-cacka",
+        "book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012",
+        "article-2016-history-department-of-the-national-museum-in-cacak-development-and-str",
+        "book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+        "article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside",
+        "catalogue-2010-album-of-old-cacak-1870-1941",
+        "book-2012-ok-manastiri",
+        "article-2021-deca-svetog-save-zavetna-zajednica",
+        "conference_paper-2022-interwar-attitudes-bishop-nikolaj-velimirovic-communists",
+        "article-2026-stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941",
+        "article-2007-storm-winds-blew-bishop-nikolaj-velimirovics-attitudes-toward-jews-lib",
+        "article-2008-monastery-of-stjenik-at-the-foot-of-jelica-mountain-real-and-invented",
+        "book-2009-a-century-of-doubt-religious-life-in-the-cacak-district-1886-2008",
+        "conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics",
+        "book-2006-the-sokol-movement-in-cacak-1910-1941",
+        "book-2019-dragisa-vasic-serbian-national-idea",
+        "book-2022-myths-of-recent-serbian-history",
+        "article-2007-prostitucija-u-cacku-tokom-xx-veka",
+        "article-2000-nazivi-ulica-cacka-1893-1992",
+        "book-2005-carnival-in-guca-trumpet-festival-1961-2004",
+        "article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941",
+        "article-2018-sudbina-srebra-uzicke-republike",
+        "article-2019-finansije-jvuo-u-srbiji-1941-1944",
+        "book-2018-zlato-cetnika-i-partizana-2018",
+        "article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941",
+        "article-2008-u-lavirintu-unutrasnjih-granica",
+        "article-1997-opstinska-vlast-cacak-izmedju-dva-rata",
+        "article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak",
+        "article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo",
+        "article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941",
+        "conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941",
+        "article-2019-documents-on-the-suffering-of-jews-in-cacak-1941-1942",
+        "article-2014-suffering-and-rescue-of-jews-in-cacak-and-its-surroundings-1941-1944",
+        "article-2024-varalice-dzeparosi-prostitutke-kriminal-okupirana-srbija-1941",
+        "article-2021-krv-medju-bracom-kriminal-sela-okupirana-srbija-1941",
+        "article-2021-grad-i-zlocin-kriminal-gradovi-okupirana-srbija-1941",
+        "article-2021-borba-protiv-razbojnika-silovatelja-zver-zena-komunisti-okupirana-srbija-1941",
+        "book-2019-brave-partisans-evil-chetniks",
+        "book-2014-ravna-gora",
+        "book-2015-zvonko-vuckovic-ratna-biografija"
+      ],
+      "distribution": [
+        {"@type":"DataDownload","name":"people.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/people.csv"},
+        {"@type":"DataDownload","name":"institutions.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/institutions.csv"},
+        {"@type":"DataDownload","name":"places.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/places.csv"},
+        {"@type":"DataDownload","name":"sources.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/sources.csv"},
+        {"@type":"DataDownload","name":"relations.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relations.csv"},
+        {"@type":"DataDownload","name":"relation-types.csv","encodingFormat":"text/csv","contentUrl":"https://milos-timotijevic.github.io/data/entities/relation-types.csv"},
+        {"@type":"DataDownload","name":"entity-graph.jsonld","encodingFormat":"application/ld+json","contentUrl":"https://milos-timotijevic.github.io/data/entities/entity-graph.jsonld"}
+      ]
+    },
+    "about": ["entity graph", "research knowledge graph", "people", "institutions", "places", "relations", "data provenance", "digital humanities"]
+  }
+  </script>
+</head>
+
+<body id="top">
+<a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
+
+<main id="main-content">
+  <p><a href="../../index.html">← Назад на главну страну / Back to main page</a></p>
+  <p><a href="../../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
+  <p><a href="../../knowledge-graph/entities/">Ентитетски граф / Entity Graph</a></p>
+  <p><a href="../">← Назад на Подаци / Back to Data</a></p>
+
+  <h1>Подаци ентитетског графа</h1>
+  <p><strong lang="en">Entity Graph Data</strong></p>
+  <p class="subtitle">
+    Пилотски скуп ентитета и односа истраживачког корпуса<br>
+    <em lang="en">Pilot Entity and Relation Dataset of the Research Corpus</em>
+  </p>
+
+  <nav class="data-toolbar" aria-label="Навигација странице / Page navigation">
+    <a href="#scope">Обухват / Scope</a>
+    <a href="#files">Скупови / Datasets</a>
+    <a href="#publications">Публикације / Publications</a>
+    <a href="#model">Модел / Model</a>
+    <a href="#verification">Провера / Verification</a>
+    <a href="#citation">Цитирање / Citation</a>
+  </nav>
+
+  <section class="intro-bilingual" aria-labelledby="intro-heading">
+    <h2 id="intro-heading">О овом скупу / <span lang="en">About This Dataset</span></h2>
+    <p>Ова подстраница документује пилотски ентитетско-релациони слој дигиталног научног корпуса. Постојећи Data скуп описује публикације и њихове идентификаторе; овај слој додаје личности, установе, места и проверљиве односе изведене из самих радова.</p>
+    <p lang="en">This subpage documents the pilot entity-relation layer of the digital scholarly corpus. The existing Data collection describes publications and their identifiers; this layer adds people, institutions, places and verifiable relations derived from the works themselves.</p>
+  </section>
+
+  <section id="scope" aria-labelledby="scope-heading">
+    <h2 id="scope-heading">Обухват пилота / <span lang="en">Pilot Scope</span></h2>
+    <div class="stat-grid">
+      <article class="stat-card"><span class="stat-number">61</span><h3>Публикација / Publications</h3></article>
+      <article class="stat-card"><span class="stat-number">507</span><h3>Личности / People</h3></article>
+      <article class="stat-card"><span class="stat-number">100</span><h3>Установе / Institutions</h3></article>
+      <article class="stat-card"><span class="stat-number">85</span><h3>Места / Places</h3></article>
+      <article class="stat-card"><span class="stat-number">48</span><h3>Историјских извора / Historical Sources</h3></article>
+      <article class="stat-card"><span class="stat-number">2045</span><h3>Односа / Relations</h3></article>
+      <article class="stat-card"><span class="stat-number">24</span><h3>Типа односа / Relation Types</h3></article>
+    </div>
+
+    <div class="note">
+      <p><strong>Статус:</strong> <span class="status">пилот 1.1</span></p>
+      <p>Скуп је селективан и служи провери модела. Не представља потпун именски, институционални или географски регистар целокупног опуса.</p>
+      <p lang="en">The dataset is selective and intended to test the model. It is not a complete index of the people, institutions or places represented in the entire corpus.</p>
+    </div>
+  </section>
+
+  <section id="files" aria-labelledby="files-heading">
+    <h2 id="files-heading">Скупови података / <span lang="en">Data Files</span></h2>
+    <p>Фајлови испод чине једну повезану целину. Табеле ентитета добијају стабилне интерне ID ознаке, док <code>relations.csv</code> повезује ентитете и наводи извор сваке тврдње.</p>
+    <p lang="en">The files below form a single connected dataset. Entity tables receive stable internal IDs, while <code>relations.csv</code> connects the entities and records the source of every statement.</p>
+
+    <div class="data-grid">
+      <article class="data-card"><h3><a href="people.csv"><code>people.csv</code></a></h3><p>507 личност, основни биографски подаци, занимања, Wikidata и ORCID идентификатори где постоје.</p><p lang="en">507 people, basic biographical data, occupations and available Wikidata or ORCID identifiers.</p></article>
+      <article class="data-card"><h3><a href="institutions.csv"><code>institutions.csv</code></a></h3><p>100 музеја, архива, цркава, манастира, научних, школских, привредних и државних установа.</p><p lang="en">100 museums, archives, churches, monasteries, scholarly, educational, industrial and state institutions.</p></article>
+      <article class="data-card"><h3><a href="places.csv"><code>places.csv</code></a></h3><p>85 града, вароши, села, природне целине, сакрална комплекса и меморијална простора.</p><p lang="en">85 cities, towns, villages, natural areas, sacred complexes and memorial sites.</p></article>
+      <article class="data-card"><h3><a href="sources.csv"><code>sources.csv</code></a></h3><p>48 историјска извора моделованих као засебни ентитети.</p><p lang="en">48 historical sources modelled as entities in their own right.</p></article>
+      <article class="data-card"><h3><a href="relations.csv"><code>relations.csv</code></a></h3><p>2045 односа: субјекат, тип односа, објекат, извор, место у извору, напомена и степен поузданости.</p><p lang="en">2045 relations: subject, relation type, object, source, source locator, note and confidence level.</p></article>
+      <article class="data-card"><h3><a href="relation-types.csv"><code>relation-types.csv</code></a></h3><p>Контролисани речник од 24 дозвољена односа и типова субјеката и објеката.</p><p lang="en">Controlled vocabulary of 24 allowed relations and subject/object types.</p></article>
+      <article class="data-card"><h3><a href="entity-graph.jsonld"><code>entity-graph.jsonld</code></a></h3><p>Машински читљиви JSON-LD извоз са 2931 чворова и свих 2045 директно уписаних веза.</p><p lang="en">Machine-readable JSON-LD export containing 2931 nodes and all 2045 directly asserted relations.</p></article>
+      <article class="data-card"><h3><a href="entity-manifest.json"><code>entity-manifest.json</code></a></h3><p>Број записа, величина и SHA-256 контролни отисак сваког извоза.</p><p lang="en">Record count, file size and SHA-256 checksum for every export.</p></article>
+    </div>
+
+    <p class="small-note">Седам јавних скупова и контролни манифест чине јединствену верзију 1.1 и непосредно су доступни за преузимање. / The seven public datasets and integrity manifest form a single version 1.1 release and are directly available for download.</p>
+  </section>
+
+  <section id="publications" aria-labelledby="publications-heading">
+    <h2 id="publications-heading">Публикације у пилоту / <span lang="en">Publications in the Pilot</span></h2>
+    <p>Овде се користе канонске ID ознаке из главног <code>publications.csv</code>. Привремене ознаке публикација не користе се у јавном скупу.</p>
+    <p lang="en">This layer uses the canonical IDs from the main <code>publications.csv</code>. Temporary publication labels are not used in the public dataset.</p>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Канонске публикационе ID ознаке / Canonical publication IDs</caption>
+        <thead><tr><th>ID</th><th>Година</th><th>Публикација</th><th>Статус</th></tr></thead>
+        <tbody>
+          <tr><td><code>article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o</code></td><td>2016</td><td><a href="../../articles/kult-svetitelja-mesta-secanja-politicki-mitovi-vujan.html">Култ светитеља, места сећања и политички митови</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2025-ritual-and-politics-the-register-of-godparenthood-of-king-alexander-i</code></td><td>2025</td><td><a href="../../articles/ritual-politika-knjiga-kumstva.html">Ритуал и политика: „Књига кумства” краља Александра I Карађорђевића</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2016-battle-of-ljubic-in-official-representative-culture-of-cacak-in-the-19</code></td><td>2016</td><td><a href="../../conference-papers/boj-na-ljubicu-reprezentativna-kultura-cacka.html">Бој на Љубићу у званичној репрезентативној култури Чачка</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2024-ephemeral-spectacle-and-princely-visits-of-prince-mihailo-obrenovic-to</code></td><td>2024</td><td><a href="../../conference-papers/efemerni-spektakl-knez-mihailo.html">Ефемерни спектакл и владарске посете кнеза Михаила Обреновића</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2023-rulers-and-towns-the-press-on-the-visits-of-the-obrenovic-and-karadjor</code></td><td>2023</td><td><a href="../../conference-papers/vladari-i-varosi.html">Владари и вароши</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2025-usklici-iskrenog-odusevljenja</code></td><td>2025</td><td><a href="../../books/usklici-iskrenog-odusevljenja.html">Усклици искреног одушевљења</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2025-nadezda-petrovic-life-art-service-nation</code></td><td>2025</td><td><a href="../../books/nadezda-petrovic-life-art-service-nation.html">Надежда Петровић: живот и уметност у служби нације</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2026-jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta</code></td><td>2026</td><td><a href="../../articles/jugoslovensko-opredeljenje-nadezde-petrovic-kultura-modernizam-konstrukcija-identiteta.html">Југословенско опредељење Надежде Петровић</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2026-heroization-of-the-painter-nadezda-petrovic-1915-1941</code></td><td>2026</td><td><a href="../../articles/heroizacija-nadezde-petrovic.html">Хероизација сликарке Надежде Петровић (1915–1941)</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2001-politics-art-and-the-creation-of-traditions-the-erection-of-the-nadezd</code></td><td>2001</td><td><a href="../../articles/politika-umetnost-stvaranje-tradicija.html">Политика, уметност и стварање традиција</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2012-balkan-city</code></td><td>2012</td><td><a href="../../books/modernizacija-balkanskog-grada.html">Модернизација балканског града</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>catalogue-2013-cacak-in-the-era-of-socialism-1944-1990-photography-as-a-representatio</code></td><td>2013</td><td><a href="../../catalogues/cacak-u-doba-socijalizma.html">Чачак у доба социјализма (1944–1990): фотографија као репрезент политичке моћи</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2009-prvi-gradjanin-male-varosi</code></td><td>2009</td><td><a href="../../articles/prvi-gradjanin-male-varosi.html">„Први грађанин мале вароши”</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2010-industrijalizacija-cacka-1944-1956</code></td><td>2010</td><td><a href="../../articles/industrijalizacija-cacka-1944-1956.html">Индустријализација Чачка 1944–1956.</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2013-spomen-kosturnica-centralni-trg-cacak-1945-1955</code></td><td>2013</td><td><a href="../../articles/spomen-kosturnica-centralni-trg-cacak-1945-1955.html">„Иако телесно ви нисте живи…”: спомен-костурница на централном тргу у Чачку (1945–1955)</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2024-elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura</code></td><td>2024</td><td><a href="../../conference-papers/elektrifikacija-srbije-posle-1945-hidroelektrane-ovcarsko-kablarska-klisura.html">Електрификација Србије после 1945: хидроелектране у Овчарско-кабларској клисури</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2025-osnivanje-rad-preduzeca-sloboda-cacak-1948-1958</code></td><td>2025</td><td><a href="../../conference-papers/osnivanje-rad-preduzeca-sloboda-cacak-1948-1958.html">Оснивање и рад предузећа „Слобода – Чачак” 1948–1958.</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference-paper-2019-gradski-centar-arhitektonsko-nasledje-socijalizma-cacak</code></td><td>2019</td><td><a href="../../conference-papers/gradski-centar-arhitektonsko-nasledje-socijalizma-cacak.html">Градски центар и архитектонско наслеђе социјализма у Чачку</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-chapter-2007-grad-u-unutrasnjosti</code></td><td>2007</td><td><a href="../../book-chapters/grad-u-unutrasnjosti.html">Град у унутрашњости</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2009-predsednici-opstine-cacak-1944-2010</code></td><td>2009</td><td><a href="../../articles/predsednici-opstine-cacak-1944-2010.html">Председници општине Чачак (1944–2010)</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2008-kulturna-riznica-cacka</code></td><td>2008</td><td><a href="../../books/kulturna-riznica-cacka.html">Културна ризница Чачка: од праисторије до савременог доба</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-chapter-2013-sest-decenija-rada-narodnog-muzeja-cacak-1952-2012</code></td><td>2013</td><td><a href="../../book-chapters/sest-decenija-rada-narodnog-muzeja-cacak-1952-2012.html">Шест деценија рада Народног музеја у Чачку (1952–2012)</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2016-history-department-of-the-national-museum-in-cacak-development-and-str</code></td><td>2016</td><td><a href="../../articles/istorijsko-odeljenje-narodnog-muzeja-cacak-stalna-postavka-1953-2006.html">Историјско одељење Народног музеја у Чачку: повест баштињења и структура сталне поставке (1953–2006)</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2021-hram-vaznesenja-gospodnjeg-u-cacku</code></td><td>2021</td><td><a href="../../books/hram-vaznesenja-gospodnjeg-u-cacku.html">Храм Светог Вазнесења Господњег у Чачку</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2024-permanent-museum-exhibition-uprisings-and-wars-1804-1941-in-the-reside</code></td><td>2024</td><td><a href="../../articles/stalna-muzejska-postavka-ustanci-ratovi-1804-1941-konak-jovana-obrenovica-cacak.html">Стална музејска поставка „Устанци и ратови 1804–1941” у Конаку Јована Обреновића у Чачку</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>catalogue-2010-album-of-old-cacak-1870-1941</code></td><td>2010</td><td><a href="../../catalogues/album-starog-cacka-1870-1941.html">Албум старог Чачка: 1870–1941</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2012-ok-manastiri</code></td><td>2012</td><td><a href="../../books/manastiri-ovcarsko-kablarske-klisure.html">Манастири Овчарско-кабларске клисуре</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2021-deca-svetog-save-zavetna-zajednica</code></td><td>2021</td><td><a href="../../articles/deca-svetog-save-zavetna-zajednica.html">Деца Светог Саве: порекло и смисао заветне заједнице код Срба</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2022-interwar-attitudes-bishop-nikolaj-velimirovic-communists</code></td><td>2022</td><td><a href="../../conference-papers/interwar-attitudes-bishop-nikolaj-velimirovic-communists.html">Interwar Attitudes of Bishop Nikolaj Velimirović toward the Communists</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2026-stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941</code></td><td>2026</td><td><a href="../../articles/stavovi-episkopa-nikolaja-velimirovica-potreba-zrtvovanja-za-otadzbinu-1936-1941.html">Ставови епископа Николаја Велимировића о потреби жртвовања за отаџбину (1936–1941)</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2007-storm-winds-blew-bishop-nikolaj-velimirovics-attitudes-toward-jews-lib</code></td><td>2007</td><td><a href="../../articles/dunuli-su-vihorni-vetrovi-nikolaj-velimirovic.html">„Дунули су вихорни ветрови”: ставови епископа Николаја Велимировића о Јеврејима, либерализму, комунизму и нацизму у штампи Жичке епархије пред Други светски рат</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2008-monastery-of-stjenik-at-the-foot-of-jelica-mountain-real-and-invented</code></td><td>2008</td><td><a href="../../articles/manastir-stjenik-pod-jelicom.html">Манастир Стјеник под Јелицом: стварна и измишљена традиција</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2009-a-century-of-doubt-religious-life-in-the-cacak-district-1886-2008</code></td><td>2009</td><td><a href="../../books/vek-sumnje-religioznost.html">Век сумње: религиозност у чачанском крају 1886–2008</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2023-red-or-holy-russia-a-comparison-of-miroslav-krlezas-and-dragisa-vasics</code></td><td>2023</td><td><a href="../../conference-papers/crvena-ili-sveta-rusija-krleza-vasic.html">„Црвена” или „света” Русија: компарација путописа Мирослава Крлеже и Драгише Васића о првој земљи социјализма</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2006-the-sokol-movement-in-cacak-1910-1941</code></td><td>2006</td><td><a href="../../books/sokoli-cacka.html">Соколи Чачка 1910–1941</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2019-dragisa-vasic-serbian-national-idea</code></td><td>2019</td><td><a href="../../books/dragisa-vasic-serbian-national-idea.html">Драгиша Васић и српска национална идеја</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2022-myths-of-recent-serbian-history</code></td><td>2022</td><td><a href="../../books/mitovi-novije-srpske-istorije.html">Митови новије српске историје</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2007-prostitucija-u-cacku-tokom-xx-veka</code></td><td>2007</td><td><a href="../../articles/prostitucija-u-cacku-tokom-xx-veka.html">Проституција у Чачку током XX века</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2000-nazivi-ulica-cacka-1893-1992</code></td><td>2000</td><td><a href="../../articles/nazivi-ulica-cacka-1893-1992.html">Називи улица Чачка 1893–1992: један век изграђивања колективног идентитета</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2005-carnival-in-guca-trumpet-festival-1961-2004</code></td><td>2005</td><td><a href="../../books/karneval-u-guci.html">Карневал у Гучи: Сабор трубача 1961–2004</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2020-nebeski-znaci-zemaljske-prilike-srbija-1941</code></td><td>2020</td><td><a href="../../articles/nebeski-znaci-zemaljske-prilike-srbija-1941.html">Небески знаци и земаљске прилике: астрономске појаве, метеоролошке промене и геолошка активност у Србији 1941. године</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2018-sudbina-srebra-uzicke-republike</code></td><td>2018</td><td><a href="../../articles/sudbina-srebra-uzicke-republike.html">Судбина сребра Ужичке републике</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2019-finansije-jvuo-u-srbiji-1941-1944</code></td><td>2019</td><td><a href="../../articles/finansije-jvuo-u-srbiji-1941-1944.html">Finansije JVuO u Srbiji 1941–1944.</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>book-2018-zlato-cetnika-i-partizana-2018</code></td><td>2018</td><td><a href="../../books/zlato-cetnika-i-partizana.html">Злато четника и партизана: деконструкција једног мита — финансије и отпор окупатору у Србији и Југославији 1941–1945</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-1999-cacak-predvecerje-drugog-svetskog-rata-1938-1941</code></td><td>1999</td><td><a href="../../articles/cacak-predvecerje-drugog-svetskog-rata-1938-1941.html">Чачак у предвечерје Другог светског рата 1938–1941: социјална, економска и политичка структура</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2008-u-lavirintu-unutrasnjih-granica</code></td><td>2008</td><td><a href="../../articles/u-lavirintu-unutrasnjih-granica.html">У лавиринту унутрашњих граница: положај Чачка у територијалној подели Србије 1804–2009. године</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-1997-opstinska-vlast-cacak-izmedju-dva-rata</code></td><td>1997</td><td><a href="../../articles/opstinska-vlast-cacak-izmedju-dva-rata.html">Општинска власт у Чачку између два светска рата</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2003-woman-and-war-the-other-side-of-the-occupation-1941-1945-in-the-cacak</code></td><td>2003</td><td><a href="../../articles/zena-i-rat-druga-strana-okupacije-1941-1945-cacanski-kraj.html">Жена и рат: „друга страна” окупације 1941–1945. године на простору чачанског краја</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2000-cacak-pod-okupacijom-1941-1944-privreda-drustvo</code></td><td>2000</td><td><a href="../../articles/cacak-pod-okupacijom-1941-1944-privreda-drustvo.html">Чачак под окупацијом 1941–1944: привреда и друштво</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2021-tramvaj-fijaker-bicikl-okupirani-beograd-1941</code></td><td>2021</td><td><a href="../../articles/tramvaj-fijaker-bicikl-okupirani-beograd-1941.html">Трамвај, фијакер и бицикл: саобраћајна свакодневица у окупираном Београду 1941. године</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>conference_paper-2021-the-city-and-occupation-everyday-life-in-cacak-in-1941</code></td><td>2021</td><td><a href="../../conference-papers/grad-i-okupacija-svakodnevni-zivot-cacka-1941.html">Град и окупација – свакодневни живот Чачка 1941. године</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2019-documents-on-the-suffering-of-jews-in-cacak-1941-1942</code></td><td>2019</td><td><a href="https://www.wikidata.org/wiki/Q139550124">Документа о страдању Јевреја у Чачку 1941–1942. године</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2014-suffering-and-rescue-of-jews-in-cacak-and-its-surroundings-1941-1944</code></td><td>2014</td><td><a href="../../articles/stradanje-spasavanje-jevreja-cacak-1941-1944.html">Страдање и спасавање Јевреја у Чачку и околини 1941–1944. године</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2024-varalice-dzeparosi-prostitutke-kriminal-okupirana-srbija-1941</code></td><td>2024</td><td><a href="../../articles/varalice-dzeparosi-prostitutke-kriminal-okupirana-srbija-1941.html">Варалице, џепароши и проститутке: дискурс колаборационистичке штампе о ’лакшим’ облицима криминала у градовима окупиране Србије 1941. године</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2021-krv-medju-bracom-kriminal-sela-okupirana-srbija-1941</code></td><td>2021</td><td><a href="../../articles/krv-medju-bracom-kriminal-sela-okupirana-srbija-1941.html">’Крв међу браћом’: писање колаборационистичке штампе о криминалу у селима окупиране Србије 1941. године</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2021-grad-i-zlocin-kriminal-gradovi-okupirana-srbija-1941</code></td><td>2021</td><td><a href="../../articles/grad-i-zlocin-kriminal-gradovi-okupirana-srbija-1941.html">Град и злочин: писање колаборационистичке штампе о најтежим криминалним делима у градовима окупиране Србије 1941. године</a></td><td><span class="status">checked</span></td></tr>
+          <tr><td><code>article-2021-borba-protiv-razbojnika-silovatelja-zver-zena-komunisti-okupirana-srbija-1941</code></td><td>2021</td><td><a href="../../articles/borba-protiv-razbojnika-silovatelja-zver-zena-komunisti-okupirana-srbija-1941.html">Борба против ’разбојника’, ’силоватеља’ и ’звер-жена’: анализа дискурса колаборационистичке штампе о комунистима у окупираној Србији 1941. године</a></td><td><span class="status">checked</span></td></tr>
+        <tr><td><code>book-2019-brave-partisans-evil-chetniks</code></td><td>2019</td><td><a href="../../books/brave-partisans-evil-chetniks.html">„Храбри“ партизани и „зли“ четници: студије о Србији у Другом светском рату (1941–1945)</a></td><td><span class="status">checked</span></td></tr>
+<tr><td><code>book-2014-ravna-gora</code></td><td>2014</td><td><a href="../../books/ravna-gora.html">Равна гора</a></td><td><span class="status">checked</span></td></tr>
+<tr><td><code>book-2015-zvonko-vuckovic-ratna-biografija</code></td><td>2015</td><td><a href="../../books/zvonko-vuckovic-ratna-biografija.html">Звонко Вучковић: ратна биографија 1941–1944: расправа о проблемима прошлости и садашњости</a></td><td><span class="status">checked</span></td></tr>
+</tbody>
+      </table>
+    </div>
+
+    <div class="identifier-box">
+      <p><strong>Напомена о издању:</strong> главна табела садржи и засебан запис <code>book-2026-usklici-iskrenog-odusevljenja</code>. Пошто је пилот изведен из приложеног издања из 2025. године, све релације у овом пилоту морају користити ID <code>book-2025-usklici-iskrenog-odusevljenja</code>.</p>
+      <p lang="en"><strong>Edition note:</strong> the main table also contains a separate record <code>book-2026-usklici-iskrenog-odusevljenja</code>. Because the pilot was derived from the supplied 2025 edition, all relations in this pilot must use <code>book-2025-usklici-iskrenog-odusevljenja</code>.</p>
+    </div>
+  </section>
+
+  <section id="model" aria-labelledby="model-heading">
+    <h2 id="model-heading">Модел података / <span lang="en">Data Model</span></h2>
+    <p>Основна јединица графа је тврдња у облику <strong>субјекат → однос → објекат</strong>. Свака тврдња има сопствени ID и податак о пореклу.</p>
+    <p lang="en">The basic unit of the graph is a statement in the form <strong>subject → relation → object</strong>. Every statement has its own ID and provenance data.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Поље</th><th>Функција</th></tr></thead>
+        <tbody>
+          <tr><td><code>relation_id</code></td><td>Стабилна ознака појединачне везе.</td></tr>
+          <tr><td><code>subject_id</code></td><td>ID ентитета од кога веза полази.</td></tr>
+          <tr><td><code>relation</code></td><td>Контролисани тип односа.</td></tr>
+          <tr><td><code>object_id</code></td><td>ID ентитета ка коме је веза усмерена.</td></tr>
+          <tr><td><code>source_id</code></td><td>Канонски ID публикације која потврђује или образлаже везу.</td></tr>
+          <tr><td><code>evidence_page</code></td><td>Страница, распон страница или одељак.</td></tr>
+          <tr><td><code>evidence_note</code></td><td>Кратко образложење уноса.</td></tr>
+          <tr><td><code>confidence</code></td><td>Степен поузданости: <code>high</code>, <code>medium</code> или <code>low</code>.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="verification" aria-labelledby="verification-heading">
+    <h2 id="verification-heading">Провера и ограничења / <span lang="en">Verification and Limitations</span></h2>
+    <ul>
+      <li><code>verified</code> — спољни идентификатор је проверен према ауторитетском запису;</li>
+      <li><code>candidate</code> — подударање је вероватно, али захтева ручну потврду;</li>
+      <li><code>local</code> — ентитет засад има само стабилни интерни ID.</li>
+    </ul>
+    <p>Односи означени као <code>medium</code> или <code>low</code> морају бити ручно прегледани пре проширења скупа. Посебно треба раздвојити сложене или неодређене релације, проверити Wikidata идентификаторе и ускладити институције које истовремено функционишу као места.</p>
+    <p lang="en">Relations marked <code>medium</code> or <code>low</code> require manual review before the dataset is expanded. Complex or ambiguous relations should be separated, Wikidata identifiers verified and institutions that also function as places modelled consistently.</p>
+  </section>
+
+  <section id="license" aria-labelledby="license-heading">
+    <h2 id="license-heading">Лиценца и поновна употреба / <span lang="en">License and Reuse</span></h2>
+    <div class="license-box">
+      <p>Метаподаци су намењени објављивању под лиценцом <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>, уз навођење извора.</p>
+      <p>Пуни текстови, фотографије и илустрације нису обухваћени овом лиценцом.</p>
+      <p lang="en">Metadata are intended for release under the Creative Commons Attribution 4.0 International License. Full texts, photographs and illustrations are not covered by this license.</p>
+    </div>
+  </section>
+
+  <section id="citation" aria-labelledby="citation-heading">
+    <h2 id="citation-heading">Како цитирати / <span lang="en">How to Cite</span></h2>
+    <div class="identifier-box">
+      <p>Милош Тимотијевић, „Ентитети и односи: пилотски Data слој истраживачког корпуса”, у: <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, верзија 1.1, приступљено [датум приступа].</p>
+      <p lang="en">Miloš Timotijević, “Entity Graph Data: Pilot Dataset of the Research Corpus” in <em>Miloš Timotijević — Academic Profile and Knowledge Graph</em>, version 1.1, accessed [access date].</p>
+    </div>
+  </section>
+
+  <p class="date-note">Верзија 1.1 · последње ажурирање: 1. новембар 2026. / Version 1.1 · last updated: 1 November 2026.</p>
+
+  <p class="back-link">
+    <a href="#top">↑ На врх / Back to top</a><br>
+    <a href="../../knowledge-graph/entities/">← Ентитетски граф / Entity Graph</a><br>
+    <a href="../">← Назад на Подаци / Back to Data</a><br>
+    <a href="../../knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a>
+  </p>
+
+
+<section id="halyard-candidate-update" aria-label="Статус података / Dataset status"><h2>Статус / Status: кандидатска верзија 1.2</h2><p>Допуњени ваздухопловни подаци (379 авијатичара, 62 летелице) засновани су на прилозима монографије „Мисија Халијард“. Идентификације и спорна места захтевају даљу независну архивску проверу. Напомена: ауторски збир од 63 летелице не подудара се са 62 издвојена табеларна реда.</p><p lang="en">Candidate v1.2: aviation records are sourced to the book’s appendices and are not all independently matched to archival aircrew files. The book's stated total of 63 aircraft differs from the 62 transcribed table rows.</p><p><a href="/data/entities/aircraft.csv">Летелице / Aircraft CSV</a> · <a href="/data/entities/entity-manifest.json">Manifest</a></p></section>
+</main>
+</body>
+</html>
