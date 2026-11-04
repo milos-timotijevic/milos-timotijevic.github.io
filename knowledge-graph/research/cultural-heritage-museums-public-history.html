@@ -211,8 +211,15 @@
   ]
 }
   </script>
+
+<style>
+.site-skip-link{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;background:#fff;color:#0645ad;padding:.5rem;z-index:9999}
+.site-skip-link:focus{left:1rem;top:1rem;width:auto;height:auto;overflow:visible;outline:2px solid currentColor}
+</style>
 </head>
 <body>
+<a class="site-skip-link" href="#main-content">Прескочи на главни садржај / Skip to main content</a>
+<main id="main-content">
 <p id="top"><a href="/knowledge-graph/">← Назад на граф знања / Back to Knowledge Graph</a></p>
 <h1>Културно наслеђе, музеји и јавна историја</h1>
 <p class="subtitle">
@@ -1918,7 +1925,8 @@
     }
   ]
 }
-</script><script type="application/ld+json">
+</script></main>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
