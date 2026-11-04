@@ -8539,7 +8539,8 @@
       "termCode": "theoreticalContext",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html#relation-policy"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html"
     },
     {
       "@type": "DefinedTerm",
@@ -8548,7 +8549,8 @@
       "termCode": "broaderContext",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html#relation-policy"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html"
     },
     {
       "@type": "DefinedTerm",
@@ -8557,7 +8559,8 @@
       "termCode": "comparativeCaseWith",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html#relation-policy"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html"
     },
     {
       "@type": "DefinedTerm",
@@ -8566,7 +8569,8 @@
       "termCode": "conceptuallyRelatedTo",
       "inDefinedTermSet": {
         "@id": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html#relation-policy"
-      }
+      },
+      "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html"
     },
     {
       "@type": "CreativeWork",
