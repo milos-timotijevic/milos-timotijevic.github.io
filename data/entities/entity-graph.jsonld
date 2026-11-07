@@ -68556,6 +68556,4093 @@
         "@language": "sr"
       },
       "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "@type": "CreativeWork",
+      "identifier": "book-2023-cacak-grad-kosarke",
+      "name": [
+        {
+          "@value": "Како је Чачак постао град кошарке (1945–1969): спорт и идентитет",
+          "@language": "sr"
+        },
+        {
+          "@value": "How Čačak Became the City of Basketball, 1945–1969: Sport and Identity",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2023",
+      "url": "https://milos-timotijevic.github.io/books/kako-je-cacak-postao-grad-kosarke.html",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.20484571"
+      ],
+      "concernsPerson": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P515"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P516"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P517"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P518"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P519"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P520"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P521"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P522"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P523"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P524"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P525"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P526"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P527"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P528"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P529"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P530"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P531"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P532"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P533"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P534"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P535"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P536"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P537"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P538"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P539"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P540"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P541"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P542"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P543"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P544"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P545"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P546"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P547"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P548"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P549"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P550"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P551"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P552"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P553"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P554"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P555"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P556"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P557"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P558"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P559"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P560"
+        }
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I113"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I114"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P515",
+      "@type": "Person",
+      "identifier": "P515",
+      "internalId": "P515",
+      "name": [
+        {
+          "@value": "Александар Керковић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Aleksandar Kerkovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 166",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 162; оригинални наслов: АЛЕКСАНДАР КЕРКОВИЋ (1922).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1922"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P516",
+      "@type": "Person",
+      "identifier": "P516",
+      "internalId": "P516",
+      "name": [
+        {
+          "@value": "Миољуб Денић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Mioljub Denitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 169",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 165; оригинални наслов: МИОЉУБ БОЛЕ ДЕНИЋ (1925–2014).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1925",
+      "deathDate": "2014",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P517",
+      "@type": "Person",
+      "identifier": "P517",
+      "internalId": "P517",
+      "name": [
+        {
+          "@value": "Драгић Јовановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragitsh Jovanovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 175",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 171; оригинални наслов: БРАЋА ДРАГИЋ (1927–2019) И ГРАДИМИР ЈОВАНОВИЋ (1931–2005).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1927",
+      "deathDate": "2019"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P518",
+      "@type": "Person",
+      "identifier": "P518",
+      "internalId": "P518",
+      "name": [
+        {
+          "@value": "Градимир Јовановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Gradimir Jovanovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 175",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 171; оригинални наслов: БРАЋА ДРАГИЋ (1927–2019) И ГРАДИМИР ЈОВАНОВИЋ (1931–2005).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1931",
+      "deathDate": "2005"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P519",
+      "@type": "Person",
+      "identifier": "P519",
+      "internalId": "P519",
+      "name": [
+        {
+          "@value": "Миодраг Пантелић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Miodrag Pantelitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 178",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 174; оригинални наслов: МИОДРАГ ЈЕЖО ПАНТЕЛИЋ (1927–2022).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1927",
+      "deathDate": "2022",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P520",
+      "@type": "Person",
+      "identifier": "P520",
+      "internalId": "P520",
+      "name": [
+        {
+          "@value": "Ђорђе Николић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Djordje Nikolitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 180",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 176; оригинални наслов: ЂОРЂЕ НИКОЛИЋ (1928–1993).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1928",
+      "deathDate": "1993",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P521",
+      "@type": "Person",
+      "identifier": "P521",
+      "internalId": "P521",
+      "name": [
+        {
+          "@value": "Александар Икодиновић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Aleksandar Ikodinovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 182",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 178; оригинални наслов: БРАЋА АЛЕКСАНДАР (1929–2015) И СРЕЋКО ИКОДИНОВИЋ (1931–2003).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1929",
+      "deathDate": "2015"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P522",
+      "@type": "Person",
+      "identifier": "P522",
+      "internalId": "P522",
+      "name": [
+        {
+          "@value": "Срећко Икодиновић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sretshko Ikodinovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 182",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 178; оригинални наслов: БРАЋА АЛЕКСАНДАР (1929–2015) И СРЕЋКО ИКОДИНОВИЋ (1931–2003).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1931",
+      "deathDate": "2003"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P523",
+      "@type": "Person",
+      "identifier": "P523",
+      "internalId": "P523",
+      "name": [
+        {
+          "@value": "Владимир Бондаренко",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vladimir Bondarenko",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 185",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 181; оригинални наслов: ВЛАДИМИР ВОВА БОНДАРЕНКО (1930–1982).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1930",
+      "deathDate": "1982",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P524",
+      "@type": "Person",
+      "identifier": "P524",
+      "internalId": "P524",
+      "name": [
+        {
+          "@value": "Душан Јаковљевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dushan Jakovljevitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 187",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 183; оригинални наслов: ДУШАН ДУЛЕ ЈАКОВЉЕВИЋ (1930–1995).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1930",
+      "deathDate": "1995"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P525",
+      "@type": "Person",
+      "identifier": "P525",
+      "internalId": "P525",
+      "name": [
+        {
+          "@value": "Александар Стефановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Aleksandar Stefanovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 190",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 186; оригинални наслов: АЛЕКСАНДАР СТЕФАНОВИЋ (1931–2023).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1931",
+      "deathDate": "2023",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P526",
+      "@type": "Person",
+      "identifier": "P526",
+      "internalId": "P526",
+      "name": [
+        {
+          "@value": "Видосав Новаковић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Vidosav Novakovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 199",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 195; оригинални наслов: ВИДОСАВ ВИДЕ НОВАКОВИЋ (1931–2002).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1931",
+      "deathDate": "2002"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P527",
+      "@type": "Person",
+      "identifier": "P527",
+      "internalId": "P527",
+      "name": [
+        {
+          "@value": "Славољуб Смиљанић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Slavoljub Smiljanitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 202",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 198; оригинални наслов: СЛАВОЉУБ КЕМПО СМИЉАНИЋ (1931–2004).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1931",
+      "deathDate": "2004"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P528",
+      "@type": "Person",
+      "identifier": "P528",
+      "internalId": "P528",
+      "name": [
+        {
+          "@value": "Милован Вуловић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milovan Vulovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 204",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 200; оригинални наслов: МИЛОВАН ВУЛОВИЋ (1931–2019).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1931",
+      "deathDate": "2019",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P529",
+      "@type": "Person",
+      "identifier": "P529",
+      "internalId": "P529",
+      "name": [
+        {
+          "@value": "Љубомир Радивојевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ljubomir Radivojevitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 207",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 203; оригинални наслов: ЉУБОМИР ШАЈА РАДИВОЈЕВИЋ (1932–2018).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1932",
+      "deathDate": "2018",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P530",
+      "@type": "Person",
+      "identifier": "P530",
+      "internalId": "P530",
+      "name": [
+        {
+          "@value": "Радомир Стефановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Radomir Stefanovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 210",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 206; оригинални наслов: РАДОМИР РАШКО СТЕФАНОВИЋ (1932–1990).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1932",
+      "deathDate": "1990"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P531",
+      "@type": "Person",
+      "identifier": "P531",
+      "internalId": "P531",
+      "name": [
+        {
+          "@value": "Милутин Ковачевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milutin Kovachevitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 213",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 209; оригинални наслов: МИЛУТИН КОВАЧЕВИЋ – МИЋО ГУС (1933–2014).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1933",
+      "deathDate": "2014",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P532",
+      "@type": "Person",
+      "identifier": "P532",
+      "internalId": "P532",
+      "name": [
+        {
+          "@value": "Бранко Цицварић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Branko Tsitsvaritsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 216",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 212; оригинални наслов: БРАНКО ЦИЦВАРИЋ (1935–1993).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1935",
+      "deathDate": "1993",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P533",
+      "@type": "Person",
+      "identifier": "P533",
+      "internalId": "P533",
+      "name": [
+        {
+          "@value": "Предраг Курћубић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Predrag Kurtshubitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 218",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 214; оригинални наслов: БРАЋА ПРЕДРАГ (1936–1994) И МИЛАН КУРЋУБИЋ (1955).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1936",
+      "deathDate": "1994",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P534",
+      "@type": "Person",
+      "identifier": "P534",
+      "internalId": "P534",
+      "name": [
+        {
+          "@value": "Милан Курћубић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milan Kurtshubitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 218",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 214; оригинални наслов: БРАЋА ПРЕДРАГ (1936–1994) И МИЛАН КУРЋУБИЋ (1955).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1955"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P535",
+      "@type": "Person",
+      "identifier": "P535",
+      "internalId": "P535",
+      "name": [
+        {
+          "@value": "Слободан Стефановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Slobodan Stefanovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 221",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 217; оригинални наслов: СЛОБОДАН БОБО СТЕФАНОВИЋ (1936).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1936",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P536",
+      "@type": "Person",
+      "identifier": "P536",
+      "internalId": "P536",
+      "name": [
+        {
+          "@value": "Александар Јањић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Aleksandar Janjitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 224",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 220; оригинални наслов: АЛЕКСАНДАР АЦО ЈАЊИЋ (1936–2008).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1936",
+      "deathDate": "2008",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P537",
+      "@type": "Person",
+      "identifier": "P537",
+      "internalId": "P537",
+      "name": [
+        {
+          "@value": "Слободан Гордић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Slobodan Gorditsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 225",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 221; оригинални наслов: СЛОБОДАН РИЦА ГОРДИЋ (1937–2022).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1937",
+      "deathDate": "2022",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I113"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P538",
+      "@type": "Person",
+      "identifier": "P538",
+      "internalId": "P538",
+      "name": [
+        {
+          "@value": "Никола Мишовић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nikola Mishovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 229",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 225; оригинални наслов: НИКОЛА РОКЛИ МИШОВИЋ (1937–2008).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1937",
+      "deathDate": "2008",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P539",
+      "@type": "Person",
+      "identifier": "P539",
+      "internalId": "P539",
+      "name": [
+        {
+          "@value": "Предраг Вучићевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Predrag Vuchitshevitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 234",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 230; оригинални наслов: ПРЕДРАГ ПРЕВО ВУЧИЋЕВИЋ (1937–2002).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1937",
+      "deathDate": "2002",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P540",
+      "@type": "Person",
+      "identifier": "P540",
+      "internalId": "P540",
+      "name": [
+        {
+          "@value": "Слободан Копривица",
+          "@language": "sr"
+        },
+        {
+          "@value": "Slobodan Koprivitsa",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 238",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 234; оригинални наслов: СЛОБОДАН ЦОЊА КОПРИВИЦА (1939–1992).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1939",
+      "deathDate": "1992",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P541",
+      "@type": "Person",
+      "identifier": "P541",
+      "internalId": "P541",
+      "name": [
+        {
+          "@value": "Никола Јековић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nikola Jekovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 242",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 238; оригинални наслов: НИКОЛА КИЦА ЈЕКОВИЋ (1939).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1939",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P542",
+      "@type": "Person",
+      "identifier": "P542",
+      "internalId": "P542",
+      "name": [
+        {
+          "@value": "Ранко Трипковић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ranko Tripkovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 245",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 241; оригинални наслов: РАНКО ЛАЋО ТРИПКОВИЋ (1939–2018).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1939",
+      "deathDate": "2018",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P543",
+      "@type": "Person",
+      "identifier": "P543",
+      "internalId": "P543",
+      "name": [
+        {
+          "@value": "Миодраг Марјановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Miodrag Marjanovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 248",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 244; оригинални наслов: МИОДРАГ МАРЈАНОВИЋ МАРЈАН (1940).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1940",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P544",
+      "@type": "Person",
+      "identifier": "P544",
+      "internalId": "P544",
+      "name": [
+        {
+          "@value": "Томислав Ђелошевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Tomislav Djeloshevitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 251",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 247; оригинални наслов: ТОМИСЛАВ ЂЕЛОШЕВИЋ ЋАМИЛА (1941–2012).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1941",
+      "deathDate": "2012",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P545",
+      "@type": "Person",
+      "identifier": "P545",
+      "internalId": "P545",
+      "name": [
+        {
+          "@value": "Ранко Бугарчић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ranko Bugarchitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 254",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 250; оригинални наслов: РАНКО ЋОПИЦА БУГАРЧИЋ (1941–2021).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1941",
+      "deathDate": "2021",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P546",
+      "@type": "Person",
+      "identifier": "P546",
+      "internalId": "P546",
+      "name": [
+        {
+          "@value": "Ратко Јоксић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ratko Joksitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 257",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 253; оригинални наслов: БРАЋА РАТКО (1941) И АЛЕКСАНДАР ЈОКСИЋ (1943–1993).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1941",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P547",
+      "@type": "Person",
+      "identifier": "P547",
+      "internalId": "P547",
+      "name": [
+        {
+          "@value": "Александар Јоксић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Aleksandar Joksitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 257",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 253; оригинални наслов: БРАЋА РАТКО (1941) И АЛЕКСАНДАР ЈОКСИЋ (1943–1993).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1943",
+      "deathDate": "1993"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P548",
+      "@type": "Person",
+      "identifier": "P548",
+      "internalId": "P548",
+      "name": [
+        {
+          "@value": "Стојан Качар",
+          "@language": "sr"
+        },
+        {
+          "@value": "Stojan Kachar",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 260",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 256; оригинални наслов: СТОЈАН КАЧАР (1941).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1941",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P549",
+      "@type": "Person",
+      "identifier": "P549",
+      "internalId": "P549",
+      "name": [
+        {
+          "@value": "Радмило Мишовић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Radmilo Mishovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 263",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 259; оригинални наслов: РАДМИЛО МИШОВИЋ (1943).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1943",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P550",
+      "@type": "Person",
+      "identifier": "P550",
+      "internalId": "P550",
+      "name": [
+        {
+          "@value": "Јосип Фарчић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Josip Farchitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 272",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 268; оригинални наслов: ЈОСИП ЈОЛЕ ФАРЧИЋ (1945).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1945",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P551",
+      "@type": "Person",
+      "identifier": "P551",
+      "internalId": "P551",
+      "name": [
+        {
+          "@value": "Маринко Пурић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Marinko Puritsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 275",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 271; оригинални наслов: МАРИНКО МАШКО ПУРИЋ (1946–2003).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1946",
+      "deathDate": "2003",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P552",
+      "@type": "Person",
+      "identifier": "P552",
+      "internalId": "P552",
+      "name": [
+        {
+          "@value": "Предраг Катанић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Predrag Katanitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 279",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 275; оригинални наслов: ПРЕДРАГ КАТАНИЋ (1947–2014).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1947",
+      "deathDate": "2014",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P553",
+      "@type": "Person",
+      "identifier": "P553",
+      "internalId": "P553",
+      "name": [
+        {
+          "@value": "Мирко Дробњак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Mirko Drobnjak",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 283",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 279; оригинални наслов: МИРКО ДРОБЊАК (1948).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1948",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P554",
+      "@type": "Person",
+      "identifier": "P554",
+      "internalId": "P554",
+      "name": [
+        {
+          "@value": "Драган Ђукић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragan Djukitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 287",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 283; оригинални наслов: ДРАГАН ЂУКИЋ.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I114"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P555",
+      "@type": "Person",
+      "identifier": "P555",
+      "internalId": "P555",
+      "name": [
+        {
+          "@value": "Садик Зејниловић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Sadik Zejnilovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 289",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 285; оригинални наслов: САДИК ДИДА ЗЕЈНИЛОВИЋ (1949–2020).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1949",
+      "deathDate": "2020"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P556",
+      "@type": "Person",
+      "identifier": "P556",
+      "internalId": "P556",
+      "name": [
+        {
+          "@value": "Милан Петронијевић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milan Petronijevitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 291",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 287; оригинални наслов: МИЛАН ПЕЦА ПЕТРОНИЈЕВИЋ (1950).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1950",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P557",
+      "@type": "Person",
+      "identifier": "P557",
+      "internalId": "P557",
+      "name": [
+        {
+          "@value": "Радивоје Живковић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Radivoje Zhivkovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 295",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 291; оригинални наслов: РАДИВОЈЕ ЖИЛ ЖИВКОВИЋ (1950).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1950",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P558",
+      "@type": "Person",
+      "identifier": "P558",
+      "internalId": "P558",
+      "name": [
+        {
+          "@value": "Зоран Антоновић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Zoran Antonovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 297",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 293; оригинални наслов: ЗОРАН ЦОКО АНТОНОВИЋ (1951).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1951",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I111"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P559",
+      "@type": "Person",
+      "identifier": "P559",
+      "internalId": "P559",
+      "name": [
+        {
+          "@value": "Милош Бохињац",
+          "@language": "sr"
+        },
+        {
+          "@value": "Milosh Bokhinjats",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 299",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 295; оригинални наслов: МИЛОШ БОХИЊАЦ (1951).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1951",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P560",
+      "@type": "Person",
+      "identifier": "P560",
+      "internalId": "P560",
+      "name": [
+        {
+          "@value": "Драган Кићановић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Dragan Kitshanovitsh",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кошаркаш, тренер или спортски делатник",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball player, coach or sports figure",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 301",
+      "sourceEvidenceNote": {
+        "@value": "Посебан биографски одељак на штампаној стр. 297; оригинални наслов: ДРАГАН КИЋАНОВИЋ (1953).",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_biographical_entry",
+      "description": {
+        "@value": "Године живота пренете искључиво из наслова биографије; друго занимање и спољни идентификатори нису реконструисани. Оригинални наслов садржи надимак ако је наведен.",
+        "@language": "sr"
+      },
+      "birthDate": "1953",
+      "affiliatedWith": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I112"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I114"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I111",
+      "internalId": "I111",
+      "name": [
+        {
+          "@value": "Кошаркашки клуб „Борац” Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Borac Čačak Basketball Club",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "кошаркашки клуб",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball club",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Кошаркашки клуб „Борац” Чачак",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 166–312",
+      "sourceEvidenceNote": {
+        "@value": "Клуб има значајну и документовану улогу у биографијама играча и тренера у посебном биографском делу књиге.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Назив и повезивање су засновани на монографији; спољни идентификатори нису аутоматски приписани.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I112",
+      "internalId": "I112",
+      "name": [
+        {
+          "@value": "Кошаркашки клуб „Железничар” Чачак",
+          "@language": "sr"
+        },
+        {
+          "@value": "Železničar Čačak Basketball Club",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "кошаркашки клуб",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball club",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Кошаркашки клуб „Железничар” Чачак",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 166–312",
+      "sourceEvidenceNote": {
+        "@value": "Клуб има значајну и документовану улогу у биографијама играча и тренера у посебном биографском делу књиге.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Назив и повезивање су засновани на монографији; спољни идентификатори нису аутоматски приписани.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I113",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I113",
+      "internalId": "I113",
+      "name": [
+        {
+          "@value": "ОКК Београд",
+          "@language": "sr"
+        },
+        {
+          "@value": "OKK Beograd",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "кошаркашки клуб",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball club",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "ОКК Београд",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 166–312",
+      "sourceEvidenceNote": {
+        "@value": "Клуб има значајну и документовану улогу у биографијама играча и тренера у посебном биографском делу књиге.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Назив и повезивање су засновани на монографији; спољни идентификатори нису аутоматски приписани.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I114",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I114",
+      "internalId": "I114",
+      "name": [
+        {
+          "@value": "Кошаркашки клуб „Партизан” Београд",
+          "@language": "sr"
+        },
+        {
+          "@value": "Partizan Belgrade Basketball Club",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "кошаркашки клуб",
+          "@language": "sr"
+        },
+        {
+          "@value": "basketball club",
+          "@language": "en"
+        }
+      ],
+      "currentName": {
+        "@value": "Кошаркашки клуб „Партизан” Београд",
+        "@language": "sr"
+      },
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "sourceEvidencePage": "PDF 166–312",
+      "sourceEvidenceNote": {
+        "@value": "Клуб има значајну и документовану улогу у биографијама играча и тренера у посебном биографском делу књиге.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "description": {
+        "@value": "Назив и повезивање су засновани на монографији; спољни идентификатори нису аутоматски приписани.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2093",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2093",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P515",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 166",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Александар Керковић, штампана стр. 162; доказни наслов: АЛЕКСАНДАР КЕРКОВИЋ (1922).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2094",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2094",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P516",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 169",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Миољуб Денић, штампана стр. 165; доказни наслов: МИОЉУБ БОЛЕ ДЕНИЋ (1925–2014).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2095",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2095",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P517",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 175",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Драгић Јовановић, штампана стр. 171; доказни наслов: БРАЋА ДРАГИЋ (1927–2019) И ГРАДИМИР ЈОВАНОВИЋ (1931–2005).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2096",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2096",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P518",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 175",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Градимир Јовановић, штампана стр. 171; доказни наслов: БРАЋА ДРАГИЋ (1927–2019) И ГРАДИМИР ЈОВАНОВИЋ (1931–2005).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2097",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2097",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P519",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 178",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Миодраг Пантелић, штампана стр. 174; доказни наслов: МИОДРАГ ЈЕЖО ПАНТЕЛИЋ (1927–2022).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2098",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2098",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P520",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 180",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Ђорђе Николић, штампана стр. 176; доказни наслов: ЂОРЂЕ НИКОЛИЋ (1928–1993).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2099",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2099",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P521",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 182",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Александар Икодиновић, штампана стр. 178; доказни наслов: БРАЋА АЛЕКСАНДАР (1929–2015) И СРЕЋКО ИКОДИНОВИЋ (1931–2003).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2100",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2100",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P522",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 182",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Срећко Икодиновић, штампана стр. 178; доказни наслов: БРАЋА АЛЕКСАНДАР (1929–2015) И СРЕЋКО ИКОДИНОВИЋ (1931–2003).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2101",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2101",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P523",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 185",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Владимир Бондаренко, штампана стр. 181; доказни наслов: ВЛАДИМИР ВОВА БОНДАРЕНКО (1930–1982).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2102",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2102",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P524",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 187",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Душан Јаковљевић, штампана стр. 183; доказни наслов: ДУШАН ДУЛЕ ЈАКОВЉЕВИЋ (1930–1995).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2103",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2103",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P525",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 190",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Александар Стефановић, штампана стр. 186; доказни наслов: АЛЕКСАНДАР СТЕФАНОВИЋ (1931–2023).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2104",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2104",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P526",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 199",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Видосав Новаковић, штампана стр. 195; доказни наслов: ВИДОСАВ ВИДЕ НОВАКОВИЋ (1931–2002).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2105",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2105",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P527",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 202",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Славољуб Смиљанић, штампана стр. 198; доказни наслов: СЛАВОЉУБ КЕМПО СМИЉАНИЋ (1931–2004).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2106",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2106",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P528",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 204",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Милован Вуловић, штампана стр. 200; доказни наслов: МИЛОВАН ВУЛОВИЋ (1931–2019).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2107",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2107",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P529",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 207",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Љубомир Радивојевић, штампана стр. 203; доказни наслов: ЉУБОМИР ШАЈА РАДИВОЈЕВИЋ (1932–2018).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2108",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2108",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P530",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 210",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Радомир Стефановић, штампана стр. 206; доказни наслов: РАДОМИР РАШКО СТЕФАНОВИЋ (1932–1990).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2109",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2109",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P531",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 213",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Милутин Ковачевић, штампана стр. 209; доказни наслов: МИЛУТИН КОВАЧЕВИЋ – МИЋО ГУС (1933–2014).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2110",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2110",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P532",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 216",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Бранко Цицварић, штампана стр. 212; доказни наслов: БРАНКО ЦИЦВАРИЋ (1935–1993).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2111",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2111",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P533",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 218",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Предраг Курћубић, штампана стр. 214; доказни наслов: БРАЋА ПРЕДРАГ (1936–1994) И МИЛАН КУРЋУБИЋ (1955).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2112",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2112",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P534",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 218",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Милан Курћубић, штампана стр. 214; доказни наслов: БРАЋА ПРЕДРАГ (1936–1994) И МИЛАН КУРЋУБИЋ (1955).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2113",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2113",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P535",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 221",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Слободан Стефановић, штампана стр. 217; доказни наслов: СЛОБОДАН БОБО СТЕФАНОВИЋ (1936).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2114",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2114",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P536",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 224",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Александар Јањић, штампана стр. 220; доказни наслов: АЛЕКСАНДАР АЦО ЈАЊИЋ (1936–2008).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2115",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2115",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P537",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 225",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Слободан Гордић, штампана стр. 221; доказни наслов: СЛОБОДАН РИЦА ГОРДИЋ (1937–2022).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2116",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2116",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P538",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 229",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Никола Мишовић, штампана стр. 225; доказни наслов: НИКОЛА РОКЛИ МИШОВИЋ (1937–2008).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2117",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2117",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P539",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 234",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Предраг Вучићевић, штампана стр. 230; доказни наслов: ПРЕДРАГ ПРЕВО ВУЧИЋЕВИЋ (1937–2002).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2118",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2118",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P540",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 238",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Слободан Копривица, штампана стр. 234; доказни наслов: СЛОБОДАН ЦОЊА КОПРИВИЦА (1939–1992).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2119",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2119",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P541",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 242",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Никола Јековић, штампана стр. 238; доказни наслов: НИКОЛА КИЦА ЈЕКОВИЋ (1939).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2120",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2120",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P542",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 245",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Ранко Трипковић, штампана стр. 241; доказни наслов: РАНКО ЛАЋО ТРИПКОВИЋ (1939–2018).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2121",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2121",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P543",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 248",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Миодраг Марјановић, штампана стр. 244; доказни наслов: МИОДРАГ МАРЈАНОВИЋ МАРЈАН (1940).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2122",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2122",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P544",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 251",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Томислав Ђелошевић, штампана стр. 247; доказни наслов: ТОМИСЛАВ ЂЕЛОШЕВИЋ ЋАМИЛА (1941–2012).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2123",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2123",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P545",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 254",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Ранко Бугарчић, штампана стр. 250; доказни наслов: РАНКО ЋОПИЦА БУГАРЧИЋ (1941–2021).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2124",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2124",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P546",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 257",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Ратко Јоксић, штампана стр. 253; доказни наслов: БРАЋА РАТКО (1941) И АЛЕКСАНДАР ЈОКСИЋ (1943–1993).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2125",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2125",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P547",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 257",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Александар Јоксић, штампана стр. 253; доказни наслов: БРАЋА РАТКО (1941) И АЛЕКСАНДАР ЈОКСИЋ (1943–1993).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2126",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2126",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P548",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 260",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Стојан Качар, штампана стр. 256; доказни наслов: СТОЈАН КАЧАР (1941).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2127",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2127",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P549",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 263",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Радмило Мишовић, штампана стр. 259; доказни наслов: РАДМИЛО МИШОВИЋ (1943).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2128",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2128",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P550",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 272",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Јосип Фарчић, штампана стр. 268; доказни наслов: ЈОСИП ЈОЛЕ ФАРЧИЋ (1945).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2129",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2129",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P551",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 275",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Маринко Пурић, штампана стр. 271; доказни наслов: МАРИНКО МАШКО ПУРИЋ (1946–2003).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2130",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2130",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P552",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 279",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Предраг Катанић, штампана стр. 275; доказни наслов: ПРЕДРАГ КАТАНИЋ (1947–2014).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2131",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2131",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P553",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 283",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Мирко Дробњак, штампана стр. 279; доказни наслов: МИРКО ДРОБЊАК (1948).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2132",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2132",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P554",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 287",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Драган Ђукић, штампана стр. 283; доказни наслов: ДРАГАН ЂУКИЋ.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2133",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2133",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P555",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 289",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Садик Зејниловић, штампана стр. 285; доказни наслов: САДИК ДИДА ЗЕЈНИЛОВИЋ (1949–2020).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2134",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2134",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P556",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 291",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Милан Петронијевић, штампана стр. 287; доказни наслов: МИЛАН ПЕЦА ПЕТРОНИЈЕВИЋ (1950).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2135",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2135",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P557",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 295",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Радивоје Живковић, штампана стр. 291; доказни наслов: РАДИВОЈЕ ЖИЛ ЖИВКОВИЋ (1950).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2136",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2136",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P558",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 297",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Зоран Антоновић, штампана стр. 293; доказни наслов: ЗОРАН ЦОКО АНТОНОВИЋ (1951).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2137",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2137",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P559",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 299",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Милош Бохињац, штампана стр. 295; доказни наслов: МИЛОШ БОХИЊАЦ (1951).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2138",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2138",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P560",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 301",
+      "evidenceNote": {
+        "@value": "Посебна биографија личности Драган Кићановић, штампана стр. 297; доказни наслов: ДРАГАН КИЋАНОВИЋ (1953).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2139",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2139",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 169",
+      "evidenceNote": {
+        "@value": "Кошаркашки клуб „Борац” је основна институција развоја кошарке у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2140",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2140",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 178",
+      "evidenceNote": {
+        "@value": "Кошаркашки клуб „Железничар” има посебну улогу у биографијама и локалном ривалству.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2141",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2141",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I113",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 225",
+      "evidenceNote": {
+        "@value": "Каријера Слободана Гордића разматра ОКК Београд.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2142",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2142",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I114",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 301",
+      "evidenceNote": {
+        "@value": "Каријера Драгана Кићановића документује његово деловање у београдском „Партизану”.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2143",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2143",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 7",
+      "evidenceNote": {
+        "@value": "Монографија анализира кошарку и локални идентитет Чачка.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2144",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2144",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 6",
+      "evidenceNote": {
+        "@value": "Импресум: издавач Народни музеј Чачак.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2145",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2145",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P516",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 169",
+      "evidenceNote": {
+        "@value": "У биографији Миољуб Денић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 165 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2146",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2146",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P519",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 178",
+      "evidenceNote": {
+        "@value": "У биографији Миодраг Пантелић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 174 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2147",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2147",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P519",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 178",
+      "evidenceNote": {
+        "@value": "У биографији Миодраг Пантелић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 174 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2148",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2148",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P520",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 180",
+      "evidenceNote": {
+        "@value": "У биографији Ђорђе Николић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 176 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2149",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2149",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P520",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 180",
+      "evidenceNote": {
+        "@value": "У биографији Ђорђе Николић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 176 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2150",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2150",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P523",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 185",
+      "evidenceNote": {
+        "@value": "У биографији Владимир Бондаренко документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 181 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2151",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2151",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P525",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 190",
+      "evidenceNote": {
+        "@value": "У биографији Александар Стефановић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 186 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2152",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2152",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P528",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 204",
+      "evidenceNote": {
+        "@value": "У биографији Милован Вуловић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 200 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2153",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2153",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P529",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 207",
+      "evidenceNote": {
+        "@value": "У биографији Љубомир Радивојевић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 203 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2154",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2154",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P529",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 207",
+      "evidenceNote": {
+        "@value": "У биографији Љубомир Радивојевић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 203 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2155",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2155",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P531",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 213",
+      "evidenceNote": {
+        "@value": "У биографији Милутин Ковачевић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 209 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2156",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2156",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P532",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 216",
+      "evidenceNote": {
+        "@value": "У биографији Бранко Цицварић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 212 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2157",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2157",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P533",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 218",
+      "evidenceNote": {
+        "@value": "У биографији Предраг Курћубић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 214 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2158",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2158",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P533",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 218",
+      "evidenceNote": {
+        "@value": "У биографији Предраг Курћубић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 214 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2159",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2159",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P535",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 221",
+      "evidenceNote": {
+        "@value": "У биографији Слободан Стефановић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 217 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2160",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2160",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P536",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 224",
+      "evidenceNote": {
+        "@value": "У биографији Александар Јањић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 220 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2161",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2161",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P537",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I113",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 225",
+      "evidenceNote": {
+        "@value": "У биографији Слободан Гордић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 221 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2162",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2162",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P537",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 225",
+      "evidenceNote": {
+        "@value": "У биографији Слободан Гордић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 221 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2163",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2163",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P538",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 229",
+      "evidenceNote": {
+        "@value": "У биографији Никола Мишовић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 225 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2164",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2164",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P539",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 234",
+      "evidenceNote": {
+        "@value": "У биографији Предраг Вучићевић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 230 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2165",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2165",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P540",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 238",
+      "evidenceNote": {
+        "@value": "У биографији Слободан Копривица документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 234 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2166",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2166",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P541",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 242",
+      "evidenceNote": {
+        "@value": "У биографији Никола Јековић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 238 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2167",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2167",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P541",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 242",
+      "evidenceNote": {
+        "@value": "У биографији Никола Јековић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 238 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2168",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2168",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P542",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 245",
+      "evidenceNote": {
+        "@value": "У биографији Ранко Трипковић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 241 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2169",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2169",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P543",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 248",
+      "evidenceNote": {
+        "@value": "У биографији Миодраг Марјановић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 244 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2170",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2170",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P543",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 248",
+      "evidenceNote": {
+        "@value": "У биографији Миодраг Марјановић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 244 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2171",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2171",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P544",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 251",
+      "evidenceNote": {
+        "@value": "У биографији Томислав Ђелошевић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 247 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2172",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2172",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P544",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 251",
+      "evidenceNote": {
+        "@value": "У биографији Томислав Ђелошевић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 247 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2173",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2173",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P545",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 254",
+      "evidenceNote": {
+        "@value": "У биографији Ранко Бугарчић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 250 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2174",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2174",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P546",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 257",
+      "evidenceNote": {
+        "@value": "У биографији Ратко Јоксић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 253 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2175",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2175",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P548",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 260",
+      "evidenceNote": {
+        "@value": "У биографији Стојан Качар документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 256 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2176",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2176",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P549",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 263",
+      "evidenceNote": {
+        "@value": "У биографији Радмило Мишовић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 259 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2177",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2177",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P550",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 272",
+      "evidenceNote": {
+        "@value": "У биографији Јосип Фарчић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 268 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2178",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2178",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P551",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 275",
+      "evidenceNote": {
+        "@value": "У биографији Маринко Пурић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 271 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2179",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2179",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P552",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 279",
+      "evidenceNote": {
+        "@value": "У биографији Предраг Катанић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 275 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2180",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2180",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P552",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 279",
+      "evidenceNote": {
+        "@value": "У биографији Предраг Катанић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 275 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2181",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2181",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P553",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 283",
+      "evidenceNote": {
+        "@value": "У биографији Мирко Дробњак документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 279 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2182",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2182",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P553",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 283",
+      "evidenceNote": {
+        "@value": "У биографији Мирко Дробњак документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 279 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2183",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2183",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P554",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I114",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 287",
+      "evidenceNote": {
+        "@value": "У биографији Драган Ђукић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 283 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2184",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2184",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P556",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 291",
+      "evidenceNote": {
+        "@value": "У биографији Милан Петронијевић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 287 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2185",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2185",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P557",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 295",
+      "evidenceNote": {
+        "@value": "У биографији Радивоје Живковић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 291 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2186",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2186",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P558",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I111",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 297",
+      "evidenceNote": {
+        "@value": "У биографији Зоран Антоновић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 293 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2187",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2187",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P559",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 299",
+      "evidenceNote": {
+        "@value": "У биографији Милош Бохињац документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 295 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2188",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2188",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P560",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I112",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 301",
+      "evidenceNote": {
+        "@value": "У биографији Драган Кићановић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 297 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2189",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2189",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P560",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#affiliatedWith",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I114",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2023-cacak-grad-kosarke",
+      "evidencePage": "PDF 301",
+      "evidenceNote": {
+        "@value": "У биографији Драган Кићановић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 297 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
     }
   ]
 }
