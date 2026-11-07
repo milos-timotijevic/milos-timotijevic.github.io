@@ -3,33 +3,33 @@
   "name": "Entity Graph Data — Pilot Dataset",
   "alternateName": "Подаци ентитетског графа — пилотски скуп",
   "version": "1.2",
-  "dateModified": "2026-11-02",
+  "dateModified": "2026-11-07",
   "algorithm": "SHA-256",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datasetUrl": "https://milos-timotijevic.github.io/data/entities/",
   "scope": {
     "publications": 61,
-    "people": 507,
-    "institutions": 100,
+    "people": 509,
+    "institutions": 109,
     "places": 85,
     "historicalSources": 48,
     "aircraft": 62,
-    "relations": 2045,
+    "relations": 2081,
     "relationTypes": 24,
-    "jsonLdNodes": 2931
+    "jsonLdNodes": 2978
   },
   "files": [
     {
       "path": "people.csv",
-      "recordCount": 507,
-      "bytes": 307995,
-      "sha256": "c84e2c3fdef8222d6125e464f0c3f43fbeb376dcd00a2f360e89f923c9509706"
+      "recordCount": 509,
+      "bytes": 308980,
+      "sha256": "d90e339da0fc2800be87a131acbbd7cd1148da3c0a4ad7bffdf3e4f41ca1d3d0"
     },
     {
       "path": "institutions.csv",
-      "recordCount": 100,
-      "bytes": 57918,
-      "sha256": "e9513a2090365a964d7f257fce90b7c9396d023ceeb0a0f0c2ae96a2732f2f33"
+      "recordCount": 109,
+      "bytes": 62152,
+      "sha256": "b41f6fbd3b4ee7ea6812f62f124ac14e29d1070943ca19a37888b14f3126b80b"
     },
     {
       "path": "places.csv",
@@ -51,9 +51,9 @@
     },
     {
       "path": "relations.csv",
-      "recordCount": 2045,
-      "bytes": 661638,
-      "sha256": "370d58545d48161ab6b0e383e7e3454355db3f8c08639a06e8ae61b7175e448b"
+      "recordCount": 2081,
+      "bytes": 669316,
+      "sha256": "c45ab4f0d13501f1109a2ed51c62bb82ca03e45a3c3997814b4db0c80aac2947"
     },
     {
       "path": "relation-types.csv",
@@ -63,9 +63,9 @@
     },
     {
       "path": "entity-graph.jsonld",
-      "recordCount": 2931,
-      "bytes": 3078447,
-      "sha256": "bd4278ee10ae0e0cdd92c63375b180ac8153804e54e5b08f3360545c709e6d56"
+      "recordCount": 2978,
+      "bytes": 3122495,
+      "sha256": "e8fcc896801f5572b222603dcd05a600208be7e4b8c7f3a53ee0d0887bddeb7c"
     }
   ]
 }

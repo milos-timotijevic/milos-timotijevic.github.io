@@ -31,8 +31,8 @@
       ],
       "url": "https://milos-timotijevic.github.io/data/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2026-11-02",
-      "version": "1.2-candidate",
+      "dateModified": "2026-11-07",
+      "version": "1.2",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -67039,6 +67039,1093 @@
           "@id": "https://milos-timotijevic.github.io/data/entities/#HAL-AC-062"
         }
       ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I102",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I102",
+      "internalId": "I102",
+      "name": [
+        {
+          "@value": "Фабрика резног алата — ФРА",
+          "@language": "sr"
+        },
+        {
+          "@value": "Cutting Tools Factory — FRA",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "индустријско предузеће",
+          "@language": "sr"
+        },
+        {
+          "@value": "industrial enterprise",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 196",
+      "sourceEvidenceNote": {
+        "@value": "Анализа увођења западних технологија и извоза у металској индустрији.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I103",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I103",
+      "internalId": "I103",
+      "name": [
+        {
+          "@value": "Предузеће „ЦЕР”",
+          "@language": "sr"
+        },
+        {
+          "@value": "CER Industrial Enterprise",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "индустријско предузеће",
+          "@language": "sr"
+        },
+        {
+          "@value": "industrial enterprise",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 194",
+      "sourceEvidenceNote": {
+        "@value": "Производња индустријских пећи и трансфер технологија.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I104",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I104",
+      "internalId": "I104",
+      "name": [
+        {
+          "@value": "Графичко предузеће „Литопапир”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Litopapir Printing Enterprise",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "графичко предузеће",
+          "@language": "sr"
+        },
+        {
+          "@value": "printing enterprise",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 200",
+      "sourceEvidenceNote": {
+        "@value": "Технолошка обнова, графичка индустрија и завичајне пословне везе.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL002"
+        }
+      ],
+      "historicalName": {
+        "@value": "Предузеће „Светлост”",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I105",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I105",
+      "internalId": "I105",
+      "name": [
+        {
+          "@value": "Општина Благоевград (социјалистичка локална управа)",
+          "@language": "sr"
+        },
+        {
+          "@value": "Blagoevgrad Municipality (socialist-era administration)",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "локална управа",
+          "@language": "sr"
+        },
+        {
+          "@value": "local administration",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 95",
+      "sourceEvidenceNote": {
+        "@value": "Организација локалне управе и улога кметова у социјализму.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL027"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I106",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I106",
+      "internalId": "I106",
+      "name": [
+        {
+          "@value": "Текстилни комбинат „Гоце Делчев” — Благоевград",
+          "@language": "sr"
+        },
+        {
+          "@value": "Gotse Delchev Textile Combine — Blagoevgrad",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "текстилно предузеће",
+          "@language": "sr"
+        },
+        {
+          "@value": "textile enterprise",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 211",
+      "sourceEvidenceNote": {
+        "@value": "Планирано проширење и модернизација производње текстилног комбината.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL027"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I107",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I107",
+      "internalId": "I107",
+      "name": [
+        {
+          "@value": "Завод за високоговорители „Грозден Николов”",
+          "@language": "sr"
+        },
+        {
+          "@value": "Grozden Nikolov Loudspeaker Factory",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "електротехничко предузеће",
+          "@language": "sr"
+        },
+        {
+          "@value": "electronics manufacturer",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 215",
+      "sourceEvidenceNote": {
+        "@value": "Производња звучника, усвајање електронских технологија и квалификација радника.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL027"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I108",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I108",
+      "internalId": "I108",
+      "name": [
+        {
+          "@value": "Драмско позориште „Никола Вапцаров” — Благоевград",
+          "@language": "sr"
+        },
+        {
+          "@value": "Nikola Vaptsarov Drama Theatre — Blagoevgrad",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "позориште",
+          "@language": "sr"
+        },
+        {
+          "@value": "theatre",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 417",
+      "sourceEvidenceNote": {
+        "@value": "Државна културна установа и развој позоришта у социјалистичком граду.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL027"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I109",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I109",
+      "internalId": "I109",
+      "name": [
+        {
+          "@value": "Историјски музеј у Благоевграду",
+          "@language": "sr"
+        },
+        {
+          "@value": "Historical Museum in Blagoevgrad",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "музеј",
+          "@language": "sr"
+        },
+        {
+          "@value": "museum",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 418",
+      "sourceEvidenceNote": {
+        "@value": "Основан 1952; поставке и улога у регионалном културном идентитету.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL027"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#I110",
+      "@type": [
+        "Organization",
+        "kg:Institution"
+      ],
+      "identifier": "I110",
+      "internalId": "I110",
+      "name": [
+        {
+          "@value": "Опера у Благоевграду",
+          "@language": "sr"
+        },
+        {
+          "@value": "Blagoevgrad Opera",
+          "@language": "en"
+        }
+      ],
+      "institutionType": [
+        {
+          "@value": "музичка установа",
+          "@language": "sr"
+        },
+        {
+          "@value": "opera company",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 419",
+      "sourceEvidenceNote": {
+        "@value": "Пресељење из Софије 1977. и локална музичка инфраструктура.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified",
+      "locatedIn": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL027"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P508",
+      "@type": "Person",
+      "identifier": "P508",
+      "internalId": "P508",
+      "name": [
+        {
+          "@value": "Георги Стојанов",
+          "@language": "sr"
+        },
+        {
+          "@value": "Georgi Stoyanov",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кмет Благоевграда",
+          "@language": "sr"
+        },
+        {
+          "@value": "mayor of Blagoevgrad",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 98",
+      "sourceEvidenceNote": {
+        "@value": "Први послератни кмет Благоевграда (1944–1945); у књизи наведен његов политички емигрантски боравак у СССР-у.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P509",
+      "@type": "Person",
+      "identifier": "P509",
+      "internalId": "P509",
+      "name": [
+        {
+          "@value": "Ангел Тасински",
+          "@language": "sr"
+        },
+        {
+          "@value": "Angel Tasinski",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "кмет Благоевграда",
+          "@language": "sr"
+        },
+        {
+          "@value": "mayor of Blagoevgrad",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "sourceEvidencePage": "PDF 99",
+      "sourceEvidenceNote": {
+        "@value": "Кмет Благоевграда (1955–1959); помиње се у компаративној анализи школовања локалних руководилаца.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2046",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2046",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P035",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 98 (штампана 97)",
+      "evidenceNote": {
+        "@value": "Драгомир Минић и механизми кадровске селекције после 1944.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2047",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2047",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 96 (штампана 95)",
+      "evidenceNote": {
+        "@value": "Председник општине као део упоредне анализе локалне власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2048",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2048",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P038",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 96 (штампана 95)",
+      "evidenceNote": {
+        "@value": "Именован у анализи биографија чачанских председника општине.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2049",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2049",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 98 (штампана 97)",
+      "evidenceNote": {
+        "@value": "Разматра се образовни профил и мандат председника општине.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2050",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2050",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P041",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 96 (штампана 95)",
+      "evidenceNote": {
+        "@value": "Помиње се као наследник Милорада Никшића у анализи локалног руководства.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2051",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2051",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P044",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 98 (штампана 97)",
+      "evidenceNote": {
+        "@value": "Упоредна анализа послератних локалних руководилаца.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2052",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2052",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P046",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 97 (штампана 96)",
+      "evidenceNote": {
+        "@value": "Кадровска и социјална структура председника општине у Чачку.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2053",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2053",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P047",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 97 (штампана 96)",
+      "evidenceNote": {
+        "@value": "Упоредна анализа кадрова локалне власти.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2054",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2054",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 401 (штампана 400)",
+      "evidenceNote": {
+        "@value": "Народни музеј Чачак је предмет анализе културне модернизације, не само издавач.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2055",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2055",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 95 (штампана 94)",
+      "evidenceNote": {
+        "@value": "Локална управа и поређење надлежности Чачка и Благоевграда.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2056",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2056",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I018",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 401 (штампана 400)",
+      "evidenceNote": {
+        "@value": "Развој послератног архива у Чачку као установе културног наслеђа.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2057",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2057",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 192 (штампана 191)",
+      "evidenceNote": {
+        "@value": "Индустријски развој и цивилно-војна производња предузећа „Слобода”.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2058",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2058",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 191 (штампана 190)",
+      "evidenceNote": {
+        "@value": "Технички ремонтни завод као део војне индустрије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2059",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2059",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I069",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 403 (штампана 402)",
+      "evidenceNote": {
+        "@value": "Дом културе и институционална модернизација градске културе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2060",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2060",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I102",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 196 (штампана 195)",
+      "evidenceNote": {
+        "@value": "ФРА и примена западне индустријске технологије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2061",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2061",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I103",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 194 (штампана 193)",
+      "evidenceNote": {
+        "@value": "ЦЕР као пример индустријске технологије и извоза.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2062",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2062",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I104",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 200 (штампана 199)",
+      "evidenceNote": {
+        "@value": "Литопапир и развој модерне графичке индустрије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2063",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2063",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I105",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 95 (штампана 94)",
+      "evidenceNote": {
+        "@value": "Институционални развој локалне власти у Благоевграду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2064",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2064",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I106",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 211 (штампана 210)",
+      "evidenceNote": {
+        "@value": "Текстилни комбинат и његова модернизација у Благоевграду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2065",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2065",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I107",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 215 (штампана 214)",
+      "evidenceNote": {
+        "@value": "Производња звучника као нови вид електронске индустрије.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2066",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2066",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I108",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 417 (штампана 416)",
+      "evidenceNote": {
+        "@value": "Позориште и културна институционализација у Благоевграду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2067",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2067",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I109",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 418 (штампана 417)",
+      "evidenceNote": {
+        "@value": "Оснивање и репрезентативна улога Историјског музеја у Благоевграду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2068",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2068",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I110",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 419 (штампана 418)",
+      "evidenceNote": {
+        "@value": "Оснивање и рад оперске установе у Благоевграду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2069",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2069",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P508",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 98 (штампана 97)",
+      "evidenceNote": {
+        "@value": "Први послератни градоначелник Благоевграда и совјетски политички утицај.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2070",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2070",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P509",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 99 (штампана 98)",
+      "evidenceNote": {
+        "@value": "Упоредна анализа образовних профила градоначелника Благоевграда.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2071",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2071",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I102",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 196 (штампана 195)",
+      "evidenceNote": {
+        "@value": "Анализа увођења западних технологија и извоза у металској индустрији.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2072",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2072",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I103",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 194 (штампана 193)",
+      "evidenceNote": {
+        "@value": "Производња индустријских пећи и трансфер технологија.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2073",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2073",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I104",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 200 (штампана 199)",
+      "evidenceNote": {
+        "@value": "Технолошка обнова, графичка индустрија и завичајне пословне везе.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2074",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2074",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I105",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 95 (штампана 94)",
+      "evidenceNote": {
+        "@value": "Организација локалне управе и улога кметова у социјализму.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2075",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2075",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I106",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 211 (штампана 210)",
+      "evidenceNote": {
+        "@value": "Планирано проширење и модернизација производње текстилног комбината.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2076",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2076",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I107",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 215 (штампана 214)",
+      "evidenceNote": {
+        "@value": "Производња звучника, усвајање електронских технологија и квалификација радника.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2077",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2077",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I108",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 417 (штампана 416)",
+      "evidenceNote": {
+        "@value": "Државна културна установа и развој позоришта у социјалистичком граду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2078",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2078",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I109",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 418 (штампана 417)",
+      "evidenceNote": {
+        "@value": "Основан 1952; поставке и улога у регионалном културном идентитету.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2079",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2079",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#I110",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL027",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 419 (штампана 418)",
+      "evidenceNote": {
+        "@value": "Пресељење из Софије 1977. и локална музичка инфраструктура.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2080",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2080",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P508",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#heldOfficeIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I105",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 98 (штампана 97)",
+      "evidenceNote": {
+        "@value": "Георги Стојанов — градоначелник Благоевграда 1944–1945.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2081",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2081",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P509",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#heldOfficeIn",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I105",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2012-balkan-city",
+      "evidencePage": "PDF 99 (штампана 98)",
+      "evidenceNote": {
+        "@value": "Ангел Тасински — градоначелник Благоевграда 1955–1959.",
+        "@language": "sr"
+      },
+      "confidence": "high"
     }
   ]
 }

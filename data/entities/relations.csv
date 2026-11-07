@@ -2044,3 +2044,39 @@ R2042,P505,listedAsCrewOf,HAL-AC-022,book-2020-operation-halyard-war-propaganda-
 R2043,P506,listedAsCrewOf,HAL-AC-021,book-2020-operation-halyard-war-propaganda-the-bombing-of-serbian-cities-and-the,442; 444,Поклапање серијског броја 42-52717 у прилозима 1 и 2; датум пада подудара се.  Основа верификације: two_appendices_same_book.,medium
 R2044,book-2020-operation-halyard-war-propaganda-the-bombing-of-serbian-cities-and-the,concernsPerson,P507,book-2020-operation-halyard-war-propaganda-the-bombing-of-serbian-cities-and-the,433,"Прилог 1: Garland Hargrave, Virginia; исправљен прелом имена након непосредне провере штампане стр. 433.",high
 R2045,P507,listedAsCrewOf,HAL-AC-054,book-2020-operation-halyard-war-propaganda-the-bombing-of-serbian-cities-and-the,433; 445,"Прилози 1 и 2: Garland Hargrave и P-51 серијски број 44-13281; пад 3. 9. 1944; MACR 8623 из прилога 2. Поклапање унутар исте књиге, није независна архивска провера.",medium
+R2046,book-2012-balkan-city,concernsPerson,P035,book-2012-balkan-city,PDF 98 (штампана 97),Драгомир Минић и механизми кадровске селекције после 1944.,high
+R2047,book-2012-balkan-city,concernsPerson,P037,book-2012-balkan-city,PDF 96 (штампана 95),Председник општине као део упоредне анализе локалне власти.,high
+R2048,book-2012-balkan-city,concernsPerson,P038,book-2012-balkan-city,PDF 96 (штампана 95),Именован у анализи биографија чачанских председника општине.,high
+R2049,book-2012-balkan-city,concernsPerson,P040,book-2012-balkan-city,PDF 98 (штампана 97),Разматра се образовни профил и мандат председника општине.,high
+R2050,book-2012-balkan-city,concernsPerson,P041,book-2012-balkan-city,PDF 96 (штампана 95),Помиње се као наследник Милорада Никшића у анализи локалног руководства.,high
+R2051,book-2012-balkan-city,concernsPerson,P044,book-2012-balkan-city,PDF 98 (штампана 97),Упоредна анализа послератних локалних руководилаца.,high
+R2052,book-2012-balkan-city,concernsPerson,P046,book-2012-balkan-city,PDF 97 (штампана 96),Кадровска и социјална структура председника општине у Чачку.,high
+R2053,book-2012-balkan-city,concernsPerson,P047,book-2012-balkan-city,PDF 97 (штампана 96),Упоредна анализа кадрова локалне власти.,high
+R2054,book-2012-balkan-city,concernsInstitution,I001,book-2012-balkan-city,PDF 401 (штампана 400),"Народни музеј Чачак је предмет анализе културне модернизације, не само издавач.",high
+R2055,book-2012-balkan-city,concernsInstitution,I013,book-2012-balkan-city,PDF 95 (штампана 94),Локална управа и поређење надлежности Чачка и Благоевграда.,high
+R2056,book-2012-balkan-city,concernsInstitution,I018,book-2012-balkan-city,PDF 401 (штампана 400),Развој послератног архива у Чачку као установе културног наслеђа.,high
+R2057,book-2012-balkan-city,concernsInstitution,I027,book-2012-balkan-city,PDF 192 (штампана 191),Индустријски развој и цивилно-војна производња предузећа „Слобода”.,high
+R2058,book-2012-balkan-city,concernsInstitution,I030,book-2012-balkan-city,PDF 191 (штампана 190),Технички ремонтни завод као део војне индустрије.,high
+R2059,book-2012-balkan-city,concernsInstitution,I069,book-2012-balkan-city,PDF 403 (штампана 402),Дом културе и институционална модернизација градске културе.,high
+R2060,book-2012-balkan-city,concernsInstitution,I102,book-2012-balkan-city,PDF 196 (штампана 195),ФРА и примена западне индустријске технологије.,high
+R2061,book-2012-balkan-city,concernsInstitution,I103,book-2012-balkan-city,PDF 194 (штампана 193),ЦЕР као пример индустријске технологије и извоза.,high
+R2062,book-2012-balkan-city,concernsInstitution,I104,book-2012-balkan-city,PDF 200 (штампана 199),Литопапир и развој модерне графичке индустрије.,high
+R2063,book-2012-balkan-city,concernsInstitution,I105,book-2012-balkan-city,PDF 95 (штампана 94),Институционални развој локалне власти у Благоевграду.,high
+R2064,book-2012-balkan-city,concernsInstitution,I106,book-2012-balkan-city,PDF 211 (штампана 210),Текстилни комбинат и његова модернизација у Благоевграду.,high
+R2065,book-2012-balkan-city,concernsInstitution,I107,book-2012-balkan-city,PDF 215 (штампана 214),Производња звучника као нови вид електронске индустрије.,high
+R2066,book-2012-balkan-city,concernsInstitution,I108,book-2012-balkan-city,PDF 417 (штампана 416),Позориште и културна институционализација у Благоевграду.,high
+R2067,book-2012-balkan-city,concernsInstitution,I109,book-2012-balkan-city,PDF 418 (штампана 417),Оснивање и репрезентативна улога Историјског музеја у Благоевграду.,high
+R2068,book-2012-balkan-city,concernsInstitution,I110,book-2012-balkan-city,PDF 419 (штампана 418),Оснивање и рад оперске установе у Благоевграду.,high
+R2069,book-2012-balkan-city,concernsPerson,P508,book-2012-balkan-city,PDF 98 (штампана 97),Први послератни градоначелник Благоевграда и совјетски политички утицај.,high
+R2070,book-2012-balkan-city,concernsPerson,P509,book-2012-balkan-city,PDF 99 (штампана 98),Упоредна анализа образовних профила градоначелника Благоевграда.,high
+R2071,I102,locatedIn,PL002,book-2012-balkan-city,PDF 196 (штампана 195),Анализа увођења западних технологија и извоза у металској индустрији.,high
+R2072,I103,locatedIn,PL002,book-2012-balkan-city,PDF 194 (штампана 193),Производња индустријских пећи и трансфер технологија.,high
+R2073,I104,locatedIn,PL002,book-2012-balkan-city,PDF 200 (штампана 199),"Технолошка обнова, графичка индустрија и завичајне пословне везе.",high
+R2074,I105,locatedIn,PL027,book-2012-balkan-city,PDF 95 (штампана 94),Организација локалне управе и улога кметова у социјализму.,high
+R2075,I106,locatedIn,PL027,book-2012-balkan-city,PDF 211 (штампана 210),Планирано проширење и модернизација производње текстилног комбината.,high
+R2076,I107,locatedIn,PL027,book-2012-balkan-city,PDF 215 (штампана 214),"Производња звучника, усвајање електронских технологија и квалификација радника.",high
+R2077,I108,locatedIn,PL027,book-2012-balkan-city,PDF 417 (штампана 416),Државна културна установа и развој позоришта у социјалистичком граду.,high
+R2078,I109,locatedIn,PL027,book-2012-balkan-city,PDF 418 (штампана 417),Основан 1952; поставке и улога у регионалном културном идентитету.,high
+R2079,I110,locatedIn,PL027,book-2012-balkan-city,PDF 419 (штампана 418),Пресељење из Софије 1977. и локална музичка инфраструктура.,high
+R2080,P508,heldOfficeIn,I105,book-2012-balkan-city,PDF 98 (штампана 97),Георги Стојанов — градоначелник Благоевграда 1944–1945.,high
+R2081,P509,heldOfficeIn,I105,book-2012-balkan-city,PDF 99 (штампана 98),Ангел Тасински — градоначелник Благоевграда 1955–1959.,high
