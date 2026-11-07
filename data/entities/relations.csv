@@ -2080,3 +2080,14 @@ R2078,I109,locatedIn,PL027,book-2012-balkan-city,PDF 418 (штампана 417),
 R2079,I110,locatedIn,PL027,book-2012-balkan-city,PDF 419 (штампана 418),Пресељење из Софије 1977. и локална музичка инфраструктура.,high
 R2080,P508,heldOfficeIn,I105,book-2012-balkan-city,PDF 98 (штампана 97),Георги Стојанов — градоначелник Благоевграда 1944–1945.,high
 R2081,P509,heldOfficeIn,I105,book-2012-balkan-city,PDF 99 (штампана 98),Ангел Тасински — градоначелник Благоевграда 1955–1959.,high
+R2082,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsInstitution,I045,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 29; PDF 45; PDF 49,"Епархија ужичка, касније Жичка: седиште у Чачку, црквена управа и улога архијереја.",high
+R2083,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsInstitution,I013,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 47,Општина Чачак је 1853. одлучила о обнови крова цркве и ангажовала мајстора.,high
+R2084,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P004,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 45–46; PDF 89,Јован Обреновић: задужбина Светог Ђорђа и подршка обнови Вазнесењског храма 1834.,high
+R2085,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P055,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 49,Николај Велимировић као жички епископ и пресељење седишта епархије 1934; не приписује се ктиторска улога.,high
+R2086,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P510,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 47; PDF 89–90,Живко Павловић осликао је иконостас од 1841. до 1846; посебно поглавље о његовом раду.,high
+R2087,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P511,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 42,Хајрудин-емин је повезан са преобликовањем некадашње Богородице Градачке у џамију пре 1560.,high
+R2088,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P512,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 43,"Турали-бег довршио џамију, минарет и мектеб; вакуфски чин из 1572.",high
+R2089,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P513,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 47,Наум Јанковић израдио је и реализовао план два звоника (1856–1858).,high
+R2090,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,concernsPerson,P514,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 47,Фердинанд Крен повезан је са радовима на обнови крова 1882.,high
+R2091,P004,restored,I009,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 46,Јован Обреновић пружио је значајну подршку обнови запустеле џамије у православни храм 1834.,high
+R2092,P052,restored,I009,book-2021-hram-vaznesenja-gospodnjeg-u-cacku,PDF 46,Епископ Никифор Максимовић иницирао је обнову и освештао храм 6. септембра 1834.,high

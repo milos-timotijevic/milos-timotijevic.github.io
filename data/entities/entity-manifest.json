@@ -9,21 +9,21 @@
   "datasetUrl": "https://milos-timotijevic.github.io/data/entities/",
   "scope": {
     "publications": 61,
-    "people": 509,
+    "people": 514,
     "institutions": 109,
     "places": 85,
     "historicalSources": 48,
     "aircraft": 62,
-    "relations": 2081,
+    "relations": 2092,
     "relationTypes": 24,
-    "jsonLdNodes": 2978
+    "jsonLdNodes": 2994
   },
   "files": [
     {
       "path": "people.csv",
-      "recordCount": 509,
-      "bytes": 308980,
-      "sha256": "d90e339da0fc2800be87a131acbbd7cd1148da3c0a4ad7bffdf3e4f41ca1d3d0"
+      "recordCount": 514,
+      "bytes": 311543,
+      "sha256": "b9db58e8338edc5ea7f07a509bcc36817e310b9422e154edc58c6d3f07512b05"
     },
     {
       "path": "institutions.csv",
@@ -51,9 +51,9 @@
     },
     {
       "path": "relations.csv",
-      "recordCount": 2081,
-      "bytes": 669316,
-      "sha256": "c45ab4f0d13501f1109a2ed51c62bb82ca03e45a3c3997814b4db0c80aac2947"
+      "recordCount": 2092,
+      "bytes": 672273,
+      "sha256": "b37c7aa7b5602bf844ad1688ece58e57da0f795b28eccd618e7e88331e34a6dd"
     },
     {
       "path": "relation-types.csv",
@@ -63,9 +63,9 @@
     },
     {
       "path": "entity-graph.jsonld",
-      "recordCount": 2978,
-      "bytes": 3122495,
-      "sha256": "e8fcc896801f5572b222603dcd05a600208be7e4b8c7f3a53ee0d0887bddeb7c"
+      "recordCount": 2994,
+      "bytes": 3140428,
+      "sha256": "d70793ca106579b0d22685f47412adc3e15f19bbca812bfa921791bf3d1a9361"
     }
   ]
 }

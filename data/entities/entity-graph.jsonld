@@ -5348,7 +5348,12 @@
         "@value": "Појављује се у реконструкцији раних политичких и династичких односа.",
         "@language": "sr"
       },
-      "verificationStatus": "verified_authority"
+      "verificationStatus": "verified_authority",
+      "restored": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I009"
+        }
+      ]
     },
     {
       "@id": "https://milos-timotijevic.github.io/data/entities/#P005",
@@ -7341,11 +7346,11 @@
       "internalId": "P051",
       "name": [
         {
-          "@value": "Страцимир Завидовић",
+          "@value": "Страцимир Немањић",
           "@language": "sr"
         },
         {
-          "@value": "Stracimir Zavidović",
+          "@value": "Stracimir Nemanjić",
           "@language": "en"
         }
       ],
@@ -7367,9 +7372,19 @@
       },
       "verificationStatus": "source_verified",
       "description": {
-        "@value": "Хронолошке податке и нормативни запис треба накнадно проверити.",
+        "@value": "Син Завиде и брат Стефана Немање. Повезан са средњовековном Богородицом Градачком. Питања прецизне хронологије одвојена су од идентификације личности.",
         "@language": "sr"
-      }
+      },
+      "alternateName": [
+        {
+          "@value": "Страцимир Завидовић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Stracimir Zavidović",
+          "@language": "en"
+        }
+      ]
     },
     {
       "@id": "https://milos-timotijevic.github.io/data/entities/#P052",
@@ -7406,7 +7421,12 @@
       "description": {
         "@value": "Спољни ауторитетски идентификатор није унет без посебне провере.",
         "@language": "sr"
-      }
+      },
+      "restored": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I009"
+        }
+      ]
     },
     {
       "@id": "https://milos-timotijevic.github.io/data/entities/#P053",
@@ -15183,6 +15203,12 @@
       "concernsInstitution": [
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#I009"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I045"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I013"
         }
       ],
       "concernsPlace": [
@@ -15199,6 +15225,27 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/data/entities/#P052"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P004"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P055"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P510"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P511"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P512"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P513"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#P514"
         }
       ],
       "publishedBy": [
@@ -68123,6 +68170,389 @@
       "evidencePage": "PDF 99 (штампана 98)",
       "evidenceNote": {
         "@value": "Ангел Тасински — градоначелник Благоевграда 1955–1959.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P510",
+      "@type": "Person",
+      "identifier": "P510",
+      "internalId": "P510",
+      "name": [
+        {
+          "@value": "Живко Павловић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Živko Pavlović",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "иконописац из Пожаревца",
+          "@language": "sr"
+        },
+        {
+          "@value": "icon painter from Požarevac",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "sourceEvidencePage": "PDF 47; PDF 89",
+      "sourceEvidenceNote": {
+        "@value": "Аутор иконостаса чачанског храма, осликаног 1841–1846.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "description": {
+        "@value": "Изворно документован у књизи; без независног нормативног ID.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P511",
+      "@type": "Person",
+      "identifier": "P511",
+      "internalId": "P511",
+      "name": [
+        {
+          "@value": "Хајрудин-емин",
+          "@language": "sr"
+        },
+        {
+          "@value": "Hayruddin Emin",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "османски задужбинар и организатор претварања цркве у џамију",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ottoman patron associated with the conversion of the church into a mosque",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "sourceEvidencePage": "PDF 42",
+      "sourceEvidenceNote": {
+        "@value": "У XVI веку, пре 1560, над остацима Богородице Градачке изградио џамију.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "description": {
+        "@value": "Османско лично име у облику који даје извор; није независно ауторитетски идентификовано.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P512",
+      "@type": "Person",
+      "identifier": "P512",
+      "internalId": "P512",
+      "name": [
+        {
+          "@value": "Турали-бег",
+          "@language": "sr"
+        },
+        {
+          "@value": "Turali Bey",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "смедеревски санџакбег и османски задужбинар",
+          "@language": "sr"
+        },
+        {
+          "@value": "Smederevo sanjakbey and Ottoman patron",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "sourceEvidencePage": "PDF 43",
+      "sourceEvidenceNote": {
+        "@value": "У седмој деценији XVI века довршио џамију, подигао минарет и мектеб; вакуф 1572.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "description": {
+        "@value": "Облик имена преузет из монографије; без спољног ауторитетског ID.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P513",
+      "@type": "Person",
+      "identifier": "P513",
+      "internalId": "P513",
+      "name": [
+        {
+          "@value": "Наум Јанковић",
+          "@language": "sr"
+        },
+        {
+          "@value": "Naum Janković",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "мајстор градитељ из Београда",
+          "@language": "sr"
+        },
+        {
+          "@value": "master builder from Belgrade",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "sourceEvidencePage": "PDF 47",
+      "sourceEvidenceNote": {
+        "@value": "Израдио план и извео градњу два звоника чачанске цркве 1856–1858.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "description": {
+        "@value": "Изворно документован у монографији.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#P514",
+      "@type": "Person",
+      "identifier": "P514",
+      "internalId": "P514",
+      "name": [
+        {
+          "@value": "Фердинанд Крен",
+          "@language": "sr"
+        },
+        {
+          "@value": "Ferdinand Kren",
+          "@language": "en"
+        }
+      ],
+      "occupationLabel": [
+        {
+          "@value": "чачански индустријалац и добротвор",
+          "@language": "sr"
+        },
+        {
+          "@value": "Čačak industrialist and benefactor",
+          "@language": "en"
+        }
+      ],
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "sourceEvidencePage": "PDF 47",
+      "sourceEvidenceNote": {
+        "@value": "Залагањем Фердинанда Крена 1882. године извршени радови на прекривању храма.",
+        "@language": "sr"
+      },
+      "verificationStatus": "source_verified_no_external_id",
+      "description": {
+        "@value": "Изворно документован у монографији.",
+        "@language": "sr"
+      }
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2082",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2082",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I045",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 29; PDF 45; PDF 49",
+      "evidenceNote": {
+        "@value": "Епархија ужичка, касније Жичка: седиште у Чачку, црквена управа и улога архијереја.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2083",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2083",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I013",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 47",
+      "evidenceNote": {
+        "@value": "Општина Чачак је 1853. одлучила о обнови крова цркве и ангажовала мајстора.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2084",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2084",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P004",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 45–46; PDF 89",
+      "evidenceNote": {
+        "@value": "Јован Обреновић: задужбина Светог Ђорђа и подршка обнови Вазнесењског храма 1834.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2085",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2085",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P055",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 49",
+      "evidenceNote": {
+        "@value": "Николај Велимировић као жички епископ и пресељење седишта епархије 1934; не приписује се ктиторска улога.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2086",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2086",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P510",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 47; PDF 89–90",
+      "evidenceNote": {
+        "@value": "Живко Павловић осликао је иконостас од 1841. до 1846; посебно поглавље о његовом раду.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2087",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2087",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P511",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 42",
+      "evidenceNote": {
+        "@value": "Хајрудин-емин је повезан са преобликовањем некадашње Богородице Градачке у џамију пре 1560.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2088",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2088",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P512",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 43",
+      "evidenceNote": {
+        "@value": "Турали-бег довршио џамију, минарет и мектеб; вакуфски чин из 1572.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2089",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2089",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P513",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 47",
+      "evidenceNote": {
+        "@value": "Наум Јанковић израдио је и реализовао план два звоника (1856–1858).",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2090",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2090",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
+      "object": "https://milos-timotijevic.github.io/data/entities/#P514",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 47",
+      "evidenceNote": {
+        "@value": "Фердинанд Крен повезан је са радовима на обнови крова 1882.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2091",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2091",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P004",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#restored",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 46",
+      "evidenceNote": {
+        "@value": "Јован Обреновић пружио је значајну подршку обнови запустеле џамије у православни храм 1834.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2092",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2092",
+      "subject": "https://milos-timotijevic.github.io/data/entities/#P052",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#restored",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I009",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2021-hram-vaznesenja-gospodnjeg-u-cacku",
+      "evidencePage": "PDF 46",
+      "evidenceNote": {
+        "@value": "Епископ Никифор Максимовић иницирао је обнову и освештао храм 6. септембра 1834.",
         "@language": "sr"
       },
       "confidence": "high"
