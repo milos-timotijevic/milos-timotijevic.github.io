@@ -8,15 +8,15 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datasetUrl": "https://milos-timotijevic.github.io/data/entities/",
   "scope": {
-    "publications": 62,
+    "publications": 63,
     "people": 560,
     "institutions": 113,
     "places": 85,
     "historicalSources": 48,
     "aircraft": 62,
-    "relations": 2189,
+    "relations": 2204,
     "relationTypes": 24,
-    "jsonLdNodes": 3142
+    "jsonLdNodes": 3158
   },
   "files": [
     {
@@ -51,9 +51,9 @@
     },
     {
       "path": "relations.csv",
-      "recordCount": 2189,
-      "bytes": 709249,
-      "sha256": "ca2591decc33e3e9ce6747b3221899543a0707edd041bc3c52158fcec4802eb7"
+      "recordCount": 2204,
+      "bytes": 711497,
+      "sha256": "080423076769e01afacdb94778934b227b38238c63be60ba2e1eb63d0702fdef"
     },
     {
       "path": "relation-types.csv",
@@ -63,9 +63,9 @@
     },
     {
       "path": "entity-graph.jsonld",
-      "recordCount": 3142,
-      "bytes": 3329717,
-      "sha256": "fc9d1b8e45e6d8850f17a8b0209bb2a2be6618763b7930802263ad2917f0ff23"
+      "recordCount": 3158,
+      "bytes": 3343856,
+      "sha256": "b81ab047b10fd6a1e6b055db016a0f8b2de7d2dd26dfa5f30720b7dc2534672e"
     }
   ]
 }

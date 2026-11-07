@@ -16782,6 +16782,78 @@
       "rangeIncludes": "Source"
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "@type": "CreativeWork",
+      "identifier": "book-2024-ok-manastiri",
+      "name": [
+        {
+          "@value": "Манастири Овчарско-кабларске клисуре",
+          "@language": "sr"
+        },
+        {
+          "@value": "Monasteries of the Ovčar-Kablar Gorge",
+          "@language": "en"
+        }
+      ],
+      "datePublished": "2024",
+      "url": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html",
+      "isPartOf": "https://milos-timotijevic.github.io/data/publications.jsonld#dataset",
+      "sameAs": [
+        "https://doi.org/10.65627/nmuc_ok_manastiri.2024"
+      ],
+      "concernsInstitution": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I038"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I039"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I041"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I040"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I034"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I037"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I033"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I042"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I043"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I036"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I035"
+        }
+      ],
+      "concernsPlace": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL016"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL028"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#PL030"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@id": "https://milos-timotijevic.github.io/data/entities/#I001"
+        }
+      ]
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/entities/#R001",
       "@type": [
         "rdf:Statement",
@@ -72640,6 +72712,276 @@
       "evidencePage": "PDF 301",
       "evidenceNote": {
         "@value": "У биографији Драган Кићановић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 297 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2190",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2190",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I038",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 103–126",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Ваведење",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2191",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2191",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I039",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 127–144",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Вазнесење",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2192",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2192",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I041",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 145–164",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Јовање",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2193",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2193",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I040",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 165–182",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Успење",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2194",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2194",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I034",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 183–226",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Никоље",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2195",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2195",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I037",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 227–242",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Преображење",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2196",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2196",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I033",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 255–288",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Благовештење",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2197",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2197",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I042",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 289–300",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Илиње",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2198",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2198",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I043",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 301–308",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Кађеница",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2199",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2199",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I036",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 309–334",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Света Тројица",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2200",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2200",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I035",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 335–364",
+      "evidenceNote": {
+        "@value": "Посебно поглавље: Сретење",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2201",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2201",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL016",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 16–17",
+      "evidenceNote": {
+        "@value": "Карта и садржај: Овчарско-кабларска клисура",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2202",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2202",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL028",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 16–17",
+      "evidenceNote": {
+        "@value": "Карта и садржај: Овчар",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2203",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2203",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
+      "object": "https://milos-timotijevic.github.io/data/entities/#PL030",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 16–17",
+      "evidenceNote": {
+        "@value": "Карта и садржај: Каблар",
+        "@language": "sr"
+      },
+      "confidence": "high"
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/entities/#R2204",
+      "@type": [
+        "rdf:Statement",
+        "kg:RelationStatement"
+      ],
+      "identifier": "R2204",
+      "subject": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#publishedBy",
+      "object": "https://milos-timotijevic.github.io/data/entities/#I001",
+      "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2024-ok-manastiri",
+      "evidencePage": "print pp. 14",
+      "evidenceNote": {
+        "@value": "Народни музеј Чачак",
         "@language": "sr"
       },
       "confidence": "high"

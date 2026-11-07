@@ -1,4 +1,4 @@
-﻿relation_id,subject_id,relation,object_id,source_id,evidence_page,evidence_note,confidence
+relation_id,subject_id,relation,object_id,source_id,evidence_page,evidence_note,confidence
 R001,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,concernsPerson,P006,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,pp. 33–63 (print),Публикација непосредно обрађује личност као значајног актера анализе.,high
 R002,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,concernsPerson,P007,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,pp. 33–63 (print),Публикација непосредно обрађује личност као значајног актера анализе.,high
 R003,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,concernsPerson,P016,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,pp. 33–63 (print),Публикација непосредно обрађује личност као значајног актера анализе.,high
@@ -2188,3 +2188,18 @@ R2186,P558,affiliatedWith,I111,book-2023-cacak-grad-kosarke,PDF 297,"У биог
 R2187,P559,affiliatedWith,I112,book-2023-cacak-grad-kosarke,PDF 299,"У биографији Милош Бохињац документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 295 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",high
 R2188,P560,affiliatedWith,I112,book-2023-cacak-grad-kosarke,PDF 301,"У биографији Драган Кићановић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 297 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",high
 R2189,P560,affiliatedWith,I114,book-2023-cacak-grad-kosarke,PDF 301,"У биографији Драган Кићановић документовано је играчко, тренерско или друго професионално деловање у клубу; штампана стр. 297 и наставак биографије. Наведена је институционална припадност, без претпостављања тачног трајања.",high
+R2190,book-2024-ok-manastiri,concernsInstitution,I038,book-2024-ok-manastiri,print pp. 103–126,Посебно поглавље: Ваведење,high
+R2191,book-2024-ok-manastiri,concernsInstitution,I039,book-2024-ok-manastiri,print pp. 127–144,Посебно поглавље: Вазнесење,high
+R2192,book-2024-ok-manastiri,concernsInstitution,I041,book-2024-ok-manastiri,print pp. 145–164,Посебно поглавље: Јовање,high
+R2193,book-2024-ok-manastiri,concernsInstitution,I040,book-2024-ok-manastiri,print pp. 165–182,Посебно поглавље: Успење,high
+R2194,book-2024-ok-manastiri,concernsInstitution,I034,book-2024-ok-manastiri,print pp. 183–226,Посебно поглавље: Никоље,high
+R2195,book-2024-ok-manastiri,concernsInstitution,I037,book-2024-ok-manastiri,print pp. 227–242,Посебно поглавље: Преображење,high
+R2196,book-2024-ok-manastiri,concernsInstitution,I033,book-2024-ok-manastiri,print pp. 255–288,Посебно поглавље: Благовештење,high
+R2197,book-2024-ok-manastiri,concernsInstitution,I042,book-2024-ok-manastiri,print pp. 289–300,Посебно поглавље: Илиње,high
+R2198,book-2024-ok-manastiri,concernsInstitution,I043,book-2024-ok-manastiri,print pp. 301–308,Посебно поглавље: Кађеница,high
+R2199,book-2024-ok-manastiri,concernsInstitution,I036,book-2024-ok-manastiri,print pp. 309–334,Посебно поглавље: Света Тројица,high
+R2200,book-2024-ok-manastiri,concernsInstitution,I035,book-2024-ok-manastiri,print pp. 335–364,Посебно поглавље: Сретење,high
+R2201,book-2024-ok-manastiri,concernsPlace,PL016,book-2024-ok-manastiri,print pp. 16–17,Карта и садржај: Овчарско-кабларска клисура,high
+R2202,book-2024-ok-manastiri,concernsPlace,PL028,book-2024-ok-manastiri,print pp. 16–17,Карта и садржај: Овчар,high
+R2203,book-2024-ok-manastiri,concernsPlace,PL030,book-2024-ok-manastiri,print pp. 16–17,Карта и садржај: Каблар,high
+R2204,book-2024-ok-manastiri,publishedBy,I001,book-2024-ok-manastiri,print pp. 14,Народни музеј Чачак,high
