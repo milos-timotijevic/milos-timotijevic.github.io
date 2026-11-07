@@ -1,0 +1,596 @@
+﻿iconographic_term_id,iconographic_term,chapter,institution_id,pages_within_chapter,relation_status,source_publication_id
+ICON-0001,Авгаров убрус,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0002,Аврам,Благовештење,I033,275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0003,Адам,Благовештење,I033,269;275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0004,"Ана, мајка Богородице",Никоље,I034,209,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0005,"Ана, пророчица",Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0006,Гаврило,Никоље,I034,204;208;209;214;215;220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0006,Гаврило,Благовештење,I033,271;272;281,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0006,Гаврило,Сретење,I035,358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0007,Михаило,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0007,Михаило,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0007,Михаило,Јовање,I041,161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0007,Михаило,Никоље,I034,208;220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0007,Михаило,Благовештење,I033,269;270;271;272;281,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0007,Михаило,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0007,Михаило,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0008,Рафаило,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0008,Рафаило,Благовештење,I033,272;273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0009,Урило,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0009,Урило,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0010,Бекство у Египат,Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0010,Бекство у Египат,Благовештење,I033,275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0011,Бог Отац,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0012,Богородица,Ваведење,I038,119;120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0012,Богородица,Никоље,I034,204;208;214;215;217,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0012,Богородица,Благовештење,I033,270;272;275;276;281,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0012,Богородица,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0012,Богородица,Сретење,I035,357;358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0013,акатист,Никоље,I034,208;209;210;211,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0013,акатист,Благовештење,I033,274;275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0014,Ваведење,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0014,Ваведење,Никоље,I034,206;209;211,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0014,Ваведење,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0015,Непорочно зачеће,Никоље,I034,209,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0015,Непорочно зачеће,Благовештење,I033,274;275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0016,Покров,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0017,Рођење,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0017,Рођење,Никоље,I034,209;211,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0017,Рођење,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0017,Рођење,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0018,Сусрет Марије и Јелисавете,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0018,Сусрет Марије и Јелисавете,Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0018,Сусрет Марије и Јелисавете,Благовештење,I033,274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0018,Сусрет Марије и Јелисавете,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0018,Сусрет Марије и Јелисавете,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0019,Богородица са Христом,Никоље,I034,200;203;204;208;210;211,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0019,Богородица са Христом,Света Тројица,I036,323;324;328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0019,Богородица са Христом,Сретење,I035,358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0020,Крунисање,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0020,Крунисање,Сретење,I035,351;359,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0021,Одигитрија,Благовештење,I033,260;280,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0022,Оранта,Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0022,Оранта,Сретење,I035,359,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0023,Страсна,Никоље,I034,219;221,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0024,Шира од небеса,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0024,Шира од небеса,Преображење,I037,236,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Ваведење,I038,119;120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Јовање,I041,161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Никоље,I034,204;207;210;214;215,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Преображење,I037,239,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Савиње,,251,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Благовештење,I033,271;276;279,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Света Тројица,I036,327,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0026,Благовести,Сретење,I035,352;358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0027,Васкрсење Лазара,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0029,Вазнесење Христово,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0029,Вазнесење Христово,Никоље,I034,204;206;207;224,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0029,Вазнесење Христово,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0029,Вазнесење Христово,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0030,Крштење Христово,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0031,Преображење Христово,Никоље,I034,206;207,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0031,Преображење Христово,Благовештење,I033,271;279,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0031,Преображење Христово,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0032,Рођење Христово,Никоље,I034,204;207;210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0032,Рођење Христово,Благовештење,I033,271;274;279,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0032,Рођење Христово,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0032,Рођење Христово,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0033,Силазак Св. духа на апостоле (Педесетница),Благовештење,I033,279,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0033,Силазак Св. духа на апостоле (Педесетница),Света Тројица,I036,310,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0033,Силазак Св. духа на апостоле (Педесетница),Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0034,Силазак Христов у aд,Никоље,I034,204;207;215,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0034,Силазак Христов у aд,Благовештење,I033,269;279,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0034,Силазак Христов у aд,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0035,Сретење Господње,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0035,Сретење Господње,Никоље,I034,206;207;210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0035,Сретење Господње,Благовештење,I033,271;275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0035,Сретење Господње,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0036,Улазак у Јерусалим (Цвети),Никоље,I034,206;207,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0036,Улазак у Јерусалим (Цвети),Благовештење,I033,271;279,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0037,Успење Богородице,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0037,Успење Богородице,Никоље,I034,206;207,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0037,Успење Богородице,Благовештење,I033,271;279,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0037,Успење Богородице,Света Тројица,I036,324,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0037,Успење Богородице,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0038,Визија Св. Петра Александријског,Никоље,I034,203,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0038,Визија Св. Петра Александријског,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0039,Гостољубље Аврамово,Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0039,Гостољубље Аврамово,Никоље,I034,204;207,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0039,Гостољубље Аврамово,Благовештење,I033,280;282;286,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0039,Гостољубље Аврамово,Света Тројица,I036,323;324,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0040,Гроб Христов,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0041,Деизис (Деизисни чин),Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0041,Деизис (Деизисни чин),Никоље,I034,208;211,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0041,Деизис (Деизисни чин),Благовештење,I033,269;276;280;281;282;283,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0042,"Ева, прамајка",Благовештење,I033,269;275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0043,Етимисија,Благовештење,I033,275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0044,Исак,Благовештење,I033,275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0045,Јаков,Никоље,I034,209,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0046,"Јоаким, отац Богородице",Никоље,I034,209,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0047,"Јосиф, Богородичин муж",Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0047,"Јосиф, Богородичин муж",Благовештење,I033,274;275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0048,Купина неопалима,Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0049,Лествице Јаковљеве,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0051,Мудраци са истока вођени звездом путују у Витлејем,Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0051,Мудраци са истока вођени звездом путују у Витлејем,Благовештење,I033,274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0052,Небеска литургија,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0053,Неверовање Томино,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0054,Недремано око,Никоље,I034,214;215,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0054,Недремано око,Благовештење,I033,279,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0055,Непорочно зачеће,Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0055,Непорочно зачеће,Благовештење,I033,274;275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0056,Обрезање Христово,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0057,пакао,Благовештење,I033,277,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0058,Повратак мудраца,Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0058,Повратак мудраца,Благовештење,I033,274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0059,Поклоњење архијереја,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0060,Поклоњење мудраца,Никоље,I034,210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0060,Поклоњење мудраца,Благовештење,I033,274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Ваведење,I038,119;120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Јовање,I041,161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Никоље,I034,214;216;220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Преображење,I037,239,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Савиње,,251,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Благовештење,I033,260;279;280;281;282;285,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0062,престона икона Богородица са Христом,Сретење,I035,357;358;359,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Ваведење,I038,119;120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Јовање,I041,161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Никоље,I034,214;216;220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Преображење,I037,239,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Савиње,,251,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Благовештење,I033,280;281;288,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0063,престона икона Исуса Христа,Сретење,I035,358;359,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0064,Авакум,Никоље,I034,206;220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0064,Авакум,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0065,Агеј,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0066,Амос,Никоље,I034,206;220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0066,Амос,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0067,Арон,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0067,Арон,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0068,Валаам врач,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0069,Давид,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0069,Давид,Никоље,I034,206;220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0069,Давид,Благовештење,I033,272;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0069,Давид,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0070,Данило,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0070,Данило,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0070,Данило,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0071,Захарија,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0071,Захарија,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0071,Захарија,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0072,"Захарија, млади",Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0073,Илија,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0073,Илија,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0073,Илија,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0074,Исаија,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0074,Исаија,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0074,Исаија,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0075,Јаков,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0075,Јаков,Благовештење,I033,275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0076,Јелисеј,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0077,Јеремија,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0077,Јеремија,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0077,Јеремија,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0077,Јеремија,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0078,Јован,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0079,Јоил,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0080,Јона,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0080,Јона,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0080,Јона,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0081,Малахија,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0082,Михеј,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0083,Мојсије,Никоље,I034,206;210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0083,Мојсије,Благовештење,I033,276,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0083,Мојсије,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0083,Мојсије,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0084,Натан,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0085,Соломон,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0085,Соломон,Никоље,I034,206;220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0085,Соломон,Благовештење,I033,272;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0085,Соломон,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0086,"Сара, жена Аврамова",Благовештење,I033,283,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0087,Свевидеће око,Никоље,I034,192;215;216;217,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0087,Свевидеће око,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0088,Анастазија,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0089,"Ангелина, жена деспота Стефана Бранковића",Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0090,Варвара,Никоље,I034,204;208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0090,Варвара,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0090,Варвара,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0091,Ефимија,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0092,Ефросинија,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0093,Јелена,Никоље,I034,204;205;206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0093,Јелена,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0093,Јелена,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0094,Јерина,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0095,Јефимија,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0096,Јулита,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0097,Катарина,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0097,Катарина,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0098,Киријака,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0099,Ксенија Римљанка,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0100,"Макрина, сестра Василија Великог",Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0101,Марија Египатска,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0101,Марија Египатска,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0101,Марија Египатска,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0102,Марина,Никоље,I034,205;208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0102,Марина,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0103,Марта,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0104,Меланија Римљанка,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0105,Недеља,Преображење,I037,239,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0105,Недеља,Благовештење,I033,274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0106,Параскева,Јовање,I041,161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0106,Параскева,Преображење,I037,239,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0106,Параскева,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0107,Пелагија,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0108,Петка,Благовештење,I033,274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0109,Текла,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0109,Текла,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0110,Теодора,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0111,Теодосија,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0112,Февронија,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0113,Аверкије,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0114,Авима,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0115,Авксентије,Сретење,I035,352;354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0116,Азарије,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0117,Аксентије,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0117,Аксентије,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0118,Алимпије,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0119,Алимпије Столпник,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0120,Ананије,Никоље,I034,205;208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0121,Андреј Критски,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0122,Антоније,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0122,Антоније,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0123,Антоније Велики,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0123,Антоније Велики,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0124,Аполоније,Благовештење,I033,274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0125,Арсеније,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0126,"Арсеније, архиепископ српски",Благовештење,I033,273;277,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0127,Арсеније Велики,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0128,Артемије,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0128,Артемије,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0129,Атанасије Александријски,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0129,Атанасије Александријски,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0130,Атанасије Атонски,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0131,Ахилије,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0132,Ахилије Моравички,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0133,Бесребреник Кир,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0134,Вакхo,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0135,Василије Велики,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0135,Василије Велики,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0136,Викентије,Никоље,I034,205;208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0136,Викентије,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0137,Виктор,Никоље,I034,205;208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0137,Виктор,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0138,Висарион Чудотворац,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0139,Георгије,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0139,Георгије,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0140,Георгије Кападокијски,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0141,Георгије Нови,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0142,Герасим,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0142,Герасим,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0143,Гервасије,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0144,Гордије,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0145,Григорије Богослов,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0146,Григорије Двојеслов,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0147,Григорије из Нисе,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0148,Григорије Солунски,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0149,Давид Солунски,Благовештење,I033,274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0150,Дамјан,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0150,Дамјан,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0150,Дамјан,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0151,Данило Столпник,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0151,Данило Столпник,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0152,Дионисије Глушитски Нови чудотворац,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0153,Доримедонт,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0154,Евгеније,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0154,Евгеније,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0155,Евстатије,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0155,Евстатије,Сретење,I035,352;358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0156,Евстратије,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0156,Евстратије,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0156,Евстратије,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0157,Елеазар,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0158,Зосим,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0158,Зосим,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0158,Зосим,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0159,Игњатије Богоносац,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0159,Игњатије Богоносац,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0160,Иларион,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0161,Иларион Велики,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0162,Јаков,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0162,Јаков,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0163,Јаков Персијски,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0163,Јаков Персијски,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0164,Јеврем Сирин,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0165,Јевсевије,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0166,Јевтимије,Благовештење,I033,273;274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0167,Јевтимије Велики,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0168,Јефимије,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0169,Јоаким Сарандопорски,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0170,Јоаникије Велики,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0171,Јован,Сретење,I035,358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0172,Јован Бесребреник,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0173,Јован Богослов,Ваведење,I038,119,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0173,Јован Богослов,Никоље,I034,204;214;217,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0173,Јован Богослов,Благовештење,I033,269;279,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0173,Јован Богослов,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0173,Јован Богослов,Сретење,I035,358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0174,Јован Дамаскин,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0175,Јован Златоусти,Јовање,I041,149,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0175,Јован Златоусти,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0175,Јован Златоусти,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0176,Јован Крститељ,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0176,Јован Крститељ,Јовање,I041,158;161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0176,Јован Крститељ,Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0176,Јован Крститељ,Никоље,I034,204;207;214;217;220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0176,Јован Крститељ,Савиње,,251,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0176,Јован Крститељ,Благовештење,I033,269;276;281,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0176,Јован Крститељ,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0177,рођење,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0178,усековање,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0180,Јован Рилски,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0181,Јуда Јаковљев,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0182,Јустин Филозоф,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0183,Калистрат,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0184,Карпа,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0185,Киријак,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0185,Киријак,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0186,Киријак Отшелник,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0187,Кирик,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0188,Кирил Александријски,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0188,Кирил Александријски,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0189,Кирил Белојезерски,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0190,Константин,Никоље,I034,204;205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0190,Константин,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0190,Константин,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0191,Кузман,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0191,Кузман,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0192,"Лаврентије, ђакон",Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0193,"Лазар, Јерусалимски",Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0194,"Лазар, кнез",Благовештење,I033,272;273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0194,"Лазар, кнез",Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0195,Леонтије,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0196,Макарије Египатски,Никоље,I034,208;209,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0196,Макарије Египатски,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0196,Макарије Египатски,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0197,Максим Исповедник,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0198,Мардарије,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0198,Мардарије,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0199,Марко,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0200,Марко Трачки,Никоље,I034,208;209,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0200,Марко Трачки,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0201,Матеја,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0202,Мелентије Антиохијски,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0203,Мина,Никоље,I034,205;208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0203,Мина,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0204,Мисаило,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0205,Никанор,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0206,Никифор,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0207,Никифор Константинопољски,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0208,Никола,Никоље,I034,199;200;201;205;208;214;217,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0208,Никола,Благовештење,I033,270;271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0208,Никола,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0209,води за руку Стефана Дечанског и приводи га Исусу Христу,Никоље,I034,208;209;211,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0209,води за руку Стефана Дечанског и приводи га Исусу Христу,Благовештење,I033,272;273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0210,избавља три праведника из тамнице,Никоље,I034,211,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0211,Никола Нови,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0212,Онуфрије Велики,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0213,Орест,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0213,Орест,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0214,Пантелејмон,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0214,Пантелејмон,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0214,Пантелејмон,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0215,Папила,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0216,Пахомије,Благовештење,I033,273;274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0217,Пахомије Велики,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0218,Петар Коришки,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0219,Полиевкт,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0220,"Прохор, ђакон",Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0221,Прохор Пчињски,Благовештење,I033,273,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0222,"Роман, ђакон",Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0223,Роман Слаткопевац,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0224,Сава Освећени,Благовештење,I033,273;274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0224,Сава Освећени,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0225,Сава Српски,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0225,Сава Српски,Никоље,I034,205;207,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0225,Сава Српски,Преображење,I037,239,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0225,Сава Српски,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0225,Сава Српски,Сретење,I035,358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0226,Салатије,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0227,Северије,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0228,Сергије,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0228,Сергије,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0229,Силвестер,Сретење,I035,358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0230,Симеон,Никоље,I034,206;208;210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0230,Симеон,Благовештење,I033,272;275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0231,Симеон Дивногорац,Сретење,I035,353;354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0232,Симеон Српски (Мироточиви),Никоље,I034,207,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0232,Симеон Српски (Мироточиви),Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0233,Симеон Столпник,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0233,Симеон Столпник,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0234,Симон (Стефан Првовенчани),Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0235,Сисоје,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0235,Сисоје,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0236,Созонтије,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0237,Соломон,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0238,Спиридон,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0238,Спиридон,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0239,"Стефан, архиђакон",Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0239,"Стефан, архиђакон",Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0239,"Стефан, архиђакон",Јовање,I041,161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0239,"Стефан, архиђакон",Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0239,"Стефан, архиђакон",Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0240,Стефан Дечански,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0241,Стефан Нови,Благовештење,I033,274;277,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0242,Стефан Српски,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0243,Талалеј,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0244,Теодосије,Никоље,I034,208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0244,Теодосије,Благовештење,I033,273;274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0244,Теодосије,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0245,Трифун,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0245,Трифун,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0245,Трифун,Сретење,I035,352;354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0246,Трофим,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0247,"Урош, цар",Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0248,Харитон,Благовештење,I033,273;274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0249,Харитон Исповедник,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0250,Христифор,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0251,Четрдесет мученика из Севастије,Сретење,I035,354,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0252,Андреј,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0252,Андреј,Никоље,I034,214;221,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0252,Андреј,Благовештење,I033,276;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0252,Андреј,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0253,Вартоломеј,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0253,Вартоломеј,Никоље,I034,214,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0253,Вартоломеј,Благовештење,I033,276;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0253,Вартоломеј,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0254,Јаков,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0254,Јаков,Благовештење,I033,276;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0255,Јаков Алфејев,Никоље,I034,214,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0255,Јаков Алфејев,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0256,Јаков Заведејев,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0257,Јован,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0257,Јован,Вазнесење,I039,139;141,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0257,Јован,Никоље,I034,214;215;217;219;221;222,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0257,Јован,Благовештење,I033,271;276;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0257,Јован,Сретење,I035,352;357;357;358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0258,Лука,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0258,Лука,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0258,Лука,Никоље,I034,214;215;219,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0258,Лука,Благовештење,I033,271;276,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0258,Лука,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0259,Марко,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0259,Марко,Никоље,I034,214;215;219;221,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0259,Марко,Благовештење,I033,271;276;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0259,Марко,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0260,Матеј,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0260,Матеј,Никоље,I034,214;215,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0260,Матеј,Благовештење,I033,271;272;276,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0260,Матеј,Сретење,I035,352;357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0261,Матија,Благовештење,I033,257,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0262,Павле,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0262,Павле,Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0262,Павле,Никоље,I034,204;214;215,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0262,Павле,Благовештење,I033,276,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0263,Петар,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0263,Петар,Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0263,Петар,Никоље,I034,205;214;215,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0263,Петар,Благовештење,I033,276;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0263,Петар,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0264,Симеон,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0264,Симеон,Никоље,I034,206;208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0264,Симеон,Благовештење,I033,272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0264,Симеон,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0265,Симон Зилот,Никоље,I034,214,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0265,Симон Зилот,Благовештење,I033,276,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0266,Тома,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0266,Тома,Никоље,I034,214;221,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0266,Тома,Благовештење,I033,276;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0266,Тома,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0267,Филип,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0267,Филип,Никоље,I034,214,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0267,Филип,Благовештење,I033,276;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0267,Филип,Сретење,I035,357,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0268,Андреј Стратилат,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0269,Аникита,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0270,Димитрије,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0270,Димитрије,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0271,Димитрије Солунски,Благовештење,I033,274,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0271,Димитрије Солунски,Сретење,I035,351;352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0272,Меркурије,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0272,Меркурије,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0273,Нестор,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0273,Нестор,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0273,Нестор,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0274,Никита,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0275,Прокопије,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0275,Прокопије,Благовештење,I033,270,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0275,Прокопије,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0276,Сава Стратилат,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0277,Теодор Стратилат,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0277,Теодор Стратилат,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0277,Теодор Стратилат,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0278,Теодор Тирон,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0278,Теодор Тирон,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0278,Теодор Тирон,Сретење,I035,351,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0279,Фотије,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0280,Свештеник недостојан служити свету тајну свезан од анђела,Сретење,I035,351;358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0281,серафими,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0281,серафими,Благовештење,I033,272;275,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0281,серафими,Сретење,I035,358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0282,Скинија,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0283,Служба Агнецу (Служење литургије),Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0284,Страшни суд,Ваведење,I038,111;114,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0284,Страшни суд,Благовештење,I033,275;276;277,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0285,Убрус Христов,Сретење,I035,352,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0286,херувими,Никоље,I034,214;215,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0286,херувими,Сретење,I035,353,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Ваведење,I038,119;120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Вазнесење,I039,139,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Јовање,I041,161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Никоље,I034,200;201;203;204;205;206;207;208;209;210;211;214;215;216;217;219;220;221;224,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Преображење,I037,236;239,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Савиње,,251,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Благовештење,I033,269;270;271;272;273;274;275;276;279;280;281;282;285,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Кађеница,I043,305,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Света Тројица,I036,323;324;328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0287,Христос,Сретење,I035,351;352;353;354;357;358;359,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0288,Дух Божији,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0289,Дух крепости,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0290,Дух премудрости,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0291,Дух разума,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0292,Дух савета,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0293,Дух сазнања,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0294,Дух страха Божијег,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0295,Издајство Јудино,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0295,Издајство Јудино,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0296,Одрицање Петрово,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0297,Оплакивање Христа,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0298,Пилатов суд,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0298,Пилатов суд,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0299,Полагање Христа у гроб,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0300,Прање ногу,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0301,Пут Христов на Голготу,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Ваведење,I038,119;120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Вазнесење,I039,139;141,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Јовање,I041,161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Успење,I040,179,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Никоље,I034,192;206;214;217;224,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Преображење,I037,239,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Савиње,,251,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Благовештење,I033,271;279;280;281;283,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Кађеница,I043,305,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0302,Распеће,Сретење,I035,357;358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0303,Ругање Христу,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0304,Скидање са крста,Благовештење,I033,271,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0305,Тајна вечера,Ваведење,I038,120,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0305,Тајна вечера,Јовање,I041,161,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0305,Тајна вечера,Никоље,I034,205,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0305,Тајна вечера,Преображење,I037,239,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0305,Тајна вечера,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0305,Тајна вечера,Сретење,I035,358,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0306,Агнец на патени,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0307,Анђео Великог савета,Никоље,I034,205;207,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0308,Емануило,Никоље,I034,206;207;210,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0308,Емануило,Благовештење,I033,271;282,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0309,Мали Христос,Ваведење,I038,119,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0310,Мртви Христос,Никоље,I034,204,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0310,Мртви Христос,Благовештење,I033,269,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0311,Пантократор,Никоље,I034,206,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0311,Пантократор,Благовештење,I033,269;272,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0311,Пантократор,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0312,Премудрост,Никоље,I034,187;203;205;206;207;208,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0313,Саваот,Никоље,I034,220,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0314,Старац Данима,Благовештење,I033,281,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0315,Христос као судија света,Благовештење,I033,276,chapter-level_locator_only,book-2024-ok-manastiri
+ICON-0316,Исцељење луде жене,Света Тројица,I036,328,chapter-level_locator_only,book-2024-ok-manastiri
