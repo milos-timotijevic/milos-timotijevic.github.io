@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.2",
+  "name": "Entity Graph Data — Pilot Dataset",
+  "alternateName": "Подаци ентитетског графа — пилотски скуп",
+  "version": "1.4-rc1",
+  "dateModified": "2026-11-26",
+  "algorithm": "SHA-256",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datasetUrl": "https://milos-timotijevic.github.io/data/entities/",
+  "scope": {
+    "publications": 64,
+    "people": 570,
+    "institutions": 121,
+    "places": 90,
+    "historicalSources": 58,
+    "aircraft": 62,
+    "relations": 2287,
+    "relationTypes": 24,
+    "jsonLdNodes": 3277
+  },
+  "files": [
+    {
+      "path": "people.csv",
+      "recordCount": 570,
+      "bytes": 351929,
+      "sha256": "bb15568cd6e6eb93c12b9107ef1bd6069512b078ded70ccd6f025ec5a42390dd"
+    },
+    {
+      "path": "institutions.csv",
+      "recordCount": 121,
+      "bytes": 69854,
+      "sha256": "4fafe8f9a5bde32cf6666db94d43f6e3a6055eb175d50cb3d93415066fd079ec"
+    },
+    {
+      "path": "places.csv",
+      "recordCount": 90,
+      "bytes": 41531,
+      "sha256": "d26bd15c2476c41b859ab3c065d575762cf353eea2a9e2ed5bd8cc08e42281f0"
+    },
+    {
+      "path": "sources.csv",
+      "recordCount": 58,
+      "bytes": 26064,
+      "sha256": "caa408c7d981780286dc7d5e84ef8f93b357afaacea1bf9c972dbd8d28bdfb8b"
+    },
+    {
+      "path": "aircraft.csv",
+      "recordCount": 62,
+      "bytes": 31382,
+      "sha256": "d891ba07bbc6c5fa7d4343d48bbabd1dd58016565a542c57b967ecbee36d8855"
+    },
+    {
+      "path": "relations.csv",
+      "recordCount": 2287,
+      "bytes": 742338,
+      "sha256": "cbb50f689809c59548206e27a4cb2d23b14e96ddaa93854c85e8dc6979917d9c"
+    },
+    {
+      "path": "relation-types.csv",
+      "recordCount": 24,
+      "bytes": 12309,
+      "sha256": "1c534845807e141e7574c8fe1b4965d1985064e5ed1600540d0fa9605a421402"
+    },
+    {
+      "path": "entity-graph.jsonld",
+      "recordCount": 3277,
+      "bytes": 3638477,
+      "sha256": "81a4dc4b33e0669388ce18ffb1e67f681e8c81205629ea30a30ff96d548faaba"
+    }
+  ]
+}

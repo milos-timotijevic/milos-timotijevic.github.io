@@ -1464,6 +1464,40 @@
       ]
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0705",
+      "@type": "CreativeWork",
+      "identifier": "UIO-A0705",
+      "name": "Маринковић Милован М.",
+      "inLanguage": "sr",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+      },
+      "pagination": "224",
+      "description": "Одликовање наведено у прилогу 2 монографије; идентитет лица није независно потврђен.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "source_id",
+          "value": "book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pdf_page",
+          "value": "228"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "record_type",
+          "value": "awards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "award_category_as_source",
+          "value": "Орден двоглавог белог орла IV реда"
+        }
+      ]
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0044",
       "@type": "CreativeWork",
       "identifier": "UIO-A0044",
@@ -3776,6 +3810,40 @@
       ]
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0706",
+      "@type": "CreativeWork",
+      "identifier": "UIO-A0706",
+      "name": "Крсмановић Димитрије",
+      "inLanguage": "sr",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+      },
+      "pagination": "226",
+      "description": "Одликовање наведено у прилогу 2 монографије; идентитет лица није независно потврђен.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "source_id",
+          "value": "book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pdf_page",
+          "value": "230"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "record_type",
+          "value": "awards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "award_category_as_source",
+          "value": "Орден таковског крста II реда"
+        }
+      ]
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0112",
       "@type": "CreativeWork",
       "identifier": "UIO-A0112",
@@ -5309,7 +5377,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0157",
       "@type": "CreativeWork",
       "identifier": "UIO-A0157",
-      "name": "Атанацковић Светислав потпуковник (23. јул/5. август 1901)",
+      "name": "Атанацковић Светислав",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -6092,6 +6160,40 @@
       "@type": "CreativeWork",
       "identifier": "UIO-A0180",
       "name": "Ђуричић Марко",
+      "inLanguage": "sr",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+      },
+      "pagination": "228",
+      "description": "Одликовање наведено у прилогу 2 монографије; идентитет лица није независно потврђен.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "source_id",
+          "value": "book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pdf_page",
+          "value": "232"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "record_type",
+          "value": "awards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "award_category_as_source",
+          "value": "Орден таковског крста IV реда"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0707",
+      "@type": "CreativeWork",
+      "identifier": "UIO-A0707",
+      "name": "Жарић Симо",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -10984,6 +11086,40 @@
       ]
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0708",
+      "@type": "CreativeWork",
+      "identifier": "UIO-A0708",
+      "name": "Кундовић Милосав",
+      "inLanguage": "sr",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+      },
+      "pagination": "232",
+      "description": "Одликовање наведено у прилогу 2 монографије; идентитет лица није независно потврђен.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "source_id",
+          "value": "book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pdf_page",
+          "value": "236"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "record_type",
+          "value": "awards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "award_category_as_source",
+          "value": "Орден таковског крста V реда"
+        }
+      ]
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0324",
       "@type": "CreativeWork",
       "identifier": "UIO-A0324",
@@ -13534,6 +13670,40 @@
       ]
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0709",
+      "@type": "CreativeWork",
+      "identifier": "UIO-A0709",
+      "name": "Симић Михаило",
+      "inLanguage": "sr",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+      },
+      "pagination": "234",
+      "description": "Одликовање наведено у прилогу 2 монографије; идентитет лица није независно потврђен.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "source_id",
+          "value": "book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pdf_page",
+          "value": "238"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "record_type",
+          "value": "awards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "award_category_as_source",
+          "value": "Орден таковског крста V реда"
+        }
+      ]
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0399",
       "@type": "CreativeWork",
       "identifier": "UIO-A0399",
@@ -15710,6 +15880,40 @@
       ]
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0710",
+      "@type": "CreativeWork",
+      "identifier": "UIO-A0710",
+      "name": "Спасић Драгољуб",
+      "inLanguage": "sr",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+      },
+      "pagination": "236",
+      "description": "Одликовање наведено у прилогу 2 монографије; идентитет лица није независно потврђен.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "source_id",
+          "value": "book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pdf_page",
+          "value": "240"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "record_type",
+          "value": "awards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "award_category_as_source",
+          "value": "Орден Светог Саве IV реда"
+        }
+      ]
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0463",
       "@type": "CreativeWork",
       "identifier": "UIO-A0463",
@@ -17481,7 +17685,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0515",
       "@type": "CreativeWork",
       "identifier": "UIO-A0515",
-      "name": "Љубичић Василије (26. јул/8. август 1901)",
+      "name": "Љубичић Василије",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -18162,6 +18366,40 @@
       "@type": "CreativeWork",
       "identifier": "UIO-A0535",
       "name": "Палеташевић Урош",
+      "inLanguage": "sr",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+      },
+      "pagination": "238",
+      "description": "Одликовање наведено у прилогу 2 монографије; идентитет лица није независно потврђен.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "source_id",
+          "value": "book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pdf_page",
+          "value": "242"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "record_type",
+          "value": "awards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "award_category_as_source",
+          "value": "Орден Светог Саве V реда"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0711",
+      "@type": "CreativeWork",
+      "identifier": "UIO-A0711",
+      "name": "Панић др Лука",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -20746,6 +20984,40 @@
       "@type": "CreativeWork",
       "identifier": "UIO-A0611",
       "name": "Јовановић Михаило Љ.",
+      "inLanguage": "sr",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+      },
+      "pagination": "240",
+      "description": "Одликовање наведено у прилогу 2 монографије; идентитет лица није независно потврђен.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "source_id",
+          "value": "book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pdf_page",
+          "value": "244"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "record_type",
+          "value": "awards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "award_category_as_source",
+          "value": "Медаља за војничке врлине"
+        }
+      ]
+    },
+    {
+      "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0712",
+      "@type": "CreativeWork",
+      "identifier": "UIO-A0712",
+      "name": "Јовановић Симеун",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -23462,6 +23734,40 @@
       ]
     },
     {
+      "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0713",
+      "@type": "CreativeWork",
+      "identifier": "UIO-A0713",
+      "name": "Станковић Светозар",
+      "inLanguage": "sr",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
+      },
+      "pagination": "242",
+      "description": "Одликовање наведено у прилогу 2 монографије; идентитет лица није независно потврђен.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "source_id",
+          "value": "book-2025-usklici-iskrenog-odusevljenja"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pdf_page",
+          "value": "246"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "record_type",
+          "value": "awards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "award_category_as_source",
+          "value": "Медаља за војничке врлине"
+        }
+      ]
+    },
+    {
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-A0691",
       "@type": "CreativeWork",
       "identifier": "UIO-A0691",
@@ -24893,7 +25199,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0029",
       "@type": "CreativeWork",
       "identifier": "UIO-L0029",
-      "name": "Чумић Аћим 245",
+      "name": "Чумић Аћим",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -24927,7 +25233,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0030",
       "@type": "CreativeWork",
       "identifier": "UIO-L0030",
-      "name": "",
+      "name": "Мијаиловић Тодор",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -24961,7 +25267,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0031",
       "@type": "CreativeWork",
       "identifier": "UIO-L0031",
-      "name": "",
+      "name": "Поповић Светозар",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25029,7 +25335,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0033",
       "@type": "CreativeWork",
       "identifier": "UIO-L0033",
-      "name": "",
+      "name": "Вуковић Паја",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25063,7 +25369,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0034",
       "@type": "CreativeWork",
       "identifier": "UIO-L0034",
-      "name": "",
+      "name": "Дреновац Арса",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25097,7 +25403,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0035",
       "@type": "CreativeWork",
       "identifier": "UIO-L0035",
-      "name": "",
+      "name": "Тодоровић Веља",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25131,7 +25437,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0036",
       "@type": "CreativeWork",
       "identifier": "UIO-L0036",
-      "name": "",
+      "name": "Љотић Влада",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25199,7 +25505,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0038",
       "@type": "CreativeWork",
       "identifier": "UIO-L0038",
-      "name": "",
+      "name": "Поповић Стева Р.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25233,7 +25539,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0039",
       "@type": "CreativeWork",
       "identifier": "UIO-L0039",
-      "name": "",
+      "name": "Марковић Милутин",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25267,7 +25573,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0040",
       "@type": "CreativeWork",
       "identifier": "UIO-L0040",
-      "name": "",
+      "name": "Пачу Лаза",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25301,7 +25607,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0041",
       "@type": "CreativeWork",
       "identifier": "UIO-L0041",
-      "name": "",
+      "name": "Миловановић Милија",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25335,7 +25641,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0042",
       "@type": "CreativeWork",
       "identifier": "UIO-L0042",
-      "name": "",
+      "name": "Новаковић Ђорђе С.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25369,7 +25675,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0043",
       "@type": "CreativeWork",
       "identifier": "UIO-L0043",
-      "name": "",
+      "name": "Сретеновић Љуба",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25437,7 +25743,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0045",
       "@type": "CreativeWork",
       "identifier": "UIO-L0045",
-      "name": "",
+      "name": "Вукчевић Станојло",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25471,7 +25777,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0046",
       "@type": "CreativeWork",
       "identifier": "UIO-L0046",
-      "name": "",
+      "name": "Илић Лаза",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25505,7 +25811,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-L0047",
       "@type": "CreativeWork",
       "identifier": "UIO-L0047",
-      "name": "",
+      "name": "Ружић Доброслав М.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25539,7 +25845,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0001",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0001",
-      "name": "Радовановић Милић",
+      "name": "Радовановић Милић Ј.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25573,7 +25879,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0002",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0002",
-      "name": "Павловић Милан",
+      "name": "Павловић Милан А.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25607,7 +25913,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0003",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0003",
-      "name": "Томић Јеврем",
+      "name": "Томић Јеврем Б.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25743,7 +26049,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0007",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0007",
-      "name": "Станковић Станоје",
+      "name": "Станковић Станоје Х.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25777,7 +26083,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0008",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0008",
-      "name": "Коцић Димитрије",
+      "name": "Коцић Димитрије Ј.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25845,7 +26151,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0010",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0010",
-      "name": "Јовановић Јован",
+      "name": "Јовановић Јован С. Јошка",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25913,7 +26219,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0012",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0012",
-      "name": "Љотић Владимир",
+      "name": "Љотић Владимир М.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -25947,7 +26253,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0013",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0013",
-      "name": "Радојковић Милосав",
+      "name": "Радојковић Милосав Ђ.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -26015,7 +26321,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0015",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0015",
-      "name": "Гогић Сретен",
+      "name": "Гогић Сретен М.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -26049,7 +26355,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0016",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0016",
-      "name": "Илић Сава",
+      "name": "Илић Сава Ј.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -26117,7 +26423,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0018",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0018",
-      "name": "Смиљанић Павле",
+      "name": "Смиљанић Павле П.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -26287,7 +26593,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0023",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0023",
-      "name": "Костић Чеда",
+      "name": "Костић Чеда А.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -26321,7 +26627,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0024",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0024",
-      "name": "Николић Љуба",
+      "name": "Николић Љуба Р.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -26423,7 +26729,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0027",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0027",
-      "name": "Поповић Драгомир",
+      "name": "Поповић Драгомир М.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -26525,7 +26831,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0030",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0030",
-      "name": "Чолић Милисав",
+      "name": "Чолић Милисав Ж.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -27103,7 +27409,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0047",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0047",
-      "name": "Урошевић Ђоко",
+      "name": "Урошевић Ђоко П.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -27545,7 +27851,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0060",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0060",
-      "name": "Катић Сима",
+      "name": "Катић Сима Д.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -27613,7 +27919,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0062",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0062",
-      "name": "Милетић Никодије",
+      "name": "Милетић Никодије С.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -27817,7 +28123,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0068",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0068",
-      "name": "Илић Илија",
+      "name": "Илић Илија Х.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -27919,7 +28225,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0071",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0071",
-      "name": "Петровић Станко",
+      "name": "Петровић Станко М.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -28089,7 +28395,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0076",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0076",
-      "name": "Николић Јован",
+      "name": "Николић Јован И.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -28123,7 +28429,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0077",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0077",
-      "name": "Поповић Мита",
+      "name": "Поповић Мита М.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -28225,7 +28531,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0080",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0080",
-      "name": "Јовановић Јоца",
+      "name": "Јовановић Јоца Ж.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -28361,7 +28667,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0084",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0084",
-      "name": "Поповић Драгутин",
+      "name": "Поповић Драгутин М.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -28429,7 +28735,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0086",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0086",
-      "name": "Станојевић Љуба",
+      "name": "Станојевић Љуба П.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -28497,7 +28803,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0088",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0088",
-      "name": "Душманић Мијајило",
+      "name": "Душманић Мијајило М.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -28871,7 +29177,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0099",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0099",
-      "name": "Анђелић Милутин",
+      "name": "Анђелић Милутин Јов.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29109,7 +29415,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0106",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0106",
-      "name": "Ћосић Милош",
+      "name": "Ћосић Милош Ф.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29143,7 +29449,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0107",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0107",
-      "name": "Чорбић Јаков",
+      "name": "Чорбић Јаков П.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29245,7 +29551,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0110",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0110",
-      "name": "Обрадовић Радоје",
+      "name": "Обрадовић Радоје В.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29415,7 +29721,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0115",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0115",
-      "name": "Павловић Милош",
+      "name": "Павловић Милош Ж.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29483,7 +29789,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0117",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0117",
-      "name": "Станковић Јован",
+      "name": "Станковић Јован – Јоци",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29687,7 +29993,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0123",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0123",
-      "name": "Ракић Станимир",
+      "name": "Ракић Станимир - Мира",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29721,7 +30027,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0124",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0124",
-      "name": "Зотовић Михаило",
+      "name": "Зотовић Михаило С.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29789,7 +30095,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0126",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0126",
-      "name": "Мићић Јован",
+      "name": "Мићић Јован И.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29823,7 +30129,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0127",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0127",
-      "name": "Поповић Страхиња",
+      "name": "Поповић Страхиња Б.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
@@ -29891,7 +30197,7 @@
       "@id": "https://milos-timotijevic.github.io/data/1901/records/UIO-MP-0129",
       "@type": "CreativeWork",
       "identifier": "UIO-MP-0129",
-      "name": "Туцаковић Панта",
+      "name": "Туцаковић Панта В.",
       "inLanguage": "sr",
       "isPartOf": {
         "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html"
