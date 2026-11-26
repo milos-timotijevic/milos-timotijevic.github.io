@@ -63,7 +63,7 @@
       "alternateName": "Отворени подаци дигиталног научног корпуса Милоша Тимотијевића",
       "url": "https://milos-timotijevic.github.io/data/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2026-09-28",
+      "dateModified": "2026-11-26",
       "creator": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
@@ -4091,10 +4091,13 @@
       "mainEntity": {
         "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster"
       },
-      "dateModified": "2026-09-26",
+      "dateModified": "2026-11-26",
       "hasPart": [
         {
           "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/articles/sakralizacija-monarhije-kraljevsko-miropomazanje-politicki-rituali-srbija-1889.html#article"
         }
       ]
     },
@@ -4252,10 +4255,13 @@
       "author": {
         "@id": "https://milos-timotijevic.github.io/#person"
       },
-      "dateModified": "2026-09-26",
+      "dateModified": "2026-11-26",
       "hasPart": [
         {
           "@id": "https://milos-timotijevic.github.io/books/usklici-iskrenog-odusevljenja.html#work"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/articles/sakralizacija-monarhije-kraljevsko-miropomazanje-politicki-rituali-srbija-1889.html#article"
         }
       ]
     },
@@ -9003,6 +9009,146 @@
           "@id": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html#relation-type-theoreticalContext"
         }
       }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://milos-timotijevic.github.io/articles/sakralizacija-monarhije-kraljevsko-miropomazanje-politicki-rituali-srbija-1889.html#article",
+      "name": "Сакрализација монархије: краљевско миропомазање и јавни политички ритуали у Србији 1889. године",
+      "alternateName": "Sacralizing the Monarchy: Royal Anointing and Public Political Rituals in Serbia, 1889",
+      "url": "https://milos-timotijevic.github.io/articles/sakralizacija-monarhije-kraljevsko-miropomazanje-politicki-rituali-srbija-1889.html",
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "datePublished": "2026",
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.21301/eap.v21i3.9",
+          "url": "https://doi.org/10.21301/eap.v21i3.9"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata",
+          "value": "Q142166027",
+          "url": "https://www.wikidata.org/wiki/Q142166027"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OpenAlex",
+          "value": "W7238837395",
+          "url": "https://openalex.org/W7238837395"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "COBISS.SR-ID",
+          "value": "205167369",
+          "url": "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/205167369"
+        }
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q142166027",
+        "https://openalex.org/W7238837395",
+        "https://plus-legacy.cobiss.net/cobiss/sr/sr/bib/205167369",
+        "https://doi.org/10.21301/eap.v21i3.9",
+        "https://milos-timotijevic.github.io/data/publications.jsonld#article-2026-sakralizacija-monarhije-kraljevsko-miropomazanje-politicki-rituali-srbija-1889"
+      ],
+      "pageStart": "955",
+      "pageEnd": "980",
+      "isPartOf": {
+        "@type": "PublicationIssue",
+        "issueNumber": "3",
+        "datePublished": "2026",
+        "isPartOf": {
+          "@type": "PublicationVolume",
+          "volumeNumber": "21",
+          "isPartOf": {
+            "@type": "Periodical",
+            "name": "Етноантрополошки проблеми",
+            "alternateName": "Issues in Ethnology and Anthropology",
+            "issn": [
+              "0353-1589",
+              "2334-8801"
+            ],
+            "url": "https://eap-iea.org/index.php/eap",
+            "sameAs": "https://openalex.org/S2764976161",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "OpenAlex source",
+              "value": "S2764976161",
+              "url": "https://openalex.org/S2764976161"
+            }
+          }
+        }
+      },
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-ritual"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-performance"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-public-ceremony"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-royal-visit"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-ephemeral-spectacle"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-dynastic-representation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-symbolic-legitimation"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-authority"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-political-sacralization"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#concept-site-of-memory"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-sacred-space"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#concept-religious-memory"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#concept-political-myth"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@type": "CreativeWork",
+          "url": "https://zenodo.org/records/24412718"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://eap-iea.org/index.php/eap/article/view/1486"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://www.academia.edu/182035942"
+        }
+      ]
     }
   ]
 }
