@@ -2,7 +2,7 @@
   "schemaVersion": "1.2",
   "name": "Entity Graph Data — Pilot Dataset",
   "alternateName": "Подаци ентитетског графа — пилотски скуп",
-  "version": "1.3",
+  "version": "1.4-rc1",
   "dateModified": "2026-11-26",
   "algorithm": "SHA-256",
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -22,20 +22,20 @@
     {
       "path": "people.csv",
       "recordCount": 570,
-      "bytes": 351241,
-      "sha256": "11e2fbf913753f3913cef12ae0848c16394843dddcdf7cc2883bc6a8e969d891"
+      "bytes": 351929,
+      "sha256": "bb15568cd6e6eb93c12b9107ef1bd6069512b078ded70ccd6f025ec5a42390dd"
     },
     {
       "path": "institutions.csv",
       "recordCount": 121,
-      "bytes": 69726,
-      "sha256": "9066b7271fc4148612df9e9b82b576d0c36ee625f13c159158ad253d81554a80"
+      "bytes": 69854,
+      "sha256": "4fafe8f9a5bde32cf6666db94d43f6e3a6055eb175d50cb3d93415066fd079ec"
     },
     {
       "path": "places.csv",
       "recordCount": 90,
-      "bytes": 41386,
-      "sha256": "8b211baade6bf5f7fadd25ddfd08def0e769c901a857ae75fe0a38a310865d15"
+      "bytes": 41531,
+      "sha256": "d26bd15c2476c41b859ab3c065d575762cf353eea2a9e2ed5bd8cc08e42281f0"
     },
     {
       "path": "sources.csv",
@@ -52,8 +52,8 @@
     {
       "path": "relations.csv",
       "recordCount": 2287,
-      "bytes": 739786,
-      "sha256": "2b0609e745e73ae8232df12d96b316dee33981368f672ea6e67da5d15ade4e77"
+      "bytes": 742338,
+      "sha256": "cbb50f689809c59548206e27a4cb2d23b14e96ddaa93854c85e8dc6979917d9c"
     },
     {
       "path": "relation-types.csv",
@@ -64,8 +64,8 @@
     {
       "path": "entity-graph.jsonld",
       "recordCount": 3277,
-      "bytes": 3637946,
-      "sha256": "e48003856337a854217c42fee53eeb5aa9a144833bc131e0ef5480c5a404d4b6"
+      "bytes": 3638477,
+      "sha256": "81a4dc4b33e0669388ce18ffb1e67f681e8c81205629ea30a30ff96d548faaba"
     }
   ]
 }

@@ -1,4 +1,4 @@
-relation_id,subject_id,relation,object_id,source_id,evidence_page,evidence_note,confidence
+﻿relation_id,subject_id,relation,object_id,source_id,evidence_page,evidence_note,confidence
 R001,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,concernsPerson,P006,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,pp. 33–63 (print),Публикација непосредно обрађује личност као значајног актера анализе.,high
 R002,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,concernsPerson,P007,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,pp. 33–63 (print),Публикација непосредно обрађује личност као значајног актера анализе.,high
 R003,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,concernsPerson,P016,article-2016-the-cult-of-saints-places-of-remembrance-and-political-myths-example-o,pp. 33–63 (print),Публикација непосредно обрађује личност као значајног актера анализе.,high
@@ -95,16 +95,16 @@ R093,book-2025-usklici-iskrenog-odusevljenja,concernsPerson,P018,book-2025-uskli
 R094,book-2025-usklici-iskrenog-odusevljenja,concernsPerson,P019,book-2025-usklici-iskrenog-odusevljenja,PDF 95,Црквени великодостојник укључен у ритуале дочека владарског пара.,high
 R095,book-2025-usklici-iskrenog-odusevljenja,concernsPerson,P020,book-2025-usklici-iskrenog-odusevljenja,PDF 99,Официр и учесник церемонијалног програма владарског путовања.,high
 R096,book-2025-usklici-iskrenog-odusevljenja,concernsPerson,P021,book-2025-usklici-iskrenog-odusevljenja,PDF 61,"Генерал и командант активне војске, наведен међу учесницима путовања.",high
-R097,book-2025-usklici-iskrenog-odusevljenja,concernsPerson,P022,book-2025-usklici-iskrenog-odusevljenja,PDF 118,Изговорио поздрав владарском пару; у монографији дат биографски опис и фотографија.,high
+R097,book-2025-usklici-iskrenog-odusevljenja,concernsPerson,P022,book-2025-usklici-iskrenog-odusevljenja,PDF 118–119,"Никола Радовановић (1818–1904), бивши председник општине и народни посланик; члан Одбора за дочек краљевског пара. Оставка уважена 18. јуна/1. јула 1901.",high
 R098,book-2025-usklici-iskrenog-odusevljenja,concernsPerson,P023,book-2025-usklici-iskrenog-odusevljenja,PDF 121,Одржао поздравни говор приликом посете Чачку; у монографији дат биографски опис.,high
-R099,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I006,book-2025-usklici-iskrenog-odusevljenja,contents,Публикација непосредно обрађује установу или њену историјску улогу.,high
+R099,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I006,book-2025-usklici-iskrenog-odusevljenja,PDF 95,Публикација непосредно обрађује установу или њену историјску улогу.,high
 R100,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I007,book-2025-usklici-iskrenog-odusevljenja,PDF 104,Укључен у програм путовања као крунидбено и архиепископско средиште.,high
-R101,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I008,book-2025-usklici-iskrenog-odusevljenja,PDF 152,Посећен током путовања 1901. и повезан са династичком и породичном меморијом.,high
+R101,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I008,book-2025-usklici-iskrenog-odusevljenja,PDF 169–172,Посећен током путовања 1901. и повезан са династичком и породичном меморијом.,high
 R102,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I010,book-2025-usklici-iskrenog-odusevljenja,PDF 29,Помиње се у опису уставног и политичког оквира путовања 1901. године.,high
 R103,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I011,book-2025-usklici-iskrenog-odusevljenja,PDF 29,Помиње се као део дводомног система уведеног Уставом из 1901. године.,high
 R104,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I012,book-2025-usklici-iskrenog-odusevljenja,PDF 29,Политички и организациони оквир владарског путовања; у тексту се најчешће означава као Влада.,high
 R105,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I013,book-2025-usklici-iskrenog-odusevljenja,PDF 119,Организовала је банкет и учествовала у церемонијалном дочеку владарског пара.,high
-R106,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I014,book-2025-usklici-iskrenog-odusevljenja,PDF 84,Школа и њена зграда били су једна од главних тачака дочека у Краљеву.,high
+R106,book-2025-usklici-iskrenog-odusevljenja,concernsInstitution,I014,book-2025-usklici-iskrenog-odusevljenja,PDF 87,Школа и њена зграда били су једна од главних тачака дочека у Краљеву.,high
 R107,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL001,book-2025-usklici-iskrenog-odusevljenja,contents,Место представља значајан простор анализе у публикацији.,high
 R108,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL002,book-2025-usklici-iskrenog-odusevljenja,contents,Место представља значајан простор анализе у публикацији.,high
 R109,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL004,book-2025-usklici-iskrenog-odusevljenja,contents,Место представља значајан простор анализе у публикацији.,high
@@ -112,32 +112,32 @@ R110,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL005,book-2025-uskli
 R111,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL006,book-2025-usklici-iskrenog-odusevljenja,contents,Место представља значајан простор анализе у публикацији.,high
 R112,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL007,book-2025-usklici-iskrenog-odusevljenja,contents,Место представља значајан простор анализе у публикацији.,high
 R113,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL008,book-2025-usklici-iskrenog-odusevljenja,contents,Место представља значајан простор анализе у публикацији.,high
-R114,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL009,book-2025-usklici-iskrenog-odusevljenja,PDF 130,Важна станица владарског путовања кроз западну Србију.,high
-R115,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL010,book-2025-usklici-iskrenog-odusevljenja,PDF 131,Град обухваћен маршрутом и церемонијалном географијом путовања.,high
-R116,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL012,book-2025-usklici-iskrenog-odusevljenja,PDF 104,"Град се појављује у ширем поређењу владарских резиденција, путовања и репрезентације.",high
-R117,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL013,book-2025-usklici-iskrenog-odusevljenja,PDF 142,Кључно место династичке меморије Обреновића и програмска тачка путовања 1901.,high
+R114,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL009,book-2025-usklici-iskrenog-odusevljenja,PDF 131,Важна станица владарског путовања кроз западну Србију.,high
+R115,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL010,book-2025-usklici-iskrenog-odusevljenja,PDF 131,"Ваљево је наведено као компаративни пример електрификације (1899), а не као станица ове маршруте.",high
+R116,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL012,book-2025-usklici-iskrenog-odusevljenja,PDF 184–185,Ниш је посебно посећен 23. септембра/6. октобра 1901; монографија обрађује припреме и одлазак владарског пара.,high
+R117,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL013,book-2025-usklici-iskrenog-odusevljenja,PDF 153,Кључно место династичке меморије Обреновића и програмска тачка путовања 1901.,high
 R118,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL014,book-2025-usklici-iskrenog-odusevljenja,PDF 125,Планина и шири простор важан за локални идентитет и маршруту владарског пара.,high
-R119,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL016,book-2025-usklici-iskrenog-odusevljenja,PDF 122,"Простор западне Србије повезан са путовањем, сакралном географијом и регионалним идентитетом.",high
+R119,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL016,book-2025-usklici-iskrenog-odusevljenja,PDF 122,Нови пут кроз Овчарско-кабларску клисуру почео је да се пробија 1900; владарски пар је 1901. путовао старом трасом преко Јелице.,high
 R120,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL018,book-2025-usklici-iskrenog-odusevljenja,PDF 104,"Насеље и простор манастира Жича, важне тачке сакралне и династичке географије.",high
 R121,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL019,book-2025-usklici-iskrenog-odusevljenja,PDF 152,Насеље у коме се налази манастир повезан са породичном и династичком меморијом.,high
-R122,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL020,book-2025-usklici-iskrenog-odusevljenja,PDF 127,Транзитна и церемонијална тачка путовања кроз западну Србију.,high
+R122,book-2025-usklici-iskrenog-odusevljenja,concernsPlace,PL020,book-2025-usklici-iskrenog-odusevljenja,PDF 128,Транзитна и церемонијална тачка путовања кроз западну Србију.,high
 R123,book-2025-usklici-iskrenog-odusevljenja,publishedBy,I001,book-2025-usklici-iskrenog-odusevljenja,imprint,Установа је наведена као издавач публикације.,high
 R124,P023,memberOf,I010,book-2025-usklici-iskrenog-odusevljenja,PDF 121,"Драгутин Васић је наведен као народни посланик, односно члан Народне скупштине.",high
 R125,P017,heldOfficeIn,I012,book-2025-usklici-iskrenog-odusevljenja,PDF 29,"Михаило Вујић је у време путовања 1901. био председник владе, односно Министарског савета.",high
 R126,P019,heldOfficeIn,I004,book-2025-usklici-iskrenog-odusevljenja,PDF 95,Сава Дечанац је као жички епископ обављао црквену функцију у оквиру Српске православне цркве.,high
-R127,P022,heldOfficeIn,I013,book-2025-usklici-iskrenog-odusevljenja,PDF 118,Никола Радовановић је наведен као председник општине Чачак.,high
-R128,P015,visited,PL002,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R129,P015,visited,PL005,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R130,P015,visited,PL006,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R131,P015,visited,PL007,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R132,P015,visited,PL008,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R133,P015,visited,PL013,book-2025-usklici-iskrenog-odusevljenja,PDF 142,Краљ Александар Обреновић посетио је Таково као програмску тачку владарског путовања 1901. године.,high
-R134,P016,visited,PL002,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R135,P016,visited,PL005,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R136,P016,visited,PL006,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R137,P016,visited,PL007,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R138,P016,visited,PL008,book-2025-usklici-iskrenog-odusevljenja,pp. 29–308 (print),Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
-R139,P016,visited,PL013,book-2025-usklici-iskrenog-odusevljenja,PDF 142,Краљица Драга Обреновић посетила је Таково као програмску тачку владарског путовања 1901. године.,high
+R127,P022,heldOfficeIn,I013,book-2025-usklici-iskrenog-odusevljenja,PDF 118,"Никола Радовановић обављао је функцију председника општине Чачак; оставка уважена 18. јуна/1. јула 1901, пре септембарске посете.",high
+R128,P015,visited,PL002,book-2025-usklici-iskrenog-odusevljenja,PDF 114,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R129,P015,visited,PL005,book-2025-usklici-iskrenog-odusevljenja,PDF 61,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R130,P015,visited,PL006,book-2025-usklici-iskrenog-odusevljenja,PDF 36–37,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R131,P015,visited,PL007,book-2025-usklici-iskrenog-odusevljenja,PDF 85,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R132,P015,visited,PL008,book-2025-usklici-iskrenog-odusevljenja,PDF 161,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R133,P015,visited,PL013,book-2025-usklici-iskrenog-odusevljenja,PDF 153,Краљ Александар Обреновић посетио је Таково као програмску тачку владарског путовања 1901. године.,high
+R134,P016,visited,PL002,book-2025-usklici-iskrenog-odusevljenja,PDF 114,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R135,P016,visited,PL005,book-2025-usklici-iskrenog-odusevljenja,PDF 61,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R136,P016,visited,PL006,book-2025-usklici-iskrenog-odusevljenja,PDF 36–37,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R137,P016,visited,PL007,book-2025-usklici-iskrenog-odusevljenja,PDF 85,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R138,P016,visited,PL008,book-2025-usklici-iskrenog-odusevljenja,PDF 161,Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.,high
+R139,P016,visited,PL013,book-2025-usklici-iskrenog-odusevljenja,PDF 153,Краљица Драга Обреновић посетила је Таково као програмску тачку владарског путовања 1901. године.,high
 R140,I002,locatedIn,PL002,book-2025-usklici-iskrenog-odusevljenja,PDF 40,Уметничка галерија „Надежда Петровић” је чачанска установа.,high
 R141,I007,locatedIn,PL018,book-2025-usklici-iskrenog-odusevljenja,PDF 104,Манастир Жича налази се у простору насеља Жича.,high
 R142,I008,locatedIn,PL019,book-2025-usklici-iskrenog-odusevljenja,PDF 152,Манастир Враћевшница налази се у Враћевшници.,high
@@ -145,7 +145,7 @@ R143,I010,locatedIn,PL004,book-2025-usklici-iskrenog-odusevljenja,PDF 29,Нар�
 R144,I011,locatedIn,PL004,book-2025-usklici-iskrenog-odusevljenja,PDF 29,Сенат Краљевине Србије у посматраном периоду делује у Београду.,medium
 R145,I012,locatedIn,PL004,book-2025-usklici-iskrenog-odusevljenja,PDF 29,Министарски савет Краљевине Србије у посматраном периоду делује из Београда.,medium
 R146,I013,locatedIn,PL002,book-2025-usklici-iskrenog-odusevljenja,PDF 119,Општина Чачак је локална управа Чачка.,high
-R147,I014,locatedIn,PL007,book-2025-usklici-iskrenog-odusevljenja,PDF 84,Ратарска школа налази се у Краљеву.,high
+R147,I014,locatedIn,PL007,book-2025-usklici-iskrenog-odusevljenja,PDF 87,Ратарска школа налази се у Краљеву.,high
 R148,P002,spouseOf,P003,book-2025-usklici-iskrenog-odusevljenja,PDF 71,Милош Обреновић и Љубица Вукомановић Обреновић били су у браку.,high
 R149,P013,spouseOf,P014,book-2025-usklici-iskrenog-odusevljenja,PDF 291,Милан I Обреновић и Наталија Обреновић били су у браку.,high
 R150,P015,spouseOf,P016,book-2025-usklici-iskrenog-odusevljenja,title and throughout,Александар Обреновић и Драга Обреновић чине владарски брачни пар у средишту монографије.,high

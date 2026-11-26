@@ -32,7 +32,7 @@
       "url": "https://milos-timotijevic.github.io/data/entities/",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "dateModified": "2026-11-26",
-      "version": "1.3",
+      "version": "1.4-rc1",
       "creator": {
         "@type": "Person",
         "name": "Miloš Timotijević",
@@ -10957,9 +10957,9 @@
       "birthYear": "1818",
       "deathYear": "1904",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "sourceEvidencePage": "118",
+      "sourceEvidencePage": "118–119",
       "sourceEvidenceNote": {
-        "@value": "Изговорио поздрав владарском пару; у монографији дат биографски опис и фотографија.",
+        "@value": "Никола Радовановић (1818–1904), бивши председник општине и народни посланик; члан Одбора за дочек краљевског пара. Оставка уважена 18. јуна/1. јула 1901.",
         "@language": "sr"
       },
       "verificationStatus": "source_verified_no_external_id",
@@ -13405,7 +13405,7 @@
         "https://www.wikidata.org/entity/Q1563182"
       ],
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "sourceEvidencePage": "152",
+      "sourceEvidencePage": "169–172",
       "sourceEvidenceNote": {
         "@value": "Посећен током путовања 1901. и повезан са династичком и породичном меморијом.",
         "@language": "sr"
@@ -13715,7 +13715,7 @@
       },
       "url": "https://www.ratarica.edu.rs/",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "sourceEvidencePage": "84",
+      "sourceEvidencePage": "87",
       "sourceEvidenceNote": {
         "@value": "Школа и њена зграда били су једна од главних тачака дочека у Краљеву.",
         "@language": "sr"
@@ -16199,7 +16199,7 @@
         "https://www.geonames.org/3188434"
       ],
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "sourceEvidencePage": "130",
+      "sourceEvidencePage": "131",
       "sourceEvidenceNote": {
         "@value": "Важна станица владарског путовања кроз западну Србију.",
         "@language": "sr"
@@ -16244,7 +16244,7 @@
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
       "sourceEvidencePage": "131",
       "sourceEvidenceNote": {
-        "@value": "Град обухваћен маршрутом и церемонијалном географијом путовања.",
+        "@value": "Ваљево је наведено као компаративни пример електрификације (1899), а не као станица ове маршруте.",
         "@language": "sr"
       },
       "verificationStatus": "verified_authority"
@@ -16328,9 +16328,9 @@
         "https://www.geonames.org/787657"
       ],
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "sourceEvidencePage": "104",
+      "sourceEvidencePage": "184–185",
       "sourceEvidenceNote": {
-        "@value": "Град се појављује у ширем поређењу владарских резиденција, путовања и репрезентације.",
+        "@value": "Ниш је посебно посећен 23. септембра/6. октобра 1901; монографија обрађује припреме и одлазак владарског пара.",
         "@language": "sr"
       },
       "verificationStatus": "verified_authority"
@@ -16371,7 +16371,7 @@
         "https://www.geonames.org/785143"
       ],
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "sourceEvidencePage": "142",
+      "sourceEvidencePage": "153",
       "sourceEvidenceNote": {
         "@value": "Кључно место династичке меморије Обреновића и програмска тачка путовања 1901.",
         "@language": "sr"
@@ -16504,7 +16504,7 @@
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
       "sourceEvidencePage": "122",
       "sourceEvidenceNote": {
-        "@value": "Простор западне Србије повезан са путовањем, сакралном географијом и регионалним идентитетом.",
+        "@value": "Нови пут кроз Овчарско-кабларску клисуру почео је да се пробија 1900; владарски пар је 1901. путовао старом трасом преко Јелице.",
         "@language": "sr"
       },
       "verificationStatus": "verified_authority_no_coordinates",
@@ -16692,7 +16692,7 @@
         "https://www.geonames.org/786824"
       ],
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "sourceEvidencePage": "127",
+      "sourceEvidencePage": "128",
       "sourceEvidenceNote": {
         "@value": "Транзитна и церемонијална тачка путовања кроз западну Србију.",
         "@language": "sr"
@@ -23389,9 +23389,9 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPerson",
       "object": "https://milos-timotijevic.github.io/data/entities/#P022",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 118",
+      "evidencePage": "PDF 118–119",
       "evidenceNote": {
-        "@value": "Изговорио поздрав владарском пару; у монографији дат биографски опис и фотографија.",
+        "@value": "Никола Радовановић (1818–1904), бивши председник општине и народни посланик; члан Одбора за дочек краљевског пара. Оставка уважена 18. јуна/1. јула 1901.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -23425,7 +23425,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
       "object": "https://milos-timotijevic.github.io/data/entities/#I006",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "contents",
+      "evidencePage": "PDF 95",
       "evidenceNote": {
         "@value": "Публикација непосредно обрађује установу или њену историјску улогу.",
         "@language": "sr"
@@ -23461,7 +23461,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
       "object": "https://milos-timotijevic.github.io/data/entities/#I008",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 152",
+      "evidencePage": "PDF 169–172",
       "evidenceNote": {
         "@value": "Посећен током путовања 1901. и повезан са династичком и породичном меморијом.",
         "@language": "sr"
@@ -23551,7 +23551,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsInstitution",
       "object": "https://milos-timotijevic.github.io/data/entities/#I014",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 84",
+      "evidencePage": "PDF 87",
       "evidenceNote": {
         "@value": "Школа и њена зграда били су једна од главних тачака дочека у Краљеву.",
         "@language": "sr"
@@ -23695,7 +23695,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL009",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 130",
+      "evidencePage": "PDF 131",
       "evidenceNote": {
         "@value": "Важна станица владарског путовања кроз западну Србију.",
         "@language": "sr"
@@ -23715,7 +23715,7 @@
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
       "evidencePage": "PDF 131",
       "evidenceNote": {
-        "@value": "Град обухваћен маршрутом и церемонијалном географијом путовања.",
+        "@value": "Ваљево је наведено као компаративни пример електрификације (1899), а не као станица ове маршруте.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -23731,9 +23731,9 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL012",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 104",
+      "evidencePage": "PDF 184–185",
       "evidenceNote": {
-        "@value": "Град се појављује у ширем поређењу владарских резиденција, путовања и репрезентације.",
+        "@value": "Ниш је посебно посећен 23. септембра/6. октобра 1901; монографија обрађује припреме и одлазак владарског пара.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -23749,7 +23749,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL013",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 142",
+      "evidencePage": "PDF 153",
       "evidenceNote": {
         "@value": "Кључно место династичке меморије Обреновића и програмска тачка путовања 1901.",
         "@language": "sr"
@@ -23787,7 +23787,7 @@
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
       "evidencePage": "PDF 122",
       "evidenceNote": {
-        "@value": "Простор западне Србије повезан са путовањем, сакралном географијом и регионалним идентитетом.",
+        "@value": "Нови пут кроз Овчарско-кабларску клисуру почео је да се пробија 1900; владарски пар је 1901. путовао старом трасом преко Јелице.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -23839,7 +23839,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#concernsPlace",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL020",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 127",
+      "evidencePage": "PDF 128",
       "evidenceNote": {
         "@value": "Транзитна и церемонијална тачка путовања кроз западну Србију.",
         "@language": "sr"
@@ -23931,7 +23931,7 @@
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
       "evidencePage": "PDF 118",
       "evidenceNote": {
-        "@value": "Никола Радовановић је наведен као председник општине Чачак.",
+        "@value": "Никола Радовановић обављао је функцију председника општине Чачак; оставка уважена 18. јуна/1. јула 1901, пре септембарске посете.",
         "@language": "sr"
       },
       "confidence": "high"
@@ -23947,7 +23947,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 114",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -23965,7 +23965,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL005",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 61",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -23983,7 +23983,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL006",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 36–37",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -24001,7 +24001,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 85",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -24019,7 +24019,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL008",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 161",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -24037,7 +24037,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL013",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 142",
+      "evidencePage": "PDF 153",
       "evidenceNote": {
         "@value": "Краљ Александар Обреновић посетио је Таково као програмску тачку владарског путовања 1901. године.",
         "@language": "sr"
@@ -24055,7 +24055,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL002",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 114",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -24073,7 +24073,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL005",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 61",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -24091,7 +24091,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL006",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 36–37",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -24109,7 +24109,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 85",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -24127,7 +24127,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL008",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "pp. 29–308 (print)",
+      "evidencePage": "PDF 161",
       "evidenceNote": {
         "@value": "Документована станица путовања краља Александра и краљице Драге по Србији 1901. године.",
         "@language": "sr"
@@ -24145,7 +24145,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#visited",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL013",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 142",
+      "evidencePage": "PDF 153",
       "evidenceNote": {
         "@value": "Краљица Драга Обреновић посетила је Таково као програмску тачку владарског путовања 1901. године.",
         "@language": "sr"
@@ -24289,7 +24289,7 @@
       "predicate": "https://milos-timotijevic.github.io/data/entities/vocab#locatedIn",
       "object": "https://milos-timotijevic.github.io/data/entities/#PL007",
       "sourcePublication": "https://milos-timotijevic.github.io/data/publications.jsonld#book-2025-usklici-iskrenog-odusevljenja",
-      "evidencePage": "PDF 84",
+      "evidencePage": "PDF 87",
       "evidenceNote": {
         "@value": "Ратарска школа налази се у Краљеву.",
         "@language": "sr"

@@ -27,22 +27,22 @@ UIO-L0025,appointed_senator,Стаменковић Драгутин,Стамен
 UIO-L0026,appointed_senator,Стефановић Никола,Стефановић Никола,245,249,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
 UIO-L0027,appointed_senator,Франасовић Драгутин,"Франасовић Драгутин, генерал",245,249,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
 UIO-L0028,appointed_senator,Цинцар-Марковић Димитрије,"Цинцар-Марковић Димитрије, генерал",245,249,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0029,appointed_senator,Чумић Аћим 245,Чумић Аћим 245,245,249,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0030,elected_senator,,"Београд Мијаиловић Тодор, трговац из Београда",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0031,elected_senator,,Поповић Светозар,246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0029,appointed_senator,Чумић Аћим,Чумић Аћим,245,249,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0030,elected_senator,Мијаиловић Тодор,"Сенатор за варош Београд Мијаиловић Тодор, трговац из Београда",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0031,elected_senator,Поповић Светозар,Сенатор за округ ваљевски Поповић Светозар,246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
 UIO-L0032,elected_senator,Жујовић Јован,"Сенатор за округ врањски Жујовић Јован, професор, ванстраначка личност",246,250,parsed_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0033,elected_senator,,Вуковић Паја,246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0034,elected_senator,,"Дреновац Арса, трговац",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0035,elected_senator,,"Тодоровић Веља, адвокат",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0036,elected_senator,,"Љотић Влада, економ",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0033,elected_senator,Вуковић Паја,Сенатор за округ крагујевачки Вуковић Паја,246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0034,elected_senator,Дреновац Арса,"Сенатор за округ крушевачки Дреновац Арса, трговац",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0035,elected_senator,Тодоровић Веља,"Сенатор за округ руднички Тодоровић Веља, адвокат",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0036,elected_senator,Љотић Влада,"Сенатор за округ смедеревски Љотић Влада, економ",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
 UIO-L0037,elected_senator,Шаранац Јован,"Сенатор за округ топлички Шаранац Јован, трговац",246,250,parsed_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0038,elected_senator,,"Поповић Стева Р., члан Државног савета у пензији",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0039,elected_senator,,"Марковић Милутин, судија Касац. Суда",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0040,elected_senator,,"Пачу Лаза, управник Београдске Задруге",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0041,elected_senator,,"Миловановић Милија, трговац из Бачине",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0042,elected_senator,,"Новаковић Ђорђе С., судија Касационог Суда из Београда",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0043,elected_senator,,"Сретеновић Љуба, трговац",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0038,elected_senator,Поповић Стева Р.,"Сенатор за округ чачански Поповић Стева Р., члан Државног савета у пензији",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0039,elected_senator,Марковић Милутин,"Сенатор за округ београдски Марковић Милутин, судија Касац. Суда",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0040,elected_senator,Пачу Лаза,"Сенатор за округ крајински Пачу Лаза, управник Београдске Задруге",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0041,elected_senator,Миловановић Милија,"Сенатор за округ моравски Миловановић Милија, трговац из Бачине",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0042,elected_senator,Новаковић Ђорђе С.,"Сенатор за округ нишки Новаковић Ђорђе С., судија Касационог Суда из Београда",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0043,elected_senator,Сретеновић Љуба,"Сенатор за округ пиротски Сретеновић Љуба, трговац",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
 UIO-L0044,elected_senator,Јовановић Јоца Ж.,"Сенатор за округ подрински Јовановић Јоца Ж., трговац из Београда",246,250,parsed_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0045,elected_senator,,"Вукчевић Станојло, лекар из Пожаревца",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0046,elected_senator,,"Илић Лаза, лекар из Зајечара",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
-UIO-L0047,elected_senator,,"Ружић Доброслав М., професор из Београда",246,250,manual_review,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0045,elected_senator,Вукчевић Станојло,"Сенатор за округ пожаревачки Вукчевић Станојло, лекар из Пожаревца",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0046,elected_senator,Илић Лаза,"Сенатор за округ тимочки Илић Лаза, лекар из Зајечара",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
+UIO-L0047,elected_senator,Ружић Доброслав М.,"Сенатор за округ ужички Ружић Доброслав М., професор из Београда",246,250,source_name_explicit,book-2025-usklici-iskrenog-odusevljenja,1901,source_attested_identity_not_externally_verified
