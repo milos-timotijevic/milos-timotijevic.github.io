@@ -14,6 +14,9 @@ The site documents modern Serbian and Yugoslav history, local modernity, politic
 
 ## Machine-readable data
 
+- [Published academic dataset — Harvard Dataverse](https://doi.org/10.7910/DVN/LYPAQH): Fixed, selective data release 1.0, published 2026-11-27; 108 bibliographic records, 1,454 relation statements, seven clusters and 143 publication-to-cluster links. Not identical to the evolving website graph. Complete ZIP, documentation, code and validation reports are available in the repository. Original data CC BY 4.0, original code MIT.
+- [Wikidata dataset identity](https://www.wikidata.org/wiki/Q142312195): Identity of the archived dataset, distinct from the umbrella research concept and the author.
+
 - [Open data](https://milos-timotijevic.github.io/data/): Human-readable description and download page for the open bibliographic data.
 - [Data dictionary](https://milos-timotijevic.github.io/data/data-dictionary.html): Field definitions, status values, identifier rules, licensing and citation guidance.
 - [Bibliography JSON-LD](https://milos-timotijevic.github.io/data/publications.jsonld): Schema.org Dataset graph with one stable node for each verified publication record.
