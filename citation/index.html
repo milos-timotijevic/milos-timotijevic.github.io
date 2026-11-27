@@ -31,19 +31,88 @@
     .skip-link:focus { left: 1rem; top: 1rem; }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "@id": "https://milos-timotijevic.github.io/citation/#page",
-    "url": "https://milos-timotijevic.github.io/citation/",
-    "name": "Како цитирати сајт и податке",
-    "alternateName": "How to Cite the Website and Data",
-    "inLanguage": ["sr", "en"],
-    "isPartOf": {"@id": "https://milos-timotijevic.github.io/#website"},
-    "about": {"@id": "https://milos-timotijevic.github.io/data/#dataset"},
-    "author": {"@id": "https://milos-timotijevic.github.io/#person"}
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://milos-timotijevic.github.io/citation/#page",
+      "url": "https://milos-timotijevic.github.io/citation/",
+      "name": "Како цитирати сајт и податке",
+      "alternateName": "How to Cite the Website and Data",
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/#website"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/data/#dataset"
+      },
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "mentions": {
+        "@id": "https://doi.org/10.7910/DVN/LYPAQH"
+      },
+      "dateModified": "2026-11-27"
+    },
+    {
+      "@id": "https://doi.org/10.7910/DVN/LYPAQH",
+      "@type": "Dataset",
+      "name": "Local Modernity and Symbolic Power in Southeast Europe: A Historiography-Based Knowledge Graph",
+      "alternateName": "Локална модерност и симболичка моћ у Југоисточној Европи: граф знања заснован на историографији",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.7910/DVN/LYPAQH"
+      },
+      "sameAs": "https://www.wikidata.org/entity/Q142312195",
+      "url": "https://doi.org/10.7910/DVN/LYPAQH",
+      "datePublished": "2026-11-27",
+      "version": "1.0",
+      "creator": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Harvard Dataverse",
+        "url": "https://dataverse.harvard.edu/"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "description": "Fixed, selective research-data release; distinct from the evolving website graph. Original code is MIT licensed; third-party material retains its source terms.",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Пређи на главни садржај / Skip to main content</a>
@@ -87,7 +156,17 @@
 }</code></pre>
     <p>За цитирање појединачне публикације треба користити библиографске податке, DOI, ISBN, COBISS или други идентификатор наведен уз ту публикацију.</p>
     <p lang="en">To cite an individual publication, use the bibliographic metadata and the DOI, ISBN, COBISS or other identifier given with that publication.</p>
-  </main>
+  
+<section id="harvard-dataverse-release" aria-labelledby="harvard-dataverse-heading">
+<h2 id="harvard-dataverse-heading">Академско издање графа знања / Published Dataset</h2>
+<p lang="sr-Cyrl">Објављено издање података 1.0 (27. новембар 2026) представља селективан, фиксиран корпус, а не целокупан живи граф на сајту. За употребу архивираног корпуса цитирати DOI, а за употребу живог графа задржати цитат сајта. При цитирању навести коришћену верзију депозита.</p>
+<p lang="en-GB">The published data release 1.0 (27 November 2026) is a fixed, selective corpus, distinct from the evolving website graph. Cite the DOI for the archived corpus and retain the website citation for the live graph. Specify the repository version used.</p>
+<p lang="en-GB">Timotijević, Miloš, 2026, “Local Modernity and Symbolic Power in Southeast Europe: A Historiography-Based Knowledge Graph”, Harvard Dataverse, DOI: 10.7910/DVN/LYPAQH (data release 1.0).</p>
+<p><a href="https://doi.org/10.7910/DVN/LYPAQH">Harvard Dataverse — DOI: 10.7910/DVN/LYPAQH</a> · <a href="https://www.wikidata.org/wiki/Q142312195">Wikidata: Q142312195</a></p>
+<p lang="sr-Cyrl">CC BY 4.0 за оригиналне податке; MIT за оригинални програмски код; садржај трећих страна задржава изворне услове.</p>
+<p lang="en-GB">CC BY 4.0 for original data; MIT for original code; third-party content retains its source terms.</p>
+</section>
+</main>
   <footer><p>Последње ажурирање / Last updated: 15. јул 2026 / 15 July 2026.</p></footer>
 </body>
 </html>
