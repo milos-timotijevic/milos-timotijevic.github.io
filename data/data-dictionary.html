@@ -201,47 +201,106 @@
   </style>
 
   <script type="application/ld+json">
-  {
-    "@context": {
-      "@vocab": "https://schema.org/",
-      "schema": "https://schema.org/"
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://milos-timotijevic.github.io/data/data-dictionary.html#page",
+      "@type": "WebPage",
+      "name": "Речник података / Data Dictionary",
+      "alternateName": "Data Dictionary of the Digital Scholarly Corpus of Miloš Timotijević",
+      "url": "https://milos-timotijevic.github.io/data/data-dictionary.html",
+      "inLanguage": [
+        "sr",
+        "en"
+      ],
+      "dateModified": "2026-11-27",
+      "description": "Речник података дигиталног научног корпуса Милоша Тимотијевића: публикације, личности, установе, места, историјски извори, односи, JSON-LD, DOI правила и интегритет података.",
+      "isPartOf": {
+        "@id": "https://milos-timotijevic.github.io/#website"
+      },
+      "author": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "about": {
+        "@id": "https://milos-timotijevic.github.io/data/#dataset"
+      },
+      "keywords": [
+        "data dictionary",
+        "open data",
+        "digital humanities",
+        "scholarly metadata",
+        "DOI",
+        "Wikidata",
+        "CSV",
+        "JSON",
+        "JSON-LD",
+        "knowledge graph",
+        "SHA-256",
+        "Miloš Timotijević"
+      ],
+      "mentions": {
+        "@id": "https://doi.org/10.7910/DVN/LYPAQH"
+      }
     },
-    "@id": "https://milos-timotijevic.github.io/data/data-dictionary.html#page",
-    "@type": "WebPage",
-    "name": "Речник података / Data Dictionary",
-    "alternateName": "Data Dictionary of the Digital Scholarly Corpus of Miloš Timotijević",
-    "url": "https://milos-timotijevic.github.io/data/data-dictionary.html",
-    "inLanguage": [
-      "sr",
-      "en"
-    ],
-    "dateModified": "2026-09-20",
-    "description": "Речник података дигиталног научног корпуса Милоша Тимотијевића: публикације, личности, установе, места, историјски извори, односи, JSON-LD, DOI правила и интегритет података.",
-    "isPartOf": {
-      "@id": "https://milos-timotijevic.github.io/#website"
-    },
-    "author": {
-      "@id": "https://milos-timotijevic.github.io/#person"
-    },
-    "about": {
-      "@id": "https://milos-timotijevic.github.io/data/#dataset"
-    },
-    "keywords": [
-      "data dictionary",
-      "open data",
-      "digital humanities",
-      "scholarly metadata",
-      "DOI",
-      "Wikidata",
-      "CSV",
-      "JSON",
-      "JSON-LD",
-      "knowledge graph",
-      "SHA-256",
-      "Miloš Timotijević"
-    ]
-  }
-  </script>
+    {
+      "@id": "https://doi.org/10.7910/DVN/LYPAQH",
+      "@type": "Dataset",
+      "name": "Local Modernity and Symbolic Power in Southeast Europe: A Historiography-Based Knowledge Graph",
+      "alternateName": "Локална модерност и симболичка моћ у Југоисточној Европи: граф знања заснован на историографији",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.7910/DVN/LYPAQH"
+      },
+      "sameAs": "https://www.wikidata.org/entity/Q142312195",
+      "url": "https://doi.org/10.7910/DVN/LYPAQH",
+      "datePublished": "2026-11-27",
+      "version": "1.0",
+      "creator": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Harvard Dataverse",
+        "url": "https://dataverse.harvard.edu/"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "description": "Fixed, selective research-data release; distinct from the evolving website graph. Original code is MIT licensed; third-party material retains its source terms.",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 
 <body id="top">
@@ -1808,6 +1867,15 @@
       </p>
     </nav>
 
-  </main>
+  
+<section id="harvard-dataverse-release" aria-labelledby="harvard-dataverse-heading">
+<h2 id="harvard-dataverse-heading">Академско издање графа знања / Published Dataset</h2>
+<p lang="sr-Cyrl">Објављено издање података 1.0 (27. новембар 2026) представља селективан, фиксиран корпус, а не целокупан живи граф на сајту. Овај речник описује живи скуп података на сајту; за архивирано издање користити речник приложен у депозиту.</p>
+<p lang="en-GB">The published data release 1.0 (27 November 2026) is a fixed, selective corpus, distinct from the evolving website graph. This dictionary describes the live website data; use the dictionary included in the deposit for the archived release.</p>
+<p><a href="https://doi.org/10.7910/DVN/LYPAQH">Harvard Dataverse — DOI: 10.7910/DVN/LYPAQH</a> · <a href="https://www.wikidata.org/wiki/Q142312195">Wikidata: Q142312195</a></p>
+<p lang="sr-Cyrl">CC BY 4.0 за оригиналне податке; MIT за оригинални програмски код; садржај трећих страна задржава изворне услове.</p>
+<p lang="en-GB">CC BY 4.0 for original data; MIT for original code; third-party content retains its source terms.</p>
+</section>
+</main>
 </body>
 </html>
