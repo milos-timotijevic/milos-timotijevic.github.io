@@ -54,6 +54,11 @@
       "inLanguage": [
         "sr-Cyrl",
         "en-GB"
+      ],
+      "mentions": [
+        {
+          "@id": "https://doi.org/10.7910/DVN/LYPAQH"
+        }
       ]
     },
     {
@@ -138,6 +143,11 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://doi.org/10.7910/DVN/LYPAQH"
         }
       ]
     },
@@ -301,6 +311,9 @@
       "subjectOf": [
         {
           "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#relation-policy"
+        },
+        {
+          "@id": "https://doi.org/10.7910/DVN/LYPAQH"
         }
       ],
       "hasPart": [
@@ -1080,6 +1093,11 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html#work"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://doi.org/10.7910/DVN/LYPAQH"
         }
       ]
     },
@@ -2077,6 +2095,11 @@
         {
           "@id": "https://milos-timotijevic.github.io/books/nadezda-petrovic-life-art-service-nation.html#work"
         }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://doi.org/10.7910/DVN/LYPAQH"
+        }
       ]
     },
     {
@@ -2850,6 +2873,11 @@
       "hasPart": [
         {
           "@id": "https://milos-timotijevic.github.io/books/dragisa-vasic-serbian-national-idea.html#work"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://doi.org/10.7910/DVN/LYPAQH"
         }
       ]
     },
@@ -4263,6 +4291,11 @@
         {
           "@id": "https://milos-timotijevic.github.io/articles/sakralizacija-monarhije-kraljevsko-miropomazanje-politicki-rituali-srbija-1889.html#article"
         }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://doi.org/10.7910/DVN/LYPAQH"
+        }
       ]
     },
     {
@@ -5334,6 +5367,11 @@
         },
         {
           "@id": "https://milos-timotijevic.github.io/books/manastiri-ovcarsko-kablarske-klisure.html#work"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://doi.org/10.7910/DVN/LYPAQH"
         }
       ]
     },
@@ -6518,6 +6556,11 @@
       "hasPart": [
         {
           "@id": "https://milos-timotijevic.github.io/books/misija-halyard.html#work"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://doi.org/10.7910/DVN/LYPAQH"
         }
       ]
     },
@@ -9147,6 +9190,58 @@
         {
           "@type": "WebPage",
           "url": "https://www.academia.edu/182035942"
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.7910/DVN/LYPAQH",
+      "@type": "Dataset",
+      "name": "Local Modernity and Symbolic Power in Southeast Europe: A Historiography-Based Knowledge Graph",
+      "alternateName": "Локална модерност и симболичка моћ у Југоисточној Европи: граф знања заснован на историографији",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.7910/DVN/LYPAQH"
+      },
+      "sameAs": "https://www.wikidata.org/entity/Q142312195",
+      "url": "https://doi.org/10.7910/DVN/LYPAQH",
+      "datePublished": "2026-11-27",
+      "version": "1.0",
+      "creator": {
+        "@id": "https://milos-timotijevic.github.io/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Harvard Dataverse",
+        "url": "https://dataverse.harvard.edu/"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "description": "Fixed, selective research-data release; distinct from the evolving website graph. Original code is MIT licensed; third-party material retains its source terms.",
+      "about": [
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/local-modernity-symbolic-power.html#framework"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cacak-local-modernity-case-study.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/cultural-heritage-museums-public-history.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/culture-nationalism-symbolic-representation.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/national-ideology-intellectual-debates.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/political-rituals-symbolic-politics.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/religious-life-social-practices.html#research-cluster"
+        },
+        {
+          "@id": "https://milos-timotijevic.github.io/knowledge-graph/research/war-propaganda-memory.html#research-cluster"
         }
       ]
     }
